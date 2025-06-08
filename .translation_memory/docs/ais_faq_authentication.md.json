@@ -1,0 +1,712 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_faq_authentication.md",
+  "source_file_content_hash": "fb8d47a91cfd521299e36f560e8887d60401b0d6d103fbd0b2501b8c90add9a1",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Jak działa logowanie do aplikacji.\"\nsidebar_label: Jak działa logowanie do aplikacji\n---",
+      "source_content_hash": "386683d25f069c949812b9abe31c93adfab82004ab398b63bef026e7a98d140f",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Na czym polega logowanie do Asystenta domowego?",
+      "source_content_hash": "9bbcb3e4b6fc3691f57804117bf7d9f52d77c88ecd6bc778d6fa338634157165",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 如何登录智能家居助手？"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "W celu zapewnienia maksymalnego bezpieczeństwa (gdy bramka dostępna jest z Internetu), a jednocześnie umożliwienia łatwej autentykacji (gdy bramka działa tylko lokalnie) udostępniamy kilka mechanizmów autentykacji.",
+      "source_content_hash": "19858f3267e34d96358f39fcea06b4ab125a25e9b76a8a09c52c8becf1ca2000",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "为在网关接入互联网时提供最高安全性，同时兼顾纯局域网环境下的便捷认证，我们提供了多种认证机制。"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "Dodatkowo, w celu ułatwienia korzystania z aplikacji, umożliwiamy zapamiętanie danych logowania w przeglądarce/kliencie.",
+      "source_content_hash": "188e5f967f4eb5d8a52808ec943286cd8bf0bbc5dc1ef3b967baefb88ed1aac4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "此外，为简化应用使用流程，我们支持在浏览器/客户端中保存登录凭据。"
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "Użytkownikom, którym zależy na najwyższym poziomie bezpieczeństwa, udostępniamy moduł uwierzytelniania wieloskładnikowego (Multi-factor authentication).",
+      "source_content_hash": "aa7ef56e1d2b174a87b051412d7b36ec632358608bea9564c2afb93c369520f8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "对安全性有极高要求的用户，我们提供多因素认证（Multi-factor authentication）模块。"
+      }
+    },
+    {
+      "segment_id": "ad8fd492",
+      "source_content": "W dokumentacji nakreślono, jak działa [zabezpieczenie dostępu do aplikacji](/docs/ais_bramka_remote_www_index), poniżej postaramy się wytłumaczyć to na przykładach.",
+      "source_content_hash": "5bca7137194e68e7dfee761c2aafe8cead75995d896c75da0626dee32081722d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "文档中已概述[应用访问安全机制](/docs/ais_bramka_remote_www_index)，下文将通过实例进行说明。"
+      }
+    },
+    {
+      "segment_id": "3daf1b88",
+      "source_content": "### Logowanie, gdy bramka działa w sieci lokalnej",
+      "source_content_hash": "2cefe681e9fe8b82aecf9a915b88562a3a2b0ecf51b7143e4d8405b5e9c5aa72",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 网关在局域网环境下的登录"
+      }
+    },
+    {
+      "segment_id": "f6168993",
+      "source_content": "Gdy bramka działa tylko w sieci lokalnej, to standardowo umożliwiamy do wyboru trzy sposoby autentykacji:",
+      "source_content_hash": "67ba5e3bf21cf6b492eaf565f809d7f00a2035d83c57ae7719711e451bd7c016",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "当网关仅运行于局域网时，默认提供三种认证方式可选："
+      }
+    },
+    {
+      "segment_id": "3b695c37",
+      "source_content": "- łatwe logowanie w zaufanej sieci (wystarczy wybrać użytkownika z listy, żeby się zalogować bez podawania hasła)\n- logowanie za pomocą nazwy użytkownika i hasła\n- logowanie za pomocą hasła API\nkonfiguracja tych trzech sposobów autentykacji wygląda tak:",
+      "source_content_hash": "e4ad1644904e409860e136ef446fc063cba093e143c4fbd011e3c1a2b37023cf",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 可信网络简易登录（从用户列表选择即可登录，无需输入密码）\n- 用户名密码登录\n- API密码登录\n这三种认证方式的配置界面如下："
+      }
+    },
+    {
+      "segment_id": "ccc88b4c",
+      "source_content": "konfiguracja tych trzech sposobów autentykacji wygląda tak:",
+      "source_content_hash": "80edc42f78417929d2084325d779b96120dd6076839632d2027267d82a995082",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "这三种认证方式的配置界面如下："
+      }
+    },
+    {
+      "segment_id": "15a1fd96",
+      "source_content": "```yaml\nhomeassistant:\n  auth_providers:\n    - type: trusted_networks\n    - type: homeassistant\n    - type: legacy_api_password\n```",
+      "source_content_hash": "40b5d8198a3e5b5bf8fbc15731aa4e9559853925f9515ebfd6c94280d411f39e",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_15a1fd96"
+      }
+    },
+    {
+      "segment_id": "109ace10",
+      "source_content": "#### Mechanizm logowania **\"Zaufane sieci\"**",
+      "source_content_hash": "e898d76081e59dfc03b042c0be041a7b5c64e568eb2df1501bd7138f257a425c",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "#### **\"可信网络\"**登录机制"
+      }
+    },
+    {
+      "segment_id": "135468ee",
+      "source_content": "W aplikacji ta konfiguracja przy wybranym pierwszym sposobie autentykacji **trusted_networks** (Zaufane sieci) wygląda tak, jak przedstawiono poniżej:",
+      "source_content_hash": "2873802c6a3e5f33287c8e1b6659735fbc8030a0735b12072038c42353d9fbfd",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在应用中启用第一种**trusted_networks**（可信网络）认证方式时，界面显示如下："
+      }
+    },
+    {
+      "segment_id": "33331f27",
+      "source_content": "![Logowanie w sieci lokalnej](/img/en/faq/auth_trusted_networks.png)",
+      "source_content_hash": "9807f673e67531616309b578c753000308d40019d037b3215c6c371393b273ed",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![局域网登录](/img/en/faq/auth_trusted_networks.png)"
+      }
+    },
+    {
+      "segment_id": "8d04259b",
+      "source_content": "#### Mechanizm logowania **\"Login i hasło\"**",
+      "source_content_hash": "e3c464d6d3dc9b9847d2112f3ae8eecdbddeced59d709b9a2038c0804626b606",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "#### **\"用户名密码\"**登录机制"
+      }
+    },
+    {
+      "segment_id": "95e9ba12",
+      "source_content": "Przy wybranym drugim sposobie autentykacji **homeassistant** (Logowanie za pomocą nazwy użytkownika i hasła) wygląda tak, jak przedstawiono poniżej:",
+      "source_content_hash": "505e84c070cfa6a07d6d37d59390e0ee7f2d8f9dd11fe8e27980baf6677eaf94",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "启用第二种**homeassistant**（用户名密码登录）认证方式时，界面显示如下："
+      }
+    },
+    {
+      "segment_id": "8af76f3d",
+      "source_content": "![Logowanie w sieci lokalnej](/img/en/faq/auth_homeassistant.png)",
+      "source_content_hash": "8d4f91ca93c442d70e694b3a3d0067f6f5be13ac8be11ab4572b22e90ba32d26",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![局域网登录](/img/en/faq/auth_homeassistant.png)"
+      }
+    },
+    {
+      "segment_id": "c674e260",
+      "source_content": "#### Mechanizm logowania **\"Hasło do API\"**",
+      "source_content_hash": "6e5f853580794797a0927dd1698590ec95835af5e358315452f61cfb9571d88c",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "#### **\"API密码\"**登录机制"
+      }
+    },
+    {
+      "segment_id": "a44047a5",
+      "source_content": "Przy wybranym trzecim sposobie autentykacji **legacy_api_password** (Hasło do API) wygląda tak, jak przedstawiono poniżej:",
+      "source_content_hash": "2c3f458e9d7aa6ee62933710ff654471951586001b47f67999fe62a0701ad122",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "启用第三种**legacy_api_password**（API密码）认证方式时，界面显示如下："
+      }
+    },
+    {
+      "segment_id": "f7ef78f9",
+      "source_content": "![Logowanie w sieci lokalnej](/img/en/faq/auth_legacy_api_password.png)",
+      "source_content_hash": "0c0e7cef92948be011bf42ffc7affdf1d94233267bbc04893839643256267657",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![局域网登录](/img/en/faq/auth_legacy_api_password.png)"
+      }
+    },
+    {
+      "segment_id": "af52d59d",
+      "source_content": "### Logowanie, gdy bramka ma włączony dostęp z Internetu",
+      "source_content_hash": "0ef6b6fac7a97392bf6399a667cd8c57885808c0771204e1b38e0d2dd5262d70",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 网关开启互联网访问时的登录"
+      }
+    },
+    {
+      "segment_id": "4d52a261",
+      "source_content": "W przypadku, gdy włączony jest dostęp z Internetu, to **dla bezpieczeństwa automatycznie wyłączamy możliwość prostego logowania**.",
+      "source_content_hash": "772a33d1ebf788789e8c66d78e4070d3183c55742b3feb1a80a44d8089948062",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "当启用互联网访问功能时，**出于安全考虑将自动禁用简易登录方式**。"
+      }
+    },
+    {
+      "segment_id": "23dfb152",
+      "source_content": "![Włączenie dostępu z Internetu](/img/en/faq/access_form_internet.png)",
+      "source_content_hash": "6f3d584b51520b7a94376e4ba7e8627ba6dc568f3b5df32631d5f9342d7f15cf",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![启用互联网访问](/img/en/faq/access_form_internet.png)"
+      }
+    },
+    {
+      "segment_id": "1131ef75",
+      "source_content": "Automatycznie konfiguracja jest taka, jak opisano w dokumentacji [wyłączenie łatwego logowania](/docs/ais_bramka_remote_www_index)",
+      "source_content_hash": "ee7b7f9ae16f3fa6503b407a3187a1621b5b9af25872fe92fedc9cc316ba6a0f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "系统会自动应用文档中描述的[禁用简易登录](/docs/ais_bramka_remote_www_index)配置方案"
+      }
+    },
+    {
+      "segment_id": "750e2f7e",
+      "source_content": "```yaml\nhomeassistant:\n  auth_providers:\n    - type: homeassistant\n```",
+      "source_content_hash": "28f97cc5867ad35adc66e502f17bf7549e2d2b62183a6dfba3152b9401e48798",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_750e2f7e"
+      }
+    },
+    {
+      "segment_id": "06e24cc0",
+      "source_content": "Taka konfiguracja jak powyżej oznacza, że możemy logować się tylko za pomocą loginu i hasła. Nie ma już możliwości wyboru prostego sposobu autentykacji.",
+      "source_content_hash": "b3b710211c839afebd75ef1f4451ce20977e2b225f83eb8c7d57a62155bfb119",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "上述配置意味着我们只能通过用户名和密码登录，无法再选择简易认证方式。"
+      }
+    },
+    {
+      "segment_id": "7f71ff2a",
+      "source_content": "![Włączenie dostępu z Internetu](/img/en/faq/auth_access_form_internet_on.png)",
+      "source_content_hash": "91f2ef0a6e11dcec86e017e107556252a1016ba9c82ecca4ba1c0f6a9c390d0e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![启用互联网访问](/img/en/faq/auth_access_form_internet_on.png)"
+      }
+    },
+    {
+      "segment_id": "d422fb13",
+      "source_content": "## Jak to się dzieje, że po pierwszym logowaniu nie muszę się już logować ponownie?",
+      "source_content_hash": "2ba6198bc5c8af04b18f4ac193cd69b990081c3b5edf7dc6e4311c7b9ca7303f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 为什么首次登录后无需重复登录？"
+      }
+    },
+    {
+      "segment_id": "f01228d3",
+      "source_content": "Przy pierwszym logowaniu pytamy, czy zapamiętać dane logowania.",
+      "source_content_hash": "db11744e401f9c5c27c9d81139ce36b3f192c5453598e935998f98dd1821a887",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "首次登录时会询问是否记住登录凭证。"
+      }
+    },
+    {
+      "segment_id": "afa378f7",
+      "source_content": "![Zapamiętanie danych logowania](/img/en/faq/remember_auth.png)",
+      "source_content_hash": "8973aacf343e27ce6141d49b15f4c7d73763687aaf353dae582a096b21b14dc3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![记住登录凭证](/img/en/faq/remember_auth.png)"
+      }
+    },
+    {
+      "segment_id": "e8e162a9",
+      "source_content": "Zapamiętanie danych logowania polega na zapisaniu ich w przeglądarce/kliencie, z którego się logujemy.\nDopóki dane są zapamiętane i dopóki używamy tej samej przeglądarki, nie będziemy pytali o dane logowania.",
+      "source_content_hash": "bcd76d7c0364a9b197362dfa5b99e7e3d8c4a876eec02459775c010d3424314d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "记住登录凭证意味着将信息保存在当前使用的浏览器/客户端中。只要凭证未被清除且使用同一浏览器，系统将不再要求重新输入登录信息。"
+      }
+    },
+    {
+      "segment_id": "8a9b6c26",
+      "source_content": "## Jak zapomnieć dane logowania na kliencie?",
+      "source_content_hash": "e45bf77c24189ecd4bb0093495411f76b6e80d7ae32cc91605bb6f9122bbc0e2",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 如何在客户端清除已保存的登录凭证？"
+      }
+    },
+    {
+      "segment_id": "a1fa5396",
+      "source_content": "Wystarczy się wylogować, w tym celu przechodzimy do profilu użytkownika i naciskamy przycisk **Wyloguj**",
+      "source_content_hash": "49063a51e3e9e512d90f2f924ed52f9e20424f2b0671a12784113efadb01305f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "只需执行注销操作：进入用户配置文件页面，点击**注销**按钮"
+      }
+    },
+    {
+      "segment_id": "ec619944",
+      "source_content": "![Wylogownie](/img/en/faq/logaut.png)",
+      "source_content_hash": "39edb671d04f4e1946d9d0cbe31fcb2f50cd1211589a4fd66a3cb1445c8a5655",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![注销](/img/en/faq/logaut.png)"
+      }
+    },
+    {
+      "segment_id": "3a8d2b95",
+      "source_content": "## Jak dodać innych użytkowników?",
+      "source_content_hash": "e92373c96a7f2aaa645b33d362b120fa75d2951a76688d00cfa27ea94a9de643",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 如何添加其他用户？"
+      }
+    },
+    {
+      "segment_id": "5803caac",
+      "source_content": "Przechodzimy do **Konfiguracja**, następnie wybieramy **Użytkownicy**.",
+      "source_content_hash": "6f6b225f087de5e04904a181f99d150cb7b20359177b80981ee6afd1c901b7d0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "进入**配置**菜单，选择**用户**选项。"
+      }
+    },
+    {
+      "segment_id": "51867d16",
+      "source_content": "![Dodanie użytkownika](/img/en/faq/add_user.png)",
+      "source_content_hash": "788b7869cc94f0e9e4360048a8bd3598c4913ccd59779ebe399f9c80ed1a77c0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![添加用户](/img/en/faq/add_user.png)"
+      }
+    },
+    {
+      "segment_id": "785750ac",
+      "source_content": "W celu dodania nowego użytkownika naciskamy przycisk plusika po prawej stronie na dole, wypełniamy formularz z danymi użytkownika i naciskamy przycisk **UTWÓRZ**.",
+      "source_content_hash": "6abfd1757d2468210464f5132c2f891aef93f24b5aa235731036b437c6f01301",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "点击右下角加号按钮创建新用户，填写用户信息表单后点击**创建**按钮。"
+      }
+    },
+    {
+      "segment_id": "82e90254",
+      "source_content": "![Zapisanie użytkownika](/img/en/faq/add_user_save.png)",
+      "source_content_hash": "00166a74be8bf56624ec5eb3d0c368ef3a48341dbfa077ba810a8cf47b0b332e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![保存用户](/img/en/faq/add_user_save.png)"
+      }
+    },
+    {
+      "segment_id": "c19de48a",
+      "source_content": "## Jak zabezpieczyć się bardziej?",
+      "source_content_hash": "17a61f299e3dc59a5d009b636536a13f4c21bbbc027df6b164a20e41545858ef",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 如何增强安全防护？"
+      }
+    },
+    {
+      "segment_id": "6ca4479f",
+      "source_content": "Podczas gdy udostępniamy bramkę przez Internet, ryzykujemy, że ktoś z zewnątrz, kto zna adres naszej bramki, może próbować się na nią włamać.",
+      "source_content_hash": "0276b9af88b79349666e0857a0034061d94a25c9bb592503ab8943c02b994407",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "当网关暴露在互联网时，存在外部攻击者通过网关地址尝试入侵的风险。"
+      }
+    },
+    {
+      "segment_id": "a2c0166e",
+      "source_content": "Na bramce działa cała automatyka domowa, często też alarm oraz automatyczne otwieranie drzwi. Dlatego w przypadku udostępniania bramki z Internetu należy zachować szczególną czujność.",
+      "source_content_hash": "d19ef7c201d58f50769f035b9d1e386d992eecfac3fe4d2d7bb54ee798b70897",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "网关运行着全屋智能系统，通常还包括安防警报和自动门锁控制。因此对外开放网关访问时需保持高度警惕。"
+      }
+    },
+    {
+      "segment_id": "c1eaf30b",
+      "source_content": "Zdajemy sobie sprawę z zagrożenia i staramy się je maksymalnie niwelować, w tym celu:",
+      "source_content_hash": "ac91a13284425c85767c7803204269c3cc7984ebb6877592f432cdf3cb8096b1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们充分意识到这些风险并采取以下防护措施："
+      }
+    },
+    {
+      "segment_id": "7a3b7c62",
+      "source_content": "1. Podczas włączenia dostępu z Internetu wymuszamy logowanie za pomocą nazwy użytkownika i hasła - nie ma możliwości łatwego logowania.\n\n2. Wszystkie hasła użytkowników na bramce są przechowywane w postaci [zaszyfrowanej i z dodatkiem soli](https://pl.wikipedia.org/wiki/S%C3%B3l_(kryptografia)), co sprawia, że atakujący nie może odczytać hasła, nawet jeśli ma dostęp do pliku.",
+      "source_content_hash": "9a0e730c8d69e07685bb04e9ff9f50eff5f2349ddbb9af4c7176078be1179f2f",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "1. 启用互联网访问时强制要求用户名密码认证——禁用简易登录方式\n\n2. 所有用户密码均以[加盐加密](https://pl.wikipedia.org/wiki/S%C3%B3l_(kryptografia))形式存储，即使攻击者获取存储文件也无法解密原始密码。"
+      }
+    },
+    {
+      "segment_id": "0801d969",
+      "source_content": "Dodatkowo rekomendujemy włączenie modułu uwierzytelniania wieloskładnikowego (Multi-factor authentication).",
+      "source_content_hash": "229d04be9eccdc7aac3e0803ab319908a07595b516855df2c567109603ebfd03",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "同时强烈建议启用多因素认证模块（Multi-factor authentication）。"
+      }
+    },
+    {
+      "segment_id": "3c19e221",
+      "source_content": "Moduł uwierzytelniania wieloskładnikowego po podaniu hasła (czyli coś, co już wiemy) wymaga podania kolejnego jednorazowego hasła, które ma określony czas ważności i jest przesyłane na telefon (czyli coś, co tylko my dostaniemy).",
+      "source_content_hash": "81198c2ea36218f8381fafaabacc25b8cb7c5350ab80194904cf715a2794e83a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "多因素认证模块在输入密码（即已知信息）后，还会要求输入一个具有时效性的一次性验证码（该验证码会发送至您的手机，即只有您能获取的凭证）。"
+      }
+    },
+    {
+      "segment_id": "d21af28f",
+      "source_content": "W celu włączenia tego zabezpieczenia należy przejść do **profilu użytkownika**, w regionie **Moduły uwierzytelniania wieloskładnikowego** wybrać opcję **WŁĄCZ** a następnie postępować zgodnie z instrukcją.",
+      "source_content_hash": "4ba193f2b074be31f6205623efb8def8ad0a73ac080e7d350213fcef9b0b2064",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "要启用此安全功能，请进入**用户资料**页面，在**多因素认证模块**区域选择**启用**选项，随后按指引操作即可。"
+      }
+    },
+    {
+      "segment_id": "1958bc43",
+      "source_content": "![Uwierzytelnianie wieloskładnikowe](/img/en/faq/auth_mfa_2.png)",
+      "source_content_hash": "ba9187c9dd53bd58e6c51e396fb33fab22d13fba71e80045f1aa78d09e6f18e4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![多因素认证](/img/en/faq/auth_mfa_2.png)"
+      }
+    },
+    {
+      "segment_id": "558df877",
+      "source_content": "Po włączeniu uwierzytelniania wieloskładnikowego po zalogowaniu się loginem i hasłem będziemy jeszcze musieli podać hasło jednorazowe z telefonu.",
+      "source_content_hash": "1a1b4ce28af9f89b9e87975a554c0933026299c4c796e816d928a90d07181534",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "启用多因素认证后，除了输入用户名和密码登录外，还需提供手机接收的一次性验证码。"
+      }
+    },
+    {
+      "segment_id": "f38d1cb0",
+      "source_content": "![Uwierzytelnianie wieloskładnikowe](/img/en/faq/auth_mfa_mob.png)",
+      "source_content_hash": "6d2340d809ea741ec8c98a85713b4bcd2c261c2d02fb0362b9e5f238d1e02777",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![多因素认证](/img/en/faq/auth_mfa_mob.png)"
+      }
+    },
+    {
+      "segment_id": "36d6c3de",
+      "source_content": "## Jak mogę sam ustalić preferowany dla mnie sposób logowania?",
+      "source_content_hash": "02cd9f36fab5aa9d6d4a1c32f2dbc13e9a023d6f142ed19d5a15dea5475ed683",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 如何自定义偏好的登录方式？"
+      }
+    },
+    {
+      "segment_id": "c364340c",
+      "source_content": "Wystarczy nadpisać naszą domyślną konfigurację i wg własnych potrzeb usunąć lub dodać dostawcę autentykacji.",
+      "source_content_hash": "45449dbd3e30a97a69d0bfd4436408cfebb240d05efe76c167725beb2afee383",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "只需覆盖我们的默认配置，根据自身需求移除或添加认证提供程序即可。"
+      }
+    },
+    {
+      "segment_id": "f45239ba",
+      "source_content": "Pokażemy jak to zrobić krok po kroku:",
+      "source_content_hash": "19a380e0f1e5b80515a1162a2b954f89ea955e70342985caad5bae5bde942f4f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "以下是分步操作指南："
+      }
+    },
+    {
+      "segment_id": "d30a9380",
+      "source_content": "1. Przechodzimy do konsoli",
+      "source_content_hash": "fc1e1488c26a140097d7e0e043daa47158926df0c715265b67abc0fbfb81a25c",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "1. 进入控制台"
+      }
+    },
+    {
+      "segment_id": "383fbdd2",
+      "source_content": "![Konsola](/img/en/faq/go_to_console.png)",
+      "source_content_hash": "77ec1801b05307d83f470f8b81455bebac01f34ba462dc11e0b61c81553d19cf",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![控制台](/img/en/faq/go_to_console.png)"
+      }
+    },
+    {
+      "segment_id": "9ceae896",
+      "source_content": "2. W konsoli przechodzimy do edycji konfiguracji autentykacji",
+      "source_content_hash": "520a529fae846bb7428a3f3f309ec8afb532a54910564a147af38356b7baff59",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "2. 在控制台中进入认证配置编辑界面"
+      }
+    },
+    {
+      "segment_id": "9ed0f908",
+      "source_content": "```bash\n$ cd AIS\n$ nano configuration.yaml  \n```",
+      "source_content_hash": "3c649cece5ea5168a7a74456a5b0134858590639dbe010bc11a1b257976539ab",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_9ed0f908"
+      }
+    },
+    {
+      "segment_id": "6892c8d2",
+      "source_content": "3. Nadpisujemy domyślną konfigurację systemu",
+      "source_content_hash": "c7675648786af5787e21ceecd45ec965ebc25eb4d5c7a35767a082e91c60d888",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "3. 覆盖系统默认配置"
+      }
+    },
+    {
+      "segment_id": "681ef526",
+      "source_content": "W dokumentacji opisaliśmy jak działa [Zaawansowana konfiguracja Asystenta domowego](/docs/ais_gate_faq_config_yaml)",
+      "source_content_hash": "b465ed4d209e67f196d48e43c2b0d575ea368135d8b8bfe5540e43fdf9b55f92",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们已在文档中说明[家庭助手高级配置](/docs/ais_gate_faq_config_yaml)的工作原理"
+      }
+    },
+    {
+      "segment_id": "be17ccc3",
+      "source_content": "Jeżeli chcemy, żeby logowanie było zawsze za pomocą loginu i hasła (nawet gdy bramka nie jest dostępna przez Internet) to podajemy następującą konfigurację:",
+      "source_content_hash": "ae17c4cd3ede2a6aa4a9e4b748af07be876c46ff1596b4b6137d0df1bf814179",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "若希望始终采用用户名密码登录（即使网关未开启互联网访问），请使用以下配置："
+      }
+    },
+    {
+      "segment_id": "7d56fc4b",
+      "source_content": "```yaml\nhomeassistant:\n  auth_providers:\n    - type: homeassistant\n```",
+      "source_content_hash": "28f97cc5867ad35adc66e502f17bf7549e2d2b62183a6dfba3152b9401e48798",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_7d56fc4b"
+      }
+    },
+    {
+      "segment_id": "63565425",
+      "source_content": "![Edycja konfiguracji](/img/en/faq/edit_configuration.png)",
+      "source_content_hash": "72dcf20e094216532dc0ed0b1c2abe534316f6b5112f883c64342b4c11e2a534",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![编辑配置](/img/en/faq/edit_configuration.png)"
+      }
+    },
+    {
+      "segment_id": "6ffcaeb2",
+      "source_content": "4. Upewniamy się, że po zmianach konfiguracja jest prawidłowa i restartujemy system",
+      "source_content_hash": "049b708f0c012001834e366f0f99254dfa464cdd30201813c820f6689122e139",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "4. 确认配置修改无误后重启系统"
+      }
+    },
+    {
+      "segment_id": "da6d2eca",
+      "source_content": "> W pliku konfiguracyjnym configuration.yaml ważna jest ilość spacji, dlatego po zmianach w konfiguracji upewnij się, że wszystko jest nadal prawidłowe. W tym celu przejdź do **Konfiguracja** i wybierz opcje **Kontrola serwera**, a następnie naciśnij przycisk **Sprawdź konfigurację**.",
+      "source_content_hash": "6491b0931a8df960619d99dfa8a9ff808f4cf04dcaec9cf3e9f63a6c79fc3945",
+      "node_type": "blockquote",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "> 配置文件configuration.yaml对空格数量敏感，修改后请务必验证配置有效性。进入**配置**菜单选择**服务器控制**，点击**检查配置**按钮进行验证。"
+      }
+    },
+    {
+      "segment_id": "008183b0",
+      "source_content": "![Sprawdzenie konfiguracji](/img/en/faq/reload_config.png)",
+      "source_content_hash": "c1a413b3cfc4a96f17a5af5a807f49c262ce4688e3e5ba7cbaa3752534ad3d99",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![配置检查](/img/en/faq/reload_config.png)"
+      }
+    },
+    {
+      "segment_id": "6b40e7a2",
+      "source_content": "Po tej zmianie w konfiguracji opisanej powyżej i ponownym uruchomieniu systemu, bez względu na to, czy dostęp z Internetu do bramki jest włączony czy nie, będziemy mieli możliwość logowania tylko przez podanie użytkownika i hasła.",
+      "source_content_hash": "f97176ffdb5c1ad05a4fe48a47d523d262bd3dbf1b344c0317c2fc9be11b6b03",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "完成上述配置修改并重启系统后，无论网关是否开启互联网访问，都将强制采用用户名密码登录方式。"
+      }
+    },
+    {
+      "segment_id": "58f98d22",
+      "source_content": "## Jak mogę sam dodać własny sposób logowania?",
+      "source_content_hash": "d6cf9ceeb804996e87302bacb7985b7c0bb1892c99dd45e91fc9f324f600b7f9",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 如何添加自定义登录方式？"
+      }
+    },
+    {
+      "segment_id": "d636abf8",
+      "source_content": "Zapraszamy do zapoznania się z [dokumentacją dla developerów systemu Home Assistant]( https://developers.home-assistant.io/docs/auth_index.html).",
+      "source_content_hash": "c5938f25ad329e8b5f7a2940a4b93f0c61da9a38de05922d29f8fb477fcd7104",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "欢迎查阅[Home Assistant系统开发者文档](https://developers.home-assistant.io/docs/auth_index.html)。"
+      }
+    },
+    {
+      "segment_id": "99840f13",
+      "source_content": "Jeżeli potrafisz programować w języku Python, to możesz dodać własną autentykację, tylko dla siebie i w swojej lokalnej instalacji.",
+      "source_content_hash": "21d3a0dbb4561177676c29690e6a711530a12072fd4ad6bf7a19ea9c930133cb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "如果您掌握Python编程，可以为自己的本地安装环境添加专属认证方式。"
+      }
+    },
+    {
+      "segment_id": "85ea22dd",
+      "source_content": "Jesteśmy otwarci na propozycje ulepszenia systemu. Jeśli uważasz, że Twoje rozwiązanie jest dobre, to możesz zaproponować je do użycia dla tysięcy innych użytkowników. Gdy twój kod przejdzie weryfikacje programistów rozwijających platformę Home Assistant i społeczności zorganizowanej wokół projektu, to zostanie dodany do Home Assistant, a następnie wydamy go z kolejną wersją Asystenta domowego.",
+      "source_content_hash": "089f25e8bad3f450b3fb687dcddc4bce1690613058270ba8bd6d7cee8faac1f6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们始终欢迎系统优化建议。若您认为自己的解决方案具有普适价值，可提交给全球数万用户共同使用。当您的代码通过Home Assistant核心开发团队及社区审核后，该功能将被纳入Home Assistant主分支，并随下一版智能家居助手同步发布。"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_faq_authentication.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.096552+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "fb8d47a91cfd521299e36f560e8887d60401b0d6d103fbd0b2501b8c90add9a1"
+  }
+}

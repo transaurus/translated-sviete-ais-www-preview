@@ -1,0 +1,112 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_iot_ble.md",
+  "source_file_content_hash": "ed1eaf9cafafcf851a5a0e088f2742eb92fbee6e86a136410246d0bd7ae38614",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: Bramka BLE\nsidebar_label: Wprowadzenie\n---",
+      "source_content_hash": "24b0d92f683330d7fb6071c6cff5282f749113db1672ede806c78faee3c75c29",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Opis",
+      "source_content_hash": "213089b969518edeaef89b69fec05f6aa90907037d8c093ae41737cc35ac7a23",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 设备描述"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "![ais](/img/AIS-ADAPTER-1/btproxy.png)",
+      "source_content_hash": "806d66e41dd389134ac0b21899fe0daab0a1cd508c68238bc6ca3cd553de7d38",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![ais](/img/AIS-ADAPTER-1/btproxy.png)"
+      }
+    },
+    {
+      "segment_id": "8ac585fb",
+      "source_content": "GL-S10 to bramka IoT, która obsługuje BLE i Wi-Fi, zapewniając ekonomiczne rozwiązanie do przesyłania danych transmisji BLE. \nUrządzenie ma wbudowanego standardowego klienta MQTT, który może łączyć się serwerem MQTT, aby przekazywać przychodzące wiadomości BLE do serwera w MQTT. Bramka może być zasilana z portu PoE lub z zewnętrznego zasilacza 5V.",
+      "source_content_hash": "8702c985df0840193d6cabb4b5b37b40adb04ab207cc9d9ab53277dc226b4dbe",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "GL-S10是一款支持BLE和Wi-Fi的物联网网关，提供经济高效的蓝牙数据传输解决方案。该设备内置标准MQTT客户端，可连接MQTT服务器将接收到的BLE消息转发至服务器。网关可通过PoE端口或外部5V电源适配器供电。"
+      }
+    },
+    {
+      "segment_id": "70153c6e",
+      "source_content": "## Schemat działania",
+      "source_content_hash": "cb7774ddd710d1a369d27f5b5e3d60392c3ad626c72b7d283e0cf20d7946b493",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 工作原理示意图"
+      }
+    },
+    {
+      "segment_id": "86b54d44",
+      "source_content": "![](/img/en/iot/how-s10-works.png)",
+      "source_content_hash": "f64aa925b761aa58b9385262f036f22ccb0afff61f4e1bae51aac329e4468061",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/iot/how-s10-works.png)"
+      }
+    },
+    {
+      "segment_id": "d350c018",
+      "source_content": "## Specyfikacja urządzenia",
+      "source_content_hash": "922194e21afe1192a3f2c1e595cca4c645272687f5d7939834be952687f24d5d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 设备规格"
+      }
+    },
+    {
+      "segment_id": "8f488ab5",
+      "source_content": "<table>\n    <thead>\n        <tr>\n            <th>Bluetooth IoT Gateway</th>\n            <th colSpan=\"2\">Specyfikacja</th>\n        </tr>\n    </thead>\n    <tbody>\n        <tr>\n            <td rowSpan=\"13\">\n                <img src=\"/img/s10_4.webp\" width=\"250\"/>\n            </td>\n            <td>CPU</td>\n            <td>ESP32-DOWD Dual-core Xtensa ® 32-bit LX6 microprocessor</td>\n        </tr>\n        <tr>\n          <td>Nor-Flash\t</td>\n          <td>4MB</td>\n        </tr>\n        <tr>\n            <td>RAM</td>\n            <td>SRAM 520KB + PSRAM 8MB</td>\n        </tr>\n        <tr>\n            <td>BLE</td>\n            <td>Supports BLE 4.2 Certification Coverage of 80m (in an open and non-interference environment) Receiving sensitivity - 97dBm</td>\n        </tr>\n        <tr>\n            <td>WiFi</td>\n            <td>802.11b/g/n Coverage of 80m (in an open and non-interference environment). Transmitting power 11n: 13dBm; 11b: 18.5dBm Speed 150Mbps</td>\n        </tr>\n        <tr>\n            <td>WAN</td>\n            <td>1 Megabit Ethernet port</td>\n        </tr>\n        <tr>\n            <td>Button</td>\n            <td>1 Reset button</td>\n        </tr>\n        <tr>\n            <td>MeLED</td>\n            <td>3 LED lights: Power, BLE and Network Indicator Lights</td>\n        </tr>\n        <tr>\n            <td>Power Supply</td>\n            <td>Supports 1x Micro USB, 5V/1A input Supports 802.3at/af standard POE input power</td>\n        </tr>\n        <tr>\n            <td>Power Consumption\t</td>\n            <td>Normal operations: 0.5W</td>\n        </tr>\n        <tr>\n            <td>Wymiary produktu</td>\n            <td>57 * 57 * 25mm(L * M * H)</td>\n        </tr>\n        <tr>\n            <td>Temperatura pracy</td>\n            <td>0~40°C</td>\n        </tr>\n        <tr>\n            <td>Wilgotność pracy</td>\n            <td>5% ~ 90%, no condensation</td>\n        </tr>\n    </tbody>\n</table>",
+      "source_content_hash": "8aa671b4babbfaff9eeb878257ac439764e0e8abbbd27e1e4cadf909f5f7bd91",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_8f488ab5"
+      }
+    },
+    {
+      "segment_id": "759d12dd",
+      "source_content": "## Dostępność i cena",
+      "source_content_hash": "8c8b0d24dfa40d6ef28d3caf96c499605e3ba03d4f196ccba735d26d431bf4a4",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 购买渠道与价格"
+      }
+    },
+    {
+      "segment_id": "09f6e084",
+      "source_content": ":::warning[Sklep]\n<center>\n[Urządzenie jest dostępne na naszych aukcjach na platformie allegro.pl](https://allegro.pl/uzytkownik/AI-Speaker)\n<br/>\n[<img src=\"/img/allegro.png\" alt=\"drawing\" width=\"200\"/>](https://allegro.pl/uzytkownik/AI-Speaker)\n</center>\n:::",
+      "source_content_hash": "802345eab216854db6a6aabc9b43ba5b598b7d09e02ae02ce564eaaf63e0c8e0",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::warning[商城]\n<center>\n[设备可通过我们在allegro.pl平台的店铺购买](https://allegro.pl/uzytkownik/AI-Speaker)\n<br/>\n[<img src=\"/img/allegro.png\" alt=\"drawing\" width=\"200\"/>](https://allegro.pl/uzytkownik/AI-Speaker)\n</center>\n:::"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_iot_ble.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.130911+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "ed1eaf9cafafcf851a5a0e088f2742eb92fbee6e86a136410246d0bd7ae38614"
+  }
+}

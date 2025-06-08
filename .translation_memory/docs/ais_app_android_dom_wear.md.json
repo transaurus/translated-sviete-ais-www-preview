@@ -1,0 +1,352 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_app_android_dom_wear.md",
+  "source_file_content_hash": "8fa6bb70b7af87da8d439c0afb7b34670a58984bcc87fd61795216114ea72898",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"AIS dom Wear OS\"\nsidebar_label: AIS dom Wear\n---",
+      "source_content_hash": "25334b9d89ed95771983c71fe0621d4cfa681132114d1fe7a5b8b716ca7b77b7",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "a703643c",
+      "source_content": "## Wprowadzenie",
+      "source_content_hash": "138964b3f05ef631ae55efd030ca96538eb5d783961ef7b978515da6c937d13f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 简介"
+      }
+    },
+    {
+      "segment_id": "53eaf0e1",
+      "source_content": "AIS dom Wear OS to niezależna (niewymagająca aplikacji mobilnej) aplikacja, która działa na urządzeniach z systemem Wear OS.",
+      "source_content_hash": "19215c0e8920fd31d90f57625d500502cdc00a041cec7bcb9dfa3b9aee2db164",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "AIS dom Wear OS 是一款独立运行（无需依赖手机应用）的应用程序，可在搭载 Wear OS 系统的设备上运行。"
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "![Wear OS](/img/en/blog/202009/wear_os_1.jpeg)",
+      "source_content_hash": "ef0bf56df62e3aebd59c6e2c014ec8cfd0f8f7baefd77382c0cd1c8952ea2cad",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Wear OS](/img/en/blog/202009/wear_os_1.jpeg)"
+      }
+    },
+    {
+      "segment_id": "e14c9928",
+      "source_content": "## Instalacja na zegarku",
+      "source_content_hash": "aa78a18b19c4a8c95d94413f5a28a6ef48cc1b3729df661cb621e6fbd8026975",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 手表端安装"
+      }
+    },
+    {
+      "segment_id": "42ad8e83",
+      "source_content": "Aplikacja dostępna jest za darmo (bez reklam, mikropłatności itp) w sklepie [Google Play](https://play.google.com/store/apps/details?id=pl.sviete.dom) pod nazwą AIS dom.",
+      "source_content_hash": "8ed93c84c78d8ae7169d79d07ba50e36b238e864ea3f921c5de083c63b440663",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该应用在 [Google Play](https://play.google.com/store/apps/details?id=pl.sviete.dom) 商店免费提供（无广告、内购等），搜索名为 AIS dom 即可下载。"
+      }
+    },
+    {
+      "segment_id": "21c93b79",
+      "source_content": "<center>\n\n![Google Play](/img/en/frontend/barcode_go_to_apk_in_google_play.png)\n\n![Google Play](/img/main/google-play-badge.png)\n\n</center>",
+      "source_content_hash": "5bbed5c5ff5c25c278b28871615a2c152dace53148a0edf6ece1df40b32ced06",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_21c93b79"
+      }
+    },
+    {
+      "segment_id": "ccc88b4c",
+      "source_content": "Kod źródłowy aplikacji dostępny jest w naszym [publicznie dostępnym repozytorium](https://github.com/sviete/AIS-dom-wear)\nPodpisane wersje publikujemy też na naszym [serwisie ze składowymi systemu](https://powiedz.co/ota/)",
+      "source_content_hash": "aa388ddb24dd4ef07ba14272de4f8d1715e1eb4f07e592ea2eddae310705a4d7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "应用源代码可在我们 [公开的代码仓库](https://github.com/sviete/AIS-dom-wear) 获取\n已签名的版本也会发布在我们的 [系统组件服务站点](https://powiedz.co/ota/)"
+      }
+    },
+    {
+      "segment_id": "48847fd4",
+      "source_content": "## Integracja z bramką",
+      "source_content_hash": "6db09e882e39f65dfb3e965b5edb7195374eff08dbddbcc2a3396a80be11eb97",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 与网关集成"
+      }
+    },
+    {
+      "segment_id": "a1b3d8cb",
+      "source_content": "### Kreator integracji na bramce",
+      "source_content_hash": "b6ef3687ba9cad137d82eae604e0114d3ae22415a20f87a0a7a173f4189d70c9",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 网关端集成向导"
+      }
+    },
+    {
+      "segment_id": "517051a7",
+      "source_content": "Integrację rozpoczynamy na bramce uruchamiając krator integracji.",
+      "source_content_hash": "0d0d33eef598635733b2163065da9ea072307da6e1c26fa53cccd60f9cc20395",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在网关上启动集成向导即可开始集成流程。"
+      }
+    },
+    {
+      "segment_id": "c3a738de",
+      "source_content": "![Wear OS](/img/en/frontend/wear_os_wiz_1.png)",
+      "source_content_hash": "a5576ce050d7716474b78cde6c4eaa29ae91743bc40f066230adac53673d88aa",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Wear OS](/img/en/frontend/wear_os_wiz_1.png)"
+      }
+    },
+    {
+      "segment_id": "3cfe6286",
+      "source_content": "Następnie przechodzimy krok po kroku prosty konfigurator integracji:",
+      "source_content_hash": "0930c917cf45c8d1835bc8adece698c7f324e37a7ce7df0fba4d0227df2a4781",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "随后按照分步引导完成简单配置："
+      }
+    },
+    {
+      "segment_id": "1042b50d",
+      "source_content": "![Wear OS](/img/en/frontend/wear_os_wiz_2.png)",
+      "source_content_hash": "5a666aeaac281e20fadf14612a4a40bd6827c55a7aeeaf97a293c47f52bd1b0c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Wear OS](/img/en/frontend/wear_os_wiz_2.png)"
+      }
+    },
+    {
+      "segment_id": "aa1e7006",
+      "source_content": "![Wear OS](/img/en/frontend/wear_os_wiz_3.png)",
+      "source_content_hash": "c471b840b3335b8af69f21afe5b5675db4d0d2cabe251d4565627f7dfef07105",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Wear OS](/img/en/frontend/wear_os_wiz_3.png)"
+      }
+    },
+    {
+      "segment_id": "13d9cd70",
+      "source_content": "![Wear OS](/img/en/frontend/wear_os_wiz_4.png)",
+      "source_content_hash": "914950f9521e08079c3372d35cade6566e9a8d3fa0be95635c77193216996c7e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Wear OS](/img/en/frontend/wear_os_wiz_4.png)"
+      }
+    },
+    {
+      "segment_id": "29528c8d",
+      "source_content": "![Wear OS](/img/en/frontend/wear_os_wiz_5.png)",
+      "source_content_hash": "5b361be96ac34ea4183ca59e72a0220354d15e0bece8142680469445d24cfca0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Wear OS](/img/en/frontend/wear_os_wiz_5.png)"
+      }
+    },
+    {
+      "segment_id": "11c76fcc",
+      "source_content": "### Wpisanie kodu PIN w aplikacji na zegarku",
+      "source_content_hash": "3d2488642d5d1d5cd52dd467949e7fbca1ac1d2f15909c96aba91ab617a05a37",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 在手表应用中输入PIN码"
+      }
+    },
+    {
+      "segment_id": "b36c6338",
+      "source_content": "Po pierwszym uruchomieniu aplikacji na zegarku należy podać jednorazowy kod PIN wygenerowany podczas dodawania integracji na bramce.",
+      "source_content_hash": "3efcb9bafa82dbc45edcfce08dc495c3e811a9b06a1f86614b717895191ddab3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "首次启用手表应用时，需输入网关添加集成时生成的一次性PIN码。"
+      }
+    },
+    {
+      "segment_id": "6b969f9f",
+      "source_content": "<center>\n\n![Wear OS](/img/en/frontend/wear_os_wiz_6.png)\n\n</center>",
+      "source_content_hash": "9ec89a9ded3f837e4b3297bafa1082448e09a1b1659dbc14753e945ce9fe1f55",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_6b969f9f"
+      }
+    },
+    {
+      "segment_id": "974ac4b5",
+      "source_content": ":::caution[Uwaga]\nKod PIN jest ważny tylko 2 minuty. Jeśli przegapiłeś to okno czasowe i nie wpisałeś kodu PIN na zegarku, to wykonaj integrację **AIS Wear OS** ponownie.\n:::",
+      "source_content_hash": "4dcf70f1db6c48b667de0ecf009c4ad797e712b187ea0e31d10ce5ab3513116f",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[注意]\nPIN码仅在2分钟内有效。若错过时间窗口未在手表输入，请重新执行 **AIS Wear OS** 集成流程。\n:::"
+      }
+    },
+    {
+      "segment_id": "0bb95128",
+      "source_content": "Po wpisaniu i zatwierdzeniu kodu na zegarku",
+      "source_content_hash": "1ba8df2981bc1e80ef1b00f1e891fdbb59e48752efbe2cc77691e16aab616a28",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在手表端输入并确认PIN码后"
+      }
+    },
+    {
+      "segment_id": "3a0902ca",
+      "source_content": "<center>\n\n![Wear OS](/img/en/frontend/wear_os_wiz_7.png)\n\n</center>",
+      "source_content_hash": "6a7cb6d179081d9a6e6d5bd23bf650aa7d0466148b4d6bf3a9f347a7912b6555",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_3a0902ca"
+      }
+    },
+    {
+      "segment_id": "f01228d3",
+      "source_content": "pojawi się informacja o identyfikatorze bramki, do której nastąpiło połączenie i nastąpi przekierowanie na ekran główny aplikacji",
+      "source_content_hash": "30c814eff97ca4e187d2315d2b8e6dc169ff2409b9cd6500ac6f53fcc19ce065",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "将显示已连接网关的标识信息，并自动跳转至应用主界面"
+      }
+    },
+    {
+      "segment_id": "568a7359",
+      "source_content": "<center>\n\n![Wear OS](/img/en/frontend/wear_os_wiz_8.png)\n\n</center>",
+      "source_content_hash": "1cda755c018438a10438c6305f7864aa74572b9802eb47367722f32fed1d0c60",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_568a7359"
+      }
+    },
+    {
+      "segment_id": "a4bf4268",
+      "source_content": "## Używanie aplikacji",
+      "source_content_hash": "ecb8db479c5635cabfc94726a86be329627c1a60eb0d8e3c3913d5d785c049f5",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 应用使用"
+      }
+    },
+    {
+      "segment_id": "1c598ecd",
+      "source_content": "### Komendy głosowe",
+      "source_content_hash": "fe9a1d40882d32e790f612c8c87296ac26e1b748ee7c9b47e3239c287a45fc90",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 语音指令"
+      }
+    },
+    {
+      "segment_id": "2547a6bb",
+      "source_content": "Po pierwszym naciśnięciu mikrofonu pojawi się pytanie o dostęp do mikrofonu",
+      "source_content_hash": "6e60d98da546b492758b417c4d236150e153a37d9d63e74fc6e7d27bc71c277d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "首次点击麦克风图标时，将弹出麦克风权限请求"
+      }
+    },
+    {
+      "segment_id": "c625a102",
+      "source_content": "<center>\n\n![Wear OS](/img/en/frontend/wear_os_wiz_10.png)\n\n</center>",
+      "source_content_hash": "5305549c4f5b12e9b4991a329aff7bb0e6cdf79e2892d9b840561dee58912c2c",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_c625a102"
+      }
+    },
+    {
+      "segment_id": "82e90254",
+      "source_content": "Gdy pozwolimy na dostęp, to możemy wysyłać komendy głosowe do swojej bramki AIS dom.",
+      "source_content_hash": "3fd4b8b144af5781ea26104e57fc96d79919414ab0beaf79e9d8e7c71fc58b0b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "授予权限后，即可向AIS dom网关发送语音指令。"
+      }
+    },
+    {
+      "segment_id": "e06c002e",
+      "source_content": "### Synchronizacja z bramką",
+      "source_content_hash": "6945e47bd8296ca5c9e5d7dd6f3070311502348cee12c23383b3379c10c61010",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 与网关同步"
+      }
+    },
+    {
+      "segment_id": "25212439",
+      "source_content": "Możemy włączyć synchronizację z bramką, w ten sposób zezwalamy na wysyłanie do aplikacji na zegarku zapytań z bramki. Działa to w podobny sposób jak Komendy wysyłane z bramki do aplikacji mobilnej",
+      "source_content_hash": "bef62c9b70aa103035f25647209ab6bdc377085a502984beadd94005b3f8a13a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "可启用与网关的同步功能，允许网关向手表应用发送请求。其工作机制类似于网关向手机应用发送指令的方式"
+      }
+    },
+    {
+      "segment_id": "c6060e09",
+      "source_content": "<center>\n\n![Wear OS](/img/en/frontend/wear_os_wiz_11.png)\n\n</center>",
+      "source_content_hash": "33fcb5748b24d5a82eb1fb3acfd3d5708f02e2abb5786ef7fa52fb27e91d5ea1",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_c6060e09"
+      }
+    },
+    {
+      "segment_id": "72871d03",
+      "source_content": ":::info[Informacja]\nDocelowo będziemy okresowo wysyłać z zegarka do bramki raporty (tętno, aktywność ...) podobnie jak z aplikacji mobilnej.\n:::",
+      "source_content_hash": "6664589a521994f7257b429572982685ef39266d2b4bdbefac101df4063f5c08",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::info[信息]\n最终我们将定期从手表向网关发送报告（心率、活动数据等），与移动应用的功能类似。\n:::"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_app_android_dom_wear.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.089298+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "8fa6bb70b7af87da8d439c0afb7b34670a58984bcc87fd61795216114ea72898"
+  }
+}

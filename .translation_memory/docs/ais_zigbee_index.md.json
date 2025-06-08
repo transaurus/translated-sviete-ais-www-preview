@@ -1,0 +1,382 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_zigbee_index.md",
+  "source_file_content_hash": "4476482246ab4cefa3175ce2a82e40f5558f9cae622ebe340d0fd8fcb1149b7a",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"\"\nsidebar_label: Opis produktu AIS-Adapter-1\n---",
+      "source_content_hash": "4a0f8dfee0478ef85f3efd3aabf9976e11e6e64eadf2470f2a5d91ba428f71b2",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Zigbee 3.0 Adapter",
+      "source_content_hash": "d8ccf290d89f15842875035bef291a239c40c983b64ec51ae9ffafd576b84ebd",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## Zigbee 3.0 适配器"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "![ais](/img/AIS-ADAPTER-1/bramka.png)",
+      "source_content_hash": "a96a442df256e810df6f0cd7311d0d578c3ce1476066af7641583a052a649c85",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![ais](/img/AIS-ADAPTER-1/bramka.png)"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "**AIS-adapter-1** pełni funkcję adaptera Zigbee, umożliwiającego transmisję pakietów Zigbee poprzez połączenia Ethernet lub WiFi. Adapter Zigbee pozwala na integrację urządzeń różnych producentów (m.in. Tuya, IKEA, Xiaomi, Gledopto, Moes, Sonoff i innych) w jednolity system.",
+      "source_content_hash": "8651db3c6984b79af551468b0293a112fac824af688741b3c2d203fb2eb432bb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "**AIS-adapter-1** 作为Zigbee适配器，支持通过以太网或WiFi传输Zigbee数据包。该适配器可实现不同厂商设备（如涂鸦、宜家、小米、Gledopto、Moes、Sonoff等）的统一集成。"
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "Głównymi atutami **AIS-adapter-1** jest to, że obsługuje 128 urządzeń zigbee (będących jednocześnie online), ma zasięg 200 metrów i można go podłączyć do lokalnej sieci za pomocą kabla LAN - w ten sposób można uzyskać pewne i dobre połączenie systemu automatyki z siecią Zigbee.",
+      "source_content_hash": "77fc1eb9401363831c217176f49576654b689ddbff5e5d90f27a61a0a16d2ad9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "**AIS-adapter-1** 的核心优势在于：支持128个Zigbee设备同时在线、覆盖范围达200米，并能通过LAN网线接入本地网络，从而确保家庭自动化系统与Zigbee网络的稳定可靠连接。"
+      }
+    },
+    {
+      "segment_id": "ad8fd492",
+      "source_content": "**Cechy adaptera**:",
+      "source_content_hash": "3dfb37ef01361b62bfbeb528be4b4e4711329e6ba43904c191720da418932dcd",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "**适配器特性**："
+      }
+    },
+    {
+      "segment_id": "4ddf6ae7",
+      "source_content": "- Obsługuje podłączenie 128 urządzeń podrzędnych\n- Oferuje zasięg ponad 200 metrów\n- Jest zasilany kablem USB C (w zestawie)\n- Możliwość podłączenia do sieci lokalnej za pomocą WiFi lub kabla LAN 10/100 Mbps (w zestawie)\n- Kompatybilny z inteligentnymi produktami ZigBee 3.0 (takimi jak czujniki, światła, przełączniki, itd.)\n- Oprogramowanie adaptera działa na wydajnym chipie Espressif ESP32, dzięki temu adapter może pełnić też funkcję bramki Bluetooth LE*\n- Komunikacja radiowa działa na chipie EFR32MG21, dzięki temu adapter jednocześnie obsługiwać komunikację bezprzewodową poprzez interfejsy Zigbee oraz Thread (Matter)*",
+      "source_content_hash": "affe0a806cfdc26813dd587c1ec706a1ae599278cb0d839753b0b6d4d303d497",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 支持128个子设备接入\n- 覆盖范围超过200米\n- 采用USB-C供电（随附线缆）\n- 可通过WiFi或10/100 Mbps LAN网线接入本地网络（随附线缆）\n- 兼容ZigBee 3.0智能产品（如传感器、灯具、开关等）\n- 基于高性能Espressif ESP32芯片运行，可扩展支持蓝牙LE网关功能*\n- 采用EFR32MG21射频芯片，可同步支持Zigbee和Thread(Matter)无线通信协议*"
+      }
+    },
+    {
+      "segment_id": "98cfbd53",
+      "source_content": "``*`` - Funkcjonalność wymaga zmiany oprogramowania adaptera",
+      "source_content_hash": "730f0871d1bad0065db73b74fb7e2d269574db30fd06b692e37ee3a8050965fd",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "``*`` - 需通过固件升级实现"
+      }
+    },
+    {
+      "segment_id": "79b2d0b9",
+      "source_content": "## Specyfikacja",
+      "source_content_hash": "4b994dd17bcc5470f4339e18305666f8cd3864cafc929983f8f54cdfa26b2aa7",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 技术规格"
+      }
+    },
+    {
+      "segment_id": "d9172fa4",
+      "source_content": "Wydajny układ ESP32 zapewnia komunikację z adapterem (WiFi i Ethernet), dodatkowo na tym procesorze działa oprogramowanie do konfiguracji adaptera. Zasoby układu wykorzystywane są w około 25%, ESP32 posiada obsługę łączności Bluetooth LE, dlatego w przyszłości można dodać do adaptera funkcjonalność obsługi bramki Bluetooth LE.",
+      "source_content_hash": "6442d14bbc89f4195a6bc1753c54138b9d3dffcab5cb7fe8b8086ca0c46c08c2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "高性能ESP32芯片负责适配器通信（WiFi和以太网），同时运行适配器配置软件。芯片资源占用约25%，由于ESP32支持蓝牙LE，未来可扩展蓝牙网关功能。"
+      }
+    },
+    {
+      "segment_id": "26524352",
+      "source_content": "![esp](/img/AIS-ADAPTER-1/esp.png)",
+      "source_content_hash": "bdd4660e6e228a5c3762696fad84c45dcfb13dcc4fa4c93322dab7a053e94f94",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![esp](/img/AIS-ADAPTER-1/esp.png)"
+      }
+    },
+    {
+      "segment_id": "73ab96a3",
+      "source_content": "Komunikacja Zigbee realizowana jest przez układ **EFR32MG21A020F768IM32** który oparty jest na rdzeniu ARM Cortex-M33 taktowanym z częstotliwością 80 MHz, posiada 768 kB Flash Storage, 64 kB RAM, jego radio ma maksymalną moc wyjściową 20dBm.\nIstotne jest to, że układ EFR32MG21 posiada wieloprotokołowy moduł radiowy 2,4 GHz 802.15.4, który może jednocześnie obsługiwać zarówno transmisję Zigbee 3.0 (EmberZNet/EZSP), jak i Thread/Matter (OpenThread/Spinel) - dzięki temu w przyszłości adapter będzie mógł obsługiwać Zigbee i Thread.",
+      "source_content_hash": "9ebb10de876bbdb54a1944ba45080a77a5b40ef27ceb2d5333bcea657df6cbe9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Zigbee通信由**EFR32MG21A020F768IM32**芯片实现，该芯片基于80MHz主频的ARM Cortex-M33内核，配备768kB闪存和64kB RAM，射频模块最大输出功率20dBm。其多协议2.4GHz 802.15.4射频模块可同步支持Zigbee 3.0（EmberZNet/EZSP）和Thread/Matter（OpenThread/Spinel）传输，为未来支持双模协议奠定基础。"
+      }
+    },
+    {
+      "segment_id": "bdc231b1",
+      "source_content": "![efr](/img/AIS-ADAPTER-1/efr.png)",
+      "source_content_hash": "0143a3d0cbd84c85eee5025236ab42a7f1b49bd591ae017b55c8b4d6d219768b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![efr](/img/AIS-ADAPTER-1/efr.png)"
+      }
+    },
+    {
+      "segment_id": "97ae4a01",
+      "source_content": "**AIS-adapter-1 specyfikacja**",
+      "source_content_hash": "9c761a6166c6c93557d11151c2d10e2f45ad0ba9da9561be35fde90bb42863f2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "**AIS-adapter-1 技术参数**"
+      }
+    },
+    {
+      "segment_id": "33808f76",
+      "source_content": "- Napięcie wejściowe: AC 100 ~ 240V 50 / 60Hz\n- Chip: ESP32 i EFR32MG21\n- Zigbee: 3.0, Wifi 2.4, Ethernet, Bluetooth LE\n- Częstotliwość: IEEE 802.11b/G/n 2.4G\n- Temperatura pracy:-10 ~ 55 ℃\n- Materiał: ABS + PC\n- Rozmiar produktu: 95*95*22.5mm + przewody (w komplecie)",
+      "source_content_hash": "5239203c1e3ae2e08bed4cfd5e89d3e97aee4f269cfbe947f6d4fcbf27e7d964",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 输入电压：AC 100 ~ 240V 50 / 60Hz\n- 芯片：ESP32 和 EFR32MG21\n- 支持协议：Zigbee 3.0、WiFi 2.4GHz、以太网、蓝牙低功耗（BLE）\n- 无线频率：IEEE 802.11b/G/n 2.4G\n- 工作温度：-10 ~ 55 ℃\n- 外壳材质：ABS + PC\n- 产品尺寸：95*95*22.5mm（含随附线缆）"
+      }
+    },
+    {
+      "segment_id": "f44c1398",
+      "source_content": "## Kompatybilność",
+      "source_content_hash": "b857165feb32d5d6bc27ca62e9962ef5698e014c211b330f947885767bb53149",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 兼容性"
+      }
+    },
+    {
+      "segment_id": "29528c8d",
+      "source_content": "**AIS-adapter-1** jest kompatybilny z wbudowaną w Home Assistant integracją  [Zigbee Home Automation](https://www.home-assistant.io/integrations/zha/) oraz z [Zigbee2mqtt](https://www.zigbee2mqtt.io/) - dzięki temu adapter może działać ze wszystkimi popularnymi systemami do automatyki domowej. Adapter jest gotowy do pracy po wyjęciu z pudełka i podłączeniu do sieci LAN oraz zasilania. W oprogramowaniu adaptera udostępniamy generator konfiguracji do ZHA i Z2M dzięki czemu integracja sprowadza się do kliknięcia i skopiowania wygenerowanej konfiguracji.",
+      "source_content_hash": "264c440fb44c9582eae999fd5dfddd46f1804b6ffae27c560c7337c142494fc0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "**AIS-adapter-1** 兼容 Home Assistant 内置的 [Zigbee Home Automation](https://www.home-assistant.io/integrations/zha/) 集成以及 [Zigbee2mqtt](https://www.zigbee2mqtt.io/) 方案，因此可适配所有主流智能家居系统。设备开箱即用，只需接入局域网和电源即可运行。我们在适配器软件中提供了ZHA和Z2M的配置生成器，使得集成过程仅需点击操作并复制生成的配置文件。"
+      }
+    },
+    {
+      "segment_id": "c504c207",
+      "source_content": "![efr](/img/AIS-ADAPTER-1/ha.png)",
+      "source_content_hash": "fb1b3061892fbf5897aa2c457fad63b4bf71aa870d76ce838ef6f17ac0debfe5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![efr](/img/AIS-ADAPTER-1/ha.png)"
+      }
+    },
+    {
+      "segment_id": "c6cc90a0",
+      "source_content": "## Oprogramowanie",
+      "source_content_hash": "78970b7996e94292c5f60e8e44ce171ad3b23ea612be8f4c0db2502d7035b4c6",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 软件系统"
+      }
+    },
+    {
+      "segment_id": "d3649a1e",
+      "source_content": "Oprogramowanie dostępne na urządzeniu jest przez nas rozwijane i udostępniane w repozytorium [Github](https://www.github.com/sviete). Poniżej opiszemy główne funkcjonalności oprogramowania.",
+      "source_content_hash": "7f70d789ae90a41fb9747957bdc3ee708e2c216fb1e00f7fc616ce98c1fab554",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "设备运行的软件由我们持续开发维护，代码已开源至 [Github](https://www.github.com/sviete) 仓库。下文将介绍软件的核心功能模块。"
+      }
+    },
+    {
+      "segment_id": "4d52a261",
+      "source_content": "![about](/img/AIS-ADAPTER-1/about.png)",
+      "source_content_hash": "c3527b29894f28401d14862ea6e69f404f2507c8a49a8d91d55f73d55f8d8a72",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![about](/img/AIS-ADAPTER-1/about.png)"
+      }
+    },
+    {
+      "segment_id": "23dfb152",
+      "source_content": "W zakładce `General` możemy wybrać tryb pracy adaptera ``LAN mode`` (domyślnie) lub ``WiFi mode``, dodatkowo możemy też skonfigurować czy diody mają być włączone czy nie.",
+      "source_content_hash": "bbd4610d006cd2d4809a54f35e12b0c24d471843aea3ea897ce37e48b4729b83",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在`General`选项卡中，可选择适配器工作模式（默认为``LAN模式``或``WiFi模式``），并可配置LED指示灯开关状态。"
+      }
+    },
+    {
+      "segment_id": "1131ef75",
+      "source_content": "![general](/img/AIS-ADAPTER-1/general.png)",
+      "source_content_hash": "9ef2a726be9274f9292878ffcd890bdfb47b55947fd1407a819d10132f73f89d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![general](/img/AIS-ADAPTER-1/general.png)"
+      }
+    },
+    {
+      "segment_id": "8b2a52b1",
+      "source_content": "W menu `Ethernet` dostępne są ustawienia sieci LAN.",
+      "source_content_hash": "0f7811958330c757c795eb5112ef44676fa6dd1ee09cfb1b3df0fc92d39c83db",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "`Ethernet`菜单提供有线网络参数配置界面。"
+      }
+    },
+    {
+      "segment_id": "5dae11e3",
+      "source_content": "![ethernet](/img/AIS-ADAPTER-1/ethernet.png)",
+      "source_content_hash": "a3a67bfeddd107698fa93d27026ba66fbc6fab79b517f9b4e9e6616fb55286b3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![ethernet](/img/AIS-ADAPTER-1/ethernet.png)"
+      }
+    },
+    {
+      "segment_id": "0bb95128",
+      "source_content": "W menu `WiFi` mamy do dyspozycji konfigurację połączenia z siecią WiFi.",
+      "source_content_hash": "7ab8deca21cb4c7af788dc794c769997b628a4a765e8bcacf9e0501855c309af",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "`WiFi`菜单用于配置无线网络连接参数。"
+      }
+    },
+    {
+      "segment_id": "657c2b20",
+      "source_content": "![wifi](/img/AIS-ADAPTER-1/wifi.png)",
+      "source_content_hash": "5f9ff4d35655c7f68e5dba5f71672ff6d45d0a5129fa42aad17c39dad8b7a063",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![wifi](/img/AIS-ADAPTER-1/wifi.png)"
+      }
+    },
+    {
+      "segment_id": "e7772088",
+      "source_content": "W zakładce `Z2M and ZHA` znajdują się ustawienia portu szeregowego(po którym urządzenie komunikuje się z zewnętrznymi systemami) oraz się konfigurator ustawień z systemami Home Assistant i Zigbee2Mqtt.",
+      "source_content_hash": "e76d4fd116a3e18dd3def5300d4aef3e613043e3bcdab0c72c36d487c5de5f5c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "`Z2M and ZHA`选项卡包含串行通信端口设置（用于与外部系统通信）以及Home Assistant和Zigbee2Mqtt的配置生成器。"
+      }
+    },
+    {
+      "segment_id": "eab056be",
+      "source_content": "![ha](/img/AIS-ADAPTER-1/z2m.png)",
+      "source_content_hash": "caf72be513f1c747c52be84ba6c966372b19ff5e9c2ec0d2ad194da23454c14c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![ha](/img/AIS-ADAPTER-1/z2m.png)"
+      }
+    },
+    {
+      "segment_id": "f01228d3",
+      "source_content": "W zakładce `Security` mamy możliwość ustawienia opcji bezpieczeństwa urządzenia - możemy ustawić hasło administratora i zablokować nieautoryzowany dostęp do aplikacji z konfiguracją.",
+      "source_content_hash": "4407fddfd23d906575d60ec4d543b2eca5feb543e3e15a6f10b9e7a9ff8587b3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "`Security`选项卡提供设备安全设置功能，可设置管理员密码并阻止未经授权的配置访问。"
+      }
+    },
+    {
+      "segment_id": "afa378f7",
+      "source_content": "![ha](/img/AIS-ADAPTER-1/security.png)",
+      "source_content_hash": "9975fb3949f927619e5a07eadee96230febb31d7a7741bd36941842d9c071212",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![ha](/img/AIS-ADAPTER-1/security.png)"
+      }
+    },
+    {
+      "segment_id": "e8e162a9",
+      "source_content": "W menu `System Control` możemy ustawić nazwę pod jaką urządzenie będzie dostępne w sieci oraz zrestartować urządzenie.",
+      "source_content_hash": "31015f674488b9af31fe2d7a44cb2f44217ed36ad074fde573ee25488bbac0ca",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "`System Control`菜单支持修改设备网络标识名称及执行设备重启操作。"
+      }
+    },
+    {
+      "segment_id": "463ed165",
+      "source_content": "![ha](/img/AIS-ADAPTER-1/system_control.png)",
+      "source_content_hash": "4d704bb0877013fc3d5da130e94e1785bc38c3815f4298cdfd1978fb014c7d6b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![ha](/img/AIS-ADAPTER-1/system_control.png)"
+      }
+    },
+    {
+      "segment_id": "a5c5772a",
+      "source_content": "W zakładce `System tools` dostępna jest aktualizacja systemu. możliwość przeglądania i edycji plików konfiguracyjnych oraz konsola z komunikacją zigbee.",
+      "source_content_hash": "e71d65cd31049acf413a5111d433d004471dccf941bca8f67504702f7065bd8c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "`System tools`选项卡提供系统更新、配置文件查看编辑以及Zigbee通信控制台功能。"
+      }
+    },
+    {
+      "segment_id": "fbc2db85",
+      "source_content": "![ha](/img/AIS-ADAPTER-1/system_tools.png)",
+      "source_content_hash": "e66c27fbeed5b78634f41c5a5cc1f6682b45ae5d43ecfe045e80516579125045",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![ha](/img/AIS-ADAPTER-1/system_tools.png)"
+      }
+    },
+    {
+      "segment_id": "759d12dd",
+      "source_content": "## Dostępność i cena",
+      "source_content_hash": "8c8b0d24dfa40d6ef28d3caf96c499605e3ba03d4f196ccba735d26d431bf4a4",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 可用性与价格"
+      }
+    },
+    {
+      "segment_id": "09f6e084",
+      "source_content": ":::warning[Sklep]\n<center>\n<button className=\"snipcart-add-item button button--outline button--secondary button--lg\"\n              data-item-id=\"ais-adapter-1\"\n              data-item-description=\"AIS ADAPTER 1, Zigbee 3.0 Adapter {info} urządzeń zigbee (będących jednocześnie online), ma zasięg 200 metrów i działa w sieci LAN.\"\n              data-item-image=\"/img/ais_adapter_1.png\"\n              data-item-name=\"AIS ADAPTER 1\"\n              data-item-price=\"{&quot;usd&quot;:45,&quot;eur&quot;:40, &quot;pln&quot;: 179}\"\n              data-item-custom1-name=\"Wiadomość\"\n              data-item-custom1-type=\"textarea\"\n              >\n              Dodaj do koszyka  \n            </button>\n[Urządzenie jest też dostępne na naszych aukcjach na platformie allegro.pl](https://allegro.pl/uzytkownik/AI-Speaker)\n<br/>\n[<img src=\"/img/allegro.png\" alt=\"drawing\" width=\"200\"/>](https://allegro.pl/uzytkownik/AI-Speaker)\n</center>\n:::",
+      "source_content_hash": "b26475b2b537f1cfc6c6099cb28bcce2fbf22f4efeeb043fb06ab3f7a97ccec9",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::warning[商店]\n<center>\n<button className=\"snipcart-add-item button button--outline button--secondary button--lg\"\n              data-item-id=\"ais-adapter-1\"\n              data-item-description=\"AIS ADAPTER 1, Zigbee 3.0 Adapter {info} urządzeń zigbee (będących jednocześnie online), ma zasięg 200 metrów i działa w sieci LAN.\"\n              data-item-image=\"/img/ais_adapter_1.png\"\n              data-item-name=\"AIS ADAPTER 1\"\n              data-item-price=\"{&quot;usd&quot;:45,&quot;eur&quot;:40, &quot;pln&quot;: 179}\"\n              data-item-custom1-name=\"Wiadomość\"\n              data-item-custom1-type=\"textarea\"\n              >\n              加入购物车  \n            </button>\n[该设备也可在我们的Allegro平台店铺购买](https://allegro.pl/uzytkownik/AI-Speaker)\n<br/>\n[<img src=\"/img/allegro.png\" alt=\"drawing\" width=\"200\"/>](https://allegro.pl/uzytkownik/AI-Speaker)\n</center>\n:::"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_zigbee_index.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.134293+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "4476482246ab4cefa3175ce2a82e40f5558f9cae622ebe340d0fd8fcb1149b7a"
+  }
+}

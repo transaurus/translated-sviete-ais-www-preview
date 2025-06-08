@@ -1,0 +1,112 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_faq_automation_tips_and_tricks.md",
+  "source_file_content_hash": "0cfc902cfaa273b4a7c3e7ef4e66c3a8b4b3e15a93605cecb9196038f56651c3",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Automatyzacje wskazówki i porady\"\nsidebar_label: Automatyzacje wskazówki i porady\n---",
+      "source_content_hash": "cde1dd51c027a60e383b019e796fb89dde38248f32f8907c36bb15543814b4cb",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "W Asystencie domowym prawie wszystko jest możliwe do skonfigurowania. Niestety nie wszystkie opcje można konfigurować z interfejsu użytkownika, ale pracujemy nad tym.\nW tym miejscu podpowiadamy, jak można utworzyć definicję automatyzacji na wybranych przypadkach z życia.",
+      "source_content_hash": "32286dd1d38a542ce541f46c71f62373ec33d9ee84064b787a3b2a61dd58cd0d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在家庭助理中，几乎所有的功能都可以进行配置。遗憾的是，并非所有选项都能通过用户界面直接设置，但我们正在持续改进这方面的工作。\n这里我们将通过实际生活场景案例，指导您如何创建自动化规则定义。"
+      }
+    },
+    {
+      "segment_id": "1cc03ec8",
+      "source_content": "## Jak utworzyć warunek który ma działać tylko w dni robocze od pon do pt?",
+      "source_content_hash": "4e52afab2e9ee2dcf97c4798accae70b90802abb07fa0d8bbde2613035d27dd5",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 如何创建仅在工作日（周一到周五）生效的条件？"
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "Zapoznaj się z opisem [wprowadzenie do automatyzacji Asystenta domowego](/docs/ais_bramka_automation), żeby poznać podstawy dodawania automatyzacji w systemie.\nDodaj automatyzację z warunkiem typu czas i odpowiednimi wyzwalaczami oraz akcjami.",
+      "source_content_hash": "41e1e730c3d18e276dfc325d00f3492a2d56fe06a44e1e954f08eb12b2093299",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "请参阅[家庭助理自动化入门指南](/docs/ais_bramka_automation)了解系统自动化配置基础。\n添加带有时间类型条件及相应触发器和动作的自动化规则。"
+      }
+    },
+    {
+      "segment_id": "cf898102",
+      "source_content": "![komunikacja MQTT](/img/en/faq/automation_tips_1.png)",
+      "source_content_hash": "e961780466cb439ad23c219123c3bab7d09dfced00605f8d4f03e90c1ad5f80b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![MQTT通信](/img/en/faq/automation_tips_1.png)"
+      }
+    },
+    {
+      "segment_id": "42ad8e83",
+      "source_content": "Zapoznaj się z dokumentacją Home Assistant na temat definiowania warunków [condition](https://www.home-assistant.io/docs/scripts/conditions/)",
+      "source_content_hash": "9a897395591470f4970bb4e8a329e55166c2d411f77c83d65fb57b51a3e893ca",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "查阅Home Assistant关于条件定义的官方文档[condition](https://www.home-assistant.io/docs/scripts/conditions/)"
+      }
+    },
+    {
+      "segment_id": "f6168993",
+      "source_content": "Przejdz do [konsoli na urządzeniu](/docs/ais_bramka_remote_ssh)\nEdytuj automayzację w pliku **~/AIS/automations.yaml**",
+      "source_content_hash": "e19d01e4dfb544ba5aeb4615ae33bf063eb74b8215ba013d086e220d96a76fbf",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "访问[设备控制台](/docs/ais_bramka_remote_ssh)\n在**~/AIS/automations.yaml**文件中编辑自动化配置"
+      }
+    },
+    {
+      "segment_id": "2df4f75f",
+      "source_content": "![komunikacja MQTT](/img/en/faq/automation_tips_2.png)",
+      "source_content_hash": "9e6f43b3ec085206648bac85a349e75032f89da82086f03019eeb09af09e6291",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![MQTT通信](/img/en/faq/automation_tips_2.png)"
+      }
+    },
+    {
+      "segment_id": "98cfbd53",
+      "source_content": "Po zapisaniu ręcznych zmian w konfiguracji przejdź do kontroli serwera, by sprawdzić poprawność konfiguracji i przeładować definicję Automatyzacji.",
+      "source_content_hash": "5868368474ceec94413f920f9c51cdf1ac08f8edc58b7e7872b62267ba98688d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "手动修改配置后，请前往服务器控制台检查配置有效性并重新加载自动化定义。"
+      }
+    },
+    {
+      "segment_id": "ccc88b4c",
+      "source_content": "![komunikacja MQTT](/img/en/faq/automation_tips_3.png)",
+      "source_content_hash": "9154648b7d1e91b2098942384d22bcaadc45ba268d058c10ab76dfdd70440692",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![MQTT通信](/img/en/faq/automation_tips_3.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_faq_automation_tips_and_tricks.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.123873+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "0cfc902cfaa273b4a7c3e7ef4e66c3a8b4b3e15a93605cecb9196038f56651c3"
+  }
+}

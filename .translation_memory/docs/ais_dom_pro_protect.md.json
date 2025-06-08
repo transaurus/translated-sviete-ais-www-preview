@@ -1,0 +1,212 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_dom_pro_protect.md",
+  "source_file_content_hash": "6bd0f9a104c226a13fdaa8220405e96772666b80e98a95b86176bec8f079b851",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Oferta PRO\"\nsidebar_label: Monitoring video\n---",
+      "source_content_hash": "f0b72d915031259f33ea8534e287aebb8af0e38adbbb977c40e4aa75a6f36250",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## <span class=\"mdi mdi-professional-hexagon\"></span> Monitoring video",
+      "source_content_hash": "b603df30363d2a1d92499ff609d43da4e08ceba278e4f94e4626d784098f7498",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## <span class=\"mdi mdi-professional-hexagon\"></span> 视频监控"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Oferujemy skalowalny system kamer sieciowych wraz z rejestratorem wideo.\nMożesz przeglądać swoje wideo na żywo oraz loklane nagrania z domu w dowolnym miejscu dzięki bezpłatnemu tunelowaniu połączenia i aplikacjom mobilnym.",
+      "source_content_hash": "18b084b16322b105b669ae604ba2bcfbff995cea65f711af045d4c44f6eff6e7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们提供可扩展的网络摄像头系统及视频录像机。通过免费连接隧道和移动应用，您可随时随地查看家中实时画面和本地录像。"
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "![AIS UISP](/img/en/bramka/ais_protect_view.png)",
+      "source_content_hash": "ac6d1354f835fe5a3b69f277f7205201786a4faf4736f3cbed0db947c75eb5b5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS UISP](/img/en/bramka/ais_protect_view.png)"
+      }
+    },
+    {
+      "segment_id": "e14c9928",
+      "source_content": "## Bramka AIS PRO1 HDMI",
+      "source_content_hash": "81458086f5b61b93947935a00a443605f7783e3b5f16c62131f9e879cedf9495",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## AIS PRO1 HDMI网关"
+      }
+    },
+    {
+      "segment_id": "42ad8e83",
+      "source_content": "Bramka AIS PRO1 posiada wbudowany mocny procesor graficzny, dzięki czemu może służyć jako urządzenie do podglądu monitoringu kamer na TV lub monitorze. W aplikacji na bramce mamy wybór, ile kamer jednocześnie ma być wyświetlanych na ekranie (w konfiguracji kolumn i wierszy: 2x2, 3x3, 4x4) z możliwością wyboru podglądu konkretnej kamery i przełączenia widoku z poszczególnych kamer na pełny ekran, a także możliwość podglądu nagrań.",
+      "source_content_hash": "0f7521d66b96761a801e9378e8cc7bce108222d598032e2d29ea0f2cfe24de69",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "AIS PRO1网关内置强大图形处理器，可作为在电视或显示器上查看监控画面的设备。网关应用支持选择同时显示多路摄像头画面（支持2x2/3x3/4x4行列配置），可切换单路摄像头全屏视图，并支持录像回放功能。"
+      }
+    },
+    {
+      "segment_id": "f6168993",
+      "source_content": "Dzięki temu możesz łatwo wyświetlać na żywo nawet do 16 obrazów z kamer, w konfigurowalnym w aplikacji widoku siatki na TV lub monitorze, za pośrednictwem wejścia HDMI.",
+      "source_content_hash": "4c14f8d8f4518a84c917c7d8b4fb3b935b28717dd195b62cdd3e5d9318cad66b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过HDMI接口，您可在电视或显示器上以应用可配置的网格视图实时显示多达16路摄像头画面。"
+      }
+    },
+    {
+      "segment_id": "f5f6d2ce",
+      "source_content": "![AIS UISP](/img/en/bramka/ais_protect_gate_1.png)",
+      "source_content_hash": "b6a48a307718adebf363bd2acc249e634038f1c2f4c69cd60ab419c9e8609599",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS UISP](/img/en/bramka/ais_protect_gate_1.png)"
+      }
+    },
+    {
+      "segment_id": "ed7dde9c",
+      "source_content": "## Główne cechy naszej oferty",
+      "source_content_hash": "e7698293b4d5f14ddffa3eeca77b868fbab5ad2afa57ae34b0202db715d8513d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 核心功能优势"
+      }
+    },
+    {
+      "segment_id": "fa430ad4",
+      "source_content": "### Użyteczność i działanie lokalne",
+      "source_content_hash": "99c26000616f1415c4b47bdd56e4f1d06edf8c2e9062665bf45499d109f7890b",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 本地化实用操作"
+      }
+    },
+    {
+      "segment_id": "4b1d2d7d",
+      "source_content": "Zapewniamy szybkie wyszukiwanie dowolnego nagranego wideo. Nagrania przechowywane są lokalnie, dzięki czemu możemy zapewnić prywatność oraz znacznie mniejsze opóźnienia w sieci, co ma kluczowe znaczenie dla dwukierunkowego dźwięku i identyfikacji osób.\nOferowane przez nas rozwiązanie nie obciąża łącza internetowego, nieważne jak wiele kamer jednocześnie nagrywa obraz. Nie przesyłając nagrań do Internetu (do chmury) nie zmniejszamy efektywnej przepustowości dla użytkowników sieci w domu.",
+      "source_content_hash": "dae9ea15e2704e1cb4609b2a40a718b0b88d0befcae00dba46343ea72231517a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们提供快速检索任意录像功能。所有录像均本地存储，既保障隐私安全，又显著降低网络延迟——这对双向音频和人形识别至关重要。无论同时录制多少路摄像头，我们的解决方案都不会占用家庭网络带宽。由于无需将录像上传至云端，家庭网络的有效带宽不会降低。"
+      }
+    },
+    {
+      "segment_id": "f422383e",
+      "source_content": "### Skalowalność",
+      "source_content_hash": "8657e9bcbe2492177b1209addbd34607187cc0a2a484ba047ad74e08fe6edde1",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 扩展能力"
+      }
+    },
+    {
+      "segment_id": "97ae4a01",
+      "source_content": "Możemy jednocześnie nagrywać ponad dwudziestoma kamerami, zapewniając jednocześnie przeglądanie nagrań oraz podgląd na żywo.",
+      "source_content_hash": "b8d1c14d3dad2f8ef70d79c2e724c77afac45027a4256763037742077eed5293",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "支持同时录制超过20路摄像头画面，并提供实时预览与录像回放功能。"
+      }
+    },
+    {
+      "segment_id": "c3a738de",
+      "source_content": "![AIS UISP](/img/en/bramka/ais_protect.png)",
+      "source_content_hash": "af9cd570427954f76af04fc3fcbc2a84b04e97265ecb20ef85f170ab2fa70e94",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS UISP](/img/en/bramka/ais_protect.png)"
+      }
+    },
+    {
+      "segment_id": "8d04259b",
+      "source_content": "### Brak opłat abonamentowych i prywatność",
+      "source_content_hash": "d6d3ef25c852e8c5d5c8991be93258fbece8ce5fc184bbc4cdf086b09583a57b",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 无订阅费用与隐私保障"
+      }
+    },
+    {
+      "segment_id": "95e9ba12",
+      "source_content": "Nie musisz się martwić żadnymi opłatami abonamentowymi. Dzięki temu, że nagrania z kamer są przechowywane lokalnie, masz też pewność, że Twoje życie jest naprawdę prywatne i gwarancję, że żadne nagrania (w tym poufne wydarzenia) nie będą widoczne dla innych.",
+      "source_content_hash": "33be1075f936c57d67a7ca85f058174d6401b7a3dbdcbbdf127f7723bfad4ac2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "无需担心任何订阅费用。摄像头录像本地存储的特性确保您的生活真正私密，所有录像（包括敏感事件）绝不会被第三方查看。"
+      }
+    },
+    {
+      "segment_id": "f44c1398",
+      "source_content": "### Wykrywanie osób i pojazdów",
+      "source_content_hash": "bff374b083e381e0f55bc5d90bdd327ee04d092eb4821ff1681e1a0c9d767de1",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 人车识别"
+      }
+    },
+    {
+      "segment_id": "29528c8d",
+      "source_content": "Zwykłe wykrywanie ruchu (Motion detection) to za mało do automatyzowania zdarzeń i powiadomień. Dlatego w naszym rozwiązaniu oferujemy kamery firmy Ubiquiti, które mają funkcje \"Smart Detection\" - są w stanie odróżnić ludzi od innych obiektów.",
+      "source_content_hash": "c61cb96eb3f6d41b46aa5d49a3df37efea7da4530574001a930b2048da76455f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "普通移动侦测(Motion detection)不足以实现事件自动化与通知。因此我们采用Ubiquiti智能摄像头，其\"Smart Detection\"功能可准确区分人员与其他物体。"
+      }
+    },
+    {
+      "segment_id": "c504c207",
+      "source_content": "![AIS UISP](/img/en/bramka/ais_protect_detection.png)",
+      "source_content_hash": "f7d64bc832583295dfcb3effb339ca14c23c941b8456c9e67f7f3fd5ca9c2966",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS UISP](/img/en/bramka/ais_protect_detection.png)"
+      }
+    },
+    {
+      "segment_id": "7fc18c94",
+      "source_content": ":::info\nMożliwe jest też wykonanie lub dostosowanie funkcjonalności pod zamówienie klienta. Zapraszamy do kontaktu info@ai-speaker.com\n:::",
+      "source_content_hash": "347574c8b25d98022487edbac95a3b10c1ca68ac6121fbf6a89ca62e7f27214a",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::info\n我们也支持根据客户需求定制或调整功能模块。欢迎联系 info@ai-speaker.com\n:::"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_dom_pro_protect.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.091574+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "6bd0f9a104c226a13fdaa8220405e96772666b80e98a95b86176bec8f079b851"
+  }
+}

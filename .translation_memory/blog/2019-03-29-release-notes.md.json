@@ -1,0 +1,92 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2019-03-29-release-notes.md",
+  "source_file_content_hash": "e7d9c9bc1c6be5b18f2b3e688c27b23d13e20d889296f082bdcd8046860d3692",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Jola AI-Speaker\nauthorURL: https://github.com/sviete\nauthorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4\ntitle: Wersja systemu 0.90.5 Dyski  \n---",
+      "source_content_hash": "4b2f9d7ec956f010ebc2a64106b8f0bdc334ae019393ef02317fa91d7902313a",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Wersja systemu 0.90.5 z dnia 29 marca 2019 roku,",
+      "source_content_hash": "7c72280386972ab5ae26b823772fba6dd8a941e07e5abf8faeee3d93a78214be",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 2019年3月29日发布的系统版本0.90.5"
+      }
+    },
+    {
+      "segment_id": "1cc03ec8",
+      "source_content": "### W tej wersji dodaliśmy integrację z usługami Mega i Google Drive, nową kartę odtwarzacza audio oraz kolejkę utworów ze Spotify",
+      "source_content_hash": "07df2d0c2137eddebd15d0988cb00609dd8f61cd566fc2b2264b13b048977483",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 本版本新增Mega和Google Drive服务集成、新版音频播放器卡片及Spotify播放队列功能"
+      }
+    },
+    {
+      "segment_id": "9fcbdce9",
+      "source_content": "#### Dyski zdalne",
+      "source_content_hash": "561d4dd12aab5a9dfa6501fa048a9a44b82c78bd78a1663b806f0d725ae2ee91",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "#### 远程磁盘"
+      }
+    },
+    {
+      "segment_id": "ad8fd492",
+      "source_content": "Połączenie z dyskami zdalnymi definiowane jest za pomocą kreatora, który krok po kroku prowadzi przez proces dodawania dysku.\nKrator dostępny jest w ustawieniach aplikacji, w sekcji ***Integracje*** (w tym miejscu zarządzamy urządzeniami i usługami podłączonymi do urządzenia).",
+      "source_content_hash": "e0d38965eb797b5559417667da57868dbdfe926486cfa2527f755cf15cb830ad",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过逐步引导的配置向导定义远程磁盘连接，该向导位于应用设置的***集成***模块（此处可管理接入设备的所有外设与服务）。"
+      }
+    },
+    {
+      "segment_id": "d350c018",
+      "source_content": "#### Nowa karta odtwarzacza",
+      "source_content_hash": "f3849b9aa46610821d7b533db3b2dd4f315c1688b43242c64939e3429cd4f7b6",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "#### 新版播放器卡片"
+      }
+    },
+    {
+      "segment_id": "f6168993",
+      "source_content": "Przeglądanie i odtwarzanie treści audio ze wszyskich dostępnych źródeł (Radio, Podcasty, Muzyka z YouTube i Spotify oraz pliki Audio z dysków) w jednej karcie.",
+      "source_content_hash": "738c000d4a1ef3d0608e0e685e9da1b3306804a5de7bb400ee89bf1c0ff6826e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在单一卡片界面浏览并播放所有音频源内容（包括电台、播客、YouTube音乐、Spotify以及磁盘中的音频文件）。"
+      }
+    },
+    {
+      "segment_id": "8f488ab5",
+      "source_content": "<div>\n  <video width=\"100%\" height=\"100%\" playsInline autoPlay muted loop>\n    <source src=\"/video/odtwarzacz_audio_w_Asystencie_domowym.mp4\" type=\"video/mp4\"/>\n  </video>\n</div>",
+      "source_content_hash": "fc459ac5e7388846d4649db10b518274d4eb467a7424b3bb766c089dcd9f8b4d",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_8f488ab5"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2019-03-29-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.101995+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "e7d9c9bc1c6be5b18f2b3e688c27b23d13e20d889296f082bdcd8046860d3692"
+  }
+}

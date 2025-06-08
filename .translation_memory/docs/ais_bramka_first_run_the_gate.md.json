@@ -1,0 +1,352 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_first_run_the_gate.md",
+  "source_file_content_hash": "37672ce81ca65312de73ed9440d5e055f5e1ea99e15c7e4e4467af9d5d44218e",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Pierwsze uruchomienie\"\nsidebar_label: Pierwsze uruchomienie\n---",
+      "source_content_hash": "a6d2d71bde0e2677d7c95698a83bc3822f84c7593cc4d6676a5dfaabd1ff5f43",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "6ef78e84",
+      "source_content": "Po pierwszym uruchomieniu urządzenia zobaczymy ekran powitalny z możliwością wykonania wstępnej konfiguracji bramki.",
+      "source_content_hash": "c1660920a072d29f798a6402444b50c3d7c714ef5d642ac887b5252f30346fc3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "设备首次启动时，您将看到欢迎屏幕，可在此进行网关的初始配置。"
+      }
+    },
+    {
+      "segment_id": "d912d376",
+      "source_content": "## Konfigurator bramki",
+      "source_content_hash": "b571d4a20c364572042906a1c574aa63fc384df73b7f875650b9f553d5c120e2",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 网关配置向导"
+      }
+    },
+    {
+      "segment_id": "8a5f6a7b",
+      "source_content": "### Wybór języka",
+      "source_content_hash": "efdc32ebff52c2c649c2cc81bc97a68243d5efefa68de09b39d8bd25f2c8928d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 语言选择"
+      }
+    },
+    {
+      "segment_id": "180bddb1",
+      "source_content": "Domyślnym językiem jest polski:",
+      "source_content_hash": "025db8a2fbc45176cadd217efd225427f954d65038e64c9a30975801d32bff32",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "默认语言为波兰语："
+      }
+    },
+    {
+      "segment_id": "cf898102",
+      "source_content": "![AIS DEV3 First run](/img/en/bramka/ais_first_wizard_1.jpeg)",
+      "source_content_hash": "99829b230af971e05e9733c63407c1209d6d4061ff4cef8faf94bd5792b1fc4b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS DEV3 First run](/img/en/bramka/ais_first_wizard_1.jpeg)"
+      }
+    },
+    {
+      "segment_id": "3daf1b88",
+      "source_content": "### Ustawienia ekranu",
+      "source_content_hash": "4802c692269552e31fdf7e573a7a186bed7f17b84ac7738b15a52b17db263ac3",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 屏幕设置"
+      }
+    },
+    {
+      "segment_id": "f6168993",
+      "source_content": "Jeżeli obraz na monitorze lub telewizorze podłączonym do bramki za pomocą złącza HDMI jest ucięty lub przesunięty, to w tym miejscu możesz dostosować obraz do rozmiaru ekranu.",
+      "source_content_hash": "82792381dd03025c7d09bab04f7be901fd9fef14f695041052d2d6c964199eb4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "若通过HDMI接口连接的显示器或电视出现画面裁剪或偏移，可在此调整画面显示比例。"
+      }
+    },
+    {
+      "segment_id": "f5f6d2ce",
+      "source_content": "![AIS DEV3 First run](/img/en/bramka/ais_first_wizard_2.jpeg)",
+      "source_content_hash": "5b2ca1241fc74d5ed3d06c5724d1d2148a398d195e3753b4a37a552477ac87fc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS DEV3 First run](/img/en/bramka/ais_first_wizard_2.jpeg)"
+      }
+    },
+    {
+      "segment_id": "40f9552a",
+      "source_content": "### Połączenie z siecią",
+      "source_content_hash": "d0431a8dab33d886dfc2986970a9112573a8b4ce1f41198e5aa84b4f717d2fbc",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 网络连接"
+      }
+    },
+    {
+      "segment_id": "f2c2bdd0",
+      "source_content": "Na tym ekranie możesz połączyć się z wybraną siecią WiFi:",
+      "source_content_hash": "51743b92ae9f3b3623c58fc7ac70688bb3d21e62a12c0414c1555575f17a6961",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "本界面可连接指定WiFi网络："
+      }
+    },
+    {
+      "segment_id": "a76548f8",
+      "source_content": "![AIS DEV3 First run](/img/en/bramka/ais_first_wizard_3_0.jpeg)",
+      "source_content_hash": "8a127589c818e6e720d28ac5c0605ca29dc0a1015736b71967000e2feab6f8b1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS DEV3 First run](/img/en/bramka/ais_first_wizard_3_0.jpeg)"
+      }
+    },
+    {
+      "segment_id": "4b1d2d7d",
+      "source_content": "w przypadku połączenia z siecią Ethernet otrzymamy informację o połączeniu:",
+      "source_content_hash": "5821ff432fcaf63a7bb7f365ec267961dc5518dbd9ab7348dd53827581e55eea",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "若通过以太网连接，将显示连接状态提示："
+      }
+    },
+    {
+      "segment_id": "dfe931a2",
+      "source_content": "![AIS DEV3 First run](/img/en/bramka/ais_first_wizard_3.jpeg)",
+      "source_content_hash": "a844f7417acd51a958e67d492d72af61d96f43a21a19ecbd2ce892c2eb530886",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS DEV3 First run](/img/en/bramka/ais_first_wizard_3.jpeg)"
+      }
+    },
+    {
+      "segment_id": "a1b3d8cb",
+      "source_content": "### Główne menu bramki",
+      "source_content_hash": "50988b44c4d3bdf71a226bf05ac5cdb8828dd5d1890be46a5fe6cf878a136768",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 网关主菜单"
+      }
+    },
+    {
+      "segment_id": "517051a7",
+      "source_content": "Na tym ekranie zostanie zaprezentowane główne menu bramki - ten ekran będzie uruchamiany podczas startu systemu:",
+      "source_content_hash": "aa8eca7ae17fe2732809a9809709013f8d46cffb5b78037e7503044f86f820ea",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "此处展示网关主菜单——系统启动时将加载此界面："
+      }
+    },
+    {
+      "segment_id": "135468ee",
+      "source_content": "![AIS DEV3 First run](/img/en/bramka/ais_first_wizard_4.jpeg)",
+      "source_content_hash": "85622fe59dcb9cd8d25675f949f4a883614c83c4d3af1b012123d0fe187c08cd",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS DEV3 First run](/img/en/bramka/ais_first_wizard_4.jpeg)"
+      }
+    },
+    {
+      "segment_id": "782c902a",
+      "source_content": "### Funkcje pilota",
+      "source_content_hash": "1a362fc61c8d6036ef1f005f0d1ffa5b9dcd04af3e36b5fb9b477ff2bf885443",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 遥控器功能"
+      }
+    },
+    {
+      "segment_id": "50746522",
+      "source_content": "Wyjaśnienie podstawowych funkcji pilota:",
+      "source_content_hash": "bd0c5688f48189bf10a5492cbb28f8d275351ec6667f5fc6968b7853a7122806",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "遥控器基础功能说明："
+      }
+    },
+    {
+      "segment_id": "95e9ba12",
+      "source_content": "![AIS DEV3 First run](/img/en/bramka/ais_first_wizard_5.jpeg)",
+      "source_content_hash": "2baa1dbe88aaa13ff92d907c786950de1108c4c9721044f596a0a1ec3e0aa27d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS DEV3 First run](/img/en/bramka/ais_first_wizard_5.jpeg)"
+      }
+    },
+    {
+      "segment_id": "f44c1398",
+      "source_content": "## Pierwsze uruchomienie asystenta",
+      "source_content_hash": "e65c68971bc3f31cf7848a979dc720d6d0ec2d974d38b27c7abf43cb26b93b0f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 助手首次启动"
+      }
+    },
+    {
+      "segment_id": "29528c8d",
+      "source_content": "Po zakończeniu konfiguratora i połączenia z siecią pojawi się ekran na którym możemy uruchomić pierwszy start systemu:",
+      "source_content_hash": "2b6324cd50e504a5eab1d7aa93026fd092c38135aa1bc4ae3e26c4d700ab918e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "完成配置向导并建立网络连接后，将显示系统首次启动界面："
+      }
+    },
+    {
+      "segment_id": "c504c207",
+      "source_content": "![AIS DEV3 First run](/img/en/bramka/ais_first_wizard_6.jpeg)",
+      "source_content_hash": "d8dea96b67bb12ba7c5cd05aa7b1b0aa31a933e4de9b6a35a688850c5b384ac2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS DEV3 First run](/img/en/bramka/ais_first_wizard_6.jpeg)"
+      }
+    },
+    {
+      "segment_id": "c6cc90a0",
+      "source_content": "### Automatyczna aktualizacja",
+      "source_content_hash": "f144e9d7d78c19911bd2c4ecbaa18f09670fdfb1856f83b1190d532f7abc6ad9",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 自动更新"
+      }
+    },
+    {
+      "segment_id": "d3649a1e",
+      "source_content": "Podczas pierwszego uruchomienia, systemu nastąpi pobranie najnowszych składowych i domyślnych ustawień systemu.\nNastępnie system automatycznie zaktualizuje swoje składowe do najnowszych wersji wydanych przez AI-Speaker:",
+      "source_content_hash": "2152648494f55f779770fee7045f20c35d81baf53cb052847042382e4dc7f35f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "首次运行时，系统将下载最新组件和默认配置，随后自动更新至AI-Speaker发布的最新版本："
+      }
+    },
+    {
+      "segment_id": "e536ea0d",
+      "source_content": "![AIS DEV3 First run](/img/en/bramka/ais_first_wizard_7.jpeg)",
+      "source_content_hash": "6e17bcf1b1af49518f744a4cfb9f38c19dc305e594a5a3e2f49dfc91397a0188",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS DEV3 First run](/img/en/bramka/ais_first_wizard_7.jpeg)"
+      }
+    },
+    {
+      "segment_id": "ab5fc5b5",
+      "source_content": "### Uruchomienie aplikacji",
+      "source_content_hash": "f6716854d88d96b665fc00b0ad519a58ac5f30a3aa10793ec665f969604b3338",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 应用启动"
+      }
+    },
+    {
+      "segment_id": "6ea4c715",
+      "source_content": "Po aktualizacji nastąpi przekierowanie do głównego menu aplikacji:",
+      "source_content_hash": "3e75a49d73ac6ff219136ad364db155c9de000a439994589353cb2a1ea03e869",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "更新完成后将跳转至应用主菜单："
+      }
+    },
+    {
+      "segment_id": "79ad944d",
+      "source_content": "![AIS DEV3 First run](/img/en/bramka/ais_first_wizard_8.jpeg)",
+      "source_content_hash": "c698188e06f9e6c4ff8086a92c33f838f9d24bf72051ef035907a8c65f97fa95",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS DEV3 First run](/img/en/bramka/ais_first_wizard_8.jpeg)"
+      }
+    },
+    {
+      "segment_id": "8c6d7ee7",
+      "source_content": "## Aplikacja działająca na bramce",
+      "source_content_hash": "fbf3c40f900048a10da37069a8f6ef0899678593e924354b0e792fbc2365218a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 网关运行的应用"
+      }
+    },
+    {
+      "segment_id": "06e24cc0",
+      "source_content": "Adres aplikacji działającej na bramce:",
+      "source_content_hash": "81f501c7897e08576dc1eed63f8bdd75bb5102a110883dfd0e519b0797bc99b1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "网关运行应用的访问地址："
+      }
+    },
+    {
+      "segment_id": "7f71ff2a",
+      "source_content": "![AIS DEV3 First run](/img/en/bramka/ais_first_wizard_9.jpeg)",
+      "source_content_hash": "2bffb7da13c4ac919a3beeb71f777ca464acd6076fa15b67bb60781590c8c191",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS DEV3 First run](/img/en/bramka/ais_first_wizard_9.jpeg)"
+      }
+    },
+    {
+      "segment_id": "147e8550",
+      "source_content": "Dalszą konfigurację możesz wykonać zdalnie, wpisując adres aplikacji działającej na bramce w przeglądarce internetowej: [Początkowa konfiguracja Asystenta domowego - dodanie konta właściciela](/docs/ais_bramka_first_run_step_account).",
+      "source_content_hash": "8ae4e164af6c098f1d97151bfcf4e1d81adad7ce459d3cc9ea624612ca88fffb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "您可以通过在网页浏览器中输入运行在网关上的应用地址进行远程配置：[家庭助理初始配置 - 添加所有者账户](/docs/ais_bramka_first_run_step_account)。"
+      }
+    },
+    {
+      "segment_id": "883231d4",
+      "source_content": "Jeżeli nie posiadasz komputera ani innego urządzenia z przeglądarką internetową to możesz dokończyć konfigurację na bramce. W tym celu zapoznaj się z [Główne menu systemu](/docs/ais_bramka_first_run) i uruchom przeglądarkę na bramce: [Uruchomienie przeglądarki na bramce](/docs/ais_bramka_first_run#sterowanie-na-monitorze).",
+      "source_content_hash": "17cc337f7e66b1a31f37acfd8858150c6efcada313c753bb3455e89f8e4f3155",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "若您没有电脑或其他带浏览器的设备，可在网关上完成配置。请参阅[系统主菜单](/docs/ais_bramka_first_run)并启动网关浏览器：[在网关上启动浏览器](/docs/ais_bramka_first_run#sterowanie-na-monitorze)。"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_first_run_the_gate.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.097296+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "37672ce81ca65312de73ed9440d5e055f5e1ea99e15c7e4e4467af9d5d44218e"
+  }
+}

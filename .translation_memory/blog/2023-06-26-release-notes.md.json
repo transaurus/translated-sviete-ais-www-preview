@@ -1,0 +1,262 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2023-06-26-release-notes.md",
+  "source_file_content_hash": "e3673515c214af516ac37214b6b6d43bcfb06e0e30af934b21d2d4366cb9ebf1",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Jola AI-Speaker\nauthorURL: https://github.com/sviete\nauthor_title: Asystentka\nauthorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4\ntitle: Wersja systemu Ola\ntags: [\"home assistant\", \"zigbee2mqtt\"]\n---",
+      "source_content_hash": "78d4fe6106261c503d6fd930c81902f54e859a811ea3ae5d2da2c25e6c0d09ac",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "775b7fa4",
+      "source_content": "<div class=\"IntroAisBlogMenu\" >\n\n![AIS](/img/en/blog/202306/ais_version.png)\n\n</div>",
+      "source_content_hash": "72ce5e5bcaef539522d0af1b9a364d37c9024aff6eb2f48fd2e6a55a2080e2d7",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_775b7fa4"
+      }
+    },
+    {
+      "segment_id": "6429a3aa",
+      "source_content": "<!--truncate-->",
+      "source_content_hash": "f5cded2aa7e288e395fe4f67f9dabda2281904b2f5358d07302b3aa8be0acdfa",
+      "node_type": "comment",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_6429a3aa"
+      }
+    },
+    {
+      "segment_id": "aee0e40d",
+      "source_content": "## ABC bezproblemowej aktualizacji",
+      "source_content_hash": "c90f3410f68be4e7ee6017947af078313ab12a12edc09598ec43646aef83e69a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 无忧升级指南"
+      }
+    },
+    {
+      "segment_id": "cac45343",
+      "source_content": ":::tip[Kopia ![A](/img/en/blog/202112/cloud-upload.png)]\n\nPrzed aktualizacją zalecamy wykonać [kopię zapasową konfiguracji](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji).\nW ten sposób sprawdzisz poprawność swojej konfiguracji przed rozpoczęciem aktualizacji i zwiększysz prawdopodobieństwo bezproblemowej aktualizacji.\n\n:::",
+      "source_content_hash": "5643a7151e9926b3a00b5ce4628381525d22239fc3f434c5b14f7c9f906f3ef1",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::tip[备份 ![A](/img/en/blog/202112/cloud-upload.png)]\n\n升级前建议先进行[配置备份](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji)。通过这种方式，您可以在升级前验证配置的正确性，提高升级成功率。\n\n:::"
+      }
+    },
+    {
+      "segment_id": "d2808037",
+      "source_content": ":::important[Konsola ![B](/img/en/blog/202112/console.png)]\n\nW razie problemów z aktualizacją z aplikacji, uruchom [aktualizację z konsoli](/docs/ais_bramka_update_manual), w ten sposób będziesz miał na bieżąco wgląd w logi i postęp aktualizacji oraz będziesz mógł zdiagnozować przyczynę problemu.\n:::",
+      "source_content_hash": "4fed83a5ffc956e873f963ac62595f6ce5cd3aa02adbcbbd1353fb0c858f7ff4",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::important[控制台 ![B](/img/en/blog/202112/console.png)]\n\n若遇应用升级问题，请通过[控制台手动升级](/docs/ais_bramka_update_manual)，实时查看日志和升级进度，便于问题诊断。\n:::"
+      }
+    },
+    {
+      "segment_id": "8a66e580",
+      "source_content": ":::caution[Poczekaj ![C](/img/en/blog/202112/timer-sand.png)]\n\nAktualizacja i pierwsze uruchomienie po aktualizacji może trwać dłużej - poczekaj cierpliwie.\nW każdej chwili możesz sprawdzić status systemu (dowiedzieć się co robi bramka) w konsoli komendą ``htop`` i/lub ``pm2 logs``\n:::",
+      "source_content_hash": "6a90253a92f78c58d9aea94706b0e33c103e50d35b155765247fcc562194dbe1",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[耐心等待 ![C](/img/en/blog/202112/timer-sand.png)]\n\n升级过程及首次启动可能耗时较长——请保持耐心。您随时可通过控制台命令``htop``或``pm2 logs``查看系统状态（了解网关当前运行情况）。\n:::"
+      }
+    },
+    {
+      "segment_id": "62a6890b",
+      "source_content": "## Potrzebujesz pomocy?",
+      "source_content_hash": "956b7e8ea86a9b9579143ca01a276903027a06d8c08bc7e5d4acb7b42fa6e748",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 需要帮助？"
+      }
+    },
+    {
+      "segment_id": "688f7369",
+      "source_content": ":::warning[Reset ![D](/img/en/blog/202112/broom.png)]\nJeżeli nie jesteś w stanie zdiagnozować problemu - nie przejmuj się, jesteśmy przygotowani, żeby Ci pomóc.\nStworzyliśmy specjalnie dla Ciebie prostą procedurę, która pomoże przywrócić domyślne kody i ustawienia systemu - zapoznaj się z opisem: [Wykonanie pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step).\n:::",
+      "source_content_hash": "93abd411ff6bfc7345ceb093925d8f11bd2258e1b2547e6f9328900d5aca12cb",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::warning[重置 ![D](/img/en/blog/202112/broom.png)]\n若无法自行诊断问题——无需担心，我们已准备好为您提供支持。我们专门设计了简易流程帮助恢复默认代码和系统设置，请参阅：[执行完整应用重置](/docs/ais_bramka_reset_ais_step_by_step)。\n:::"
+      }
+    },
+    {
+      "segment_id": "3a76cadb",
+      "source_content": ":::important[Programowanie w serwisie ![D](/img/en/blog/202112/lifebuoy.png)]\nJeżeli nie jesteś w stanie wykonać procedury pełnego resetu i Twój system nadal nie działa, to możesz wysłać nam urządzenie do zaprogramowania.\nSzczegóły opisane na forum w wątku: [Programowanie w serwisie](https://ai-speaker.discourse.group/t/usluga-programowania-urzadzen-w-ai-speaker/1368)\n:::",
+      "source_content_hash": "3c76a03e6f8acceb87380ac776c02dcd5df627103682135b1bc85d6efccaf670",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::important[返厂编程 ![D](/img/en/blog/202112/lifebuoy.png)]\n若无法完成完整重置流程且系统仍无法运行，您可将设备寄回我们进行编程修复。详情参见论坛帖子：[返厂编程服务](https://ai-speaker.discourse.group/t/usluga-programowania-urzadzen-w-ai-speaker/1368)\n:::"
+      }
+    },
+    {
+      "segment_id": "cb5b269c",
+      "source_content": "## ![](/img/en/blog/202306/ais_version.png) Ola",
+      "source_content_hash": "8a48934fcf04fad4856dac05b1be42e89d2eaa14f6ccfe26ef5d334dcd86fe1b",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202306/ais_version.png) Ola版本"
+      }
+    },
+    {
+      "segment_id": "b36c6338",
+      "source_content": "W tej wersji systemu dostarczamy kody z 11 wydań zigbee2mqtt: 1.29.0, 1.29.1, 1.29.2, 1.30.0, 1.30.1, 1.30.2, 1.30.3, 1.30.4, 1.31.0, 1.31.1, 1.31.2 oraz kody z 6 wydań Home Assistant: 2023.1, 2023.2, 2023.3, 2023.4, 2023.5, 2023.6.",
+      "source_content_hash": "9580889bf5823a9c6720edda339beb40882139b67df3350ab689aca562f07879",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "本次系统更新包含11个zigbee2mqtt版本：1.29.0、1.29.1、1.29.2、1.30.0、1.30.1、1.30.2、1.30.3、1.30.4、1.31.0、1.31.1、1.31.2，以及6个Home Assistant版本：2023.1、2023.2、2023.3、2023.4、2023.5、2023.6。"
+      }
+    },
+    {
+      "segment_id": "e50bebbf",
+      "source_content": "### ![](/img/en/blog/202102/honeybee.png) Zigbee2Mqtt",
+      "source_content_hash": "66a9914e72acab290690746f63dbd2e2db4834db52483737dfde28177b71768b",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### ![](/img/en/blog/202102/honeybee.png) Zigbee2Mqtt"
+      }
+    },
+    {
+      "segment_id": "23dfb152",
+      "source_content": "Aktualizacja Zigbee2Mqtt do najnowszej wersji 1.31.2.\nW najnowszej wersji jest obsługiwanych [ponad 2900 urządzeń od ponad 370 producentów](https://www.zigbee2mqtt.io/supported-devices/):",
+      "source_content_hash": "4ef2ca16749707a226470c64f9e7b9f087077683d27071aef2f6bd448c149092",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Zigbee2Mqtt已更新至最新版本1.31.2。新版本支持[来自370余家厂商的2900余款设备](https://www.zigbee2mqtt.io/supported-devices/)："
+      }
+    },
+    {
+      "segment_id": "6ea4c715",
+      "source_content": "[![](/img/en/blog/202306/zigbee2mqtt.png)](https://www.zigbee2mqtt.io/supported-devices/)",
+      "source_content_hash": "ee15be08c8dee45610ddce1d22b525060a3dc49394ae232b4c55480c63acc476",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "[![](/img/en/blog/202306/zigbee2mqtt.png)](https://www.zigbee2mqtt.io/supported-devices/)"
+      }
+    },
+    {
+      "segment_id": "5dae11e3",
+      "source_content": "Szczegóły w dokumentacji Zigbee2Mqtt: https://www.zigbee2mqtt.io/",
+      "source_content_hash": "088a8af47cce486d05729b0122a01617ee5b6d14bc31493150272caa5a55a9e7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Zigbee2Mqtt详细文档请参阅：https://www.zigbee2mqtt.io/"
+      }
+    },
+    {
+      "segment_id": "06e24cc0",
+      "source_content": "O nowościach w poszczególnych wersjach Zigbee2Mqtt można poczytać na stronie projektu w serwisie Github:",
+      "source_content_hash": "f84d5cedfb6d85ba089881308a886ee42c9b8181168f6636775916efd581e406",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "各版本Zigbee2Mqtt的新特性可在项目Github页面查阅："
+      }
+    },
+    {
+      "segment_id": "af7d8a35",
+      "source_content": "- [1.29.0](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.29.0)\n- [1.29.1](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.29.1)\n- [1.29.2](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.29.2)\n- [1.30.0](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.30.0)\n- [1.30.1](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.30.1)\n- [1.30.2](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.30.2)\n- [1.30.3](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.30.3)\n- [1.30.4](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.30.4)\n- [1.31.0](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.31.0)\n- [1.31.1](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.31.1)\n- [1.31.2](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.31.2)",
+      "source_content_hash": "6a0db91b695ae0f6ea3107932c924812fd3e152d70ab49d04218ced9fc05a69a",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- [1.29.0](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.29.0)\n- [1.29.1](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.29.1)\n- [1.29.2](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.29.2)\n- [1.30.0](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.30.0)\n- [1.30.1](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.30.1)\n- [1.30.2](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.30.2)\n- [1.30.3](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.30.3)\n- [1.30.4](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.30.4)\n- [1.31.0](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.31.0)\n- [1.31.1](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.31.1)\n- [1.31.2](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.31.2)"
+      }
+    },
+    {
+      "segment_id": "8a9b6c26",
+      "source_content": "### ![](/img/en/blog/202101/hass.png) Asystent domowy",
+      "source_content_hash": "c88eb95cf5f4ecbf0bf89865b0f4583cce01d1d6c074e8bb9bc40d03ddba2dcd",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### ![](/img/en/blog/202101/hass.png) 家庭助理"
+      }
+    },
+    {
+      "segment_id": "fbc2db85",
+      "source_content": "Najnowsza wersja Asystenta domowego 2023.6.3, czyli naszego pakietu ``ais-dom`` bazującego na Home Assistant Core.\nW najnowszej wersji [dostępne jest 2476 integracji](https://www.home-assistant.io/integrations/):",
+      "source_content_hash": "fa39fc492827c51b05b6b87a386173b79f6d2a0a6733e956b33f5014a1d97449",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "最新版家庭助理2023.6.3，即我们基于Home Assistant Core开发的``ais-dom``套件。\n当前版本[支持2476种集成](https://www.home-assistant.io/integrations/)："
+      }
+    },
+    {
+      "segment_id": "0750bfa1",
+      "source_content": "[![](/img/en/blog/202306/ha.png)](https://www.home-assistant.io/integrations/)",
+      "source_content_hash": "96dba2ce697d2167e2376a6a0b1fa3e157703fffb079d08e63c4e730e02d02ce",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "[![](/img/en/blog/202306/ha.png)](https://www.home-assistant.io/integrations/)"
+      }
+    },
+    {
+      "segment_id": "785750ac",
+      "source_content": "O nowościach w poszczególnych wersjach Home Assistant można poczytać na blogu Home Assistant:",
+      "source_content_hash": "761e22a7af538609d03d908e767e965035f9e2609c55ca5513dde67fd2bd5271",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "各版本Home Assistant的新特性可查阅官方博客："
+      }
+    },
+    {
+      "segment_id": "cfea4c31",
+      "source_content": "- 2023.1 [![](https://www.home-assistant.io/images/blog/2023-01/social.png)](https://www.home-assistant.io/blog/2023/01/04/release-20231/)\n\n- 2023.2 [![](https://www.home-assistant.io/images/blog/2023-02/social.png)](https://www.home-assistant.io/blog/2023/02/01/release-20232/)\n\n- 2023.3 [![](https://www.home-assistant.io/images/blog/2023-03/social.png)](https://www.home-assistant.io/blog/2023/03/01/release-20233/)\n\n- 2023.4 [![](https://www.home-assistant.io/images/blog/2023-04/social.png)](https://www.home-assistant.io/blog/2023/04/05/release-20234/)\n\n- 2023.5 [![](https://www.home-assistant.io/images/blog/2023-05/social.png)](https://www.home-assistant.io/blog/2023/05/03/release-20235/)\n\n- 2023.6 [![](https://www.home-assistant.io/images/blog/2023-06/social.png)](https://www.home-assistant.io/blog/2023/06/07/release-20236/)",
+      "source_content_hash": "b7c7d1d87b474121d6c9eecb1eb250f3f768b9b96736448b87bed3497e58bb17",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 2023.1 [![](https://www.home-assistant.io/images/blog/2023-01/social.png)](https://www.home-assistant.io/blog/2023/01/04/release-20231/)\n\n- 2023.2 [![](https://www.home-assistant.io/images/blog/2023-02/social.png)](https://www.home-assistant.io/blog/2023/02/01/release-20232/)\n\n- 2023.3 [![](https://www.home-assistant.io/images/blog/2023-03/social.png)](https://www.home-assistant.io/blog/2023/03/01/release-20233/)\n\n- 2023.4 [![](https://www.home-assistant.io/images/blog/2023-04/social.png)](https://www.home-assistant.io/blog/2023/04/05/release-20234/)\n\n- 2023.5 [![](https://www.home-assistant.io/images/blog/2023-05/social.png)](https://www.home-assistant.io/blog/2023/05/03/release-20235/)\n\n- 2023.6 [![](https://www.home-assistant.io/images/blog/2023-06/social.png)](https://www.home-assistant.io/blog/2023/06/07/release-20236/)"
+      }
+    },
+    {
+      "segment_id": "bc8bc928",
+      "source_content": "--------",
+      "source_content_hash": "370d9b71060be968d97de6de91fff200e4dd739e4e1fd7d6e983d9a7c60bdbb0",
+      "node_type": "thematicBreak",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "--------"
+      }
+    },
+    {
+      "segment_id": "722e4930",
+      "source_content": "##### AI-Speaker 06/2023",
+      "source_content_hash": "58bf50cc86290bda92dd434beb89965cc117aa604bae84949f295f7097122a12",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "##### AI-Speaker 2023年6月"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2023-06-26-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.147352+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "e3673515c214af516ac37214b6b6d43bcfb06e0e30af934b21d2d4366cb9ebf1"
+  }
+}

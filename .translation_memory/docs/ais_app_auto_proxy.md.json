@@ -1,0 +1,252 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_app_auto_proxy.md",
+  "source_file_content_hash": "527d07635d0d58b523336c861c227c7e8d94daeebb2e76bdbc838dc69f432868",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"AIS Auto Proxy\"\nsidebar_label: AIS Auto Proxy\n---",
+      "source_content_hash": "0efb886f94da8c8ede9f5f903cfa31bae5b9c98efb580639ee3b21e8b754d2e6",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Wprowadzenie",
+      "source_content_hash": "138964b3f05ef631ae55efd030ca96538eb5d783961ef7b978515da6c937d13f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 简介"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "AIS Auto Proxy jest to integracja, która umożliwia innym aplikacją działającym w lokalnej sieci na integrację z interfejsem użytkownika Asystenta domowego. Zasadza działania, opiera się na mechanizmie typu [ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/), który jest wykorzystywany w kontenerowych aplikacjach.",
+      "source_content_hash": "cc694ed26e77d80f84739a8df91f37eaaf87f910faa202a634adbeb5d52b871d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "AIS Auto Proxy 是一项集成服务，允许局域网内的其他应用程序与家庭助手用户界面进行集成。其工作原理基于 [Ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/) 机制，该机制广泛应用于容器化应用程序中。"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "AIS Auto Proxy wykorzystywane jest do aplikacji Zigbee2Mqtt:",
+      "source_content_hash": "ab3c35ded68675c477c5d46a1718b6dab88b88a1e557815ad47af09e92896f97",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "AIS Auto Proxy 目前应用于 Zigbee2Mqtt 场景："
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "![zigbee](/img/en/bramka/app_zigbee2mqtt_proxy.png)",
+      "source_content_hash": "a75f0edafa737b31650e0bfe2de2d3fd5ead7634a86b929aa8ca44c7d3870c18",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![zigbee](/img/en/bramka/app_zigbee2mqtt_proxy.png)"
+      }
+    },
+    {
+      "segment_id": "ad8fd492",
+      "source_content": "oraz do urządzeń z oprogramowaniem AIS dom:",
+      "source_content_hash": "dc9a8cc96d52b965989c6b8191334483e5510efe866e538fc996f299850624e6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "以及运行 AIS dom 固件的设备："
+      }
+    },
+    {
+      "segment_id": "86b54d44",
+      "source_content": "![RF 433](/img/en/iot/iot_ais_dom_device_config_0.png)",
+      "source_content_hash": "e11b6c59584facc4ac32a1a2ce3c6af4b6f6ac16f41c5311e4454f934757fe4e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![RF 433](/img/en/iot/iot_ais_dom_device_config_0.png)"
+      }
+    },
+    {
+      "segment_id": "39b3772c",
+      "source_content": "Dzięki temu aplikacje działające na innych adresach IP, czy działające na bramce, ale na innym porcie, mogą być wbudowywane w aplikację Asystent domowy i możemy mieć do nich zdalny dostęp za pomocą szyfrowanego tunelu.",
+      "source_content_hash": "80610557c3d014b555a2e8b1783f3c505ce8db2d1f6f92625dbd2ae4e7154c9b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过该服务，运行在不同IP地址或网关其他端口的应用程序可被嵌入家庭助手应用，并可通过加密隧道实现远程访问。"
+      }
+    },
+    {
+      "segment_id": "bc633244",
+      "source_content": "## Dodanie własnej lokalnej aplikacji do Asystenta domowego",
+      "source_content_hash": "32d76c96cb72455f7f8ed12e4e52cf8ade92134f73e4320dab93eeeb62edc82f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 将本地应用程序添加至家庭助手"
+      }
+    },
+    {
+      "segment_id": "2df4f75f",
+      "source_content": "Zakładamy, że masz aplikację, która działa w twojej sieci lokalnej i chcesz mieć do niej dostęp zdalny z Asystenta domowego. Przykładowo taką aplikacją niech będzie aplikacja webowa działająca na urządzeniu z oprogramowaniem AIS dom.",
+      "source_content_hash": "d9b207c8352d808c62488c108fd1101b7546323e943f28eaaf211c3ec99477ec",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "假设您有一个运行在局域网的应用程序，并希望通过家庭助手实现远程访问。例如某款运行在AIS dom固件设备上的Web应用程序。"
+      }
+    },
+    {
+      "segment_id": "98cfbd53",
+      "source_content": "![proxy1](/img/en/integrations/ais_proxy_1.png)",
+      "source_content_hash": "c01ebeccd6b54f482f329d94ba09a03704fe62e7e0051c5764213b52627e0269",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![proxy1](/img/en/integrations/ais_proxy_1.png)"
+      }
+    },
+    {
+      "segment_id": "fa430ad4",
+      "source_content": "### 1. Sprawdź, czy aplikacja działa w iframe",
+      "source_content_hash": "b714745b7841f530482eb4762de833991cf9ac10d71bfc35cdef793030f710a8",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 1. 验证应用程序是否支持iframe嵌入"
+      }
+    },
+    {
+      "segment_id": "4b1d2d7d",
+      "source_content": "Dodaj kartę typu Strona WEB i zobacz czy strona aplikacji jest poprawie wyświetlana w aplikacji Asystent domowy, gdy jesteś w sieci lokalnej:\n![AIS Proxy](/img/en/integrations/ais_proxy2.png)",
+      "source_content_hash": "1505b8b8225f5c758b66fde4b755bd93bae295dc6ae523767af713868ed15a91",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "添加\"网页\"类型卡片，确认当处于局域网时应用程序页面能否正常显示：\n![AIS Proxy](/img/en/integrations/ais_proxy2.png)"
+      }
+    },
+    {
+      "segment_id": "73ab96a3",
+      "source_content": "W ten sposób upewniasz się, że bramka ma dostęp do tej strony - że bramka i inna aplikacja \"widzą się w sieci lokalnej\".",
+      "source_content_hash": "8579d48c59659b5ad376c63a36ba9864ad8ed154ae6b8b15a094da070b94eb43",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "此步骤可验证网关对该页面的可访问性，确保网关与其他应用程序在局域网内互通。"
+      }
+    },
+    {
+      "segment_id": "f422383e",
+      "source_content": "### 2. Dodaj długoterminowy token",
+      "source_content_hash": "46eaf55558febbeda7db43237c86522aa0eafbe15c702dff506421291c70f497",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 2. 添加长期访问令牌"
+      }
+    },
+    {
+      "segment_id": "97ae4a01",
+      "source_content": "Długoterminowe tokeny dostępu umożliwiają interakcję z Asystentem domowym za pomocą API. Każdy token będzie ważny przez 10 lat od utworzenia.\nTokeny dodajemy z poziomu profulu użytkownika.",
+      "source_content_hash": "4330fda0222fdd81fc80bb6af5403364ad723fc796775b91295bc26cad53dcf7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "长期访问令牌允许通过API与家庭助手进行交互，每个令牌自创建起有效期为10年。需通过用户个人资料页面添加令牌。"
+      }
+    },
+    {
+      "segment_id": "33331f27",
+      "source_content": "![AIS Proxy](/img/en/integrations/ais_proxy3.png)",
+      "source_content_hash": "1a3548c80f0a4d6b30022a97cb21dfb263d0cd391bfeb4c3ef4de1a60bbfde72",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS Proxy](/img/en/integrations/ais_proxy3.png)"
+      }
+    },
+    {
+      "segment_id": "06c0f776",
+      "source_content": "### 3. Dodaj dostęp do aplikacji przez ais_proxy",
+      "source_content_hash": "4e52dc2b7db4163bec2544d04fa210265c57925a3709a071b4d11a895eaf67c7",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 3. 通过ais_proxy添加应用程序访问"
+      }
+    },
+    {
+      "segment_id": "aa1e7006",
+      "source_content": "Działa to podobnie jak iframe, ale przez proxy, składnia adresu URL jest następująca:",
+      "source_content_hash": "dcb6054c3f9c8f50c0a5b1134a6c1c8df9ecc0c1c579f500b5cc20c9b502af9c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "其原理类似于iframe但通过代理实现，URL地址格式如下："
+      }
+    },
+    {
+      "segment_id": "b75ddc12",
+      "source_content": "```\n/api/ais_auto_proxy/<token>/<ip-twojej-aplikacji>/<port-twojej-aplikacji>/\n\n```",
+      "source_content_hash": "c6e731c7d5235b1699ce08554dd0491cc720b63547b13ed9116352c02617e6be",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_b75ddc12"
+      }
+    },
+    {
+      "segment_id": "f7ef78f9",
+      "source_content": "W sieci lokalnej efekt będzie taki sam jak poprzednio ze zwykłym iframe:",
+      "source_content_hash": "f961facbfdabdb797ea69d0ec5077771ca80b6a58fabdc81ceecc75b457daa04",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在局域网内的显示效果与常规iframe相同："
+      }
+    },
+    {
+      "segment_id": "b36c6338",
+      "source_content": "![AIS Proxy](/img/en/integrations/ais_proxy4.png)",
+      "source_content_hash": "423f10d9318fe3963828dd274c1be2832e17291ffb6fde9abc312c79569e18f3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS Proxy](/img/en/integrations/ais_proxy4.png)"
+      }
+    },
+    {
+      "segment_id": "b9aaa519",
+      "source_content": "To, co się zmieniło to możliwość zdalnego dostępu do aplikacji (podczas połączania [szyfrowanym tunelem](ais_bramka_remote_www_index)):",
+      "source_content_hash": "2df4f67c097cf30d42f4d2ef07df82f064c333009ee01f158495589f547b4425",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "关键改进在于实现了应用程序的远程访问能力（通过[加密隧道](ais_bramka_remote_www_index)连接时）："
+      }
+    },
+    {
+      "segment_id": "e536ea0d",
+      "source_content": "![AIS Proxy](/img/en/integrations/ais_proxy5.png)",
+      "source_content_hash": "5d7320a0cb8e1fdc59466382dc070b0f3c0f3aa7bac0f166b79db95d25128cdd",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS Proxy](/img/en/integrations/ais_proxy5.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_app_auto_proxy.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.144484+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "527d07635d0d58b523336c861c227c7e8d94daeebb2e76bdbc838dc69f432868"
+  }
+}

@@ -1,0 +1,382 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_app_spotify.md",
+  "source_file_content_hash": "932caa3ef0dcfc3b2e7b1df1e5fadcb7c7dee1fb2e74698d2e99078ebeae7c43",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Biblioteka Spotify\"\nsidebar_label: Biblioteka Spotify\n---",
+      "source_content_hash": "9077229664bb8a0224e2c5e1d3894e8f94273636228a955b9fb188938250a1fe",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "f85bbfb4",
+      "source_content": "## Integracja AIS Spotify",
+      "source_content_hash": "7120f5dc29ebd66df2a320a3596372fc7b713fb9b3b20c927a2fedb74b08c79e",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## AIS Spotify集成"
+      }
+    },
+    {
+      "segment_id": "6ef78e84",
+      "source_content": "Integracja z biblioteką Spotify pozwala systemowi Asystent domowy na przeglądanie biblioteki i wyszukiwanie treści audio w serwisie Spotify. Wybranie pozycji z biblioteki powoduje jej automatyczne przesłanie do odtwarzacza Spotify zainstalowanego na bramce.",
+      "source_content_hash": "05064f23496eb40e8c8085ef72485f8306420be4420873f9b1f6294cd1e90fe1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "与Spotify音乐库的集成使得家庭助理系统能够浏览曲库并在Spotify服务中搜索音频内容。从曲库中选择项目会自动将其推送到网关设备上安装的Spotify播放器。"
+      }
+    },
+    {
+      "segment_id": "53eaf0e1",
+      "source_content": "![Spotify Lib](/img/en/frontend/spotify_lib_2.png)",
+      "source_content_hash": "12eeb5c4421b93e97c9d499fad21f40adf7526d7bbbcff68c94a206c3c2d7d90",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Spotify Lib](/img/en/frontend/spotify_lib_2.png)"
+      }
+    },
+    {
+      "segment_id": "9fcbdce9",
+      "source_content": "## Spotify Free lub Spotify Premium",
+      "source_content_hash": "13726ea846994e1373896f2d85496692855db29106a0d863ec1da7cd760cd235",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## Spotify免费版或Premium版"
+      }
+    },
+    {
+      "segment_id": "ad8fd492",
+      "source_content": "Integracja działa zarówno użytkownikom kont Spotify Free jak i Spotify Premium.",
+      "source_content_hash": "c12c5759190e47befd35bd474333a358c43c01dfecc63815fbd0b2183113e015",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该集成同时支持Spotify免费账户和Premium账户用户。"
+      }
+    },
+    {
+      "segment_id": "3daf1b88",
+      "source_content": "## Sterowanie odtwarzaczem Spotify na bramce",
+      "source_content_hash": "33940ed742201482603dc743d2a06ef805ec41876f2aa0ab406183087f0b3690",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 控制网关上的Spotify播放器"
+      }
+    },
+    {
+      "segment_id": "f6168993",
+      "source_content": "Integracja **AIS Spotify** pozwala na uwierzytelnianie w serwisie Spotify oraz na przeglądanie biblioteki Spotify. Następnie możemy wybrany utwór, wykonawcę, album lub listę odtwarzania wysłać do odtwarzacza Spotify.\nDomyślnie po wybraniu (kliknięciu pozycji) jest ona wysyłana do wbudowanego odtwarzacza na bramce.",
+      "source_content_hash": "a1c8fe7a2ea6fd24feef3a68a8feede8a1272809794dccd5325bebcde9fe0dba",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "**AIS Spotify**集成支持Spotify服务认证及音乐库浏览功能。用户可选择将指定曲目、艺人、专辑或播放列表发送至Spotify播放器。默认情况下，点击选中内容将自动发送至网关内置播放器。"
+      }
+    },
+    {
+      "segment_id": "2df4f75f",
+      "source_content": "Odtwarzaczem Spotify zainstalowanym na bramce AIS dom możemy sterować pilotem lub z aplikacji Asystent domowy za pomocą integracji [AIS Android](/docs/ais_app_android)",
+      "source_content_hash": "1a281e22401bec2a63b3b9ae59467ff149f7c958da709418572431a3ac67ad73",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "可通过遥控器或家庭助理应用（需配合[AIS Android](/docs/ais_app_android)集成）控制AIS dom网关上的Spotify播放器。"
+      }
+    },
+    {
+      "segment_id": "ed7dde9c",
+      "source_content": "## Sterowanie pilotem",
+      "source_content_hash": "2d0ec5cac96c143572334262d59e1dc49841b943a88c512cbd3bb20a66e07c1a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 遥控器操作"
+      }
+    },
+    {
+      "segment_id": "a76548f8",
+      "source_content": "Wyszukiwanie na Spotify można też uruchamiać za pomocą naszego dedykowanego [Pilota radiowego](/docs/ais_remote_index). Pilotem można wykonać wyszukanie głosowo mówiąc [odpowiednią komendę](/docs/ais_app_assistent_commands) lub za pomocą wirtualnej klawiatury oraz zwrotnego czytania wpisywanych liter.",
+      "source_content_hash": "52e208379f134f1f5a5173e64bbe3fddf6e39ba9a22e1c7ce3e32882097c09cb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "也可通过专用[网络收音机遥控器](/docs/ais_remote_index)启动Spotify搜索。用户可通过[语音指令](/docs/ais_app_assistent_commands)或虚拟键盘配合字母朗读功能进行搜索。"
+      }
+    },
+    {
+      "segment_id": "d06306f7",
+      "source_content": "## Konfiguracja krok po kroku",
+      "source_content_hash": "93c54ead1e6768f4f91cc086f42d1be684265514db10b4685b3ee69a751f0d5a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 分步配置指南"
+      }
+    },
+    {
+      "segment_id": "b25f21be",
+      "source_content": "### 1. Wymagania wstępne",
+      "source_content_hash": "a51b209c31b725f7e526a1f7c8c7ab2653dd1dbe3e9f6f4e39636c4e10971630",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 1. 前提条件"
+      }
+    },
+    {
+      "segment_id": "f2c8a42b",
+      "source_content": "* Posiadanie konta w Spotify, konto można założyć za darmo (bez konieczności podawania karty kredytowej) pod tym adresem: https://www.spotify.com/pl/\n\n* Urządzenie z systemem Asystent domowy",
+      "source_content_hash": "97820f5cea8d5512de85a19a9ed0ae97a616a44fd9f3ec194738d34c955695b4",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "* 拥有Spotify账户（可免费注册且无需绑定信用卡）：https://www.spotify.com/pl/\n\n* 搭载家庭助理系统的设备"
+      }
+    },
+    {
+      "segment_id": "80d9e13c",
+      "source_content": "### 2. Logowanie do aplikacji Spotify",
+      "source_content_hash": "e29934bf6f1c207dea712c4b9730c7a829a97ad965917da95a0e53ebecaa4406",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 2. 登录Spotify应用"
+      }
+    },
+    {
+      "segment_id": "33a4805e",
+      "source_content": ":::caution[Uwaga]\nŻeby można było wysyłać wybrane pozycje do odtwarzania w aplikacji Spotify zainstalowanej na bramce, trzeba zalogować się w aplikacji Spotify.\n:::",
+      "source_content_hash": "6adf9ccb3d4d8751495abd3e5281b13f276ef32bfbad6b3c6e02e44e56a26413",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[注意]\n需在网关安装的Spotify应用中登录账户，才能将选定内容发送至该应用播放。\n:::"
+      }
+    },
+    {
+      "segment_id": "4c077b92",
+      "source_content": "* Podłącz urządzenie do telewizora lub monitora po HDMI\n\n* Włącz pilotem tryb \"Sterowanie na monitorze\" [Tryby działania pilota](/docs/ais_remote_modes)\n\n* Wybierz przycisk z ikonką  -> \"Spotify\"",
+      "source_content_hash": "f384a5567bd3439a36c3cf2d8a8e6220b5f7192bbc958d9d32cf6354cd128a88",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "* 通过HDMI将设备连接至电视或显示器\n\n* 使用遥控器启用\"屏幕控制模式\"[遥控器操作模式](/docs/ais_remote_modes)\n\n* 点击图标按钮 -> 选择\"Spotify\""
+      }
+    },
+    {
+      "segment_id": "c504c207",
+      "source_content": "![Przejście do Spotify](/img/en/frontend/spotify_settings.jpeg)",
+      "source_content_hash": "745a6e69a6d9c4567c9eb29b9ec5deb03bafb0fd5e9c1eb8ae5a9195f67bae1a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Przejście do Spotify](/img/en/frontend/spotify_settings.jpeg)"
+      }
+    },
+    {
+      "segment_id": "310e47b7",
+      "source_content": "* Zaloguj się do serwisu Spotify",
+      "source_content_hash": "68e29b069bab920f372609d07ba7188d84f3bff12920fe4efff0ceeaff0c99ce",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "* 登录Spotify服务"
+      }
+    },
+    {
+      "segment_id": "2c1b51df",
+      "source_content": "### 3. Autoryzacja Asystenta domowego w Spotify",
+      "source_content_hash": "618c69986a2ec2040138e3beab45bc9737311fdd487abe313b0304486317e79d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 3. 家庭助理Spotify授权"
+      }
+    },
+    {
+      "segment_id": "e536ea0d",
+      "source_content": "Wykonaj te kroki w przeglądarce internetowej.",
+      "source_content_hash": "b6fefa1a8d675b25d2a582cbf4661a67b15469f59fbe4d6a5b27050c1377bd0d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "请在网页浏览器中完成以下步骤。"
+      }
+    },
+    {
+      "segment_id": "a0e887c2",
+      "source_content": "* Przejdź do aplikacji \"Asystent domowy\" z przeglądarki internetowej w Twojej lokalnej sieci [Dostęp do bramki po HTTP](/docs/ais_bramka_remote_http)\n\n* Otwórz ***Konfiguracja*** -> ***Integracje***",
+      "source_content_hash": "ebeef61f5cd1861ec61e7a3d47d64e0f67608ac3b48a7f1545b2ce82a5fd110b",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "* 通过本地网络访问\"家庭助理\"网页端[HTTP远程访问网关](/docs/ais_bramka_remote_http)\n\n* 打开***配置*** -> ***集成***"
+      }
+    },
+    {
+      "segment_id": "5dae11e3",
+      "source_content": "![Konfiguracja Spotify](/img/en/bramka/go_to_integrations.png)",
+      "source_content_hash": "262d48920b1d723fac2da0a74f84082e45d049a3e0d2fdaaebec9c25fd0671db",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Konfiguracja Spotify](/img/en/bramka/go_to_integrations.png)"
+      }
+    },
+    {
+      "segment_id": "645e08e3",
+      "source_content": "* Uruchom konfigurator integracji ***AIS Serwis Spotify***",
+      "source_content_hash": "484aaa380bbe6b85b1996640211e765473417b4afe354f55437e8e522f093f5c",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "* 启动***AIS Spotify服务***集成配置向导"
+      }
+    },
+    {
+      "segment_id": "7f71ff2a",
+      "source_content": "![Konfiguracja Spotify](/img/en/frontend/configure_spotify_s2.png)",
+      "source_content_hash": "e733151c7de768446963a365e6cd4cce151927c7c135d9b33cd88c6999b07bce",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Spotify配置](/img/en/frontend/configure_spotify_s2.png)"
+      }
+    },
+    {
+      "segment_id": "69c1f590",
+      "source_content": "* Kliknij \"ZATWIERDŹ\"",
+      "source_content_hash": "539ab3d4d2232786344c228b38a2a271904a18e0887fb6b0054d44e0eac5ce8e",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "* 点击\"确认\""
+      }
+    },
+    {
+      "segment_id": "f01228d3",
+      "source_content": "![Konfiguracja Spotify](/img/en/frontend/configure_spotify_s2.1.png)",
+      "source_content_hash": "b6ee07eb8b6414c311fdd3eb1a15c94a4dd5ddf2a85f95f468980e1f140b82b5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Spotify配置](/img/en/frontend/configure_spotify_s2.1.png)"
+      }
+    },
+    {
+      "segment_id": "6384b3d4",
+      "source_content": "* Zaloguj się do Spotify na swoje konto (to samo, na które logowaleś się w punkcie 2.)\n\n\n* Zezwól aplikacji AI-Speaker na dostęp do Spotify",
+      "source_content_hash": "a2cb52a91c89c74bc64eb1e03c683c795339175d9ec2e32ffdd0e09729ed58ec",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "* 登录您在步骤2中使用的同一Spotify账户\n\n\n* 授权AI-Speaker应用访问Spotify"
+      }
+    },
+    {
+      "segment_id": "a5c5772a",
+      "source_content": "![Konfiguracja Spotify](/img/en/frontend/configure_spotify_s3.png)",
+      "source_content_hash": "457fc21787ecc7b00f0211edcccaa3a00e11c24e87d750ee29ef7245a428723f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Spotify配置](/img/en/frontend/configure_spotify_s3.png)"
+      }
+    },
+    {
+      "segment_id": "1c598ecd",
+      "source_content": "### 4. Integracja AIS Android",
+      "source_content_hash": "42db5e66d9b0d81ae3a8a8b51188d5504ba02cfefd71a8f2574b9bc6a9cf4422",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 4. AIS Android集成"
+      }
+    },
+    {
+      "segment_id": "2547a6bb",
+      "source_content": "Do sterowania odtwarzaczem na bramce potrzebujemy dodatkowej integracji -> [AIS Android](/docs/ais_app_android)",
+      "source_content_hash": "e265b3278bd69556cbe112f2eaaa00c838dc71cc62ac900d53b2a3d95faae506",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "需要通过额外集成[AIS Android](/docs/ais_app_android)来控制网关上的播放器"
+      }
+    },
+    {
+      "segment_id": "ec8ed2a1",
+      "source_content": "## Przeglądanie biblioteki Spotify",
+      "source_content_hash": "eb0ad6231201a747a3e50afe4e321bc6107137331232d2f106e8a20e6bb13455",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 浏览Spotify音乐库"
+      }
+    },
+    {
+      "segment_id": "51867d16",
+      "source_content": "Możesz przeglądać swoją bibliotekę, sprawdzać adresy utworów oraz zdjęć",
+      "source_content_hash": "0ce6bbae596a01beb11f3c0d331e1b119d6e9427b6d6dba9b09bd7397922a8f2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "您可以浏览个人音乐库、查看曲目地址及封面图片"
+      }
+    },
+    {
+      "segment_id": "785750ac",
+      "source_content": "![Spotify Lib](/img/en/frontend/spotify_lib_2.png)",
+      "source_content_hash": "12eeb5c4421b93e97c9d499fad21f40adf7526d7bbbcff68c94a206c3c2d7d90",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Spotify音乐库](/img/en/frontend/spotify_lib_2.png)"
+      }
+    },
+    {
+      "segment_id": "f8edb6d2",
+      "source_content": "## Sterowanie odtwarzaczem Spotify",
+      "source_content_hash": "58bf2b35096d9493bb1b005f38347fc02805dcde91163a15811a48dba11aab6c",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 控制Spotify播放器"
+      }
+    },
+    {
+      "segment_id": "1862c5fe",
+      "source_content": "Żeby sterować odtwarzaczem Spotify (aplikacją Spotify), należy dodać integrację [AIS Android](/docs/ais_app_android)",
+      "source_content_hash": "4eca77f38a07eecc8959d0b72ad7fd70b052bea66c70db6e7802d6dc88e6ff01",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "需添加[AIS Android](/docs/ais_app_android)集成来控制Spotify播放器(Spotify应用)"
+      }
+    },
+    {
+      "segment_id": "6ca4479f",
+      "source_content": "![Przejście do Spotify](/img/en/frontend/spotify_adb.png)",
+      "source_content_hash": "5aa699f31249163047f2386a85f943df09bac85b94edd3e19b3c3c92e54fd67f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![跳转至Spotify](/img/en/frontend/spotify_adb.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_app_spotify.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.115914+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "932caa3ef0dcfc3b2e7b1df1e5fadcb7c7dee1fb2e74698d2e99078ebeae7c43"
+  }
+}

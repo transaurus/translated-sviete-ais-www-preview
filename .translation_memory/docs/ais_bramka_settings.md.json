@@ -1,0 +1,162 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_settings.md",
+  "source_file_content_hash": "a5690927828fd27e179e9e87c8d004ddfa39e0381ed6bfccd758ec732c46fd06",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Ustawienia systemu\"\nsidebar_label: Ustawienia systemu\n---",
+      "source_content_hash": "e408fef75ac9e4b78896c52944b2df1fede8f5339c52665af2ac1f4319b51b7e",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Ustawienia systemu Android",
+      "source_content_hash": "23dd89447c55975a92413e452b2ee7c611c449439a8b8d4c0de3ebcfbf7d14a4",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## Android系统设置"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "W celu przejścia do ustawień systemu Android wystarczy z menu `Sterowania na monitorze` wybrać pozycję Android:",
+      "source_content_hash": "166d77e9abb32f6d8a2f5eaef2ec82243714d26b81d266d805d3bcee2826a7c0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "要进入Android系统设置，只需从`屏幕控制菜单`中选择Android选项："
+      }
+    },
+    {
+      "segment_id": "8ac585fb",
+      "source_content": "![Ustawienia Android](/img/en/bramka/settings_1.png)",
+      "source_content_hash": "a9983851b825de37befb6d630551f2f3cf95a1c1a585301885e5cd571f7529cf",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Android设置](/img/en/bramka/settings_1.png)"
+      }
+    },
+    {
+      "segment_id": "cf898102",
+      "source_content": "![Ustawienia](/img/en/bramka/settings_2.png)",
+      "source_content_hash": "c0ef01400090f450d368890c24bb405a14998880bf8d27a72ce4d8c8f5cb6b1c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![设置](/img/en/bramka/settings_2.png)"
+      }
+    },
+    {
+      "segment_id": "d350c018",
+      "source_content": "## Konsola aplikacji \"Asystent domowy\"",
+      "source_content_hash": "1c56993fc6dad08eed888846534d7ea97230288d94f3f3105c4277933f0b3c6f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## \"家庭助理\"应用控制台"
+      }
+    },
+    {
+      "segment_id": "1acb9a05",
+      "source_content": "W celu przejścia do ustawień systemu Android wystarczy z menu `Sterowania na monitorze` wybrać pozycję Konsola:\nW konsoli dostępne jest środowisko Linux, zawierające minimalny system podstawowy wraz z interpreterem języka Python, Node.js oraz Clang",
+      "source_content_hash": "c568991a6ef603b8c00ff8e719b0411afe8b7cf1c0e07ba130fd4c179ca14239",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "要进入Android系统设置，只需从`屏幕控制菜单`中选择控制台选项：\n控制台提供Linux环境，包含基础最小系统及Python解释器、Node.js和Clang"
+      }
+    },
+    {
+      "segment_id": "2fdadb08",
+      "source_content": "![Ustawienia](/img/en/bramka/settings_6.png)",
+      "source_content_hash": "ef38d1175f4486d253b0951453ac765969607489714003bb3d5770223e9959da",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![设置](/img/en/bramka/settings_6.png)"
+      }
+    },
+    {
+      "segment_id": "a76548f8",
+      "source_content": "Dodatkowe pakiety dostępne za pomocą menedżera pakietów APT z naszego repozytorium pakietów Ais Linux.",
+      "source_content_hash": "84abc4e283ef6294963db75c0e90da4dd0eeda05e206bb99dd10366ef0535b35",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "额外软件包可通过APT包管理器从我们的Ais Linux软件仓库获取。"
+      }
+    },
+    {
+      "segment_id": "4b1d2d7d",
+      "source_content": "![Ustawienia](/img/en/bramka/settings_3.png)",
+      "source_content_hash": "132ec9efdd6eaaf8fdd9cd6355ca6a2b7496ad2f6b9bbd2978f6029aa14a9b3f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![设置](/img/en/bramka/settings_3.png)"
+      }
+    },
+    {
+      "segment_id": "73ab96a3",
+      "source_content": "Procesami na bramce steruje menedżer procesów PM2.\nPM2 odpowiedzialny jest za zarządzanie stanem serwisów w systemie \"Asystent domowy\", to PM2 uruchamia procesy po starcie systemu a następnie czuwa nad ich ciągłym działaniem.",
+      "source_content_hash": "d6a37c92a07755b643a5cbad77492eff51faa2060827983c09fc19a23244df83",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "网关进程由PM2进程管理器控制。\nPM2负责管理\"家庭助理\"系统中的服务状态，系统启动时由PM2拉起进程并持续监控其运行状态。"
+      }
+    },
+    {
+      "segment_id": "bdc231b1",
+      "source_content": "Żeby sprawdzić logi usług systemu \"Asystent domowy\", w konsoli bramki wykonaj komendę:",
+      "source_content_hash": "51a464ff9cc930096b593346d7c1b7e0fd9aa11fe2125d3d5b75a358ae34159f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "要查看\"家庭助理\"系统服务日志，请在网关控制台执行命令："
+      }
+    },
+    {
+      "segment_id": "be2d5397",
+      "source_content": "```bash\n$ pm2 logs\n```",
+      "source_content_hash": "37dc06a0202dd773e9ceea234d7d09753f2e2cb06bbe0aac0d5ccf9ea867c1b6",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_be2d5397"
+      }
+    },
+    {
+      "segment_id": "3cfe6286",
+      "source_content": "Użytkownik domyślny ma uprawnienia tylko do folderu /data/data/com.termux/files, w którym to folderze znajdują się pakiety systemu Linux, oraz do podfolderu data/data/com.termux/files/home/AIS, gdzie znajduje się konfiguracja systemu \"Asystent domowy\".",
+      "source_content_hash": "dd2ad8ad0c8c05241655e8ba42117b7b09fe89d81a36c7e4a0f924a77c03ff96",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "默认用户仅对/data/data/com.termux/files目录具有权限（该目录存放Linux系统软件包），以及对data/data/com.termux/files/home/AIS子目录具有权限（该目录存放\"家庭助理\"系统配置）。"
+      }
+    },
+    {
+      "segment_id": "18867dc1",
+      "source_content": ":::caution[Uwaga]\nW wersjach developerskich bramek dostępny jest też użytkownik **root** który ma dostęp do całego systemu.\n:::",
+      "source_content_hash": "f715c0ac70df4e7062ffb1e2a9eb26c463751c5f8c877de6fcfcc9519d60718a",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[注意]\n开发者版本网关还提供**root**用户权限，可访问整个系统。\n:::"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_settings.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.121700+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "a5690927828fd27e179e9e87c8d004ddfa39e0381ed6bfccd758ec732c46fd06"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_configuration_screen.md",
+  "source_file_content_hash": "faa7c22890c5c99ef5e65b83b7c89d099e3e32e358dc009724c1e013d4a8b4ef",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Konfiguracja bramki - Ustawienia ekranu\"\nsidebar_label: Ustawienia ekranu\n---",
+      "source_content_hash": "6b37cfb732b46ceea3eeb7868545388fb9c570549d772dc972e5d7f852bfdf14",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Jeżeli obraz na monitorze lub telewizorze podłączonym do bramki za pomocą złącza HDMI jest ucięty lub przesunięty, to w tym miejscu możesz dostosować obraz do rozmiaru ekranu.",
+      "source_content_hash": "82792381dd03025c7d09bab04f7be901fd9fef14f695041052d2d6c964199eb4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "若通过HDMI接口连接至网关的显示器或电视出现画面裁剪或偏移现象，可在此处调整图像显示比例以适配屏幕尺寸。"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "![Ustawienia ekranu](/img/en/bramka/config_ais_dom_section3.png)",
+      "source_content_hash": "e4594e609bbbdb72dfd143b1d6616000ada20904b854370f7b1121d52ee6f0dd",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![屏幕设置](/img/en/bramka/config_ais_dom_section3.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_configuration_screen.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.094688+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "faa7c22890c5c99ef5e65b83b7c89d099e3e32e358dc009724c1e013d4a8b4ef"
+  }
+}

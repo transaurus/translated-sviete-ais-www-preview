@@ -1,0 +1,82 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_faq_when_speaker.md",
+  "source_file_content_hash": "72f3a97bf5409f9d50ba1247c3a88ffb25445e609afec1aa7ae305006322067f",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Czy planujecie jeszcze zbudowanie głośnika?\"\nsidebar_label: Czy planujecie jeszcze zbudowanie głośnika?\n---",
+      "source_content_hash": "b636e917101e70ee2ef1b95165f101a2046b5a39275756b685c1264d7ace5b70",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "### Tak.",
+      "source_content_hash": "f8e86294a9a4cef97b892a9b8c36b2ddd1a51e64d8aaadc9924eb3102ab15ad2",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 是的。"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Cały czas pracujemy nad głośnikiem - developerska wersja bramki, którą w tej chwili rozwijamy i sprzedajemy, jest platformą/komputerem, który będzie umieszczony w pięknym drewnianym głośniku.",
+      "source_content_hash": "41bdb4d26683b26e355cba6b130963378a17a8c85698a3e839b883e7cd610b41",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们持续致力于音箱开发——当前正在研发和销售的开发者版网关是一个将嵌入精美木质音箱的计算机平台。"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "Z każdą wersją oprogramowania staramy się, aby ułatwić konfigurację i używanie naszego systemu dla docelowego końcowego użytkownika, do wersji 1.0 zostało już tylko kilka wydań.",
+      "source_content_hash": "8435e83762ace4415a2ea75ac40ec2cede7a0013521ae6ea35fdf6964ed4b62b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过每个软件版本迭代，我们都在努力简化系统配置流程，使其更贴近终端用户的使用需求，距离1.0正式版仅剩数个版本之遥。"
+      }
+    },
+    {
+      "segment_id": "180bddb1",
+      "source_content": "Nasz głośnik będzie bardzo ładnie i głośno grał, nie będzie podsłuchiwał, sprzedawał danych o użytkownikach ani serwował reklam, jednocześnie za jego pomocą będzie można lokalnie sterować całą automatyką domową.",
+      "source_content_hash": "b68e42b6f4b5dc4b03d54db35b0534538d8e970b88527b842757cb95df3dfaf9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们的音箱将具备卓越音质表现，绝不窃听用户隐私、贩卖用户数据或推送广告，同时可通过本地化操作控制整个智能家居系统。"
+      }
+    },
+    {
+      "segment_id": "86b54d44",
+      "source_content": "Nie podajemy daty dostępności ani ceny ostatecznego produktu, póki nie zakończymy testów prototypów i wszystkie składowe komponenty (driver, wzmacniacz, zasilacz, obudowa) zostaną ostatecznie zatwierdzone.",
+      "source_content_hash": "3873ecf8e639a753362de48c294c43a6a2541bf112099b230f2116095e9e6dfb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在原型测试完成且所有核心组件（驱动、功放、电源、外壳）通过最终验证前，我们暂不公布最终产品的上市日期及定价。"
+      }
+    },
+    {
+      "segment_id": "39b3772c",
+      "source_content": "Zapewniamy jednak, że ten finalny produkt powstanie - jesteśmy już całkiem blisko :)",
+      "source_content_hash": "c96e83cbd688fcb89734f635542aa2df47064cc509245e36c6627d8fcd9c1b95",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "但我们承诺最终产品必将问世——目前进展已非常接近目标 :)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_faq_when_speaker.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.117595+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "72f3a97bf5409f9d50ba1247c3a88ffb25445e609afec1aa7ae305006322067f"
+  }
+}

@@ -1,0 +1,452 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2020-07-22-release-notes.md",
+  "source_file_content_hash": "275e2fe907b17902152c5fb8f2b14e005a282664519dc8aafc44f1dd87941073",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Jola AI-Speaker\nauthorURL: https://github.com/sviete\nauthor_title: Asystentka\nauthorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4\ntitle: Wersja systemu 0.112.6\ntags: [\"location\", \"demo\", \"home assistant\", \"wizard\"]\n---",
+      "source_content_hash": "15d4364f79fe1b3d578988460c3a5ed0528fbf1f9fc85846179865401628a301",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "1cc03ec8",
+      "source_content": "# 0.112.6 Location, Location, Location...",
+      "source_content_hash": "ad9b8e3c45727db8056b5e1377edcea4fbb7993ec4bdb399f40ed17275373221",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# 0.112.6 定位，定位，还是定位..."
+      }
+    },
+    {
+      "segment_id": "143e51c1",
+      "source_content": "- ![Location](/img/en/blog/202007/gps.png) Raportowanie lokalizacji\n- ![Kreator](/img/en/blog/202007/magic-wand.png) Ulepszone kreatory początkowej konfiguracji\n- ![Komendy](/img/en/blog/202007/mobile-request.png) Wysyłanie komend do aplikacji mobilnej \n- ![Demo](/img/en/blog/202007/eye.png) DEMO Aplikacji\n- ![Home Assistant](/img/en/blog/202007/hass.png) Nowy Home Assistant",
+      "source_content_hash": "c225a7e36146211958cb25684cce9ed71ac344e1068aed15014bb187c9424173",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- ![Location](/img/en/blog/202007/gps.png) 位置上报功能\n- ![Kreator](/img/en/blog/202007/magic-wand.png) 增强版初始化配置向导\n- ![Komendy](/img/en/blog/202007/mobile-request.png) 向移动应用发送指令\n- ![Demo](/img/en/blog/202007/eye.png) 应用演示版\n- ![Home Assistant](/img/en/blog/202007/hass.png) 新版Home Assistant"
+      }
+    },
+    {
+      "segment_id": "ea978e4d",
+      "source_content": "<!--truncate-->",
+      "source_content_hash": "f5cded2aa7e288e395fe4f67f9dabda2281904b2f5358d07302b3aa8be0acdfa",
+      "node_type": "comment",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_ea978e4d"
+      }
+    },
+    {
+      "segment_id": "6604338b",
+      "source_content": ":::tip[Wskazówka]\nUWAGA Przed aktualizacją zalecamy wykonać [kopię zapasową konfiguracji](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji). W ten sposób sprawdzisz poprawność swojej konfiguracji przed rozpoczęciem aktualizacji i zwiększysz prawdopodobieństwo bezproblemowej aktualizacji.\n:::",
+      "source_content_hash": "8037a28333f24321b7f0ca3b0ff5dadb46488124d52cf37fa284e31f781ef145",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::tip[温馨提示]\n更新前强烈建议先进行[配置备份](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji)。通过预先验证配置完整性可显著提升升级成功率。\n:::"
+      }
+    },
+    {
+      "segment_id": "d2808037",
+      "source_content": ":::important[informacja]\nW razie problemów po aktualizacji sprawdź procedurę [Aktualizacja z konsoli](/docs/ais_bramka_update_manual) lub [Wykonanie pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step)- to może dotyczyć szczególnie osób, które instalują na bramce dodatkowe niestandardowe komponenty.\n:::",
+      "source_content_hash": "3cec0bb82063176fa13cef39765f9b987deaab39151bf29d8edb2af0bf5c6672",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::important[重要通知]\n若升级后遇到问题，请参考[控制台更新指南](/docs/ais_bramka_update_manual)或[应用完全重置步骤](/docs/ais_bramka_reset_ais_step_by_step)——特别是安装了非标准组件的用户需特别注意。\n:::"
+      }
+    },
+    {
+      "segment_id": "0d170438",
+      "source_content": ":::caution[Ważna informacja o aktualizacji!]\n **Po aktualizacji pierwsze uruchomienie może trwać nawet 20 minut.**\n\n ![wait](/img/en/blog/202007/wait.png) w tym czasie aktualizowane są biblioteki do integracji dodanych na bramce i baza danych jest migrowana do nowego formatu.\n\n **Poczekaj cierpliwie na zakończenie aktualizacji.**\n:::",
+      "source_content_hash": "f24e7e32d2944c5197cc2045eae7d3675cf519a84dcd85b4b9da2ec0ee81b7c1",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[升级重要提示!]\n **升级后首次启动可能耗时长达20分钟**\n\n ![wait](/img/en/blog/202007/wait.png) 在此期间将更新网关集成库并迁移数据库至新格式\n\n **请耐心等待升级完成**\n:::"
+      }
+    },
+    {
+      "segment_id": "9f9e64f5",
+      "source_content": "## ![Location](/img/en/blog/202007/gps.png) Raportowanie lokalizacji",
+      "source_content_hash": "a13ba2398c9790a130291142d6e9ef2ab8681a08932204bf3afb76cf9359c323",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![Location](/img/en/blog/202007/gps.png) 位置上报功能"
+      }
+    },
+    {
+      "segment_id": "1042b50d",
+      "source_content": "Aktualizacje lokalizacji mogą być wysyłane z różnych urządzeń/aplikacji do Asystenta domowego. Następnie na podstawie lokalizacji osoby (zmiana strefy) mogą być wykonywane automatyzacje.",
+      "source_content_hash": "6f491f63d19c29cd165612e1d3f606471133a743e32061dd897fe04899a8f9ab",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "家庭助理可接收来自不同设备/应用的位置更新数据，基于人员区域变化触发自动化场景。"
+      }
+    },
+    {
+      "segment_id": "aa1e7006",
+      "source_content": "Żeby ułatwić konfigurację i używanie tej funkcjonalności Asystenta domowego dodaliśmy wysyłanie lokalizacji bezpośrednio z naszej mobilnej aplikacji do bramki AIS dom.",
+      "source_content_hash": "fc75d491ad3c2018b741d078dfcc9654751c74aba3b2f667395163b1870d3dee",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "为简化配置流程，我们新增了从AIS dom移动应用直接向网关发送位置数据的功能。"
+      }
+    },
+    {
+      "segment_id": "3a76cadb",
+      "source_content": ":::tip[Ta funkcjonalność wymaga aplikacji AIS dom w wersji 1.3.0 lub nowszej.]\nOczywiście to, czy dane o lokalizacji będą wysyłane zależy od tego, czy przyznasz uprawnienia do sprawdzania lokalizacji dla aplikacji AIS dom i włączysz serwis raportujący lokalizację.\n:::",
+      "source_content_hash": "e379c52219e5f2b05c69376bbf302338b5110cd118a88bb17aca10f9214bea16",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::tip[该功能需AIS dom应用1.3.0及以上版本]\n是否上报位置数据取决于您是否授予应用位置权限并启用了位置上报服务。\n:::"
+      }
+    },
+    {
+      "segment_id": "c504c207",
+      "source_content": "Żeby wysyłać dane o lokalizacji wystarczy:",
+      "source_content_hash": "ff284e0fe476bc3e0e0fe9aadfe4fc0611d591a9c458c1333a963a85ca4a9c8e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "启用位置上报仅需四步："
+      }
+    },
+    {
+      "segment_id": "310e47b7",
+      "source_content": "1. Zaktualizować aplikację mobilną do wersji 1.3.0 lub nowszej\n![Location](/img/en/blog/202007/mob_app_version.png)\n\n2. Uruchomić serwis \"Raportowanie lokalizacji\"\n![Location](/img/en/blog/202007/mob_app_location_1.png)\n\n3. Zezwolić aplikacji AIS na dostęp do lokalizacji urządzenia\n![Location](/img/en/blog/202007/mob_app_location_2.png)\n\n4. W powiadomieniu AIS pojawi się informacja **GPS** - raportowanie lokalizacji do bramki\n![Location](/img/en/blog/202007/mob_app_location_3.png)",
+      "source_content_hash": "cd148f053d18c5d30ad1ebc93b395894da362b8a1bd5e4726452075eaeaf2349",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "1. 将移动应用升级至1.3.0或更高版本\n![Location](/img/en/blog/202007/mob_app_version.png)\n\n2. 启用\"位置上报\"服务\n![Location](/img/en/blog/202007/mob_app_location_1.png)\n\n3. 授予AIS应用设备位置访问权限\n![Location](/img/en/blog/202007/mob_app_location_2.png)\n\n4. 通知栏将显示**GPS**标识——表示位置数据正在上报至网关\n![Location](/img/en/blog/202007/mob_app_location_3.png)"
+      }
+    },
+    {
+      "segment_id": "5dae11e3",
+      "source_content": "W efekcie na mapie w aplikacji webowej dostaniemy informację o lokalizacji naszego telefonu: \n![Location](/img/en/blog/202007/location_in_web_app1.png)",
+      "source_content_hash": "11b6327d113ba214c9cd72d4febf03101d38e1e06ffd554622540eb2ad038176",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "最终在网页应用的地图上，我们将看到手机当前位置的标记：\n![Location](/img/en/blog/202007/location_in_web_app1.png)"
+      }
+    },
+    {
+      "segment_id": "06e24cc0",
+      "source_content": "Możemy łatwo kliknąć na bieżącym położeniu i utworzyć strefę z bieżącej lokalizacji:\n![Location](/img/en/blog/202007/location_in_web_app2.png)",
+      "source_content_hash": "ee71695bd9dfeb3f3133d74d89995e219ad0bf1ec25788e3b374842e56188ad6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "只需点击当前位置标记，即可快速创建基于当前坐标的地理围栏：\n![Location](/img/en/blog/202007/location_in_web_app2.png)"
+      }
+    },
+    {
+      "segment_id": "e7772088",
+      "source_content": "![Location](/img/en/blog/202007/location_in_web_app3.png)",
+      "source_content_hash": "0f0896bf237b887a44968d86b21fc5f68064e4bd83df82de9b9cc8e3a7ba483a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Location](/img/en/blog/202007/location_in_web_app3.png)"
+      }
+    },
+    {
+      "segment_id": "eab056be",
+      "source_content": "Gdy już mamy dodane strefy to możemy dodać automatyzacje oparte na strefach. \nOpisujemy to w dokumentacji [Automatyzacje oparte na lokalizacji](/docs/ais_bramka_presence_detection)",
+      "source_content_hash": "c202a303d43598bfbe4ee5ccfcdb378da54ab82f769f8795442589c63067346b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "完成地理围栏设置后，即可创建基于位置触发的自动化场景。\n具体操作详见文档《[基于位置的自动化](/docs/ais_bramka_presence_detection)》"
+      }
+    },
+    {
+      "segment_id": "afa378f7",
+      "source_content": "Możemy też dodać kartę mapy do interfejsu\n![Location](/img/en/blog/202007/location_in_web_app6.png)",
+      "source_content_hash": "1c181a86394e1048aa6d0e759689c1cf5e4d5c4d3815b60ed82cc53f10fb9301",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "还可在界面中添加地图卡片\n![Location](/img/en/blog/202007/location_in_web_app6.png)"
+      }
+    },
+    {
+      "segment_id": "7736989b",
+      "source_content": "i wyświetlać na niej ścieżkę z zarejsetrowanych lokalizacji:\n![Location](/img/en/blog/202007/location_in_web_app5.png)",
+      "source_content_hash": "27b1c09181598eaaac6e5b91425119427b2a36daf843623a4aa6a068dcb64d31",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "并显示设备移动轨迹记录：\n![Location](/img/en/blog/202007/location_in_web_app5.png)"
+      }
+    },
+    {
+      "segment_id": "0a103a02",
+      "source_content": "## ![Kreator](/img/en/blog/202007/magic-wand.png) Ulepszone kreatory początkowej konfiguracji",
+      "source_content_hash": "784eaeb15ab0a321080b1a0a82555a06f47826d0bb832c989030fdf2857ebd4b",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![Kreator](/img/en/blog/202007/magic-wand.png) 初始配置向导升级"
+      }
+    },
+    {
+      "segment_id": "8126f763",
+      "source_content": "Poprawiliśmy konfiguratory konfiguracji początkowej - tu też ma być prościej i ładniej ;)",
+      "source_content_hash": "750108d34db6bf05cac32c4ede4ce7273ea0bd5f4690f764b2e104ea032939d0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们优化了初始化配置向导界面，操作更简单直观"
+      }
+    },
+    {
+      "segment_id": "3a8d2b95",
+      "source_content": "### W aplikacji webowej:",
+      "source_content_hash": "6e2e3cbe214e3dabc0cceeed6f0f97aebf515886f724cb07c88709aead410aed",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 网页端改进："
+      }
+    },
+    {
+      "segment_id": "49f9f337",
+      "source_content": "- dodaliśmy osobny ekran do pobrania konfiguracji z AI-Speaker\n![Konto właściciela](/img/en/bramka/onboarding_step_1_1.png)\n\n- bardziej podkreślamy, jeśli krok wymaga połączenia z internetem\n![Konto właściciela](/img/en/bramka/onboarding_step_2_0.png)\n\n- w ostanim kroku konfiguracji dodaliśmy informacje o aplikacjach mobilnych\n![Konto właściciela](/img/en/blog/202007/wizard_mob_app.png)",
+      "source_content_hash": "aad996d76d8d8c1acaa0be651abccc5fd724b7bfbd02660b5bde83350d1b1077",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 新增独立界面用于从AI-Speaker下载配置\n![Konto właściciela](/img/en/bramka/onboarding_step_1_1.png)\n\n- 更突出显示需要联网操作的步骤\n![Konto właściciela](/img/en/bramka/onboarding_step_2_0.png)\n\n- 在最终配置步骤新增移动端应用提示\n![Konto właściciela](/img/en/blog/202007/wizard_mob_app.png)"
+      }
+    },
+    {
+      "segment_id": "1862c5fe",
+      "source_content": "Cały proces konfiguracji wstępnej wykonywanej na bramce opisany jest w dokumentacji [Pierwsze uruchomienie](/docs/ais_bramka_first_run_step_account)",
+      "source_content_hash": "793071b285133800e0996ce54a1d9a6e807cfda808f3108243ea70ec39220a57",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "完整初始化流程详见文档《[首次运行指南](/docs/ais_bramka_first_run_step_account)》"
+      }
+    },
+    {
+      "segment_id": "94145a94",
+      "source_content": "### W aplikacji mobilnej:",
+      "source_content_hash": "eeb775a1e9e26f01b2e2e848315cb695aa9a10d4e70a6bbe2645c10ff04c2893",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 移动端改进："
+      }
+    },
+    {
+      "segment_id": "dea0598f",
+      "source_content": "- dodaliśmy ekran z uprawnieniami do lokalizacji",
+      "source_content_hash": "b3b846a9644f0f27bc691304eac92f2aa775ca091ecfbc05835fde704c1a88ce",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 新增地理位置权限授权界面"
+      }
+    },
+    {
+      "segment_id": "a3da9b2d",
+      "source_content": "<img src=\"/img/en/frontend/ais_dom_new_wizard_1_1_mob_apk.png\" alt=\"AIS Dom\"/>",
+      "source_content_hash": "73c7ec7b3487b61450dccad79b375b4b27b265e0018598b1a177a7eb49494472",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_a3da9b2d"
+      }
+    },
+    {
+      "segment_id": "7a3b7c62",
+      "source_content": "- dodaliśmy możliwość połączenia z naszą bramką DEMO",
+      "source_content_hash": "658f01eb19b35644af806826c685c1992cdc2e1b2536b51afbafa1c3af633fbc",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 增加连接DEMO网关功能"
+      }
+    },
+    {
+      "segment_id": "8850c5e2",
+      "source_content": "<img src=\"/img/en/frontend/ais_dom_new_wizard_3_mob_apk.png\" alt=\"AIS Dom\"/>",
+      "source_content_hash": "0fe9df5f6e52fe3f1bf068d83e9c5047a7e0053f2de75191d322653c54c7e2b3",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_8850c5e2"
+      }
+    },
+    {
+      "segment_id": "7bc8bb24",
+      "source_content": "Cały proces konfiguracji wstępnej wykonywanej w aplikacji mobilnej opisany jest w dokumentacji AIS dom, Konfiguracja za pomocą kreatora",
+      "source_content_hash": "3cc2fdab9772329fe724b406b751b3f12c63e3d6774bf6f9aacadbcb0d1e6b34",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "完整移动端配置流程详见文档《AIS dom应用：向导配置指南》"
+      }
+    },
+    {
+      "segment_id": "ab39e8a7",
+      "source_content": "## ![Komendy](/img/en/blog/202007/mobile-request.png) Wysyłanie komend do aplikacji mobilnej",
+      "source_content_hash": "a0b7b5856cdbf91526ab5ea3f0637bdc357dd9283d21d62d406d6fd1813da862",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![Komendy](/img/en/blog/202007/mobile-request.png) 向移动端发送指令"
+      }
+    },
+    {
+      "segment_id": "d21af28f",
+      "source_content": "Na bramce dostępna jest usługa ``ais_ai_service.mob_request``, która umożliwia wysłanie z bramki komendy (zapytania/żądania) do aplikacji mobilnej **AIS dom**.\nDzięki temu za pomocą automatyzacji możemy zdalnie z bramki włączyć mikrofon na urządzeniu mobilnym lub zapytać o aktualną lokalizację urządzenia.",
+      "source_content_hash": "ce035e4001e691428f6efdb1e098277a539ac08780109bab36f5ba290a663c5f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "网关现提供``ais_ai_service.mob_request``服务，可通过该服务向**AIS dom**移动应用发送远程指令（查询/请求）。\n借助自动化功能，您可以从网关远程激活移动设备麦克风或查询设备当前位置。"
+      }
+    },
+    {
+      "segment_id": "a7a2b727",
+      "source_content": ":::info\n**Pomysł pojawił się na forum (dzięki za inspiracje!), spodobała nam się ta funkcjonalność, więc ją dodaliśmy :)**\n\nDocelowo pokażemy na przykładach jak wykorzystać tę funkcjonalność i opiszemy w dokumentacji pełne API.\n:::",
+      "source_content_hash": "4163eea580a3a6f4336fbdc76d7a61deb24804e3d38bde8ff48bfdf84b44a6b5",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::info\n**该功能灵感来自社区论坛（感谢用户创意！），我们觉得非常实用便进行了开发实现**\n\n后续将通过案例演示具体应用场景，并完善API文档说明。\n:::"
+      }
+    },
+    {
+      "segment_id": "b6152880",
+      "source_content": "![Notify](/img/en/blog/202007/mic_on_service.png)",
+      "source_content_hash": "e60546f13dececc5422c1f76fce5965b283f684f9ec18f6dbff5dcce3681cd1b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Notify](/img/en/blog/202007/mic_on_service.png)"
+      }
+    },
+    {
+      "segment_id": "168f82c4",
+      "source_content": ":::warning[UWAGA]\nMożna z bramki (do której jesteśmy zalogowani) wysłać komendę do urządzenia mobilnego i zdalnie \"zmusić\" je do jej wykonania, tylko jeśli włączony jest stosowny dostęp (do mikrofonu i/lub lokalizacji) na urządzeniu mobilnym.\n\nPokazujemy w powiadomieniu, że taka zdalna komenda jest uruchomiona - żeby było to jasne dla właściciela urządzenia.\n:::",
+      "source_content_hash": "0a47c4ea65774c2d958905bc1b4f8f8eb5a1ccfa1c6a2f341b3d6fc4410f7e3d",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::warning[注意]\n只有当移动设备上启用了相应权限（麦克风和/或位置服务）时，才能从已登录的网关向移动设备发送远程执行命令。\n\n我们会在通知中显示此类远程命令的执行状态，确保设备所有者完全知情。\n:::"
+      }
+    },
+    {
+      "segment_id": "d53c8ed4",
+      "source_content": "## ![Demo](/img/en/blog/202007/eye.png) DEMO Aplikacji",
+      "source_content_hash": "ee71fa0e75f6ba607fdb131972c361b55532b59c8a32e325a93db21a900a0e7e",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![Demo](/img/en/blog/202007/eye.png) 应用演示版"
+      }
+    },
+    {
+      "segment_id": "14bc6b75",
+      "source_content": "Pracujemy nad dodaniem [DEMO aplikacji Asystent domowy](https://demo.ai-speaker.com/), na którym zaprezentujemy podstawowe możliwości Asystenta domowego.",
+      "source_content_hash": "20a754f1b214585f5892c2a2809d2d19ac1fa4b1793f30aa352fd9e15dad0840",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们正在开发[家庭助理演示版](https://demo.ai-speaker.com/)，用于展示家庭助理系统的核心功能。"
+      }
+    },
+    {
+      "segment_id": "e478ec2c",
+      "source_content": "Celem wersji demo jest zaprezentowanie możliwoście Asystenta domowego oraz możliwość prezentowania przykładowych propozycji rozwiązania zagadnień zgłaszanych do nas.",
+      "source_content_hash": "56d01b54a23135b762cb79cc6aa0f136833b9963b1e44e810f87e1958623fd5d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "演示版的目的是呈现家庭助理的解决方案能力，并针对用户反馈的问题提供示例实现方案。"
+      }
+    },
+    {
+      "segment_id": "8664ed0b",
+      "source_content": "![DEMO](/img/en/blog/202007/demo.png)",
+      "source_content_hash": "3610645d83dbf5fa695d7c61573dcdcd6ac9807f9e277e593823919b732862e1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![DEMO](/img/en/blog/202007/demo.png)"
+      }
+    },
+    {
+      "segment_id": "dd4905a4",
+      "source_content": "## ![Home Assistant](/img/en/blog/202007/hass.png) Nowy Home Assistant",
+      "source_content_hash": "eb581dbd47d3db30238ecc40814809dc4756d8051c13f6f4606a21756665d7a0",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![Home Assistant](/img/en/blog/202007/hass.png) 新版Home Assistant"
+      }
+    },
+    {
+      "segment_id": "ad3e22c6",
+      "source_content": "Najnowszy (stabilny) [Home Assistant 0.112.5](https://www.home-assistant.io/blog/2020/07/01/release-112/)\nJak zwykle fajne nowości i kolejne integracje łatwo dostępne z poziomu aplikacji 🥳",
+      "source_content_hash": "c1f7e8e07669a131ecc3e049b67388362f1782fdb96386ab4906e5a646c7245f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "最新稳定版[Home Assistant 0.112.5](https://www.home-assistant.io/blog/2020/07/01/release-112/)\n一如既往带来精彩新功能和可通过应用直接配置的集成组件 🥳"
+      }
+    },
+    {
+      "segment_id": "42d9ca67",
+      "source_content": "![Home Assistant](/img/en/blog/202007/ha_0.112.png)",
+      "source_content_hash": "362c1d475e228141c4feb54cac9c9286d65a7e362fe8e430963708b3ef14e12a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Home Assistant](/img/en/blog/202007/ha_0.112.png)"
+      }
+    },
+    {
+      "segment_id": "a19e2d81",
+      "source_content": "----",
+      "source_content_hash": "bd64bb8efa5b3f27e6442f23600c3b516127ea17e23724b41e50da4c22883edd",
+      "node_type": "thematicBreak",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "----"
+      }
+    },
+    {
+      "segment_id": "c6b2ca77",
+      "source_content": "Zapraszamy do aktualizacji i [komentowania na forum :)](https://ai-speaker.discourse.group/)\nAI-Speaker 07/2020\n----",
+      "source_content_hash": "570e0f723f0239cf93bfbd083c037b5f6ed278cac876fef613ad755aa3e72b79",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "欢迎升级并[参与论坛讨论 :)](https://ai-speaker.discourse.group/)\nAI-Speaker 2020年7月\n----"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2020-07-22-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.123002+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "275e2fe907b17902152c5fb8f2b14e005a282664519dc8aafc44f1dd87941073"
+  }
+}

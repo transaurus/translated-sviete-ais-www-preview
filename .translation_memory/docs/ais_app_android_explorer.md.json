@@ -1,0 +1,72 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_app_android_explorer.md",
+  "source_file_content_hash": "830df549e3425bc8dc256954998bfb1a94a9411a996732068a5ee83f4e7bee9c",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"AIS explorer\"\nsidebar_label: AIS explorer\n---",
+      "source_content_hash": "2481d6527829696b5a8ae05eafe3d87beaeab6a5f813d942d5fc5bb0abc16ab5",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "6ef78e84",
+      "source_content": "AIS explorer (File Explorer) to kompleksowe narzędzie do zarządzania plikami.\nAplikacja ta dostarczana jest na bramce, ale może też być za darmo pobrana z Google Play i używana na telefonie czy tablecie.",
+      "source_content_hash": "d294932ae5643609b26432d8cdf1c5e510ad05ff55ea4cca93891a2bf26a0c4c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "AIS Explorer（文件管理器）是一款全面的文件管理工具。\n该应用预装在网关上，也可从Google Play免费下载并用于手机或平板设备。"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "![AIS Explorer](/img/en/frontend/ais_explorer_apk_screen.png)",
+      "source_content_hash": "f91b41348c41e2a26b0a4d52838b290d2340d923cdf0bf6b9b34d9de16e5be8a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS Explorer](/img/en/frontend/ais_explorer_apk_screen.png)"
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "Jest to prosty, mały, szybki i wydajny Eksplorator plików oraz wg nas jedna z najlepszych aplikacji typu File Manager w [sklepie Google Play](https://play.google.com/store/apps/details?id=pl.sviete.dom.anexplorer.pro).\nMenedżer plików jest przeznaczony dla wszystkich urządzeń z Androidem, w tym telefonów, phabletów, tabletów i Android TV. Do działania nie potrzebuje żadnych niepotrzebnych uprawnień, żadnych reklam, żadnych mikropłatności, wszystko za darmo łącznie z kodami źrodłowymi.",
+      "source_content_hash": "8b53995b900468209fbfd037124b52c8c191c0144b727e091f49a975dc3ffbdf",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "这是一款简洁轻量、快速高效的文件资源管理器，我们认为它是[Google Play商店](https://play.google.com/store/apps/details?id=pl.sviete.dom.anexplorer.pro)中最优秀的文件管理类应用之一。\n该文件管理器兼容所有安卓设备，包括手机、平板电脑及Android TV。运行时无需任何冗余权限、不含广告、没有内购项目，完全免费且提供完整源代码。"
+      }
+    },
+    {
+      "segment_id": "86b54d44",
+      "source_content": "Kod źródłowy dostępny jest w naszym [publicznie dostępnym repozytorium](https://github.com/sviete/AIS-explorer)",
+      "source_content_hash": "bd1df002c786d2017666246a777d10fc6e3be51631c31bfc50c87a413a51cd45",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "源代码可在我们的[公开代码仓库](https://github.com/sviete/AIS-explorer)获取"
+      }
+    },
+    {
+      "segment_id": "39b3772c",
+      "source_content": "Podpisane wersje beta publikujemy na naszym [serwisie ze składowymi systemu](https://powiedz.co/ota/)",
+      "source_content_hash": "f36306a41c6cc7f6627c42a6bd2bf44e674b0217fc0fbece6d158bcd8edb4d85",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "已签名的测试版发布在我们的[系统组件服务站点](https://powiedz.co/ota/)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_app_android_explorer.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.110141+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "830df549e3425bc8dc256954998bfb1a94a9411a996732068a5ee83f4e7bee9c"
+  }
+}

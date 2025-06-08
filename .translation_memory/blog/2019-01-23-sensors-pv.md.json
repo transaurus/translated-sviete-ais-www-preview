@@ -1,0 +1,292 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2019-01-23-sensors-pv.md",
+  "source_file_content_hash": "c198842a0b5b67d2360368f83d4b127345ba211c474206e7186bd430619c13a1",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Andrzej Raczkowski\nauthorURL: https://github.com/sviete\nauthorFBID: 1546384510\ntitle: Monitorowanie instalacji fotowoltaicznej - Znaj swoją moc!\n---",
+      "source_content_hash": "4a1eb742a4ec35727cb847ebceb6df3da230ee1ccc0babd9ff36da236d839150",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Instalacja fotowoltaiczna z optymalizatorami",
+      "source_content_hash": "136c6147be3108dbeff4d520c046ec60c64122a01e2f0ae240c11a4687c42b65",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 带功率优化器的光伏系统安装"
+      }
+    },
+    {
+      "segment_id": "8ac585fb",
+      "source_content": "Przeszło 2 lata temu, pod koniec roku 2016 zdecydowaliśmy się na montaż instalacji fotowoltaicznej. Wcześniej czytałem o tym jak działa instalacja PV i dowiedziałem się, że w klasycznym rozwiązaniu moduły są połączone w szeregu z innymi modułami, dlatego spadek prądu na jednym module (np. na skutek zacienienia) przekłada się na spadek prądu w całym szeregu modułów. Ze wgledu na skomplikowaną połać dachową uznałem, że może to mieć znaczenie i w ramach obejścia tego potencjalnego problemu zastosowaliśmy panele fotowoltaiczne z optymalizatorami mocy.",
+      "source_content_hash": "c5f71dbc7b77685b28f8cdd7c476c2831fbd4dd606fdf664645e2a9debf7ed0b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "早在2016年底，我们就决定安装光伏发电系统。在此之前，我阅读了有关光伏系统工作原理的资料，了解到在传统解决方案中，光伏组件与其他组件串联连接，因此单个组件上的电流下降（例如由于阴影）会导致整个串联组件电流下降。考虑到屋顶结构复杂，我认为这可能会有影响，为了解决这个潜在问题，我们采用了带功率优化器的光伏面板。"
+      }
+    },
+    {
+      "segment_id": "3e6699f4",
+      "source_content": "<!--truncate-->",
+      "source_content_hash": "f5cded2aa7e288e395fe4f67f9dabda2281904b2f5358d07302b3aa8be0acdfa",
+      "node_type": "comment",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_3e6699f4"
+      }
+    },
+    {
+      "segment_id": "5085dd17",
+      "source_content": "> Optymalizator mocy ma za zadanie obciążyć moduł w sposób optymalny czyli taki, który w danych warunkach oświetlenia zapewni największą możliwą moc niezależnie do tego, jaki prąd i napięcie generują pozostałe moduły w szeregu.",
+      "source_content_hash": "93afcdb4aaf64b38c81764174a000d087568859908e8c6a6e0a065afc9e4f319",
+      "node_type": "blockquote",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "> 功率优化器的任务是以最佳方式对组件进行负载，即在给定的光照条件下，无论串联中其他组件产生的电流和电压如何，都能提供最大可能的功率。"
+      }
+    },
+    {
+      "segment_id": "42ad8e83",
+      "source_content": "Tak wyglądał dach w trakcie montażu - jak widać nie jest to prosta powierzchnia.",
+      "source_content_hash": "76fce2177c9cede478485c322e7e45f5f3a0ce80a6abec98838512029a219c78",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "这是安装过程中的屋顶照片——可以看到这不是一个简单的平面。"
+      }
+    },
+    {
+      "segment_id": "1acb9a05",
+      "source_content": "![Aplikacja asystent domowy ogrzewanie](/img/en/blog/201901/pv2.jpg)",
+      "source_content_hash": "6866f1bf707c9abd5a43bc75efb48817045afc0e9f5acdc7cbacb5d6f6ab2a78",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![家庭助理应用供暖](/img/en/blog/201901/pv2.jpg)"
+      }
+    },
+    {
+      "segment_id": "2df4f75f",
+      "source_content": "Panele z optymalizatorami są droższe od tych bez, koszt optymalizatora w naszym przypadku wyniósł około 180 zł za panel, czyli 180 x 28 paneli = 5040 zł więcej. Od początku zadawałem sobie pytnie, czy taki wydatek się kiedykolwiek zwróci? Producent zapewnia, że to ma sens... ale ja postanowiłem monitorować pracę instalacji oraz produkcję prądu z każdego panela, żeby to sprawdzić :)",
+      "source_content_hash": "c35ce4bca4114ce18a55d4b6e3c1e3c57958efdab7873685ac630887ca10d61f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "带优化器的面板比不带的价格更高，在我们的案例中，每个优化器的成本约为180兹罗提/面板，即28个面板×180兹罗提=额外5040兹罗提。从一开始我就问自己，这样的支出是否值得？制造商保证这是有意义的……但我决定通过监控系统运行和每个面板的发电量来验证这一点 :)"
+      }
+    },
+    {
+      "segment_id": "95b38f97",
+      "source_content": "## Komponent PVOutput i czujniki w systemie Asystent domowy",
+      "source_content_hash": "51a35ecb2bc3ec38f1c68aca140672d0d26670b1240ff9bef5058ad071d68f01",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## PVOutput组件与家庭助理系统中的传感器"
+      }
+    },
+    {
+      "segment_id": "ccc88b4c",
+      "source_content": "Z pomocą przyszło mi API producenta oraz nasz **Asystent domowy**. Podłączyłem się do API za pomocą własnego komponentu, w tej chwili można to już zrobić za pomocą wielu oficjalnych integracji, szczegóły dla zainteresowanych pod tym adresem: <a href=\"https://www.home-assistant.io/components/sensor.pvoutput/\" target=\"_blank\">PVOutput Sensor</a>  \nIntegracja pozwala uzyskać szczegółowe informacje z instalacji fotowoltaicznej w systemie Asystent domowy. Monitorowane parametry instalacji dostępne są w systemie w formie czujników, w ten sposób możemy mieć łatwy wgląd w bieżącą produkcję, produkcję z ostatniego dnia, tygodnia, miesiąca, roku oraz całkowitą produkcję od początku działania instalacji.",
+      "source_content_hash": "925e96923284e81467cf86760d28dadb3073ce6388578d88402e15b6ff958b93",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "制造商API和我们的**家庭助理**系统帮了大忙。我通过自定义组件连接了API，现在可以通过许多官方集成实现这一点，详情请参阅：<a href=\"https://www.home-assistant.io/components/sensor.pvoutput/\" target=\"_blank\">PVOutput传感器</a>  \n该集成可在家庭助理系统中获取光伏系统的详细信息。系统以传感器形式监控光伏参数，这样我们可以轻松查看当前发电量、过去一天/一周/一个月/一年的发电量以及系统运行以来的总发电量。"
+      }
+    },
+    {
+      "segment_id": "26524352",
+      "source_content": "![Asystent domowy PV Ikony](/img/en/blog/201901/pv_icons.png)",
+      "source_content_hash": "3790ba3d7aa9663eb682cccdb2b30bb8be2c198a1132a8902532de7beb6e0dbc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![家庭助理光伏图标](/img/en/blog/201901/pv_icons.png)"
+      }
+    },
+    {
+      "segment_id": "0037ff70",
+      "source_content": "## Pytanie o status czujników - Znaj swoją moc!",
+      "source_content_hash": "6221c3c7a77c1687df6a4ac7cda7333c2341bc1d5f9f714821dd17ee924cf1f4",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 查询传感器状态——了解你的发电能力！"
+      }
+    },
+    {
+      "segment_id": "bdc231b1",
+      "source_content": "Oczywiście w naszym systemie **Asystent domowy** o status każdego czujnika możemy też zapytać i asystentka odpowie nam, jaka jest jego wartość. Czyli tak samo jak o temperaturę w pokoju możemy zapytać o to, jaka jest produkcja prądu, szczegółowo jest to opisane w dokumentacji [Komendy - status czujników](/docs/ais_app_assistent_commands#status-czujnikow). Przykładowo możemy zapytać:",
+      "source_content_hash": "4666e6b05ff7d4f77d3f56924cb3056ce03e43073acec81329d3d993655b7060",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "当然，在我们的**家庭助手**系统中，我们也可以查询每个传感器的状态，助手会告诉我们其当前数值。就像询问房间温度一样，我们可以询问当前的发电量，具体操作详见文档[命令 - 传感器状态](/docs/ais_app_assistent_commands#status-czujnikow)。例如我们可以这样询问："
+      }
+    },
+    {
+      "segment_id": "4dd51304",
+      "source_content": "```text\n \"Jaka jest aktualna produkcja prądu?\"\n ```",
+      "source_content_hash": "f2a00475736a78aa326e3eacdb356b42dd64a7d12c66e9ec15f3748d79af1da5",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_4dd51304"
+      }
+    },
+    {
+      "segment_id": "50746522",
+      "source_content": "![Asystent domowy PV 6](/img/en/blog/201901/pv6.png)",
+      "source_content_hash": "fc6245200989129742e8f4421d4043aa9b6acb58fc0c2b86518a86e728da20fc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![家庭助手光伏系统6](/img/en/blog/201901/pv6.png)"
+      }
+    },
+    {
+      "segment_id": "aa1e7006",
+      "source_content": "Informacje o statusie każdego czujnika są też logowane w bazie danych na urządzeniu, dzięki czemu łatwo możemy sprawdzić na wykresie jak kształtowała się produkcja w czasie. Wystarczy nacisnąć w aplikacji na czujnik, żeby zobaczyć wykres jego wartości w czasie:",
+      "source_content_hash": "40cee0a7e35ed0eb15ba01ff23f149f1b43e136de1d90768924a311f43153b94",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "每个传感器的状态信息也会记录在设备数据库中，因此我们可以轻松通过图表查看发电量随时间的变化趋势。只需在应用中点击传感器，即可查看其数值随时间变化的曲线："
+      }
+    },
+    {
+      "segment_id": "13d9cd70",
+      "source_content": "![Aplikacja asystent domowy PV](/img/en/blog/201901/pv8.png)",
+      "source_content_hash": "2bf8ba6bfd950ab83298f1813acd4c9587d37746fb135fe839bf12073074bb2b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![家庭助手应用光伏](/img/en/blog/201901/pv8.png)"
+      }
+    },
+    {
+      "segment_id": "11c76fcc",
+      "source_content": "## Czas na matematykę",
+      "source_content_hash": "122eb9a5f964b95ced59bae482cb9b08b5e35a804250e8d7d6d5b188b23e22d6",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 数学时间"
+      }
+    },
+    {
+      "segment_id": "f7ef78f9",
+      "source_content": "Na koniec czas na matematykę i sprawdzenie czy wydane 5040zł na optymalizatory ma szanse się zwrócić?",
+      "source_content_hash": "d6d8e44778cb677f10aa9e9037d02e4cbbd2a2ed0ff1c5b32a934719ae976e92",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "最后是时候做道数学题了：花费5040兹罗提加装的优化器是否有机会回本？"
+      }
+    },
+    {
+      "segment_id": "d3649a1e",
+      "source_content": "![Aplikacja asystent domowy PV](/img/en/blog/201901/pv4.png)",
+      "source_content_hash": "e88e629e977812c8a44428edfb8c2ae3483b7dbdb78d012f2ed814d361f87494",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![家庭助手应用光伏](/img/en/blog/201901/pv4.png)"
+      }
+    },
+    {
+      "segment_id": "4d52a261",
+      "source_content": "Z rysunku rozkładu paneli na dachu widać, że **cała instalacja wyprodukowała dotychczas 14.86 MWh**, najmocniejszy panel wyprodukował 622 KWh a najsłabszy 456 KWh.\nDla uproszczenia założę, że gdyby nie optymalizatory to każdy panel wyprodukowałby tyle samo co najsłabszy, czyli 456 KWh.",
+      "source_content_hash": "c24cd04fe60d5261e56f858fe4b4cda81da8cbf9cba3e556cc7ff4109aa9c4ef",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "从屋顶面板分布图可见，**整套系统迄今已发电14.86兆瓦时**，发电量最高的面板贡献了622千瓦时，最低的为456千瓦时。为简化计算，假设未安装优化器时所有面板发电量都将与最弱面板持平（即456千瓦时）。"
+      }
+    },
+    {
+      "segment_id": "3c08ed05",
+      "source_content": "```text\n456 KWh * 28 paneli = 12.77 MWh\n12.77 MWh - tyle  wyprodukowałaby instalacja bez optymalizacji\n\n14.86 MWh - 12.77 MWh = 2.09 MWh\n2.09 MWh - o tyle mamy więcej prądu dzięki optymalizacji\n\n2.09 MWh = 2090 KWh * 0.55zł = 1149.5 zł\n1149.5 zł - tyle zaoszczędziliśmy pieniędzy dzięki optymalizacji w ciągu 2 lat\n\n5040 / 1149.5 * 2 = 8.7 lat\n8.7 lat - czas zwrotu inwestycji w optymalizatory\n ```",
+      "source_content_hash": "03864294d20700853b27e6f4227ed7654f6754c085b9427b562d46b460f36a02",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_3c08ed05"
+      }
+    },
+    {
+      "segment_id": "daed5acb",
+      "source_content": "## Czy to się opłaca?",
+      "source_content_hash": "99fa9186978b837e0a17bbe1088be7cf375bb31acb9c4142f90070f9c1711b9f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 这划算吗？"
+      }
+    },
+    {
+      "segment_id": "f01228d3",
+      "source_content": "Każdy z nas ma swoją ekonomię i nie da się jednoznacznie odpowiedzieć na to pytanie. Słyszałem, że są firmy, które nie robią inwestycji, jeżeli nie zwrócą się one po 2 latach. Inwestycja w fotowoltaikę to na pewno inwestycja z myślą o dużo dalszej przyszłości :)",
+      "source_content_hash": "36ad179ed3666de4f6d4dc2e8492657708e8410dfcbf411da64e9ad744b296b9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "每个人的经济考量不同，这个问题没有标准答案。我听说有些企业只做两年内能回本的投资。而光伏投资无疑是着眼于更长远未来的选择 :)"
+      }
+    },
+    {
+      "segment_id": "afa378f7",
+      "source_content": "Z pewnością opłaca się monitorować i kontrolować pracę urządzeń w naszym domu, szczególnie gdy kupi się panele od niemieckiego producenta z 25 letnią gwarancją mocy ;)\nZadanie monitorowania i kontorlowania chętnie ułatwi system Asystent domowy.",
+      "source_content_hash": "cc13caceadcc47356debfb088f64dd67c0fc4b329bb8a04a054b4b8c1c6f5c75",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "监控家中设备运行状况绝对物有所值，尤其是当您选购了德国制造、具有25年功率保障的光伏板时。家庭助手系统将乐意为您提供监测管控的便利。"
+      }
+    },
+    {
+      "segment_id": "7736989b",
+      "source_content": "**Samych słonecznych dni w 2019 roku! Życzy zespół AI-Speaker :)**",
+      "source_content_hash": "f5d1b172ee3f1f95da7dc00846d4d9b9df3bed041880e9deab1db1a3f2124efc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "**祝您2019年阳光充沛！AI-Speaker团队敬上 :)**"
+      }
+    },
+    {
+      "segment_id": "ec619944",
+      "source_content": "![Aplikacja asystent domowy ogrzewanie](/img/en/blog/201901/pv1.jpg)",
+      "source_content_hash": "948e297dbba98fb198dd32672a465188605cd60469014902cfe4fe87015c8b52",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![家庭助手应用供暖](/img/en/blog/201901/pv1.jpg)"
+      }
+    },
+    {
+      "segment_id": "2547a6bb",
+      "source_content": "![Asystent domowy PV 7](/img/en/blog/201901/pv7.png)",
+      "source_content_hash": "303b822fc04645c2cf0d3237e75f363158e47efe47b20d687168a4aaaf39f155",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![家庭助手光伏系统7](/img/en/blog/201901/pv7.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2019-01-23-sensors-pv.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.132789+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "c198842a0b5b67d2360368f83d4b127345ba211c474206e7186bd430619c13a1"
+  }
+}

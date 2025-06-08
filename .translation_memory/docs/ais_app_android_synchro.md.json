@@ -1,0 +1,82 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_app_android_synchro.md",
+  "source_file_content_hash": "a8b6a2b1f4b45e6856a29994b8109ffaafe35750d383abfc98d15d06c7bf6089",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"AIS synchro\"\nsidebar_label: AIS synchro\n---",
+      "source_content_hash": "a76208095554e33a29f99f1f1a8121e07e3a6354848292ee373ddfdb4226a54f",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "AIS synchro to aplikacja do synchronizacji plików i katalogów pomiędzy dyskami lokalnymi i dyskami w chmurze.",
+      "source_content_hash": "8fdc29c61ee6dcc8d7a7e83274c06ef6992a375a09a9c407ab8e6cf463273eb4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "AIS synchro 是一款用于在本地磁盘与云存储之间同步文件和目录的应用程序。"
+      }
+    },
+    {
+      "segment_id": "775b7fa4",
+      "source_content": "<img src=\"/img/en/frontend/ais_synchro_apk_screen.png\" width=\"360\" align=\"right\" />",
+      "source_content_hash": "1ad329a9f5e9ece5efb80aa66f790de16ec19e4f185d6d6a4a2af9db2c79962a",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_775b7fa4"
+      }
+    },
+    {
+      "segment_id": "180bddb1",
+      "source_content": "Aplikacja dostarcza wbudowaną binarkę działającą z wiersza poleceń **Rclone**.\nTa aplikacja służyła nam do dodawania dysków zdalnych w Asystencie domowym, aż przenieśliśmy tę funkcjonalność do aplikacji webowej, a binarkę rclone przenieśliśmy do naszego repozytorium [pakietów apt](http://powiedz.co/apt/). Aplikacja jest dostępna w [Google Play](https://play.google.com/store/apps/details?id=pl.sviete.dom.rcloneexplorer).",
+      "source_content_hash": "8ec5c32d925030f63aec0485359898111cfbb2a7d91dfa5c8a540aa1dbd4e371",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该应用内置了命令行工具 **Rclone** 的二进制程序。\n我们曾通过该应用为智能家居助手添加远程磁盘功能，直至我们将此功能迁移至网页应用，并将 rclone 二进制程序移至我们的 [apt软件包仓库](http://powiedz.co/apt/)。该应用程序可在 [Google Play](https://play.google.com/store/apps/details?id=pl.sviete.dom.rcloneexplorer) 获取。"
+      }
+    },
+    {
+      "segment_id": "86b54d44",
+      "source_content": "W przyszłości zamierzamy rozszerzyć funkcjonalność synchronizacji pomiędzy dyskiem lokalnym a dyskami w chmurze o wykonywanie kopii zapasowych ustawień systemu. Binarka [Rclone](https://rclone.org/) zapewnia nam api do obsługi kilkudziesięciu dysków.",
+      "source_content_hash": "bd9130d28d9679ffd326ab0fa0dd7d3eedeaa8d3ad3ef337614dae7d8d9adb3c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "未来我们计划扩展本地磁盘与云存储的同步功能，实现系统设置的自动备份。[Rclone](https://rclone.org/) 二进制程序为我们提供了支持数十种云存储的API接口。"
+      }
+    },
+    {
+      "segment_id": "f6168993",
+      "source_content": "Kod źródłowy dostępny jest w naszym [publicznie dostępnym repozytorium](https://github.com/sviete/AIS-synchro)",
+      "source_content_hash": "340c6ca40ced9476b85d439fb8eacf03787b3a43977e5158686e84b48999d3b9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "源代码发布于我们的 [公开代码仓库](https://github.com/sviete/AIS-synchro)"
+      }
+    },
+    {
+      "segment_id": "f5f6d2ce",
+      "source_content": "Podpisane wersje beta publikujemy na naszym [serwisie ze składowymi systemu](https://powiedz.co/ota/)",
+      "source_content_hash": "f36306a41c6cc7f6627c42a6bd2bf44e674b0217fc0fbece6d158bcd8edb4d85",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "已签名的测试版发布在我们的 [系统组件服务站点](https://powiedz.co/ota/)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_app_android_synchro.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.112660+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "a8b6a2b1f4b45e6856a29994b8109ffaafe35750d383abfc98d15d06c7bf6089"
+  }
+}

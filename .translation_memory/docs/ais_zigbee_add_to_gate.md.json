@@ -1,0 +1,82 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_zigbee_add_to_gate.md",
+  "source_file_content_hash": "9a2baffca7ea87b1e28a88020ade92a6ea29626dcaa791b8439257ae8dccf6a2",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Zigbee AIS dom\"\nsidebar_label: Dodanie zigbee do bramki AIS dom\n---",
+      "source_content_hash": "a5ceb229032ffdee397caf1dc24b2bdfc58c27b2ee7c50d134c05499b201470b",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Zigbee2MQTT jest zainstalowane \"fabrycznie\" na bramkach AIS dom. Żeby dodać obsługę Zigbee, wystarczy włożyć urządzenie ConBee2 lub CC2531 do portu USB i automatycznie zostanie uruchomiony serwis odpowiedzialny za komunikację z CC2531.",
+      "source_content_hash": "0fe8b8d15d89b192e649c32ddb56f5962735cc1591667b97e19d9fb6424b6c15",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Zigbee2MQTT已预装在AIS dom网关上。要添加Zigbee支持，只需将ConBee2或CC2531设备插入USB端口，系统将自动启动负责与CC2531通信的服务。"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Po przejściu do konfiguracji Zigbee",
+      "source_content_hash": "f00d24964b6e0f3676b921f4b2ff401b7b0191bae6c4609c47770efb81d4c0d3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "进入Zigbee配置界面后"
+      }
+    },
+    {
+      "segment_id": "8ac585fb",
+      "source_content": "![CC2531](/img/en/frontend/ais_zigbee_menu.png)",
+      "source_content_hash": "f6c0363e831a7c79605f16c1f23a80ecdd30089ac559fe36fef88c78d04f195e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![CC2531](/img/en/frontend/ais_zigbee_menu.png)"
+      }
+    },
+    {
+      "segment_id": "180bddb1",
+      "source_content": "Można dodawać do bramki urządzenia Zigbee oraz wyświetlać mapę podłączonych urządzeń",
+      "source_content_hash": "2e48a31a3e1a7e7b93db3d46a66e12d83566a2b28e8008e99179e77c80aa60ef",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "可向网关添加Zigbee设备并查看已连接设备的拓扑图"
+      }
+    },
+    {
+      "segment_id": "cf898102",
+      "source_content": "![CC2531](/img/en/frontend/ais_zigbee_web_app1.png)",
+      "source_content_hash": "282290af127f7a0b68f1f55734116a94b381faa5ddce6515939936a45db9c043",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![CC2531](/img/en/frontend/ais_zigbee_web_app1.png)"
+      }
+    },
+    {
+      "segment_id": "39b3772c",
+      "source_content": "![CC2531](/img/en/frontend/ais_zigbee_web_app2.png)",
+      "source_content_hash": "58200cc711170acce7d367c1e4af8404aabd90808decaa985efd2f810ad54d3c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![CC2531](/img/en/frontend/ais_zigbee_web_app2.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_zigbee_add_to_gate.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.124171+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "9a2baffca7ea87b1e28a88020ade92a6ea29626dcaa791b8439257ae8dccf6a2"
+  }
+}

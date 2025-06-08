@@ -1,0 +1,332 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_update_manual.md",
+  "source_file_content_hash": "6eda0bb25afb857c600d10c31ef9c3b8bfedfbf1a5190c55d9807b4968317418",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Aktualizacja z konsoli\"\nsidebar_label: Aktualizacja z konsoli\n---",
+      "source_content_hash": "e67fa19d807fb8d1ce31c81f84b78ec3fdd6e76f28742a4ea30b58f29a5643e9",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Wprowadzenie",
+      "source_content_hash": "138964b3f05ef631ae55efd030ca96538eb5d783961ef7b978515da6c937d13f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 简介"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "System jest otwarty i obsługuje ponad 2480 komponentów. Wiele z tych komponentów jest automatycznie rozpoznawanych i automatycznie instaluje dodatkowe zależne pakiety.",
+      "source_content_hash": "544c7cf35104057be5c9806961e41d424c9cafb310f7e053bbb4965bd613a5a8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该系统为开源系统，支持超过2480个组件。其中许多组件可被自动识别并自动安装相关依赖包。"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "Poniższa procedura może okazać się przydatna dla osób, które chcą obserwować przebieg procesu aktualizacji oraz dla osób, które mają problem z aktualizacją z aplikacji.",
+      "source_content_hash": "c628b2762ea05d1bebaa35836046273f743fd8396997ceb846118553414d437a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "以下流程对于希望观察更新过程进展的用户，以及遇到应用内更新问题的用户可能有所帮助。"
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "![Aktualizacja](/img/en/bramka/update_from_console.png)",
+      "source_content_hash": "c32bf665bb6a80fa31f9e4c08430b3cca55666ace197990c030ca8e9f65f0151",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![更新](/img/en/bramka/update_from_console.png)"
+      }
+    },
+    {
+      "segment_id": "ad8fd492",
+      "source_content": "Aktualizacja z konsoli nie jest trudna i sprowadza się oczywiście do tych samych kroków, co w przypadku aktualizacji automatycznej. Te kroki to:",
+      "source_content_hash": "baf4a6b46180acbc08987a2bc9cb9eebf87b3dee46965c8e8d4b6a7c4559437e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过控制台进行更新并不困难，其步骤与自动更新完全相同。具体步骤如下："
+      }
+    },
+    {
+      "segment_id": "4ddf6ae7",
+      "source_content": "1. Aktualizacja środowiska Linux-a\n2. Aktualizacja aplikacji zigbee2mqtt\n3. Aktualizacja platformy automatyzacji\n4. Aktualizacja aplikacji Android",
+      "source_content_hash": "05105e8ecb070696bb199c478b9888a87c3a471476d3ed3bed4c8fa891ae1c65",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "1. 更新Linux系统环境\n2. 更新zigbee2mqtt应用\n3. 更新自动化平台\n4. 更新Android应用"
+      }
+    },
+    {
+      "segment_id": "63622bf0",
+      "source_content": "## Skrypt aktualizacji",
+      "source_content_hash": "6bdbc9eaac01610bb49c14b4dc8672ed5a8bee6bcb6f7a65b7090ffb85f8e01d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 更新脚本"
+      }
+    },
+    {
+      "segment_id": "95b38f97",
+      "source_content": "### Logowanie do konsoli",
+      "source_content_hash": "acba23146e55ab4836765a412665da5d52bc1f95bda2409f33803a0a5702d95a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 登录控制台"
+      }
+    },
+    {
+      "segment_id": "f2c2bdd0",
+      "source_content": "Skrypt uruchamiamy tak samo jak komendę w konsoli. Do konsoli bramki możemy zalogować się z innego klienta w sieci lokalnej po [dostęp po SSH](/docs/ais_bramka_remote_ssh) lub bezpośrednio z deweloperskich narzędzi w aplikacji webowej Asystent domowy.",
+      "source_content_hash": "54705d0f079bbe43e98e5a53b9601fb3e07befe0e17f166e151aaaef8bf45dc9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "运行脚本的方式与执行控制台命令相同。可通过[SSH远程访问](/docs/ais_bramka_remote_ssh)从局域网内其他客户端登录网关控制台，或直接通过\"智能家居助手\"网页应用的开发者工具登录。"
+      }
+    },
+    {
+      "segment_id": "6b3596a2",
+      "source_content": ":::tip\nDo wykonywania aktualizacji za pomocą skryptu uruchamianego z konsoli, zalecamy zalogowanie się do bramki z natywnego klienta SSH. Dzięki temu będziemy pewni, że unikniemy zerwania połączenia podczas korzystania z konsoli w przeglądarce.\n:::",
+      "source_content_hash": "65667d1511cf07cbd702c91e5c0f683bc9b501986af073e0001cb275866e9de9",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::tip\n建议使用原生SSH客户端登录网关执行控制台更新脚本，这样可以确保在浏览器控制台操作时不会意外断开连接。\n:::"
+      }
+    },
+    {
+      "segment_id": "dfe931a2",
+      "source_content": "![Aktualizacja](/img/en/bramka/ais_console.png)",
+      "source_content_hash": "30ed50da2183f5324c4fce073ba5aed63c76ebbfd94aae64207167940de93376",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![更新](/img/en/bramka/ais_console.png)"
+      }
+    },
+    {
+      "segment_id": "a1b3d8cb",
+      "source_content": "## Uruchomienie skryptu aktualizacji w konsoli",
+      "source_content_hash": "9826bae9e86ccb274fffb1323d17ed2726795aa0c919239f4ce627ed026de892",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 在控制台中运行更新脚本"
+      }
+    },
+    {
+      "segment_id": "517051a7",
+      "source_content": "Komenda aktualizacyjna zależy od kanału aktualizacyjnego, na którym jesteśmy. Kanał aktualizacyjny dla bramki wybieramy w [Portalu integratora](/docs/ais_dom_cloud_login)",
+      "source_content_hash": "e24958a507a3f52eec65c1518f1febeccfd1c7af0a1c2f79f300953f6f394a51",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "更新命令取决于当前所处的更新频道。网关的更新频道可在[集成商门户](/docs/ais_dom_cloud_login)中选择。"
+      }
+    },
+    {
+      "segment_id": "80d9e13c",
+      "source_content": "### Oprogramowanie na kanale aktualizacji PROD",
+      "source_content_hash": "fd4627cbf299d4279550a16818d9020ddb1da6c3ee39663592525642520072cf",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### PROD更新频道的软件"
+      }
+    },
+    {
+      "segment_id": "33331f27",
+      "source_content": "Dla kanału **PROD** (stabilnego) komendy, które należy wykonać w konsoli:",
+      "source_content_hash": "02870094ed9c3feeb62ebd28eb7476161a52da33bf5d7c99fbb219f56a20baa8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "对于**PROD**(稳定版)频道，需在控制台执行以下命令："
+      }
+    },
+    {
+      "segment_id": "026f2f3e",
+      "source_content": "```bash\ncurl -L https://raw.githubusercontent.com/sviete/AIS-utils/master/releases/prod.sh -o prod.sh\nchmod +x prod.sh\n./prod.sh\n```",
+      "source_content_hash": "96e17cf8f236ac9537a8b79ac612122e51236a9080be2147d940365757afdbd3",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_026f2f3e"
+      }
+    },
+    {
+      "segment_id": "c674e260",
+      "source_content": "### Oprogramowanie na kanale aktualizacji BETA",
+      "source_content_hash": "fb5ead9bd805d93c12f4e9e4b414bdf677c6b79802ccd3eb4d427b66c3275c0e",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### BETA更新频道的软件"
+      }
+    },
+    {
+      "segment_id": "a44047a5",
+      "source_content": "Dla kanału **BETA** komendy, które należy wykonać w konsoli:",
+      "source_content_hash": "7fb9a4fb3c4505e2efcd21bd347439dc8f0de03c75243aa1037849cfd8e9c7e3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "对于**BETA**频道，需在控制台执行以下命令："
+      }
+    },
+    {
+      "segment_id": "64b6f348",
+      "source_content": "```bash\ncurl -L https://raw.githubusercontent.com/sviete/AIS-utils/master/releases/beta.sh -o beta.sh\nchmod +x beta.sh\n./beta.sh\n```",
+      "source_content_hash": "4bd2a52794c94247302e764fcaa2fede17739e72426c1979cab1ad05ce2c3699",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_64b6f348"
+      }
+    },
+    {
+      "segment_id": "1a316f80",
+      "source_content": "### Oprogramowanie na kanale aktualizacji ALFA",
+      "source_content_hash": "10de6935ea43810e5c65f72b7bca5749c7221cb0dcee2b42a6f9db698d59ea8e",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### ALFA更新频道的软件"
+      }
+    },
+    {
+      "segment_id": "40158b4b",
+      "source_content": "Dla kanału **ALFA** komendy, które należy wykonać w konsoli:",
+      "source_content_hash": "3b4c924367b6d9646e51ef976e3fb5aab5f7e2e1435262609815adb99e5f5b68",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "对于**ALFA**频道，需在控制台执行以下命令："
+      }
+    },
+    {
+      "segment_id": "3adc0ceb",
+      "source_content": "```bash\ncurl -L https://raw.githubusercontent.com/sviete/AIS-utils/master/releases/alfa.sh -o alfa.sh\nchmod +x alfa.sh\n./alfa.sh\n```",
+      "source_content_hash": "72cc6aaa3292fdfbb52d1450684bcad9bc325c712c1093675e160e4bb4edf3cc",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_3adc0ceb"
+      }
+    },
+    {
+      "segment_id": "ee8401db",
+      "source_content": "### Skrypt aktualizujący składowe systemu",
+      "source_content_hash": "5a9473d1bb13cc05ad730a89b82372edf5583ec42882c40a8dedb492b76f8d47",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 系统组件更新脚本"
+      }
+    },
+    {
+      "segment_id": "147e8550",
+      "source_content": "Kody skryptów aktualizacji dostępne są w repozytorium github pod adresami:",
+      "source_content_hash": "b31f022b814acc56ad4f136dfd7854b5ce16b3454b35227bfbc4abf7ac566c6a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "更新脚本代码存放于github仓库，地址如下："
+      }
+    },
+    {
+      "segment_id": "c7436e69",
+      "source_content": "- PROD -> https://raw.githubusercontent.com/sviete/AIS-utils/master/releases/prod.sh\n- BETA -> https://raw.githubusercontent.com/sviete/AIS-utils/master/releases/beta.sh\n- ALFA -> https://raw.githubusercontent.com/sviete/AIS-utils/master/releases/alfa.sh",
+      "source_content_hash": "1ae0c8a61b62e29dbc2612d97c0b4ae09b47e76a3b6140749f8c2390a793ec18",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- PROD -> https://raw.githubusercontent.com/sviete/AIS-utils/master/releases/prod.sh\n- BETA -> https://raw.githubusercontent.com/sviete/AIS-utils/master/releases/beta.sh\n- ALFA -> https://raw.githubusercontent.com/sviete/AIS-utils/master/releases/alfa.sh"
+      }
+    },
+    {
+      "segment_id": "8a9e710a",
+      "source_content": "```bash\n#!/data/data/com.termux/files/usr/bin/bash\n# AIS\n# Homepage: https://ai-speaker.com\n################################################\n# Install ais-dom on PROD chanel\n# run it by executiong in AIS dom console:\n# curl -L https://raw.githubusercontent.com/sviete/AIS-utils/master/releases/prod.sh -o prod.sh\n# chmod +x prod.sh\n# ./prod.sh\n#\n# ...\n\n```",
+      "source_content_hash": "66bde5836beaedebc1fb9b2c553b9100861ff4800a370605933fdbcd1a63e00e",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_8a9e710a"
+      }
+    },
+    {
+      "segment_id": "39db08de",
+      "source_content": "## Niezgodność wersji",
+      "source_content_hash": "94d54276e9c77f2768e17c62eb9e239ff02e406cf31b2171eb1832b11fb8be51",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 版本不兼容问题"
+      }
+    },
+    {
+      "segment_id": "8a58dc39",
+      "source_content": ":::caution[Uwaga]\nW przypadku bramek, które nie są aktualizowane na bieżąco, może pojawić się niezgodność wersji i aktualizacja zostanie zatrzymana.\n:::",
+      "source_content_hash": "c6752d5ad222d40532c5c28db0fe623ecc667cb215e12e193d9bf848dc50438d",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[注意]\n对于未保持实时更新的网关设备，可能会出现版本不兼容问题导致更新中断。\n:::"
+      }
+    },
+    {
+      "segment_id": "1862c5fe",
+      "source_content": "Ponieważ system jest złożony i rozwija się bardzo szybko, może się zdarzyć, że podczas aktualizacji nie będziemy w stanie zapewnić łatwej aktualizacji wszystkich składowych na bramce. Bo nie jesteśmy w stanie przetestować aktualizacji z każdej wersji do wersji najnowszej. W celu niedopuszczenia do wystąpienia problemów podczas aktualizacji lub podczas ponownego uruchomienia systemu, będziemy blokowali możliwość aktualizacji starszych wersji bezpośrednio do najnowszej wersji.",
+      "source_content_hash": "8a878dd28ef0d00a6b3d9dc7a94cd0dc28b2aeb733b43178edd272a68d350b63",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "由于系统架构复杂且迭代迅速，在更新过程中可能存在无法直接升级所有组件的特殊情况。我们无法对所有历史版本到最新版本的升级路径进行全面测试。为避免升级过程中或系统重启时出现故障，我们将禁止直接从过旧版本升级至最新版本。"
+      }
+    },
+    {
+      "segment_id": "d79a4831",
+      "source_content": "![Aktualizacja](/img/en/bramka/update_from_console_to_old.png)",
+      "source_content_hash": "5c30a32e4b4c0b4439a31fabba041dee649ae62c332ee5bf7b220a693e56e246",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Aktualizacja](/img/en/bramka/update_from_console_to_old.png)"
+      }
+    },
+    {
+      "segment_id": "2838eb68",
+      "source_content": "Gdy zobaczysz lub usłyszysz na głośniku taki komunikat jak powyżej, to wykonaj \"Pełny reset aplikacji\" - przebieg tej procedury opisany jest w dokumentacji [Pełny reset aplikacji](/docs/ais_bramka_reset_ais_step_by_step), znajduje się tam też wideo prezentujące przebieg procesu pełnego resetu.",
+      "source_content_hash": "bcf2f2276ca617b1eba17957eab23cc1720148908cf732e5a7f7f8c45e03b71f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "当您在屏幕上看到或通过扬声器听到上述提示时，请执行\"应用程序完全重置\"操作。具体流程详见文档[应用程序完全重置](/docs/ais_bramka_reset_ais_step_by_step)，该文档包含完整重置过程的演示视频。"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_update_manual.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.104812+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "6eda0bb25afb857c600d10c31ef9c3b8bfedfbf1a5190c55d9807b4968317418"
+  }
+}

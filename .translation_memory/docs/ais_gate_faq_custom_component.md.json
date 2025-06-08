@@ -1,0 +1,452 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_gate_faq_custom_component.md",
+  "source_file_content_hash": "aa767158a85c08eba27642dfc732409e1a2314352270e4344a8194586cbfd2ff",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Własny komponent w Asystencie domowym\"\nsidebar_label: Własny komponent w Asystencie domowym\n---",
+      "source_content_hash": "adcebae67086fab1a1c30b70a82493e82d8994535ec285a5584cb1a059b295ad",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Cel dodania własnego komponentu",
+      "source_content_hash": "7b855dd0eae45d303b022ce408f6fd24038126252d1622dd66b2ce159582fec8",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 添加自定义组件的目的"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Przeszukałeś 1700 gotowych komponentów i nie znalazłeś możliwości integracji ze swoim urządzeniem? Coś nie do końca działa tak jak byś chciał i masz pomysł jak zrobić to lepiej? Siłą projektów OpenSource jest to, że masz dostęp do kodu i masz możliwość jego zmiany pod własne potrzeby. Nadszedł czas, aby napisać swój pierwszy kod do integracji.",
+      "source_content_hash": "80402a54364abbb76325101f79b214307e00faef2e26dddaaf88bbd70da0c588",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "您已搜索了1700个现成组件却仍未找到与设备兼容的集成方案？现有功能未能完全满足需求且您有优化方案？开源项目的核心优势在于代码可访问性和可定制性——现在正是编写首个集成代码的最佳时机。"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "Poniżej opiszemy krok po krok,u w jaki sposób dodać najprostszy komponent do Asystenta domowego.\nBardziej obszerne przykłady integracji są dostępne w <a href=\"https://github.com/home-assistant/example-custom-config/tree/master/custom_components/\" target=\"_blank\">repozytorium przykładowych własnych integracji Home Assistant</a>",
+      "source_content_hash": "22b14641a61e0efce8ad37e9b995928ab5c1f6c095aaa42979330f1a09852292",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "下文将逐步演示如何为家庭助理添加最基础的定制组件。更详尽的集成案例可参阅<a href=\"https://github.com/home-assistant/example-custom-config/tree/master/custom_components/\" target=\"_blank\">Home Assistant官方自定义组件示例库</a>"
+      }
+    },
+    {
+      "segment_id": "70153c6e",
+      "source_content": "## Folder z własnymi komponentami",
+      "source_content_hash": "92bb9056914f9750a71b31a267b636398165fee5efd088fc4441dd3cf9d57aa2",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 自定义组件目录"
+      }
+    },
+    {
+      "segment_id": "86b54d44",
+      "source_content": "W konsoli przechodzimy do folderu z konfiguracją Asystenta domowego",
+      "source_content_hash": "224bb8da8f738a46fc587f01746d548b3e7ac9ae04827b803be6bacbfa442c64",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过终端进入家庭助理配置目录"
+      }
+    },
+    {
+      "segment_id": "6e5ba8fb",
+      "source_content": "```bash\ncd ~/AIS\n```",
+      "source_content_hash": "6499ea5a8f191b96fcc63d4baeb7d11f63730c972dcd5e8effacc963ed67dbd0",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_6e5ba8fb"
+      }
+    },
+    {
+      "segment_id": "2df4f75f",
+      "source_content": "dodajemy folder custom_components",
+      "source_content_hash": "5de14b52be2df5a809989ad3f6dab50a1d1201669c0c4ff3fdfd63d2749038e9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "创建custom_components文件夹"
+      }
+    },
+    {
+      "segment_id": "f2b711c6",
+      "source_content": "```bash\nmkdir custom_components\n```",
+      "source_content_hash": "17335a7deedb39dfcbf97c87d3bf6250ba1efc5cc91094177ef56dab5287c580",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_f2b711c6"
+      }
+    },
+    {
+      "segment_id": "d9172fa4",
+      "source_content": "następnie w folderze custom_components dodajemy folder dla naszego komponentu, nazwijmy go **hej_dom**",
+      "source_content_hash": "6fc05516304638a4dd5c92e6be5bd5452c2a6b88a3bb658d7325570e36c27071",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在custom_components目录下新建组件文件夹（例如命名为**hej_dom**）"
+      }
+    },
+    {
+      "segment_id": "cb57d798",
+      "source_content": "```bash\ncd custom_components\nmkdir hej_dom\n```",
+      "source_content_hash": "0d1fda1d4ab058fa078cd426d41072238991ee91c0d1bec8d092a0a39a7b9523",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_cb57d798"
+      }
+    },
+    {
+      "segment_id": "517051a7",
+      "source_content": "przechodzimy do folderu hej_dom i dodajemy 2 pliki:",
+      "source_content_hash": "1482b752aac2f112f0d619267831ec896f9a41a37bf33d0b1fabf3ce6adac5ae",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "进入hej_dom目录并创建两个核心文件："
+      }
+    },
+    {
+      "segment_id": "157151e9",
+      "source_content": "1. **manifest.json** z opisem naszej integracji",
+      "source_content_hash": "b86078e41b3dfaa9f4db410e5b6ef40ba86a796f9c02a851e7a99df64cc00c9d",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "1. **manifest.json**（包含组件元数据）"
+      }
+    },
+    {
+      "segment_id": "a11df754",
+      "source_content": "```json\n{\n  \"domain\": \"hej_dom\",\n  \"name\": \"Moja integracja\",\n  \"documentation\": \"https://link-do-dokumentacji.pl\",\n  \"dependencies\": [],\n  \"codeowners\": [],\n  \"requirements\": []\n}\n```",
+      "source_content_hash": "1b4f30ca9509456e6f2a738b9e2b41b795cabf7bd3228dda420bb7f0b4b9d3fe",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_a11df754"
+      }
+    },
+    {
+      "segment_id": "ddd2c7ae",
+      "source_content": "2. **__init__.py** z kodem naszej integracji",
+      "source_content_hash": "eb34e36385aa27c62e4c83431c98a6f4403bd518311157f54c1468ad6771b494",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "2. **__init__.py**（集成功能主代码）"
+      }
+    },
+    {
+      "segment_id": "ac961110",
+      "source_content": "```python\nDOMAIN = 'hej_dom'\n\nasync def async_setup(hass, config):\n    hass.states.async_set('hej_dom.info', 'Cześć!')\n\n    # Zwróć True, aby wskazać, że inicjalizacja komponentu powiodłTo jest całkiem proste — wprowadzimy Cię w ten proces krok po kroku.\na się.\n    return True\n```",
+      "source_content_hash": "fc3eaf948370edc85011d18e92dcc1251577ad4118ccbac0d1919e74bf661a4a",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_ac961110"
+      }
+    },
+    {
+      "segment_id": "c315c636",
+      "source_content": "### Dodanie naszej integracji do konfiguracji systemu",
+      "source_content_hash": "788a92c8a07176f43fe5033cfb4a1372b7812b57b94b4ed842c0adc09adaae37",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 将集成添加至系统配置"
+      }
+    },
+    {
+      "segment_id": "531437ca",
+      "source_content": "W konsoli przechodzimy do folderu z konfiguracją Asystenta domowego.",
+      "source_content_hash": "d72b025381ca15376bb2a6021f98054cb11bee0d287ea4cc265d4de90b8d6006",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过终端进入家庭助理配置目录"
+      }
+    },
+    {
+      "segment_id": "67b24fc5",
+      "source_content": "```bash\ncd ~/AIS\n```",
+      "source_content_hash": "6499ea5a8f191b96fcc63d4baeb7d11f63730c972dcd5e8effacc963ed67dbd0",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_67b24fc5"
+      }
+    },
+    {
+      "segment_id": "147e8550",
+      "source_content": "Ulubionym edytorem tekstowym otwieramy plik configuration.yaml",
+      "source_content_hash": "c385068c7995f1b24c903395343f178831ab2802bff8eae24c457dd3f4ebc8d2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "使用文本编辑器打开configuration.yaml文件"
+      }
+    },
+    {
+      "segment_id": "af983f82",
+      "source_content": "```bash\nnano configuration.yaml\n```",
+      "source_content_hash": "82070c1340df513d9a8644fdb851dd65331c050ab1cd3324715656ad9f500e03",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_af983f82"
+      }
+    },
+    {
+      "segment_id": "d0dd855b",
+      "source_content": "i dodajemy na końcu następująca konfigurację.",
+      "source_content_hash": "5b305992143326077465294157b28f155e9bcacb9cbcb21d22f6c8fa91fe33fc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在文件末尾追加以下配置"
+      }
+    },
+    {
+      "segment_id": "7b2110d8",
+      "source_content": "```yaml\nhej_dom:\n```",
+      "source_content_hash": "c01256da8dd1f944b795eba6e3209b1af9713d3584be7cd677299ecd09261364",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_7b2110d8"
+      }
+    },
+    {
+      "segment_id": "0a103a02",
+      "source_content": "### Sprawdzenie konfiguracji i Restart serwera",
+      "source_content_hash": "07d6f9f43b0934764e3e207459c93541001a63318191da4fb3aef1a7371c5503",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 配置验证与服务器重启"
+      }
+    },
+    {
+      "segment_id": "8126f763",
+      "source_content": "Upewnijmy się, że nasza konfiguracja jest poprawna — w tym celu kliknij przycisk **Sprawdź konfigurację** dostępny w opcjach ogólnych systemu. Następnie restartujemy serwer przyciskiem **Uruchom ponownie**",
+      "source_content_hash": "cf626326c92fef96b402cc0c578552aff911c2f0b16e25e6b6d4e7b5fe9f814f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过系统全局设置中的**检查配置**按钮验证配置有效性，随后点击**重新启动**完成服务重启"
+      }
+    },
+    {
+      "segment_id": "74dd7937",
+      "source_content": "![](/img/en/bramka/faq_sensor_4.png)",
+      "source_content_hash": "e44d02973760855d239dcebbc46e9f513054c102734a703a84269abfa654788c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/bramka/faq_sensor_4.png)"
+      }
+    },
+    {
+      "segment_id": "bd30d33e",
+      "source_content": "### Nowa encja w systemie",
+      "source_content_hash": "fc66baf42aed8c580840c7a6a95ea22c53cd8c2f382aad5d3cdf8f5d7c653215",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 系统新增实体"
+      }
+    },
+    {
+      "segment_id": "6b77b644",
+      "source_content": "W informacjach o stanie encji systemu możemy już odszukać nasz nowo dodany element systemu (encja hej_dom) i zobaczyć jego status oraz atrybuty",
+      "source_content_hash": "3d70fbc95f08705dbed4f83a93d98b2bb28bc0c1cbba2b028cda551d6a9021b7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在系统实体状态面板中可查看新增实体（hej_dom）的实时状态与属性参数"
+      }
+    },
+    {
+      "segment_id": "a311e967",
+      "source_content": "![](/img/en/bramka/faq_custom_component_1.png)",
+      "source_content_hash": "712b29339af661fd33c293c475a3c2daa899e752c45be45fc17734246ab9c67f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/bramka/faq_custom_component_1.png)"
+      }
+    },
+    {
+      "segment_id": "eb51d107",
+      "source_content": "Oczywiście ten przykład to tylko wprowadzenie w temat, Twój docelowy komponent na pewno będzie bardziej przydatny niż ten z naszego przykładu. Celowo nie dodawaliśmy w kodzie żadnej logiki, żeby nie zaciemniać zagadnienia. Docelowy komponent może sprawdzać kursy walut, wyliczać prawdopodobieństwo wzrostów na giełdzie czy opadów lub zamawiać głosowo piwo — pełna dowolność, my nie osądzamy ;)\nNastępnie taki nowy komponent możesz w łatwy sposób połączyć z innymi w systemie Asystent domowy za pomocą automatyzacji i gdy np. zapowiadany jest deszcz -> nie włączasz podlewania trawnika lub gdy w kalendarzu masz rocznicę ślubu, to Asystent przypomina Ci o tym głosowo (a z czasem, będzie zamawiał kolację i włączał scenę romantyczną w salonie, itp).",
+      "source_content_hash": "e85ea1ed9793d23275deadb92fa18db6dcbfa23f3ea4c41c4826e487d8ebb459",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "当然，这个示例仅是入门引导，您最终实现的组件肯定比我们的示例更有实用价值。我们故意没有在代码中添加任何业务逻辑，以免模糊核心概念。实际组件可以实现诸如查询汇率、预测股市涨跌概率或降雨量、语音订购啤酒等功能——完全自由发挥，我们不做评判 ;)\n之后，您可以通过家庭助理的自动化功能轻松将这个新组件与其他组件联动。例如：当天气预报有雨时→自动关闭草坪灌溉系统；或在结婚纪念日时，助理会语音提醒您（未来甚至能自动预订晚餐并启动客厅的浪漫场景模式等）。"
+      }
+    },
+    {
+      "segment_id": "a138e327",
+      "source_content": "### Dodanie komponentu do wydania Asystenta domowego",
+      "source_content_hash": "38aef721e0f13bd172e6fe707ce7c944f10118c9e54713ccdeb5256380663fde",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 将组件提交至家庭助理正式版"
+      }
+    },
+    {
+      "segment_id": "a2c0166e",
+      "source_content": "Jeżeli dojdziesz do wniosku, że Twój komponent jest tak fajny, że chcesz go udostępnić innym, to preferowana droga by to wykonać to **pull request do Home Assistant**",
+      "source_content_hash": "7740dafa8919761a7b3b4035468eb0dbbea255bbadf0af53baac72b2d0402e59",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "若您认为自己的组件足够优秀并希望分享给他人，推荐通过**向Home Assistant提交Pull Request**的方式实现："
+      }
+    },
+    {
+      "segment_id": "c1eaf30b",
+      "source_content": "https://github.com/home-assistant/home-assistant",
+      "source_content_hash": "8f333a5b0a50e5974429d44c37056e532a766124910bc2581853c4f5f65798ac",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "https://github.com/home-assistant/home-assistant"
+      }
+    },
+    {
+      "segment_id": "f0984c2a",
+      "source_content": "w ten sposób Twój komponent zostanie sprawdzony i przetestowany przez setki programistów oraz tysiące użytkowników, a następnie trafi oficjalnie do Asystenta domowego wraz w najnowszą wersją Home Assistenta.",
+      "source_content_hash": "0750c729ba1948615c1d79ad1e6a0a54a999b0f952736340d54f1128acf24f3d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "这种方式能让您的组件经过数百名开发者的代码审查和数千名用户的测试，最终随Home Assistant的最新版本正式集成到家庭助理系统中。"
+      }
+    },
+    {
+      "segment_id": "d1f76d04",
+      "source_content": "### Problemy",
+      "source_content_hash": "51eb730337bc722c9f7f7fcca43a4ded912113d8f00a9d4fd8a08c8a0050a577",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 故障排查"
+      }
+    },
+    {
+      "segment_id": "6693c38c",
+      "source_content": "Może się zdarzyć, że dodana własna integracja (w tym przykłdzie sterowanie telewizorem) nie przechodzi walidacji i nie działa poprawnie, objawia się to zwykle w ten sposób",
+      "source_content_hash": "9a5167c3471cdfa9d4b7419f427eb5f504dc30fbe56cea33072c15f4f05568f3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "有时自定义集成（本例为电视控制功能）可能无法通过验证并出现异常，典型表现如下："
+      }
+    },
+    {
+      "segment_id": "e9313fef",
+      "source_content": "![](/img/en/bramka/faq_custom_component_2.png)",
+      "source_content_hash": "577efe42d966fff8a03d9491e000d57a25cd24a88fe4fb06347beafc0adc2ce4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/bramka/faq_custom_component_2.png)"
+      }
+    },
+    {
+      "segment_id": "1b4de6df",
+      "source_content": "oznacza to, że nie udało się Asystentowi domowemu zwalidować i zaimportować komponentu z folderu custom_components. Przyczyną może być błąd w kodzie lub brak na urządzeniu biblioteki, która używana jest w tej integracji.\nTo, co należy w takim przypadku zrobić, to sprawdzić kod integracji oraz dostępność na urządzeniu bibliotek stosowanych w integracji.",
+      "source_content_hash": "828e039f5f52c4c840ba919202f2c0a936ec3688c45b15c7bfb269f356a791ae",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "这表明家庭助理未能成功验证并加载custom_components文件夹中的组件。可能原因包括代码错误或设备缺少集成所需的依赖库。\n此时应检查集成代码，并确认设备是否已安装集成所需的全部依赖库。"
+      }
+    },
+    {
+      "segment_id": "396efb28",
+      "source_content": "![](/img/en/bramka/faq_custom_component_3.png)",
+      "source_content_hash": "e3bf7b821d588df9210814a341d8a4b80c7fd08b8135fdc2e11d1358d6fdade5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/bramka/faq_custom_component_3.png)"
+      }
+    },
+    {
+      "segment_id": "558df877",
+      "source_content": "W powyższym przypadku widzimy, że w kodzie importowany jest pakiet wakeonlan, ale nie jest on dostępny na urządzeniu, więc go doinstalowujemy ręcznie.",
+      "source_content_hash": "a22a094f54f0b700e74f72c1de0391ee1f5c822087586f843bce2de72c67e114",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "上图案例显示代码中引用了wakeonlan库但设备未安装，因此我们需要手动安装该依赖。"
+      }
+    },
+    {
+      "segment_id": "f38d1cb0",
+      "source_content": "Następnie wracamy do sprawdzenia konfiguracji, restart serwera i możemy już sterować naszym telewizorem.",
+      "source_content_hash": "41c98a2501551847c451e22398c0b75075efcc4d32bdfc3df64fce3569e1440b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "完成后再执行配置检查、重启服务，即可正常控制电视机。"
+      }
+    },
+    {
+      "segment_id": "5f82a1e9",
+      "source_content": "![](/img/en/bramka/faq_custom_component_4.png)",
+      "source_content_hash": "28d2434c63adeae9e44ab34d9ca21ba5927c3af9de247b68970b8bee99082e11",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/bramka/faq_custom_component_4.png)"
+      }
+    },
+    {
+      "segment_id": "8fcdd6d4",
+      "source_content": "Gdy stosujemy własny komponent w logach pojawi się stosowne ostrzeżenie",
+      "source_content_hash": "631c20f0b317e74bc81df8bd150b969e0e9ca1c90ef41d4e538df3c1871c673a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "使用自定义组件时，日志中会出现相应警告提示："
+      }
+    },
+    {
+      "segment_id": "53aa2b95",
+      "source_content": "![](/img/en/bramka/faq_custom_component_5.png)",
+      "source_content_hash": "238b7c7214d4ca67a2661ea6eb26946e656e094be085cd87cdbf063ef0bd8e64",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/bramka/faq_custom_component_5.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_gate_faq_custom_component.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.146586+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "aa767158a85c08eba27642dfc732409e1a2314352270e4344a8194586cbfd2ff"
+  }
+}

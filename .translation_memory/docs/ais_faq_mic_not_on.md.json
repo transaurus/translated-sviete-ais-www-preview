@@ -1,0 +1,162 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_faq_mic_not_on.md",
+  "source_file_content_hash": "a801e735f0ec2a047fc2177027c1d8df059ae9cb2635cb7263c0600dd874a4e1",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Czy macie stale włączony mikrofon?\"\nsidebar_label: Czy macie stale włączony mikrofon?\n---",
+      "source_content_hash": "8ecc31eee4a55fb7dcfee459961aa260721f3fe7fba882b1ae6bc6de23faa99c",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Czy macie stale włączony mikrofon?",
+      "source_content_hash": "587be9a8d1e0bb9013707aab86f49036dff55dd85417f6c0c9699263fe1ed65c",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 麦克风是否始终开启？"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "**Nie mamy**, w naszym rozwiązaniu mikrofon musi być fizycznie włączony przez użytkownika przed wydaniem komendy głosowej.",
+      "source_content_hash": "0cbdb621128ba41ea79d64c7468447646d0e521d84e505e2e89abc6f9fb7cf87",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "**我们没有启用**，在我们的解决方案中，用户必须在发出语音指令前物理开启麦克风。"
+      }
+    },
+    {
+      "segment_id": "8a5f6a7b",
+      "source_content": "## Z jakiego mikrofonu można wydawać komendy?",
+      "source_content_hash": "2dfd5a794483ce8b847c64eda44f9eef60b9d4fb589569e5361a0a031779faaa",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 可以使用哪些麦克风发出指令？"
+      }
+    },
+    {
+      "segment_id": "ad8fd492",
+      "source_content": "Obecnie po wyjęciu z pudełka, mamy dobrze działające sterownie głosowe \"z bliska\" (tzw. near field), z jakiego mikrofonu wydawana jest komenda głosowa, nie ma dla nas znaczenia.",
+      "source_content_hash": "5e27a6d70bd55636d8f6bbc1e11a172f5787c19996567be0f853d43e29908a46",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "目前开箱即用状态下，我们支持近距离（即近场）语音控制功能，具体使用哪种麦克风发出语音指令对我们而言没有限制。"
+      }
+    },
+    {
+      "segment_id": "86b54d44",
+      "source_content": "Wspieramy kilka możliwości:",
+      "source_content_hash": "060b7b34f09a8a74edee56b3049b79c7e3f341250b73ce821b6ea06d7af9c488",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们支持以下几种方式："
+      }
+    },
+    {
+      "segment_id": "84758135",
+      "source_content": "- mikrofon w aplikacji webowej \n- mikrofon w telefonie z systemem Android i z zainstalowaną naszą darmową aplikacją dostępną w Google Play\n- mikrofon w zegarku z systemem Wear OS i z zainstalowaną naszą darmową aplikacją dostępną w Google Play\n- z naszego dedykowanego pilota radiowego z wbudowanym mikrofonem",
+      "source_content_hash": "6644b5e9a8d35507583de65f39c3c7a133933620a742ec9c1abd642a4cb48680",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 网页应用内置麦克风\n- 安装了我们免费应用的Android手机麦克风（应用可在Google Play获取）\n- 搭载Wear OS系统并安装我们免费应用的智能手表麦克风（应用可在Google Play获取）\n- 我们专用射频遥控器内置麦克风"
+      }
+    },
+    {
+      "segment_id": "2df4f75f",
+      "source_content": "Gwarantujemy działanie wspomnianych wyżej mikrofonów.\nBardzo możliwe, że zadziała też mikrofon USB, który masz w domu, ale nie możemy tego być pewni.",
+      "source_content_hash": "2b06376f056f0ac88f423cb4bcce6a42369d043100678ae618ec66566751ff66",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们确保上述麦克风的功能可靠性。\n您家中的USB麦克风很可能也能正常工作，但我们无法对此作出保证。"
+      }
+    },
+    {
+      "segment_id": "79b2d0b9",
+      "source_content": "## Czemu mikrofon nie jest cały czas włączony?",
+      "source_content_hash": "a7c134bfbacdeb914a3eaf0ef8574d89d3a6b518b711c03cb916517269a9fcc9",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 为什么麦克风不保持常开状态？"
+      }
+    },
+    {
+      "segment_id": "d9172fa4",
+      "source_content": "Stale włączony mikrofon niesie ze sobą kilka problemów, które obecnie nie są jeszcze do końca rozwiązane:",
+      "source_content_hash": "a849288f56b87ed0d435784618a5dc319a4792616693bcc7cfdba0591bdcfcb5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "麦克风持续开启会带来若干尚未完全解决的问题："
+      }
+    },
+    {
+      "segment_id": "5da9e02b",
+      "source_content": "- Kontrowersje związane z prywatnością\nNie da się rozpoznać słowa kluczowego występującego przed komendą bez stałego nagrywania i rozpoznawania (zamiany mowy na tekst) jakie słowa zostały powiedziane.\nŁatwo można być posądzonym o podsłuchiwanie rozmów. Te problemy mają obecnie wszyscy dostawcy tego typu rozwiązań.\n\n- Macierz mikrofonów\nNie wystarczy mikrofonu włączyć, trzeba mieć odpowiedni sprzęt (macierz mikrofonów), który będzie w stanie kierunkowo nagrać komendę wydaną z daleka (far field microphone) oraz odfiltrować muzykę i inne \"szumy\" w pomieszczeniu. Takie rozwiązania są obecnie drogie i nie zawsze działają dobrze.\n\n- Obciążenie procesora\nCiągłe nagrywanie i rozpoznawanie tekstu wiąże się z dodatkowym obciążeniem procesora na urządzeniu (rzędu 30%), a co za tym idzie dodatkowym użyciem prądu.\nChcemy, żeby nasze urządzenie było ECO. Obecnie ciągle włączona bramka zużywa miesięcznie do 2 KWh (złotówkę za prąd miesięcznie).",
+      "source_content_hash": "66fd4b456a407d0278ca29a3a8bf01d6e37ec5c3684950bc174442992000b1e0",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 隐私争议\n要实现唤醒词（即指令前缀词）识别，必须持续录音并将语音实时转换为文字进行分析。这极易引发窃听谈话的质疑。目前所有提供此类解决方案的厂商都面临这个问题。\n\n- 麦克风阵列\n仅开启麦克风还不够，需要专业设备（麦克风阵列）才能实现远场语音指令的定向拾取，并过滤室内的音乐和其他环境噪声。这类解决方案目前成本较高且效果不稳定。\n\n- 处理器负载\n持续录音和语音转文本会额外消耗设备处理器资源（约30%负载），导致电力消耗增加。我们致力于保持设备环保节能，当前持续运行的网关月耗电量不超过2千瓦时（约合每月1元电费）。"
+      }
+    },
+    {
+      "segment_id": "8d04259b",
+      "source_content": "## Jak dodać sterowanie z daleka i ciągle włączony mikrofon?",
+      "source_content_hash": "b31b6a9e831171b9f99dbf4bf448dc2060569e6fcf6b11a87758a12328aede69",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 如何添加远场控制和常开麦克风功能？"
+      }
+    },
+    {
+      "segment_id": "95e9ba12",
+      "source_content": "Produkt jest otwarty, są publicznie dostępne źródła, jest root, porty USB - nikomu nie zabraniamy dodać sobie takiej funkcjonalności.",
+      "source_content_hash": "7633807fe8c2959139b59854d5e1e7db7ad720ecf72cae987007195cd9355619",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "本产品完全开源，提供公开源代码，具有root权限和USB接口——我们不限制用户自行添加此类功能。"
+      }
+    },
+    {
+      "segment_id": "8af76f3d",
+      "source_content": "Jako mikrofon można próbować zastosować kamerę Sony PlayStation Eye, która ma 4 mikrofony https://en.wikipedia.org/wiki/PlayStation_Eye#Microphone i jest do kupienia za 15 zł w Internecie.",
+      "source_content_hash": "27bcd9b545bb0622cb72c047533698461dfbb2d38ace448de3dbfeef5b7a6c7d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "可尝试使用索尼PlayStation Eye摄像头作为麦克风方案，该设备配备4麦克风阵列（详见https://en.wikipedia.org/wiki/PlayStation_Eye#Microphone），网购价格约15兹罗提。"
+      }
+    },
+    {
+      "segment_id": "a9d49f92",
+      "source_content": "Samo trenowanie wykrywania słowa rozpoczynającego komendę (wake word detection, keyword spotting, trigger word detection, hotword detection) można zrobić gotowym otwartym rozwiązaniem, np. coś takiego jak te projekty:\nhttps://github.com/Picovoice/Porcupine \nhttps://github.com/MycroftAI/mycroft-precise",
+      "source_content_hash": "df7998f8937086193e9840bf018a1020bcab89be05a47f0f1ccb5bc521d00e6a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "训练唤醒词检测（wake word detection、keyword spotting、trigger word detection、hotword detection）本身可采用现成的开源方案，例如以下项目：\nhttps://github.com/Picovoice/Porcupine \nhttps://github.com/MycroftAI/mycroft-precise"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_faq_mic_not_on.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.103140+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "a801e735f0ec2a047fc2177027c1d8df059ae9cb2635cb7263c0600dd874a4e1"
+  }
+}

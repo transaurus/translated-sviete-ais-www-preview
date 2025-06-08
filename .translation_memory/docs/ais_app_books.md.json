@@ -1,0 +1,82 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_app_books.md",
+  "source_file_content_hash": "917f1a37f60e0fbdbefc9077611a64d4f565267298d3d5afcd8ea21adcf79808",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Audio książki\"\nsidebar_label: Audio książki\n---",
+      "source_content_hash": "c56f3facf2b9fe91a9ec287716bdc709bcb7855b1dae4d374b1ce0e03da3f145",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Audio książki",
+      "source_content_hash": "ab31adc41cb95110e5753eff9114f3e0ee37675475b944b9f69e1951f3e1c63c",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 有声书"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Kolejnym darmowym serwisem audio dostępnym na bramce są audiobooki. Cała kolekcja audiobooków <a href=\"https://wolnelektury.pl/\" target=\"_blank\">WolneLektury.pl</a>,  do których masz dostęp za darmo!",
+      "source_content_hash": "607bbebba9f61daf38104572d65b16f6b83f217c2c1451745a39a7520d1ff2ae",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "网关提供的另一项免费音频服务是有声书。您可免费访问<a href=\"https://wolnelektury.pl/\" target=\"_blank\">WolneLektury.pl</a>平台的完整有声书资源库！"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "*Utwory w bibliotece nie są objęte majątkowym prawem autorskim i znajdują się w domenie publicznej, co oznacza, że możesz je swobodnie słuchać, publikować i rozpowszechniać.*",
+      "source_content_hash": "29e1b1c119870bd67cf187a211187ec296780f851ad030ba37948572c587199b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "*该图书馆所有作品均不受财产性著作权保护且属于公共领域，这意味着您可以自由收听、发布和传播这些内容。*"
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "![Książki](/img/en/frontend/ais_integration_books.png)",
+      "source_content_hash": "21c453c56afd7e1ddf7f2386ba4da5ab9dd769c3e41bbcfd1ab4006f5c7c0603",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![有声书](/img/en/frontend/ais_integration_books.png)"
+      }
+    },
+    {
+      "segment_id": "e14c9928",
+      "source_content": "## Sterowanie pilotem",
+      "source_content_hash": "2d0ec5cac96c143572334262d59e1dc49841b943a88c512cbd3bb20a66e07c1a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 遥控器操作"
+      }
+    },
+    {
+      "segment_id": "42ad8e83",
+      "source_content": "Autorów, książki, rozdziały można przeglądać oraz uruchamiać ich odtwarzanie za pomocą naszego dedykowanego [Pilota radiowego](/docs/ais_remote_index) (nie jest do tego potrzebna aplikacja z ekranem).",
+      "source_content_hash": "95617b808646061c631942b8c98e274725218b375e9d1640a009adb38375fc6a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "您可以通过我们专用的[无线电遥控器](/docs/ais_remote_index)浏览作者、书籍、章节并控制播放（无需使用带屏幕的应用程序）。"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_app_books.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.111150+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "917f1a37f60e0fbdbefc9077611a64d4f565267298d3d5afcd8ea21adcf79808"
+  }
+}

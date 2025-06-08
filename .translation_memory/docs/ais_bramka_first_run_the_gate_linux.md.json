@@ -1,0 +1,92 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_first_run_the_gate_linux.md",
+  "source_file_content_hash": "bf688f09099de86fc384493578a0e7de144f7e0c739b5b41fb0dd9a513f80efb",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Linux, Pierwsze uruchomienie\"\nsidebar_label: Linux\n---",
+      "source_content_hash": "e18834c579496614df952d282d4ddcb1255bbf0e46fb5d625e5668bb37b5a66a",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "a703643c",
+      "source_content": "## Ekran powitalny Home Assistant",
+      "source_content_hash": "a35abd1a66a28584f3f53fe696a25a76b94ad3a4f14d98b395c5db7855410d03",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## Home Assistant欢迎界面"
+      }
+    },
+    {
+      "segment_id": "623f74e7",
+      "source_content": "import BrowserWindow from '@site/src/components/BrowserWindow';",
+      "source_content_hash": "c30f3ec38b8fe46ed14acfdf630f27b5f382afaea44d9df375ff4baf3311b08e",
+      "node_type": "mdxjsEsm",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_623f74e7"
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "Wpisz adres kontrolera ``AIS`` w pasku adresu przeglądarki:",
+      "source_content_hash": "c3ba642cacb26fb48e63fbd377ae1824db487da4a8ce99c1e855c9f563cac98f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在浏览器地址栏输入``AIS``控制器的地址："
+      }
+    },
+    {
+      "segment_id": "9e760345",
+      "source_content": "* domyślnie jest to adres ``http://homeassistant.local:8123/``\n* jeśli pod powyższym adresem nie pojawia się strona powitalna to wpisz adres: ``http://X.X.X.X:8123`` (zamień X.X.X.X na adres IP bramki)",
+      "source_content_hash": "0c8f8a2d3c5e59b2606b83e5501f3bf33a3b9be752d1566dece231c376f56fce",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "* 默认地址为``http://homeassistant.local:8123/``\n* 若上述地址无法显示欢迎页面，请输入地址：``http://X.X.X.X:8123``（将X.X.X.X替换为网关IP地址）"
+      }
+    },
+    {
+      "segment_id": "42ad8e83",
+      "source_content": "Na stronie powitalnej będzie można przejść krok po kroku konfigurator i wybrać podstawowe ustawienia Home Assistant.",
+      "source_content_hash": "d4d641f462e5c62322a7ed2ea0e1bba5478e2e3cb0c9c4a395c3dc52d4e185a2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在欢迎页面上，您可以逐步完成配置向导并选择Home Assistant的基本设置。"
+      }
+    },
+    {
+      "segment_id": "09a8fe76",
+      "source_content": "<BrowserWindow url=\"http://homeassistant.local:8123/\">\n<center>\n![AIS Linux First run](/img/en/linux/onboarding_preparing_01_.png)\n</center>\n</BrowserWindow>",
+      "source_content_hash": "364028be01e0257b217ec306575c46591e53761e5d29d60888d09a5f3bd49209",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_09a8fe76"
+      }
+    },
+    {
+      "segment_id": "f2c2bdd0",
+      "source_content": "Szczegółowy opis dalszych kroków dostępny jest na stronie [Onboarding Home Assistant](https://www.home-assistant.io/getting-started/onboarding/)",
+      "source_content_hash": "d160cccec9c25d2e21376fb07a938d6198b8bd7e996756d3a059198fe8ac9595",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "详细后续步骤说明请参阅[Home Assistant入门指南](https://www.home-assistant.io/getting-started/onboarding/)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_first_run_the_gate_linux.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.107135+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "bf688f09099de86fc384493578a0e7de144f7e0c739b5b41fb0dd9a513f80efb"
+  }
+}

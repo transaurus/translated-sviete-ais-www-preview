@@ -1,0 +1,102 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2018-12-10-release-notes.md",
+  "source_file_content_hash": "63233ec98dfc4efd610c0477a4ffc46540767728d4a2d7b90e696c14461a8fde",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Andrzej Raczkowski\nauthorURL: https://github.com/sviete\nauthorFBID: 1546384510\ntitle: Wersja systemu 0.83.7  \n---",
+      "source_content_hash": "981a196506410baa6dfe1021177e2a8c048846b52258654869110fc0d922db76",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Wersja systemu 0.83.7  z dnia 10 grudnia 2018 roku,",
+      "source_content_hash": "f11b8a8524b4ae256e5e0f2b67ddf8f4655e88115626dcc2f4782fa02a398c1c",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 系统版本 0.83.7  发布于2018年12月10日"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "w tej wersji dodano:",
+      "source_content_hash": "3872a90319800ef209dc86e7768257437634efb2d0bd4158297f09cf8d4b1322",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该版本新增功能："
+      }
+    },
+    {
+      "segment_id": "be33979e",
+      "source_content": "- komenda graj/odtwarzaj [Komendy](/docs/ais_app_assistent_commands)\n- najnowszy Home Assistant <a href=\"https://www.home-assistant.io/blog/2018/11/29/release-83/\" target=\"_blank\">0.83</a> w którym dodano między innymi integrację z centralką Fibaro <a href=\"https://www.home-assistant.io/components/fibaro/\" target=\"_blank\">Fibaro hub</a>, komponenty:\n  * Fibaro Binary Sensor https://www.home-assistant.io/components/binary_sensor.fibaro/\n  * Fibaro covers https://www.home-assistant.io/components/cover.fibaro/\n  * Fibaro Lights https://www.home-assistant.io/components/light.fibaro/\n  * Fibaro sensors https://www.home-assistant.io/components/sensor.fibaro/\n  * Fibaro switches https://www.home-assistant.io/components/switch.fibaro/",
+      "source_content_hash": "5e673438b0ebbb13fa8c7134766ebdb696b358c3b794c030890f60b9fc9ced9f",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 新增\"播放\"语音指令 [指令列表](/docs/ais_app_assistent_commands)\n- 集成最新版Home Assistant <a href=\"https://www.home-assistant.io/blog/2018/11/29/release-83/\" target=\"_blank\">0.83</a>，主要新增Fibaro智能中控<a href=\"https://www.home-assistant.io/components/fibaro/\" target=\"_blank\">Fibaro hub</a>的组件支持：\n  * Fibaro二进制传感器 https://www.home-assistant.io/components/binary_sensor.fibaro/\n  * Fibaro窗帘控制器 https://www.home-assistant.io/components/cover.fibaro/\n  * Fibaro灯光控制 https://www.home-assistant.io/components/light.fibaro/\n  * Fibaro传感器 https://www.home-assistant.io/components/sensor.fibaro/\n  * Fibaro开关模块 https://www.home-assistant.io/components/switch.fibaro/"
+      }
+    },
+    {
+      "segment_id": "ea07d81e",
+      "source_content": "> **Uwaga w tej wersji wyłączono serwis Node-RED**, jest to spowodowane zmianami <a href=\"https://developers.home-assistant.io/docs/auth_api.html#long-lived-access-token\" target=\"_blank\"> w dostępie do API Home Assistant</a> , konieczność podpisywania wywołań API tokenem.",
+      "source_content_hash": "46174227be7900ecec6bd276c4d6959be8e070c477ba47eebddd5065066e12ed",
+      "node_type": "blockquote",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "> **注意：本版本已停用Node-RED服务**，这是由于<a href=\"https://developers.home-assistant.io/docs/auth_api.html#long-lived-access-token\" target=\"_blank\">Home Assistant API访问机制变更</a>，所有API调用需使用令牌签名验证。"
+      }
+    },
+    {
+      "segment_id": "2fdadb08",
+      "source_content": "Żeby ponownie włączyć Node-RED jako proces wystarczy w konsoli wpisać:",
+      "source_content_hash": "59cad6c2b9baa092fd381ee4938db011f8d07b88cb26d0ca74f79f8ea140bec7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "如需重新启用Node-RED进程，只需在控制台输入："
+      }
+    },
+    {
+      "segment_id": "a89b882e",
+      "source_content": "```bash\n$ pm2 start node-red --name nred --node-args=\"--max-old-space-size=128\"\n```",
+      "source_content_hash": "9da4cc01622c35ef81f3430b5626a32d651119f60bde062b6d28f61898fa4ca5",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_a89b882e"
+      }
+    },
+    {
+      "segment_id": "4b1d2d7d",
+      "source_content": "i jeśli chcemy żeby Node-RED był uruchamiany autmatycznie po starcie bramki:",
+      "source_content_hash": "ca400d985d9eb986488516407a92906dca703af93457d9f7d8839cca594037c4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "若需实现网关启动时自动运行Node-RED："
+      }
+    },
+    {
+      "segment_id": "cb57d798",
+      "source_content": "```bash\n$ pm2 save\n```",
+      "source_content_hash": "4fdd2f64f44962424ac827a84250c6dbc50a417ec10186864ff0ca34c468bf1f",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_cb57d798"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2018-12-10-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.122598+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "63233ec98dfc4efd610c0477a4ffc46540767728d4a2d7b90e696c14461a8fde"
+  }
+}

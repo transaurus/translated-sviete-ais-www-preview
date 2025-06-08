@@ -1,0 +1,102 @@
+{
+  "version.label": {
+    "message": "下一个版本",
+    "description": "The label for version current"
+  },
+  "sidebar.System.category.Bramka AIoT": {
+    "message": "AIoT网关",
+    "description": "The label for category Bramka AIoT in sidebar System"
+  },
+  "sidebar.System.category.Początkowa konfiguracja Asystenta domowego": {
+    "message": "家庭助手初始配置",
+    "description": "The label for category Początkowa konfiguracja Asystenta domowego in sidebar System"
+  },
+  "sidebar.System.category.Zarządzanie bramką z poziomu Asystenta domowego": {
+    "message": "通过家庭助手管理网关",
+    "description": "The label for category Zarządzanie bramką z poziomu Asystenta domowego in sidebar System"
+  },
+  "sidebar.System.category.Automatyzacje": {
+    "message": "自动化",
+    "description": "The label for category Automatyzacje in sidebar System"
+  },
+  "sidebar.System.category.Dostęp w sieci lokalnej": {
+    "message": "局域网访问",
+    "description": "The label for category Dostęp w sieci lokalnej in sidebar System"
+  },
+  "sidebar.System.category.Dostęp z Internetu": {
+    "message": "互联网访问",
+    "description": "The label for category Dostęp z Internetu in sidebar System"
+  },
+  "sidebar.System.category.Portal Integratora": {
+    "message": "集成商门户",
+    "description": "The label for category Portal Integratora in sidebar System"
+  },
+  "sidebar.System.category.Ustawienia zaawansowane": {
+    "message": "高级设置",
+    "description": "The label for category Ustawienia zaawansowane in sidebar System"
+  },
+  "sidebar.System.category.Reset urządzenia do ustawień fabrycznych": {
+    "message": "恢复设备出厂设置",
+    "description": "The label for category Reset urządzenia do ustawień fabrycznych in sidebar System"
+  },
+  "sidebar.Aplikacja.category.Aplikacja internetowa": {
+    "message": "网页应用",
+    "description": "The label for category Aplikacja internetowa in sidebar Aplikacja"
+  },
+  "sidebar.Aplikacja.category.Aplikacje Android": {
+    "message": "Android应用",
+    "description": "The label for category Aplikacje Android in sidebar Aplikacja"
+  },
+  "sidebar.Aplikacja.category.Komendy głosowe": {
+    "message": "语音指令",
+    "description": "The label for category Komendy głosowe in sidebar Aplikacja"
+  },
+  "sidebar.Aplikacja.category.Aktualizacja": {
+    "message": "更新",
+    "description": "The label for category Aktualizacja in sidebar Aplikacja"
+  },
+  "sidebar.Aplikacja.category.Pełny reset aplikacji": {
+    "message": "应用完全重置",
+    "description": "The label for category Pełny reset aplikacji in sidebar Aplikacja"
+  },
+  "sidebar.Integracje.category.Wbudowane integracje audio": {
+    "message": "内置音频集成",
+    "description": "The label for category Wbudowane integracje audio in sidebar Integracje"
+  },
+  "sidebar.Integracje.category.Wbudowane inne integracje": {
+    "message": "其他内置集成",
+    "description": "The label for category Wbudowane inne integracje in sidebar Integracje"
+  },
+  "sidebar.Integracje.category.IFTTT przykłady": {
+    "message": "IFTTT示例",
+    "description": "The label for category IFTTT przykłady in sidebar Integracje"
+  },
+  "sidebar.Integracje.category.Integracje dodatkowe": {
+    "message": "附加集成",
+    "description": "The label for category Integracje dodatkowe in sidebar Integracje"
+  },
+  "sidebar.Urządznia.category.Inteligentne gniazdo WiFi": {
+    "message": "智能WiFi插座",
+    "description": "The label for category Inteligentne gniazdo WiFi in sidebar Urządznia"
+  },
+  "sidebar.Urządznia.category.Pilot radiowy z mikrofonem": {
+    "message": "带麦克风的射频遥控器",
+    "description": "The label for category Pilot radiowy z mikrofonem in sidebar Urządznia"
+  },
+  "sidebar.Urządznia.category.AI-Speaker (DEV KIT1)": {
+    "message": "AI-Speaker (开发套件1)",
+    "description": "The label for category AI-Speaker (DEV KIT1) in sidebar Urządznia"
+  },
+  "sidebar.Urządznia.category.Zarządzanie urządzeniami AIS dom z bramki": {
+    "message": "通过网关管理AIS智能家居设备",
+    "description": "The label for category Zarządzanie urządzeniami AIS dom z bramki in sidebar Urządznia"
+  },
+  "sidebar.Urządznia.category.Oprogramowanie dla urządzeń AIS dom": {
+    "message": "AIS智能家居设备软件",
+    "description": "The label for category Oprogramowanie dla urządzeń AIS dom in sidebar Urządznia"
+  },
+  "sidebar.Urządznia.category.Zigbee Adapter": {
+    "message": "Zigbee适配器",
+    "description": "The label for category Zigbee Adapter in sidebar Urządznia"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_app_ios_mob.md",
+  "source_file_content_hash": "ab8c01acd0cad385e25d88d1fb37bb58c27587b03b4d288514ad163812021880",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"AIS iOS\"\nsidebar_label: AIS iOS\n---",
+      "source_content_hash": "98b623c6ec456cbd71bca246d80f79d3f4795ab63da7c4e5c9e77d348be3d8bb",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "a703643c",
+      "source_content": "## Wprowadzenie",
+      "source_content_hash": "138964b3f05ef631ae55efd030ca96538eb5d783961ef7b978515da6c937d13f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 简介"
+      }
+    },
+    {
+      "segment_id": "0d5e1c45",
+      "source_content": ":::caution\nAplikacje są weryfikowane w Apple Store. \n:::",
+      "source_content_hash": "22e3796fa64c81317e95a563d2e3a919928176849780cdfbaf9176bf158b35e4",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution\n应用程序需通过Apple Store审核。\n:::"
+      }
+    },
+    {
+      "segment_id": "ad8fd492",
+      "source_content": "![](/img/en/blog/202109/ios.png)",
+      "source_content_hash": "68972dbe7779f4fcd4f1f4a29e8574a565d29cc11c83989813c664419b4b456e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202109/ios.png)"
+      }
+    },
+    {
+      "segment_id": "86b54d44",
+      "source_content": "![](/img/en/blog/202109/macOS.png)",
+      "source_content_hash": "79baa09e11aacae6e172b647d2c41c5974f6fe919bf746724cd0dfe2e56c20ff",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202109/macOS.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_app_ios_mob.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.093896+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "ab8c01acd0cad385e25d88d1fb37bb58c27587b03b4d288514ad163812021880"
+  }
+}

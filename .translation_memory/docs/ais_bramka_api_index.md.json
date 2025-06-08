@@ -1,0 +1,662 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_api_index.md",
+  "source_file_content_hash": "75b4b2e75e311c6fa919ae76b2f33653a22e7fe0bf2c39ead948c407feda6493",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"API systemu\"\nsidebar_label: API systemu\n---",
+      "source_content_hash": "27eba1ff432690a97910d6d083b047f819035931a2ceeb054df7bedfad487110",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "a703643c",
+      "source_content": "## Wprowadzenie",
+      "source_content_hash": "138964b3f05ef631ae55efd030ca96538eb5d783961ef7b978515da6c937d13f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 简介"
+      }
+    },
+    {
+      "segment_id": "53eaf0e1",
+      "source_content": "RESTful API działa na protokole http. Komunikacja poprzez ten protokół odbywa się za pomocą kilku standardowych metod, my wykorzystujemy głównie metodę POST (do wysłania danych) i GET (do pobierania). Webserwisy udostępniane są jako zasoby, do których dostęp możliwy jest poprzez odpowiedni adres URL wywoływany z poziomu protokołu http za pomocą określonej metody.",
+      "source_content_hash": "b69bf546ab14b6085da9c1ddcad70d4e269590009dde050cf042e94638be2ead",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "RESTful API基于HTTP协议运行。通过该协议的通信主要使用几种标准方法，我们主要使用POST方法（发送数据）和GET方法（获取数据）。Web服务以资源形式提供，可通过HTTP协议调用特定URL地址进行访问。"
+      }
+    },
+    {
+      "segment_id": "8ac585fb",
+      "source_content": "Na bramce mamy dwa webowe API:",
+      "source_content_hash": "268481849172c48bf674097dfef7d5ce84503793c8c6871c3aa76fbb32eb913d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "网关提供两类Web API："
+      }
+    },
+    {
+      "segment_id": "730c423c",
+      "source_content": "1. **API bramki** (dostęp do natywnych zasobów systemu Android) na porcie 8122\n2. **Standardowe webowe API Home Assistant/Asystenta domowego** na tych samych portach, co serwer WWW (80 i 8180 lub w przypadku dostępu z zewnątrz 433)",
+      "source_content_hash": "207a7c9569fa957e2260d19a6ebf642e9b1bb85a8fa0349b92751e8c37d2a4e9",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "1. **网关原生API**（访问Android系统原生资源）运行在8122端口\n2. **Home Assistant/家庭助理标准Web API** 与Web服务器使用相同端口（80和8180，外部访问时为443端口）"
+      }
+    },
+    {
+      "segment_id": "976d532b",
+      "source_content": ":::tip[Wskazówka]\nInterfejsy API akceptują i zwracają tylko obiekty zakodowane w JSON.\n\nW przykładach poniżej używamy lokalnej nazwy hosta bramki: ais-dom.local, jeżeli bramka nie jest dostępna w Twojej sieci pod tą nazwą to zamiast ais-dom.local użyj jej lokalnego adresu IP.\n:::",
+      "source_content_hash": "b3978328e9be3959d74ea56ad23c61434d12522550c2e2b61d6c1c32d120d8db",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::tip[提示]\n所有API接口仅接受和返回JSON编码的对象。\n\n以下示例使用网关本地主机名：ais-dom.local。若您的局域网无法解析该主机名，请改用网关的本地IP地址。\n:::"
+      }
+    },
+    {
+      "segment_id": "418617bd",
+      "source_content": "## Lokalne API bramki",
+      "source_content_hash": "a103f34f2239a695f6f5267d1121fcf1313feeb37354cb43da0290f3a423738d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 网关本地API"
+      }
+    },
+    {
+      "segment_id": "2fdadb08",
+      "source_content": "Obecnie dostępne są 2 zasoby `http://ais-dom.local:8122/text_to_speech` i `http://ais-dom.local:8122/command`",
+      "source_content_hash": "f1e32a238cdd4ca969c87464025b0382ed6b8fe71cc2824704d7a7a2023915f8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "当前提供两个资源端点：`http://ais-dom.local:8122/text_to_speech` 和 `http://ais-dom.local:8122/command`"
+      }
+    },
+    {
+      "segment_id": "64f5e8db",
+      "source_content": ":::caution[Uwaga]\n**To api dostępne jest tylko w sieci lokalnej, dlatego nie wymagamy uwierzytelnienia i szyfrowania.**\n\nWywołanie API bramki spoza sieci lokalnej (z Internetu) możliwe jest przez API Asystenta domowego. Takie wywołania wymagają uwierzytelnienia i szyfrowania (protokół https).\nCałe lokalne API bramki jest dostępne przez API Asystenta domowego - opisujemy to dokładnie poniżej.\n:::",
+      "source_content_hash": "8ca1784a60da8a4b29a6e0951b348d767c5f94440bd82bf799d272fad36c1401",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[注意]\n**此API仅限局域网访问，因此无需身份验证和加密。**\n\n从互联网（局域网外）调用网关API需通过家庭助理API实现。此类调用要求身份验证和加密（HTTPS协议）。\n完整的网关本地API均可通过家庭助理API访问——具体说明详见下文。\n:::"
+      }
+    },
+    {
+      "segment_id": "73ab96a3",
+      "source_content": "**Tekst JSON MUSI być zakodowany w Unicode. Domyślne kodowanie to UTF-8.**",
+      "source_content_hash": "ce325934c7576585590eebf60c118285cf77032b76c6fd7897d0e6fb917f841b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "**JSON文本必须使用Unicode编码。默认编码为UTF-8。**"
+      }
+    },
+    {
+      "segment_id": "7499a4e7",
+      "source_content": "Znaki inne niż ASCII (np. symbole istniejące w językach świata), przed wysłaniem do api należy skonwertować do ich znaków kodowych w UTF-8. Takie konwertowanie wykonywane jest zwykle automatycznie przez program / klienta REST.",
+      "source_content_hash": "2b5ed5fbdae1e0e386c63f9b127aef7a83e21ffa9e3d00091d8cc68ef22a68e4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "非ASCII字符（如各国语言符号）在发送至API前，应转换为UTF-8编码字符。此类转换通常由REST客户端/程序自动完成。"
+      }
+    },
+    {
+      "segment_id": "3b7478ea",
+      "source_content": "### Zasób /text_to_speech",
+      "source_content_hash": "ee638464b4059f1318671b9ba0591fac359a1c50ec1124190c37837b6f7c9b65",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### /text_to_speech资源"
+      }
+    },
+    {
+      "segment_id": "c3a738de",
+      "source_content": "Ten zasób pozwala nam na wysłanie do bramki metodą POST tekstu do przeczytania:",
+      "source_content_hash": "e6d3c9cc9b9a41c70a95808cb245a37255f1bbcc04fea0a07ed108d7bf2221e9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该资源允许通过POST方法向网关发送待朗读文本："
+      }
+    },
+    {
+      "segment_id": "bca33820",
+      "source_content": "```\ncurl -v --header \"Content-Type: application/json\" \\\n--request POST  \\\n--data '{\"text\":\"Witaj Jolka\"}' \\\nhttp://ais-dom.local:8122/text_to_speech\n```",
+      "source_content_hash": "0f6f61cc98f712f30ec764b1680ab25ee0de809765c5c9760073baa53d8f5370",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_bca33820"
+      }
+    },
+    {
+      "segment_id": "a9d49f92",
+      "source_content": "Dostępne parametry TTS",
+      "source_content_hash": "b2cc9cc965fb38e9a371b421b568809ac88983a520c5f40fbb759bfb58f89da3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "可用TTS参数"
+      }
+    },
+    {
+      "segment_id": "8b0f8d70",
+      "source_content": "| Parametr | Domyślna wartość | Opis / Dostępne opcje |\n| --- | --- | --- |\n| `text` | - | Tekst do przeczytania / Dowolny tekst|\n| `pitch` | 1.0  | Ton mowy / 1.0 to normalny ton, niższe wartości obniżają ton syntetyzowanego głosu, większe wartości go zwiększają.|\n| `rate` |  1.0  | Szybkość mowy / 1.0 to normalna szybkość mowy, niższe wartości spowalniają mowę (0,5 to połowa normalnej szybkości mowy), większe wartości ją przyspieszają (2,0 to dwukrotność normalnej szybkości mowy).|\n| `language` | `pl_PL` | Język / Inne dostępne opcje to uk_UA, en_GB, en_US|\n| `path` | - | Ścieżka do zapisu pliku w formacie wav|",
+      "source_content_hash": "83d43d1ba8b5378839279ea34c0d60bfbe4a0b225996cef9cecbd55a635a9b43",
+      "node_type": "table",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_8b0f8d70"
+      }
+    },
+    {
+      "segment_id": "23dfb152",
+      "source_content": "Dla uproszczenia, zasób **text_to_speech** pozwala też na wywolanie metodą **GET** - czyli wystarczy np. wkleić adres bramki z tekstem do przeczytania do przeglądarki internetowej żeby wywołać API.\nW przypadku metody GET należy parametry podać w ciągu zapytania (Query string). Przykłady komunikatów wywoływanych metodą GET:",
+      "source_content_hash": "bbfdbc278c9350282167768765b7fefd38f1c590acf3e57c3c5bb1af54f4b7fa",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "为简化操作，**text_to_speech**资源也支持**GET**方法调用——用户只需在浏览器地址栏输入包含待朗读文本的网关地址即可调用API。\n使用GET方法时，参数需通过查询字符串(Query string)传递。以下是GET方法调用示例："
+      }
+    },
+    {
+      "segment_id": "24c174ca",
+      "source_content": "- informacja o alarmie pożarowym po angielsku",
+      "source_content_hash": "8f43125101eb93a66992bd604a706d8edef3dcfe051e631196227ed104ea0999",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 英语火警通知"
+      }
+    },
+    {
+      "segment_id": "79ad944d",
+      "source_content": "`http://ais-dom.local:8122/text_to_speech?language=en_GB&rate=1&pitch=1&text=Attention. Attention. This is Fire alarm! Evacuation on fire route number five in two minutes`",
+      "source_content_hash": "2adb315f520996d771c206c105dc66beb87dcdf5946bfb1e1f2946d43746a137",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "`http://ais-dom.local:8122/text_to_speech?language=en_GB&rate=1&pitch=1&text=Attention. Attention. This is Fire alarm! Evacuation on fire route number five in two minutes`"
+      }
+    },
+    {
+      "segment_id": "180e9ce9",
+      "source_content": "- informacja o przerwie po ukraińsku",
+      "source_content_hash": "ffe353e1c67b1b3d343c4791b2851a0d6e20eebe8c5ab9a33d40e3c1f8a0b44e",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 乌克兰语休息通知"
+      }
+    },
+    {
+      "segment_id": "657c2b20",
+      "source_content": "`http://ais-dom.local:8122/text_to_speech?language=uk_UA&rate=1&pitch=1&text=Ми запрошуємо вас на 30-хвилинну перерву на сніданок. Смачного.`",
+      "source_content_hash": "890398a50d615600d45cefaff7722e4f822e2f4cc4a1dfc84a35c4da96731969",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "`http://ais-dom.local:8122/text_to_speech?language=uk_UA&rate=1&pitch=1&text=Ми запрошуємо вас на 30-хвилинну перерву на сніданок. Смачного。`"
+      }
+    },
+    {
+      "segment_id": "76dbcc76",
+      "source_content": "- ogłoszenie po polsku",
+      "source_content_hash": "a310568d31762ffbb6ea2b9faffdab3468d559dcb2de8730f6b1068f3640bb79",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 波兰语公告"
+      }
+    },
+    {
+      "segment_id": "883231d4",
+      "source_content": "`http://ais-dom.local:8122/text_to_speech?language=pl_PL&rate=1&pitch=1&text=Mamy więcej zamówień do zrealizowania, prosimy chętnych o pozostanie 2 godziny dłużej w pracy. Płacimy 200% extra.`",
+      "source_content_hash": "aee5e2bacc87312991c206075bc49bfb57fcfa32a7390ad429b7ea743aa33297",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "`http://ais-dom.local:8122/text_to_speech?language=pl_PL&rate=1&pitch=1&text=Mamy więcej zamówień do zrealizowania, prosimy chętnych o pozostanie 2 godziny dłużej w pracy. Płacimy 200% extra。`"
+      }
+    },
+    {
+      "segment_id": "afa378f7",
+      "source_content": "Przykład wywołania API z języka Python",
+      "source_content_hash": "14e5acbc51c703ac8d12fabab5df16fa0e77671e84914cf8737b3c3712d4131a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Python调用API示例"
+      }
+    },
+    {
+      "segment_id": "8a9e710a",
+      "source_content": "``` python\nimport requests\nrequests.post('http://ais-dom.local:8122/text_to_speech', json={'text':'cześć'})\n```",
+      "source_content_hash": "ae45c1b9fd1db64984825e5e9626ca2d244aa6118d3d98bfa348f2dca69592ed",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_8a9e710a"
+      }
+    },
+    {
+      "segment_id": "a4bf4268",
+      "source_content": "### Zasób /command",
+      "source_content_hash": "96107cc62af37b481bf6e0d67734405805dc06f8bc53d2827fe461e661eaa518",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 资源 /command"
+      }
+    },
+    {
+      "segment_id": "ec619944",
+      "source_content": "Ten zasób pozwala nam na wysłanie komendy do wykonania. Przykładowa komenda to wysłanie audio do odtwarzania na bramce:",
+      "source_content_hash": "317795d1debb89e0bee21aa35469f522620cfbb7822dffb65a47710256c90fd7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该资源允许我们发送待执行命令。示例命令为向网关发送待播放音频："
+      }
+    },
+    {
+      "segment_id": "26f7c825",
+      "source_content": "```\ncurl -v --header \"Content-Type: application/json\" \\\n--request POST  \\\n--data '{\"playAudio\": \"http://stream3.polskieradio.pl:8080/\"}' \\\nhttp://ais-dom.local:8122/command\n```",
+      "source_content_hash": "46ec3c124adf05b9a283304635e448ff5477f36c57befcff6f71447088d1345e",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_26f7c825"
+      }
+    },
+    {
+      "segment_id": "785750ac",
+      "source_content": "Dostępne komendy",
+      "source_content_hash": "3b825781e48fbd86586f8ae091e9d4d3c3ddb7bec912a046a7232937ef699ff5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "可用命令"
+      }
+    },
+    {
+      "segment_id": "f6bd7ec7",
+      "source_content": "| Komenda | Przykładowa wartość | Opis |\n| --- | --- | --- |\n| `playAudio` | `http://stream3.<br/>polskieradio.<br/>pl:8080/` | Odtwarzanie audio/video |\n| `stopAudio` | `true` | Zatrzymanie odtwarzacza |\n| `pauseAudio` | `true` | Pauza odtwarzacza |\n| `setVolume` | `50` | Ustawienie głośności odtwarzacza od 0 do 100 |\n| `upVolume` | `true` | Głośniej, to samo co naciśnięcie przycisku w pilocie |\n| `downVolume` | `true` | Ciszej, to samo co naciśnięcie przycisku w pilocie |\n| `setPlaybackPitch` | `1` | Częstotliwość audio, szczegóły w [dokumentacji PlaybackParams Android] (https://developer.android.com/reference/android/media/PlaybackParams) |\n| `setPlaybackSpeed` | `1` | Szybkość odtwarzania |\n| `seekTo` | `100` | Przewiń do pozycji w Milisekundach (ms) |\n| `skipTo` | `100` | Przeskocz do pozycji w Milisekundach (ms) |\n| `tone` | `86` | Odtworzenie tonu , szczegóły w [dokumentacji ToneGenerator Android] (https://developer.android.com/reference/android/media/ToneGenerator) |\n| `setPlayerShuffle` | `false` | Odtwarzanie losowe, przydatne przy Spotify |\n| `micOn` | `true` | Włączenie mikrofonu |\n| `micOff` | `true` | Wyłączenie mikrofonu |\n| `addBookmark` | `true` | Dodanie zakładki do odtwarzanych multimediów, przydatne przy audiobookach |\n| `goToActivity` | `ActivityMenu` | Przejście do aktywności (ekranu na bramce). Dostępne opcje to:<ul><li>`ActivityMenu` - \"Aktywność menu - sterowanie na monitorze\",</li><li>`SplashScreenActivity` - \"Sterowanie bez monitora\",</li><li>`ExoPlayerActivity` - \"Aktywność odtwarzacz multimediów\",</li><li>`ConsoleActivity` - \"Konsola Asystenta domowego\", </li><li>`AndroidSettingsActivity` - \"Ustawienia systemu Android\",</li><li>`SettingsActivity`  - \"Ustawienia Serwisu Asystent domowy na bramce\",</li><li>`FilesActivity` - \"Aplikacja menedżer plików na bramce\",</li><li>`AndroidWifiActivity` - \"Ustawienia WiFi w systemie Android\",</li><li>`SpotifyActivity` - \"Przejście do aplikacji Spotify\"</li></ul>  |\n| `showCamera` | `{\"streamUrl\": \"rtsp://192.168.2.38/unicast\", \"haCamId\": \"camera.domek\"}` | Wyświetlanie wideo (obraz i dźwięk) z kamery w aktywności. W parametrze haCamId podajemy identyfikator camery w Asystencie domowym - z tym identyfikatorem zostaną zgłoszone zdarzenia naciśnięcia przycisków (otwieranie drzwi/bramy) w systemie. |",
+      "source_content_hash": "54ccc80447e9eaec3e4e9d0375d6f80def4846f06d5833cd601056d272865015",
+      "node_type": "table",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_f6bd7ec7"
+      }
+    },
+    {
+      "segment_id": "37fca32e",
+      "source_content": "## RESTful API Home Assistant",
+      "source_content_hash": "923f73d1abfb55971ba851cd9c11ba3dddeb62987063e0ffe2d51c6f708c98b8",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## Home Assistant的RESTful API"
+      }
+    },
+    {
+      "segment_id": "a8610918",
+      "source_content": "Asystent Domowy udostępnia serwer WWW na porcie 80 oraz 8180",
+      "source_content_hash": "90a9dd3f36d45d135dbfdff3ab57c5bfd40ab4ed06414ee4a30e49c0f9ea4b85",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "家庭助理在80和8180端口提供Web服务"
+      }
+    },
+    {
+      "segment_id": "9673e622",
+      "source_content": "* http://ais-dom.local:8180/ tu znajduje się aplikacja do kontrolowania systemu\n* http://ais-dom.local:8180/api/ tu znajduje się RESTful API",
+      "source_content_hash": "695bbae5ac9dd810d24ce3f15090accfcb4d3e430d83ddc6849dc88d8df9299d",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "* http://ais-dom.local:8180/ 这里是系统控制应用程序\n* http://ais-dom.local:8180/api/ 这里是RESTful API接口"
+      }
+    },
+    {
+      "segment_id": "23b96cc0",
+      "source_content": "### Wywoływanie/testowanie usług w aplikacji",
+      "source_content_hash": "b109b087e2b70825a7fa472b45329e59e4409b8b2f9b21b9989d0596add20842",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 在应用程序中调用/测试服务"
+      }
+    },
+    {
+      "segment_id": "c424756f",
+      "source_content": ":::tip[Wskazówka]\nAby sprawdzić dostępne usługi w aplikacji, z głównego menu przejdź do `Narzędzia deweloperskie` -> `USŁUGI` Z tego miejsca możesz wywoływać/testować dowolne usługi dostępne na bramce.\n:::",
+      "source_content_hash": "69201f8732a85b5e9d2894ec8f16a504e09bcb7c57caa9c80c82da3113350177",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::tip[提示]\n要查看应用程序中的可用服务，请从主菜单进入`开发者工具`->`服务`。您可以在此处调用/测试网关上的任何可用服务。\n:::"
+      }
+    },
+    {
+      "segment_id": "ed87fcae",
+      "source_content": ":::important[informacja]\nKażda usługa ma w aplikacji:\n- opis\n- wylistowane parametry (parametr, opis i przykładowa wartość parametru)\n\ndlatego nie będziemy szczegółowo opisywać usług w dokumentacji, podamy tu tylko przykładowe wywołania.\n:::",
+      "source_content_hash": "81c549b88e7278c034aa5e94612782eeafca6da4dfa2b4b25e3b7ee00bd6c3cc",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::important[重要信息]\n应用程序中每项服务包含：\n- 描述\n- 参数列表（参数名、描述及示例值）\n\n因此文档中不再详细描述服务，仅提供示例调用。\n:::"
+      }
+    },
+    {
+      "segment_id": "bb1346b6",
+      "source_content": "W celu wywołania/przetestowania usługi:",
+      "source_content_hash": "4d6d37c3273983b72f0ee877496ae07ba2e3be78dacee7c52319af038f5b3692",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "调用/测试服务步骤："
+      }
+    },
+    {
+      "segment_id": "b459cfc1",
+      "source_content": "1. Zaloguj się do aplikacji Asystent domowy z uprawnieniami `Administrator`.\n2. Przejdź do `Narzędzia deweloperskie` -> `USŁUGI`.\n3. Wybierz usługę do wywołania z dostępnej listy.\n4. Podajemy parametry do przekazania w formacie JSON lub YAML.\n5. Naciśnij przycisk \"Wywołaj usługę\".",
+      "source_content_hash": "aaa7990d3b2a72e6389b39f83cbeea07c1be86767fef41770b3fd2a0469c48a4",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "1. 使用`管理员`权限登录家庭助理应用\n2. 进入`开发者工具`->`服务`\n3. 从列表中选择要调用的服务\n4. 以JSON或YAML格式提供参数\n5. 点击\"调用服务\"按钮"
+      }
+    },
+    {
+      "segment_id": "be17ccc3",
+      "source_content": "Przykładowy parametr w formacie JSON:",
+      "source_content_hash": "178b46178aef11f0dbe843c34ac35e7a8f097a6995e1cf33bb23997c21a8be8e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "JSON格式参数示例："
+      }
+    },
+    {
+      "segment_id": "ad3cd2f7",
+      "source_content": "```json\n{\"text\": \"Cześć, jak się masz?\"}\n```",
+      "source_content_hash": "bc0a00cd7086c32e1c2942acfa13990adcf91b88fb3450e652a9d9b071ae6da6",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_ad3cd2f7"
+      }
+    },
+    {
+      "segment_id": "42d9ca67",
+      "source_content": "odpowiednik w formacie YAML:",
+      "source_content_hash": "c75bb5438a5ac1d9272867aad6be40f0a82ee1889fc05fc090fecde628124c52",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "YAML格式等效参数："
+      }
+    },
+    {
+      "segment_id": "d58c5dc0",
+      "source_content": "```yaml\ntext: \"Cześć, jak się masz?\"\n```",
+      "source_content_hash": "9975b2b6ce64278141cf4687be8f9276ca0d34e1b49118995c155ea4053e571d",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_d58c5dc0"
+      }
+    },
+    {
+      "segment_id": "1496ef51",
+      "source_content": "![Usługi](/img/en/frontend/services_1.png)",
+      "source_content_hash": "cf3cd9fa38a8ae062f37e613d726572d69b5c3f8d5019607b2fbe9553231b2f5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![服务](/img/en/frontend/services_1.png)"
+      }
+    },
+    {
+      "segment_id": "2c6699bc",
+      "source_content": ":::tip[Wskazówka]\nCałe API bramki (opisane szczegółowo powyżej), dostępne jest z poziomu Asystenta domowego za pomocą usługi `ais_ai_service.publish_command_to_frame`.\n\nDzięki temu możemy wywoływać api na bramce także z zewnątrz, w bezpieczny sposób (szyfrowanie i uwierzytelnienie tokenem).\n:::",
+      "source_content_hash": "2559b3caa218e02429ac3688dbdb9be5ac068332e465f28fa34644a8e27e2138",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::tip[提示]\n网关的完整API（上文详述）可通过`ais_ai_service.publish_command_to_frame`服务在家庭助手中访问。\n\n这使得我们也能以安全方式（加密和令牌认证）从外部调用网关API。\n:::"
+      }
+    },
+    {
+      "segment_id": "6b40e7a2",
+      "source_content": "![Usługi](/img/en/frontend/services_2.png)",
+      "source_content_hash": "f64d778f775babf2b50fd3584a075830f279d9ef88b4ee23ac6e6cde08228633",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![服务](/img/en/frontend/services_2.png)"
+      }
+    },
+    {
+      "segment_id": "58f98d22",
+      "source_content": "### Wywoływanie usług z curl",
+      "source_content_hash": "6519a8315e8ec4f67c52de0b4457c714614b956bbfc5823a1e46eece2bf60f62",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 使用curl调用服务"
+      }
+    },
+    {
+      "segment_id": "54e09c74",
+      "source_content": ":::important[informacja]\nŻeby wywołać API Asystenta domowego z zewnętrznego systemu, potrzebujemy token dostępu.\nNajpierw z poziomu aplikacji wygenerujmy długoterminowy token dostępu (long-lived access token), który będzie ważny 10 lat.\n:::",
+      "source_content_hash": "38ba72b2032fa6e0ac3e70f119d42e74d6231d58accde74291b8949232fbd8e9",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::important[重要信息]\n若要从外部系统调用家庭助理的API，我们需要一个访问令牌。\n首先在应用程序中生成一个长期有效的访问令牌(long-lived access token)，该令牌有效期为10年。\n:::"
+      }
+    },
+    {
+      "segment_id": "67edbbc4",
+      "source_content": "#### Generowanie tokena dostępu",
+      "source_content_hash": "ceaf7459696e166825d7de90f944d06fd3101d4546b1fd0fa379cd9794eeb958",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "#### 生成访问令牌"
+      }
+    },
+    {
+      "segment_id": "61a78cbe",
+      "source_content": "Przechodzimy w aplikacji na nasz profil, następnie przewijamy na dół strony i wybieramy `UTWÓRZ TOKEN`:",
+      "source_content_hash": "845e312239d3daeb82a308c7c3ca709b834f57e16c13d129ee356e9a7e805638",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在应用程序中进入个人资料页面，滚动至页面底部并选择`创建令牌`："
+      }
+    },
+    {
+      "segment_id": "39c48ff7",
+      "source_content": "![Tokeny](/img/en/frontend/tokens_1.png)",
+      "source_content_hash": "e7c3c040b50811eb43830a98398c2c84fe44d1c19bf85e686f183d7bfbbd819a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![令牌](/img/en/frontend/tokens_1.png)"
+      }
+    },
+    {
+      "segment_id": "e29bd639",
+      "source_content": "podajemy nazwę dla tokena:",
+      "source_content_hash": "8e4e8ca708de032aa20ece0c84b6f1ecf8c601c89e2017d12e845143b5f76c8f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "输入令牌名称："
+      }
+    },
+    {
+      "segment_id": "e5821418",
+      "source_content": "![Tokeny](/img/en/frontend/tokens_2.png)",
+      "source_content_hash": "0c3d3fd719c1d7268a1a8a2d60c3b05f8d5f4d0856a9aa2d7542dd268364dddd",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![令牌](/img/en/frontend/tokens_2.png)"
+      }
+    },
+    {
+      "segment_id": "4e2e17c5",
+      "source_content": "kopiujemy token:",
+      "source_content_hash": "f1cecd4495a6b147fdced75dd9bad85f81f250750327796cd19d46645cb973be",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "复制令牌："
+      }
+    },
+    {
+      "segment_id": "b49a7009",
+      "source_content": "![Tokeny](/img/en/frontend/tokens_3.png)",
+      "source_content_hash": "64f6e6235f0c98c0a2601dc93dd77f59b84134434da9e699ed259fe7c5ae443a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![令牌](/img/en/frontend/tokens_3.png)"
+      }
+    },
+    {
+      "segment_id": "2369e16f",
+      "source_content": ":::caution[Uwaga]\nNie ma możliwości ponownego sprawdzenia wartości tokena, dlatego należy go skopiować w bezpieczne miejsce.\n\nJeżeli chcemy odwołać dostęp do api, to usuwamy token.\n:::",
+      "source_content_hash": "9f7e08c01bdc89883d245e513020f28e87baf87a00ecdf7ff1f9f6f9649043c4",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[注意]\n无法再次查看令牌值，因此请将其复制到安全位置。\n\n如需撤销API访问权限，请删除该令牌。\n:::"
+      }
+    },
+    {
+      "segment_id": "c5e0bb3d",
+      "source_content": "![Tokeny](/img/en/frontend/tokens_4.png)",
+      "source_content_hash": "80e5762970430d674d7b43a9564839c6de827f80fd08d3378a91ad2445fbbd31",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![令牌](/img/en/frontend/tokens_4.png)"
+      }
+    },
+    {
+      "segment_id": "8159e12a",
+      "source_content": "#### Metoda GET na zasobie /api/",
+      "source_content_hash": "37a80bcd75eb669ea4ea3cb9bd88ee7acac3ba46a021f5e5a2ff2d3d202ee320",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "#### 对/api/资源执行GET方法"
+      }
+    },
+    {
+      "segment_id": "6e5d54a8",
+      "source_content": "Sprawdzamy czy /api/ jest dostępne i czy działa nam uwierzytelnianie.",
+      "source_content_hash": "7fda4955e24066e3895985f21fc99caeb6ca78b867eabef3e42b5a8268438e4f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "检查/api/是否可用以及身份验证是否正常工作。"
+      }
+    },
+    {
+      "segment_id": "bf3146e1",
+      "source_content": "```bash\ncurl -v -H \"Authorization: Bearer TOKEN-DOSTĘPU\" \\\n       -H \"Content-Type: application/json\" http://ais-dom.local:8180/api/\n```",
+      "source_content_hash": "10f4c6670209c0524a5d78382bf69ac9ec3a6066cc30130c9465a5071500a4c5",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_bf3146e1"
+      }
+    },
+    {
+      "segment_id": "90c4b96b",
+      "source_content": "Zwraca następującą odpowiedź, jeżeli API działa:",
+      "source_content_hash": "1dd2a89b454cbbef6d60e8a0ae4aff326d49a58efc37b382234aacf121a44de6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "若API正常运行，将返回以下响应："
+      }
+    },
+    {
+      "segment_id": "f377fafa",
+      "source_content": "```json\n{\"message\": \"API running.\"}\n```",
+      "source_content_hash": "cee8dfa0fad595657aba2eee67ac3838711b1ab109a4c32ae03b5a2b762a841e",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_f377fafa"
+      }
+    },
+    {
+      "segment_id": "be106497",
+      "source_content": "### Metoda POST na /api/services/&lt;domain>/&lt;service>",
+      "source_content_hash": "cb506dd74ee7e7a0d49ad5dda8484cc96044519d456b1bc92168efed1c26070d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 对/api/services/&lt;domain>/&lt;service>执行POST方法"
+      }
+    },
+    {
+      "segment_id": "c277c3c0",
+      "source_content": "Komponenty dostępne na bramce udostępniają swoje usługi. Te same usługi komponentu, które automatycznie wywołujemy w systemie po wystąpieniu okreśonego zdarzenia, można również wywołać z zewnętrznego systemu za pomocą API.",
+      "source_content_hash": "f185d6610c3107f36a6fa5278b34785a506ea2ef1b908edfd393d0c3d5b2d7a0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "网关上的组件会公开其服务。这些组件服务既可以在系统发生特定事件时自动触发，也可以通过API从外部系统调用。"
+      }
+    },
+    {
+      "segment_id": "833ce577",
+      "source_content": "Przykład wywołania usługi czytania tekstu przez bramkę za pomocą curl:",
+      "source_content_hash": "ea2d144d62cc3e9bc66bae40ecb6781ca2983bd13f5fa0a720fb5b9303be38c6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "使用curl调用网关文本朗读服务的示例："
+      }
+    },
+    {
+      "segment_id": "3d4d9546",
+      "source_content": "```bash\ncurl -X POST -H \"Authorization: Bearer TOKEN-DOSTĘPU\" \\\n       -H \"Content-Type: application/json\" \\\n       -d '{\"text\": \"Cześć! Jak się masz?\"}' \\\n       http://ais-dom.local:8180/api/services/ais_ai_service/say_it\n```",
+      "source_content_hash": "92ee54308c7780e58802ea5b0f40ad51f36a345c1b3d8eec212ba92d11a2c140",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_3d4d9546"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_api_index.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.130630+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "75b4b2e75e311c6fa919ae76b2f33653a22e7fe0bf2c39ead948c407feda6493"
+  }
+}

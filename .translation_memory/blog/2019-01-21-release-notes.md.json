@@ -1,0 +1,62 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2019-01-21-release-notes.md",
+  "source_file_content_hash": "abec8198c48b78ebd736cce0941caa0b0499ff4ed7b4f80f9ddb14dfea8d5063",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Andrzej Raczkowski\nauthorURL: https://github.com/sviete\nauthorFBID: 1546384510\ntitle: Wersja systemu 0.85.1  \n---",
+      "source_content_hash": "0ad2b893413c995357179d0dca53884bd400068b589f81869ca510383ef4980d",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Wersja systemu 0.85.1 z dnia 21 stycznia 2019 roku,",
+      "source_content_hash": "ad6f02f55ee059767bbe24f698fc5b1fb2733d836e27f3df0fd2654d147a312b",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 2019年1月21日发布的系统版本0.85.1"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "w tej wersji dodano:",
+      "source_content_hash": "3872a90319800ef209dc86e7768257437634efb2d0bd4158297f09cf8d4b1322",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "此版本新增功能："
+      }
+    },
+    {
+      "segment_id": "be33979e",
+      "source_content": "- sterowanie ogrzewaniem [Komendy - sterowanie ogrzewaniem](/docs/ais_app_assistent_commands#sterowanie-ogrzewaniem)\n- rozgłaszanie tekstu na głośniki [Komendy - rozgłaszanie tekstu](/docs/ais_app_assistent_commands#rozgłaszanie-tekstu)\n- wirtualna klawiatura umożliwiająca wprowadzanie tekstu pilotem bez monitora (przygotowanie do działania na głośniku)\n- nanjnowszy Home Assistant <a href=\"https://www.home-assistant.io/blog/2019/01/09/release-85/\" target=\"_blank\">0.85</a>\n- najnowszy youtube-dl <a href=\"https://rg3.github.io/youtube-dl/\" target=\"_blank\">youtube-dl</a>",
+      "source_content_hash": "33da48e6bec21b425f22f38178c7d35d2f7e862eb5192002291d1d36dab2d2ff",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 暖气控制功能 [命令 - 暖气控制](/docs/ais_app_assistent_commands#sterowanie-ogrzewaniem)\n- 文本广播至扬声器 [命令 - 文本广播](/docs/ais_app_assistent_commands#rozgłaszanie-tekstu)\n- 支持通过遥控器输入文本的虚拟键盘（为无屏幕音箱操作做准备）\n- 最新版Home Assistant <a href=\"https://www.home-assistant.io/blog/2019/01/09/release-85/\" target=\"_blank\">0.85</a>\n- 最新版youtube-dl <a href=\"https://rg3.github.io/youtube-dl/\" target=\"_blank\">youtube-dl</a>"
+      }
+    },
+    {
+      "segment_id": "39b3772c",
+      "source_content": "![Aplikacja asystent domowy ogrzewanie](/img/en/blog/clima_21_01_2019.png)",
+      "source_content_hash": "b7b5f0f887251633a705c89a522be122468755f9212ace5952aa5900153490b7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![家庭助理应用暖气控制界面](/img/en/blog/clima_21_01_2019.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2019-01-21-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.111310+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "abec8198c48b78ebd736cce0941caa0b0499ff4ed7b4f80f9ddb14dfea8d5063"
+  }
+}

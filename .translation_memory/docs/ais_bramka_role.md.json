@@ -1,0 +1,52 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_role.md",
+  "source_file_content_hash": "9019da9964ebcff2b057f20cec680c6046193b7e4343e5fe513f3f7a0870e462",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Rola bramki\"\nsidebar_label: Rola bramki\n---",
+      "source_content_hash": "282fee55ba13ecee2f63eebb579445d108eb97edf4887adf88968a5a87d9394b",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "W naszym rozwiązaniu bramka jest odpowiedzialna za kontrolę nad urządzeniami oraz dostarczanie treści.\nBramka umożliwia zarządzanie urządzeniami i sensorami oraz pełni rolę mostu między Internetem Rzeczy a Twoją siecią domową. Urządzenie jest „tłumaczem” protokołów IoT i przekazuje komunikację sieciową do aplikacji w celu prezentacji stanu urządzeń oraz dostarczeniu kontroli dla użytkownika.",
+      "source_content_hash": "d53982bfec8736e9dd7a6e35910b0ab963fc1ddd39cd0a96a46e3fcbda61baa3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在我们的解决方案中，网关负责设备控制和内容分发。  \n网关可管理各类设备与传感器，并充当物联网与家庭网络之间的桥梁。该设备作为物联网协议的\"翻译器\"，将网络通信传递至应用程序以展示设备状态，并为用户提供控制界面。"
+      }
+    },
+    {
+      "segment_id": "abcf54e3",
+      "source_content": "* Bramka jest odpowiedzialna za zbieranie informacji i kontrolowanie urządzeń.\n * Bramka wykonuje zadania - wyzwala polecenia na podstawie konfiguracji użytkownika.\n * Bramka dostarcza i prezentuje treści (wiadomości, pogoda, audio) na żądanie użytkownika.",
+      "source_content_hash": "055551a61920f3dac4536928513bd9385eaccb0c4c9139ef4dd075e4dde1e22b",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "* 网关负责信息采集与设备控制\n* 网关执行任务——根据用户配置触发指令\n* 网关按需提供并呈现内容（消息、天气、音频等）"
+      }
+    },
+    {
+      "segment_id": "5da3670c",
+      "source_content": "<img\n  src='/img/en/bramka/bramka1.png'\n  alt='Bramka AIS dom'\n/>",
+      "source_content_hash": "5ed1f8b1638a8125ddb8576689328744466b13d96ad9d060f0ead9fa10eeee20",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_5da3670c"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_role.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.096215+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "9019da9964ebcff2b057f20cec680c6046193b7e4343e5fe513f3f7a0870e462"
+  }
+}

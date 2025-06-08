@@ -1,0 +1,112 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2018-09-29-release-notes.md",
+  "source_file_content_hash": "dd386a1ca5d2b371faa0ceb199d263bb2a8e0ec13c2e7347a89d1b637207c832",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Andrzej Raczkowski\nauthorURL: https://github.com/sviete\nauthorFBID: 1546384510\ntitle: Wersja systemu 0.78.8  \n---",
+      "source_content_hash": "676f89ded252647d93b71b6f43d893d3f1faeb835432221e3df26fd9907a66d8",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Wersja systemu 0.78.8 z dnia 29 września 2018 roku,",
+      "source_content_hash": "8dce89d2a71e069b319cd9a384697440a0550baeebad59e0144181e4244f24fc",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 2018年9月29日发布的系统版本0.78.8"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "w tej wersji dodano:",
+      "source_content_hash": "3872a90319800ef209dc86e7768257437634efb2d0bd4158297f09cf8d4b1322",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该版本新增功能："
+      }
+    },
+    {
+      "segment_id": "143e51c1",
+      "source_content": "- automatyczne czyszczenie logów systemu",
+      "source_content_hash": "271c74458827d4d2210a0cc0568282d3cbc524a8db4078c9ffd9958f0ab2e0d0",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 系统日志自动清理功能"
+      }
+    },
+    {
+      "segment_id": "70153c6e",
+      "source_content": "## Wersja systemu 0.78.6 z dnia 25 września 2018 roku,",
+      "source_content_hash": "918ce98ad442f7208277fdce1dc4295936ec4412b12b89535063827c0284c02d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 2018年9月25日发布的系统版本0.78.6"
+      }
+    },
+    {
+      "segment_id": "86b54d44",
+      "source_content": "w tej wersji dodano:",
+      "source_content_hash": "3872a90319800ef209dc86e7768257437634efb2d0bd4158297f09cf8d4b1322",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该版本新增功能："
+      }
+    },
+    {
+      "segment_id": "11c829ab",
+      "source_content": "- pełne wsparcie (wykrywanie i automatyczne dodawanie do systemu) dla nowych przełączników dotykowych (pojedynczych, podwójnych i potrójnych)\n- przejście do ulubionych i ostatnio odtwarzanych audio za pomocą przycików pilota (przyciski po prawej stronie na dole)\n- poprawniejsze czytanie godziny i pogody",
+      "source_content_hash": "51a0b0600b98d4aff9e01ee1cc3147d0c93ac7b8fc58046bfba0b1281be4e830",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 全面支持新型触摸开关（单控、双控和三控）的自动检测与系统集成\n- 通过遥控器底部右侧按钮快速访问收藏音频和最近播放记录\n- 优化了时间和天气播报的准确性"
+      }
+    },
+    {
+      "segment_id": "40f9552a",
+      "source_content": "## Wersja systemu 0.78.4 z dnia 22 września 2018 roku,",
+      "source_content_hash": "312bfba4f8fff2c1d5da339fe9ff545d8337af2d2f1890b3e41f69826aa5b3fd",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 2018年9月22日发布的系统版本0.78.4"
+      }
+    },
+    {
+      "segment_id": "f2c2bdd0",
+      "source_content": "w tej wersji dodano:",
+      "source_content_hash": "3872a90319800ef209dc86e7768257437634efb2d0bd4158297f09cf8d4b1322",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该版本新增功能："
+      }
+    },
+    {
+      "segment_id": "b3f5c97c",
+      "source_content": "- zwiększenie maksymalnej ilość wyników wyszukiwania na YouTube z 10 do 50\n- rozwinięcie funkcjonalności zakładek (funkcjonalność w wersji rozwojowej)\n- najnowszy Home Assistant",
+      "source_content_hash": "92cb365b5097e846216258506fe3e0787d7e5dbf27c11bc27835e65aba9b5e7c",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 将YouTube搜索结果上限从10条提升至50条\n- 增强书签功能（开发版特性）\n- 集成最新版Home Assistant"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2018-09-29-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.109046+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "dd386a1ca5d2b371faa0ceb199d263bb2a8e0ec13c2e7347a89d1b637207c832"
+  }
+}

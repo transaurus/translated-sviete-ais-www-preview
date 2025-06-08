@@ -1,0 +1,82 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2019-03-12-release-notes.md",
+  "source_file_content_hash": "9f61a53dcf962b530ecff7974e9455d06a6b299b75644578bd912d7fe0c38fcf",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Celina AI-Speaker\nauthorURL: https://github.com/sviete\nauthorFBID: 1186570423\ntitle: Wersja systemu 0.89.4  Spotify\n---",
+      "source_content_hash": "e5decb6889abcd73be9538f40cd20cbbb3b2af3515736f1bcdba8ec643769476",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Wersja systemu 0.89.4 z dnia 12 marca 2019 roku,",
+      "source_content_hash": "b610eccd2436e3a195df7d3a79221901269721bb8634d62650ab506d3b6f7089",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 2019年3月12日发布的系统版本0.89.4"
+      }
+    },
+    {
+      "segment_id": "1cc03ec8",
+      "source_content": "### W tej wersji dodaliśmy Spotify (=^ェ^=)",
+      "source_content_hash": "96e9f29281f6147530d9af15a30267edce61fceff69f067d5d8456ac72462480",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 本版本新增Spotify支持(=^ェ^=)"
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "Spotify to kolejny (po YouTube) serwis muzyczny na AI-Speaker, oferujący dostęp do OGROMNEJ ilości utworów.\nPozwala to użytkownikom urządzeń z systemem \"Aysystent domowy\" na **w pełni legalne i darmowe** słuchanie na żądanie praktycznie każdej muzyki.",
+      "source_content_hash": "8a78f231a97c7c0878c8b628a6ab5a43f93221896c1562675a0149fb4fb54f88",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Spotify是继YouTube之后又一个接入AI-Speaker的音乐服务平台，提供海量曲库资源。  \n这使得搭载\"家庭助手\"系统的设备用户能够**完全合法且免费**地按需收听几乎所有音乐作品。"
+      }
+    },
+    {
+      "segment_id": "cf898102",
+      "source_content": "Dodajemy nową sekcję naszej dokumentacji [Komendy głosowe Spotify](/docs/ais_app_assistent_commands#spotify)\nNa początek obsługujemy jedną komendę głosową: \"Spotify + szukana_fraza\", szukana_fraza - może być nazwą wykonawcy, albumu lub nazwą listy utworów. Serwis Spotify oferuje społecznościowe podejście do słuchania i odkrywania nowej muzyki (listy, znajomi, rekomendacje itp.), pozwoli nam to w przyszłości na rozwinięcie tej fukcjonalności, np. komenda \"Lubię to\" w przypadku odtwarzania ze Spotify doda nam utwór do listy ulubionych na Spotify a komenda \"Spotify, playlista ulubione\" odtworzy tę listę.",
+      "source_content_hash": "de0d6a4dd20ad41e11919e6e3b84477f4b26bf2281221940abc2c0a69c0c0775",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们新增了文档章节[Spotify语音指令](/docs/ais_app_assistent_commands#spotify)  \n当前首先支持一条语音指令：\"Spotify + 搜索关键词\"，搜索关键词可以是艺人名称、专辑名或播放列表名称。Spotify服务采用社交化音乐探索机制（歌单、好友推荐等特性），这将为未来功能扩展奠定基础，例如播放Spotify时使用\"我喜欢\"指令可将曲目添加至Spotify收藏列表，而\"Spotify，播放收藏列表\"指令则可调取该列表播放。"
+      }
+    },
+    {
+      "segment_id": "27514802",
+      "source_content": ">***Ubiegamy się o certyfikację w Spotify.*** Integracja ze Spotify jest obecnie wersją beta; ta funkcjonalność może się znacznie zmienić lub przestać działać, bez ostrzeżenia. Dokładamy wszelkich starań żeby spełnić wymogi Spotify i otrzymać certifikację, jednak dopóki nie podpiszemy umowy ze Spotify nie możemy gwarantować działania tego serwisu na naszych urządzeniach.",
+      "source_content_hash": "3560658e8ea2da072af0f5ff4652a3f9d0d5a2245d8839b005d237a93c3f8406",
+      "node_type": "blockquote",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ">***我们正在申请Spotify官方认证。** 当前Spotify集成尚属测试版，该功能可能发生重大变更或停止服务而不另行通知。我们正全力满足Spotify要求以获取认证，但在正式签约前无法保证该服务在设备上的持续可用性。*"
+      }
+    },
+    {
+      "segment_id": "2df4f75f",
+      "source_content": "![Konfiguracja interfejsu użytkownika](/img/en/frontend/spotify.png)",
+      "source_content_hash": "32a6010870925885c29721a5dea7de58d11c1c3361ddb00b2df7f7b2555147c2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![用户界面配置](/img/en/frontend/spotify.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2019-03-12-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.118188+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "9f61a53dcf962b530ecff7974e9455d06a6b299b75644578bd912d7fe0c38fcf"
+  }
+}

@@ -1,0 +1,582 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2021-05-26-release-notes.md",
+  "source_file_content_hash": "23a71ffe859681fabdfcfb7fb6379d87a0befec3518bf5960b0db9f0e4f4aa74",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Jola AI-Speaker\nauthorURL: https://github.com/sviete\nauthor_title: Asystentka\nauthorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4\ntitle: Wersja systemu Greta\ntags: [\"ais dom\", \"home assistant\", \"zigbee2mqtt\", \"ais-tasmota\"]\n---",
+      "source_content_hash": "b38f8c2dffe0394c0617dc5b295c55d133169c78fcec1a6c928ff3150a83b7c4",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "775b7fa4",
+      "source_content": "<div class=\"IntroAisBlogMenu\" >\n<div>\n\n![AIS](/img/en/blog/202105/greta.png)\n\n</div>\n\n<h2>Greta</h2>\n\n</div>",
+      "source_content_hash": "0557d3c04aaf2813d9f9c23a066c350cd70baefb4e98c40524362465c1f092c9",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_775b7fa4"
+      }
+    },
+    {
+      "segment_id": "f5f6d2ce",
+      "source_content": "![Zwave](/img/en/blog/202105/package.png) Pakiety ![Zwave](/img/en/blog/202105/water-wave.png) Zwave ![AIS TTS](/img/en/blog/202105/speaking-head.png) TTS ![AIS Tasmota](/img/en/blog/202104/robot.png) Tasmota\n![Zigbee](/img/en/blog/202105/honeybee.png) Zigbee ![Zigbee](/img/en/blog/202105/keyboard.png) USB HID ![AIS dom](/img/en/blog/202105/ais-dom.png) AIS dom ![DEV3](/img/en/blog/202104/dev3.png) DEV3",
+      "source_content_hash": "3c28bdb4ea083b3c900b161f081b595377d682803fca9eec04c31df58ee9d532",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Zwave](/img/en/blog/202105/package.png) 软件包 ![Zwave](/img/en/blog/202105/water-wave.png) Zwave协议 ![AIS TTS](/img/en/blog/202105/speaking-head.png) 语音合成 ![AIS Tasmota](/img/en/blog/202104/robot.png) Tasmota\n![Zigbee](/img/en/blog/202105/honeybee.png) Zigbee协议 ![Zigbee](/img/en/blog/202105/keyboard.png) USB人机接口 ![AIS dom](/img/en/blog/202105/ais-dom.png) AIS智能家居 ![DEV3](/img/en/blog/202104/dev3.png) DEV3网关"
+      }
+    },
+    {
+      "segment_id": "29e01ec2",
+      "source_content": "<!--truncate-->",
+      "source_content_hash": "f5cded2aa7e288e395fe4f67f9dabda2281904b2f5358d07302b3aa8be0acdfa",
+      "node_type": "comment",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_29e01ec2"
+      }
+    },
+    {
+      "segment_id": "79b2d0b9",
+      "source_content": "## ABC bezproblemowej aktualizacji",
+      "source_content_hash": "c90f3410f68be4e7ee6017947af078313ab12a12edc09598ec43646aef83e69a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 无忧升级指南"
+      }
+    },
+    {
+      "segment_id": "d2808037",
+      "source_content": ":::tip[Kopia zapasowa.]\n### ![A](/img/en/blog/202009/alpha-a-circle.png) Kopia zapasowa.\n\nUWAGA Przed aktualizacją zalecamy wykonać [kopię zapasową konfiguracji](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji). W ten sposób sprawdzisz poprawność swojej konfiguracji przed rozpoczęciem aktualizacji i zwiększysz prawdopodobieństwo bezproblemowej aktualizacji.\n:::",
+      "source_content_hash": "1828218cdc126741a2ebe2de65e3dd6aff658b58cb960a102231a8a3be71ca74",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::tip[备份]\n### ![A](/img/en/blog/202009/alpha-a-circle.png) 备份\n\n重要提示：升级前建议先进行[配置备份](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji)。这能帮助您在升级前验证配置完整性，显著提高升级成功率。\n:::"
+      }
+    },
+    {
+      "segment_id": "b56ef571",
+      "source_content": ":::important[Konsola i logi na bramce.]\n### ![B](/img/en/blog/202009/alpha-b-circle.png) Konsola i logi na bramce.\n\nW razie problemów z aktualizacją, sprawdź procedurę [Aktualizacja z konsoli](/docs/ais_bramka_update_manual) lub [Wykonanie pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step).\nTo może dotyczyć szczególnie osób, które instalują na bramce dodatkowe niestandardowe komponenty.\n:::",
+      "source_content_hash": "68fd9b1408e16bcda26341c46f1391b36b4a4bb299475fcfba57528a3af090c5",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::important[控制台与日志]\n### ![B](/img/en/blog/202009/alpha-b-circle.png) 控制台与日志\n\n若升级遇到问题，请参考[控制台手动升级指南](/docs/ais_bramka_update_manual)或[应用完全重置步骤](/docs/ais_bramka_reset_ais_step_by_step)。\n特别提醒安装了非标准组件的用户需重点关注此部分。\n:::"
+      }
+    },
+    {
+      "segment_id": "688f7369",
+      "source_content": ":::caution[Poczekaj cierpliwie.]\n### ![C](/img/en/blog/202009/alpha-c-circle.png) Cierpliwość. Pierwsze uruchomienie po aktualizacji trwa dłużej - poczekaj cierpliwie.\n\n **Po aktualizacji pierwsze uruchomienie może trwać długo.**\n W tym czasie aktualizowane są biblioteki do integracji dodanych na bramce i baza danych jest migrowana do nowego formatu.\n **Poczekaj cierpliwie na zakończenie aktualizacji.\n Możesz sprawdzić status uruchamiania (dowiedzieć się co robi system) w konsoli komendą ``htop`` i/lub ``pm2 logs``**\n:::",
+      "source_content_hash": "523e016cbeda2f7fa4ee4932fd37c96d37828cf7fc35e57835a93147134dbd25",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[耐心等待]\n### ![C](/img/en/blog/202009/alpha-c-circle.png) 耐心。升级后首次启动耗时较长——请保持耐心。\n\n**升级后的首次启动可能持续较长时间**\n此时系统正在更新网关集成的库文件，并将数据库迁移至新格式。\n**请耐心等待升级完成\n您可以通过``htop``和/或``pm2 logs``命令在控制台查看系统启动状态**\n:::"
+      }
+    },
+    {
+      "segment_id": "cb5b269c",
+      "source_content": "## ![](/img/en/blog/202105/greta.png) Greta",
+      "source_content_hash": "df8c3d75a87793cd3b3408338ecd9f510115c4c11058bd3c6998d410dd00593a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202105/greta.png) Greta更新"
+      }
+    },
+    {
+      "segment_id": "d3649a1e",
+      "source_content": "W tej wersji aktualizujemy następujące pakiety binarne:",
+      "source_content_hash": "2b910eeadacc3d54cb338ea1d87f53d134371123c9710b99e3c1cb55a0d7e050",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "本次版本更新包含以下二进制包升级："
+      }
+    },
+    {
+      "segment_id": "9b797309",
+      "source_content": "- Python do najnowszej wersji 3.9.5\n- Rclone do najnowszej wersji 1.55\n- FFmpeg do najnowszej wersji 4.4\n- Clang/llvm do najnowszej wersji 12.0.0\n- Mosquitto 2.0.10",
+      "source_content_hash": "d7b2ef5a577e88eab5a93cbbbf15e3e6177d2bdb32dd3cce454b6406902210cd",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- Python升级至最新版3.9.5\n- Rclone升级至最新版1.55\n- FFmpeg升级至最新版4.4\n- Clang/llvm升级至最新版12.0.0\n- Mosquitto升级至2.0.10"
+      }
+    },
+    {
+      "segment_id": "6ea4c715",
+      "source_content": "... i jeszcze ponad 20 innych pakietów zainstalowanych na bramce.",
+      "source_content_hash": "5e2774ebe02953ba18c9b17c8fe3d534244e807aa39acb6d354c378f5fcb9811",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "...以及网关内其他20余个软件包的更新。"
+      }
+    },
+    {
+      "segment_id": "79ad944d",
+      "source_content": "Aktualizacja może trwać dłużej, w zależności od tego ile macie na bramkach integracji i jakie dodatkowe pakiety zostaną podczas instalacji zaktualizowane lub czasami skompilowane na bramce.",
+      "source_content_hash": "9d3535ed690e0b7eb431946ce137910ea27c1ab3c430f3174e5cd5f9b15d38a7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "升级耗时取决于网关集成的组件数量，某些附加包可能在安装过程中需要更新或重新编译。"
+      }
+    },
+    {
+      "segment_id": "c9fda427",
+      "source_content": "> Poczekajcie cierpliwie, zawsze można sprawdzić co robi bramka w konsoli poleceniem ``htop``\nlub sprawdzać na bieżąco logi poleceniem ``pm2 logs``",
+      "source_content_hash": "b2d1ce437f42fc84c59ae152cde0937ecfa854af468b45f2376743b7ea6ef106",
+      "node_type": "blockquote",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "> 请耐心等待，您随时可以通过控制台命令``htop``查看网关当前运行状态\n或使用``pm2 logs``命令实时查看日志"
+      }
+    },
+    {
+      "segment_id": "3ef18741",
+      "source_content": "### Integracja Zwave",
+      "source_content_hash": "ae4c217ca20394f07e9a3077828d18043972b89eafdf6c3297f62ee82538f7fc",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### Zwave集成"
+      }
+    },
+    {
+      "segment_id": "e7772088",
+      "source_content": "Dodaliśmy pierwszą wersję integracji Zwave. Zastosowaliśmy ten sam mechanizm co w przypadku Zigbee czy Supla (integracja przez MQTT). Według nas tego typu integracja to najlepszy sposób i tak powinno to działać w przypadku wszystkich urządzeń, MQTT powinno być rozwijane jako API w Home Assistant do integracji z innymi systemami i technologiami. Możliwe, że kiedyś tak będzie.",
+      "source_content_hash": "cb73481307dcd2d8f58f1df51e2c99fcd3c2015bca434c042e3074fc476b8a97",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们新增了首个Zwave集成版本。采用了与Zigbee和Supla相同的技术方案（通过MQTT实现集成）。我们认为此类集成是最佳实践，所有设备都应采用这种模式，未来MQTT有望发展成为Home Assistant与其他系统和技术的标准集成API。"
+      }
+    },
+    {
+      "segment_id": "32ef4bd1",
+      "source_content": ":::caution[Uwaga]\n**Integracja jest w trakcie rozwoju i testowania**\n\nW obecnej wersji integracja wymaga instalacji ręcznej kodów projektu ZwaveJs2Mqtt.\nCała procedura opisana jest na forum AI-Speaker: [ZWave na bramce AIS - Zwavejs2Mqtt](https://ai-speaker.discourse.group/t/zwave-na-bramce-ais-zwavejs2mqtt/1769)\n\n:::",
+      "source_content_hash": "b7e1aa219a5fec9d6b70982ee6c747996d4b0dc98eeae86203aafa9312dfb353",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[注意]\n**该集成功能尚处于开发测试阶段**\n\n当前版本需要手动安装ZwaveJs2Mqtt项目代码。\n完整操作指南详见AI-Speaker论坛：[AIS网关上的ZWave集成 - Zwavejs2Mqtt](https://ai-speaker.discourse.group/t/zwave-na-bramce-ais-zwavejs2mqtt/1769)\n\n:::"
+      }
+    },
+    {
+      "segment_id": "463ed165",
+      "source_content": "Integracja testowana jest z popularnym na rynku adapterem Aeotec Z-Stick, który komunikuje się za pomocą USB CDC (Communication Device Class).",
+      "source_content_hash": "0d743af68a12a620ee566a0506f69ca4e81f676c068707064d20664b95f58f05",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该集成已通过市场主流设备Aeotec Z-Stick适配器测试，该设备采用USB CDC（通信设备类）协议进行通信。"
+      }
+    },
+    {
+      "segment_id": "a5c5772a",
+      "source_content": "![Zwave](/img/en/frontend/zwave_adapter.jpeg)",
+      "source_content_hash": "0366aea1dc2362f5bff393314531507cb22ebf82191e5cd41c7fe020aebdd453",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Zwave](/img/en/frontend/zwave_adapter.jpeg)"
+      }
+    },
+    {
+      "segment_id": "ec619944",
+      "source_content": "Integracja może też działać z adapterami, które nie obsługują USB CDC, za pomocą zdalnego połączenia tcp socket, obsługiwanego przez ZwaveJs2Mqtt:",
+      "source_content_hash": "46a62c978a633404179bef75e006a8c90933ee9f703d43b4c74d58ac66efa83e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过ZwaveJs2Mqtt支持的TCP socket远程连接，该集成也可兼容不支持USB CDC协议的适配器："
+      }
+    },
+    {
+      "segment_id": "b73a4a7a",
+      "source_content": "```\n tcp://dongle.lan:5000\n```",
+      "source_content_hash": "23af58884c2e01f5bd41181d4bb6dd966bf574e466fc489ee426044b57f47fa3",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_b73a4a7a"
+      }
+    },
+    {
+      "segment_id": "bd30d33e",
+      "source_content": "### USB HID",
+      "source_content_hash": "ebe80766e0c4f526c562430d61dfc6dee6bb6ad105d707fc00568cd3f305f27a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### USB HID设备支持"
+      }
+    },
+    {
+      "segment_id": "6b77b644",
+      "source_content": "Bramka obsługuje urządzenia USB klasy HID (Human Interface Device), które służą głównie do interakcji z użytkownikiem. Naciśnięcie przycisku na klawiaturze czy innym kontrolerze USB HID podłączonym do bramki, przesyłane jest do Asystenta domowego jako zdarzenie. Takie zdarzenia mogą wyzwalać automatyzacje.",
+      "source_content_hash": "3f6e0ed8086d5103b0b34bce6a95c3b7b8ddf29d39ae41ca801a6bb779f104bf",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "网关支持USB HID（人机接口设备）类设备，主要用于用户交互。当键盘按钮或其他USB HID控制器接入网关时，按键事件将传递至家庭助理系统，此类事件可触发自动化流程。"
+      }
+    },
+    {
+      "segment_id": "82e90254",
+      "source_content": "![AIS button](/img/en/bramka/ais_remote_key_events_0.png)",
+      "source_content_hash": "4ca0d6866429b38364434b0c9c3da5b9c9bbe3c9ef6d417428a73da5cfa983c4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS button](/img/en/bramka/ais_remote_key_events_0.png)"
+      }
+    },
+    {
+      "segment_id": "2822251a",
+      "source_content": "Realizując zamówienie funkcjonalności dla klienta, dodaliśmy wysyłanie zdarzenia naciśnięcia przycisku kontrolera w obu trybach pracy bramki (na i bez monitora), więcej informacji w dokumentacji: [Automatyzacja wyzwalana przyciskiem](/docs/ais_bramka_key_event_automation)",
+      "source_content_hash": "4a264c82e0453cdfac7c69f5d58323648af5bad484102fcd33983500cf2f4c45",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "根据客户功能需求，我们新增了控制器按键事件在网关两种工作模式（带显示器/无显示器）下的触发支持，详见技术文档：[按键事件触发的自动化](/docs/ais_bramka_key_event_automation)"
+      }
+    },
+    {
+      "segment_id": "94145a94",
+      "source_content": "### Offline TTS - ulepszenia",
+      "source_content_hash": "362e19e4ffa908e62e803a73d572b85a1c02fba1932f7ca4288236f63f150732",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 离线TTS功能增强"
+      }
+    },
+    {
+      "segment_id": "2838eb68",
+      "source_content": "Kolajna funkcjonalność zamówiona przez klienta wymagała rozbudowania mechanizmu TTS działającego offline na bramce.\nW tym celu do usługi ``ais_ai_service.say_it`` dodaliśmy wybór języka, głosu oraz innych parametrów mechanizmu zamiany tekstu na mowę:",
+      "source_content_hash": "1824b3586bfe5f69d908be433838123b3203b8a69663530ea1ba953602f7530c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "应客户需求，我们对网关本地离线运行的TTS（文本转语音）机制进行了功能扩展。\n在``ais_ai_service.say_it``服务中新增了语言选择、语音类型及其他语音合成参数的配置选项："
+      }
+    },
+    {
+      "segment_id": "f0984c2a",
+      "source_content": "![AIS TTS](/img/en/frontend/ais_tts.png)",
+      "source_content_hash": "3537120b3ab9da311a15fc070a499f3689ddad5f449b77b07aed1b7c8bf3282d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS TTS](/img/en/frontend/ais_tts.png)"
+      }
+    },
+    {
+      "segment_id": "7bc8bb24",
+      "source_content": "Dodatkowo dodaliśmy zdarzenie w systemie ``ais_speech_status``, które raportuje status mowy z mechanizmu TTS.\nChodzi o to, żebyśmy wiedzieli, kiedy Jolka (Marya, Jon, itd...) skończy mówić wpisany tekst, tak żebyśmy mogli wykonać kolejny krok automatyzacji.",
+      "source_content_hash": "1bf9cc514f825d910d03a88eb00c96d32db640d4156c2b460e5c0caaacccf37c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "同时新增了系统事件``ais_speech_status``，用于反馈TTS引擎的语音状态。\n该机制可准确获知语音合成完成时机（无论使用Jolka、Marya还是Jon等语音角色），确保自动化流程中后续步骤的精准触发。"
+      }
+    },
+    {
+      "segment_id": "3c19e221",
+      "source_content": "Chcemy, żeby komunikaty były mówione po sobie bez względu na to, z jaką prędkością będą mówione i jaka będzie treść komunikatu. Jedyny sposób na osiągnięcie tego, to właśnie zdarzenie informujące o statusie mówienia - informacja, że TTS zakończył czytanie tekstu.",
+      "source_content_hash": "9bb58d65a6614bba445427bbdb3d4abeaeeffecaa7eca9e9a9dbd0cabd4cdcf9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们希望确保语音消息能够连贯播放，无论语速快慢或内容长短。实现这一目标的唯一方法是通过语音状态事件机制——即当TTS完成当前文本朗读时发送系统通知。"
+      }
+    },
+    {
+      "segment_id": "d21af28f",
+      "source_content": "![AIS TTS](/img/en/frontend/ais_tts_speech_status.png)",
+      "source_content_hash": "7ee18087e18e1ac3ee4755204c7b5cb99769ac1dc37afeebd3ea9a67b669e697",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS TTS](/img/en/frontend/ais_tts_speech_status.png)"
+      }
+    },
+    {
+      "segment_id": "44aaa880",
+      "source_content": "Kod przykładowej automatyzacji:",
+      "source_content_hash": "fb3c9fbee80ada3844eaacdff35c8366173ee0cf4c189bb22744ef414a3ed30a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "自动化配置示例代码："
+      }
+    },
+    {
+      "segment_id": "353ca453",
+      "source_content": "``` yaml\nalias: Komunikat powitalny w 3 językach\ndescription: ''\ntrigger:\n  - platform: event\n    event_type: ais_key_event\n    event_data:\n      code: 1\ncondition: []\naction:\n  - service: ais_ai_service.say_it\n    data:\n      text: Witamy w parku rozrywki (komunikat po polsku)\n      language: pl_PL\n      voice: Jola\n  - wait_for_trigger:\n      - platform: event\n        event_type: ais_speech_status\n        event_data:\n          status: DONE\n  - service: ais_ai_service.say_it\n    data:\n      language: en_US\n      voice: Allison\n      text: Welcome to the amusement park (announcement in English)\n  - wait_for_trigger:\n      - platform: event\n        event_type: ais_speech_status\n        event_data:\n          status: DONE\n  - service: ais_ai_service.say_it\n    data:\n      language: uk_UA\n      voice: Mariya\n      text: Ласкаво просимо до парку розваг (анонс українською мовою)\nmode: single\n\n```",
+      "source_content_hash": "05653283959933a8464ad2fc53869bc0bfc7a5806bfe189e075fef5f5446176e",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_353ca453"
+      }
+    },
+    {
+      "segment_id": "1496ef51",
+      "source_content": "Tak wygląda przebieg tej automatyzacji - widać, że kolejne komunikaty były zapowiadane dopiero, gdy dostaliśmy informację z systemu o tym, że TTS skończył czytać poprzedni komunikat:",
+      "source_content_hash": "f035492289555f6b27458a4f3de49e81f6204233dc69ec340878a3ec3e8d6d51",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "这是该自动化流程的实际效果——可见系统仅在收到TTS完成前一条消息朗读的通知后，才会播报下一条消息："
+      }
+    },
+    {
+      "segment_id": "dce16ab4",
+      "source_content": "![AIS TTS](/img/en/frontend/ais_tts_speech_trace.png)",
+      "source_content_hash": "6e5e5d38ce8ff9faa6b569e61147d29053f423cf9cc750e59d87ff3a7addfbc8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS TTS](/img/en/frontend/ais_tts_speech_trace.png)"
+      }
+    },
+    {
+      "segment_id": "6f08f877",
+      "source_content": "Dla tych, którzy chcieliby wykorzystać ten mechanizm w swoich automatyzacjach, polecamy opis w dokumentacji [AIS TTS](/docs/ais_app_tts)",
+      "source_content_hash": "f30bfd1aa57a5c427eb2c71896b7be89eb88653f46104ec538331cd18e9b2fdf",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "对于希望在自动化中应用此机制的用户，建议参阅文档：[AIS TTS](/docs/ais_app_tts)"
+      }
+    },
+    {
+      "segment_id": "3f77c6a0",
+      "source_content": "### ![](/img/en/blog/202104/robot.png) Tasmota 9.4.0 Leslie",
+      "source_content_hash": "c2df41917bd33e8f43030a16e435c4578e45a847ffb07cb3a85a7134e2a7aeb0",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### ![](/img/en/blog/202104/robot.png) Tasmota 9.4.0 Leslie"
+      }
+    },
+    {
+      "segment_id": "39f476dc",
+      "source_content": "Uwaga! Wykryliśmy błąd w Tasmota, w pewnych okolicznościach (po utracie połączenia z MQTT i wystąpieniu problemu z ustaleniem adresu IP brokera MQTT na bramce) może dojść do tego, że urządzenie zrestartuje się szybko 6 razy i zmieni model (funkcjonalność wbudowana w Tasmota).\nNa naszym forum jest wątek na ten temat [Utrata konfiguracji w urządzeniach z Tasmotą](https://ai-speaker.discourse.group/t/utrata-konfiguracji-w-urzadzeniach-z-tasmota/1734).",
+      "source_content_hash": "53e34ae165f85847f831895843d00bdc6fd53d0ca4e9c0e061312ffa19cc4f56",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "注意！我们发现Tasmota存在一个缺陷：特定情况下（当MQTT连接中断且网关无法解析MQTT代理IP地址时），设备可能会快速重启6次并自动切换设备型号（此为Tasmota内置功能）。\n相关讨论详见论坛帖子：[Tasmota设备配置丢失问题](https://ai-speaker.discourse.group/t/utrata-konfiguracji-w-urzadzeniach-z-tasmota/1734)"
+      }
+    },
+    {
+      "segment_id": "d636abf8",
+      "source_content": "Jeżeli kogoś dotknął taki problem (tak jak nas), to sugerujemy aktualizację do wersji AIS-Tasmota 9.4.0 Leslie, w której zablokowaliśmy możliwość samoczynnej zmiany modelu urządzenia.",
+      "source_content_hash": "b76e6c647dd0af52f486f5c92628be6f90b2b4cf88186bc2da8193788c330d50",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "若您遇到此问题（如我们曾遭遇的），建议升级至AIS-Tasmota 9.4.0 Leslie版本，该版本已禁用设备自动切换型号功能。"
+      }
+    },
+    {
+      "segment_id": "99840f13",
+      "source_content": "![](/img/en/blog/202105/Tasmota.png)",
+      "source_content_hash": "8abb552b34781861680b100fc23de623c95fa3de416e9352d88a22c0b22295b8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202105/Tasmota.png)"
+      }
+    },
+    {
+      "segment_id": "67edbbc4",
+      "source_content": "### ![](/img/en/blog/202102/honeybee.png) Zigbee2Mqtt",
+      "source_content_hash": "66a9914e72acab290690746f63dbd2e2db4834db52483737dfde28177b71768b",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### ![](/img/en/blog/202102/honeybee.png) Zigbee2Mqtt"
+      }
+    },
+    {
+      "segment_id": "674abb31",
+      "source_content": "Aktualizacja Zigbee2Mqtt do najnowszej wersji 1.8.3 Ponad **1430** wspieranych urządzeń.\nTo jest wydanie poprawkowe, wszystkie szczegóły tu [1.18.3](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.18.3)",
+      "source_content_hash": "15106395171420abffd73b55b80ce14801446a82d2e848f01f3fe2564783f301",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Zigbee2Mqtt已更新至最新版本1.8.3，现支持超过1430种设备。\n此为修复版本，完整更新日志参见[1.18.3](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.18.3)"
+      }
+    },
+    {
+      "segment_id": "e29bd639",
+      "source_content": "![z2m](/img/en/blog/202103/z2m.png)",
+      "source_content_hash": "3e70d93a8fb28569f5acf7697abaf34306b236a6bc4433a1eddfe509cf3a2f03",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![z2m](/img/en/blog/202103/z2m.png)"
+      }
+    },
+    {
+      "segment_id": "188a0310",
+      "source_content": "### ![](/img/en/blog/202101/hass.png) Asystent domowy",
+      "source_content_hash": "c88eb95cf5f4ecbf0bf89865b0f4583cce01d1d6c074e8bb9bc40d03ddba2dcd",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### ![](/img/en/blog/202101/hass.png) 家庭助理"
+      }
+    },
+    {
+      "segment_id": "5cf1bce4",
+      "source_content": "Najnowsza wersja Asystenta domowego, czyli naszego pakietu ``ais-dom`` bazującego na najnowszym Home Assistant Core.\nTa wersja to głównie poprawki stabilizacji, uruchamianie bez czekania na migracje danych i kilka innych ulepszeń.",
+      "source_content_hash": "90a9103bbdf35c646c5d400df477f3eab6a9825e0bdef8fba339883bb37c7a27",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "最新版家庭助理（即我们基于Home Assistant Core构建的ais-dom软件包）。\n此版本主要包含稳定性修复、取消数据迁移等待机制等多项改进。"
+      }
+    },
+    {
+      "segment_id": "9ebd9d9b",
+      "source_content": "![hass](/img/en/blog/202105/social.png)",
+      "source_content_hash": "d9c2e74002b90900288c2ae81cc5b8a1b92a60c9faf30d79e407bd83fa27f3e8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![hass](/img/en/blog/202105/social.png)"
+      }
+    },
+    {
+      "segment_id": "295367fa",
+      "source_content": "Szczegółowy opis zmian w Home Assistant dostępny na blogu projektu Home Assistant: [2021.5: Stability, performance, triggers, color modes!](https://www.home-assistant.io/blog/2021/05/05/release-20215/)",
+      "source_content_hash": "74bdd200158d5541381b55132275abf38912b4dc840eac6b01eda5a249a44593",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Home Assistant的详细更新内容请参阅项目博客：[2021.5版本：稳定性、性能、触发器与色彩模式！](https://www.home-assistant.io/blog/2021/05/05/release-20215/)"
+      }
+    },
+    {
+      "segment_id": "dfa23ddf",
+      "source_content": "## ![](/img/en/blog/202105/placard.png) AIS DEV3",
+      "source_content_hash": "37e69bc7d6cbee3c5f8643d6c4eab9a9aae2f3eb057e2dfca1df5426c23325cf",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202105/placard.png) AIS DEV3"
+      }
+    },
+    {
+      "segment_id": "f2c67ca5",
+      "source_content": "Wprowadziliśmy już na stałe do oferty nową bramkę **AIS DEV3** - jest to jak do tej pory najszybsza, najprostsza w konfiguracji i obsłudze bramka AIS.",
+      "source_content_hash": "3e65bce0ed8354dc5abc486619fa8f15f656ea755038fce7c3a6065cf0b3bd77",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们已将全新的**AIS DEV3网关**正式纳入产品线——这是迄今为止速度最快、配置与操作最为简便的AIS网关。"
+      }
+    },
+    {
+      "segment_id": "3208eb29",
+      "source_content": "AIS DEV3 to bramka, którą możesz sterować urządzeniami głosowo kilka minut po jej wyjęciu z pudełka.\nDodatkowo masz wbudowaną obsługę audio, zdalny dostęp i konfiguracje za pośrednictwem interfejsu użytkownika. Dzięki AIS DEV3 nie trzeba już nagrywać systemu na kartę SD, majstrować przy ustawieniach routera, wiedzieć co to dynamiczny DNS lub YAML. Oczywiście bez żadnych opłat miesięcznych i reklam w aplikacji.",
+      "source_content_hash": "1132575aacdb952d3ae892366e1eab6a7b1e601f49299b7cce85027e8c28a667",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "AIS DEV3网关开箱即用，数分钟内即可通过语音控制智能设备。该设备内置音频处理模块，支持远程访问及用户界面配置。使用AIS DEV3无需再烧录系统至SD卡、调试路由器设置，也无需了解动态DNS或YAML配置。所有功能均无月费要求，应用程序内绝无广告干扰。"
+      }
+    },
+    {
+      "segment_id": "48249e3c",
+      "source_content": "![AIS dom DEV3](/img/en/bramka/ais_dev3_in_box.jpg)",
+      "source_content_hash": "f4251d07518b58584734055700c6746dccea2cc479d24af52d0da3d1511fd6bc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS dom DEV3](/img/en/bramka/ais_dev3_in_box.jpg)"
+      }
+    },
+    {
+      "segment_id": "e6ac016e",
+      "source_content": "Zobaczcie co mówi o bramce AIS DEV3 Greta:",
+      "source_content_hash": "e6ab9a398c860c7fb2e851821d95dd8961d8265b26af06056040db7b878f2b19",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "听听Greta对AIS DEV3网关的评价："
+      }
+    },
+    {
+      "segment_id": "a86ffe9d",
+      "source_content": ":::tip[Greta]\n\n\"Bardzo dobrze działa mi się na AIS DEV3! To naprawdę świetny sprzęt o ogromnych możliwościach! Szczerze polecam.\"\n\n:::",
+      "source_content_hash": "ec9429820eb265fa038a3e9423f37963ced7c7ea1f75c76600123c6446c4035c",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::tip[Greta]\n\n\"我在AIS DEV3上的使用体验非常流畅！这确实是一款功能强大的优秀设备！真诚推荐给大家。\"\n\n:::"
+      }
+    },
+    {
+      "segment_id": "09512450",
+      "source_content": "![Greta](/img/en/blog/202105/greta.png)",
+      "source_content_hash": "892b0526330e2e4a36a1c090d4205957a9301f7d00f0149332eefb1feb355280",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Greta](/img/en/blog/202105/greta.png)"
+      }
+    },
+    {
+      "segment_id": "d75361e3",
+      "source_content": "Parametry nowej bramki są opisane tu: [Bramka AIoT](/docs/ais_bramka_index), dodaliśmy też nowy konfigurator, który ma ułatwić [Pierwsze uruchomienie](/docs/ais_bramka_first_run_the_gate).",
+      "source_content_hash": "38c829a9c6f46837115e29d2e4847d35d5adc6bcc74f94466aad193c9b105428",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "新网关的详细参数请参阅：[AIoT网关](/docs/ais_bramka_index)，我们还新增了配置向导来简化[首次启动流程](/docs/ais_bramka_first_run_the_gate)。"
+      }
+    },
+    {
+      "segment_id": "6db567c3",
+      "source_content": "-------",
+      "source_content_hash": "11d925ecde7d1b6aa2c2881df15ce7b8553e7f48b782e061b658f050a673013f",
+      "node_type": "thematicBreak",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "-------"
+      }
+    },
+    {
+      "segment_id": "3079a4d2",
+      "source_content": "##### AI-Speaker 05/2021",
+      "source_content_hash": "76ef5fbc4ce0aac481b5c4f015d1285b68b768c85cbc54ee83475b514a82c81b",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "##### AI-Speaker 2021年5月版"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2021-05-26-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.119426+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "23a71ffe859681fabdfcfb7fb6379d87a0befec3518bf5960b0db9f0e4f4aa74"
+  }
+}

@@ -1,0 +1,262 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_remote_www_index.md",
+  "source_file_content_hash": "b30b5ffbb695d6831e82bf1db223f5fb6cc5ac9790a1ffc0f41f457c32af92c0",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Dostęp do bramki z Internetu\"\nsidebar_label: Wprowadzenie\n---",
+      "source_content_hash": "14b603d7ccc18713fd4eede0bf1e90ea9b14df4b3a0291183d88a41a233f6ecc",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "6ef78e84",
+      "source_content": "Możesz skonfigurować dostęp do Twojej lokalnej bramki przez Internet. Dzięki temu będziesz mógł sterować automatyką w swoim domu (także głosowo) nie tylko w swojej lokalnej sieci, ale też z dowolnego miejsca z dostępem do Internetu.",
+      "source_content_hash": "f7a4450b743dd2d8b6164ae250f5b55a284dbdffe680f1096a77e558d672ff2b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "您可以通过互联网配置对本地网关的远程访问。这样您不仅能在本地网络中，还能在任何有互联网连接的地方（包括语音控制）操作家庭自动化系统。"
+      }
+    },
+    {
+      "segment_id": "53eaf0e1",
+      "source_content": "Najprostszym ze sposobów na dostęp do bramki z Internetu jest użycie wbudowanego szyfrowanego tunelu.",
+      "source_content_hash": "662c6e4073d8a5d2f835e4f9397374bee2ba362c678ea2b5b54c8a125c67c94d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "最简单的远程访问方式是使用内置的加密隧道服务。"
+      }
+    },
+    {
+      "segment_id": "8ac585fb",
+      "source_content": "Jest to **usługa, którą obecnie oferujemy za darmo dla wszystkich użytkowników bramek: <span class=\"mdi mdi-dev-to\"></span> <span class=\"mdi mdi-professional-hexagon\"></span>**",
+      "source_content_hash": "c9d820bd5e973c7e519839b4427aae67aab01dfa2e8f04f15f4bbe0b95888220",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "这是**我们目前向所有网关用户免费提供的服务：<span class=\"mdi mdi-dev-to\"></span> <span class=\"mdi mdi-professional-hexagon\"></span>**"
+      }
+    },
+    {
+      "segment_id": "180bddb1",
+      "source_content": "![Zdalny dostęp kod QR](/img/en/bramka/http_remote_access_qr.png)",
+      "source_content_hash": "c8d846cb8d890fbcdb4bf5c05bca5e317dd9974270757a6708509419aa651dcf",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![远程访问二维码](/img/en/bramka/http_remote_access_qr.png)"
+      }
+    },
+    {
+      "segment_id": "cbe57f9d",
+      "source_content": "## Zalety",
+      "source_content_hash": "ce616aebe8972a552f56df64483ae81b0fba7155c42a282405659250f9e5520f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 优势"
+      }
+    },
+    {
+      "segment_id": "39b3772c",
+      "source_content": "Zalety tego rozwiązania:",
+      "source_content_hash": "da6f2b26236f1895575671eb90f6cd98f2cd3c11b92daf71ba15fd02d6ecf24f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该解决方案的优势："
+      }
+    },
+    {
+      "segment_id": "034de896",
+      "source_content": "- brak potrzeby konfiguracji routera\n- nie naruszamy ustawień DNS i zapory sieciowej\n- nie potrzebujemy publicznego adresu IP",
+      "source_content_hash": "772c435611ce16abd9b3aa9db1595f6956a79efa0463b3ed3c69b16c0329e30a",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 无需配置路由器\n- 不修改DNS设置和防火墙规则  \n- 无需公网IP地址"
+      }
+    },
+    {
+      "segment_id": "40f9552a",
+      "source_content": "## Jak to działa",
+      "source_content_hash": "c7e897e0ed0ee1c209dc9b37de4da6da0db5941494570406e4389bf11ab5f795",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 工作原理"
+      }
+    },
+    {
+      "segment_id": "f2c2bdd0",
+      "source_content": "Każde urządzenie posiada swój unikalny identyfikator, jest on losowo generowany przy pierwszym uruchomieniu i pozostaje stały przez cały okres użytkowania urządzenia.\nGdy włączysz dostęp z Internetu, uruchamiamy [Tunel Cloudflare](https://www.cloudflare.com/products/tunnel/) pomiędzy Twoim urządzeniem a siecią Cloudflare. Na naszym serwerze paczka.pro tworzymy unikalny (na bazie identyfikatora urządzenia), publicznie dostępny adres URL.\nWszystkie wywołania do naszego serwera adresowane identyfikatorem bramki Cloudflare przekazuje do lokalnie działającego serwera na bramce.",
+      "source_content_hash": "b99039ed0239588cbbe29b3330114d66e2919673d0af718fa782afa9f2b16038",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "每个设备都有唯一的随机生成标识符（首次启动时生成且终身不变）。启用远程访问后，我们会在您的设备与Cloudflare网络之间建立[Cloudflare隧道](https://www.cloudflare.com/products/tunnel/)。我们的paczka.pro服务器会基于设备标识符生成唯一公开访问URL。所有通过该网关标识符的请求都将由Cloudflare转发至本地运行的网关服务器。"
+      }
+    },
+    {
+      "segment_id": "d06306f7",
+      "source_content": "## Bezpieczeństwo",
+      "source_content_hash": "6eb9ad5851b150ca83fc5476900dc4ccaac82277bdb9b6ccd3f7e494a28d6cc9",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 安全措施"
+      }
+    },
+    {
+      "segment_id": "0d170438",
+      "source_content": ":::caution[Uwaga]\nW celu zachowania większego bezpieczeństwa, gdy dostęp do urządzenia z Internetu jest włączony, automatycznie blokujemy możliwość łatwego logowania do aplikacji (wybór użytkownika bez podawania hasła).\n\nDodatkowo zalecamy włączenie modułu uwierzytelniania wieloskładnikowego. Więcej informacji w dokumentacji Home Assistant [Multi-factor authentication](https://www.home-assistant.io/docs/authentication/multi-factor-auth/)\n:::",
+      "source_content_hash": "4a0b8a056c5dbdd9408f15aeef50f9b5b7d1d47df974c916470761f6fd504f1b",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[重要提示]\n为增强安全性，启用远程访问时将自动禁用简易登录功能（无需输入密码选择用户）。\n\n强烈建议启用多因素认证模块。详见Home Assistant文档[多因素认证](https://www.home-assistant.io/docs/authentication/multi-factor-auth/)\n:::"
+      }
+    },
+    {
+      "segment_id": "62a6890b",
+      "source_content": "## Włączenie dostępu",
+      "source_content_hash": "e824ffa0e6db5285076fe02d3eacfa6cf4ec22003ba625f95997dc9e38e1b32e",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 启用远程访问"
+      }
+    },
+    {
+      "segment_id": "3cfe6286",
+      "source_content": "W celu włączenia tunelowania należy w aplikacji przejść do ustawień zdalnego dostępu do bramki (sekcja dostępna po wybraniu z menu po lewej stronie opcji **Konfiguracja** a następnie pierwszej opcji na liście **Usawienia bramki AIS dom**).",
+      "source_content_hash": "0321951b7651a97df6a83d91a930c14b779cd9e1eab7733be4a3e1348d2463de",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "启用隧道功能需在应用中进行以下操作：左菜单选择**配置**→首选项**AIS dom网关设置**→进入远程访问设置页面。"
+      }
+    },
+    {
+      "segment_id": "95e9ba12",
+      "source_content": "![Konfiguracja bramki](/img/en/bramka/http_remote_access_step_1.png)",
+      "source_content_hash": "7e2bb9ff1140a0622c04712e6dd90dd6535c77bb988f6881914a79d53ff18f79",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![网关配置](/img/en/bramka/http_remote_access_step_1.png)"
+      }
+    },
+    {
+      "segment_id": "8af76f3d",
+      "source_content": "następnie wybierz opcję **Zdalny dostęp** i uruchom szyfrowany tunel",
+      "source_content_hash": "4f97289db91dee209d8416c2b1ae57a0934f3cc3c16a21e34193dd882a3f9371",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "选择**远程访问**选项并启用加密隧道"
+      }
+    },
+    {
+      "segment_id": "a9d49f92",
+      "source_content": "![Zdalny dostęp](/img/en/bramka/http_remote_access_step_3.png)",
+      "source_content_hash": "4af6f6e7937537b589979f210c515919654dcfc5f223c01a7b978f3b541c5b9e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![远程访问](/img/en/bramka/http_remote_access_step_3.png)"
+      }
+    },
+    {
+      "segment_id": "a44047a5",
+      "source_content": "![Zdalny dostęp](/img/en/bramka/http_remote_access_step_4.png)",
+      "source_content_hash": "3a748b9e5078e8cd52cd41c8b76ad47978e0a2b3012daf0ec27465b30758a46e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![远程访问](/img/en/bramka/http_remote_access_step_4.png)"
+      }
+    },
+    {
+      "segment_id": "c6cc90a0",
+      "source_content": "## Unikalny adres URL",
+      "source_content_hash": "f285d777e5316febc4df4907137e97d561e209103de8c65570fc03fd909ebdfd",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 唯一访问地址"
+      }
+    },
+    {
+      "segment_id": "d3649a1e",
+      "source_content": "Po włączeniu dostępu z Internetu Twoja bramka będzie dostępna pod unikalnym adresem",
+      "source_content_hash": "4560b575cb79f7f5a671476eefb2bde79229b329510b26c1854fea94d4a92485",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "启用远程访问后，您的网关将通过以下唯一地址提供服务："
+      }
+    },
+    {
+      "segment_id": "4d52a261",
+      "source_content": "https://identyfikator-twojej-bramki.paczka.pro",
+      "source_content_hash": "c008600d80324f59a92fec481c3dbb469fbea4fdd037fac1a45b46f228eefabd",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "https://您的网关标识符.paczka.pro"
+      }
+    },
+    {
+      "segment_id": "40158b4b",
+      "source_content": "Adres jest dość skomplikowany ale nie musisz go przepisywać - możesz zeskanować kod QR telefonem.",
+      "source_content_hash": "56d8ada6508dc5364340ce76e5f1059feddf9aee7887bb2084dbdbbf8c74f82b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该地址较为复杂，但您无需手动输入——直接用手机扫描二维码即可。"
+      }
+    },
+    {
+      "segment_id": "9e95fc4a",
+      "source_content": "## <span class=\"mdi mdi-professional-hexagon\"></span> Bramka PRO",
+      "source_content_hash": "f61354fbf9dab6cdbb0e1ae2bfb082455b2e2868e3c360fe825d2cbe9d0646e0",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## <span class=\"mdi mdi-professional-hexagon\"></span> PRO版网关"
+      }
+    },
+    {
+      "segment_id": "5dae11e3",
+      "source_content": "Na bramce PRO możemy dodatkowo zaoferować abonament na usługę WireGuard® - szybką i nowoczesną sieć VPN, która wykorzystuje najnowocześniejszą kryptografię: https://www.wireguard.com/",
+      "source_content_hash": "6c726491266df44b59dfdc63b825838f34a8b9ae6c1b12d081cef18df9c36912",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "PRO版网关还可提供WireGuard®订阅服务——这是一种采用尖端加密技术的快速现代VPN网络：https://www.wireguard.com/"
+      }
+    },
+    {
+      "segment_id": "0bb95128",
+      "source_content": "Więcej informacji o usługach i zasadach [Usługi zdalne, zasady](/docs/ais_dom_cloud_services_terms)",
+      "source_content_hash": "0a6df487f8d7ccca8f566ac0ee7c1c3c036dc68b6d1ed2153e7f32d607729b83",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "更多服务详情及条款请参阅[远程服务政策](/docs/ais_dom_cloud_services_terms)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_remote_www_index.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.095275+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "b30b5ffbb695d6831e82bf1db223f5fb6cc5ac9790a1ffc0f41f457c32af92c0"
+  }
+}

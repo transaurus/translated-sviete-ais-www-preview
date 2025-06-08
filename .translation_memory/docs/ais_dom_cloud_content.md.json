@@ -1,0 +1,90 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_dom_cloud_content.md",
+  "source_file_content_hash": "c4a204fec81b350582c79e98925c6f082b8c5395b3415773d74e96142e10d39e",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Konfiguracja treści\"\nsidebar_label: Konfiguracja treści\n---",
+      "source_content_hash": "268b7c391f3e8c823cf6ba04a56f4c0f7bb02ae1b835f2fef8471c53ece4c43f",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Moje treści",
+      "source_content_hash": "5f12a1f290181f9c09120e392e376692f8a97cb8321ca25db2703cbc4c5386f2",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 我的内容"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "W pozycji **Moje Treści** na tę chwilę możemy dodawać, edytować i usuwać własne radia, podcasty i kanały wiadomości.",
+      "source_content_hash": "d9669eba469b0c4ba1285e00bca0a18b3375a14e741c22a94aa19686f96ade73",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在**我的内容**板块中，目前我们可以添加、编辑和删除自定义广播电台、播客及新闻频道。"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "![Moje treści](/img/en/frontend/dom_cloud_content_1.png)",
+      "source_content_hash": "35309a6a508033aea4c37998009d674d92b0fc2d9c5d4489b1394bf301ffbc38",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![我的内容](/img/en/frontend/dom_cloud_content_1.png)"
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "Wszystkie operacje przebiegają w podobny sposób i sprowadzają się do wprowadzania danych do formularzy, które mają kontekstową pomoc i walidację.",
+      "source_content_hash": "15ba48ab81485273ebcfcd64b4d87188616d9e0fe017173f8516318f5117504a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "所有操作流程类似，均通过填写表单完成，这些表单提供上下文帮助和输入验证功能。"
+      }
+    },
+    {
+      "segment_id": "e14c9928",
+      "source_content": "## Powiązanie treści z urządzeniem",
+      "source_content_hash": "9742c472eae2a8f8886f463680b52fb81e0fb7de6799e51147d419833db26b88",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 内容与设备关联"
+      }
+    },
+    {
+      "segment_id": "42ad8e83",
+      "source_content": "Istotnym elementrem procesu definiowania jest wybór urządzenia, którego dotyczy dodawana treść. Służy do tego pole **\"Identyfikator bramki\". Jeśli pole to nie jest wybrane, to definicja dotyczy naszych wszystkich bramek (wszystkich bramek administrowanych przez zalogowanego użytkownika).**",
+      "source_content_hash": "dcec4ea10b8a5fd6152cec766964f832c1867bed1c591d3f03af4cdc86cae150",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {}
+    },
+    {
+      "segment_id": "1acb9a05",
+      "source_content": "![Powiązanie treści z urządzeniem](/img/en/frontend/dom_cloud_content_for_gate.png)",
+      "source_content_hash": "83c98e5330214901387079da54cdb6cc1fe8006c12a6de7a1e1136a784aadffb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![内容与设备关联](/img/en/frontend/dom_cloud_content_for_gate.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_dom_cloud_content.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.110992+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "c4a204fec81b350582c79e98925c6f082b8c5395b3415773d74e96142e10d39e"
+  }
+}

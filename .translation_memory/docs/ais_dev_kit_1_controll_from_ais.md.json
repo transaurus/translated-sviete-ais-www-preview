@@ -1,0 +1,262 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_dev_kit_1_controll_from_ais.md",
+  "source_file_content_hash": "927c2b89d11faa119f5c7bd6a5c2420a7baf1b3c68197f66abb018742238ebf2",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Sterowanie z AIS\"\nsidebar_label: Sterowanie z AIS\n---",
+      "source_content_hash": "6874b1a75f79594f7d23ffb4a501a8b45f7a70ba53547c259de6a4b78d74710f",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Opis",
+      "source_content_hash": "213089b969518edeaef89b69fec05f6aa90907037d8c093ae41737cc35ac7a23",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 描述"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Płyta wzmacniacza audio połączona jest z płytą bramki AIS dom szeregowo interfejsem TTL, dzięki czemu możemy sterować wzmacniaczem audio (equalizerem i układem Bluetooth audio) z Asystenta domowego.",
+      "source_content_hash": "de15041d17407cc8852716f3fea83492473654ca5b293a23c19194d682f9728e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "音频放大器板通过TTL串口与AIS家庭网关连接，这使得我们可以通过家庭助手控制音频放大器（均衡器和蓝牙音频模块）。"
+      }
+    },
+    {
+      "segment_id": "8a5f6a7b",
+      "source_content": "## Sterowanie odtwarzaczem z aplikacji",
+      "source_content_hash": "2e0396d7de9d6481851b4499438ee3a175fa1a5ba760ac571ef341aab164918b",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 通过应用程序控制播放器"
+      }
+    },
+    {
+      "segment_id": "ad8fd492",
+      "source_content": "Podłączony w ten sposób głośnik do bramki jest sterowany z poziomu aplikacji:",
+      "source_content_hash": "14cd70fe30ecda1abe95e3b54453823b7d23b9d066cabd29ebd8a6ae86062f73",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "以这种方式连接到网关的扬声器可通过应用程序进行控制："
+      }
+    },
+    {
+      "segment_id": "86b54d44",
+      "source_content": "![|624x301](https://lh4.googleusercontent.com/SgDKRIgFL7uAmm6cJBoGRz-D9B6YOYctD2Lo6jyAL-vHkgjcKf8HGMAXREvxlcurOZi5zatJODrGezH-257j39LIjoJPRVO6eFgVU9jBjvhB5P4Lcz4gcopy5QGvdmwzCcFcGp_B)",
+      "source_content_hash": "40cb6a66ac3e955f320c8331f5ac1eb89b127dd8c024faafebeb4735a9e045bb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![|624x301](https://lh4.googleusercontent.com/SgDKRIgFL7uAmm6cJBoGRz-D9B6YOYctD2Lo6jyAL-vHkgjcKf8HGMAXREvxlcurOZi5zatJODrGezH-257j39LIjoJPRVO6eFgVU9jBjvhB5P4Lcz4gcopy5QGvdmwzCcFcGp_B)"
+      }
+    },
+    {
+      "segment_id": "39b3772c",
+      "source_content": "Można go też wybrać jako głośnik, na którym chcemy odtwarzać media z biblioteki mediów:",
+      "source_content_hash": "24d46d1712838b3e803e52af88aabd73f5368fe97a075c17879be4b6e2367cf9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "也可将其选作播放媒体库内容的默认扬声器："
+      }
+    },
+    {
+      "segment_id": "1acb9a05",
+      "source_content": "![|624x271](https://lh5.googleusercontent.com/CzJlEQfKaFKfdsANUzk3UhFHxXPeH-yi57YX0tPF8fXNGf_WWPZkJi9F2EsNYZ_j7q196ys5FdEJGBFiuLv4GTfa6F1pF9V2oXgyyf1gROPS6psQ55S8JAjPWNlRxEhpadJkY8NJ)",
+      "source_content_hash": "5ff9a8abd212bb41e653f177de8336b1ad0424212bb0fbc6d9b4ad0bb5ee12ea",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![|624x271](https://lh5.googleusercontent.com/CzJlEQfKaFKfdsANUzk3UhFHxXPeH-yi57YX0tPF8fXNGf_WWPZkJi9F2EsNYZ_j7q196ys5FdEJGBFiuLv4GTfa6F1pF9V2oXgyyf1gROPS6psQ55S8JAjPWNlRxEhpadJkY8NJ)"
+      }
+    },
+    {
+      "segment_id": "2df4f75f",
+      "source_content": "Komendy głosowe, które odnoszą się do sterowania audio, domyślnie dotyczą głośnika, który jest podłączony do bramki.",
+      "source_content_hash": "e32e8b4cd3c2d03ca345c2886b9c2d18c90ed5fc2dfdce19cf8a1c6d77495188",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "涉及音频控制的语音指令默认作用于连接到网关的扬声器。"
+      }
+    },
+    {
+      "segment_id": "98cfbd53",
+      "source_content": "![|624x372](https://lh6.googleusercontent.com/LCoyXBIiz9IhySLsVMgvF3_aRo9jx_b8eSG4q0z2a88bTc3TmAdMNa1VcTJRXLZXDhSDaa_kpET8pYR71MBRAOIYtN9zeqTlGRu15fpkKB2_HVHRCK7sSqabiGlD0J4NRGUDsp3t)",
+      "source_content_hash": "40e58664c4d2ff0813a9e0989cd36a3453f2b0a02b9737fc6899d40dceacf1c9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![|624x372](https://lh6.googleusercontent.com/LCoyXBIiz9IhySLsVMgvF3_aRo9jx_b8eSG4q0z2a88bTc3TmAdMNa1VcTJRXLZXDhSDaa_kpET8pYR71MBRAOIYtN9zeqTlGRu15fpkKB2_HVHRCK7sSqabiGlD0J4NRGUDsp3t)"
+      }
+    },
+    {
+      "segment_id": "fa430ad4",
+      "source_content": "## Sterowanie equalizerem z aplikacji",
+      "source_content_hash": "981ef0f7d8138154dcd6a54d7d69b9f46bc6b786805fe55749fe440bfe144806",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 通过应用程序控制均衡器"
+      }
+    },
+    {
+      "segment_id": "26524352",
+      "source_content": "W szczegółach głośnika mamy do wyboru 9 trybów dźwięku, które obsługuje płyta audio",
+      "source_content_hash": "4165da6e77da711ce901fffdf2816fde67642c8e8de2fb24d7572631d6274b5c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在扬声器详情页中，可选择音频板支持的9种音效模式"
+      }
+    },
+    {
+      "segment_id": "73ab96a3",
+      "source_content": "![|624x379](https://lh6.googleusercontent.com/RLITeT3QE9qpkVigdX46d7oQMXOJYFCAkK_zdh_qX72Tvu7nxG7gEJ2wvQks_tMVv2_bw0izaHJNFejrCWqR0WrNnZJyUU0wRxpKmi9m4w6nLYi1o-FYPmLIRNi8xq0cjdpCz4Fx)",
+      "source_content_hash": "0e9924946c9c9deae556db9e663e38803992a5028771d8933a4e1e7548628ac3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![|624x379](https://lh6.googleusercontent.com/RLITeT3QE9qpkVigdX46d7oQMXOJYFCAkK_zdh_qX72Tvu7nxG7gEJ2wvQks_tMVv2_bw0izaHJNFejrCWqR0WrNnZJyUU0wRxpKmi9m4w6nLYi1o-FYPmLIRNi8xq0cjdpCz4Fx)"
+      }
+    },
+    {
+      "segment_id": "f422383e",
+      "source_content": "## Sterowanie płytą audio z poziomu API w aplikacji",
+      "source_content_hash": "652cb9a348d01ca8f97b3476f7183265e304b33f65cc35fe9056787c07b1bdd2",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 通过应用程序API控制音频板"
+      }
+    },
+    {
+      "segment_id": "97ae4a01",
+      "source_content": "W narzędziach deweloperskich udostępniamy usługi integracji ais_amplifier_service, które służą do komunikacji z płytą audio - umożliwiają przesyłanie komend interfejsem TTL do płyty audio.",
+      "source_content_hash": "cf820b711a391b6dfb7b5e30e84d9185f373eb06ca03a43cf1f3bd012ef1466b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在开发者工具中，我们提供了ais_amplifier_service集成服务，用于与音频板通信——通过TTL接口向音频板发送指令。"
+      }
+    },
+    {
+      "segment_id": "c3a738de",
+      "source_content": "![|624x368](https://lh3.googleusercontent.com/Qj6yc_l7UgZSG59Vky7sOCkpv4u0KjlM6lBmzCLawHcC0544-a2oR-Sb6_BJYOA6aPwLhZcBTcoOKwLSGTuvuD-PaD2k4puC3zHYzjveTnhc4E7WRNS-mx3-zIQF9wgttNiIO2id)",
+      "source_content_hash": "c77f323a7777a0503e7b2ac87a94e56d0c600d03df6fd047467f998eb8c9449b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![|624x368](https://lh3.googleusercontent.com/Qj6yc_l7UgZSG59Vky7sOCkpv4u0KjlM6lBmzCLawHcC0544-a2oR-Sb6_BJYOA6aPwLhZcBTcoOKwLSGTuvuD-PaD2k4puC3zHYzjveTnhc4E7WRNS-mx3-zIQF9wgttNiIO2id)"
+      }
+    },
+    {
+      "segment_id": "3cfe6286",
+      "source_content": "Usługa ais_amplifier_service.change_work_mode pozwala na zmianę trybu głośnika, obsługiwane są tryby AUX lub BT:",
+      "source_content_hash": "681c8aca7b8cec6762329d8d0c940b3ad13d0f348633d9906d09ae366201f9c2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "ais_amplifier_service.change_work_mode服务允许切换扬声器模式，支持AUX或BT模式："
+      }
+    },
+    {
+      "segment_id": "1042b50d",
+      "source_content": "![|624x299](https://lh6.googleusercontent.com/3PFL8bi-luUbhf_6ay-jAysIHogqlKU8IbdHOYc3LDESNg1rXKk6zOpWjLl6XWhvWE9haIOLuPOOAE-yBmwQfaVXucja5tC2gDFCdRtoe3Ri9XoGujGD4mYZH8ATLZoLHB7RM7gD)",
+      "source_content_hash": "ecdbdc58b3a39f78bd11b93deca6591e86d6010035de53e2b3e759a6cb18953f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![|624x299](https://lh6.googleusercontent.com/3PFL8bi-luUbhf_6ay-jAysIHogqlKU8IbdHOYc3LDESNg1rXKk6zOpWjLl6XWhvWE9haIOLuPOOAE-yBmwQfaVXucja5tC2gDFCdRtoe3Ri9XoGujGD4mYZH8ATLZoLHB7RM7gD)"
+      }
+    },
+    {
+      "segment_id": "aa1e7006",
+      "source_content": "Usługa ais_amplifier_service.exec_command pozwala na przesłanie dowolnej instrukcji sterującej do płyty audio po TTL:",
+      "source_content_hash": "7660f4afeb54276761f85e75a3311ad6cc6fb994658db0dc66f2405513c9c453",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "ais_amplifier_service.exec_command服务支持通过TTL接口向音频板发送任意控制指令："
+      }
+    },
+    {
+      "segment_id": "13d9cd70",
+      "source_content": "![|624x331](https://lh4.googleusercontent.com/22tYXfNYZKfsl5dtFrQsxAalWysBR-gxgT_KxMxEYvyGVhE_4SpqKMuDgvDSrXALrEhGANDQ04Wx1WI4Ka7ph8ZUUogIZk-zs2Rc1SHBdV749SEdXAT-uvg6X_k99y-9CTs9GcGm)",
+      "source_content_hash": "78a77f573429295241d618c92e8f3ecd0592790b93e775c767a291f617c13010",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![|624x331](https://lh4.googleusercontent.com/22tYXfNYZKfsl5dtFrQsxAalWysBR-gxgT_KxMxEYvyGVhE_4SpqKMuDgvDSrXALrEhGANDQ04Wx1WI4Ka7ph8ZUUogIZk-zs2Rc1SHBdV749SEdXAT-uvg6X_k99y-9CTs9GcGm)"
+      }
+    },
+    {
+      "segment_id": "6d28a77c",
+      "source_content": "## Pełna lista komend",
+      "source_content_hash": "dad6da05a6cb20a87cd0b3e47ded3d950f2dbfdb9c81e7b08b1f2467350613dd",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 完整指令列表"
+      }
+    },
+    {
+      "segment_id": "f7ef78f9",
+      "source_content": "Pełna lista komend dostępna jest w naszym repozytorium na stronie https://github.com/sviete/BK3266",
+      "source_content_hash": "1c760811c862aae49ad6393abd9a63a7c06b4475363225777f2911244dfef400",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "完整指令列表可在我们的GitHub仓库查看：https://github.com/sviete/BK3266"
+      }
+    },
+    {
+      "segment_id": "b36c6338",
+      "source_content": "![|624x523](https://lh3.googleusercontent.com/Sq9rvuSQX1fjqvne9khXxe_EHNJaeslIuF-JRkf7lPxypZu6lPbUN5S3DLHSIMT0JtoHyxWR-E_DM9KsMTKBM34senx0PUS9HI6P4JftVv_vYyCYKjzzB3TsHXUWpWWt8qw6Et6a)",
+      "source_content_hash": "9f23c798928e1776d14948779f15c94e596ca4796f06fd5fa6194e8c22f23ad4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![|624x523](https://lh3.googleusercontent.com/Sq9rvuSQX1fjqvne9khXxe_EHNJaeslIuF-JRkf7lPxypZu6lPbUN5S3DLHSIMT0JtoHyxWR-E_DM9KsMTKBM34senx0PUS9HI6P4JftVv_vYyCYKjzzB3TsHXUWpWWt8qw6Et6a)"
+      }
+    },
+    {
+      "segment_id": "b9aaa519",
+      "source_content": "Część komend dotyczy obsługi radia FM czy sterowania odtwarzaniem treści audio z karty SD lub pamięci USB wpiętej bezpośrednio do płyty audio - komend/funkcjonalności tych nigdy nie testowaliśmy, bo nie było nam to potrzebne.",
+      "source_content_hash": "c555eb5bb4f6885b6c8e0ce9b8c2b0d19322945dbcfc20b672281ccb0a33269a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "部分指令涉及FM收音机功能或控制从SD卡/USB存储器直接播放音频（需插入音频板）——由于实际使用场景中从未需要这些功能，我们未对其进行测试。"
+      }
+    },
+    {
+      "segment_id": "e536ea0d",
+      "source_content": "Na płycie audio dostępne jest też złącze do mikrofonu. Nie wiadomo jednak czy i jak BK3266 obsługuje funkcjonalność mikrofonu - a to dlatego, że Beken nie zaktualizował swojej witryny internetowej o żadne informacje o chipie BK3266. Nie udało się nam też ustalić w korespondencji z firmą Beken, w jaki sposób można obsługiwać mikrofon software’owo. Dlatego nie dodaliśmy mikrofonu do DEV KIT SPEAKER 1.",
+      "source_content_hash": "b77592f280b617b71b596c461c23726e3160736924a1e6f2740ff88604f802e7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "音频板上虽预留麦克风接口，但BK3266芯片是否支持麦克风功能尚不明确（博通公司未在官网更新BK3266的相关技术文档）。在与博通公司的技术沟通中，我们也未能获取软件层控制麦克风的具体方案，因此未将麦克风功能集成至DEV KIT SPEAKER 1开发套件中。"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_dev_kit_1_controll_from_ais.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.145283+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "927c2b89d11faa119f5c7bd6a5c2420a7baf1b3c68197f66abb018742238ebf2"
+  }
+}

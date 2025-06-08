@@ -1,0 +1,42 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_system.md",
+  "source_file_content_hash": "91adcfeaaf627e0ff51f73dec25b182e66268a643cc83a87f109a5754c035826",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Oprogramowanie bramki\"\nsidebar_label: Oprogramowanie bramki\n---",
+      "source_content_hash": "f806ed1aa215a9b73609c07179c8b25cdc9565cde01b96b6311a0692f49e5161",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Nasza platforma zawiera 4 główne komponenty systemowe, pierwsze trzy z nich są zainstalowane na bramce:",
+      "source_content_hash": "0377f351e88adf588b9079880bcc35876426e4b774eb98e66814ca9acc756309",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们的平台包含4个核心系统组件，其中前三个组件已预装在网关上："
+      }
+    },
+    {
+      "segment_id": "df80d009",
+      "source_content": "* **System Android ze środowiskiem Linux**: minimalny system podstawowy oraz dodatkowe pakiety dostępne za pomocą menedżera pakietów APT z naszego repozytorium pakietów [Ais Linux](https://powiedz.co/apt).\n * **Platforma automatyki**: zmodyfikowana i uzupełniona (o odtwarzacz mediów, dodatkowe usługi i inne ulepszenia) platfroma [Home Assistant](https://github.com/sviete/AIS-home-assistant)\n * **Aplikacje dodatkowe**: nasze aplikacje dostępne w [Google Play](https://play.google.com/store/apps/details?id=pl.sviete.dom)\n * **Usługi online**: w serwisie online mamy zdefiniowane stacje radiowe, podcasty, kanały wiadomości oraz dostępy do usług zewnętrznych wymagających autentykacji.",
+      "source_content_hash": "c670ef9ff789f7df729332829c1dcda5a16c2ac6dd7eec4761018dd81c2c6360",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "* **搭载Linux环境的Android系统**：基础最小化系统，以及通过[Ais Linux](https://powiedz.co/apt)软件包仓库APT管理器提供的额外软件包\n * **自动化平台**：基于[Home Assistant](https://github.com/sviete/AIS-home-assistant)改造增强的版本，补充了媒体播放器、附加服务和其他优化功能\n * **配套应用程序**：我们发布在[Google Play](https://play.google.com/store/apps/details?id=pl.sviete.dom)的应用程序\n * **在线服务**：在线服务中预定义了广播电台、播客、新闻频道以及需要身份验证的第三方服务接入"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_system.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.100535+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "91adcfeaaf627e0ff51f73dec25b182e66268a643cc83a87f109a5754c035826"
+  }
+}

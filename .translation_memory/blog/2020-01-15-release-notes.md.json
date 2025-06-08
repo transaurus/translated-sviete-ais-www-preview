@@ -1,0 +1,600 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2020-01-15-release-notes.md",
+  "source_file_content_hash": "d4fd2c0e418f50999bc87691616178840c71871fc36d4bab6f66f26575b5215a",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Jola AI-Speaker\nauthorURL: https://github.com/sviete\nauthorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4\ntitle: Wersja systemu 0.103 Zigbee\n---",
+      "source_content_hash": "4a7af95668853e39c8d4c77f4f58967602f69e34568aac8710340596a2c3d209",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Wersja systemu 0.103.8 z dnia 15 stycznia 2020, Zigbee!",
+      "source_content_hash": "23b75e4af8f9013c29be0488bbc82960acb03a0e10b05fd95f35eadda89b726c",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 2020年1月15日系统版本0.103.8，Zigbee支持！"
+      }
+    },
+    {
+      "segment_id": "8ac585fb",
+      "source_content": "![](/img/en/blog/202001/zigbee2mqtt_logo.png)",
+      "source_content_hash": "eb5bab87da522a7b4296bc916c174c14123a5e56060cbd62f2d539445b6b4aff",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202001/zigbee2mqtt_logo.png)"
+      }
+    },
+    {
+      "segment_id": "180bddb1",
+      "source_content": "W tej wersji dodaliśmy możliwość łatwego korzystania z urządzeń **Zigbee bez potrzeby stosowania bramek producentów**.",
+      "source_content_hash": "7f59bcfbc1bb46a65c2f49fc4f59b77f9d7b72c990886c11d2c210cb25838032",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "此版本新增了**无需使用厂商网关即可便捷操作Zigbee设备**的功能。"
+      }
+    },
+    {
+      "segment_id": "e883b2cc",
+      "source_content": "<!--truncate-->",
+      "source_content_hash": "f5cded2aa7e288e395fe4f67f9dabda2281904b2f5358d07302b3aa8be0acdfa",
+      "node_type": "comment",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_e883b2cc"
+      }
+    },
+    {
+      "segment_id": "cf898102",
+      "source_content": "Rozwiązanie oparte jest na projekcie [Zigbee2MQTT](https://www.zigbee2mqtt.io/). I jest całkowicie zintegrowane z naszym oprogramowaniem, dzięki czemu możesz łatwo dodać swoje urządzenia Zigbee do całej infrastruktury inteligentnego domu działającej na systemie Asystent domowy.",
+      "source_content_hash": "1627420895799b6f090ccbb7918640b30c8d1cbcf266c32bba42d154a341940c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该解决方案基于[Zigbee2MQTT](https://www.zigbee2mqtt.io/)项目，并与我们的软件深度集成，您可轻松将Zigbee设备接入运行家庭助理系统的智能家居整体架构中。"
+      }
+    },
+    {
+      "segment_id": "42ad8e83",
+      "source_content": "Integracja sprowadza się do włożenia do portu USB [odpowiednio zaprogramowanego](https://www.zigbee2mqtt.io/getting_started/flashing_the_cc2531)  urządzenia CC2531.\nAsystent domowy sam [rozpozna to urządzenie USB](/docs/ais_app_integration_usb#zigbee-usb-sniffer), poinformuje głosowo, że uruchamia serwis Zigbee i automatycznie pojawi się nowa opcja w aplikacji.",
+      "source_content_hash": "cbc34a5aba1c239168aafed0120b7cf93a31fbcdcaaba922726f949d2e61b20a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "只需将[预先刷写固件](https://www.zigbee2mqtt.io/getting_started/flashing_the_cc2531)的CC2531设备插入USB端口，家庭助理将自动[识别该USB设备](/docs/ais_app_integration_usb#zigbee-usb-sniffer)，语音提示Zigbee服务启动后，应用界面会自动出现新选项。"
+      }
+    },
+    {
+      "segment_id": "f5f6d2ce",
+      "source_content": "![Zigbee2MQTT](/img/en/blog/202001/zigbee2mqtt_new_menu.png)",
+      "source_content_hash": "e6e96cccaa2483fb19c79235180547eb099949b1f6c79a66d44998d4c5d041f7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Zigbee2MQTT](/img/en/blog/202001/zigbee2mqtt_new_menu.png)"
+      }
+    },
+    {
+      "segment_id": "2fdadb08",
+      "source_content": "Więcej w [naszej dokumentacji integracji Zigbee](/docs/ais_app_integration_zigbee)",
+      "source_content_hash": "3c7563c7f59941c0cecc134a2bfe9cca6110c136b9ea625b75ca111713bd45f1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "更多细节请参阅[Zigbee集成文档](/docs/ais_app_integration_zigbee)"
+      }
+    },
+    {
+      "segment_id": "f2c2bdd0",
+      "source_content": "Na stronie projektu Zigbee2MQTT możesz sprawdzić [listę **(około 500 urządzeń, 100 producentów)**](https://www.zigbee2mqtt.io/information/supported_devices) urządzeń, które są wspierane.",
+      "source_content_hash": "91414e63fd61dfc7c3623ee13b0edafd58b036163a8a14613598a645bd38df39",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "您可在Zigbee2MQTT项目页面查看[**约500款设备（来自100家厂商）**](https://www.zigbee2mqtt.io/information/supported_devices)的支持列表。"
+      }
+    },
+    {
+      "segment_id": "fa430ad4",
+      "source_content": "## Społecznościowe forum AI-Speaker!",
+      "source_content_hash": "7411d23437a685bffa1fca13437731ca9f72e7d3a6be515a9d71e98f78386875",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## AI-Speaker社区论坛！"
+      }
+    },
+    {
+      "segment_id": "4b1d2d7d",
+      "source_content": "Na prośbę użytkowników dodajemy możliwość komentarzy pod postami i być może powstanie z tego forum -jeżeli będą chętni, żeby prowadzić na nim dyskusję i pomagać innym użytkownikom.\nNiebawem zaprosimy wszystkich do dodawania konta i zachęcimy do brania udziału w dyskusjach, już teraz można zapoznać się z zasadami, które zaproponowaliśmy na początek: https://ai-speaker.discourse.group/t/witamy-na-spolecznosciowym-forum-ai-speaker/28",
+      "source_content_hash": "cabe4065691c071763e3f2bfc7bc28543e0633cf6e99aec992ac990910defe5c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "应用户需求，我们新增了文章评论功能，若用户愿意参与讨论并互助，或将发展成正式论坛。我们将很快邀请所有人注册账号并参与讨论，您可先了解我们初步拟定的社区准则：https://ai-speaker.discourse.group/t/witamy-na-spolecznosciowym-forum-ai-speaker/28"
+      }
+    },
+    {
+      "segment_id": "73ab96a3",
+      "source_content": "Chcemy pomóc zbudować to miejsce i oddać je społeczności - użytkownicy, którzy zaangażują się i będą publikować, zostaną automatycznie promowani na moderatorów / administratorów.",
+      "source_content_hash": "d44d510f63b03b45d4779461ed9d5042c271a823f5d6f089ea4ed264080ee00d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们希望协助建设这个平台并交由社区自治——积极参与内容发布的用户将自动晋升为版主/管理员。"
+      }
+    },
+    {
+      "segment_id": "7499a4e7",
+      "source_content": "Jeśli masz projekt związany z Asystentem domowym, który wykonałeś i masz ochotę go opisać dla innych to będziemy bardzo wdzięczni 🥰\nWszystkich którzy mają ochotę opublikować swój projekt zapraszamy do sekcji **Projekty** https://ai-speaker.discourse.group/c/projekty im więcej ciekawych rzeczy opublikujemy tym większa szansa, że to miejsce będzie żyło i się rozwijało.",
+      "source_content_hash": "c2062cbb521e790aab109bc120c6acaee3b835958fbceadcb32d003db9dcb6cb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "如果您有基于家庭助理的实践项目并愿意分享，我们将不胜感激 🥰\n欢迎所有愿意展示项目的用户前往**项目专区**发布：https://ai-speaker.discourse.group/c/projekty 优质内容越多，这个平台就越有活力。"
+      }
+    },
+    {
+      "segment_id": "c3a738de",
+      "source_content": "![Discourse](/img/en/blog/202001/discourse_manifest.png)",
+      "source_content_hash": "0c3de4a94d8cd55b8bfc5caa4bf80b9e620ce459dba55b8d51df89a70d9fa233",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Discourse](/img/en/blog/202001/discourse_manifest.png)"
+      }
+    },
+    {
+      "segment_id": "8d04259b",
+      "source_content": "## Standaryzacja portów",
+      "source_content_hash": "3ac2fdd351c8f02cea0c27e94f40a41bb60f301173bd66a6d4b871b5300cd746",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 端口标准化"
+      }
+    },
+    {
+      "segment_id": "95e9ba12",
+      "source_content": "Usługi działające na bramce będą dostępne na tych samych portach co dotychczas a dodatkowo na standardowych (dobrze znanych) portach.\nJak to dokładnie działa wyjaśniamy [na forum](https://ai-speaker.discourse.group/t/dlaczego-porty-uslug-dzialajacych-na-bramce-sa-niestandardowe/57)",
+      "source_content_hash": "f19336ec0dfdca4d9e2ec1a81958c83a731c8d4db5909916c983e15f66770ff7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "网关上的服务将继续沿用原有端口，同时新增标准化（广为人知的）端口支持。具体运作机制我们已在[论坛详细说明](https://ai-speaker.discourse.group/t/dlaczego-porty-uslug-dzialajacych-na-bramce-sa-niestandardowe/57)"
+      }
+    },
+    {
+      "segment_id": "f9dcbe87",
+      "source_content": "Nazwa      | Protokół | Porty | Komenda/URL                                               | Opis\n----       | ----     | ------- | -------                                                | -----------\n Aplikacja | http     | **80** / `8180`  | [http://ais-dom.local](http://ais-dom.local) | serwer http\n FTP       | ftp      | **21** / `1024`  | [ftp://ais-dom.local](ftp://ais-dom.local)   | serwer ftp\n SSH       | ssh      | **22** / `8022`  | ```ssh ais-dom```         | serwer ssh\n MQTT      | mqtt     | **1883**  | ```mosquitto_sub -h ais-dom.local -t '#'```     | serwer mqtt",
+      "source_content_hash": "491428d0856ea6bdf66c474fab10d7ff3f4abde71b229edf3647333bf158b268",
+      "node_type": "table",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_f9dcbe87"
+      }
+    },
+    {
+      "segment_id": "60410af6",
+      "source_content": "## Kopia zapasowa ustawień",
+      "source_content_hash": "21f5ba089946632956b01436f141a8fab4a22f252e9f926a7ae3d0e640f13c11",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 配置备份"
+      }
+    },
+    {
+      "segment_id": "b9aaa519",
+      "source_content": "W konfiguracji oprogramowania bramki dodaliśmy opcję wykonywania i przywracania [kopii zapsowej konfiguracji bramki](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji)",
+      "source_content_hash": "5644b2a95d96c2ba03421cbfaa805f7f17bf4d825b10e142614253df23e8e178",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在网关软件配置中新增了[网关配置备份与恢复](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji)功能。此处可验证网关设置有效性、创建备份并上传至集成商门户。由于配置可能包含服务访问密码和令牌，建议使用密码加密备份文件。加密后的备份仅能通过输入密码进行查看/恢复。"
+      }
+    },
+    {
+      "segment_id": "e536ea0d",
+      "source_content": "W tym miejscu możesz, sprawdzić poprawność ustawień bramki, wykonać jej kopię i przesłać ją do portalu integratora. Ponieważ konfiguracja może zawierać hasła i tokeny dostępu do usług, zalecamy zaszyfrować ją hasłem. Gdy kopia jest zabezpieczona hasłem, to można ją otworzyć/przywrócić tylko po podaniu hasła.",
+      "source_content_hash": "05920bf6cb0f8219f5cd6d4029fbfe8bc3edff160d25d620df9fd7d276df51a6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {}
+    },
+    {
+      "segment_id": "40158b4b",
+      "source_content": "![Oprogramowanie bramki](/img/en/bramka/config_ais_dom_section1_2.png)",
+      "source_content_hash": "f859a653ebf87b63d91025b78631528c390a7e6ddb57f8772e047da07b424a3d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![网关软件](/img/en/bramka/config_ais_dom_section1_2.png)"
+      }
+    },
+    {
+      "segment_id": "9e95fc4a",
+      "source_content": "## Audio w osobnym panelu",
+      "source_content_hash": "2592250468a49df7ee1c998929f86945f6cb56d53c9f2cfb887171bc540c67c5",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 独立音频面板"
+      }
+    },
+    {
+      "segment_id": "5dae11e3",
+      "source_content": "Widok audio przenieśliśmy do osobnego panelu w aplikacji.",
+      "source_content_hash": "153522a57716e787567020217658f84b2336f8de132f06ce64ee651ea93d3815",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "音频视图已迁移至应用的独立面板。"
+      }
+    },
+    {
+      "segment_id": "0bb95128",
+      "source_content": "![Audio panel](/img/en/blog/202001/audio_new_tab.png)",
+      "source_content_hash": "ebad51d17db72d73dbd6d80f7681e08ea670acd266cfc45a1d7c5c32856e50c1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![音频面板](/img/en/blog/202001/audio_new_tab.png)"
+      }
+    },
+    {
+      "segment_id": "657c2b20",
+      "source_content": "Od tej wersji będziemy dostarczali/blokowali tylko jeden widok, na którym prezentujemy przykładowe karty.",
+      "source_content_hash": "8876c5abf09f998ba534a2d71753632612875e59206f0a5af67d62ecd517c978",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "从本版本起，我们将仅提供/锁定一个视图界面用于展示示例卡片。"
+      }
+    },
+    {
+      "segment_id": "e7772088",
+      "source_content": "![Audio panel](/img/en/blog/202001/default_view.png)",
+      "source_content_hash": "7a1a81ccdd60d77805d497edd3657277184b540786d58295068db2a15fe04e8f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![默认视图](/img/en/blog/202001/default_view.png)"
+      }
+    },
+    {
+      "segment_id": "daed5acb",
+      "source_content": "## Rozpoznwanie urządzeń USB",
+      "source_content_hash": "d503ff3ff8f875af45cbed44a726e3d673ef9afbd4364ca1ab6bbaf073372a79",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## USB设备识别"
+      }
+    },
+    {
+      "segment_id": "6cc549f2",
+      "source_content": "Na bramce dostarczamy działającą w tle usługę USB, której celem jest wykrywanie zmian stanu urządzeń USB (połączenie i rozłączanie). Usługa monitoruje zdarzenia za pomocą mechanizmu inotify dostępnego w systemie Linux, następnie zmienia je w format zrozumiały dla Asystenta domowego. Dzięki temu Asystent domowy powiadamia komunikatem głosowym o tym, jakie urządzenie zostało dodane i jeżeli obsługa danego urządzenia jest wspierana, to Asystent wykona dalsze akcje związane z obsługą danego urządzenia, takie jak:",
+      "source_content_hash": "6bc98343a01c7c4fbf96c41ffcba4a192e4c50c6b5f8039bbeebe0e42d0c48d9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "网关内置后台USB服务，用于监测USB设备连接状态变化（插拔事件）。该服务通过Linux系统的inotify机制监听事件，并将其转换为家庭助理可识别的格式。当检测到新设备时，家庭助理将通过语音播报设备类型。若设备受支持，系统将自动执行后续操作，包括："
+      }
+    },
+    {
+      "segment_id": "caffd879",
+      "source_content": "- dodanie dysków\n- uruchomienie karty audio\n- uruchmienie serwsisu do obsługi Zigbee",
+      "source_content_hash": "7e3d0d953a3efe8fd8cdb952b87187777335e79f953ad2def13a058e941764c4",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 挂载存储设备\n- 启用音频卡\n- 启动Zigbee服务"
+      }
+    },
+    {
+      "segment_id": "463ed165",
+      "source_content": "Więcej w dokumentacji [USB rozpoznawanie urządzeń](/docs/ais_app_integration_usb)",
+      "source_content_hash": "cec200f4f7a1c558718a975ce99729f4f063f8416648ed9ecf93e89748452194",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "详见[USB设备识别文档](/docs/ais_app_integration_usb)"
+      }
+    },
+    {
+      "segment_id": "a5c5772a",
+      "source_content": "![HID USB](/img/en/bramka/usb_integration_zigbee.png)",
+      "source_content_hash": "2090e62aabd70c3121082154d78609ab7b7917e14e19da77136b49529a0553cc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![USB HID设备](/img/en/bramka/usb_integration_zigbee.png)"
+      }
+    },
+    {
+      "segment_id": "1c598ecd",
+      "source_content": "## Dodawanie zdalnych dysków FTP",
+      "source_content_hash": "f5efaa858b5c517becbcbe40835b082a88a9c313eb31b80a0a7713aeffa224ed",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 添加FTP远程存储"
+      }
+    },
+    {
+      "segment_id": "2547a6bb",
+      "source_content": "W odpowiedzi na pomysł obsługi dysków sieciowych zgłoszony na forum [Integracja z dyskiem sieciowym w sieci lokalnej](https://ai-speaker.discourse.group/t/integracja-z-dyskiem-sieciowym-w-sieci-lokalnej/94) dodaliśmy obsługę FTP i opisaliśmy technicznie jak działa Rclone, które dostarczamy na bramce do obsługi dysków zdalnych [Dyski sieciowe - Rclone](https://ai-speaker.discourse.group/t/dyski-sieciowe-rclone/97)",
+      "source_content_hash": "bbef1264066babc76f1928ed8152da0bc231e0fa4b175b81b2d332e2ec84ea4a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "为响应论坛提案[局域网网络磁盘集成](https://ai-speaker.discourse.group/t/integracja-z-dyskiem-sieciowym-w-sieci-lokalnej/94)，我们新增FTP支持，并技术性说明网关预装的Rclone远程存储解决方案原理，详见[网络磁盘-Rclone](https://ai-speaker.discourse.group/t/dyski-sieciowe-rclone/97)"
+      }
+    },
+    {
+      "segment_id": "0750bfa1",
+      "source_content": "![FTP1](/img/en/blog/202001/rclone_ftp.png)\n![FTP2](/img/en/blog/202001/rclone_ftp2.png)",
+      "source_content_hash": "f1de12cf13ef6b1a9cc3867347462e71bb0c03957af5ca7d969aeb494f292fa1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![FTP配置1](/img/en/blog/202001/rclone_ftp.png)\n![FTP配置2](/img/en/blog/202001/rclone_ftp2.png)"
+      }
+    },
+    {
+      "segment_id": "39db08de",
+      "source_content": "## Autentykacja PIN w aplikacji",
+      "source_content_hash": "03d0c688392f4ebd584c10b4e468f13ac0ed1b8dbd74408ee6e8d66ab4625085",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 应用内PIN码认证"
+      }
+    },
+    {
+      "segment_id": "785750ac",
+      "source_content": "W przypadku systemu Wear OS najłatwiej wykonać konfigurację z bramką za pomocą jednorazowego kodu PIN.",
+      "source_content_hash": "0afe78630f6760cb63a5f841bc5aa8164f9efdb5d992fb6ace2afce76fa8e2bc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "对于Wear OS系统，最便捷的方式是通过一次性PIN码完成与网关的配置。"
+      }
+    },
+    {
+      "segment_id": "82e90254",
+      "source_content": "Proces jest bardzo prosty, wystarczy w sekcji **Szyfrowany tunel** wybrać opcję **GENERUJ KOD PIN**",
+      "source_content_hash": "ebb3927ea0550cf78eb2efc0fc9e84987407c8d93ec081e9848ead4c45c979ef",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "操作流程非常简单：只需在**加密隧道**选项中选择**生成PIN码**"
+      }
+    },
+    {
+      "segment_id": "2822251a",
+      "source_content": "![Automatyzacje](/img/en/frontend/ais_dom_wizard_4_wear_apk.png)",
+      "source_content_hash": "cea581fd0942c1dbdfdcedd3cddf4108c5b0ce30e59393ab82e9e7b92923d3e8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![自动化设置](/img/en/frontend/ais_dom_wizard_4_wear_apk.png)"
+      }
+    },
+    {
+      "segment_id": "25212439",
+      "source_content": "następnie kod, który się pojawi, należy przepisać w aplikacji Wear (masz na to 2 minuty)",
+      "source_content_hash": "085c59bb58e0166c39bc556b2d03b156977a7fe473cdd01712f181885f137851",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "随后将生成的代码在两分钟内输入Wear应用即可完成配对"
+      }
+    },
+    {
+      "segment_id": "d79a4831",
+      "source_content": "![Automatyzacje](/img/en/frontend/ais_dom_wizard_5_wear_apk.png)",
+      "source_content_hash": "a5ceb5dd8500c18a3436a87345de18cb3c298db1023593407ea44daf1ffefe84",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![自动化流程](/img/en/frontend/ais_dom_wizard_5_wear_apk.png)"
+      }
+    },
+    {
+      "segment_id": "2838eb68",
+      "source_content": "Całość opisana jest w [AIS dom Wear OS](/docs/ais_app_android_dom_wear)",
+      "source_content_hash": "597b7c4de94ac79438a622c0fa1adad65b5fcf4c275f1cc10c1913c3a8d36d5c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "完整说明详见文档 [AIS dom Wear OS](/docs/ais_app_android_dom_wear)"
+      }
+    },
+    {
+      "segment_id": "1f4b3b94",
+      "source_content": "## Rozbudowa nawigacji pilotem",
+      "source_content_hash": "1c861d77ef0fbfdc8f5c87e99355888fab64fbdb6a938af33cb6c65684e11be6",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 遥控器导航功能扩展"
+      }
+    },
+    {
+      "segment_id": "a81544fd",
+      "source_content": "Do pozycji menu **Dom** dodaliśmy grupę **Sceny**, w której znajdują się wszystkie zdefiniowane sceny w systemie i można je uruchamiać pilotem.",
+      "source_content_hash": "d727eeb143a0f078f76b0b3c674a15f859a8beb440644254012e07f38e09daf8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们在**家居**菜单中新增了**场景**分组，该分组包含系统中所有预定义场景，可通过遥控器直接触发。"
+      }
+    },
+    {
+      "segment_id": "0801d969",
+      "source_content": "Oraz grupę **Urządzenia**, w tej grupie mamy teraz następujące pozycje:",
+      "source_content_hash": "c0ca7027e1fdfa91b2ebae87824a42828d76d1d7bc3fff06e0a6cae3a771850e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "同时**设备**分组现包含以下子类目："
+      }
+    },
+    {
+      "segment_id": "b0465fca",
+      "source_content": "- Przełączniki\n- Światła\n- Czujniki\n- Termostaty\n- Zasłony\n- Odkurzacze\n- Zamki\n- Kamery\n- Wentylatory",
+      "source_content_hash": "e390f2c307fe8fdc4f60656fcb741f8ce6decb8c595cc3ee69cecb41e30457e5",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 开关\n- 照明\n- 传感器\n- 温控器\n- 窗帘\n- 吸尘器\n- 门锁\n- 摄像头\n- 风扇"
+      }
+    },
+    {
+      "segment_id": "64d57278",
+      "source_content": "## TAURON - pobieranie informacji o energii oddanej do sieci",
+      "source_content_hash": "d2c374b23836bb5605a494132fce297b4592217d172345f35f4cecee0098c84a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## TAURON - 电网返送电量数据获取"
+      }
+    },
+    {
+      "segment_id": "5f82a1e9",
+      "source_content": "Zaktualizowaliśmy integrację TAURON autorstwa [Piotra Machowskiego](https://github.com/PiotrMachowski/Home-Assistant-custom-components-Tauron-AMIplus) o pobieranie danych o energii oddanej do sieci.",
+      "source_content_hash": "bbdcee5ae175479237b95649390511768e6b9db8578c90f280c5d067a696499c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们更新了由[Piotr Machowski](https://github.com/PiotrMachowski/Home-Assistant-custom-components-Tauron-AMIplus)开发的TAURON集成，新增电网返送电量数据获取功能。"
+      }
+    },
+    {
+      "segment_id": "6fc234cf",
+      "source_content": "Dane pobierane są do 6 sensorów:",
+      "source_content_hash": "7d2b0bc81bc96880b831b9905a33a702b874faee31950dc59fcb03acf8944d5b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该功能可获取6类传感器数据："
+      }
+    },
+    {
+      "segment_id": "4b530389",
+      "source_content": "- Roczne zużycie energii\n- Miesięczne zużycie energii\n- Dzienne zużycie energii\n- Energia oddana do sieci w ciągu roku\n- Energia oddana do sieci w ciągu miesiąca\n- Energia oddana do sieci w ciągu dnia",
+      "source_content_hash": "4e9d9a6c684391bcd6cab2b624d05861e341f5b4746f5daaea1053e218aacc19",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 年度用电量\n- 月度用电量\n- 日用电量\n- 年度返送电网电量\n- 月度返送电网电量\n- 日返送电网电量"
+      }
+    },
+    {
+      "segment_id": "383fbdd2",
+      "source_content": "Takie dane zestawione z danymi o produkcji prądu ułatwiają nam zorientowanie się, czy mamy nadwyżkę prądu oddaną do sieci - przydatne, gdy mamy nadprodukcje i możliwość jej zużycia, przez np. dogrzanie się prądem w zimie i zaoszczędzenie na gazie.",
+      "source_content_hash": "e4f1e0746f65ec1f35b288c9b02820366bf4249f5920fda66b4a57af30dccfee",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "结合发电数据，这些指标能清晰显示电力盈余情况——特别适用于存在电力过剩时（例如冬季利用余电供暖替代燃气）的能源调配决策。"
+      }
+    },
+    {
+      "segment_id": "14bc6b75",
+      "source_content": "![Integracja TAURON](/img/en/frontend/integration_tauron_4.1.png)",
+      "source_content_hash": "95d3366f5a9682f924aa444c293ceac9854cda9446f5bbe94d6d6b5d11fed167",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![TAURON集成界面](/img/en/frontend/integration_tauron_4.1.png)"
+      }
+    },
+    {
+      "segment_id": "5dba1427",
+      "source_content": "## Home Assistant",
+      "source_content_hash": "740b285c99ee849f17b14b85885c2e802b66edeeea4f9c6045c0fff785d20a55",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## Home Assistant"
+      }
+    },
+    {
+      "segment_id": "534ac82e",
+      "source_content": "Najnowszy (stabilny) [Home Assistant 0.103.0](https://www.home-assistant.io/blog/2019/12/11/release-103/)",
+      "source_content_hash": "0fc27378fc0bcb9ffef00a72517c961aee8f3d4996bd8b6157396c64ec3f4858",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "最新稳定版 [Home Assistant 0.103.0](https://www.home-assistant.io/blog/2019/12/11/release-103/)"
+      }
+    },
+    {
+      "segment_id": "a9c2a503",
+      "source_content": "Z ciekawych rzeczy, które bardzo nam się przydadzą, to możliwość definiowania/edycji automatyzacji z aplikacji w formacie YAML. Każdy pojedynczy wyzwalacz, warunek lub akcję można edytować jak YAML. Umożliwia to definiowanie bardzo skomplikowanych automatyzacji w edytorze automatyki i umożliwia szybkie kopiowanie części automatyzacji.",
+      "source_content_hash": "7188efd10486744160d86062e357e80edec8c76cdab218815d09b4b78f522168",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "最值得关注的改进是支持通过YAML格式在应用中定义/编辑自动化规则。每个触发器、条件或动作都可以YAML形式编辑，这使得在自动化编辑器中能定义复杂逻辑，并快速复制自动化规则片段。"
+      }
+    },
+    {
+      "segment_id": "681ef526",
+      "source_content": "![Asystent](/img/en/blog/202001/automatuon_yaml_editor.png)",
+      "source_content_hash": "af6d87fc016324852b2e859d3964dcd3be2e5d8e6366813e9f31dcedc5787667",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![智能助手](/img/en/blog/202001/automatuon_yaml_editor.png)"
+      }
+    },
+    {
+      "segment_id": "0bed0da6",
+      "source_content": "----",
+      "source_content_hash": "bd64bb8efa5b3f27e6442f23600c3b516127ea17e23724b41e50da4c22883edd",
+      "node_type": "thematicBreak",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "----"
+      }
+    },
+    {
+      "segment_id": "ad3e22c6",
+      "source_content": "Zapraszamy do aktualizacji i [komentowania na forum :)](https://ai-speaker.discourse.group/)",
+      "source_content_hash": "835468c85dd4ecaa2ca9086b3919d63a2f40f58acb16d2e9e802bc2c6fb6f6da",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "欢迎升级并[参与论坛讨论 :)](https://ai-speaker.discourse.group/)"
+      }
+    },
+    {
+      "segment_id": "671cbf7c",
+      "source_content": "AI-Speaker 01/2020\n----",
+      "source_content_hash": "0d5ff91899c885552684b03b4f4a0df209f620e55645bd9149ac1666b9cfec03",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "AI-Speaker 2020年1月\n----"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2020-01-15-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.085344+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "d4fd2c0e418f50999bc87691616178840c71871fc36d4bab6f66f26575b5215a"
+  }
+}

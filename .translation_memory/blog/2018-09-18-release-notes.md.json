@@ -1,0 +1,82 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2018-09-18-release-notes.md",
+  "source_file_content_hash": "bec6759af1c9c58bcb6842caaae2ac6c2bde16383a2f3420cdf8117364fff123",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Andrzej Raczkowski\nauthorURL: https://github.com/sviete\nauthorFBID: 1546384510\ntitle: Wersja systemu 0.77.8  \n---",
+      "source_content_hash": "8dc24cf7c3f25b588f5de089ae2552c9b2930d686fd3da758e4f0a86a250b8c3",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Wersja systemu 0.77.8 z dnia 18 września 2018 roku,",
+      "source_content_hash": "5b5d8139e190c9641603c778737ae4b26095013fe13e14b0cd04329292454f56",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 2018年9月18日发布的系统版本0.77.8，"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "w tej wersji dodano:",
+      "source_content_hash": "3872a90319800ef209dc86e7768257437634efb2d0bd4158297f09cf8d4b1322",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该版本新增功能："
+      }
+    },
+    {
+      "segment_id": "143e51c1",
+      "source_content": "- dokładniejsza informacja o pogodzie (dane z serwisu Yahoo!)\n- informacja o aktualnej pozycji odtwarzanego audio w aplikacji\n- zakładki i ulubione (funkcjonalność w wersji rozwojowej)\n- poprawki i aktualizacja odtwarzacza YouTube",
+      "source_content_hash": "49f56d986763c3ded4158369c359da9d8666abee3dcc59fb9a74efbf6e95a2f5",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 更精确的天气信息（数据来自Yahoo!服务）\n- 应用程序中显示当前音频播放位置信息\n- 书签与收藏功能（开发版功能）\n- YouTube播放器修复与更新"
+      }
+    },
+    {
+      "segment_id": "d350c018",
+      "source_content": "## Wersja systemu 0.77.6 z dnia 6 września 2018 roku,",
+      "source_content_hash": "ffb3dbc24c26d3e985db0bea2a7a5c9d6020ff913739df46093bb052a4b1817e",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 2018年9月6日发布的系统版本0.77.6，"
+      }
+    },
+    {
+      "segment_id": "1acb9a05",
+      "source_content": "w tej wersji dodano:",
+      "source_content_hash": "3872a90319800ef209dc86e7768257437634efb2d0bd4158297f09cf8d4b1322",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该版本新增功能："
+      }
+    },
+    {
+      "segment_id": "da23c906",
+      "source_content": "- poprawione wykrywanie czujników i dodawanie do grupy \"Wszystkie czujniki\"\n- poprawione pobieranie unikalnych tytułów artykułów/wiadomości z serwisów\n- poprawiono kodowanie nazw piosenek z youtube (na przykładzie: rozowyje vino)\n- dyski zdalne, czytanie dokumentów z Google Drive (te typy dokumentów, które da się skonwertować do txt)\n- najnowszy Home Assistant wymagający logowania do aplikacji (na lokalnej sieci wykonujemy autologowanie do api, dlatego nie jest - - konieczne logowanie w przypadku komend głosowych oraz sterowania z pilota)\n- pakiety w repozytorium ais-dom, zbudowane na 4 architekturach (aarch64, arm, i686, x86_64)\n- aktualizacja 46 pakietów do najnowszych wersji (w tym python, nodejs, mosquitto)",
+      "source_content_hash": "b75683f877086278a93ef2af16dc3f51fc17643b5f57ce98db4617a35faf694d",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 改进传感器检测并优化加入\"所有传感器\"分组的逻辑\n- 优化从新闻服务获取文章/消息唯一标题的机制\n- 修复YouTube歌曲名称编码问题（例如：розовые вино）\n- 远程磁盘支持，可读取Google Drive文档（仅限可转换为txt格式的文档类型）\n- 最新版Home Assistant需应用登录（在局域网内通过API自动登录，因此语音指令和遥控器操作无需重复认证）\n- ais-dom软件仓库提供4种架构的安装包（aarch64、arm、i686、x86_64）\n- 46个软件包更新至最新版本（包括python、nodejs、mosquitto等）"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2018-09-18-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.115240+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "bec6759af1c9c58bcb6842caaae2ac6c2bde16383a2f3420cdf8117364fff123"
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_automation_blueprint.md",
+  "source_file_content_hash": "fb507bf451000905d871731b4711a2a4cdee24c9715bc643f66501e39a451ee0",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Schematy Automatyzacji\"\nsidebar_label: Schematy Automatyzacji\n---",
+      "source_content_hash": "7da1ccca9abf5db4baef2ced88c5249d8d6b1dc13e8dc34698471af032e83316",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Wprowadzenie",
+      "source_content_hash": "138964b3f05ef631ae55efd030ca96538eb5d783961ef7b978515da6c937d13f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 简介"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Schematy automatyzacji to gotowe szablony automatyzacji, które można łatwo dostosować i dodać do swojego Asystenta domowego jako automatyzacje.\nCzyli są to takie wstępnie skonfigurowane automatyzacje które wystarczy dostosować do własnych potrzeb.",
+      "source_content_hash": "fa084ae921aeb6168abd39b9489e4370d276029267ec69ac93fd11a33e582a08",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "自动化蓝图是预先配置好的自动化模板，可以轻松调整并添加到您的家庭助理中作为自动化规则。这些即用型自动化方案只需根据个人需求进行定制即可直接使用。"
+      }
+    },
+    {
+      "segment_id": "9fcbdce9",
+      "source_content": "## Przejście do schematów automatyzacji",
+      "source_content_hash": "fd7f0bd364c255c9bfb19f0d84fd6bdfb84928d09e027a3cfbcf884bbe07a0b8",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 进入自动化蓝图界面"
+      }
+    },
+    {
+      "segment_id": "ad8fd492",
+      "source_content": "W aplikacji Asystent domowy otwórz menu (klikając ikonę w lewym górnym rogu) a następnie kliknij w konfigurację i wybierz opcję **Schematy**",
+      "source_content_hash": "5ef399415e00da7c60a418d260c009580c1d09bcfc8d35980e57d63b1b52ff79",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在家庭助理应用中，点击左上角菜单图标打开导航栏，依次选择\"配置\"→\"自动化蓝图\""
+      }
+    },
+    {
+      "segment_id": "42ad8e83",
+      "source_content": "![Ekran z listą automatyzacji](/img/en/bramka/blueprint1.png)",
+      "source_content_hash": "ce2db8f13be1275a8c9e8409eaa16856368b9e078e4a96eca951eb3e2b775b10",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![自动化列表界面](/img/en/bramka/blueprint1.png)"
+      }
+    },
+    {
+      "segment_id": "aee0e40d",
+      "source_content": "## Ekran z listą schematów automatyzacji",
+      "source_content_hash": "511f6f9132258b2b32c4200c7d1b5d8f9122b2f694192c81f59710b36ec01d9f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 自动化蓝图列表界面"
+      }
+    },
+    {
+      "segment_id": "f5f6d2ce",
+      "source_content": "Na ekranie z listą schematów automatyzacji można zarządzać schematami dostępnymi w systemie",
+      "source_content_hash": "aaca532b4177eef4da24a60e532cc38c92f08d59050aefe4cd33dbb37e2695e3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在自动化蓝图列表界面，您可以管理系统中的所有可用蓝图方案"
+      }
+    },
+    {
+      "segment_id": "2fdadb08",
+      "source_content": "![Przejście do automatyzacji](/img/en/bramka/blueprint2.png)",
+      "source_content_hash": "3ae01e5b22d9bf92511ead2d75e6653b1209fa3f88b56bd7a1d22d950b1bfa8c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![进入自动化设置](/img/en/bramka/blueprint2.png)"
+      }
+    },
+    {
+      "segment_id": "ed7dde9c",
+      "source_content": "## Tworzenie automatyzacji na podstawie schematu",
+      "source_content_hash": "adf083dbcea01808cc65ac5033d849fdbcf9244817e1cf6429d8536f4469c30f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 基于蓝图创建自动化"
+      }
+    },
+    {
+      "segment_id": "a76548f8",
+      "source_content": "Na schemacie automatyzacji po wybraniu opcji **UTWÓRZ AUTOMATYZACJĘ** zostanie wyświetlony ekran do konfiguracji automatyzacji.",
+      "source_content_hash": "cd4f4518f88d98ec3b71d9d6d4d3c474a826c99bd9f693bbc996c610aa078809",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "选择蓝图后点击\"创建自动化\"按钮，将进入自动化配置界面"
+      }
+    },
+    {
+      "segment_id": "4b1d2d7d",
+      "source_content": "![Dodanie nowej automatyzacji](/img/en/bramka/blueprint3.png)",
+      "source_content_hash": "ab2f747c5bb1c295b4092053b6543014dc4157ac2c23aa7cd2716c548f62d4b4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![添加新自动化](/img/en/bramka/blueprint3.png)"
+      }
+    },
+    {
+      "segment_id": "dfe931a2",
+      "source_content": "Po dostosowaniu parametrów automatyzacji do naszych potrzeb, wystarczy nacisnąć \"ZAPISZ\", żeby utworzyć automatyzację na podstawie schematu:",
+      "source_content_hash": "3feb869ddc7bf5e11bc39a6713a0cada1df26294a566ae2c7b237b8113e3248f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "根据需求调整自动化参数后，点击\"保存\"即可基于该蓝图创建自动化规则："
+      }
+    },
+    {
+      "segment_id": "4daf5cdd",
+      "source_content": "![Ustawienie nazwy automatyzacji](/img/en/bramka/blueprint4.png)",
+      "source_content_hash": "821f54a2b1f2eb1e34f36ad22e6955b23ec55fef39f06b8470b29251ef87feb5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![设置自动化名称](/img/en/bramka/blueprint4.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_automation_blueprint.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.118761+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "fb507bf451000905d871731b4711a2a4cdee24c9715bc643f66501e39a451ee0"
+  }
+}

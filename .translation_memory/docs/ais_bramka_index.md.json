@@ -1,0 +1,122 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_index.md",
+  "source_file_content_hash": "8dc547431f259afc1514567e91d276bad6eed3611ad4b87e7afc72c4d45cb72b",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"\"\nsidebar_label: Kontroler DEV3\n---",
+      "source_content_hash": "d162343118c52c7188641cf3d78cd9fba121f26787bbf2eb009a00608e0f35f8",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "![Główne menu](/img/AIS-DEV-3/DEV3.png)",
+      "source_content_hash": "c62d9a168b385176f1df0fc6d336e262773a0549ce61a9086b9c5a1570d2d5c2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![主菜单](/img/AIS-DEV-3/DEV3.png)"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Celem bramki do Internetu Rzeczy jest komunikacja i zarządzanie inteligentnymi urządzeniami. **Bramka \"tłumaczy\" polecenia na komendy, które są zrozumiałe przez urządzenia** oraz automatycznie wykonuje czynności (np. włączenie urządzeń) w określonych okolicznościach.",
+      "source_content_hash": "e8ba5d94a1b71f63febbef78f4e5e281c5e1686322c582c2e22a726d2fc9b591",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "物联网网关的核心目标是实现智能设备的通信与管理。**网关将指令\"翻译\"成设备可理解的命令**，并能在特定条件下自动执行操作（例如开启设备）。"
+      }
+    },
+    {
+      "segment_id": "8a5f6a7b",
+      "source_content": "### Specyfikacja techniczna",
+      "source_content_hash": "1b9f622cd53316c969003744c2082a5332cf4f5624dfc42a83bc70a39339aff1",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 技术规格"
+      }
+    },
+    {
+      "segment_id": "180bddb1",
+      "source_content": "Bramka AIS DEV3 działa na wydajnym układzie Amlogic SoC 905x3, posiada wbudowane WiFi oraz dysk 128GB, a także porty LAN/Ethernet, USB, SPDIF, Aux i HDMI.",
+      "source_content_hash": "9ad4d71d014a01082bdc13b9a1bc609a47e796dd54fa035e71db7418ae2381a8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "AIS DEV3网关采用高性能Amlogic SoC 905x3芯片组，内置WiFi模块和128GB存储，配备LAN/以太网、USB、SPDIF、Aux和HDMI接口。"
+      }
+    },
+    {
+      "segment_id": "87e3966e",
+      "source_content": "| MODEL                 | AIS DEV3         \n|-----------------------|:-------------------------------------------------------:\n| zdjęcie               | <div><img src=\"/img/en/bramka/ais_dev3_in_box.jpg\" alt=\"drawing\" width=\"400px\"/></div>  \n| atuty                 |- Produkt konkurencyjny cenowo i funkcjonalnie dla minikomputerów typu RPi <br/> - Niezawodna wbudowana pamięć eMMC (to ten sam rodzaj pamięci, z której korzysta Twój telefon, tablet, samochód) <br/> - Łatwy start, rozpoczęcie pracy jest proste, wystarczy połączyć zasilanie i monitor lub telewizor\n| oprogramowanie        | Android (root) lub Linux       \n| procesor CPU          | Amlogic S905X3 Quad-Core 4xCortex-A55                   \n| procesor GPU          | Mali-G31                                                 \n| pamięć                | 4G DDR3                                                \n| wbudowany dysk        | **128 GB** eMMC                                        \n| Gniazdo karty pamięci | TF card max. 64GB (karty nie ma w zestawie)            \n| USB                   | 2 (1x OTG, 1x USB 3.0)                                  \n| HDMI                  | 2.0A                                                    \n| AV                    | 3,5mm jack (mono na jednym kanale, z przeznaczeniem pod nowy [kit głośnika](/docs/ais_dev_kit_1_index)) \n| SPDIF                 | Optical SPDIF                                          \n| Ethernet RJ45         | 10/100/1000* Mbps                                       \n| WiFi                  | 2.4 GHz / 5 GHz 802.11 a/b/g/n                          \n| Bluetooth             | 4.1                                                     \n| Wyświetlacz VFD       | **Pokazuje aktualną godzinę, sterowalny* **             \n| Zasilanie             | Wejście 100-240V / 50-60Hz, wyjście 2A / **5V**          12V\n| Pilot                 | Pilot radiowy 2.4 GHz z mikrofonem, dongle              \n| Dodatkowo w zestawie  | Kabel HDMI, zasilacz 5V 2A, wbudowany tag NFC           \n| Gwarancja             | 1 rok",
+      "source_content_hash": "6dcfca8723522faf7f57e782d77ea4fe02d49a7a8d4fa9035b73a59080520fa1",
+      "node_type": "table",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_87e3966e"
+      }
+    },
+    {
+      "segment_id": "80d9e13c",
+      "source_content": "### Oprogramowanie",
+      "source_content_hash": "a05a5490327b43591d72aebf7c8a4b8681953398d2f3461f63f1989a94b32b44",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 软件系统"
+      }
+    },
+    {
+      "segment_id": "33331f27",
+      "source_content": "Oprogramowanie obsługuje najbardziej popularne urządzenia smart home i **działa lokalnie w Twoim domu - nie gromadzi danych w chmurze**.",
+      "source_content_hash": "db4d04f26c528c139cdfea5f4e5f19021844512f69d400a200a0ee26760e9136",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "本系统支持主流智能家居设备，**所有数据处理均在本地完成——不依赖云端存储**。"
+      }
+    },
+    {
+      "segment_id": "50746522",
+      "source_content": "W naszym rozwiązaniu bramka jest odpowiedzialna za kontrolę nad urządzeniami oraz dostarczanie treści.\nBramka umożliwia zarządzanie urządzeniami i sensorami oraz pełni rolę mostu między Internetem Rzeczy a Twoją siecią domową. Urządzenie jest „tłumaczem” protokołów IoT i przekazuje komunikację sieciową do aplikacji w celu prezentacji stanu urządzeń oraz dostarczeniu kontroli dla użytkownika.",
+      "source_content_hash": "d53982bfec8736e9dd7a6e35910b0ab963fc1ddd39cd0a96a46e3fcbda61baa3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该解决方案中，网关承担设备控制与内容分发的双重职责：\n既作为物联网与家庭网络间的协议转换桥梁，又通过应用程序提供设备状态可视化界面和用户控制入口。"
+      }
+    },
+    {
+      "segment_id": "8bddee80",
+      "source_content": "## Dostępność i cena",
+      "source_content_hash": "8c8b0d24dfa40d6ef28d3caf96c499605e3ba03d4f196ccba735d26d431bf4a4",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 购买信息"
+      }
+    },
+    {
+      "segment_id": "fac21652",
+      "source_content": ":::warning[Sklep]\n<center>\n<button class=\"snipcart-add-item button button--outline button--secondary button--lg\"\n              data-item-id=\"ais-dev3\"\n              data-item-description=\"AIS DEV3, Amlogic SoC 905x3, wbudowane WiFi oraz dysk 128GB, porty Ethernet, USB, SPDIF, Aux i HDMI.\"\n              data-item-image=\"/img/ais_gate_dev3.png\"\n              data-item-name=\"AIS DEV3\"\n              data-item-price=\"{&quot;usd&quot;:95,&quot;eur&quot;:90, &quot;pln&quot;: 399}\"\n              data-item-custom1-name=\"Wiadomość\"\n              data-item-custom1-type=\"textarea\"\n              >\n              Dodaj do koszyka\n            </button>\n[Urządzenie jest też dostępne na naszych aukcjach na platformie allegro.pl](https://allegro.pl/uzytkownik/AI-Speaker)\n<br/>\n[<img src=\"/img/allegro.png\" alt=\"drawing\" width=\"200\"/>](https://allegro.pl/uzytkownik/AI-Speaker)\n</center>\n:::",
+      "source_content_hash": "cde2d2e5e3b2b3fc1d6d1f872a850a723514262663d81444366d97c398044fe6",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::warning[商店]\n<center>\n<button class=\"snipcart-add-item button button--outline button--secondary button--lg\"\n              data-item-id=\"ais-dev3\"\n              data-item-description=\"AIS DEV3, Amlogic SoC 905x3, wbudowane WiFi oraz dysk 128GB, porty Ethernet, USB, SPDIF, Aux i HDMI.\"\n              data-item-image=\"/img/ais_gate_dev3.png\"\n              data-item-name=\"AIS DEV3\"\n              data-item-price=\"{&quot;usd&quot;:95,&quot;eur&quot;:90, &quot;pln&quot;: 399}\"\n              data-item-custom1-name=\"留言\"\n              data-item-custom1-type=\"textarea\"\n              >\n              加入购物车\n            </button>\n[本设备同时在我们allegro.pl平台的店铺有售](https://allegro.pl/uzytkownik/AI-Speaker)\n<br/>\n[<img src=\"/img/allegro.png\" alt=\"绘图\" width=\"200\"/>](https://allegro.pl/uzytkownik/AI-Speaker)\n</center>\n:::"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_index.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.130410+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "8dc547431f259afc1514567e91d276bad6eed3611ad4b87e7afc72c4d45cb72b"
+  }
+}

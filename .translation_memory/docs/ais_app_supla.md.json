@@ -1,0 +1,312 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_app_supla.md",
+  "source_file_content_hash": "03dcff2a900400240aac89fa9f05ddd5f518c8a0bcf5f53777902b652b2b039c",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"AIS SUPLA MQTT\"\nsidebar_label: AIS SUPLA MQTT\n---",
+      "source_content_hash": "af66357fdbfa8482607d4283f25a421a5dd019fa436c766aa55a80a9faf411b3",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Wprowadzenie",
+      "source_content_hash": "138964b3f05ef631ae55efd030ca96538eb5d783961ef7b978515da6c937d13f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 简介"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "[SUPLA](https://www.supla.org/pl/) to popularny w Polsce system automatyki domowej. SUPLA ma własny zestaw protokołów, własne oprogramowanie dla urządzeń opartych na ESP8266 i urządzenia wyprodukowane głównie przez firmę [Zamel](https://zamel.com/pl-PL/). Oprogramowanie [SUPLA jest Open Source](https://github.com/SUPLA).",
+      "source_content_hash": "ba21491bfaa1465306870fe9ccedabace84169561a8ed60d518be551177f6fef",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "[SUPLA](https://www.supla.org/pl/) 是波兰流行的家庭自动化系统。SUPLA拥有自研协议栈、基于ESP8266的专用设备固件，以及主要由[Zamel](https://zamel.com/pl-PL/)公司生产的硬件设备。[SUPLA软件是开源的](https://github.com/SUPLA)。"
+      }
+    },
+    {
+      "segment_id": "8a5f6a7b",
+      "source_content": "## Integracja",
+      "source_content_hash": "f5e469c7c23f3e22654c827f0a4cb6e2e56f4d50ad319f8a3f4b0dd2ae107506",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 集成方案"
+      }
+    },
+    {
+      "segment_id": "180bddb1",
+      "source_content": "Integracja z SUPLA MQTT BRIDGE pozwala na łatwe dodanie mostu pomiędzy brokerem MQTT działającym na bramce AIS dom a brokerem MQTT Supla. Dzięki temu urządzenia SUPLA mogą się automatycznie przedstawiać w Asystencie domowym i być sterowane także głosowo z AIS.",
+      "source_content_hash": "28c2b56483d001bd21327a8eff573af3557cca7cbcdf6a8685eb7ed741ec9cb4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过SUPLA MQTT桥接器集成，可在AIS家庭网关运行的MQTT代理与SUPLA的MQTT代理之间建立连接。这使得SUPLA设备能自动接入家庭助理系统，并支持通过AIS进行语音控制。"
+      }
+    },
+    {
+      "segment_id": "cbe57f9d",
+      "source_content": "## Dodanie integracji",
+      "source_content_hash": "49090883ca3f5532af2debe42ef1a75ee7d7c82b03dd73bcffddf615cb65799c",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 添加集成"
+      }
+    },
+    {
+      "segment_id": "39b3772c",
+      "source_content": "Integracja wymaga zalogowania w SUPLA Cloud w celu pobrania danych do połączenia z brokerem MQTT SUPLA.",
+      "source_content_hash": "ebdb5b0848862fe7870480f97be7fc2ff6f0c7008340adfa92b83cab785584f9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "集成需登录SUPLA云平台以获取MQTT连接凭证。"
+      }
+    },
+    {
+      "segment_id": "1acb9a05",
+      "source_content": "W tym celu należy uruchomić konfigurator integracji",
+      "source_content_hash": "1ba8c9c57f125dec9bf55ee9ed08c9054ac317b0c24a17953f5419d5ad96d151",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "请启动集成配置向导"
+      }
+    },
+    {
+      "segment_id": "2df4f75f",
+      "source_content": "![Integracja SUPLA](/img/en/frontend/integration_supla_1.png)",
+      "source_content_hash": "c52cb2fa020ad8a7b5af235b779ce6b1ba01dc7b56cf277bb0669adc275015b4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Integracja SUPLA](/img/en/frontend/integration_supla_1.png)"
+      }
+    },
+    {
+      "segment_id": "f2c2bdd0",
+      "source_content": "który poprowadzi przez proces krok po kroku",
+      "source_content_hash": "f395893dfcb5143c4ee1b73b135998e70f30a12db4a097d29db0f17aeb407e3d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该向导将引导您逐步完成配置流程"
+      }
+    },
+    {
+      "segment_id": "d9172fa4",
+      "source_content": "![Integracja SUPLA](/img/en/frontend/integration_supla_2.png)",
+      "source_content_hash": "f75dcbd903ab856fff7915d27a5e814ec9f6d9d1b6daa6607d9784e7b3ce7fd5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Integracja SUPLA](/img/en/frontend/integration_supla_2.png)"
+      }
+    },
+    {
+      "segment_id": "b25f21be",
+      "source_content": "## Prezentacja integracji z SUPLA",
+      "source_content_hash": "16ad1bf0f549854babfafe093b2d7dfe6b03270cf48e80fc814187a5fa1bca42",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## SUPLA集成演示"
+      }
+    },
+    {
+      "segment_id": "7499a4e7",
+      "source_content": "Po dodaniu integracji można sterować głosowo urządzeniami SUPLA oraz używać ich w automatyzacjach tak samo, jak wszystkie inne urządzenia.\nW systemie Asystent domowy wszystkie typy urządzeń (żarówka, przełącznik, odkurzacz) mają to samo API, niezależnie od producenta danego urządzenia.",
+      "source_content_hash": "ba7c9cfae96cae68be273e72daac46021615ef299f45ed78f2323c396ad0ea3f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "完成集成后，可像其他设备一样通过语音控制SUPLA设备并用于自动化场景。在家庭助理系统中，所有设备类型（如灯泡、开关、吸尘器）均采用统一API，与设备制造商无关。"
+      }
+    },
+    {
+      "segment_id": "97ae4a01",
+      "source_content": "![Integracja SUPLA](/img/en/frontend/integration_supla_4.png)",
+      "source_content_hash": "9c936a68600d9237b3d6b464f798712d701d4cfceed796c1b9270791cd2e3f33",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Integracja SUPLA](/img/en/frontend/integration_supla_4.png)"
+      }
+    },
+    {
+      "segment_id": "782c902a",
+      "source_content": "## Informacje techniczne - ograniczenia",
+      "source_content_hash": "a51682a5a5091f12f917167f5f59ef2669c9c65d221b65dc8cc5f58801313b8f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 技术说明与限制"
+      }
+    },
+    {
+      "segment_id": "f331c5ef",
+      "source_content": ":::caution[Uwaga]\n**Integracja jest w trakcie rozwoju i testowania**\n\nIntegracja działa z urządzeniami, które udostępnia SUPLA w swoim brokerze MQTT.\n\nPodczas dodawania lub usuwania integracji SUPLA MQTT konfiguracja brokera MQTT działającego na bramce jest nadpisywana i usługa MQTT jest automatycznie restartowana w celu zatwierdzenia zmian w konfiguracji połączenia.\n\nW obecnej wersji integracja pozwala na połączenie z jednym serwerem SUPLA Cloud.\n:::",
+      "source_content_hash": "bd5d02ade0f30134cd41bcaa2e7e993339b6ba7403018e1a98fbbb7df2ca5d28",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[注意]\n**当前集成方案处于开发测试阶段**\n\n本集成仅支持SUPLA在其MQTT代理中开放的设备。\n\n添加或移除SUPLA MQTT集成时，网关上的MQTT代理配置会被覆盖，服务将自动重启以应用连接配置变更。\n\n当前版本仅支持连接单个SUPLA云服务器。\n:::"
+      }
+    },
+    {
+      "segment_id": "17bc5bbf",
+      "source_content": ":::tip[Wskazówka]\n**Możliwość ręcznej konfiguracji mostu MQTT.**\n\nJeżeli sam konfigurujesz broker MQTT na bramce AIS dom i masz niestandardową konfigurację MQTT, to możesz ręcznie (bez konfiguratora AIS) zdefiniować połączenie mostkowe pomiędzy brokerem MQTT działającym na bramce AIS dom oraz brokerami SUPLA. \n:::",
+      "source_content_hash": "f322a97c5af5b7d0e500243132801e4a398e573baf28fc8f741da3e46ff9e8a1",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::tip[提示]\n**支持手动配置MQTT桥接**\n\n若您自行配置AIS家庭网关的MQTT代理且采用非标准配置，可不通过AIS配置向导，手动建立网关MQTT代理与SUPLA代理之间的桥接连接。\n:::"
+      }
+    },
+    {
+      "segment_id": "23dfb152",
+      "source_content": "Dostęp do konfiguracji brokera MQTT działającego na bramce AIS możliwy jest z aplikacji:",
+      "source_content_hash": "88a0accb28a6fdf8a4dc650daf4cfab3a6e151d04ea33e79d802d382548c2699",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "可通过以下应用界面访问网关MQTT代理配置："
+      }
+    },
+    {
+      "segment_id": "1131ef75",
+      "source_content": "![Integracja SUPLA](/img/en/frontend/integration_supla_5.png)",
+      "source_content_hash": "8e86e3e36b9dc9e2079acd95cc1083a963421a12683a51bff5e1bb92566cedd2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Integracja SUPLA](/img/en/frontend/integration_supla_5.png)"
+      }
+    },
+    {
+      "segment_id": "8b2a52b1",
+      "source_content": "![Integracja SUPLA](/img/en/frontend/integration_supla_6.png)",
+      "source_content_hash": "a54b1c94e23f0af7478d2a33e4c21974d58fd44f90651448b3021b36278ef104",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Integracja SUPLA](/img/en/frontend/integration_supla_6.png)"
+      }
+    },
+    {
+      "segment_id": "5dae11e3",
+      "source_content": "Po wykonaniu zmian należy zrestarować broker mqtt działający na bramce. Można to zrobić z aplikacji:",
+      "source_content_hash": "b9e84516aeaf62ee820b76010c0a5397e79b07d2facab99ec2b1d81abfe0e37f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "配置变更后需重启网关MQTT代理服务，可通过应用界面操作："
+      }
+    },
+    {
+      "segment_id": "0bb95128",
+      "source_content": "![Integracja SUPLA](/img/en/frontend/integration_supla_7.png)",
+      "source_content_hash": "461c8936f7dc517194fd1766fd7d9ed40c610d99819f6860bccb762f5d318fef",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![SUPLA集成](/img/en/frontend/integration_supla_7.png)"
+      }
+    },
+    {
+      "segment_id": "657c2b20",
+      "source_content": "lub z konsoli poleceniem:",
+      "source_content_hash": "38d2f689749c9863f8ed21ae07949d968e605348a757085175489f005d2f39ad",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "或通过控制台命令："
+      }
+    },
+    {
+      "segment_id": "17c579d2",
+      "source_content": "```\npm2 restart mqtt\n```",
+      "source_content_hash": "b04a61753f19af824ad3c66be004522760e741ebd1641aa5067b6416abef5015",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_17c579d2"
+      }
+    },
+    {
+      "segment_id": "f01228d3",
+      "source_content": "![Integracja SUPLA](/img/en/frontend/integration_supla_8.png)",
+      "source_content_hash": "167630bd0ec829c9cc0bb85678b397adf242f8e5212a7afb040bb060e9b05c23",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![SUPLA集成](/img/en/frontend/integration_supla_8.png)"
+      }
+    },
+    {
+      "segment_id": "d0dd855b",
+      "source_content": "W przypadku problemów z działaniem mostu mqtt, logi można sprawdzić w konsoli poleceniem:",
+      "source_content_hash": "bb05cde80128a949e3a960e7daa19d123eae290ce9c4815d79f8892adc698b1f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "若MQTT桥接出现故障，可通过以下命令查看日志："
+      }
+    },
+    {
+      "segment_id": "7b2110d8",
+      "source_content": "```\npm2 logs mqtt\n```",
+      "source_content_hash": "aacc4f68011f24c0c5c79a7d3f257c378974c8f935b703bfe19943ffddc47b1e",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_7b2110d8"
+      }
+    },
+    {
+      "segment_id": "ec619944",
+      "source_content": "Opis brokera MQTT działającego na bramce i jego ręcznej konfiguracji znajduje się w: [Konfiguracja brokera mqtt](/docs/ais_app_integration_mqtt#konfiguracja-brokera-mqtt)",
+      "source_content_hash": "08306732661ccb5efe2c9c93b22eb97b22b2fd3cf3358b0106bf486a058719df",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "网关MQTT代理的手动配置说明详见：[MQTT代理配置](/docs/ais_app_integration_mqtt#konfiguracja-brokera-mqtt)"
+      }
+    },
+    {
+      "segment_id": "74dd7937",
+      "source_content": "Parametry, które ustawiamy konfiguratorem SUPLA MQTT:",
+      "source_content_hash": "841af588d2c8113688a0fd73a1013aab30b678cf666f197ab668efda63105938",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "SUPLA MQTT配置器设置的参数："
+      }
+    },
+    {
+      "segment_id": "5dd0e3a7",
+      "source_content": "``` text\n# AIS Config file for mosquitto on gate\nlistener 1883 0.0.0.0\nallow_anonymous true\n\n# SUPLA MQTT bridge connection\nconnection bridge-dom-unikalny-identyfilator-bramki*\naddress host-i-port-od-supla*\ntopic supla/# in\ntopic homeassistant/# in\ntopic supla/+/devices/+/channels/+/execute_action out\ntopic supla/+/devices/+/channels/+/set/+ out\nremote_username nazwa-użytkownika-z-supla*\nremote_password hasło-z-supla*\nbridge_cafile /data/data/com.termux/files/usr/etc/tls/cert.pem\n\n```",
+      "source_content_hash": "7bc044730404be0e1a7a4d81e1ba612f695405efddb67d970550e6b3c1c7bad0",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_5dd0e3a7"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_app_supla.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.107455+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "03dcff2a900400240aac89fa9f05ddd5f518c8a0bcf5f53777902b652b2b039c"
+  }
+}

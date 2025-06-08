@@ -1,0 +1,702 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_faq_node_red.md",
+  "source_file_content_hash": "fe4c15079d4a6205bb139547a8b94855d6336db841e31021a467cf410e68b843",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Jak dodać Node-RED?\"\nsidebar_label: Jak dodać Node-RED?\n---",
+      "source_content_hash": "bfdf5a2872fd111ddc3b37040e21f64a1663fe78aae1bfb31a51d17d03102aa3",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Wprowadzenie",
+      "source_content_hash": "138964b3f05ef631ae55efd030ca96538eb5d783961ef7b978515da6c937d13f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 简介"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Celem tego opisu jest wyjaśnienie na przykładzie kilku rzeczy:",
+      "source_content_hash": "334e13ec105f1de4a1e4a9ce69425649630bb48b2c9e5532283d912cecdc7098",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "本文档旨在通过实例说明以下内容："
+      }
+    },
+    {
+      "segment_id": "4a5b6a68",
+      "source_content": "- jak zainstalować dodatkowy serwer na bramce (na przykładzie Node-RED)\n- w jaki sposób dodać automatyczne uruchamianie tego serwera (po każdym restarcie bramki) do menadżera procesów PM2 działającego na bramce\n- w jaki sposób dodać nowy widok z aplikacją do interfejsu Asystenta domowego\n- w jaki sposób wygenerować token w Aystencie domowym i dać zewnętrznej aplikacji dostęp do API Asystenta domowego\n- jak wywołać przykładowy serwis w Asystencie domowym z Node-RED za pomocą API",
+      "source_content_hash": "9b83bb541edaf17bfb663e4adbfd9f3857bb85e9aa04dc594b88d332c54f2807",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 如何在网关上安装额外服务（以Node-RED为例）\n- 如何将该服务添加至网关的PM2进程管理器实现开机自启\n- 如何为家庭助理界面新增应用视图\n- 如何在家庭助手中生成令牌并授权外部应用访问其API\n- 如何通过API从Node-RED调用家庭助手的示例服务"
+      }
+    },
+    {
+      "segment_id": "86b54d44",
+      "source_content": "![Node-RED](/img/en/faq/node_red_hey_jolka.png)",
+      "source_content_hash": "fe183294edad0a846aa4c3ea801254c2d6b66f0e11af3ac212cc70430a64e5cd",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Node-RED](/img/en/faq/node_red_hey_jolka.png)"
+      }
+    },
+    {
+      "segment_id": "aee0e40d",
+      "source_content": "## Instalacja Node-RED",
+      "source_content_hash": "1ecb6f43589f5f73af01fa9c40d268cde05485782be050d330a45240ba7172eb",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## Node-RED安装"
+      }
+    },
+    {
+      "segment_id": "f5f6d2ce",
+      "source_content": "Przechodzimy do [konsoli na bramce](/docs/ais_bramka_remote_ssh) i wklejamy/wpisujemy w niej komendę:",
+      "source_content_hash": "ac4363dad886ab1d94903bda2a6d00db07db7f6065ebfa9fad59c73d8f4db6c2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "进入[网关控制台](/docs/ais_bramka_remote_ssh)并输入/粘贴以下命令："
+      }
+    },
+    {
+      "segment_id": "41a8ae85",
+      "source_content": "```bash\nnpm i -g --unsafe-perm node-red && termux-fix-shebang /data/data/com.termux/files/usr/bin/node-red\n```",
+      "source_content_hash": "05c61c37850cac9d54d663b660e799e716710242488e70d3ae5f3186c8d965ff",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_41a8ae85"
+      }
+    },
+    {
+      "segment_id": "a76548f8",
+      "source_content": "Efekt powinien być taki jak na poniższym obrazku:",
+      "source_content_hash": "63d758dd870aa00ccdb83aff047cb17abedab461790fb707ab72e522ac11ebf7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "执行效果应如下图所示："
+      }
+    },
+    {
+      "segment_id": "4b1d2d7d",
+      "source_content": "![Node-RED](/img/en/faq/node_red_install.png)",
+      "source_content_hash": "8ec36b2769bf677046c02ec1788874829e1706701d485e3b2686a3aa724cbbaa",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Node-RED](/img/en/faq/node_red_install.png)"
+      }
+    },
+    {
+      "segment_id": "b25f21be",
+      "source_content": "### Uruchomienie serwera Node-RED",
+      "source_content_hash": "7e043875acb0ce41a18c1e784f846ac230d47fcefff305af4a91701e56c9f2e1",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 启动Node-RED服务"
+      }
+    },
+    {
+      "segment_id": "7499a4e7",
+      "source_content": "W konsoli wpisujemy komendę:",
+      "source_content_hash": "df404fdb3969596506bccc2112865b633d8da5eff31303996dda6a4798071feb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在控制台输入命令："
+      }
+    },
+    {
+      "segment_id": "ef6eebef",
+      "source_content": "```bash\nnode-red\n```",
+      "source_content_hash": "4f5031bd10ff72560e60cfd8ac309e24a4cb07341d4299d3fbbb1c93e05e0684",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_ef6eebef"
+      }
+    },
+    {
+      "segment_id": "c3a738de",
+      "source_content": "Efekt powinien być taki jak na poniższym obrazku:",
+      "source_content_hash": "63d758dd870aa00ccdb83aff047cb17abedab461790fb707ab72e522ac11ebf7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "执行效果应如下图所示："
+      }
+    },
+    {
+      "segment_id": "3cfe6286",
+      "source_content": "![Node-RED](/img/en/faq/node_red_start.png)",
+      "source_content_hash": "8fa4d0ed1777210b364315589ab17120ec0c6bccdffbd83e355d687cb00d26ed",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Node-RED](/img/en/faq/node_red_start.png)"
+      }
+    },
+    {
+      "segment_id": "1042b50d",
+      "source_content": "Na tym etapie mamy już zainstalowany i działający serwer NODE-red na bramce. W przeglądarce możemy wejść na adres http://ip-bramki-w-lokalnej-seieci:1880 i korzystać z aplikacji NODE-red",
+      "source_content_hash": "7084f876706f94e730c39fdf8b270e4e065fb1ab8f5afb6006d1326562bacb84",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "此时我们已在网关上完成Node-RED服务的安装和运行。通过浏览器访问 http://网关本地IP:1880 即可使用Node-RED应用"
+      }
+    },
+    {
+      "segment_id": "aa1e7006",
+      "source_content": "![Node-RED](/img/en/faq/node_red_in_browser.png)",
+      "source_content_hash": "56988574a7dc8f96aa515d1a3af4fb1db6028576b4f27bd7bd8ab770ab99e91b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Node-RED](/img/en/faq/node_red_in_browser.png)"
+      }
+    },
+    {
+      "segment_id": "c674e260",
+      "source_content": "### Zatrzymanie serwera Node-RED",
+      "source_content_hash": "695c39c95ed87309410fa9a74a3127a5eb71aa03a9f7ee90f175495fd788b58e",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 停止Node-RED服务"
+      }
+    },
+    {
+      "segment_id": "a44047a5",
+      "source_content": "W konsoli wciskamy kombinację klawiszy **Ctrl +c** efekt powinien być taki jak na poniższym obrazku:",
+      "source_content_hash": "3a49440db10e32d9e90cbff6ffa5f5ce8c60bf48b3756b54af53088cbd62b5d2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在控制台按下组合键 **Ctrl +c**，效果应如下图所示："
+      }
+    },
+    {
+      "segment_id": "98d26038",
+      "source_content": "![Node-RED](/img/en/faq/node_red_stop_in_console.png)",
+      "source_content_hash": "db7e8534c18bb8f08c3a353af2f8412ff3b13e5558b42836d4244235346cee24",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Node-RED](/img/en/faq/node_red_stop_in_console.png)"
+      }
+    },
+    {
+      "segment_id": "2c1b51df",
+      "source_content": "### Automatyczny start serwera Node-RED",
+      "source_content_hash": "f0c712266c4b0ec8ae597f7a3015c8828f246ea0968db2c94c5eebdabe8fd88d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### Node-RED服务开机自启"
+      }
+    },
+    {
+      "segment_id": "e536ea0d",
+      "source_content": "Jeżeli chcemy, by Node-RED był uruchamiany automatycznie, to dodajemy takie zadanie dla menadżera procesów PM2, wpisując w konsoli na bramce:",
+      "source_content_hash": "515ee9a33ff7cdc1323816848a62d9fa2e8c34ff0fb7cfbbb60d607e88149d8c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "若需实现开机自启，需将该服务添加至PM2进程管理器，在网关控制台输入："
+      }
+    },
+    {
+      "segment_id": "3c08ed05",
+      "source_content": "```bash\npm2 start node-red --node-args=\"--max-old-space-size=128\" && pm2 save\n```",
+      "source_content_hash": "6e3f3e2650f8dda281bec3984802c057e838877aeb027d66ebb5bd0c1395cac3",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_3c08ed05"
+      }
+    },
+    {
+      "segment_id": "8b2a52b1",
+      "source_content": "Efekt powinien być taki jak na poniższym obrazku:",
+      "source_content_hash": "63d758dd870aa00ccdb83aff047cb17abedab461790fb707ab72e522ac11ebf7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "执行效果应如下图所示："
+      }
+    },
+    {
+      "segment_id": "5dae11e3",
+      "source_content": "![Node-RED](/img/en/faq/node_red_start_from_pm2.png)",
+      "source_content_hash": "18826da224734b3712dcedc2a176859cb858624038ab025c2ad42886a8e9e88d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Node-RED](/img/en/faq/node_red_start_from_pm2.png)"
+      }
+    },
+    {
+      "segment_id": "bd92edfc",
+      "source_content": "### Dodanie aplikację Node-RED jako widok w naszym Asystencie domowym",
+      "source_content_hash": "e9d101569fe7a5e0301d5728cc1f71d25de66e72b274416031f5fc7b45aa5d19",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 将Node-RED应用添加为家庭助理视图"
+      }
+    },
+    {
+      "segment_id": "7f71ff2a",
+      "source_content": "Włczamy [Konfigurację interfejsu użytkownika](/docs/ais_app_ui_config)",
+      "source_content_hash": "59d37f6b0c7357cf83a8cd2c54fd5345bb9e4422f4ed12128f9ad105f84b108b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "启用[用户界面配置](/docs/ais_app_ui_config)"
+      }
+    },
+    {
+      "segment_id": "147e8550",
+      "source_content": "Dodajemy nowy widok Node-RED:",
+      "source_content_hash": "6481b3aca0dba2aa72d425a3cf8ed04814c8352664597ce0b73a61822eb219e3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "添加新的Node-RED视图："
+      }
+    },
+    {
+      "segment_id": "883231d4",
+      "source_content": "![Node-RED](/img/en/faq/node_red_view.png)",
+      "source_content_hash": "46f1067e2bb8b2c6f039dd6c558be3033f84eff361250177e2e2fbae9b8e2879",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Node-RED](/img/en/faq/node_red_view.png)"
+      }
+    },
+    {
+      "segment_id": "6cc549f2",
+      "source_content": "W widoku Node-RED dodajemy nową kartę typu IFRAME",
+      "source_content_hash": "71adafa045f2b6df3776f8db88292541c0b8d12f976d5185680ce76eeeb8e09e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在Node-RED视图中添加IFRAME类型的新卡片"
+      }
+    },
+    {
+      "segment_id": "d0dd855b",
+      "source_content": "![Node-RED](/img/en/faq/node_red_new_card.png)",
+      "source_content_hash": "0ac7aceb423aeef66de4a487bc93c2ce6c0f33497f6db820d8dff4d5d7c9baa2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Node-RED](/img/en/faq/node_red_new_card.png)"
+      }
+    },
+    {
+      "segment_id": "7736989b",
+      "source_content": "W konfiguracji karty podajemy adres serwera Node-RED działającego na naszej bramce:",
+      "source_content_hash": "c478ccdb441f0042431d1519431e639a8e9472a107b1220f9b7a48135fbc8411",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在卡片配置中，我们需要输入运行在网关上的Node-RED服务器地址："
+      }
+    },
+    {
+      "segment_id": "6270d577",
+      "source_content": "![Node-RED](/img/en/faq/node_red_new_card_2.png)",
+      "source_content_hash": "6a3b87b0de2b9e3f6fb760134c2dce5ab5b853516446942724b030302dc62951",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Node-RED](/img/en/faq/node_red_new_card_2.png)"
+      }
+    },
+    {
+      "segment_id": "a1fa5396",
+      "source_content": "Wracamy do ustawień widoku i możemy przełączyć nasz widok w tryb panela (opcja \"Panel Mode\") co spowoduje, że nasza karta z Node-RED będzie zajmowała całą szerokość widoku.",
+      "source_content_hash": "ed9005e53025cce0577ca872685c51580c4608321c22cd37bfa4b43080813d82",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "返回视图设置界面，我们可以将视图切换为面板模式（勾选\"Panel Mode\"选项），这样Node-RED卡片将占据整个视图宽度。"
+      }
+    },
+    {
+      "segment_id": "ec619944",
+      "source_content": "![Node-RED](/img/en/faq/node_red_view_panel_mode.png)",
+      "source_content_hash": "99bb7210c140fe19ec5b913920376fb8656155c5b10627516b455776ccbce1e9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Node-RED](/img/en/faq/node_red_view_panel_mode.png)"
+      }
+    },
+    {
+      "segment_id": "74dd7937",
+      "source_content": "Efekt powinien być taki jak na poniższym obrazku:",
+      "source_content_hash": "63d758dd870aa00ccdb83aff047cb17abedab461790fb707ab72e522ac11ebf7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "效果应如下图所示："
+      }
+    },
+    {
+      "segment_id": "5803caac",
+      "source_content": "![Node-RED](/img/en/faq/node_red_in_view.png)",
+      "source_content_hash": "b0ac726c6910b811ece1a637fd044f6ec2377a40cbb8f64b7a42815626e9e589",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Node-RED](/img/en/faq/node_red_in_view.png)"
+      }
+    },
+    {
+      "segment_id": "f6b04a59",
+      "source_content": "## Połączenie z Node-RED do Asystenta domowego",
+      "source_content_hash": "8f5a2f2849895c2a9d66d2f3709ecbafe4218e468749008a996d2be9fc9bdb99",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 连接Node-RED与家庭助理"
+      }
+    },
+    {
+      "segment_id": "5baf88e2",
+      "source_content": "### Instalacja wtyczki do Asystenta domowego",
+      "source_content_hash": "69651b1f3fcbc4aaa71a0bb46d51f86e872727a11d67887af72831ab7cca3d02",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 安装家庭助理插件"
+      }
+    },
+    {
+      "segment_id": "eb51d107",
+      "source_content": "W konsoli przechodzimy do folderu z node-red i instalujemy wtyczkę \"node-red-contrib-home-assistant-websocket\" wpisując/wklejając poniższe komendy:",
+      "source_content_hash": "753763b20ce668dac16bde53dfc9358bf9e807f11b372ee7dfb14052685c0f06",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在控制台中进入node-red目录，通过输入/粘贴以下命令安装\"node-red-contrib-home-assistant-websocket\"插件："
+      }
+    },
+    {
+      "segment_id": "dc73c0d2",
+      "source_content": "```bash\ncd ~/.node-red\nnpm install node-red-contrib-home-assistant-websocket\n```",
+      "source_content_hash": "5144b3aae9dcf91594ddc8f9c0890656fde23215deea13cb14912ca7e10c3113",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_dc73c0d2"
+      }
+    },
+    {
+      "segment_id": "2838eb68",
+      "source_content": "Efekt powinien być taki jak na poniższym obrazku:",
+      "source_content_hash": "63d758dd870aa00ccdb83aff047cb17abedab461790fb707ab72e522ac11ebf7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "效果应如下图所示："
+      }
+    },
+    {
+      "segment_id": "4be28ed1",
+      "source_content": "![Node-RED](/img/en/faq/node_red_install_plugin_to_hass.png)",
+      "source_content_hash": "3e7201c83543f1ec1ac74ba15e14b5e41a7a52b3d613468925059e1183973859",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Node-RED](/img/en/faq/node_red_install_plugin_to_hass.png)"
+      }
+    },
+    {
+      "segment_id": "0e80209e",
+      "source_content": "następnie restartujemy proces node-red, wpisując komendę:",
+      "source_content_hash": "2c008dec04b15b204698a4a7838c9c8e62a59f385b21a1fd2771fda6a7194deb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "接着通过输入以下命令重启node-red进程："
+      }
+    },
+    {
+      "segment_id": "59534425",
+      "source_content": "```bash\npm2 restart node-red\n```",
+      "source_content_hash": "145a1d78998c56124d47cdb0a26c9e6be0b4fea4daf2ce0f6981b5da97c577eb",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_59534425"
+      }
+    },
+    {
+      "segment_id": "e9313fef",
+      "source_content": "Efekt powinien być taki jak na poniższym obrazku:",
+      "source_content_hash": "63d758dd870aa00ccdb83aff047cb17abedab461790fb707ab72e522ac11ebf7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "效果应如下图所示："
+      }
+    },
+    {
+      "segment_id": "1b4de6df",
+      "source_content": "![Node-RED](/img/en/faq/node_red_reset_from_pm2.png)",
+      "source_content_hash": "f68238573e45f9958dd4cc3a12200a8943caca44a4796cbbcc475b02dc9e2906",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Node-RED](/img/en/faq/node_red_reset_from_pm2.png)"
+      }
+    },
+    {
+      "segment_id": "c7fa1e8d",
+      "source_content": "### Konfigurujemy połączenie z Asystentem domowym",
+      "source_content_hash": "876fc85ffa0ccd4121ce8539aac469f2f776984e5f73353862c5eda79e7594cf",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 配置与家庭助理的连接"
+      }
+    },
+    {
+      "segment_id": "a6c928a1",
+      "source_content": "W Asystencie domowym przechodzimy do konfiguracji naszego profilu (klikając w menu na ikonkę po lewej stronie na dole - tą z piwerszą literką naszego loginu) i generujemy długoterminowy token dostępu dla Node-RED",
+      "source_content_hash": "0beb94927507893c75f4122946828cb80bc74e092000fea429b5956af16fb06b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在家庭助理中进入个人资料配置（点击左下角菜单中用户图标），为Node-RED生成长效访问令牌"
+      }
+    },
+    {
+      "segment_id": "b6152880",
+      "source_content": "![Node-RED](/img/en/faq/node_red_long_token.png)",
+      "source_content_hash": "8d279ccb2c660157599e47869e3307d9c3c094663d3d84111738ab74705f5e9d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Node-RED](/img/en/faq/node_red_long_token.png)"
+      }
+    },
+    {
+      "segment_id": "b9331170",
+      "source_content": "Kopiujemy wygenerowany token ponieważ nie będzie on ponownie wyświetlany:",
+      "source_content_hash": "9d1a696a3845cde420902a3b30f2c64cb46501eccf84fab8a2f68c9f195e8e0b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "复制生成的令牌（该令牌不会再次显示）："
+      }
+    },
+    {
+      "segment_id": "8fcdd6d4",
+      "source_content": "![Node-RED](/img/en/faq/node_red_long_token_copy.png)",
+      "source_content_hash": "8193d6757a65a359fd2796641c2c6d3a2bddbe21936f820a7064bd844d026ba8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Node-RED](/img/en/faq/node_red_long_token_copy.png)"
+      }
+    },
+    {
+      "segment_id": "53aa2b95",
+      "source_content": "Wracamy do widoku z Node-RED i konfigurujemy połączenie z Asystentem domowym.\nW tym celu z listy dostępnych pozycji wybieramy \"home assistant\" -> \"call service\", klikamy na ten wybrany element i przechodzimy do konfiguracji połączenia",
+      "source_content_hash": "b89e8422ac5d1bc9ec804be52257793fdc33f1780edac60b3ee29dd4d7dd1655",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "返回Node-RED视图，配置与家庭助理的连接。\n从可用组件列表中选择\"home assistant\" -> \"call service\"，点击该元素进入连接配置"
+      }
+    },
+    {
+      "segment_id": "692c6053",
+      "source_content": "Podajemy adres url i token wygenerowany w poprzednim kroku w Asystencie domowym.\nURL: **http://localhost:8180**\nToken: **Twój token wygenerowany w Asystencie domowym**",
+      "source_content_hash": "0abff951c2aefae414c03c249f680fc533adf8f19f3395137f7307b0df45ee0e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "输入家庭助理的URL地址和上一步生成的令牌。\nURL地址：**http://localhost:8180**\n令牌：**您在家庭助理中生成的令牌**"
+      }
+    },
+    {
+      "segment_id": "14bc6b75",
+      "source_content": "![Połaczenie z asystentem](/img/en/faq/Node-red-Home-Assistant-connection.png)",
+      "source_content_hash": "15baf9a851582e16c1ddd325abadc6910f2df56d645b717f5a9a8f5badafc09d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![连接家庭助理](/img/en/faq/Node-red-Home-Assistant-connection.png)"
+      }
+    },
+    {
+      "segment_id": "bb1346b6",
+      "source_content": "Naciskamy przycisk **Deploy** w Node-RED, żeby ustanowić połączenia z Asystentem domowym.",
+      "source_content_hash": "25f8c237e11b466f487c69fd45b6c1ea86d298251b82d5f5d92d088f490d8b40",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "点击Node-RED中的**Deploy**按钮，建立与家庭助理的连接。"
+      }
+    },
+    {
+      "segment_id": "8664ed0b",
+      "source_content": "![Połaczenie z asystentem](/img/en/faq/node_red_deploy.png)",
+      "source_content_hash": "54e6a99e3d7e55e9210ba2125ff38bff65936e833133fdfd39f3a63e5b09936a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![连接家庭助理](/img/en/faq/node_red_deploy.png)"
+      }
+    },
+    {
+      "segment_id": "a0d0e29e",
+      "source_content": "### Definicja wywołania serwisu w Asystencie domowym z Node-RED",
+      "source_content_hash": "95978b142e6e8b81935a0cd132639348d54ead6acfbb2f8e062ad6b723816691",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 定义从Node-RED调用家庭助理服务"
+      }
+    },
+    {
+      "segment_id": "be17ccc3",
+      "source_content": "Żeby wywołać sewis zdefiniowany w Asystencie domowym, kliknijmy ponownie na nasz element \"call service\" i wpiszmy/wybierzmy następujące parametry serwisu:",
+      "source_content_hash": "793141fe93fb44ea2243f0b0a7d9668bc89ba593f90a9e1461ef8774613b2932",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "要调用在家庭助理中定义的服务，请再次点击我们的\"call service\"元素，并输入/选择以下服务参数："
+      }
+    },
+    {
+      "segment_id": "dd45f3ea",
+      "source_content": "- Name: **Cześć Jolka**\n- Domain: **ais_ai_service**\n- Service: **say_it**\n- Data: **\"text\":\"Cześć :)\"**",
+      "source_content_hash": "80863227cc2d3bc615c66413fd362fe68ae6e18905a2d13306c0a9f450ec77e4",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 名称：**你好 Jolka**\n- 域：**ais_ai_service**\n- 服务：**say_it**\n- 数据：**\"text\":\"你好 :)\"**"
+      }
+    },
+    {
+      "segment_id": "63565425",
+      "source_content": "![Połaczenie z asystentem](/img/en/faq/node_red_home_assistant_service_definition.png)",
+      "source_content_hash": "60ac7dceeee7de7d228a61eb9a7b3e1fa2d233b516080b34e1a08aa7e9348fa1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![家庭助理连接](/img/en/faq/node_red_home_assistant_service_definition.png)"
+      }
+    },
+    {
+      "segment_id": "531ec0bb",
+      "source_content": "### Wywołanie serwisu w Asystencie domowym z Node-RED",
+      "source_content_hash": "b9ea00652961411e4085f3ec13b5842a9755609685ddbba959e034054992b6c1",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 从Node-RED调用家庭助理服务"
+      }
+    },
+    {
+      "segment_id": "d2a3d4c7",
+      "source_content": "Żeby wywołać ręcznie nasz testowy serwis dodajmy pierwszy element z listy: \"inject\", następnie połączmy nasze elementy węzły żeby otrzymać przepływ taki jak na rysunku poniżej.",
+      "source_content_hash": "bf1b47380057ddf241849bec973b7f24685ccd764d21d049288df9512b5a3bb5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "要手动调用我们的测试服务，首先从列表中添加第一个元素：\"inject\"，然后将我们的节点元素连接起来，得到如下图所示的流程。"
+      }
+    },
+    {
+      "segment_id": "008183b0",
+      "source_content": "![Node-RED](/img/en/faq/node_red_test_call_service.png)",
+      "source_content_hash": "49d8891c27375b66a25b6938f49280662db0ee48d13ad209cbdf5600f64313c8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Node-RED](/img/en/faq/node_red_test_call_service.png)"
+      }
+    },
+    {
+      "segment_id": "0ddaa835",
+      "source_content": "Zapisujemy definicję naszego przepływu za pomocą przycisku **Deploy** a następnie naciskamy z lewej strony na nasz element \"inject\" by ręcznie uruchomić przepływ:",
+      "source_content_hash": "845cd41b24b224caabbe0991832e559627c5c0e4a3a0a45e1feb5be8c2ad2bc4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过**Deploy**按钮保存我们的流程定义，然后点击左侧的\"inject\"元素手动启动流程："
+      }
+    },
+    {
+      "segment_id": "fd7ed056",
+      "source_content": "![Node-RED](/img/en/faq/node_red_call_service.png)",
+      "source_content_hash": "e1655519d87370600c4f4f14be0c69bff259fd503c6dbeaa2906f8b5d4521536",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Node-RED](/img/en/faq/node_red_call_service.png)"
+      }
+    },
+    {
+      "segment_id": "b08ad0b4",
+      "source_content": "W efekcie otrzymac 3 rzeczy:",
+      "source_content_hash": "36f50d45a2347a99e50a95c2a8775a27496a5025f16fa06d8a16ea2bddb348db",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "执行后将获得3个结果："
+      }
+    },
+    {
+      "segment_id": "8a75aa33",
+      "source_content": "- komunikaty w aplikacji Node-RED o pomyślnym zapisaniu zdefiniowanego przepływu oraz o pomyślnym wykonaniu wywołania naszej usługi (tak jak to pokazano na obrazku powyżej)\n- jeżli mamy podłączony do bramki głośnik lub monitor/tv z głośnikami to powinniśmy usłyszeć jak asystent czyta wpisany przez nas tekst **Cześć :)**\n- w aplikacji Asystent domowy możemy zobaczyć, że wpisany przez nas tekst został przetworzony przez asystenta",
+      "source_content_hash": "d568befb4e8937df7a8eff5b14f5bad9057235f0728b18441b112c6c738e8fd3",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- Node-RED应用中显示流程定义保存成功和服务调用成功的消息（如上图所示）\n- 如果网关连接了扬声器或带扬声器的显示器/电视，我们应该能听到助理朗读我们输入的文本**你好 :)**\n- 在家庭助理应用中可以看到我们输入的文本已被助理处理"
+      }
+    },
+    {
+      "segment_id": "85ea22dd",
+      "source_content": "![Node-RED](/img/en/faq/node_red_to_ais.png)",
+      "source_content_hash": "cb364d0f5fad6ebcce767ab9651dc0433c0ed3182f10347dbe247522c8c3e40d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Node-RED](/img/en/faq/node_red_to_ais.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_faq_node_red.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.131979+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "fe4c15079d4a6205bb139547a8b94855d6336db841e31021a467cf410e68b843"
+  }
+}

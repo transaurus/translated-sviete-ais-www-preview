@@ -1,0 +1,62 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_configuration_logs_and_db.md",
+  "source_file_content_hash": "b404e2d74991c7d96a8d2e83f7e2c20c1ce1923d975439ba9d5400702a9c58fa",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Konfiguracja bramki - Logi\"\nsidebar_label: Logi\n---",
+      "source_content_hash": "fbe72f595f0773b59bad007e027c3a49e4b4f373d14fc2f0cc2e60d19d7db3e7",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "W tej sekcji możesz skonfigurować zapis logów do pliku na wymiennym dysku.",
+      "source_content_hash": "f56dae1e7bdb88a2c2129376f28500a65ce1036f0afdb813518009fa960ce560",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在本节中，您可以配置将系统日志保存至可移动磁盘文件。"
+      }
+    },
+    {
+      "segment_id": "d912d376",
+      "source_content": "## Zapis logów systemu do pliku",
+      "source_content_hash": "3e0ab43f68cdc0666f0663d6e0a850ee9bc0fb18eda8c2dbb7050a6e69727584",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 系统日志文件存储"
+      }
+    },
+    {
+      "segment_id": "8ac585fb",
+      "source_content": "Żeby włączyć logowanie w systemie Asystent domowy, wystarczy wybrać lokalizację na dysku wymiennym, w której będzie zapisywany plik z rejestrem działań w systemie. Dodatkowo można też określić poziom szczegółowości logowania.",
+      "source_content_hash": "3ee0790323ef807a473ff86e9901de96f93ade28dda396c7eee514079c2b6329",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "要启用智能家居助手的日志记录功能，只需选择可移动磁盘上用于存储系统运行记录文件的路径。此外还可指定日志记录的详细级别。"
+      }
+    },
+    {
+      "segment_id": "ad8fd492",
+      "source_content": "![Konfiguracja zapisu logów](/img/en/bramka/bramka_ais_dom_config_logs.png)",
+      "source_content_hash": "19bcd8a0a2df5cb84f8cb96a95921bf55bf18eec0581c2e65b66113207e001bb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![日志存储配置](/img/en/bramka/bramka_ais_dom_config_logs.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_configuration_logs_and_db.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.098688+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "b404e2d74991c7d96a8d2e83f7e2c20c1ce1923d975439ba9d5400702a9c58fa"
+  }
+}

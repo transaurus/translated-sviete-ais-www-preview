@@ -1,0 +1,92 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_app_android_dom_mob.md",
+  "source_file_content_hash": "caa97eb3930ab57901efa3d6bfb4f5f87840bb3531fe4b34a34dd92f60de1e56",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"AIS dom Mobile\"\nsidebar_label: AIS dom Mobile\n---",
+      "source_content_hash": "4be49f50fa6c8e6042ac7948a4ea75207cc0f24cc892d1d26ea9e435dc0e9d10",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "a703643c",
+      "source_content": "## Wprowadzenie",
+      "source_content_hash": "138964b3f05ef631ae55efd030ca96538eb5d783961ef7b978515da6c937d13f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 简介"
+      }
+    },
+    {
+      "segment_id": "53eaf0e1",
+      "source_content": "Aplikacja AIS MOB zapewnia dedykowane funkcjonalności dla urządzeń mobilnych.",
+      "source_content_hash": "9e70895193e3f2bd095b850bd7f06e901b874ad2aa89c767bef1c2f37faf9e6b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "AIS MOB应用程序为移动设备提供专属功能。"
+      }
+    },
+    {
+      "segment_id": "8ac585fb",
+      "source_content": "![Mob](/img/en/frontend/gallery_notify_4.png)",
+      "source_content_hash": "a5244752e0412ee4e3d7cedfd3aba8c1330860a328b8db6067045458a914b6ea",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![移动端](/img/en/frontend/gallery_notify_4.png)"
+      }
+    },
+    {
+      "segment_id": "70153c6e",
+      "source_content": "## Android",
+      "source_content_hash": "316e75861152fcfa906997e1907c00f2f5d4b433627b3e340e68a8123ad35991",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## Android版本"
+      }
+    },
+    {
+      "segment_id": "86b54d44",
+      "source_content": "Aplikacja dostępna jest do pobrania z [Google Play](https://play.google.com/store/apps/details?id=com.ais.mob&gl=PL):",
+      "source_content_hash": "efc1fb83e6df4d3a22e14f91b2522ea32f5b36d5f39456ffcb1fea0d7b7b5d7e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该应用程序可通过[Google Play](https://play.google.com/store/apps/details?id=com.ais.mob&gl=PL)下载："
+      }
+    },
+    {
+      "segment_id": "f6168993",
+      "source_content": "![](/img/en/blog/202109/mob.png)",
+      "source_content_hash": "12c5d2ed658e704fc662989e376abb3c0ddf852921041ffb0a53307e8c0f6223",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202109/mob.png)"
+      }
+    },
+    {
+      "segment_id": "8a545039",
+      "source_content": ":::info[]\nOpis funkcjonalności w przygotowaniu.\n:::",
+      "source_content_hash": "c793cc942f50e97975d2b7a3a807df471d3d7146c7993a65ddf57395312533fb",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::info[]\n功能说明正在准备中。\n:::"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_app_android_dom_mob.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.101852+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "caa97eb3930ab57901efa3d6bfb4f5f87840bb3531fe4b34a34dd92f60de1e56"
+  }
+}

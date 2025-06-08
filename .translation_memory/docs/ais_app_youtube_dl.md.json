@@ -1,0 +1,132 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_app_youtube_dl.md",
+  "source_file_content_hash": "adc0c5aa264e4b2cefe32a1cbdef9e1d976d650bec804476f7f910b2f49e1eef",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"YouTube\"\nsidebar_label: Muzyka z YouTube\n---",
+      "source_content_hash": "9fb1bd1bd800e68c4b3b25f3b9c23dd139e46a6351039584d7ae84b4f230e7c0",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## YouTube",
+      "source_content_hash": "2db07a12655d7a6ee1b41fec5d049a2ae06bce89bf083efb018bb071636ffa9e",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## YouTube"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "YouTube to obecnie największy dostępny w Internecie serwis z darmową muzyką. Możemy odtworzyć praktycznie dowolną treść audio, wystarczy powiedzieć ***YouTube nazwa_do_wyszukania***",
+      "source_content_hash": "0e55ee0b79f33ad8b8c7514c377a86cf7307feae7030c6c9f5c9b27f9817db9b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "YouTube是目前互联网上最大的免费音乐服务平台。我们可以播放几乎任何音频内容，只需说出***YouTube 搜索关键词***即可。"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "![AIS News](/img/en/frontend/ais_integration_yt.png)",
+      "source_content_hash": "1b09127b7206fab87eda5306a30741b26d884fc02a6114f957054ee4f2109321",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS News](/img/en/frontend/ais_integration_yt.png)"
+      }
+    },
+    {
+      "segment_id": "ba4f48ff",
+      "source_content": "## Sterowanie pilotem",
+      "source_content_hash": "2d0ec5cac96c143572334262d59e1dc49841b943a88c512cbd3bb20a66e07c1a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 遥控器控制"
+      }
+    },
+    {
+      "segment_id": "cf898102",
+      "source_content": "Wyszukiwanie na YouTube można też uruchamiać za pomocą naszego dedykowanego [Pilota radiowego](/docs/ais_remote_index) (nie jest do tego potrzebna aplikacja z ekranem). Pilotem można wykonać wyszukanie głosowo mówiąc [odpowiednią komendę](/docs/ais_app_assistent_commands), lub za pomocą wirtualnej klawiatury oraz zwrotnego czytania wpisywanych liter.",
+      "source_content_hash": "409e8d675685ed442767dd03541a652b680b232e59c4d92065a25b9a26edaa2b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "也可以通过我们专用的[收音机遥控器](/docs/ais_remote_index)启动YouTube搜索（无需屏幕应用程序）。使用遥控器时，可以通过[语音指令](/docs/ais_app_assistent_commands)进行语音搜索，或通过虚拟键盘及字母输入朗读功能实现。"
+      }
+    },
+    {
+      "segment_id": "d350c018",
+      "source_content": "## Inrofmacje Technicznie",
+      "source_content_hash": "0939060cf18ea079c358638ee2fa20eca84a368f64150298f267bfa707e0d0bd",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 技术信息"
+      }
+    },
+    {
+      "segment_id": "bc633244",
+      "source_content": "### YouTube API",
+      "source_content_hash": "4adef09b6fcd475812144f28caf80ffc773c258d448b90e1db43833555db0ed4",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### YouTube API"
+      }
+    },
+    {
+      "segment_id": "2df4f75f",
+      "source_content": "Na urządzeniu dostarczamy integrację z serwisem YouTube. Używamy oficjalnego i obecnie darmowego [API v3](https://developers.google.com/youtube/v3/getting-started) do wyszukiwania audio w tym serwisie.",
+      "source_content_hash": "6f5346199e2b71d3d1640d582f32362c8f69ed2c59ec8e444c963e6f9d1cd77c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们在设备上提供了与YouTube服务的集成。使用官方且目前免费的[API v3](https://developers.google.com/youtube/v3/getting-started)在该平台进行音频搜索。"
+      }
+    },
+    {
+      "segment_id": "95b38f97",
+      "source_content": "### youtube-dl",
+      "source_content_hash": "8ac274b2a43c509270f0b4641a690e1c57bbe2398d1196949eb3075b6768c7f0",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### youtube-dl"
+      }
+    },
+    {
+      "segment_id": "ccc88b4c",
+      "source_content": "Wyszukane pozycje w API odtwarzamy za pomocą [youtube-dl](https://github.com/ytdl-org/youtube-dl/), popularnego programu do odtwarzania/pobierania treści audio/video z [setek stron Internetowych](http://ytdl-org.github.io/youtube-dl/supportedsites.html).",
+      "source_content_hash": "74e7819dd03330db863d9bf6c95cd498f0c6490372ab1e04f8fbe75c18a7b57d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过[youtube-dl](https://github.com/ytdl-org/youtube-dl/)播放API检索到的内容，这是一个支持从[数百个网站](http://ytdl-org.github.io/youtube-dl/supportedsites.html)播放/下载音视频的热门工具。"
+      }
+    },
+    {
+      "segment_id": "d2808037",
+      "source_content": ":::caution[Uwaga]\nYoutube-dl przez jakiś czas był zablokowany przez Microsoft w serwisie Github z powodu zgłoszenia naruszenia praw autorskich.\nWzbudziło to sporo kontrowersji i wywołało debatę -> czy można prezentować darmowe i publiczne treści dostępne w Internecie w swojej aplikacji?\n\nZadeklarowaliśmy wtedy na forum AI-Speaker, że jeżeli rzeczywiście używanie Youtube-dl okaże się naruszeniem czyiś praw autorskich, to oczywiście się dostosujemy i usuniemy integrację z naszego systemu.\n\nOstatecznie jednak repozytorium kodów Youtube-dl zostało odblokowane i Microsoft na blogu wyjaśnił, że skarga była bezpodstawna [Standing up for developers: youtube-dl is back](https://github.blog/2020-11-16-standing-up-for-developers-youtube-dl-is-back/).\n\n**Dbamy o to, żeby wszystkie kody, rozwiązania i integracje AI-Speaker były w 100% legalne. Jeżeli Youtube-dl lub jakikolwiek inny komponent, który używamy, zostanie uznany za naruszający prawa autorskie, to będziemy taki komponent usuwali z systemu.**\n:::",
+      "source_content_hash": "9e46fd65257c9cbce2824d46f74f6c588775bbc117787976ffae61e436073d1a",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[注意]\nyoutube-dl曾因版权侵权投诉被微软在Github上短暂封禁。这引发了广泛争议，并激起了一场辩论——是否可以在自有应用中展示互联网上免费公开的内容？\n\n我们当时在AI-Speaker论坛声明：若youtube-dl确实构成版权侵权，我们将立即移除该集成方案。\n\n最终youtube-dl代码库获得解封，微软在博客中澄清投诉缺乏依据[《力挺开发者：youtube-dl回归》](https://github.blog/2020-11-16-standing-up-for-developers-youtube-dl-is-back/)。\n\n**我们确保AI-Speaker所有代码、解决方案和集成均100%合法。若youtube-dl或任何组件被认定侵权，我们将立即从系统中移除该组件。**\n:::"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_app_youtube_dl.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.130139+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "adc0c5aa264e4b2cefe32a1cbdef9e1d976d650bec804476f7f910b2f49e1eef"
+  }
+}

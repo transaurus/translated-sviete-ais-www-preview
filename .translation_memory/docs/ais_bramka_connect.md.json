@@ -1,0 +1,212 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_connect.md",
+  "source_file_content_hash": "f8fba2aa98eefc93b08965ac1973a230ce3d1cc629fad465e7dc66a77e4b9345",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Podłączenie kontrolera\"\nsidebar_label: Podłączenie kontrolera\n---",
+      "source_content_hash": "2b939ca374ba78d1dad5795ffabab6c965483599a638d1c2118e85e686d3fa2a",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Zawartość opakowania",
+      "source_content_hash": "50498b91056dedf064fc6f33086204eaafb01e53ce72f6a3dd3bb93c97a565d4",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 包装内容"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "W pudełku znajdziesz bramkę oraz niezbędne akcesoria:",
+      "source_content_hash": "f14eadc5ad8ab2afbc1cb9a240ed3baaf28e01aa3a194676c89df7fc88d3e801",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "包装盒内包含网关及必备配件："
+      }
+    },
+    {
+      "segment_id": "4a5b6a68",
+      "source_content": "* Bramka\n* Zasilacz\n* Kabel HDMI\n* Pilot radiowy z mikrofonem + dongle (klucz sprzętowy USB)",
+      "source_content_hash": "5fbdb5f37c3f4321db4e4a8d7fcbca28103038be9a0a023d86fb55aab2d959a7",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "* 智能网关主机\n* 电源适配器\n* HDMI线缆\n* 带麦克风的射频遥控器 + USB接收器"
+      }
+    },
+    {
+      "segment_id": "cf898102",
+      "source_content": "![AIS dom DEV2](/img/en/bramka/bramka_full.jpg)",
+      "source_content_hash": "9b68ddb30a3795f9b18524edc824d6e549e2cb2319e643b3c9c64db890c933a5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS dom DEV2](/img/en/bramka/bramka_full.jpg)"
+      }
+    },
+    {
+      "segment_id": "3daf1b88",
+      "source_content": "## Podłączenie bramki",
+      "source_content_hash": "3db1c1d305bac95a799ecdb202dec954fb7b04e32d676d304136ec6849aa40cd",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 网关连接指南"
+      }
+    },
+    {
+      "segment_id": "aee0e40d",
+      "source_content": "### TV lub monitor",
+      "source_content_hash": "59d3d10c224c44bdc34ed050c31aae0267f9ac8f05cef4906e89e622944cbeea",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 电视或显示器"
+      }
+    },
+    {
+      "segment_id": "f5f6d2ce",
+      "source_content": "Podłącz bramkę do telewizora lub monitora za pomocą kabla HDMI, następnie podłącz do zasilania.",
+      "source_content_hash": "6fd790e42a818f53c4563c831feaab5c491446b1d55bb06f4cdd2697daa643ed",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "使用HDMI线将网关连接至电视或显示器，随后接通电源。"
+      }
+    },
+    {
+      "segment_id": "2fdadb08",
+      "source_content": "![AIS DEV2 First run](/img/en/bramka/first_run_2_1.jpeg)",
+      "source_content_hash": "4d91c059f2c4a0042a3cda951858adf09905cf14a48600696e5d612ebc7e8730",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS DEV2 First run](/img/en/bramka/first_run_2_1.jpeg)"
+      }
+    },
+    {
+      "segment_id": "ed7dde9c",
+      "source_content": "### Ethernet",
+      "source_content_hash": "a036f8add479f7ef0c7fd3bca518b3972c94e5358bf6073fd3ca2a9d1a146ead",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 有线网络"
+      }
+    },
+    {
+      "segment_id": "a76548f8",
+      "source_content": "Żeby połączyć bramkę z Internetem użyj kabla ethernet.",
+      "source_content_hash": "a07bf598da4fb4dfbacfabc5f4c8d0ab1fa2bcfc316d2e93f8396f0e9d2e97ba",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过网线将网关连接至互联网。"
+      }
+    },
+    {
+      "segment_id": "f2f30ae8",
+      "source_content": "### Pilot radiowy z mikrofonem",
+      "source_content_hash": "4fdd8977f24fd8b0b1e8a777b6e4b32e49c00373e1e4c49f5534d2bf681fac60",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 带麦克风的射频遥控器"
+      }
+    },
+    {
+      "segment_id": "dfe931a2",
+      "source_content": "Połącz do gniaza USB: [pilot radiowy zdalnego sterowania z mikrofonem](/docs/ais_remote_index).",
+      "source_content_hash": "b1ca31af9eea9bb48da733b6d2c85ef732d21e0f0fb8ac9cab86e56b3de7dc36",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "将[带麦克风的射频遥控器](/docs/ais_remote_index)插入USB接口。"
+      }
+    },
+    {
+      "segment_id": "0037ff70",
+      "source_content": "### Wbudowany chip NFC",
+      "source_content_hash": "d203ccd4a059c0d9b86f784a5294aa13c49b26b938828b7c3ab730fb6466e90b",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 内置NFC芯片"
+      }
+    },
+    {
+      "segment_id": "bdc231b1",
+      "source_content": "W prawym, dolnym rogu obudowy znajduje się wbudowany tag NFC, który ma domyślnie zaprogramowany unikalny identyfikator Twojej bramki. Jeśli Twój telefon posiada NFC, to możesz w ten sposób szybko i łatwo połączyć się z bramką z naszej darmowej aplikacji AIS dom (bez potrzeby wpisywania adresu bramki).",
+      "source_content_hash": "6fd7ada0835439a86ddc2128a593a10526db255a15ccc2aa4f796ff42d03bff2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "设备右下角内置NFC标签，已预编程写入网关唯一标识符。若您的手机支持NFC功能，可通过我们的免费应用AIS dom快速连接网关（无需手动输入网关地址）。"
+      }
+    },
+    {
+      "segment_id": "97ae4a01",
+      "source_content": "![AIS DEV2 First run](/img/en/bramka/first_run_3.jpeg)",
+      "source_content_hash": "2d249b3b48560a4af6a8ba78995552df597b01a9288751e379f688fd531cb889",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS DEV2 First run](/img/en/bramka/first_run_3.jpeg)"
+      }
+    },
+    {
+      "segment_id": "62a6890b",
+      "source_content": "## Zdalne połączenie z bramką",
+      "source_content_hash": "a37d1279dc3fe2c64da62e16dfa579d3ed99a3d2327441dcd2913870772c9cfc",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 远程连接网关"
+      }
+    },
+    {
+      "segment_id": "3cfe6286",
+      "source_content": "Możesz połączyć się z bramką używając naszej darmowej aplikacji na platformę Android lub dowolnej przeglądarki internetowej.",
+      "source_content_hash": "bceacc9d79c6fececf826096554733d0b0f6ebf40fcff26f075fd6297d4ed402",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "您可通过我们的Android免费应用或任意网页浏览器远程连接网关。"
+      }
+    },
+    {
+      "segment_id": "1042b50d",
+      "source_content": "Jeśli posiadasz telefon z systemem Android, to możesz pobrać aplikację AIS dom z Google Play lub zainstalować ją po zeskanowaniu aparatem kodu QR z plakietki znamionowej znajdującej się na spodzie urządzenia.",
+      "source_content_hash": "217677b026fd99ab9d3bffb5647f18174754e3ba0a284e0884442a9c4df550e8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "安卓用户可从Google Play下载AIS dom应用，或扫描设备底部铭牌上的二维码进行安装。"
+      }
+    },
+    {
+      "segment_id": "aa1e7006",
+      "source_content": "![AIS DEV2 First run](/img/en/bramka/first_run_4.jpeg)",
+      "source_content_hash": "24bfcba67dab12d863a79b27c61735cd88c80c2e08b4cd23850bd2df45ad65d3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS DEV2 First run](/img/en/bramka/first_run_4.jpeg)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_connect.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.126967+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "f8fba2aa98eefc93b08965ac1973a230ce3d1cc629fad465e7dc66a77e4b9345"
+  }
+}

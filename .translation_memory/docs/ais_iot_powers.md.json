@@ -1,0 +1,62 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_iot_powers.md",
+  "source_file_content_hash": "319ab80f8ecf4939c72068b28e389fdd9c823a61fcdc706c4069d00ab95a926b",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: Możliwości urządzeń AIS dom\nsidebar_label: Możliwości urządzeń AIS dom\n---",
+      "source_content_hash": "36f8553d04f0786b46f2c5b8ad0d2f53de721e8cdb04b5be87a2bebc2d4111ce",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Podstawowe możliwości",
+      "source_content_hash": "fcbafa53ae3f0256977c0d05a4ab1523204d23d56042bba823b950201257a0da",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 核心功能"
+      }
+    },
+    {
+      "segment_id": "df80d009",
+      "source_content": "* Możliwość sterowania urządzeniem bezpośrednio z przeglądarki internetowej.\n* Możliwość definiowania harmonogramów i reguł działania bezpośrednio na urządzeniu.\n* Łatwa konfiguracja urządzeń w przeglądarce internetowej.\n* Możliwość sterowania za pomocą protokołu [MQTT](https://pl.wikipedia.org/wiki/MQTT)\n* Możliwość Sterowania za pomocą protokołu [KNX](https://pl.wikipedia.org/wiki/KNX)\n* Możliwość sterowania za pomocą protokołu [HTTP](https://pl.wikipedia.org/wiki/GET_(metoda))\n* Łatwa integracja z systemem automatyki domowej [Domoticz](http://www.domoticz.com/)\n* Łatwa integracja z systemem automatyki domowej [openHAB](https://www.openhab.org/)\n* Łatwa integracja z systemem automatyki domowej [Home Assistant](https://www.home-assistant.io)\n* Emulacja Wemo i Hue umożliwiająca sterowanie za pomocą systemów wspierających sterowanie urządzeniami Hue, np. Amazon Alexa.\n* Zaawansowani użytkownicy mogą dołączać do urządzeń dodatkowe przełączniki, czujniki, wyświetlacze, mikrofony, odtwarzacze mp3, itd.\n* W pełni zintegrowane z systemem Asystent domowy (możliwas integracja z innymi systemami automatyki domowej)",
+      "source_content_hash": "6e87a85f53d96b016fcab055c245d9f24d45d1befe0454e8dd1aba8d9bdc3ece",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "* 支持通过网页浏览器直接控制设备\n* 支持在设备上直接定义运行时间表和规则\n* 可通过网页浏览器轻松配置设备\n* 支持通过[MQTT协议](https://pl.wikipedia.org/wiki/MQTT)进行控制\n* 支持通过[KNX协议](https://pl.wikipedia.org/wiki/KNX)进行控制\n* 支持通过[HTTP协议](https://pl.wikipedia.org/wiki/GET_(metoda))进行控制\n* 可轻松与智能家居系统[Domoticz](http://www.domoticz.com/)集成\n* 可轻松与智能家居系统[openHAB](https://www.openhab.org/)集成\n* 可轻松与智能家居系统[Home Assistant](https://www.home-assistant.io)集成\n* 支持Wemo和Hue设备模拟，可通过兼容Hue设备的系统（如Amazon Alexa）进行控制\n* 高级用户可为设备扩展添加开关、传感器、显示屏、麦克风、MP3播放器等外设\n* 完全兼容家庭助理系统（同时支持与其他智能家居系统集成）"
+      }
+    },
+    {
+      "segment_id": "63622bf0",
+      "source_content": "## Główne menu aplikacji (na urządzeniu IoT) dostępne w przeglądarce",
+      "source_content_hash": "443b6076cdb541fae9e025fbcc5df78257bce3dcee14356cce12a6c3386cd08b",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 物联网设备主菜单（可通过浏览器访问）"
+      }
+    },
+    {
+      "segment_id": "42e34e45",
+      "source_content": "<img src=\"/img/en/iot/iot_switch_app.png\" width=\"300\" align=\"center\"/>",
+      "source_content_hash": "fe0adc7ebf64e39f07bd93245c1eba14c2d6e552986cf5d717a77120828aa773",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_42e34e45"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_iot_powers.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.125762+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "319ab80f8ecf4939c72068b28e389fdd9c823a61fcdc706c4069d00ab95a926b"
+  }
+}

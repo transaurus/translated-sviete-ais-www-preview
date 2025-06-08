@@ -1,0 +1,272 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2019-10-30-release-notes.md",
+  "source_file_content_hash": "0ea377c986acbb08ac87237eac4bc664245120ac1ec2ab8b34487c6fcb7dd9d4",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Jola AI-Speaker\nauthorURL: https://github.com/sviete\nauthorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4\ntitle: Wersja systemu 0.100.4 Google Home\n---",
+      "source_content_hash": "b553284b3574e0b4c3f2e946b33c585242cd48c6742b2284f3f52a83827062a5",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Wersja systemu 0.100.4 z dnia 30 października 2019 roku,",
+      "source_content_hash": "d48bd7e88ff86804f310dd124b88c99a07ec3894e80f63d74be37299a609cbd6",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 2019年10月30日发布的系统版本0.100.4"
+      }
+    },
+    {
+      "segment_id": "1cc03ec8",
+      "source_content": "## Google Home",
+      "source_content_hash": "a975df0de18cb678d32338f16ef9ae575cee9c7d2ae55a95f97e1167a6c70424",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## Google Home"
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "Integracja z [Google Home](/docs/ais_app_ai_integration_google_home)",
+      "source_content_hash": "b003b94470c63d22c7194a4d7eb5aa5186f9fb0220ab4824285531a217c024fd",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "与[Google Home的集成](/docs/ais_app_ai_integration_google_home)"
+      }
+    },
+    {
+      "segment_id": "ad8fd492",
+      "source_content": "Dostarczamy **AIS Google Home** integrację Asystenta domowego z platformą programistyczną dla Asystenta Google.\nIntegracja działa poprzez oficjalne [Google Assistant SDK](https://developers.google.com/assistant) i pozwala na wysyłanie poleceń i zadawanie pytań do Asystenta Google z poziomu Asystenta domowego.",
+      "source_content_hash": "b244090835e5b6d169143632749b8cc928befd4e4f42a1ddda84375b0f495074",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们提供**AIS Google Home**功能，实现家庭助手与Google助理开发者平台的对接。该集成基于官方[Google Assistant SDK](https://developers.google.com/assistant)开发，允许从家庭助手直接向Google助理发送指令和提问。"
+      }
+    },
+    {
+      "segment_id": "42ad8e83",
+      "source_content": "![Konfiguracja AIS Google Home](/img/en/bramka/ais_google_home_1.png)",
+      "source_content_hash": "067f7eeffe613e4c7a3de26d78624f23ac74c8d3aa306c60a383b301f5c732c9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS Google Home配置界面](/img/en/bramka/ais_google_home_1.png)"
+      }
+    },
+    {
+      "segment_id": "29ee8c7a",
+      "source_content": "<!--truncate-->",
+      "source_content_hash": "f5cded2aa7e288e395fe4f67f9dabda2281904b2f5358d07302b3aa8be0acdfa",
+      "node_type": "comment",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_29ee8c7a"
+      }
+    },
+    {
+      "segment_id": "1acb9a05",
+      "source_content": "Czyli [Asystentka Jolka](/docs/ais_app_ai_integration) działa lokalnie i ogarnia rzeczy w Twoim domu, a jeśli chcesz możesz włączyć Assystenta Google i uzyskać na bramce funkcjonalność urządzenie typu Google Home 🥳",
+      "source_content_hash": "755beee0ba6304977ce64e5b1a7e9f49e23dba8afffefc9eb5af5708d1214456",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "这意味着[助手Jolka](/docs/ais_app_ai_integration)可在本地运行管理智能家居，同时您还能启用Google助理，让网关获得Google Home设备的功能 🥳"
+      }
+    },
+    {
+      "segment_id": "2df4f75f",
+      "source_content": "W przypadku gdy zapytasz o coś lub wyślesz komendę do Asystenta Google to dostaniesz oryginalną odpowiedz audio zwracane przez serwis Google Assistant. Więc możesz rozmawiać z dwoma asystentami na raz 👧 👨 🚀",
+      "source_content_hash": "4a80c81c85543b879207e3694bce1d32cb51fdf118e129c9ba98895c882cc173",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "当您向Google助理提问或发送指令时，将通过Google服务返回原始音频响应。这样您就能同时与两个语音助手对话 👧 👨 🚀"
+      }
+    },
+    {
+      "segment_id": "ed7dde9c",
+      "source_content": "## Android SDK",
+      "source_content_hash": "793c0d9c241ec77fe39046a68472dd801e8d4caa05fed22f4c7c4a03953632fc",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## Android SDK"
+      }
+    },
+    {
+      "segment_id": "a76548f8",
+      "source_content": "Wszystkie zostały zmigrowane do SdkVersion 28.\nPrzy okazji odświeżyliśmy wygląd w kilku miejscach w aplikacjach a w dokumentacji dodaliśmy opis aplikacji wraz z linkami do kodu źródłowego w repozytorium.",
+      "source_content_hash": "64ebaf7157147cad9c1d926e49f382db79d67f002ca158e8d37a45a06b723983",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "所有组件已迁移至SdkVersion 28。我们同步更新了部分应用界面设计，并在文档中添加了应用说明及源代码仓库链接。"
+      }
+    },
+    {
+      "segment_id": "26524352",
+      "source_content": "![AIS dom APK](/img/en/frontend/ais_launcher_apk_screen.png)",
+      "source_content_hash": "81088ca12798ae7a83fd650bb231efe24fc643bde931ac9f59ef11449e04163b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS dom APK界面](/img/en/frontend/ais_launcher_apk_screen.png)"
+      }
+    },
+    {
+      "segment_id": "0037ff70",
+      "source_content": "## Wygląd aplikacji",
+      "source_content_hash": "ca0032ce289a921c178ccddd92c8bb16857a401222d78385b51e61b25ecb7e83",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 应用界面"
+      }
+    },
+    {
+      "segment_id": "f422383e",
+      "source_content": "### Poprawiony tryb nocny",
+      "source_content_hash": "1da441d01c4c34df35d7ff1ad4ddf412e508e8bd3e49f937b1507bb02870fba1",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 优化的夜间模式"
+      }
+    },
+    {
+      "segment_id": "97ae4a01",
+      "source_content": "Sebastian poprawił kolory w trybie nocnym\n![AIS dom Tryb nocny](/img/en/blog/ais_dom_dark_mode_colors.png)",
+      "source_content_hash": "c01211769d449ff9a202cf4089219e24fe11f4b6a88ded845a0129fb6459b72a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Sebastian优化了夜间模式的配色方案\n![AIS dom夜间模式配色](/img/en/blog/ais_dom_dark_mode_colors.png)"
+      }
+    },
+    {
+      "segment_id": "782c902a",
+      "source_content": "### Definicję własnego interfejsu",
+      "source_content_hash": "32d82de5324988ea5f3ae601d8bbe041eac4095a2450fa1cfb26af2f4cfc47f7",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 自定义界面定义"
+      }
+    },
+    {
+      "segment_id": "50746522",
+      "source_content": "Nasz użytkownik Darek dostarczył nam ciekawy sposób, na definicję własnego interfejsu oraz dodatkowo opisał fajne rozwiązania z kalendarzem.\n[link do opisu w dokumentacji](/docs/ais_app_ui_config#własny-interfejs-użytkownika).\nDziękujemy i zachęcemy każdego do edycji dokumentacji [Zaangażuj się](/docs/ais_faq_where_is_the_code#zaangażuj-się) 🥰",
+      "source_content_hash": "dcd898447a0fbdc6ef67134a669e24f66be0a64074e1350cf36ac45af16c4332",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "用户Darek贡献了自定义界面的创新实现方案，并分享了日历功能的巧妙设计。[查看文档说明](/docs/ais_app_ui_config#自定义用户界面)。我们鼓励每位用户参与文档编辑[贡献指南](/docs/ais_faq_where_is_the_code#参与贡献) 🥰"
+      }
+    },
+    {
+      "segment_id": "f44c1398",
+      "source_content": "## Zrób coś, gdy...",
+      "source_content_hash": "0885db7d648e38eb95a5144fc30454653d046a0c245f090429582fedd26151c2",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 当...时执行..."
+      }
+    },
+    {
+      "segment_id": "29528c8d",
+      "source_content": "Najnowszy (stabilny) Home Assistant <a href=\"https://www.home-assistant.io/blog/2019/10/10/release-100/\" target=\"_blank\">0.100</a> a w nim jak zwykle sporo nowości w tym możliwość rozpoczęcia definiowania automatyzacji z poziomu urządzenia.",
+      "source_content_hash": "cb0e578b18eb7f8bc55b0cc1b7299cb05df3eae9e2d7bc77ce26bf4084f36ff5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "最新稳定版Home Assistant <a href=\"https://www.home-assistant.io/blog/2019/10/10/release-100/\" target=\"_blank\">0.100</a>带来多项新特性，包括支持从设备端开始定义自动化流程。"
+      }
+    },
+    {
+      "segment_id": "f7ef78f9",
+      "source_content": "![Automatyzacja urządzenia](/img/en/blog/automation_from_device.png)",
+      "source_content_hash": "e9ed9b544d7a6a6b5981db11c2b6aedbbf415187de76204f8470316fdc2dce4a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![设备自动化设置](/img/en/blog/automation_from_device.png)"
+      }
+    },
+    {
+      "segment_id": "af52d59d",
+      "source_content": "## Tasmota++",
+      "source_content_hash": "a7ee8d63810bd49b49a5fbbf3c1331c3a33e810e853e0cf16d6dbd30a728371c",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## Tasmota增强版"
+      }
+    },
+    {
+      "segment_id": "4d52a261",
+      "source_content": "Częstym pytaniem które się ostatnio pojawia jest działanie z urządzeniami z oprogramowaniem Tasmota.\nW FAQ dodaliśmy sekcję [Kompatybilność z Tasmota](/docs/ais_faq_iot_ap_mode) gdzie wyjaśniamy, że **na bramce jest broker MQTT dlatego każde urządzenie, które rozumie MQTT może działać z Asystentem domowym**.\nOpisujemy też jak to działa oraz jak to staramy się robić, żeby było najłatwiej jak się da!",
+      "source_content_hash": "ef637e69570bc79c0c712cd055d17bd3c8adcbb588ebe6e2c19d1e44ebe9e80d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "近期频繁被问及的一个问题是关于与运行Tasmota固件的设备协同工作的情况。\n我们在FAQ中新增了[Tasmota兼容性](/docs/ais_faq_iot_ap_mode)章节，说明**由于网关内置MQTT代理，任何支持MQTT协议的设备都能与家庭助手无缝协作**。\n同时详细阐述了实现原理，以及我们如何持续优化以提供最简化的操作流程！"
+      }
+    },
+    {
+      "segment_id": "1131ef75",
+      "source_content": "PS\nDodaliśmy też najnowszą wersję oprogramowania do urządzeń AIS dom, piękne kolory w konsoli to nie wszystko ;) w FAQ opisujemy też [jakie ułatwienia dostarczamy](/docs/ais_faq_iot_ap_mode#jakie-ułatwienia-dostarczamy)",
+      "source_content_hash": "9be030673d1b90bb955a1e47a2167df0f55cb5f88739f9ddf39f23b0e5aef69b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "附注\n我们还为AIS dom设备推送了最新固件版本，控制台的美观配色只是冰山一角;) FAQ中同时介绍了[我们提供的便捷功能](/docs/ais_faq_iot_ap_mode#jakie-ułatwienia-dostarczamy)"
+      }
+    },
+    {
+      "segment_id": "5dae11e3",
+      "source_content": "![Reset 5](/img/en/iot/iot_device_menu_upgrade_6.png)",
+      "source_content_hash": "a20987059e4a27026b3f96e104875151b47ebcae30e18414625baed0333f877a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Reset 5](/img/en/iot/iot_device_menu_upgrade_6.png)"
+      }
+    },
+    {
+      "segment_id": "ba96ee98",
+      "source_content": "----",
+      "source_content_hash": "bd64bb8efa5b3f27e6442f23600c3b516127ea17e23724b41e50da4c22883edd",
+      "node_type": "thematicBreak",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "----"
+      }
+    },
+    {
+      "segment_id": "657c2b20",
+      "source_content": "Zapraszamy do aktualizacji!\nAI-Speaker 10/2019",
+      "source_content_hash": "540d435fc7b55f7fcaeb896128fcb7f08f7c4f537b9325c190a0db1dd82d0efc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "诚邀您进行系统升级！\nAI-Speaker 2019年10月"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2019-10-30-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.108691+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "0ea377c986acbb08ac87237eac4bc664245120ac1ec2ab8b34487c6fcb7dd9d4"
+  }
+}

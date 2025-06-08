@@ -1,0 +1,232 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_faq_raspberry_pi.md",
+  "source_file_content_hash": "7e00f46b9d93fb4443b72d399096465cdb536c522f3b6cdda51d96c19e5c7c4a",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Czy płyta to Raspberry Pi (Orange Pi, Nano Pi, itp.)?\"\nsidebar_label: Czy płyta to Raspberry Pi?\n---",
+      "source_content_hash": "d2646fed9366968ce44735d78d0e9518c248d3cf91a3730164d742582e7c0f5b",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Czy płyta to Raspberry Pi?",
+      "source_content_hash": "10eec1c887c9f870d889bbdf05dbf4ab580678887426afad7e51d6ea94036a9a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 开发板是树莓派吗？"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Nie.",
+      "source_content_hash": "61a9783f809e742fc03ec7ca75c759a8d9abff3e43a7be16730f694769b50cdc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "不是。"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "Płytę w naszym produkcie można sprzętowo porównać do RPi3, architektura procesora jest ta sama ARM Cortex-A53 (64-bit).",
+      "source_content_hash": "8213376dddd2aec6ce095b3938f3ca95fab2a69feeb406c46919be29392a3dc4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们产品中的开发板在硬件上可与RPi3类比，处理器架构相同（ARM Cortex-A53 64位）。"
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "Dwa lata temu naszą platformą do projektu było właśnie Raspberry. Z czasem doszliśmy do wniosku, że potrzebujemy troszkę innej platformy do naszych konkretnych zastosowań.",
+      "source_content_hash": "1396b59308013f706cbe4f9c9ab386bdc3cba4db8deea139218975a784d365a9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "两年前我们项目确实采用树莓派作为平台。随着时间推移，我们意识到需要针对具体应用场景选择更合适的硬件方案。"
+      }
+    },
+    {
+      "segment_id": "5085dd17",
+      "source_content": "> Nie staramy się nikogo przekonywać, dlaczego nasza bramka to sprzętowo lepsze rozwiązanie od Raspberry, bo RPi to świetny produkt z ogromną społecznością i ogromną możliwością zastosowań. My **w AI-Speaker też kochamy Raspberry :)**",
+      "source_content_hash": "040bb77ba255578cbd2b38b11379894d821fa10850442f0e97c0caed16135827",
+      "node_type": "blockquote",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "> 我们无意论证为何我们的网关在硬件上优于树莓派——RPi本身是拥有庞大生态和无限可能性的优秀产品。**AI-Speaker团队同样热爱树莓派 :)**"
+      }
+    },
+    {
+      "segment_id": "42ad8e83",
+      "source_content": "Naszym celem jest dostarczenie przyjaznego dla użytkownika narzędzia, które ma konkretne zadanie: ułatwić każdemu korzystanie z domowej automatyki oraz darmowych treści i zasobów audio w Internecie.",
+      "source_content_hash": "594645192dd28ca046a28b482ff955ca3d9d796ff9051c1a0c674930b1ef0d10",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们的目标是提供用户友好型工具，其核心使命是：让每个人都能轻松使用智能家居系统，并畅享互联网免费音频资源。"
+      }
+    },
+    {
+      "segment_id": "1acb9a05",
+      "source_content": "To, co nas przekonało do wybrania innej płyty niż Raspberry Pi do naszych celów, to głównie 3 rzeczy:",
+      "source_content_hash": "7e3bbb9ddbe660e65057c89ced23b6a488c6f3263689683d24135128d29080e2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "促使我们放弃树莓派而选择其他开发板的三大关键因素："
+      }
+    },
+    {
+      "segment_id": "40f9552a",
+      "source_content": "### Pamięć stała (wbudowany dysk)",
+      "source_content_hash": "c89ca82ff2d5fda5b99552dceee9d28412bbfe2d5ef8fbba1a71301ab6c02fa7",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 内置存储（板载硬盘）"
+      }
+    },
+    {
+      "segment_id": "f2c2bdd0",
+      "source_content": "Bramka AI-Speaker ma **wbudowaną pamięć**, dysk 8G pamięci NAND Flash eMMC 5.0 (półprzewodnikowe urządzenie pamięci masowej na magistrali MMC) wbudowany w płytę (chip na płytce drukowanej) przez producenta  (płyta na urządzeniu to rozwiązanie firmy Amlogic).\nWybraliśmy to rozwiązanie bo wg naszych testów czas dostępu do pamięci eMMC jest szybszy niż w przypadku karty SD, dodatkową motywacją było pozbycie się problemów występujących na RPi.",
+      "source_content_hash": "2951bb50d27538f525c0ea4fe955d42cbe2e109a5766e85934272592298188e8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "AI-Speaker网关采用**板载存储**设计，集成8GB NAND Flash eMMC 5.0存储器（基于MMC总线的半导体存储设备），由Amlogic公司直接焊接在PCB上。选择此方案是因为：经测试eMMC的存取速度优于SD卡，同时规避了树莓派常见的存储问题。"
+      }
+    },
+    {
+      "segment_id": "d9172fa4",
+      "source_content": "Wbudowana pamięć podzielona jest na kilka partycji, jest to rozwiązanie znane z systemów typu UNIX i zastosowane w systemie Android (a co za tym idzie stosowane też na bramce AIS dom). Celem rozwiązania z kilkoma partycjami jest zapewnienie niezawodności działania urządzenia. Niektóre komponenty systemu i sam program ładujący (bootloader) mają własne partycje, montowane dla bezpieczeństwa w trybie tylko odczytu, dzięki czemu nie nie można ich \"łatwo uszkodzić\". Dodatkowo bramka musi być zawsze naprawialna dlatego posiada tryb odzyskiwania (recovery mode) umożliwiający zamontowanie partycji pozwalającej na odzyskanie systemu Asystent domowy do wersji fabrycznej. Na urządzeniu jest slot na kartę SD/MMC i 4 USB.",
+      "source_content_hash": "01ca23ddf3ea6b483c65884d1c5adaf888b18116b8231c7853b16b51acb59863",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "内置存储划分为多个分区，这种类UNIX的设计沿袭自Android系统（因此也应用于AIS dom网关）。多分区架构能确保系统可靠性——关键组件和引导程序(bootloader)拥有只读分区防止误操作损坏。设备还具备恢复模式(recovery mode)，可将系统重置为出厂版本。此外配备SD/MMC卡槽和4个USB接口。"
+      }
+    },
+    {
+      "segment_id": "26524352",
+      "source_content": "RPi nie ma wbudowanej pamięci tylko slot na kartę SD.\nSystem automatyki domowej działający na karcie SD nie nadaje się do automatyki domowej, chodzi o to, że ilość zapisów (logów zdarzeń) jest taka duża, że karty SD tego nie wytrzymują oraz o to, że taka karta może wymagać naprawy w przypadku gdy system nie został poprawnie zamknięty (odłączenie z prądu). Ten problem jest powszechnie znany w społeczności Home Assistant.",
+      "source_content_hash": "4bf925e97015f9fe957cf9e196d7627aa87c308f9eae5dd40a9d05c84ffa8aad",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "树莓派仅支持SD卡扩展存储。\n基于SD卡运行的智能家居系统存在明显缺陷：事件日志的频繁写入易导致SD卡寿命耗尽，且异常断电后可能需修复文件系统。这个问题在Home Assistant社区已是普遍共识。"
+      }
+    },
+    {
+      "segment_id": "a1b3d8cb",
+      "source_content": "### Audio",
+      "source_content_hash": "e0c417dbdfdb1d8aee79f2a6c048d0d3491f1d1cf394b4f0a34214d676c414c0",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 音频系统"
+      }
+    },
+    {
+      "segment_id": "517051a7",
+      "source_content": "**Mamy cyfrowe wyjście SPDIF**, do multimediów używamy bibliotek Android i dzięki temu jesteśmy w stanie błyskawicznie odtworzyć audio po komendzie głosowej.",
+      "source_content_hash": "27983170b0f57f4ab51cc05c3ab0ff2cbb26caaeefcc1cdf694361b94a44ffcf",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "**我们配备了SPDIF数字输出接口**，多媒体功能采用Android音频库实现，因此能在语音指令下达后瞬时播放音频。"
+      }
+    },
+    {
+      "segment_id": "135468ee",
+      "source_content": "Na RPi i wielu innych platformach, które wcześniej testowaliśmy, audio wymaga dodatkowych urządzeń (DAC).\nŻeby sprzętowo mieć dobre audio to trzeba:",
+      "source_content_hash": "1d27c845d9041dc6e26fd700ddc41c9f423fbc18d6959b8ab134cc9c0192ba7c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在树莓派和我们早期测试的多数平台上，音频功能需要额外设备（数模转换器DAC）。要实现硬件级优质音频，必须满足以下链路："
+      }
+    },
+    {
+      "segment_id": "e7bc8c38",
+      "source_content": "- Raspberry Pi -> I2S -> DAC -> Wzmacniacz -> Głośnik\n- Bramka AIS -> Wzmacniacz -> Głośnik",
+      "source_content_hash": "5a708968b3b791eb96d2b981be88156fa48c215c76b0d97173eb7bd37c2b2838",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 树莓派 -> I2S总线 -> DAC -> 功放 -> 扬声器\n- AIS网关 -> 功放 -> 扬声器"
+      }
+    },
+    {
+      "segment_id": "1042b50d",
+      "source_content": "Jeżeli nie da się na platformie uruchomić systemu Android (tak jak obecnie na RPi) to nie ma wydajnego audio.",
+      "source_content_hash": "daa4c2e5a4bd5cc953011b7e61c3bc6c8da6bf5b1272ff5dead48632703d5db0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "若平台无法运行Android系统（如当前树莓派），则无法实现高性能音频输出。"
+      }
+    },
+    {
+      "segment_id": "8bddee80",
+      "source_content": "### Cena",
+      "source_content_hash": "f4ab93fcb509b9cd5acd64ccb0c5b37d568c28544d8bc5a7b8022f8db911c0e2",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 价格"
+      }
+    },
+    {
+      "segment_id": "a9d49f92",
+      "source_content": "Nasza bramka jest kompletna, ma obudowę, zasilacz, kabel HDMI, wbudowany dysk i działający na nim system gotowy do pracy po wyjęciu z pudełka.",
+      "source_content_hash": "e67e480f57c3394bcfd87920678d2991401b7eee9bd7874954c60d523bf70769",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们的网关设备是完整解决方案，包含机箱、电源适配器、HDMI线缆、内置存储以及开箱即用的预装系统。"
+      }
+    },
+    {
+      "segment_id": "a44047a5",
+      "source_content": "Żeby RPi działało, to trzeba dokupić dedykowany zasilacz, kartę pamięci, obudowę, kabel HDMI i DAC (jeżeli ktoś chce słuchać audio).",
+      "source_content_hash": "1246b5cc5cab0faea783c4b61e4700417add193068fc6267fd1cd5aece7a3320",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "要使树莓派正常运行，需额外购置专用电源、存储卡、机箱、HDMI线缆及DAC模块（如需音频功能）。"
+      }
+    },
+    {
+      "segment_id": "f7ef78f9",
+      "source_content": "Złożenie takiego zestawu na RPi jak nasza dedykowana bramka, jest wg nas technicznie nienajlepszym pomysłem (z uwagi na zawodność kart SD i problemy z audio) i całkowity koszt jest znacznie większy niż nasze gotowe rozwiązanie.",
+      "source_content_hash": "46b936dca8af58c6a09a2bcd186d28dc956d42655b6b8539d4d326eaf9081776",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "根据我们的技术评估，在树莓派上复现我们专用网关的完整配置并非最优方案（考虑到SD卡可靠性问题及音频缺陷），其总成本将显著高于我们的一体化解决方案。"
+      }
+    },
+    {
+      "segment_id": "b36c6338",
+      "source_content": "Oczywiście to tylko nasza opinia w tym wątku na podstawie naszych doświadczeń. Nikogo nie próbujemy w żaden sposób odwieść od pomysłu tworzenia systemu automatyki domowej na wybranej przez siebie platformie.",
+      "source_content_hash": "54e0f95eb7f63df18b7c83cde54bb52ef9bd2de7a5dc318b8e7a50c5c7f37343",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "当然，这只是我们基于实践经验的个人观点。我们无意劝阻任何人在自选平台上搭建智能家居系统的计划。"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_faq_raspberry_pi.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.128321+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "7e00f46b9d93fb4443b72d399096465cdb536c522f3b6cdda51d96c19e5c7c4a"
+  }
+}

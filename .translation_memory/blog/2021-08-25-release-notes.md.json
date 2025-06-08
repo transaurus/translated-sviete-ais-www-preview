@@ -1,0 +1,482 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2021-08-25-release-notes.md",
+  "source_file_content_hash": "393bb843c69ab361cd82e88088b2c36e71f22d3ed48ec083b33e855c44689975",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Jola AI-Speaker\nauthorURL: https://github.com/sviete\nauthor_title: Asystentka\nauthorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4\ntitle: Wersja systemu Jarek\ntags: [\"ais pro1\", \"mqtt\", \"home assistant\", \"zigbee\"]\n---",
+      "source_content_hash": "8115aae57803e9f933d61ba91fae9252a3a44f2d2fdbd2e9c557378621e03c40",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "775b7fa4",
+      "source_content": "<div class=\"IntroAisBlogMenu\" >\n\n![AIS](/img/en/blog/202108/jarek.png)\n\n</div>",
+      "source_content_hash": "2a5875e785f317f24c4a38bd82456a4c8d6b73d4e74ec6018f54767e01a00596",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_775b7fa4"
+      }
+    },
+    {
+      "segment_id": "6429a3aa",
+      "source_content": "<!--truncate-->",
+      "source_content_hash": "f5cded2aa7e288e395fe4f67f9dabda2281904b2f5358d07302b3aa8be0acdfa",
+      "node_type": "comment",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_6429a3aa"
+      }
+    },
+    {
+      "segment_id": "aee0e40d",
+      "source_content": "## ABC bezproblemowej aktualizacji",
+      "source_content_hash": "c90f3410f68be4e7ee6017947af078313ab12a12edc09598ec43646aef83e69a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 无忧升级指南"
+      }
+    },
+    {
+      "segment_id": "cac45343",
+      "source_content": ":::tip[Kopia zapasowa.]\n### ![A](/img/en/blog/202009/alpha-a-circle.png) Kopia zapasowa.\n\nUWAGA Przed aktualizacją zalecamy wykonać [kopię zapasową konfiguracji](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji). W ten sposób sprawdzisz poprawność swojej konfiguracji przed rozpoczęciem aktualizacji i zwiększysz prawdopodobieństwo bezproblemowej aktualizacji.\n:::",
+      "source_content_hash": "1828218cdc126741a2ebe2de65e3dd6aff658b58cb960a102231a8a3be71ca74",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::tip[备份]\n### ![A](/img/en/blog/202009/alpha-a-circle.png) 备份\n\n注意：升级前强烈建议先进行[配置备份](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji)。这能帮助您在升级前验证配置的正确性，显著提高升级成功率。\n:::"
+      }
+    },
+    {
+      "segment_id": "6b3596a2",
+      "source_content": ":::important[Konsola i logi na bramce.]\n### ![B](/img/en/blog/202009/alpha-b-circle.png) Konsola i logi na bramce.\n\nW razie problemów z aktualizacją, sprawdź procedurę [Aktualizacja z konsoli](/docs/ais_bramka_update_manual) lub [Wykonanie pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step).\nTo może dotyczyć szczególnie osób, które instalują na bramce dodatkowe niestandardowe komponenty.\n:::",
+      "source_content_hash": "68fd9b1408e16bcda26341c46f1391b36b4a4bb299475fcfba57528a3af090c5",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::important[网关控制台与日志]\n### ![B](/img/en/blog/202009/alpha-b-circle.png) 网关控制台与日志\n\n若升级遇到问题，请参考[控制台手动升级指南](/docs/ais_bramka_update_manual)或[应用完全重置步骤](/docs/ais_bramka_reset_ais_step_by_step)。特别提醒：安装非标准组件的用户需重点关注此部分。\n:::"
+      }
+    },
+    {
+      "segment_id": "b56ef571",
+      "source_content": ":::caution[Poczekaj cierpliwie.]\n### ![C](/img/en/blog/202009/alpha-c-circle.png) Cierpliwość. Aktualizacja i pierwsze uruchomienie po aktualizacji trwa dłużej - poczekaj cierpliwie.\n\n **Po aktualizacji pierwsze uruchomienie może trwać długo.**\n W tym czasie aktualizowane są biblioteki do integracji dodanych na bramce.\n **Poczekaj cierpliwie na zakończenie aktualizacji.\n Możesz sprawdzić status uruchamiania (dowiedzieć się co robi system) w konsoli komendą ``htop`` i/lub ``pm2 logs``**\n:::",
+      "source_content_hash": "90a7f2513fae9e580022f4fd3c79e2824f4f68bdd7ff51937dbef99e44de3f4d",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[耐心等待]\n### ![C](/img/en/blog/202009/alpha-c-circle.png) 耐心等待。升级及升级后首次启动耗时较长——请保持耐心\n\n**升级后首次启动可能耗时较长**\n此时系统正在更新网关集成的依赖库\n**请耐心等待升级完成\n可通过命令``htop``或``pm2 logs``查看系统启动状态**\n:::"
+      }
+    },
+    {
+      "segment_id": "54268405",
+      "source_content": "## ![](/img/en/blog/202108/jarek.png) Jarek",
+      "source_content_hash": "cad112932abbab7930170c6d94da65aacdd940fd3c636a33daa850e671fb6c51",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202108/jarek.png) 亚雷克系统"
+      }
+    },
+    {
+      "segment_id": "c674e260",
+      "source_content": "### PRO cdn.",
+      "source_content_hash": "969f45d21957f1b1539f3698aceb654cb72e58398016a539183eb7f066aaacd7",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### PRO版持续演进"
+      }
+    },
+    {
+      "segment_id": "a44047a5",
+      "source_content": "Jarek to kontynuacja nowego ładu w AIS i rozszerzenie oferty PRO",
+      "source_content_hash": "b43e5a1858725a7849d4dd72224e376a5f5275081759b77310c2cd4cbe4c6614",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "亚雷克系统是AIS新架构的延续，也是PRO服务的功能扩展"
+      }
+    },
+    {
+      "segment_id": "f7ef78f9",
+      "source_content": "![](/img/en/blog/202107/aispro1.png)",
+      "source_content_hash": "72f4428def79574783227b7813f7e47467232400bf4f572a54ceeb78ac92f411",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202107/aispro1.png)"
+      }
+    },
+    {
+      "segment_id": "d3649a1e",
+      "source_content": "Sieć to podstawa bezproblemowego działania nowoczesnego systemu automatyki i to właśnie ona może być przyczyną większości problemów. \nKonfiguracja sieci to ogromny i skomplikowany temat, problemy z takimi elementami jak: NAT, Port Forwarding, DHCP, TCP/UDP, Firewall... powodują problemy z działaniem całego systemu. Dlatego postanowiliśmy zaoferować gotowe rozwiązanie dla warstwy sieciowej zaawansowanych instalacji do automatyki domowej. Obecnie rozwiązanie to oferujemy tylko dla klientów biznesowych, z czasem zamierzamy wprowadzić je do szerszej oferty tak, żeby każdy był w stanie kupić gotową, skonfigurowaną i przystosowaną do IoT \"sieć do automatyki domowej\" z dostępem VPN.\nRozwiązania w warstwie sieciowej są częścią projektu AIS Easy, nad którym pracujemy.",
+      "source_content_hash": "d1e7380a25fab1a553e312d3bd571aacd99ffa5425c64f0c5bd3e7813459615a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "网络是现代智能家居系统稳定运行的基石，同时也可能是大多数故障的根源。网络配置涉及NAT、端口转发、DHCP、TCP/UDP协议、防火墙等复杂概念，配置不当会导致整个系统异常。为此我们推出面向高级智能家居部署的预制网络层解决方案。目前该方案仅面向企业客户，未来将逐步开放给普通用户，让每个人都能购买到即插即用、专为物联网优化的VPN智能家居网络方案。这些网络层解决方案是我们正在开发的AIS Easy项目的重要组成部分。"
+      }
+    },
+    {
+      "segment_id": "40158b4b",
+      "source_content": "Oferujemy usługę integracji warstwy sieciowej. Kierujemy ją obecnie do integratorów systemów IoT oraz dostawców systemów do automatyki. Więcej o tym w dokumentacji [Infrastruktura sieciowa](/docs/ais_dom_pro_network)",
+      "source_content_hash": "d421e77c0cc48b3a00bfff5816100f264648ec289354cde20258077b7e587e88",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们提供网络层集成服务，当前主要面向物联网系统集成商和智能家居方案供应商。详见文档[网络基础设施](/docs/ais_dom_pro_network)"
+      }
+    },
+    {
+      "segment_id": "6ea4c715",
+      "source_content": "![AIS UISP](/img/en/pro/uisp_map.png)",
+      "source_content_hash": "829fbfcc60afaf1a5ececb73b8dc79f75cb1f1698970f9455a48e8b2e73a1ec5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS UISP](/img/en/pro/uisp_map.png)"
+      }
+    },
+    {
+      "segment_id": "bd92edfc",
+      "source_content": "### Wideodomofon",
+      "source_content_hash": "e590ab277a1c1a1966540e3af9f4f86b6d8b09f892513d3117393dd0b57806b6",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 视频门禁系统"
+      }
+    },
+    {
+      "segment_id": "7f71ff2a",
+      "source_content": "Udostępniliśmy SIP serwer, który może działać na bramce:",
+      "source_content_hash": "46fa9d0d3209e397496f58f2ae003b5c07fc5d92081523ee986424601bbafc93",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们已在网关上部署了可运行的SIP服务器："
+      }
+    },
+    {
+      "segment_id": "147e8550",
+      "source_content": "![AIS UISP](https://aws1.discourse-cdn.com/free1/uploads/ai_speaker/original/2X/1/17ee19773ea2a6eaed8deacbb77b233d8c19287b.png)",
+      "source_content_hash": "f881fdd0f130fc1b972c2cbe11717e8913257aa12b33e648ff7e0f425f6278d8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS UISP](https://aws1.discourse-cdn.com/free1/uploads/ai_speaker/original/2X/1/17ee19773ea2a6eaed8deacbb77b233d8c19287b.png)"
+      }
+    },
+    {
+      "segment_id": "883231d4",
+      "source_content": "Więcej informacji na temat tego projektu na forum [AIS SIP (VoIP) Serwer / Broker na Bramce AIS](https://ai-speaker.discourse.group/t/ais-sip-voip-serwer-broker-na-bramce-ais/1982)",
+      "source_content_hash": "8fdc1a8698a0a3e811d23526068914a80a97285b127ace89411b35ef701315a4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "关于该项目的更多信息请访问论坛 [AIS SIP (VoIP) 服务器/代理网关](https://ai-speaker.discourse.group/t/ais-sip-voip-serwer-broker-na-bramce-ais/1982)"
+      }
+    },
+    {
+      "segment_id": "afa378f7",
+      "source_content": "Wbudowaliśmy też klienta SIP w AIS-dom:",
+      "source_content_hash": "c411bf425473bb291b96421a03b31a1ecfb1052ec592a431159710d967fcf000",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们还在AIS-dom中内置了SIP客户端："
+      }
+    },
+    {
+      "segment_id": "e8e162a9",
+      "source_content": "![AIS UISP](https://aws1.discourse-cdn.com/free1/uploads/ai_speaker/original/2X/c/c0fb05e10bc4dd334c7bb3fb22475f61d7a63700.jpeg)",
+      "source_content_hash": "ee25cd6e9b9fbbbdaf5799cd5bdef6954fb03121642d460ed2bfa4138579b2c0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS UISP](https://aws1.discourse-cdn.com/free1/uploads/ai_speaker/original/2X/c/c0fb05e10bc4dd334c7bb3fb22475f61d7a63700.jpeg)"
+      }
+    },
+    {
+      "segment_id": "463ed165",
+      "source_content": "Więcej informacji na temat tego projektu na forum [AIS SIP 2 (IP Phone) Klient w aplikacji AIS](https://ai-speaker.discourse.group/t/ais-sip-2-ip-phone-klient-w-aplikacji-ais/2052)",
+      "source_content_hash": "7c9334471cd6cdcea06dad843823346b4c38b1d504202af66895a29cd59d1c14",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "关于该项目的更多信息请访问论坛 [AIS SIP 2 (IP电话) 客户端应用](https://ai-speaker.discourse.group/t/ais-sip-2-ip-phone-klient-w-aplikacji-ais/2052)"
+      }
+    },
+    {
+      "segment_id": "a1fa5396",
+      "source_content": "Są to dwa podstawowe komponenty do zbudowania wideodomofonu i są też częścią projektu AIS Easy, nad którym pracujemy.",
+      "source_content_hash": "ba13aea8706f881cdc8dbad3ad594e16ca72b1ed8ffd4e3519a143262fa8a033",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "这是构建视频对讲系统的两个核心组件，也是我们正在开发的AIS Easy项目的一部分。"
+      }
+    },
+    {
+      "segment_id": "759d12dd",
+      "source_content": "### Zdalny dostęp do aplikacji działającej na bramce",
+      "source_content_hash": "9b0b7b0f48f0bc6a3c1357fff88c4538301b4885b50bb3fe347ea922644b5277",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 远程访问网关应用程序"
+      }
+    },
+    {
+      "segment_id": "74dd7937",
+      "source_content": "Aktualizujemy binarkę Tunel Cloudflare do najnowszej wersji [Tunel Cloudflare](https://github.com/cloudflare/cloudflared/releases/tag/2021.8.2)",
+      "source_content_hash": "75a892316325fbb8fa5eab724e9d10a1fd1997914cb3e1422cddeaec9f6983e8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们已将Cloudflare Tunnel二进制文件更新至最新版本 [Cloudflare Tunnel](https://github.com/cloudflare/cloudflared/releases/tag/2021.8.2)"
+      }
+    },
+    {
+      "segment_id": "5803caac",
+      "source_content": "![](/img/en/blog/202107/tunel.png)",
+      "source_content_hash": "827e460f53658adbe0f27a3285576500710dc505617812de0246e2b6bf3e443e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202107/tunel.png)"
+      }
+    },
+    {
+      "segment_id": "51867d16",
+      "source_content": "Istotne w tej aktualizacji jest to, że Cloudflare rozwiązało zgłaszany przez nas problem. Poprawka daje nam nowe możliwości wykorzystania tunelu, o czym napiszemy jeszcze.",
+      "source_content_hash": "29dca8c802487107347db8c18e5b9325121fc837a27832f0c5979414c2da94c7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "本次更新的重要意义在于Cloudflare修复了我们报告的问题。这项改进为我们开启了隧道技术的新应用场景，后续我们将详细说明。"
+      }
+    },
+    {
+      "segment_id": "5baf88e2",
+      "source_content": "### AIS Easy",
+      "source_content_hash": "c7fb2af2d4b6453f5e77ec096b846fb35c3db0e06c53b3ba9398c4d4ceed8557",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### AIS Easy计划"
+      }
+    },
+    {
+      "segment_id": "eb51d107",
+      "source_content": "To nowy projekt, który realizujemy. Chodzi o to, żeby użytkownikom było łatwiej i jednocześnie, żeby nie trzeba było opłacać integratora do systemu automatyki domowej.\nWymyśliliśmy, jak to zrobić i mamy nadzieję, że spodoba się to wielu użytkownikom.",
+      "source_content_hash": "0d7518dd731fdb8fb08d208ba61a01d8111fde4af3261fdfd9584a13ff4137f3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "这是我们正在推进的新项目，旨在降低智能家居系统的使用门槛，让用户无需聘请系统集成商即可轻松配置。\n我们已构思出解决方案，并期待获得广大用户的青睐。"
+      }
+    },
+    {
+      "segment_id": "25212439",
+      "source_content": "Projekt będziemy realizować do końca roku, a już za kilka dni poprosimy Was o wypełnienie ankiety, żeby bardziej zrozumieć problemy, których rozwiązanie powinniśmy zaoferować.\nZdradzę, że za wypełnienie ankiety będą gwarantowane nagrody 🎉",
+      "source_content_hash": "666e4ffc7700d3f7734eee650ba4cfab3a3e3b8ee479177c4ee60c95bcc6544c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该项目将持续至年底，几天后我们将邀请您参与问卷调查，以更精准地定位需要解决的痛点。\n悄悄透露：完成问卷将获得保底奖励 🎉"
+      }
+    },
+    {
+      "segment_id": "a2c0166e",
+      "source_content": "Będzie też pytanie konkursowe - autor najlepszej odpowiedzi która zdobędzie ❤️ Jolki dostanie główną nagrodę od AIS!",
+      "source_content_hash": "625746ab09180901d62d3556c4e766b76632d563e618ab5e95da92ad75f7de2c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "还将设置竞赛问题——获得Jolki最多❤️的最佳答案作者将赢得AIS提供的大奖！"
+      }
+    },
+    {
+      "segment_id": "c1eaf30b",
+      "source_content": "![](/img/en/blog/202108/open_question.jpg)",
+      "source_content_hash": "2b613f4919fa9ea9534e1dabe469797ee2d40e9cec015575c6e40042625d8611",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202108/open_question.jpg)"
+      }
+    },
+    {
+      "segment_id": "0e80209e",
+      "source_content": "Po znajomości zdradzimy Wam kilka pytań, żebyście się mogli lepiej przygotować ;)",
+      "source_content_hash": "da58e927096cb94b2aceb5ac8fa2a805df75f3a9ad1691d70d2a9d0bbdd19886",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "作为内部消息，我们先透露几个问题方便您准备 ;)"
+      }
+    },
+    {
+      "segment_id": "0801d969",
+      "source_content": "![](/img/en/blog/202108/ankieta_1.png)",
+      "source_content_hash": "3cd0015cb7fd457ff1b44edc58ce011b72081df89a4f3bab83afe9400f18678a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202108/ankieta_1.png)"
+      }
+    },
+    {
+      "segment_id": "3c19e221",
+      "source_content": "![](/img/en/blog/202108/ankieta_2.png)",
+      "source_content_hash": "7faa29ee98839ce8e506628efdc8392bf8b759c740d0537eeb70e881e8de52dc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202108/ankieta_2.png)"
+      }
+    },
+    {
+      "segment_id": "d21af28f",
+      "source_content": "![](/img/en/blog/202108/ankieta_3.png)",
+      "source_content_hash": "91b160acbbe77127af3d5b5895f8a981dc2ffc754cdbfa9b8563c20f769f57f0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202108/ankieta_3.png)"
+      }
+    },
+    {
+      "segment_id": "44aaa880",
+      "source_content": "![](/img/en/blog/202108/ankieta_4.png)",
+      "source_content_hash": "f287208cea533d2de4308cf1f83c526ffb9a4c45ddda941ab368756f6bd32150",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202108/ankieta_4.png)"
+      }
+    },
+    {
+      "segment_id": "cbd60296",
+      "source_content": "### ![](/img/en/blog/202102/honeybee.png) Zigbee2Mqtt",
+      "source_content_hash": "66a9914e72acab290690746f63dbd2e2db4834db52483737dfde28177b71768b",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### ![](/img/en/blog/202102/honeybee.png) Zigbee2Mqtt"
+      }
+    },
+    {
+      "segment_id": "b6152880",
+      "source_content": "Aktualizacja Zigbee2Mqtt do najnowszej wersji 1.21.0 Ponad **1600** wspieranych urządzeń.",
+      "source_content_hash": "1abe57f10fd601935a88aef591a0de031acfb7206bac4eaf0287bc57d7acd1e4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Zigbee2Mqtt已更新至1.21.0版本，支持设备突破**1600**款。"
+      }
+    },
+    {
+      "segment_id": "b9331170",
+      "source_content": "Wszystkie szczegóły tu [1.21.0](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.21.0)",
+      "source_content_hash": "9f118c23d683f07207ad7f114721c8438bd34cdfd33067fa9ae86dd38b42cd6b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "所有细节详见 [1.21.0](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.21.0)"
+      }
+    },
+    {
+      "segment_id": "4dd6a631",
+      "source_content": "### ![](/img/en/blog/202101/hass.png) Asystent domowy 2021.8",
+      "source_content_hash": "d20fe4560ef8b555cf0d075c65d5e1f5cbd10a1dd8cd6a6960b77d6fa42328ca",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### ![](/img/en/blog/202101/hass.png) 家庭助理 2021.8"
+      }
+    },
+    {
+      "segment_id": "9c9e2b64",
+      "source_content": "Najnowsza wersja Asystenta domowego, czyli naszego pakietu ``ais-dom`` bazującego na najnowszym stabilnym Home Assistant Core.",
+      "source_content_hash": "4f36ed4bd7e6fdbae4e71f7081f263804cfb8884b40cb03ecec164f202f07f42",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "最新版家庭助理，即我们基于最新稳定版Home Assistant Core构建的``ais-dom``软件包。"
+      }
+    },
+    {
+      "segment_id": "5c7d994c",
+      "source_content": "![](/img/en/blog/202108/ha.png)",
+      "source_content_hash": "120a69db7e487b0801683ccd3ab59c0056ac44aa6ff905e48ca286218351c39f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202108/ha.png)"
+      }
+    },
+    {
+      "segment_id": "14bc6b75",
+      "source_content": "Opis wszystkich zmian i nowości [2021.8](https://www.home-assistant.io/blog/2021/08/04/release-20218/)",
+      "source_content_hash": "03b7b5085f78a08504af402d0b8a50d2df42704117748cae2727468c508417ef",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "所有变更与新特性说明 [2021.8](https://www.home-assistant.io/blog/2021/08/04/release-20218/)"
+      }
+    },
+    {
+      "segment_id": "e478ec2c",
+      "source_content": "Jest POWER! :)",
+      "source_content_hash": "6714da559d56541099f654d104a51997b2bd891332082beb000e5503719f483f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "能量满格！ :)"
+      }
+    },
+    {
+      "segment_id": "534ac82e",
+      "source_content": "![](/img/en/blog/202108/power.png)",
+      "source_content_hash": "9f90a4753ee86cd515b56b53495b282dbf2f53a77f0c9a49e8945461368c7c13",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202108/power.png)"
+      }
+    },
+    {
+      "segment_id": "294e85af",
+      "source_content": "--------",
+      "source_content_hash": "370d9b71060be968d97de6de91fff200e4dd739e4e1fd7d6e983d9a7c60bdbb0",
+      "node_type": "thematicBreak",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "--------"
+      }
+    },
+    {
+      "segment_id": "8b448c8b",
+      "source_content": "##### AI-Speaker 08/2021",
+      "source_content_hash": "8b4cf980ba9e1014a3960e96f227609bfde23b30b19d66cb19edf3fb298e187c",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "##### AI-Speaker 2021年8月版"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2021-08-25-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.112206+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "393bb843c69ab361cd82e88088b2c36e71f22d3ed48ec083b33e855c44689975"
+  }
+}

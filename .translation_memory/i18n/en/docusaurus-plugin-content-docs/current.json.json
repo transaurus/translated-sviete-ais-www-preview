@@ -1,0 +1,439 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "i18n/en/docusaurus-plugin-content-docs/current.json",
+  "source_file_content_hash": "4c8c5c806137d155dbbfdfcdb7d40610f25510ca8b7f79beda08520cb24892f2",
+  "segments": [
+    {
+      "segment_id": "version.label",
+      "source_content": "Next",
+      "source_content_hash": "1ff57a29d7c9d11bdf61c1b80f2b289b44c1ea844824d4b94a0d52b6ba5fc858",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "下一个版本"
+      },
+      "metadata": {
+        "json_description": "The label for version current"
+      }
+    },
+    {
+      "segment_id": "sidebar.System.category.Bramka AIoT",
+      "source_content": "Bramka AIoT",
+      "source_content_hash": "345f8453ec9bbc570005446de7b9098b0dc0edf218239dac9f1f20dcf2b21be7",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "AIoT网关"
+      },
+      "metadata": {
+        "json_description": "The label for category Bramka AIoT in sidebar System"
+      }
+    },
+    {
+      "segment_id": "sidebar.System.category.Początkowa konfiguracja Asystenta domowego",
+      "source_content": "Początkowa konfiguracja Asystenta domowego",
+      "source_content_hash": "5ef429d51d0fb627281560b00352c165a1961a2825eaadbb2b25a2f34149d4f1",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "家庭助手初始配置"
+      },
+      "metadata": {
+        "json_description": "The label for category Początkowa konfiguracja Asystenta domowego in sidebar System"
+      }
+    },
+    {
+      "segment_id": "sidebar.System.category.Zarządzanie bramką z poziomu Asystenta domowego",
+      "source_content": "Zarządzanie bramką z poziomu Asystenta domowego",
+      "source_content_hash": "6b25993fca28edceb987a2b476c3784aa07ee1e73307a24f1ecf4b6701042698",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过家庭助手管理网关"
+      },
+      "metadata": {
+        "json_description": "The label for category Zarządzanie bramką z poziomu Asystenta domowego in sidebar System"
+      }
+    },
+    {
+      "segment_id": "sidebar.System.category.Automatyzacje",
+      "source_content": "Automatyzacje",
+      "source_content_hash": "b84e088c3c4781e45c7b97a7e04b9d778441a1fec73d1a4278ae35a7e50af34e",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "自动化"
+      },
+      "metadata": {
+        "json_description": "The label for category Automatyzacje in sidebar System"
+      }
+    },
+    {
+      "segment_id": "sidebar.System.category.Dostęp w sieci lokalnej",
+      "source_content": "Dostęp w sieci lokalnej",
+      "source_content_hash": "83eeec36f46127c59ff0ec86ba55611d84f5f8d7c270163a5e2ddcd5a27121a3",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "局域网访问"
+      },
+      "metadata": {
+        "json_description": "The label for category Dostęp w sieci lokalnej in sidebar System"
+      }
+    },
+    {
+      "segment_id": "sidebar.System.category.Dostęp z Internetu",
+      "source_content": "Dostęp z Internetu",
+      "source_content_hash": "254e1509842ee974a1536844e8fba441af0097e5511b311265fb2ec79c9d4ad0",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "互联网访问"
+      },
+      "metadata": {
+        "json_description": "The label for category Dostęp z Internetu in sidebar System"
+      }
+    },
+    {
+      "segment_id": "sidebar.System.category.Portal Integratora",
+      "source_content": "Portal Integratora",
+      "source_content_hash": "aa459f2a52e28afee30a9c61e3def8cc753e1a70d2859861fc907032ebb9bf4c",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "集成商门户"
+      },
+      "metadata": {
+        "json_description": "The label for category Portal Integratora in sidebar System"
+      }
+    },
+    {
+      "segment_id": "sidebar.System.category.Ustawienia zaawansowane",
+      "source_content": "Ustawienia zaawansowane",
+      "source_content_hash": "efc8bdb3b0a4ab46ace6d5ef3bc8b60548b5fadf4bbd213895abcab246428235",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "高级设置"
+      },
+      "metadata": {
+        "json_description": "The label for category Ustawienia zaawansowane in sidebar System"
+      }
+    },
+    {
+      "segment_id": "sidebar.System.category.Reset urządzenia do ustawień fabrycznych",
+      "source_content": "Reset urządzenia do ustawień fabrycznych",
+      "source_content_hash": "7f4eef7ef7d3d1e24626256e413ac29941cc399d1e8dc82129747fc0fdac66ee",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "恢复设备出厂设置"
+      },
+      "metadata": {
+        "json_description": "The label for category Reset urządzenia do ustawień fabrycznych in sidebar System"
+      }
+    },
+    {
+      "segment_id": "sidebar.Aplikacja.category.Aplikacja internetowa",
+      "source_content": "Aplikacja internetowa",
+      "source_content_hash": "7648f22727dee7d24f3f60b20fcd84294305d0fb35daf79be9812bfd3dd3e15d",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "网页应用"
+      },
+      "metadata": {
+        "json_description": "The label for category Aplikacja internetowa in sidebar Aplikacja"
+      }
+    },
+    {
+      "segment_id": "sidebar.Aplikacja.category.Aplikacje Android",
+      "source_content": "Aplikacje Android",
+      "source_content_hash": "bf62cd1da13aa9f37e18fbf2b942196d453caa51e0511cda7b822b7fe8a0d374",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Android应用"
+      },
+      "metadata": {
+        "json_description": "The label for category Aplikacje Android in sidebar Aplikacja"
+      }
+    },
+    {
+      "segment_id": "sidebar.Aplikacja.category.Komendy głosowe",
+      "source_content": "Komendy głosowe",
+      "source_content_hash": "45a6fee3a03089596f0a9296aa586b82aba6589933f7138ca5e83490aea616c6",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "语音指令"
+      },
+      "metadata": {
+        "json_description": "The label for category Komendy głosowe in sidebar Aplikacja"
+      }
+    },
+    {
+      "segment_id": "sidebar.Aplikacja.category.Aktualizacja",
+      "source_content": "Aktualizacja",
+      "source_content_hash": "36d72eea0846eeeb9a9e1f77c0c7fc12c2cdbed6cfb8a0d93f3af3c54e606d46",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "更新"
+      },
+      "metadata": {
+        "json_description": "The label for category Aktualizacja in sidebar Aplikacja"
+      }
+    },
+    {
+      "segment_id": "sidebar.Aplikacja.category.Pełny reset aplikacji",
+      "source_content": "Pełny reset aplikacji",
+      "source_content_hash": "cd649be10d538ddbf6a65f4f5fc2781801a835864bbd62525f192b0394f0bd98",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "应用完全重置"
+      },
+      "metadata": {
+        "json_description": "The label for category Pełny reset aplikacji in sidebar Aplikacja"
+      }
+    },
+    {
+      "segment_id": "sidebar.Integracje.category.Wbudowane integracje audio",
+      "source_content": "Wbudowane integracje audio",
+      "source_content_hash": "9a7e54a3f5c8b02c38011d03fa2f1201670eb4d6dab26b23e7e6c62fd303b579",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "内置音频集成"
+      },
+      "metadata": {
+        "json_description": "The label for category Wbudowane integracje audio in sidebar Integracje"
+      }
+    },
+    {
+      "segment_id": "sidebar.Integracje.category.Wbudowane inne integracje",
+      "source_content": "Wbudowane inne integracje",
+      "source_content_hash": "324d866fa9ca83d0c95b50d1a83c126747be851e034f947554085798334ff90a",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "其他内置集成"
+      },
+      "metadata": {
+        "json_description": "The label for category Wbudowane inne integracje in sidebar Integracje"
+      }
+    },
+    {
+      "segment_id": "sidebar.Integracje.category.IFTTT przykłady",
+      "source_content": "IFTTT przykłady",
+      "source_content_hash": "ae5ad775777e3daae6927867a66fa08f631a29b725af5c7b1d837d1d298f0525",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "IFTTT示例"
+      },
+      "metadata": {
+        "json_description": "The label for category IFTTT przykłady in sidebar Integracje"
+      }
+    },
+    {
+      "segment_id": "sidebar.Integracje.category.Integracje dodatkowe",
+      "source_content": "Integracje dodatkowe",
+      "source_content_hash": "5f9e314fdd8cf85989bbbb0156efbb1ab96f1ec0de699a91fe53337fac1e11bb",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "附加集成"
+      },
+      "metadata": {
+        "json_description": "The label for category Integracje dodatkowe in sidebar Integracje"
+      }
+    },
+    {
+      "segment_id": "sidebar.Urządznia.category.Inteligentne gniazdo WiFi",
+      "source_content": "Inteligentne gniazdo WiFi",
+      "source_content_hash": "814dc683b6ef76e59a023fcf85a3edff5b9bf4df5d363e7c5fed8b5f1386f8a9",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "智能WiFi插座"
+      },
+      "metadata": {
+        "json_description": "The label for category Inteligentne gniazdo WiFi in sidebar Urządznia"
+      }
+    },
+    {
+      "segment_id": "sidebar.Urządznia.category.Pilot radiowy z mikrofonem",
+      "source_content": "Pilot radiowy z mikrofonem",
+      "source_content_hash": "9917eda854f56bfc1fd41c889b843ad1ce7b91ad2e13e4e60fb51e71a3994497",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "带麦克风的射频遥控器"
+      },
+      "metadata": {
+        "json_description": "The label for category Pilot radiowy z mikrofonem in sidebar Urządznia"
+      }
+    },
+    {
+      "segment_id": "sidebar.Urządznia.category.AI-Speaker (DEV KIT1)",
+      "source_content": "AI-Speaker (DEV KIT1)",
+      "source_content_hash": "4521844dc0d12bfdbc158b986f86f1acdfc855422a98d75317bff6a58cca5a8c",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "AI-Speaker (开发套件1)"
+      },
+      "metadata": {
+        "json_description": "The label for category AI-Speaker (DEV KIT1) in sidebar Urządznia"
+      }
+    },
+    {
+      "segment_id": "sidebar.Urządznia.category.Zarządzanie urządzeniami AIS dom z bramki",
+      "source_content": "Zarządzanie urządzeniami AIS dom z bramki",
+      "source_content_hash": "fde1c424811797ed21943b43d783f55f2c81208218ead4025164c3313447d4f8",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过网关管理AIS智能家居设备"
+      },
+      "metadata": {
+        "json_description": "The label for category Zarządzanie urządzeniami AIS dom z bramki in sidebar Urządznia"
+      }
+    },
+    {
+      "segment_id": "sidebar.Urządznia.category.Oprogramowanie dla urządzeń AIS dom",
+      "source_content": "Oprogramowanie dla urządzeń AIS dom",
+      "source_content_hash": "9217bc7d03d5b6ce5030531dede8f98b2845d68b4cf8d9b65a66b08640f3f733",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "AIS智能家居设备软件"
+      },
+      "metadata": {
+        "json_description": "The label for category Oprogramowanie dla urządzeń AIS dom in sidebar Urządznia"
+      }
+    },
+    {
+      "segment_id": "sidebar.Urządznia.category.Zigbee Adapter",
+      "source_content": "Zigbee Adapter",
+      "source_content_hash": "ee572339f70d944853c7a8ee60364156256dd825f72e3b8766c34b42f239a458",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Zigbee适配器"
+      },
+      "metadata": {
+        "json_description": "The label for category Zigbee Adapter in sidebar Urządznia"
+      }
+    }
+  ],
+  "original_json_structure": {
+    "version.label": {
+      "message": "Next",
+      "description": "The label for version current"
+    },
+    "sidebar.System.category.Bramka AIoT": {
+      "message": "Bramka AIoT",
+      "description": "The label for category Bramka AIoT in sidebar System"
+    },
+    "sidebar.System.category.Początkowa konfiguracja Asystenta domowego": {
+      "message": "Początkowa konfiguracja Asystenta domowego",
+      "description": "The label for category Początkowa konfiguracja Asystenta domowego in sidebar System"
+    },
+    "sidebar.System.category.Zarządzanie bramką z poziomu Asystenta domowego": {
+      "message": "Zarządzanie bramką z poziomu Asystenta domowego",
+      "description": "The label for category Zarządzanie bramką z poziomu Asystenta domowego in sidebar System"
+    },
+    "sidebar.System.category.Automatyzacje": {
+      "message": "Automatyzacje",
+      "description": "The label for category Automatyzacje in sidebar System"
+    },
+    "sidebar.System.category.Dostęp w sieci lokalnej": {
+      "message": "Dostęp w sieci lokalnej",
+      "description": "The label for category Dostęp w sieci lokalnej in sidebar System"
+    },
+    "sidebar.System.category.Dostęp z Internetu": {
+      "message": "Dostęp z Internetu",
+      "description": "The label for category Dostęp z Internetu in sidebar System"
+    },
+    "sidebar.System.category.Portal Integratora": {
+      "message": "Portal Integratora",
+      "description": "The label for category Portal Integratora in sidebar System"
+    },
+    "sidebar.System.category.Ustawienia zaawansowane": {
+      "message": "Ustawienia zaawansowane",
+      "description": "The label for category Ustawienia zaawansowane in sidebar System"
+    },
+    "sidebar.System.category.Reset urządzenia do ustawień fabrycznych": {
+      "message": "Reset urządzenia do ustawień fabrycznych",
+      "description": "The label for category Reset urządzenia do ustawień fabrycznych in sidebar System"
+    },
+    "sidebar.Aplikacja.category.Aplikacja internetowa": {
+      "message": "Aplikacja internetowa",
+      "description": "The label for category Aplikacja internetowa in sidebar Aplikacja"
+    },
+    "sidebar.Aplikacja.category.Aplikacje Android": {
+      "message": "Aplikacje Android",
+      "description": "The label for category Aplikacje Android in sidebar Aplikacja"
+    },
+    "sidebar.Aplikacja.category.Komendy głosowe": {
+      "message": "Komendy głosowe",
+      "description": "The label for category Komendy głosowe in sidebar Aplikacja"
+    },
+    "sidebar.Aplikacja.category.Aktualizacja": {
+      "message": "Aktualizacja",
+      "description": "The label for category Aktualizacja in sidebar Aplikacja"
+    },
+    "sidebar.Aplikacja.category.Pełny reset aplikacji": {
+      "message": "Pełny reset aplikacji",
+      "description": "The label for category Pełny reset aplikacji in sidebar Aplikacja"
+    },
+    "sidebar.Integracje.category.Wbudowane integracje audio": {
+      "message": "Wbudowane integracje audio",
+      "description": "The label for category Wbudowane integracje audio in sidebar Integracje"
+    },
+    "sidebar.Integracje.category.Wbudowane inne integracje": {
+      "message": "Wbudowane inne integracje",
+      "description": "The label for category Wbudowane inne integracje in sidebar Integracje"
+    },
+    "sidebar.Integracje.category.IFTTT przykłady": {
+      "message": "IFTTT przykłady",
+      "description": "The label for category IFTTT przykłady in sidebar Integracje"
+    },
+    "sidebar.Integracje.category.Integracje dodatkowe": {
+      "message": "Integracje dodatkowe",
+      "description": "The label for category Integracje dodatkowe in sidebar Integracje"
+    },
+    "sidebar.Urządznia.category.Inteligentne gniazdo WiFi": {
+      "message": "Inteligentne gniazdo WiFi",
+      "description": "The label for category Inteligentne gniazdo WiFi in sidebar Urządznia"
+    },
+    "sidebar.Urządznia.category.Pilot radiowy z mikrofonem": {
+      "message": "Pilot radiowy z mikrofonem",
+      "description": "The label for category Pilot radiowy z mikrofonem in sidebar Urządznia"
+    },
+    "sidebar.Urządznia.category.AI-Speaker (DEV KIT1)": {
+      "message": "AI-Speaker (DEV KIT1)",
+      "description": "The label for category AI-Speaker (DEV KIT1) in sidebar Urządznia"
+    },
+    "sidebar.Urządznia.category.Zarządzanie urządzeniami AIS dom z bramki": {
+      "message": "Zarządzanie urządzeniami AIS dom z bramki",
+      "description": "The label for category Zarządzanie urządzeniami AIS dom z bramki in sidebar Urządznia"
+    },
+    "sidebar.Urządznia.category.Oprogramowanie dla urządzeń AIS dom": {
+      "message": "Oprogramowanie dla urządzeń AIS dom",
+      "description": "The label for category Oprogramowanie dla urządzeń AIS dom in sidebar Urządznia"
+    },
+    "sidebar.Urządznia.category.Zigbee Adapter": {
+      "message": "Zigbee Adapter",
+      "description": "The label for category Zigbee Adapter in sidebar Urządznia"
+    }
+  },
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current.json",
+  "last_updated_timestamp": "2025-06-08T18:42:08.114991+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "4c8c5c806137d155dbbfdfcdb7d40610f25510ca8b7f79beda08520cb24892f2"
+  }
+}

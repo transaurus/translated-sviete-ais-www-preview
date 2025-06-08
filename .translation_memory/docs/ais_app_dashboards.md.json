@@ -1,0 +1,162 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_app_dashboards.md",
+  "source_file_content_hash": "6e2f374635bb67f306f70e87ab3a329901f87e84fee04edd77df0c595851afc6",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Pulpity nawigacyjne\"\nsidebar_label: Pulpity nawigacyjne\n---",
+      "source_content_hash": "60a85a6b957aa5f16f773911243b09cb874abe1533371ca72adf9372012c9c14",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Możesz tworzyć wiele konfiguracji interfejsu i zapisywać je jako \"Pulpity nawigacyjne\".",
+      "source_content_hash": "05ec62d8aa7f21224e0cb8f527f6a6847bbcad7cb0b33b7446b1706c7c563ba0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "您可以创建多个界面配置并将其保存为\"仪表盘\"。"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Ta funkcjonalność pozwala na dostosowanie pulpitu do preferencji użytkownika oraz do możliwości urządzenia, na którym pulpit będzie prezentowany.\nCzyli możesz mieć pulpit z głównym układem (automatycznie generowanym), do wyświetlania w przeglądarce na desktopie, pulpit prezentujący wykresy na TV podłączonym do bramki, osobny pulpit dla dzieci, specjalny na tablet, który jest na ścianie, inny na telefonie, osobny z bardziej kolorowym tematem dla żony ;-) itp.",
+      "source_content_hash": "e46e4a440db2fc855534968f7d3bbb7055a249ee950ce87c189ecd152a4e9698",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该功能允许根据用户偏好及展示设备的特性来自定义仪表盘。这意味着您可以拥有：自动生成的主界面（用于桌面浏览器显示）、网关连接电视上展示的图表仪表盘、儿童专属仪表盘、墙面平板专用仪表盘、手机专用仪表盘、为妻子定制的彩色主题仪表盘等等;-)"
+      }
+    },
+    {
+      "segment_id": "8ac585fb",
+      "source_content": "![Przejście do konfiguracji pulpitów](/img/en/frontend/configure_dashboards.png)",
+      "source_content_hash": "2f7e2a54354d065939e1906e3bbdcff0c4f4396eac13f6e7c52de76b1a758228",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![进入仪表盘配置](/img/en/frontend/configure_dashboards.png)"
+      }
+    },
+    {
+      "segment_id": "180bddb1",
+      "source_content": "Każdy pulpit można również dodać do paska bocznego menu, z własnym tytułem i ikoną. Ponadto możliwe jest ograniczenie dostępu do pulpitu nawigacyjnego tylko dla użytkowników z rolą administratora.",
+      "source_content_hash": "3cbeacd0854a683f1347c861d346857035a453bc035871287bded7b9bfcc228c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "每个仪表盘均可添加到侧边栏菜单，支持自定义标题和图标。此外还可限制仪表盘仅对管理员角色用户可见。"
+      }
+    },
+    {
+      "segment_id": "e14c9928",
+      "source_content": "## Zarządzanie pulpitami",
+      "source_content_hash": "dda4015ab18a1558c2cc4948c573ed0f5630a740ea05a26c2ba409683d7b62cf",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 仪表盘管理"
+      }
+    },
+    {
+      "segment_id": "42ad8e83",
+      "source_content": "Do konfiguracji pulpitów przechodzimy z głównego menu, wybierając opcję \"Konfiguracja\" a następnie \"Dashboardy Lovelace\":",
+      "source_content_hash": "6b59b6118c873933bdf1c764dcc22e387ab75d8a5974647f702fe08e68b38ed1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过主菜单进入\"配置\"→\"Lovelace仪表盘\"进行配置："
+      }
+    },
+    {
+      "segment_id": "f6168993",
+      "source_content": "![Przejście do konfiguracji pulpitów](/img/en/frontend/menu_go_to_configure_dashboards.png)",
+      "source_content_hash": "9235f26c5403df3402cb95cf22b93226c8bdcccc5d2cc7569926e1135948ae61",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![进入仪表盘配置](/img/en/frontend/menu_go_to_configure_dashboards.png)"
+      }
+    },
+    {
+      "segment_id": "f5f6d2ce",
+      "source_content": "Następnie, żeby dodać nowy pulpit, naciskamy ikonkę \"plus\" po prawej stronie na dole i wypełniamy formatkę:",
+      "source_content_hash": "6072a013007c549568e2f4f2b3693bb1992f435ead8eb84eb0200c49d5ad24a6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "点击右下角\"+\"图标添加新仪表盘并填写表单："
+      }
+    },
+    {
+      "segment_id": "2fdadb08",
+      "source_content": "![Dodanie nowego pulpitu](/img/en/frontend/configure_dashboards_add_new.png)",
+      "source_content_hash": "15a35024101c1118a5bea75e44a07575b15e4e78909a9d15126e514c16912d0e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![添加新仪表盘](/img/en/frontend/configure_dashboards_add_new.png)"
+      }
+    },
+    {
+      "segment_id": "ccc88b4c",
+      "source_content": "Po utworzeniu pulpitu, możemy go ustawić jako domyślny na urządzeniu:",
+      "source_content_hash": "70bb42eee603935e29c81c5ec479a96717e77652d1b9f988e42275cbc705f3fd",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "创建后可设为设备默认仪表盘："
+      }
+    },
+    {
+      "segment_id": "d9172fa4",
+      "source_content": "![Wybranie pulpitu jako domyślnego na urządzeniu](/img/en/frontend/configure_dashboards_select_as_default.png)",
+      "source_content_hash": "41bf9c967fa2d57de08f8458d8cb50d08ffb248c3876478936df356570c3ef31",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![设为设备默认仪表盘](/img/en/frontend/configure_dashboards_select_as_default.png)"
+      }
+    },
+    {
+      "segment_id": "48847fd4",
+      "source_content": "## Przejście do pulpitu",
+      "source_content_hash": "2216fb6cc8042a02e943d4d928794272687bb0a976127762c660b8f2f144ce7a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 切换仪表盘"
+      }
+    },
+    {
+      "segment_id": "4daf5cdd",
+      "source_content": "Do pulpitu przechodzimy klikając w jego ikonkę w menu po lewej stronie lub poprzez wklejenie adresu URL pulpitu do pola wyszukiwania w przeglądarce.",
+      "source_content_hash": "cc551db499dc1500409e70a47f2e9ac096e38e3ba0a06b53ef7e7f4e2dec4860",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过左侧菜单点击图标或浏览器地址栏输入仪表盘URL进行访问："
+      }
+    },
+    {
+      "segment_id": "bdc231b1",
+      "source_content": "![Wybranie pulpitu](/img/en/frontend/configure_dashboards_select_to_edit.png)",
+      "source_content_hash": "4d71f9bb9bb98f9110da27a9476cd5cda2c73e7e019a008957126fe4df287058",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![选择仪表盘](/img/en/frontend/configure_dashboards_select_to_edit.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_app_dashboards.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.125263+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "6e2f374635bb67f306f70e87ab3a329901f87e84fee04edd77df0c595851afc6"
+  }
+}

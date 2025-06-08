@@ -1,0 +1,62 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2019-02-05-release-notes.md",
+  "source_file_content_hash": "a3bea23b8580bf0738bcc134f9ac8756b2bfd51370a48d1f8c8f91bad9d4302d",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Andrzej Raczkowski\nauthorURL: https://github.com/sviete\nauthorFBID: 1546384510\ntitle: Wersja systemu 0.86.7 Portal integratora\n---",
+      "source_content_hash": "cc93a0e9ee9fb25503b6ddf21ade8c9158630b42a3bcfa52440ec02675d43ee3",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Wersja systemu 0.86.7 z dnia 05 lutego 2019 roku,",
+      "source_content_hash": "05acae8dd437b5e40e7546ac549ff1c0dce402ee621b9e5d62eeb55950af5532",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 系统版本 0.86.7 发布于2019年2月5日"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "w tej wersji dodano:",
+      "source_content_hash": "3872a90319800ef209dc86e7768257437634efb2d0bd4158297f09cf8d4b1322",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "本版本新增功能："
+      }
+    },
+    {
+      "segment_id": "be33979e",
+      "source_content": "- nowy interfejs użytkownika umożliwiający łatwą konfigurację aplikacji z przeglądarki\n- konfiguracja treści i usług\n- możliwość włączenia dostępu do bramki z Internetu\n- najnowszy Home Assistant <a href=\"https://www.home-assistant.io/blog/2019/01/23/release-86/\" target=\"_blank\">0.86</a>",
+      "source_content_hash": "868df1dd8aae25b52fc492a574d90d96fc8a777638875613b0829dbf31c74922",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 全新用户界面支持通过浏览器轻松配置应用\n- 内容与服务配置\n- 可启用网关的互联网访问功能\n- 最新版Home Assistant <a href=\"https://www.home-assistant.io/blog/2019/01/23/release-86/\" target=\"_blank\">0.86</a>"
+      }
+    },
+    {
+      "segment_id": "42ad8e83",
+      "source_content": "![Konfiguracja interfejsu użytkownika](/img/en/frontend/frontend-card-edit.png)",
+      "source_content_hash": "71df760f210a927dd5b6bd2b0348e59028f48321cf2edf235a0d6de090f5164c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![用户界面配置](/img/en/frontend/frontend-card-edit.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2019-02-05-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.097669+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "a3bea23b8580bf0738bcc134f9ac8756b2bfd51370a48d1f8c8f91bad9d4302d"
+  }
+}

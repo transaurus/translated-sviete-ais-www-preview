@@ -1,0 +1,222 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_remote_mode_off_tv.md",
+  "source_file_content_hash": "dc1e37696a183b3099e374a87d2768d62013825bcad877357df5352e26d94b3f",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Sterowanie bez monitora\"\nsidebar_label: Sterowanie bez monitora\n---",
+      "source_content_hash": "00c7e54e8bb088339b6e064a9831546989b901ef93fb08db56d1b78a83cb5597",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Wprowadznie",
+      "source_content_hash": "dd8fcf37c3c3e73df3b6a992ade11be02eeb534fb7f1cedfb8baa5ef70e5955d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 简介"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "W tym trybie można sterować całym systemem za pomocą dedykowanego menu zorganizowanego w sposób umożliwiający szybką nawigację pilotem do każdego elementu systemu. Informacja zwrotna o wybranej pozycji oraz aktualnym statusie elementów systemu przekazywana jest głosowo.",
+      "source_content_hash": "b9ab404369052378f554bb42689034ec73f8f4ddbae2310f50532e02cbac8f44",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在此模式下，可通过专用菜单控制系统，该菜单采用便于遥控器快速导航至系统各元素的布局方式。所选条目及系统元素当前状态的反馈信息将通过语音传达。"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "![Pilot do asystenta](/img/en/remote/remote_off_tv_mode.png)",
+      "source_content_hash": "7982b4f3777c3defe8580bf2bb29628c3181423f1ee224e5a04a11a1c80de084",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![智能助手遥控器](/img/en/remote/remote_off_tv_mode.png)"
+      }
+    },
+    {
+      "segment_id": "2e76584d",
+      "source_content": ":::tip[Wskazówka]\nSterowanie bez monitora to wygodniejszy sposób na korzystanie z systemu Asystent domowy. Aplikację webową dostępną na bramce łatwiej jest obsługiwać z przeglądarki na komputerze, w ten sposób wykorzystamy też, pełne możliwości pilota sterując audio. Asystent domowy od początku zaprojektowany został jako podstawa dla inteligentnego głośnika AI-Speaker. Tryb sterowania bez monitora będzie domyślnym trybem, gdy zakończymy wersję developerską i zaczniemy produkować głośnik.\n:::",
+      "source_content_hash": "490912d5603ad9ba335a21dd922cd55dc47057458389a0b651e328c0bfbe60fb",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::tip[提示]\n无屏控制是使用智能家居系统更便捷的方式。通过电脑浏览器访问网关上的网页应用操作更简便，同时可充分发挥遥控器的音频控制功能。智能家居系统自设计之初即作为AI-Speaker智能音箱的核心基础。当开发者版本结束后开始量产音箱时，无屏控制模式将成为默认模式。\n:::"
+      }
+    },
+    {
+      "segment_id": "42ad8e83",
+      "source_content": "W trybie `Sterowanie bez monitora` prezentujemy na ekranie kilka informacji w trybie tylko do odczytu - użytkownik nie może w nie kliknąć. Pilot w tym trybie ma specjalne menu umożliwiające łatwe nawigowanie po systemie.",
+      "source_content_hash": "e49cd549ee7ef38c59b80f0cb4af63e6c2fdba17c5ec5b1d72fe296d1ec7d400",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在`无屏控制`模式下，屏幕上仅显示部分只读信息——用户无法点击交互。此模式下遥控器配备专用菜单，可轻松实现系统导航。"
+      }
+    },
+    {
+      "segment_id": "f6168993",
+      "source_content": "![Sterowanie bez monitora](/img/en/bramka/bramka_start_menu_off_screen.png)",
+      "source_content_hash": "5c921ad973d7458fcc91c07f42eff618b64d5bba6e94bf2e2029799202ab71fb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![无屏控制](/img/en/bramka/bramka_start_menu_off_screen.png)"
+      }
+    },
+    {
+      "segment_id": "63622bf0",
+      "source_content": "## Dedykowane menu",
+      "source_content_hash": "6acc5255d1cadccd1d37ad521cc49f0c295777d744aea2183a311746b6171bda",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 专用菜单"
+      }
+    },
+    {
+      "segment_id": "f2c2bdd0",
+      "source_content": "Nawigowanie po systemie w tym trybie jest intuicyjne, najpierw wybierz jedną z czterech głównych grup:",
+      "source_content_hash": "8127a545ce5310125ba21fd0679127ac548cde116d18b04523cd1bf0aad07ef7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该模式下的系统导航直观简单：首先从四个主功能组中选择："
+      }
+    },
+    {
+      "segment_id": "b3f5c97c",
+      "source_content": "- Mój dom\n- Audio\n- Ustawienia\n- Pomoc",
+      "source_content_hash": "785b570bcd5fb70ff88b09599f99ddaae7f6590a0ba72c760cc652ef8ef39d3e",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 我的家\n- 音频\n- 设置\n- 帮助"
+      }
+    },
+    {
+      "segment_id": "73ab96a3",
+      "source_content": "i przejdź do interesującej cię kategorii. W grupie ‘Mój dom’ możesz sprawdzać status i sterować urządzeniami domowymi.",
+      "source_content_hash": "3e03689b3a4907a6e02dff387d9f42df8f4dc44bf79c408d681c582dd6f34371",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "随后进入目标分类。在\"我的家\"组中可查看状态并控制家居设备。"
+      }
+    },
+    {
+      "segment_id": "7499a4e7",
+      "source_content": "W grupie ‘Audio’ znajdziesz odtwarzacz, wiadomości, radia internetowe, podcasty, muzykę oraz audio książki.",
+      "source_content_hash": "f8e774dd1d7877bdc8e9fdefc2f509cd69ebdc191dd87374ff6a21408135da61",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "\"音频\"组包含播放器、新闻、网络电台、播客、音乐及有声书。"
+      }
+    },
+    {
+      "segment_id": "517051a7",
+      "source_content": "W grupie ‘Ustawienia’ znajdziesz kategorię ‘Zamiana tekstu na mowę’. Możesz tutaj zmienić głos asystentki (do wyboru są różne głosy kobiet i mężczyzn). Możesz też zmienić szybkość i ton mowy.",
+      "source_content_hash": "eac96f24263163ae54cf2aae5428a989aab60dd02885b6d6997f82fa0a958599",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "\"设置\"组中的\"文本转语音\"分类可修改助手语音（提供多种男女声选择），并调整语速和语调。"
+      }
+    },
+    {
+      "segment_id": "135468ee",
+      "source_content": "W grupie “Pomoc” możesz sprawdzić wersję systemu, informacje o sieci, status systemu oraz strony pomocy.",
+      "source_content_hash": "fa8cef613b2961fe2b17dd13f561b06546ecdb55fcd31fe4c2a196a2970104b4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "\"帮助\"组可查看系统版本、网络信息、系统状态及帮助页面。"
+      }
+    },
+    {
+      "segment_id": "33331f27",
+      "source_content": "Pamiętaj, że radia, wiadomości i podcasty są pogrupowane po ich typie, na przykład radia informacyjne, radia muzyczne, wiadomości z kraju i ze świata, podcasty o biznesie, podcasty informacyjne.",
+      "source_content_hash": "6c959d84e909366d76b9efed0f2939094b596373eed302540de0db2160a03434",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "请注意，电台、新闻和播客均按类型分组，例如新闻电台、音乐电台、国内外新闻、商业播客、资讯播客等。"
+      }
+    },
+    {
+      "segment_id": "8d04259b",
+      "source_content": "## Przyciski skróty",
+      "source_content_hash": "6b17a40e50f589f8c707d19ee815f62fa2905fe846904b54ec11e97d70cf7750",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 快捷键按钮"
+      }
+    },
+    {
+      "segment_id": "3ff39c1d",
+      "source_content": "> W trybie sterowania bez monitora niektóre przyciski pełnią role skrótów do funkcjonalności w celu umożliwienia szybkiego nawigowania.",
+      "source_content_hash": "26033500b300fb2af378194095b5bded63ed14a426a955b08b7696b65783bba4",
+      "node_type": "blockquote",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "> 无屏控制模式下，部分按钮作为功能快捷键以实现快速导航。"
+      }
+    },
+    {
+      "segment_id": "aa1e7006",
+      "source_content": "![Pilot do asystenta](/img/en/remote/remote_special_keys.png)",
+      "source_content_hash": "e1e16e0b52249d27b485e2fcd7138a759014de63b936232bd7a397791a30032f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![智能助手遥控器](/img/en/remote/remote_special_keys.png)"
+      }
+    },
+    {
+      "segment_id": "f44c1398",
+      "source_content": "## Sterowanie odtwarzaczem",
+      "source_content_hash": "16be7632d664adc48b62779e67090ec4a4f0a3604fdf4dc43e167fe3c1a84784",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 播放器控制"
+      }
+    },
+    {
+      "segment_id": "29528c8d",
+      "source_content": "W tym trybie (sterowanie bez monitora) uruchomienie audio powoduje automatyczne przejście do sterowania wbudowanym odtwarzaczem. Dzięki temu po włączeniu wybranego audio możemy od razu kontrolować jego odtwarzanie, działają tu pojedyncze naciśnięcia przycisków oraz ich długie przytrzymanie:",
+      "source_content_hash": "179ff4d2ed71c80d26d0c16ab0221570fdb13d4e49389b878386313f935c1327",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在此模式（无屏幕控制模式）下启动音频将自动切换至内置播放器控制界面。通过该功能，选定音频播放后即可直接进行播放控制，支持单击和长按操作："
+      }
+    },
+    {
+      "segment_id": "c504c207",
+      "source_content": "![Pilot do asystenta](/img/en/remote/remote_audio_controle.png)",
+      "source_content_hash": "4f825cbfc75a18a556bcc78ba91afe9c9aea3355a44635ceedd743d37574617e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Pilot do asystenta](/img/en/remote/remote_audio_controle.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_remote_mode_off_tv.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.114751+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "dc1e37696a183b3099e374a87d2768d62013825bcad877357df5352e26d94b3f"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_reset_index.md",
+  "source_file_content_hash": "707e1f03abf66be473d8aa491fd4448aab363e850ccb3ab8f66092455503ef15",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Przywracanie ustawień fabrycznych urządzenia\"\nsidebar_label: Wprowadzenie\n---",
+      "source_content_hash": "ca45a45bc17ecc94965572c2aacca492f9976686e6a1e0172147d81344476ee8",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Urządzenie działa na specjalnie zmodyfikowanej wersji systemu Android (custom build). Ta wersja Androida posiada preinstalowany system **“Asystent domowy”** oraz wszystkie aplikacje pomocnicze systemu.",
+      "source_content_hash": "bf87cd0a0c3fce9ae73cae422abf6375f299d9708b35340417ca663532e4cbf8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该设备运行于特别定制的Android系统版本（自定义构建）。此Android版本预装了**\"家庭助手\"**系统及所有配套应用程序。"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Przywracanie ustawień fabrycznych jest przywracaniem systemu do jego pierwotnego/fabrycznego stanu poprzez usunięcie wszystkich informacji zapisanych na urządzeniu. W ten sposób skutecznie usuniesz wszystkie dane, ustawienia i aplikacje, które zainstalowałeś na urządzeniu po jego zakupie.",
+      "source_content_hash": "971e1e7a1ac8c6e8a609136d26a4b9753540ca4f5eb4034caefdbab5cc5f5847",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "恢复出厂设置是通过删除设备上存储的所有信息将系统还原至初始/出厂状态。此操作将彻底清除设备购买后安装的所有数据、设置和应用程序。"
+      }
+    },
+    {
+      "segment_id": "bb849aa9",
+      "source_content": ":::danger[ostrzeżenie]\n**NIE rób tego jeśli nie prosi cię o to serwis AIS.** \n\nJeśli wykonasz reset do ustawień fabrycznych to zmieni się unikalny identyfikator bramki -> [Secure Android ID](https://developer.android.com/reference/android/provider/Settings.Secure#ANDROID_ID).\n\n\nJeśli wykonasz reset do ustawień fabrycznych to na DEV3 możesz stracić dostęp do konta root -> [wyjaśnienie na forum](https://ai-speaker.discourse.group/t/dev3-dostep-do-konta-root-po-wykonaniu-factory-reset/2066).\n:::",
+      "source_content_hash": "31d0bef9b03a594f5135c8815681d794bc93f6eed185cccd840b71e6fc1a5ce8",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::danger[警告]\n**除非AIS技术支持要求，否则切勿执行此操作**\n\n执行恢复出厂设置将改变网关唯一标识符 -> [Secure Android ID](https://developer.android.com/reference/android/provider/Settings.Secure#ANDROID_ID)\n\n在DEV3设备上执行恢复出厂设置可能导致root账户访问权限丢失 -> [论坛说明](https://ai-speaker.discourse.group/t/dev3-dostep-do-konta-root-po-wykonaniu-factory-reset/2066)\n:::"
+      }
+    },
+    {
+      "segment_id": "8a545039",
+      "source_content": ":::caution[Uwaga]\nPrzywrócenie urządzenia do pierwotnych ustawień producenta wykonuje się, aby rozwiązać poważny problem z urządzeniem, którego nie daje się rozwiązać w inny sposób.\n:::",
+      "source_content_hash": "f4adb6dc9b0cb62d821ef9218ba3e9f9df9cc363f4f956f747626ab5f510d48c",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[注意]\n恢复设备至出厂设置的目的是解决无法通过其他方式处理的严重设备问题。\n:::"
+      }
+    },
+    {
+      "segment_id": "8e773518",
+      "source_content": "> System jest w fazie intensywnego rozwoju (wydajemy nową wersje średnio co 3 tygodnie), dlatego wersja fabryczna może odbiegać od wersji aktualnej - **pierwsze uruchomienie i ponowna instalacja wszyskich składowych może potrwać znacznie dłużej niż zwykle** i może wymagać dodatkowych kroków.",
+      "source_content_hash": "c888ba936a7c0e485db063b53836ae9fe0713f357f8cdbcd706c0cee91d45768",
+      "node_type": "blockquote",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "> 系统正处于密集开发阶段（平均每3周发布新版本），因此出厂版本可能与当前版本存在差异——**首次启动和重新安装所有组件所需时间可能远超平常**，且可能需要额外操作步骤。"
+      }
+    },
+    {
+      "segment_id": "f79f5ed0",
+      "source_content": ":::tip[Wskazówka]\nJeśli eksperymentujesz z ustawieniami systemu, tworzysz własne integracje, zmieniasz kody na bramce, nadpisujesz konfigurację i coś działa nie tak, to [Wykonanie pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step). Polegające na usunięciu wszystkich ustawień i kodów aplikacji Asystent domowy na bramce i nadpisaniu ich **domyślnymi, najnowszymi kodami i ustawieniami** - jest zalecanym bezpiecznym sposobem na rozwiązywanie problemów z systemem.\n:::",
+      "source_content_hash": "00b3880e773ed776e1b026ef7fe07a60f9f11bd5c37e9233f55b584c4bc28bd8",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::tip[提示]\n若您正在调试系统设置、创建自定义集成、修改网关代码或覆盖配置时遇到异常，建议采用[执行应用程序完全重置](/docs/ais_bramka_reset_ais_step_by_step)方案。该操作通过删除网关所有家庭助手应用设置及代码，并替换为**默认最新代码和设置**，是解决系统问题的安全推荐方案。\n:::"
+      }
+    },
+    {
+      "segment_id": "a1b3d8cb",
+      "source_content": "### Przywracanie ustawień fabrycznych wykonuj po konsultacji i pod kontrolą serwisu AI-Speaker.",
+      "source_content_hash": "992377d4fecdec32410d4794e19fffc769b917259f7c652cb6222ca42d4febbe",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 恢复出厂设置需在AI-Speaker技术支持下进行"
+      }
+    },
+    {
+      "segment_id": "26b47687",
+      "source_content": ":::danger[ostrzeżenie]\nPrzywracanie ustawień fabrycznych urządzenia, to procedura, która polega na cofnięciu się z wersją systemu do... ustawień fabrycznych (do wersji systemu z dnia zakupu).\n\nŻeby otrzymać opis, jak wykonać `Przywracanie ustawień fabrycznych urządzenia` napisz do nas: [info@ai-speaker.com](mailto:info@ai-speaker.com)\n:::",
+      "source_content_hash": "ca25165dbd4139feb03a2212dee5b247f9a822cee61e00c0799ce3bc82f88ce1",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::danger[警告]\n设备恢复出厂设置是将系统版本回退至...出厂状态（设备购买时的系统版本）。\n\n如需获取《设备恢复出厂设置操作指南》，请邮件联系：[info@ai-speaker.com](mailto:info@ai-speaker.com)\n:::"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_reset_index.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.128672+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "707e1f03abf66be473d8aa491fd4448aab363e850ccb3ab8f66092455503ef15"
+  }
+}

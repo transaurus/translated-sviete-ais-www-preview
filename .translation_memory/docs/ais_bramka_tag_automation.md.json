@@ -1,0 +1,452 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_tag_automation.md",
+  "source_file_content_hash": "cf94597347f97f9c45e4caafb24b4374a819dfb9b5bd66e5b84efde65a8a876f",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Automatyzacja wyzwalana skanem\"\nsidebar_label: Automatyzacja wyzwalana skanem\n---",
+      "source_content_hash": "57e2fc13d92156f34f3ab759e2aac5d52a8d74f4a8e2c07b19a68eef21d453da",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Wprowadzenie",
+      "source_content_hash": "138964b3f05ef631ae55efd030ca96538eb5d783961ef7b978515da6c937d13f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 简介"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Zamiast mówić komendę lub wpisywać ją w okienko czatu z Asystentem domowym możemy przyłożyć odblokowany telefon do taga NFC i przesłać do bramki komendę do wykonania.\nMożemy też zeskanować aparatem w telefonie QR kod i wysłać go do bramki w celu uruchomienia automatyzacji.",
+      "source_content_hash": "463910ea1c902f622ec91a80a3e3039a576382ee553c6fed1b898a7915299a17",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "无需通过语音指令或聊天窗口输入命令，只需将已解锁的手机贴近NFC标签，即可向网关发送待执行指令。  \n您也可以通过手机摄像头扫描二维码，将其发送至网关以触发自动化流程。"
+      }
+    },
+    {
+      "segment_id": "8ac585fb",
+      "source_content": "Funkcjonalność skanowania kodów QR oraz tagów NFC wbudowana jest w naszą mobilną aplikację AIS dom - skanowanie.",
+      "source_content_hash": "e0f8d4517a73ab0e27ded40ff90a3d09fc9b28e27c0845237d6698e8c742f869",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "二维码与NFC标签扫描功能已内置在我们的移动应用\"AIS dom - 扫描\"中。"
+      }
+    },
+    {
+      "segment_id": "180bddb1",
+      "source_content": "![AIS scan](/img/en/bramka/ais_scan_tags.png)",
+      "source_content_hash": "ee02f3fb341c5f3a6a2654f5a140d120d032f4d88c4a2497c182884bdf954a5d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS scan](/img/en/bramka/ais_scan_tags.png)"
+      }
+    },
+    {
+      "segment_id": "e14c9928",
+      "source_content": "### Obsługiwane skany",
+      "source_content_hash": "c608b54f06b54b767c5496eefd63f262b3a492ee0bd6e3e618ed2f5c171c65cc",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 支持的扫描类型"
+      }
+    },
+    {
+      "segment_id": "42ad8e83",
+      "source_content": "Staramy się umożliwić skanowanie wszystkich tagów, obsługujemy je na 4 sposoby:",
+      "source_content_hash": "79a6ef29b0174a172fea231729c197e7a87232d779bb054e756b6586b9eae7b0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们致力于支持所有标签扫描，目前提供四种处理方式："
+      }
+    },
+    {
+      "segment_id": "aee0e40d",
+      "source_content": "#### 1. Skan identyfikatora bramki AIS",
+      "source_content_hash": "0c4fd62f6967d347ae68ebdf8c2ef53e60d38e19ca6a9be96ae1941172da3af8",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "#### 1. AIS网关标识扫描"
+      }
+    },
+    {
+      "segment_id": "f5f6d2ce",
+      "source_content": "Po zeskanowaniu identyfikatora bramki AIS, ustalamy dane do połączenia i łączymy z bramką.",
+      "source_content_hash": "0b120acbe189d20702ad9c468b5d2c39b99d61e5e57644861b35c0d00fcd1d35",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "扫描AIS网关标识后，系统将自动配置连接参数并建立与网关的通信。"
+      }
+    },
+    {
+      "segment_id": "2fdadb08",
+      "source_content": "![AIS scan](/img/en/bramka/nfc_ais_scan.png)",
+      "source_content_hash": "acf81d3550b3d42055c7e1847979ef970393e38e891ab1c3be2188bad0b7aeae",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS scan](/img/en/bramka/nfc_ais_scan.png)"
+      }
+    },
+    {
+      "segment_id": "79b2d0b9",
+      "source_content": "#### 2. Tagi NFC z danymi tekstowymi",
+      "source_content_hash": "867992ff156d0d72455117a9746931caa81e1fdb938e1099a2f5644b85ed1456",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "#### 2. 含文本数据的NFC标签"
+      }
+    },
+    {
+      "segment_id": "d9172fa4",
+      "source_content": "Jeżeli w zeskanowanym tagu zapisany jest rekord z danymi tekstowymi - ``text/plain`` to zeskanowane dane traktujemy jako komendę tekstową i wysyłamy ją do bramki.\nW ten sposób możemy zapisać na tagu [dowolną komendę którą rozumie Asystent domowy](/docs/ais_app_assistent_commands/) i sterować dowolnymi urządzeniami lub uruchamiać audio czy automatyzację w systemie.",
+      "source_content_hash": "9ff9f6abfc4a80370bc70b54f25b35ec41a9dc9d4a81dd88851b2e0775afdab4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "若扫描标签包含纯文本记录（``text/plain``），系统会将扫描内容视为文本指令发送至网关。  \n通过此方式，您可在标签上存储[家庭助理支持的任何指令](/docs/ais_app_assistent_commands/)，从而控制系统设备、播放音频或触发自动化流程。"
+      }
+    },
+    {
+      "segment_id": "dfe931a2",
+      "source_content": "![NFC text](/img/en/bramka/nfc_text_data.png)",
+      "source_content_hash": "ef77f92f093c83ac6c8115a1ecf43556a2d888938bfa60c4e45027ea151784f7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![NFC text](/img/en/bramka/nfc_text_data.png)"
+      }
+    },
+    {
+      "segment_id": "a1b3d8cb",
+      "source_content": "#### 3. Tagi z identyfikatorem danych ais/event",
+      "source_content_hash": "1fbb45fc5b3d538c5f44fcf39a5a3d9bb64fc3aa9f29eed47b868e2785508968",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "#### 3. 含ais/event数据标识的标签"
+      }
+    },
+    {
+      "segment_id": "517051a7",
+      "source_content": "Rozpoznajemy identyfikator zasobów URI ``ais/event``",
+      "source_content_hash": "c3a9a02a3afc1789d5ba8f44600bd138e32f5681a2fd83bb158668a3bbaeacfa",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "系统可识别URI资源标识符``ais/event``"
+      }
+    },
+    {
+      "segment_id": "135468ee",
+      "source_content": "![NFC event](/img/en/bramka/nfc_ais_data.png)",
+      "source_content_hash": "b0cc015e4a29bb04b36b817dd1506505993193ea813c08d366a11195e6c0370c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![NFC event](/img/en/bramka/nfc_ais_data.png)"
+      }
+    },
+    {
+      "segment_id": "3cfe6286",
+      "source_content": "Po zeskanowaniu taga NFC z identyfikatorem danych ais/event wyzwalamy na bramce zdarzenie **tag_scanned** a w danych tego zdarzenia (w **event_data**) przekazujemy dane zapisane w rekordzie typu ``ais/event``.\nPozwala to na dodanie automatyzacji, której wyzwalaczem jest zdarzenie skanowanie taga NFC.\nPoniżej opiszemy dwa przykłady wykorzystania tego mechanizmu.",
+      "source_content_hash": "d7bc79654bb7dfe82d93d27d913733554199a5a11fce51447099d77b4ba94d7c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "扫描含ais/event数据标识的NFC标签时，网关将触发**tag_scanned**事件，并通过**event_data**字段传递记录在``ais/event``类型中的内容。  \n该机制支持创建以NFC标签扫描为触发条件的自动化规则，下文将详述两个应用案例。"
+      }
+    },
+    {
+      "segment_id": "f44c1398",
+      "source_content": "#### 4. Inne",
+      "source_content_hash": "bfb066e7978665e509d7c1aa8cace18fb6277c364af176c7769653cfb51807fd",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "#### 4. 其他类型"
+      }
+    },
+    {
+      "segment_id": "29528c8d",
+      "source_content": "Możesz też zeskanować np. swoją kartę bankomatową, zegarek, głośnik i inne urządzenia/przedmioty które mają tag NFC.\nJeśli uda nam się odczytać z nich identyfikator to potraktujemy go jak ais/event i wyzwolimy na bramce zdarzenie **tag_scanned** a w danych tego zdarzenia (w **event_data**) przekazujemy identyfikator zeskanowanego taga: **tag_id**.",
+      "source_content_hash": "201a60131319e065d60b2fe2bf9450fd810a2e544f6f09199a9d220bea2979eb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "您还可扫描银行卡、智能手表、音响等带有NFC标签的设备/物品。  \n若能成功读取标识符，系统会将其视作ais/event处理：触发**tag_scanned**事件，并通过**event_data**字段传递扫描标签的**tag_id**标识符。"
+      }
+    },
+    {
+      "segment_id": "a646eac9",
+      "source_content": ":::info\nDo zapisu tekstu do tagów NFC polecamy darmową aplikację [NFC Tools](https://play.google.com/store/apps/details?id=com.wakdev.wdnfc&hl=pl).\nAplikacja ta jest bardzo intuicyjna. Po jej uruchomieniu w pierwszej zakładce możemy odczytać tag NFC i sprawdzić, czy jest odblokowany do zapisu. Jeżeli tag jest zapisywalny, to przechodzimy do zakładki **ZAPIS** i wybieramy opcję **Dodaj pozycję**. Następnie wybieramy pozycję typu **Tekst** i wprowadzamy tekst polecenia/komendy, która ma być wykonana na bramce, np. ``Włącz radio Eska Rock`` i zatwierdzamy **OK**.\n:::",
+      "source_content_hash": "f31eb42a0ecdedd4b1bc6ad12e3cb4c4d1c31543347e0cb76f3ff05dda1f743a",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::info\n推荐使用免费应用[NFC Tools](https://play.google.com/store/apps/details?id=com.wakdev.wdnfc&hl=pl)来向NFC标签写入文本。该应用操作直观：启动后，在首个标签页可读取NFC标签并检查是否解锁写入权限。若标签可写入，则切换至**写入**标签页，选择**添加记录**，然后选择**文本**类型，输入需要网关执行的指令文本（例如``播放Eska Rock电台``），最后点击**确认**。\n:::"
+      }
+    },
+    {
+      "segment_id": "1a316f80",
+      "source_content": "## Przykład 1. - Informacja głosowa o zeskanowanym identyfikatorze",
+      "source_content_hash": "e26598411d0c49c5ca60cbb11e7b4ed560c629eadd3090bc195a7722e790eea6",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 示例1 - 语音播报扫描到的标识符"
+      }
+    },
+    {
+      "segment_id": "40158b4b",
+      "source_content": "Dodajemy automatyzację o nazwie ``Skan taga NFC z identyfikatorem``:",
+      "source_content_hash": "55f69c134bad2a3dc464af05896bf5aeb984424ef7b697d50ee3ad11e0cd513a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "创建名为``扫描NFC标签标识符``的自动化："
+      }
+    },
+    {
+      "segment_id": "6ea4c715",
+      "source_content": "![NFC](/img/en/bramka/nfc_auto_example1.png)",
+      "source_content_hash": "22a317b0189290f60193e2228f5cecdf73ea25b02653b3c78d5c7ea10030cd67",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![NFC](/img/en/bramka/nfc_auto_example1.png)"
+      }
+    },
+    {
+      "segment_id": "79ad944d",
+      "source_content": "Jako wyzwalacz tej automatyzacji wybieramy zdarzenie typu ``tag_scanned``:",
+      "source_content_hash": "d5a20947bbf038e88c70c3e7f80ea81627b8c501bed387592be65092d1c53f86",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "选择触发器类型为``tag_scanned``事件："
+      }
+    },
+    {
+      "segment_id": "531437ca",
+      "source_content": "![NFC](/img/en/bramka/nfc_auto_example2.png)",
+      "source_content_hash": "eac2dff7e7e78faf33c895f1d7cb0397c97948ad8cfaacf273b96908b4bf57d8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![NFC](/img/en/bramka/nfc_auto_example2.png)"
+      }
+    },
+    {
+      "segment_id": "06e24cc0",
+      "source_content": "Akcja do wykonania to uruchomienie serwisu mówiącego tekst. Tekstem jest informacja o zeskanowanym identyfikatorze:",
+      "source_content_hash": "f6ae8aa1850c63d4478da5a691a6e2b15b0f9b0500cba0a79819dbbc1b69693e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "执行动作为语音播报服务，播报内容为扫描到的标识符信息："
+      }
+    },
+    {
+      "segment_id": "7d13cf22",
+      "source_content": "``` yaml\nservice: ais_ai_service.say_it\ndata_template:\n  text: Zeskanowano kod NFC {{ trigger.event.data.tag_id }}\n\n```",
+      "source_content_hash": "ec3d53b52d67883510af72af2c6a3398821b246da61b8beeb7669a632a239c60",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_7d13cf22"
+      }
+    },
+    {
+      "segment_id": "afa378f7",
+      "source_content": "![NFC](/img/en/bramka/nfc_auto_example3.png)",
+      "source_content_hash": "579fec298dd1e6540267cd865ae09771ca0d4fa064acc72c332b8be1ec67d67d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![NFC](/img/en/bramka/nfc_auto_example3.png)"
+      }
+    },
+    {
+      "segment_id": "8a9b6c26",
+      "source_content": "## Przykład 2. - Wyłączenie światła po zeskanowaniu określonego identyfikatora NFC",
+      "source_content_hash": "a7bd7c86ee12eb071040e27b3680e749c0b6430bcc30784fde4160f82f3e1e5a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 示例2 - 扫描指定NFC标识符后关闭灯光"
+      }
+    },
+    {
+      "segment_id": "a1fa5396",
+      "source_content": "Dodajemy automatyzację ``Włącz światło w salonie po skanie karty płatniczej``:",
+      "source_content_hash": "d9c2087b2912d32640cbdc88bed1beba072b49fbbecf65d150e646692ffe473a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "创建名为``扫描银行卡后开启客厅灯``的自动化："
+      }
+    },
+    {
+      "segment_id": "ec619944",
+      "source_content": "![NFC](/img/en/bramka/nfc_auto_example4.png)",
+      "source_content_hash": "93bc7767f2661d35cfb413eb102352a45b0cbabe6da6fe7566cb34ad5c6a25d5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![NFC](/img/en/bramka/nfc_auto_example4.png)"
+      }
+    },
+    {
+      "segment_id": "2547a6bb",
+      "source_content": "Wyzwalacz tej automatyzacji to zdarzenie typu ``tag_scanned`` z określonym identyfikatorem ``tag_id``",
+      "source_content_hash": "826e49d8b70cca20577f7fd402a91d16583af234aab8a17cea4c10b5a64a310c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "触发器设置为``tag_scanned``事件，并指定目标``tag_id``标识符："
+      }
+    },
+    {
+      "segment_id": "5803caac",
+      "source_content": "![NFC](/img/en/bramka/nfc_auto_example5.png)",
+      "source_content_hash": "d065d657c3c47398a19c71b181a300d2ac375adfca697b83f880c5716d0d215e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![NFC](/img/en/bramka/nfc_auto_example5.png)"
+      }
+    },
+    {
+      "segment_id": "6b77b644",
+      "source_content": "Akcja do wykonania to przełączenie (toggle) naszego światła w salonie:",
+      "source_content_hash": "ae9a9b532811b47b36aa475412813da74f1dc852d09a9d3a97a75b75e7926260",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "执行动作为切换客厅灯光状态："
+      }
+    },
+    {
+      "segment_id": "a311e967",
+      "source_content": "![NFC](/img/en/bramka/nfc_auto_example6.png)",
+      "source_content_hash": "efcab6d611d25568cc9eca28d3070d61324f3d1d61ac8ff9ad1858105cf21e14",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![NFC](/img/en/bramka/nfc_auto_example6.png)"
+      }
+    },
+    {
+      "segment_id": "e06c002e",
+      "source_content": "## Wideo prezentujące działanie",
+      "source_content_hash": "df418b1ecb1f33614bb9ce9c519e3ee329ac3b4fc4bc0a5f52b4fac29fbfa89c",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 功能演示视频"
+      }
+    },
+    {
+      "segment_id": "6fa14611",
+      "source_content": "<iframe width=\"560\" height=\"315\"  src=\"https://www.youtube.com/embed/nzRBeRZZX7Q\" frameBorder=\"0\" allowFullScreen></iframe>",
+      "source_content_hash": "dd868e7ed2ec1763f196771d442018bbed0313b9356955c278b46b415e2d6b12",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_6fa14611"
+      }
+    },
+    {
+      "segment_id": "54bafb10",
+      "source_content": "## Schemat automatyzacji",
+      "source_content_hash": "f6e32c06e74c707ff40ad2ec27feb273cc7dd5f46f5441bcbc5ed35e8ee4b339",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 自动化蓝图"
+      }
+    },
+    {
+      "segment_id": "4be28ed1",
+      "source_content": "Automatyzację wyzwalaną przez skan TAG-a możemy w łatwy sposób utworzyć na podstawie gotowego [schematu automatyzacji](ais_bramka_automation_blueprint).",
+      "source_content_hash": "ae796a5e42b6110e3264f29c9b5432e95401c915197e4780f8c5d5f28f2ca142",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过现成的[自动化蓝图](ais_bramka_automation_blueprint)可快速创建基于TAG扫描触发的自动化。"
+      }
+    },
+    {
+      "segment_id": "0e80209e",
+      "source_content": "Wystarczy, że:",
+      "source_content_hash": "61d6b0597f4d039c154924ea1f066f804ca95233dc54008178d34eb1a7fa31cd",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "只需两步："
+      }
+    },
+    {
+      "segment_id": "2270deb6",
+      "source_content": "1. Wybierzemy predefiniowany schemat **Wykonanie komendy po zeskanowaniu TAG-a**",
+      "source_content_hash": "ff73dadc89aaddd92698a8a41644b18eb146074a814653d598ade99e63730749",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "1. 选择预定义蓝图**扫描TAG后执行指令**"
+      }
+    },
+    {
+      "segment_id": "0801d969",
+      "source_content": "![Dodanie nowej automatyzacji](/img/en/bramka/blueprint_tag_0.png)",
+      "source_content_hash": "f83840eea77cc6ea2849542300200a579de13ed306c91445f9c1f4e02333ed8c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![添加新自动化](/img/en/bramka/blueprint_tag_0.png)"
+      }
+    },
+    {
+      "segment_id": "1b8037f4",
+      "source_content": "2. Uzupełnimy i zapiszemy zdefiniowany szablon:",
+      "source_content_hash": "fdeac924c06a482294d315f54920c69ba75ff51f8a14bba508ab3336b51f0a8b",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "2. 填写并保存模板配置："
+      }
+    },
+    {
+      "segment_id": "d21af28f",
+      "source_content": "![Dodanie nowej automatyzacji](/img/en/bramka/blueprint_tag.png)",
+      "source_content_hash": "5822c06f6c5f17e87b6223bb9a7310be6af8e54c661ae73ab17d4b7aa5ab80fc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![添加新自动化](/img/en/bramka/blueprint_tag.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_tag_automation.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.140213+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "cf94597347f97f9c45e4caafb24b4374a819dfb9b5bd66e5b84efde65a8a876f"
+  }
+}

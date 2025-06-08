@@ -1,0 +1,442 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2021-04-28-release-notes.md",
+  "source_file_content_hash": "c85910a345214a0a84980a44c3fe0fb25f46043afdff3f4e8293103719e3d22f",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Jola AI-Speaker\nauthorURL: https://github.com/sviete\nauthor_title: Asystentka\nauthorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4\ntitle: Wersja systemu Franek\ntags: [\"ais dom\", \"home assistant\", \"zigbee2mqtt\", \"ais-tasmota\"]\n---",
+      "source_content_hash": "f1d1e0e98efcfdaab02d8ac20345da75949a03ed207048f8d7e545c58097dac6",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "775b7fa4",
+      "source_content": "<div class=\"IntroAisBlogMenu\" >\n<div>\n\n![AIS](/img/en/blog/202104/franek.png)\n\n</div>\n\n<h2>Franek</h2>\n\n</div>",
+      "source_content_hash": "a8de607912d4d2e44032d9529b0e863f5acf1ab55553b5e979507dcb0b51b75a",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_775b7fa4"
+      }
+    },
+    {
+      "segment_id": "f5f6d2ce",
+      "source_content": "![DEV3](/img/en/blog/202104/dev3.png) DEV3 ![AIS Commands](/img/en/blog/202104/commands.png) Komendy ![AIS Tasmota](/img/en/blog/202104/robot.png) Automatyzacje",
+      "source_content_hash": "65a2b31be9e4413a90895f1e1d119de118f8e68c397deb8b52cabff24ffe24f2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![DEV3](/img/en/blog/202104/dev3.png) DEV3 ![AIS Commands](/img/en/blog/202104/commands.png) 语音指令 ![AIS Tasmota](/img/en/blog/202104/robot.png) 自动化场景"
+      }
+    },
+    {
+      "segment_id": "29e01ec2",
+      "source_content": "<!--truncate-->",
+      "source_content_hash": "f5cded2aa7e288e395fe4f67f9dabda2281904b2f5358d07302b3aa8be0acdfa",
+      "node_type": "comment",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_29e01ec2"
+      }
+    },
+    {
+      "segment_id": "79b2d0b9",
+      "source_content": "## ABC bezproblemowej aktualizacji",
+      "source_content_hash": "c90f3410f68be4e7ee6017947af078313ab12a12edc09598ec43646aef83e69a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 无忧升级指南"
+      }
+    },
+    {
+      "segment_id": "d2808037",
+      "source_content": ":::tip[Kopia zapasowa.]\n### ![A](/img/en/blog/202009/alpha-a-circle.png) Kopia zapasowa.\n\nUWAGA Przed aktualizacją zalecamy wykonać [kopię zapasową konfiguracji](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji). W ten sposób sprawdzisz poprawność swojej konfiguracji przed rozpoczęciem aktualizacji i zwiększysz prawdopodobieństwo bezproblemowej aktualizacji.\n:::",
+      "source_content_hash": "1828218cdc126741a2ebe2de65e3dd6aff658b58cb960a102231a8a3be71ca74",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::tip[备份]\n### ![A](/img/en/blog/202009/alpha-a-circle.png) 备份\n\n注意：升级前强烈建议先进行[配置备份](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji)。这能帮助您在升级前验证配置有效性，大幅降低升级故障概率。\n:::"
+      }
+    },
+    {
+      "segment_id": "b56ef571",
+      "source_content": ":::important[Konsola i logi na bramce.]\n### ![B](/img/en/blog/202009/alpha-b-circle.png) Konsola i logi na bramce.\n\nW razie problemów z aktualizacją, sprawdź procedurę [Aktualizacja z konsoli](/docs/ais_bramka_update_manual) lub [Wykonanie pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step).\nTo może dotyczyć szczególnie osób, które instalują na bramce dodatkowe niestandardowe komponenty.\n:::",
+      "source_content_hash": "68fd9b1408e16bcda26341c46f1391b36b4a4bb299475fcfba57528a3af090c5",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::important[网关控制台与日志]\n### ![B](/img/en/blog/202009/alpha-b-circle.png) 网关控制台与日志\n\n若遇升级问题，请参考[控制台手动升级指南](/docs/ais_bramka_update_manual)或[应用完全重置步骤](/docs/ais_bramka_reset_ais_step_by_step)。\n特别提醒安装了非标准组件的用户需重点关注此环节。\n:::"
+      }
+    },
+    {
+      "segment_id": "688f7369",
+      "source_content": ":::caution[Poczekaj cierpliwie.]\n### ![C](/img/en/blog/202009/alpha-c-circle.png) Cierpliwość. Pierwsze uruchomienie po aktualizacji trwa dłużej - poczekaj cierpliwie.\n\n **Po aktualizacji pierwsze uruchomienie może trwać nawet 20 minut.**\n W tym czasie aktualizowane są biblioteki do integracji dodanych na bramce i baza danych jest migrowana do nowego formatu.\n **Poczekaj cierpliwie na zakończenie aktualizacji.**\n:::",
+      "source_content_hash": "ad8fdeaa6b3f40c9e947e0d0ca97c330a7c8844dae9594bb1d45ca083ea5ab38",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[耐心等待]\n### ![C](/img/en/blog/202009/alpha-c-circle.png) 耐心。升级后首次启动耗时较长——请保持耐心。\n\n**升级完成后的首次启动可能长达20分钟。**\n此时系统正在更新网关集成库并将数据库迁移至新格式。\n**请耐心等待升级流程完成。**\n:::"
+      }
+    },
+    {
+      "segment_id": "11c76fcc",
+      "source_content": "## ![](/img/en/blog/202104/franek.png) Franek",
+      "source_content_hash": "88c106a26b1fdf06077169ef90121d66da5bc046a86691b79395b1d388079fca",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202104/franek.png) Franek版本"
+      }
+    },
+    {
+      "segment_id": "b36c6338",
+      "source_content": "W tej wersji aktualizujemy mniej pakietów (Python w wersji 3.9.4 zostawiamy w repozytorium apt w statusie beta, wydamy go w kolejnej wersji za miesiąc).\nMniejsza aktualizacja to mniej problemów :) Jeżeli ktoś będzie miał problem z aktualizacją automatyczną, to zawsze może wykonać pełny reset aplikacji - pobrać startową paczkę z naszymi aktualnymi domyślnymi kodami.",
+      "source_content_hash": "3a3a42d84362297f8d8a5401f036eef39869ef19933ee50d1514575c197ff10a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "本次版本更新涉及软件包较少（Python 3.9.4仍保留在apt测试库中，将于下月正式发布）。更小的更新范围意味着更低的故障率 :) 若遇自动升级问题，用户始终可通过完全重置应用——下载包含最新默认代码的基础安装包来解决。"
+      }
+    },
+    {
+      "segment_id": "4d52a261",
+      "source_content": "Ten groźnie brzmiący \"Pełny reset aplikacji\" to coś bardzo podobnego do wyczyszczenia danych w aplikacji Android i... tak naprawdę to nie jest takie straszne :) \nCała procedura opisna jest krok po kroku tu: [Pełny reset aplikacji](/docs/ais_bramka_reset_ais_step_by_step)",
+      "source_content_hash": "af86c730850f7741fe21630fdeef3e59071e42fe1d683c9c6b533d5785f1acfd",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "这个听似骇人的\"应用完全重置\"操作，其实类似于安卓系统的恢复出厂设置...实际操作远没有想象中可怕 :) \n完整操作指南详见：[应用完全重置步骤](/docs/ais_bramka_reset_ais_step_by_step)"
+      }
+    },
+    {
+      "segment_id": "1131ef75",
+      "source_content": "Jeżeli ktoś nie poradzi sobie z aktualizacją, to wystarczy odezwać się do Celiny, która wprowadziła [Usługę programowania urządzeń w AI-Speaker](https://ai-speaker.discourse.group/t/usluga-programowania-urzadzen-w-ai-speaker/1368).",
+      "source_content_hash": "b467e6df9ba858b44a2f81226330e903cd3f5cd1dd18510b9b441201ac69aa7e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "若升级过程中遇到困难，可联系Celina获取[AI-Speaker设备编程服务](https://ai-speaker.discourse.group/t/usluga-programowania-urzadzen-w-ai-speaker/1368)。"
+      }
+    },
+    {
+      "segment_id": "8b2a52b1",
+      "source_content": "**Dzięki temu macie urządzenie zaprogramowane (osobiście przez Jolkę) najnowszym oprogramowaniem w AI-Speaker!**",
+      "source_content_hash": "97ba0566c2ef8ca573f2ae8e12c6af646c6aaf70042e6f2f70b7008ad4cdd261",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "**您将获得由Jolka亲自编程、搭载AI-Speaker最新固件的设备！**"
+      }
+    },
+    {
+      "segment_id": "5dae11e3",
+      "source_content": "Na forum dostępne są szczegóły: [Usługa programowania urządzeń w AI-Speaker](https://ai-speaker.discourse.group/t/usluga-programowania-urzadzen-w-ai-speaker/1368)",
+      "source_content_hash": "52d7da44c48de79f6e3db335adfe8803f2ec660f5afeb3b6f60fb11c337b5e98",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "论坛上有详细说明：[AI-Speaker设备编程服务](https://ai-speaker.discourse.group/t/usluga-programowania-urzadzen-w-ai-speaker/1368)"
+      }
+    },
+    {
+      "segment_id": "3ef18741",
+      "source_content": "### ![](/img/en/blog/202104/commands.png) Automatyzacje uruchamiane głosowo - aliasy",
+      "source_content_hash": "c2fa92e83b0f483bbdb49191ebde1fb0a791afc9bc8bdedb0ed97a6975e408af",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### ![](/img/en/blog/202104/commands.png) 语音触发的自动化 - 别名功能"
+      }
+    },
+    {
+      "segment_id": "e7772088",
+      "source_content": "W poprzedniej wersji zaprezentowaliśmy najprostszy sposób na dodanie własnej komendy głosowej - poprzedzenie nazwy automatyzacji zwrotem \"Jolka: [własna komenda]\".",
+      "source_content_hash": "54cc96ac657a19c4b9ea1096384614a6cd1df451fda372415fb93adad1284428",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在上个版本中，我们展示了添加自定义语音命令的最简单方式——在自动化名称前添加前缀\"Jolka: [自定义指令]\"。"
+      }
+    },
+    {
+      "segment_id": "eab056be",
+      "source_content": "![Działanie komend](/img/en/frontend/jolka-assistant-automation.jpeg)",
+      "source_content_hash": "d418fa462dd63e6296cdd3a25e0c002f21c4e7d8259f62d1567f799ce28e4c4c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![命令操作示例](/img/en/frontend/jolka-assistant-automation.jpeg)"
+      }
+    },
+    {
+      "segment_id": "f01228d3",
+      "source_content": "Teraz idziemy krok dalej i dodajemy:",
+      "source_content_hash": "b14eca7e4e2c0179fd4915d4acc32357e1018b8a9169798ae2602b78cfad8dea",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "现在我们将功能进一步升级："
+      }
+    },
+    {
+      "segment_id": "caffd879",
+      "source_content": "- obsługę aliasów komend/poleceń - dzięki czemu tę samą automatyzację można uruchomić wieloma komendami:\n![Działanie komend](/img/en/frontend/jolka-assistant-automation-aliases.jpeg)\n\n- nadpisujemy wbudowane komendy",
+      "source_content_hash": "322acbb87716e99c2f14543e125225701d79605359a33feecf49a96d93aa7bc7",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 支持命令/指令别名功能，使得同一个自动化可通过多个不同命令触发：\n![带别名的命令操作示例](/img/en/frontend/jolka-assistant-automation-aliases.jpeg)\n\n- 可覆盖内置命令"
+      }
+    },
+    {
+      "segment_id": "b3463ffb",
+      "source_content": ":::caution[Uwaga]\n**Od tej wersji komendy dodane przez Was mają największy priorytet i nadpisują wbudowane komendy.**\nDzięki temu każdy może całkowicie dostosować działanie asystenta do własnych potrzeb i nawet samemu oprogramować odpowiedzi na pytania o godzinę itd. \n:::",
+      "source_content_hash": "7b8a0d127729867904ff9ff65ef76ef2d4b1aa51a91257249ba330279843ba79",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[注意]\n**从本版本起，用户添加的命令具有最高优先级，将覆盖系统内置命令。**\n这意味着每位用户都能完全定制助手行为，甚至可以自行编程实现诸如报时等功能的响应逻辑。\n:::"
+      }
+    },
+    {
+      "segment_id": "8126f763",
+      "source_content": "![](/img/en/blog/202104/kot1.jpeg)",
+      "source_content_hash": "b9b1b5bcdc2647f2439961f818a57f49eb0a127f2513b59757fc4b5b048dc23d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202104/kot1.jpeg)"
+      }
+    },
+    {
+      "segment_id": "0750bfa1",
+      "source_content": "Szczegóły w dokumentacji [Dodawanie komendy](/docs/ais_app_assistent_add_command/)",
+      "source_content_hash": "5a62a28546dd98274c35dfe90a7a61d4a3bf2b0a14764cfe96721773eb429522",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "详见文档：[添加语音命令](/docs/ais_app_assistent_add_command/)"
+      }
+    },
+    {
+      "segment_id": "39db08de",
+      "source_content": "### ![](/img/en/blog/202104/robot.png) Tasmota 9.4.0 Leslie",
+      "source_content_hash": "c2df41917bd33e8f43030a16e435c4578e45a847ffb07cb3a85a7134e2a7aeb0",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### ![](/img/en/blog/202104/robot.png) Tasmota 9.4.0 Leslie版"
+      }
+    },
+    {
+      "segment_id": "a311e967",
+      "source_content": "Pełna kontrola lokalna z szybką konfiguracją i aktualizacjami. Sterowanie urządzeń za pomocą MQTT, interfejsu WWW, protokołu HTTP. \nKolejne wydanie niesamowicie rozszerzalnego, elastycznego, otwartego i coraz bardziej niezawodnego oprogramowania do urządzeń **ESP8266**.\n[To już **1940** wspierawnych urządzeń](https://templates.blakadder.com/index.html).\nW tej wersji dodany został konfigurator połączenia z siecią WiFi, którego nie powstydziłby się żaden komercyjny produkt.",
+      "source_content_hash": "b73f15b38604ff823a8d970fbf7110ada2caefab90c72e788e6bd8d54c1e09f2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "实现本地全控制，支持快速配置与更新。通过MQTT、网页界面及HTTP协议控制设备。\n这是为**ESP8266**设备开发的极致可扩展、灵活、开源且日益稳定的固件新版本。\n[目前已支持**1940**种设备](https://templates.blakadder.com/index.html)。\n本次更新加入了WiFi网络连接配置器，其专业程度足以媲美商业产品。"
+      }
+    },
+    {
+      "segment_id": "25212439",
+      "source_content": "Więcej na naszym forum:",
+      "source_content_hash": "94614a1f6edb92073ffa739f5c96ed87c1bdb8ed21d4835e7fb9eee1f2e14752",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "更多讨论请访问我们的论坛："
+      }
+    },
+    {
+      "segment_id": "d79a4831",
+      "source_content": "[![](/img/en/blog/202104/tasmota.jpeg)](https://ai-speaker.discourse.group/t/tasmota-v9-4-0-leslie/1703)",
+      "source_content_hash": "557a687c345f5ecd24a58fe6a08bd65417ce26fa933a45152e4d30ae41c068c4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "[![](/img/en/blog/202104/tasmota.jpeg)](https://ai-speaker.discourse.group/t/tasmota-v9-4-0-leslie/1703)"
+      }
+    },
+    {
+      "segment_id": "1f4b3b94",
+      "source_content": "### ![](/img/en/blog/202102/honeybee.png) Zigbee2Mqtt",
+      "source_content_hash": "66a9914e72acab290690746f63dbd2e2db4834db52483737dfde28177b71768b",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### ![](/img/en/blog/202102/honeybee.png) Zigbee2Mqtt"
+      }
+    },
+    {
+      "segment_id": "7bc8bb24",
+      "source_content": "Aktualizacja Zigbee2Mqtt do najnowszej wersji 1.8.2 Ponad **1400** wspieranych urządzeń. \nTo jest wydanie poprawkowe, wszystkie szczegóły tu [1.18.2](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.18.2)",
+      "source_content_hash": "917e619a0c85533182a3e81f4a92875ae36279371a065fa873665f44e1230d87",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Zigbee2Mqtt更新至1.8.2版本，支持设备超过**1400**种。\n此为修复版本，完整更新日志参见[1.18.2](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.18.2)"
+      }
+    },
+    {
+      "segment_id": "3c19e221",
+      "source_content": "![z2m](/img/en/blog/202103/z2m.png)",
+      "source_content_hash": "3e70d93a8fb28569f5acf7697abaf34306b236a6bc4433a1eddfe509cf3a2f03",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![z2m](/img/en/blog/202103/z2m.png)"
+      }
+    },
+    {
+      "segment_id": "1b4de6df",
+      "source_content": "Gdyby ktoś miał problem ze swoim adapterem Zigbee to tak jak już wspominaliśmy - dodaliśmy usługę programania urządzeń - szczegóły na forum:",
+      "source_content_hash": "a64a07817ce2c4d7cc0814623ead98773b459318082b3ef31a083269effb5c17",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "若您的Zigbee适配器遇到问题，正如我们之前提到的——我们已推出设备编程服务，论坛详情："
+      }
+    },
+    {
+      "segment_id": "1958bc43",
+      "source_content": "[![](/img/en/blog/202102/ais_devices_suport.png)](https://ai-speaker.discourse.group/t/usluga-programowania-urzadzen-w-ai-speaker/1368)",
+      "source_content_hash": "436f436df61fa7cec7ef34d508193d51511d7b469e583387723ed2a3873b155a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "[![](/img/en/blog/202102/ais_devices_suport.png)](https://ai-speaker.discourse.group/t/usluga-programowania-urzadzen-w-ai-speaker/1368)"
+      }
+    },
+    {
+      "segment_id": "b9b8694c",
+      "source_content": "### ![](/img/en/blog/202101/hass.png) Asystent domowy",
+      "source_content_hash": "c88eb95cf5f4ecbf0bf89865b0f4583cce01d1d6c074e8bb9bc40d03ddba2dcd",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### ![](/img/en/blog/202101/hass.png) 家庭助理"
+      }
+    },
+    {
+      "segment_id": "b6152880",
+      "source_content": "Najnowsza wersja Asystenta domowego, czyli naszego pakietu ``ais-dom`` bazującego na najnowszym stabilnym Home Assistant Core.",
+      "source_content_hash": "4f36ed4bd7e6fdbae4e71f7081f263804cfb8884b40cb03ecec164f202f07f42",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "最新版家庭助理，即我们的`ais-dom`软件包，基于最新稳定版Home Assistant Core构建。"
+      }
+    },
+    {
+      "segment_id": "b9331170",
+      "source_content": "![Asystent domowy](/img/en/blog/202104/social.png)",
+      "source_content_hash": "9dd73453f0e64290a051502fb578decac310b4884c5579e4eb52b0cb6bef17f6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![家庭助理](/img/en/blog/202104/social.png)"
+      }
+    },
+    {
+      "segment_id": "8fcdd6d4",
+      "source_content": "Szczegółowy opis zmian w Home Assistant dostępny na blogu projektu Home Assistant: [2021.4: For our advanced users](https://www.home-assistant.io/blog/2021/04/07/release-20214/)",
+      "source_content_hash": "a4c1c739d89035066ac6c67cfadfeef0b8210ec00e1807d85816041c3f5819f7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Home Assistant的详细变更说明可查阅项目博客：[2021.4: 面向高级用户](https://www.home-assistant.io/blog/2021/04/07/release-20214/)"
+      }
+    },
+    {
+      "segment_id": "53aa2b95",
+      "source_content": "Największa zmiana to możliwość śledzienia wykonania automatyzacji. Poniższy zrzut ekranu przedstawia poprzednie uruchomienie automatyzacji. Automatyzacja jest wyświetlana za pomocą interaktywnego wykresu, który przedstawia ścieżkę, którą przeszła automatyzacja. Każdy węzeł na wykresie można kliknąć, aby wyświetlić szczegółowe informacje o tym, co stało się z automatyzacją podczas tego konkretnego kroku. 👏 brawo HA! Bardzo ładnie!",
+      "source_content_hash": "b2ffc22387ff19e9c74ca28eaa638fe5781f5bf6244e167a49c783f5a97937e4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "最重大的改进是新增了自动化执行追踪功能。下方截图展示了某次自动化运行的轨迹。系统通过交互式流程图呈现自动化执行路径，图中每个节点均可点击查看该步骤的详细执行情况。👏 为HA团队点赞！这个设计非常出色！"
+      }
+    },
+    {
+      "segment_id": "9c9e2b64",
+      "source_content": "![](/img/en/blog/202104/trace.jpeg)",
+      "source_content_hash": "f02f088643771db1eac8833a39476661635d84927101a592e2fe12b1c6985707",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202104/trace.jpeg)"
+      }
+    },
+    {
+      "segment_id": "a461a67b",
+      "source_content": "## ![](/img/en/blog/202103/dev3.png) DEV3",
+      "source_content_hash": "61a4f03bb711ae9b2c36b5c377248828635a0363a0b7cbbab87371078818ed59",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202103/dev3.png) DEV3"
+      }
+    },
+    {
+      "segment_id": "e77cf7c6",
+      "source_content": "Wprowadziliśmy już na stałe do oferty nową bramkę **AIS DEV3** - jest to jak do tej pory najszybsza, najprostsza w konfiguracji i obsłudze bramka AIS.",
+      "source_content_hash": "3e65bce0ed8354dc5abc486619fa8f15f656ea755038fce7c3a6065cf0b3bd77",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们已将新型网关**AIS DEV3**正式纳入产品线——这是目前配置最简单、运行最迅捷的AIS网关。"
+      }
+    },
+    {
+      "segment_id": "bb1346b6",
+      "source_content": "![AIS dom DEV2](/img/en/bramka/ais_dev3_in_box.jpg)",
+      "source_content_hash": "441b7766834be9bcb2500f3ec8182c0ec2df86ccb09b745a9169e58b0df06a65",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS dom DEV2](/img/en/bramka/ais_dev3_in_box.jpg)"
+      }
+    },
+    {
+      "segment_id": "a9c2a503",
+      "source_content": "Parametry nowej bramki są opisane tu: [Bramka AIoT](/docs/ais_bramka_index), dodaliśmy też nowy konfigurator, który ma ułatwić [Pierwsze uruchomienie](/docs/ais_bramka_first_run_the_gate).\nSzczerze polecamy! To naprawdę świetny sprzęt o ogromnych możliwościach, które będziemy wspólnie eksplorowali przez najbliższe 2 lata.",
+      "source_content_hash": "5cb3491d79e17b13006bec1378733c04319a4daa6123a7c20dcecc0efa5a421b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "新网关参数详见：[AIoT网关](/docs/ais_bramka_index)，我们还新增了配置向导来简化[首次启动](/docs/ais_bramka_first_run_the_gate)流程。诚意推荐！这款硬件性能卓越，未来两年我们将共同探索其无限可能。"
+      }
+    },
+    {
+      "segment_id": "294e85af",
+      "source_content": "-------",
+      "source_content_hash": "11d925ecde7d1b6aa2c2881df15ce7b8553e7f48b782e061b658f050a673013f",
+      "node_type": "thematicBreak",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "-------"
+      }
+    },
+    {
+      "segment_id": "8b448c8b",
+      "source_content": "##### AI-Speaker 04/2021",
+      "source_content_hash": "03f10dcb2283f36c98e8297ecb7aa80b4c1cb47c5b1fc13b53f9d315f47106a8",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "##### AI-Speaker 2021年4月版"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2021-04-28-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.126608+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "c85910a345214a0a84980a44c3fe0fb25f46043afdff3f4e8293103719e3d22f"
+  }
+}

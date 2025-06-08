@@ -1,0 +1,62 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2018-12-31-release-notes.md",
+  "source_file_content_hash": "2cecbca0755a31358ab947638d6d5d98eca71750f6c1fcd22c4bed63856b4ed6",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Andrzej Raczkowski\nauthorURL: https://github.com/sviete\nauthorFBID: 1546384510\ntitle: Wersja systemu 0.84.6  \n---",
+      "source_content_hash": "6de55fd3bcc6a85ed80359648a79eeea17bd11c112d619f25ea439fa2a571a83",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Wersja systemu 0.84.6 z dnia 31 grudnia 2018 roku,",
+      "source_content_hash": "d1e76865ec734ac41c9057324ae78e1e4f50540be25e965371ac8872ba4ae24f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 2018年12月31日发布的系统版本0.84.6"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "w tej wersji dodano:",
+      "source_content_hash": "3872a90319800ef209dc86e7768257437634efb2d0bd4158297f09cf8d4b1322",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "此版本新增功能："
+      }
+    },
+    {
+      "segment_id": "be33979e",
+      "source_content": "- zmiany w komponencie pogoda\n- najnowszy Home Assistant <a href=\"https://www.home-assistant.io/blog/2018/12/12/release-84/\" target=\"_blank\">0.84</a>\n- nowa wersja oprogramowania dla urządzeń automatyki domowej opartych na układzie ESP8266",
+      "source_content_hash": "f4e308de7885738062cf06e27ded2174d409f32bda6f1e7c43d15bb432f7b4e9",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 天气组件功能优化\n- 最新版Home Assistant <a href=\"https://www.home-assistant.io/blog/2018/12/12/release-84/\" target=\"_blank\">0.84</a>\n- 基于ESP8266芯片的智能家居设备固件更新"
+      }
+    },
+    {
+      "segment_id": "5085dd17",
+      "source_content": "> **Uwaga zmiany w naszym oprogramowniu dla urządzeń automatyki domowej**\n W najonowszej wersji naszego oprogramowania dla urządzeń automatyki domowej opartych na układzie ESP8266 nastąpiły zmiany dotyczące sposobu automatycznego wykrywania urządzeń i ich dodania do programu Asystent domowy. Aby usprawnić automayczne wykrywane i dodawane urządzeń do programu Asystent domowy należy zaktualizować oprogramownie na urządzeniach do najnowszej wersji 6.4.1, szczegóły w dokumentacji",
+      "source_content_hash": "0586a956a3db40ecc554901756355f1b06d9d1fa0ac28a0eef6a2856061c7144",
+      "node_type": "blockquote",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "> **注意：智能家居设备固件变更说明**\n 我们最新发布的基于ESP8266芯片的智能家居设备固件中，改进了设备自动发现并接入家庭助手程序的机制。为确保设备自动发现和接入功能正常运行，请将设备固件升级至6.4.1版本，具体操作详见文档说明"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2018-12-31-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.106627+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "2cecbca0755a31358ab947638d6d5d98eca71750f6c1fcd22c4bed63856b4ed6"
+  }
+}

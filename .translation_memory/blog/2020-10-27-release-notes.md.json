@@ -1,0 +1,272 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2020-10-27-release-notes.md",
+  "source_file_content_hash": "17d4a0892fd554b0e263f4272ccabf2fc09a0be387faed755cf8ca20af799514",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Jola AI-Speaker\nauthorURL: https://github.com/sviete\nauthor_title: Asystentka\nauthorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4\ntitle: Wersja systemu 0.116.6\ntags: [\"ais dom\", \"ais proxy\", \"home assistant\"]\n---",
+      "source_content_hash": "2aad6d3aaddcd5f6d4b48ecc76ba08b507c163f5a0e2077039d001ad814148f2",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "1cc03ec8",
+      "source_content": "# 0.116.6 Szybciej i ładniej",
+      "source_content_hash": "739a7a4bd019e224e6ceccafd6eb37ac938a98f3bdb6c216ccdc898b15f1fa39",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# 0.116.6 更快更美观"
+      }
+    },
+    {
+      "segment_id": "143e51c1",
+      "source_content": "- ![AIS dom](/img/en/blog/202010/mobile-phone.png) **Poprawki, ułatwienia i optymlizacje w aplikacji AIS dom**\n- ![AIS docs](/img/en/blog/202010/orange-book.png) Aktualizacja całej dokumentacji\n- ![AIS Proxy](/img/en/blog/202010/robot.png) Nowe menu urządzeń AIS dom\n- ![Home Assistant](/img/en/blog/202010/mechanical-arm.png) Home Assistant 0.116.4",
+      "source_content_hash": "bbfa0effe6843fe7a8c99e750ab886e967f63da8e895d7dfb4e9d7abf3b231bf",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- ![AIS dom](/img/en/blog/202010/mobile-phone.png) **AIS dom应用的修复、优化与使用便捷性提升**\n- ![AIS docs](/img/en/blog/202010/orange-book.png) 完整文档更新\n- ![AIS Proxy](/img/en/blog/202010/robot.png) 全新AIS dom设备菜单\n- ![Home Assistant](/img/en/blog/202010/mechanical-arm.png) Home Assistant 0.116.4"
+      }
+    },
+    {
+      "segment_id": "45c63027",
+      "source_content": "<!--truncate-->",
+      "source_content_hash": "f5cded2aa7e288e395fe4f67f9dabda2281904b2f5358d07302b3aa8be0acdfa",
+      "node_type": "comment",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_45c63027"
+      }
+    },
+    {
+      "segment_id": "bc633244",
+      "source_content": "## ABC bezproblemowej aktualizacji",
+      "source_content_hash": "c90f3410f68be4e7ee6017947af078313ab12a12edc09598ec43646aef83e69a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 无忧升级指南"
+      }
+    },
+    {
+      "segment_id": "8a545039",
+      "source_content": ":::tip[Kopia zapasowa.]\n### ![A](/img/en/blog/202009/alpha-a-circle.png) Kopia zapasowa.\n\nUWAGA Przed aktualizacją zalecamy wykonać [kopię zapasową konfiguracji](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji). W ten sposób sprawdzisz poprawność swojej konfiguracji przed rozpoczęciem aktualizacji i zwiększysz prawdopodobieństwo bezproblemowej aktualizacji.\n:::",
+      "source_content_hash": "1828218cdc126741a2ebe2de65e3dd6aff658b58cb960a102231a8a3be71ca74",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::tip[配置备份]\n### ![A](/img/en/blog/202009/alpha-a-circle.png) 配置备份\n\n注意：升级前强烈建议执行[配置备份](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji)。此操作可验证当前配置有效性，显著提升升级成功率。\n:::"
+      }
+    },
+    {
+      "segment_id": "d2808037",
+      "source_content": ":::important[Konsola i logi na bramce.]\n### ![B](/img/en/blog/202009/alpha-b-circle.png)Konsola i logi na bramce.\n\nW razie problemów z aktualizacją, sprawdź procedurę [Aktualizacja z konsoli](/docs/ais_bramka_update_manual) lub [Wykonanie pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step).\nTo może dotyczyć szczególnie osób, które instalują na bramce dodatkowe niestandardowe komponenty.\n:::",
+      "source_content_hash": "801d23fb7fc2431bbe434b4eda5e7c084e2507d287d3851fa318ec48da59ea9e",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::important[控制台与日志]\n### ![B](/img/en/blog/202009/alpha-b-circle.png)控制台与日志\n\n若遇升级问题，请参考[控制台手动升级指南](/docs/ais_bramka_update_manual)或[应用完全重置步骤](/docs/ais_bramka_reset_ais_step_by_step)。特别适用于安装了非标准组件的用户。\n:::"
+      }
+    },
+    {
+      "segment_id": "26b47687",
+      "source_content": ":::caution[Poczekaj cierpliwie.]\n### ![C](/img/en/blog/202009/alpha-c-circle.png) Cierpliwość. Pierwsze uruchomienie po aktualizacji trwa dłużej - poczekaj cierpliwie.\n\n **Po aktualizacji pierwsze uruchomienie może trwać nawet 20 minut.**\n W tym czasie aktualizowane są biblioteki do integracji dodanych na bramce i baza danych jest migrowana do nowego formatu.\n **Poczekaj cierpliwie na zakończenie aktualizacji.**\n:::",
+      "source_content_hash": "ad8fdeaa6b3f40c9e947e0d0ca97c330a7c8844dae9594bb1d45ca083ea5ab38",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[耐心等待]\n### ![C](/img/en/blog/202009/alpha-c-circle.png) 耐心等待。升级后首次启动耗时较长\n\n**升级完成后首次启动可能持续长达20分钟**\n此时系统正在更新集成库并将数据库迁移至新格式\n**请耐心等待升级流程完成**\n:::"
+      }
+    },
+    {
+      "segment_id": "54268405",
+      "source_content": "## ![](/img/en/blog/202010/mobile-phone.png) Poprawki, ułatwienia i optymlizacje w aplikacji AIS dom",
+      "source_content_hash": "070eeeb7008ec3a67951c62334e92b98bdbe93d598ed94899892d12dbd7bf546",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202010/mobile-phone.png) AIS dom应用优化与改进"
+      }
+    },
+    {
+      "segment_id": "13d9cd70",
+      "source_content": "W tej wersji dodaliśmy możliwość łączenia się z brmką za pomocą skanu taga NFC, jest szybciej i jest też troszkę ładniej 😻",
+      "source_content_hash": "7ca34195c8cb6e7ed501a46909714e2bc202ff2f53c6f0c5b66f870b881aa24d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "本版本新增通过NFC标签扫描连接网关功能，运行更流畅，界面更美观😻"
+      }
+    },
+    {
+      "segment_id": "6127963f",
+      "source_content": "<iframe width=\"560\" height=\"315\"  src=\"https://www.youtube.com/embed/0JHM8sh0Qh4\" frameBorder=\"0\" allowFullScreen></iframe>",
+      "source_content_hash": "f2126722a75e449294a018d713c59e7acfcff63810fbecdf28a6462bd97de904",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_6127963f"
+      }
+    },
+    {
+      "segment_id": "c504c207",
+      "source_content": "szczegóły w dokumentacji  Aplikacja AIS dom",
+      "source_content_hash": "537b0d8e5070ebc189c008bb3083b73de07f42f651c1f88db4bd01af32d15c9e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "详见文档 AIS dom应用"
+      }
+    },
+    {
+      "segment_id": "2c1b51df",
+      "source_content": "## ![](/img/en/blog/202010/orange-book.png) Aktualizacja całej dokumentacji",
+      "source_content_hash": "cb73811bb50f4d227bafd4906b276b1f90b87a57e53a45694ed97d3aeadc2655",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202010/orange-book.png) 完整文档更新"
+      }
+    },
+    {
+      "segment_id": "e536ea0d",
+      "source_content": "Sporo się dzieje i w niektórych miejscach dokumentacja nie była 100% zgodna z aktualną wersją aplikacji.\nUdało nam się to naprawić i wszystko pownno być już na bieżąco... i oczywiście ładniej 😻",
+      "source_content_hash": "ec5cf5ac137361be1ec7e65a8ac54e9270532ac8a0661a396dda0b1f10812b16",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们修复了文档与当前应用版本存在差异的问题，现已实现全面同步...当然界面也更美观😻"
+      }
+    },
+    {
+      "segment_id": "1131ef75",
+      "source_content": "![AIS Galeria](/img/en/blog/202010/doc123.png)",
+      "source_content_hash": "e10df70365a17a94599efcb69151f63ab1d8583173c7ca46f8c1276c4693ac7c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS Galeria](/img/en/blog/202010/doc123.png)"
+      }
+    },
+    {
+      "segment_id": "c315c636",
+      "source_content": "## ![](/img/en/blog/202010/robot.png) Nowe menu urządzeń AIS dom",
+      "source_content_hash": "5e4d17337a3738b4f8f5117f991510574131a6ee0adfe5505bea8f3523ee4369",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202010/robot.png) 全新AIS dom设备菜单"
+      }
+    },
+    {
+      "segment_id": "531437ca",
+      "source_content": "Ustawienia Twoich urządzeń z oprogramowaniem AIS dom doczekało się sporej aktualizacji",
+      "source_content_hash": "6d44b93456fb9bfbfc2b2f4a994bd28d863a1474c68255b5549ceac01d67d8f0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "AIS dom设备的设置界面迎来重大更新"
+      }
+    },
+    {
+      "segment_id": "06e24cc0",
+      "source_content": "![AIS Galeria](/img/en/blog/202010/ais-dom.png)",
+      "source_content_hash": "ed8bae642fcdd6a41925db9f2cc35914bd5c8f93c4bcc989b34971057a4350cb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS Galeria](/img/en/blog/202010/ais-dom.png)"
+      }
+    },
+    {
+      "segment_id": "7f71ff2a",
+      "source_content": "Dodaliśmy między innymi mechanizm proxy, który pozwala na dostęp do lokalnego menu urządzenia z aplikacji Asystent domowy, nawet jeżeli łączysz sie z bramką zdalnie 🤩",
+      "source_content_hash": "bbd3385d2bca83b87a417014e751c18b4845c16a9dd0a9ce22c437dc72b11bbc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们新增了代理机制，即使远程连接网关，也能通过家庭助手应用访问设备的本地菜单 🤩"
+      }
+    },
+    {
+      "segment_id": "b1cbdb65",
+      "source_content": "## ![](/img/en/blog/202010/mechanical-arm.png) Home Assistant 0.116.4",
+      "source_content_hash": "4dfac908f4c8dcd8bd2169c15093d17e13209168a0205ba775340288e19fb58f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202010/mechanical-arm.png) Home Assistant 0.116.4"
+      }
+    },
+    {
+      "segment_id": "d0dd855b",
+      "source_content": "Najnowszy (stabilny) [Home Assistant 0.116.4](https://www.home-assistant.io/blog/2020/10/07/release-116/)",
+      "source_content_hash": "875c764c9bb76b37bd8e233f982fee658c9391cb61ee90693c5634ca53dc3122",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "最新稳定版 [Home Assistant 0.116.4](https://www.home-assistant.io/blog/2020/10/07/release-116/)"
+      }
+    },
+    {
+      "segment_id": "7736989b",
+      "source_content": "Projekt pędzi do przodu - ponad 1700 integracji! Ale też sporo poprawek i optymalizacji działania 😀",
+      "source_content_hash": "4b9a22f41529e42284eed175c4fb0e2e9b8187d7598fff5b99f808cb5c2535f6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "项目发展迅猛——已集成超过1700种设备！同时也进行了大量功能优化和问题修复 😀"
+      }
+    },
+    {
+      "segment_id": "a5c5772a",
+      "source_content": "![Home Assistant](/img/en/blog/202010/ha1700.png)",
+      "source_content_hash": "e648be832f73212fe3b434544919988fdd735017520a3b356ef4646526c32f5f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Home Assistant](/img/en/blog/202010/ha1700.png)"
+      }
+    },
+    {
+      "segment_id": "be625c00",
+      "source_content": "----",
+      "source_content_hash": "bd64bb8efa5b3f27e6442f23600c3b516127ea17e23724b41e50da4c22883edd",
+      "node_type": "thematicBreak",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "----"
+      }
+    },
+    {
+      "segment_id": "2547a6bb",
+      "source_content": "Zapraszamy do aktualizacji i [komentowania na forum :)](https://ai-speaker.discourse.group/)",
+      "source_content_hash": "835468c85dd4ecaa2ca9086b3919d63a2f40f58acb16d2e9e802bc2c6fb6f6da",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "欢迎升级并[参与论坛讨论 :)](https://ai-speaker.discourse.group/)"
+      }
+    },
+    {
+      "segment_id": "90d35b51",
+      "source_content": "##### AI-Speaker 09/2020",
+      "source_content_hash": "1ee0b4d56dad393b9eb1b47a7cd5e8d09623480e11fbc86d4d17bb1fa3d6f935",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "##### AI-Speaker 2020年9月"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2020-10-27-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.105069+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "17d4a0892fd554b0e263f4272ccabf2fc09a0be387faed755cf8ca20af799514"
+  }
+}

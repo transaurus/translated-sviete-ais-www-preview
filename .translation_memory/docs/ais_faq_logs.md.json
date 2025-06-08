@@ -1,0 +1,402 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_faq_logs.md",
+  "source_file_content_hash": "25e2425e7eea94bc6fbf1d9021813523420d0c3c7cf319ceeb90cc13eb48980f",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Logi dostępne na bramce\"\nsidebar_label: Logi dostępne na bramce\n---",
+      "source_content_hash": "d65d4beceb2442f0d3ec725e7a611c0f90a7b13794cd2faf8d126bda96d42cfe",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Wprowadzenie",
+      "source_content_hash": "138964b3f05ef631ae55efd030ca96538eb5d783961ef7b978515da6c937d13f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 简介"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "W przypadku problemów z działaniem urządzenia, problemów z aktualizacją czy też problemów z własnymi integracjami/komponentami, zalecamy sprawdzenie logów w celu diagnozy problemu.\nLogi dostępne są z konsoli, [do konsoli łączymy się po SSH](/docs/ais_bramka_remote_ssh). Poniżej opiszemy jak sprawdzić logi poszczególnych komponentów systemu.",
+      "source_content_hash": "0d554efbf46680a64b7640d7c9828653417497c3b6a148a3a6e5c52f566a8666",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "当设备运行异常、更新故障或自定义集成/组件出现问题时，建议通过检查日志进行故障诊断。可通过SSH连接控制台查看日志，[SSH连接方法详见此处](/docs/ais_bramka_remote_ssh)。下文将介绍如何查看系统各组件的日志信息。"
+      }
+    },
+    {
+      "segment_id": "8a5f6a7b",
+      "source_content": "## Logi procesów Asystenta domowego.",
+      "source_content_hash": "6a92390828c06983b7ca7af9f57193af832790a41617d43dc14f3ffc273fc892",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 家庭助理进程日志"
+      }
+    },
+    {
+      "segment_id": "180bddb1",
+      "source_content": "Procesami na bramce steruje <a href=\"http://pm2.keymetrics.io/\" target=\"_blank\">Menedżer procesów PM2</a>. PM2 odpowiedzialny jest za zarządzanie stanami głównych aplikacji, to PM2 uruchamia procesy po starcie systemu, a następnie czuwa nad ich ciągłym działaniem.",
+      "source_content_hash": "0c2062e55cdb371ba8415615886b72e0bc2e64718f1b8e6899ac9ff3655b434b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "网关进程由<a href=\"http://pm2.keymetrics.io/\" target=\"_blank\">PM2进程管理器</a>控制。PM2负责管理核心应用程序状态，在系统启动时加载进程，并持续监控其运行状态。"
+      }
+    },
+    {
+      "segment_id": "cf898102",
+      "source_content": "Żeby zobaczyć status procesów w konsoli wpisujemy:",
+      "source_content_hash": "500e3561ad74a3b90167235bf01d0b044f9fef3e545623edbb965269026cf87b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "查看进程状态的控制台命令："
+      }
+    },
+    {
+      "segment_id": "41ad46a6",
+      "source_content": "```bash\npm2 status\n```",
+      "source_content_hash": "2a1dc410a5eb4460927e7d81323bfeb9aa1f543d76e510295159e03d1a91864e",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_41ad46a6"
+      }
+    },
+    {
+      "segment_id": "1acb9a05",
+      "source_content": "![PM2](/img/en/bramka/pm2_console.png)",
+      "source_content_hash": "b59b4b90a617ee1d0efcb61965240d6fd2756b66ab823e42a27be1dca4a03d40",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![PM2](/img/en/bramka/pm2_console.png)"
+      }
+    },
+    {
+      "segment_id": "63622bf0",
+      "source_content": "### Wyświetlanie logów na bieżąco",
+      "source_content_hash": "0b2afb4350bc57e194363a55abb2b5ba2ad35ff54be20cc60b43d8c28ffd86c7",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 实时日志查看"
+      }
+    },
+    {
+      "segment_id": "98cfbd53",
+      "source_content": "W celu wyświetlenia na bieżąco 15 ostatnich lini logów wszystkich procesów, wystarczy wpisać w konsoli:",
+      "source_content_hash": "c874e3cc798b517496494cd9ea560ffc3ea5e68a9309f10d5cb6a40ee7f0430a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "实时查看所有进程最近15行日志的命令："
+      }
+    },
+    {
+      "segment_id": "3569d545",
+      "source_content": "```bash\npm2 logs\n```",
+      "source_content_hash": "6d8f23ceefb113a9312ed9135abd5fd909f04538aaa01b86fae8713e68690a28",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_3569d545"
+      }
+    },
+    {
+      "segment_id": "4b1d2d7d",
+      "source_content": "![PM2](/img/en/bramka/pm2_console_logs.png)",
+      "source_content_hash": "417c8c19680b06ed441665d782c7955eb352e3d579a4dba5d9116bbb910a4ff3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![PM2](/img/en/bramka/pm2_console_logs.png)"
+      }
+    },
+    {
+      "segment_id": "73ab96a3",
+      "source_content": "W celu wyświetlenia na bieżąco 20 ostatnich lini logów serwera MQTT, wystarczy wpisać w konsoli:",
+      "source_content_hash": "5ec4455b8a2eccfa2117cb660cae3e2bc39fbaede5199fa7518327bc0f0556a7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "实时查看MQTT服务器最近20行日志的命令："
+      }
+    },
+    {
+      "segment_id": "a2110253",
+      "source_content": "```bash\npm2 logs mqtt --lines 20\n```",
+      "source_content_hash": "e2d3e9c721bccd467793604330b6d8e71d799a19b8010d04f51fa5790d97cf6a",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_a2110253"
+      }
+    },
+    {
+      "segment_id": "3b7478ea",
+      "source_content": "### Pliki z logami",
+      "source_content_hash": "859a6dcadd035610fd589156491ae0eab5119f35105ee03884004ca58247414f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 日志文件"
+      }
+    },
+    {
+      "segment_id": "c3a738de",
+      "source_content": "Pliki logów procesów znajdziemy w lokalizacji **/data/data/com.termux/files/home/.pm2/logs/**",
+      "source_content_hash": "437997b1182143e907c3560ef0e01df554d39546f207ce4ae5392a30f97f2a64",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "进程日志文件存储路径：**/data/data/com.termux/files/home/.pm2/logs/**"
+      }
+    },
+    {
+      "segment_id": "3cfe6286",
+      "source_content": "![PM2](/img/en/bramka/pm2_console_logs_files.png)",
+      "source_content_hash": "5692c1f86110aa98e35bbac8b22841f3926448c6e4777b0438a1f8d8bd604cd7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![PM2](/img/en/bramka/pm2_console_logs_files.png)"
+      }
+    },
+    {
+      "segment_id": "1042b50d",
+      "source_content": "Interesujący nas plik możemy skopiować do lokalizacji **/sdcard** a następnie pobrać klientem FTP:",
+      "source_content_hash": "2d7d074d05fed7bc27ec1944eeddbed414979579fc41fe51939370db9c34f888",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "可将目标日志文件复制至**/sdcard**目录后通过FTP客户端下载："
+      }
+    },
+    {
+      "segment_id": "aa1e7006",
+      "source_content": "Kopiowanie plików w konsoli:",
+      "source_content_hash": "c2a788e94ffb7fa79543eed8d5b5dbb5a083541403d85f194e678965fcba396f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "控制台复制文件命令："
+      }
+    },
+    {
+      "segment_id": "4ec2920d",
+      "source_content": "```bash\nmkdir /sdcard/logs\ncp /data/data/com.termux/files/home/.pm2/logs/* /sdcard/logs\n```",
+      "source_content_hash": "5c4c25ee72c7f4c62cbfd8d6008dd28b475c2aa0a6a2d21d83aac95a2e7cb228",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_4ec2920d"
+      }
+    },
+    {
+      "segment_id": "a44047a5",
+      "source_content": "Połączenie FTP do bramki:\n[do konsoli łączymy się po FTP](/docs/ais_bramka_remote_ftp)",
+      "source_content_hash": "e6113fb4f548532520267195c6c1994d67460bc40fd0c418962648aef97fe4b4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "网关FTP连接方法：\n[通过FTP连接控制台](/docs/ais_bramka_remote_ftp)"
+      }
+    },
+    {
+      "segment_id": "60410af6",
+      "source_content": "## Logi aktualizacji systemu",
+      "source_content_hash": "8dec3b930a7a51640acabbc26b36fb9e462eabf91f4e699e4c89f5d69ae7a947",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 系统更新日志"
+      }
+    },
+    {
+      "segment_id": "b9aaa519",
+      "source_content": "Logi aktualizacji [dostępne są w aplikacji webowej](/docs/ais_bramka_update_logs)",
+      "source_content_hash": "17d6ac1635e03e44d48b57c2169f21ed520c99685d5833d74c59e69f20c6b88b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "更新日志[可通过网页应用查看](/docs/ais_bramka_update_logs)"
+      }
+    },
+    {
+      "segment_id": "e536ea0d",
+      "source_content": "Możliwy jest też dostęp do nich z konsoli, znajdują się w lokalizacji **/data/data/com.termux/files/home/AIS/www**\nw pliku **upgrade_log.txt**.\nZawartość tego pliku możemy wyświetlić standardowymi metodami dostępnymi w systemie Linux, np. za pomocą komendy **cat**:",
+      "source_content_hash": "1308bb51d895814daecfe8aece8acc6227e596da4919405c1f30ff9f633f58ac",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "也可通过控制台访问，路径为**/data/data/com.termux/files/home/AIS/www**目录下的**upgrade_log.txt**文件。可使用Linux标准命令查看该文件内容，例如**cat**命令："
+      }
+    },
+    {
+      "segment_id": "3adc0ceb",
+      "source_content": "```bash\ncat /data/data/com.termux/files/home/AIS/www/upgrade_log.txt\n```",
+      "source_content_hash": "6c572a7e37de459c8ac3e29eeedce2cd40f0db11708351beb029e0ca30961a63",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_3adc0ceb"
+      }
+    },
+    {
+      "segment_id": "531437ca",
+      "source_content": "Możemy też na bieżąco kontrolować postęp aktualizacji komendą **tail -f**:",
+      "source_content_hash": "96959287c26b172b7d493f865893c4ed0c7a2dfc73b9e347bc7350ba2bb9c835",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "也可使用**tail -f**命令实时监控更新进度："
+      }
+    },
+    {
+      "segment_id": "67b24fc5",
+      "source_content": "```bash\ntail -f /data/data/com.termux/files/home/AIS/www/upgrade_log.txt\n```",
+      "source_content_hash": "f6ff107e1a6d50b91858fa6ad977025ab2e62b97e2632e204366a16e69b059f8",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_67b24fc5"
+      }
+    },
+    {
+      "segment_id": "047c2395",
+      "source_content": "## Logi systemu Android",
+      "source_content_hash": "86f91e4faa8841cabcce071ae9493b0854e4f52c9a7d4065532e2aa5a282efcc",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## Android系统日志"
+      }
+    },
+    {
+      "segment_id": "883231d4",
+      "source_content": "Za pomocą polecenia **logcat** możemy na bieżąco wyświetlać logi systemu Android",
+      "source_content_hash": "eb8e7d1deb3921982de2623002b476b97114e4db2e1342381ab0ccf6de894987",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过**logcat**命令可实时查看Android系统日志："
+      }
+    },
+    {
+      "segment_id": "468b36ba",
+      "source_content": "```bash\nlogcat\n```",
+      "source_content_hash": "1e7c3e005876a53bc137bae355be65b7bd07e773c9e63cc9e09c6f3ab5cfd053",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_468b36ba"
+      }
+    },
+    {
+      "segment_id": "7736989b",
+      "source_content": "![Logcat](/img/en/bramka/console_logcat.png)",
+      "source_content_hash": "70a3b109a1d8325df7b311b375a03d42520fb9865cae9dafaf52f8ef68a3fc42",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Logcat](/img/en/bramka/console_logcat.png)"
+      }
+    },
+    {
+      "segment_id": "8a9b6c26",
+      "source_content": "## Logi jądra Linux",
+      "source_content_hash": "d59f74fb6fd4eef763dc2abaac1c25cf4c5eae28c802ef3ed40828dd418f8cd7",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## Linux内核日志"
+      }
+    },
+    {
+      "segment_id": "a1fa5396",
+      "source_content": "Komendą **dmesg** możemy wyświetlać logi jądra Linux",
+      "source_content_hash": "000498148d1c7e4e0c43d1f5351a2cd3036506cd26f6ca88a9d736ed10e5403c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "使用 **dmesg** 命令可以查看 Linux 内核日志"
+      }
+    },
+    {
+      "segment_id": "8c3563d3",
+      "source_content": "```bash\ndmesg\n```",
+      "source_content_hash": "d0ad45a8a8d3f46b895b6f9b5d6f3576bfd236dcd029c41dbff67b7cbb7657ae",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_8c3563d3"
+      }
+    },
+    {
+      "segment_id": "74dd7937",
+      "source_content": "![dmesg](/img/en/bramka/console_dmesg.png)",
+      "source_content_hash": "bed95b41446f2e3ca19a92b8f47365ea86b42efd77db236d0bd88844fa8d9efd",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![dmesg](/img/en/bramka/console_dmesg.png)"
+      }
+    },
+    {
+      "segment_id": "ec8ed2a1",
+      "source_content": "## Procesy systemu Linux",
+      "source_content_hash": "c37f6b9fb4a36edffe47c8071cffecfc7fc94bf42313299d8255eca498a83aea",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## Linux 系统进程"
+      }
+    },
+    {
+      "segment_id": "51867d16",
+      "source_content": "Procesy systemu Linux możemy wyświetlać komendą **htop**",
+      "source_content_hash": "6d1764eb5306de8feb689fdaa885c7b211a969fba2ea9d7e315acba807167eb5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "可通过 **htop** 命令查看 Linux 系统进程"
+      }
+    },
+    {
+      "segment_id": "59f28e14",
+      "source_content": "```bash\nhtop\n```",
+      "source_content_hash": "0d99b038e0f1ac498cbb30aabca54b209e896b14dfe4d7f1a9f031b3c2449280",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_59f28e14"
+      }
+    },
+    {
+      "segment_id": "eb51d107",
+      "source_content": "![dmesg](/img/en/bramka/console_htop.png)",
+      "source_content_hash": "92a7b6b211b82492bff574a0510cc45767de29623feab1b8303bc2552b7929de",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![dmesg](/img/en/bramka/console_htop.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_faq_logs.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.113305+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "25e2425e7eea94bc6fbf1d9021813523420d0c3c7cf319ceeb90cc13eb48980f"
+  }
+}

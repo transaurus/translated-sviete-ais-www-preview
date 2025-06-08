@@ -1,0 +1,62 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_configuration_remote_access.md",
+  "source_file_content_hash": "8568b35d1f63be70cda2cc4b88ca3b34a28f6ae2ff8b99840aa713ca81194f34",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Konfiguracja bramki - Zdalny dostęp\"\nsidebar_label: Zdalny dostęp\n---",
+      "source_content_hash": "f5780d0f57e6b8f0ed43769f968a8f825244640c78aa6a31c57b753d3320d328",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "6ef78e84",
+      "source_content": "W tej sekcji możesz zarządzać zdalnym dostępem do bramki.\nMożna tu włączyć szyfrowany tunel, który zapewnia bezpieczne zdalne połączenie z Twoim urządzeniem, kiedy jesteś z dala od domu.",
+      "source_content_hash": "06be7ccd0f076579b88261509f49318fb9d67dc6da336b81012d3fa37e0430fb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在此部分可管理网关的远程访问功能。\n您可以启用加密隧道，确保在离家时仍能安全远程连接设备。"
+      }
+    },
+    {
+      "segment_id": "8ac585fb",
+      "source_content": "![Konfiguracja zdalnego dostępu do bramki](/img/en/bramka/config_ais_dom_section6.png)",
+      "source_content_hash": "2f93b980d6c39a4686452d44dfeab440fe6d15e447d925ddd61b38a55becd590",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![网关远程访问配置](/img/en/bramka/config_ais_dom_section6.png)"
+      }
+    },
+    {
+      "segment_id": "180bddb1",
+      "source_content": "Można też zarządzać wywołaniami zwrotnymi HTTP (Webhook), które używane są do udostępniania powiadomień o zdarzeniach z innych zewnętrznych systemów.",
+      "source_content_hash": "5588cde005ce4596922a7acd6ea236f6d6bb08a9bd5b40ac06879e951c04d1ab",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "还可管理HTTP回调（Webhook），用于接收来自其他外部系统的事件通知。"
+      }
+    },
+    {
+      "segment_id": "cf898102",
+      "source_content": "![Konfiguracja WebHook](/img/en/bramka/config_ais_dom_section6_2.png)",
+      "source_content_hash": "fb22048cb7f2ae089642fb7ab6bd0aa136893aa798db9bcaace5bea84010a7e3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![WebHook配置](/img/en/bramka/config_ais_dom_section6_2.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_configuration_remote_access.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.095786+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "8568b35d1f63be70cda2cc4b88ca3b34a28f6ae2ff8b99840aa713ca81194f34"
+  }
+}

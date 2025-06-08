@@ -1,0 +1,272 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_app_ai_integration.md",
+  "source_file_content_hash": "de1b57a00a6d860e2dd15ea92d88f0fc21013c0af8d12f654b3a859e63b93dc5",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Integracja Asystentka Jolka\"\nsidebar_label: Asystentka Jolka\n---",
+      "source_content_hash": "1adf3e79647e5428ff9b60446d397c22dddbe934726d2dd17d5f4d4dc36b879e",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Wbudowany Asystent",
+      "source_content_hash": "d6a24afeb401cebc2ddc62e444d07e851cade459a221b16012bb3fba12f76db6",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 内置语音助手"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "System posiada komponent umożliwiający wydawanie komend i przesyłanie zapytań do wbudowanego programu, który zamienia polecenie na intencję, a następnie wykonuje akcję powiązaną z intencją. Program ten nazywamy wbudowanym asystentem.",
+      "source_content_hash": "e712cb3ff650c3f5ad2777bca453365c15ec3c0dd1eac8465248e2ec7c3f0a0d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该系统包含一个可将语音指令转换为意图并执行关联操作的组件，我们称之为内置语音助手。"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "![ai](/img/en/frontend/jolka-assistant-integration.png)",
+      "source_content_hash": "c6af94c0f5c1e143e1886535efa3591213cf8378f6bb56045da96bb0e88afb39",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![ai](/img/en/frontend/jolka-assistant-integration.png)"
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "Z asystentem możesz rozmawiać:",
+      "source_content_hash": "bbf6a237312af771693f4fe2cd13a2cf5236bbb8df50dd8652cb18cbeb19918a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "您可以通过以下方式与助手交互："
+      }
+    },
+    {
+      "segment_id": "730c423c",
+      "source_content": "- przez naciśnięcie mikrofonu w aplikacji webowej (w przeglądarkach obsługujących wprowadzanie głosowe)\n- przez mikrofon w telefonie z systemem Android i z zainstalowaną naszą darmową aplikacją dostępną w [Google Play](https://play.google.com/store/apps/details?id=pl.sviete.dom)\n- przez wywołanie usługi rozmowy z naszego dedykowanego [pilota radiowego](/docs/ais_remote_index) z wbudowanym mikrofonem.\n- wpisując komendy tekstowe do asystenta w pole tekstowe w aplikacji.",
+      "source_content_hash": "7c208dc7ba8bb9aa136f4638b717bfa051fdfb6f769afa59c5a03088bdb21bca",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 在支持语音输入的网页应用中点击麦克风图标\n- 通过安装了我们免费应用的Android手机麦克风（应用可在[Google Play](https://play.google.com/store/apps/details?id=pl.sviete.dom)获取）\n- 使用带麦克风的专用[遥控器](/docs/ais_remote_index)启动语音服务\n- 在应用文本框中直接输入指令"
+      }
+    },
+    {
+      "segment_id": "39b3772c",
+      "source_content": "![ai](/img/en/frontend/ais_integration_ai_1.png)",
+      "source_content_hash": "e38f848195a64c85d072080c7bb5ebb19c14efeba7e74795725495a7e4387db6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![ai](/img/en/frontend/ais_integration_ai_1.png)"
+      }
+    },
+    {
+      "segment_id": "bc633244",
+      "source_content": "## Dostępne komendy",
+      "source_content_hash": "190750d326e29ace32a4bb3938bead45838b61124d332331dd32b8b79bfeab7c",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 可用指令集"
+      }
+    },
+    {
+      "segment_id": "2df4f75f",
+      "source_content": "Tu jest [lista poleceń](/docs/ais_app_assistent_commands), które asystent rozumie loklanie (bez potrzeby łączenia się z żadnym serwisem zewnętrznym).\nNp. gdy pytasz \"Jaka jest temperatura w kuchni\" asystent \"rozumie\", że intencją jest sprawdzenie statusu czujnika o nazwie \"Temperatura w kuchni\".",
+      "source_content_hash": "aed798aed41b2d613202213a3d16a133d1bc198e5a486a7e8cb2dd0c313a1045",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "此处是助手可[本地解析的指令列表](/docs/ais_app_assistent_commands)（无需连接外部服务）。例如当询问\"厨房温度是多少\"时，助手能\"理解\"这是要查询名为\"厨房温度\"的传感器状态。"
+      }
+    },
+    {
+      "segment_id": "f2c2bdd0",
+      "source_content": "Gdy asystent nie jest w stanie zrozumieć komendy lokalnie, to stara się uzyskać informację w zewnętrznych serwisach lub wyszukać ją w Internecie.\nUdzielając odpowiedzi na pytania typu \"kto to jest... \", \"kim jest... \", \"znajdź informację o...\" asystent korzysta z zasobów bazy wiedzy \"Google Knowledge Graph\". Korzystanie z tego typu bazy wiedzy ma na celu selekcję możliwie najistotniejszych treści i udzielenia krótkiej odpowiedzi na pytanie.\nŹródłem informacji do Google Knowledge Graph jest głównie Wikipedia.\nSięgamy też po informacje bezpośrednio z Wikipedii oraz z usług internetowych, w tym serwisów Google.",
+      "source_content_hash": "0fbe8a69d915f6dfce91708c5b0f72583d6010783e3156f53f0486d5d1fea94b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "当助手无法本地解析指令时，会尝试通过外部服务或互联网搜索获取信息。回答\"某某是谁\"、\"查找关于...的信息\"类问题时，助手会调用\"Google知识图谱\"数据库，该数据库主要聚合维基百科内容以提供简洁答案。我们也会直接查询维基百科及Google等互联网服务。"
+      }
+    },
+    {
+      "segment_id": "26524352",
+      "source_content": "![ai](/img/en/frontend/ais_integration_ai_2.png)",
+      "source_content_hash": "f4801fc89ccf1356dae1e78392ac1b1fdc6bf1f3edad80e7c829f680c061dd04",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![ai](/img/en/frontend/ais_integration_ai_2.png)"
+      }
+    },
+    {
+      "segment_id": "73ab96a3",
+      "source_content": "Jeśli dodasz integrację [Google Home](/docs/ais_app_ai_integration_google_home), to możesz bezpośrednio wysyłać komendy do Asystenta Google, wystarczy, że poprzedzisz komendę słowem \"Google\", np. \"Google, jaka jest pogoda\" lub \"Google opowiedz jakiś dowcip\" itd..",
+      "source_content_hash": "c6bfc0487979d4a25b639a5344bcb2a92bb76bd30584d06d9014e685d88e21a5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "若集成[Google Home](/docs/ais_app_ai_integration_google_home)，只需在指令前添加\"Google\"即可直接调用Google助手，例如\"Google，今天天气如何\"或\"Google讲个笑话\"等。"
+      }
+    },
+    {
+      "segment_id": "109ace10",
+      "source_content": "## Automatyzacje uruchamiane komendą",
+      "source_content_hash": "1a4537cc10ec554753ff7dad8ead46edbc482b6329b552861573387097932e55",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 语音触发自动化"
+      }
+    },
+    {
+      "segment_id": "135468ee",
+      "source_content": "Jeśli poprzedzedzimy nazwę automatyzacji zwrotem \"Jolka: [nazwa automatyzacji]\".",
+      "source_content_hash": "c7dd89d566938f6ae28d65b5366ce94c310f588850763dca05e3560b69ee8763",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在自动化名称前添加\"Jolka: [自动化名称]\"前缀即可语音触发。"
+      }
+    },
+    {
+      "segment_id": "33331f27",
+      "source_content": "Np: \"Jolka: podlej trawnik\":",
+      "source_content_hash": "c21119bdb634663b9c3648f477b3da9afdd2a3b5404b1cc9055752084e4012b5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "例如：\"Jolka: 浇灌草坪\":"
+      }
+    },
+    {
+      "segment_id": "50746522",
+      "source_content": "![Działanie komend](/img/en/frontend/jolka-assistant-automation.jpeg)",
+      "source_content_hash": "d418fa462dd63e6296cdd3a25e0c002f21c4e7d8259f62d1567f799ce28e4c4c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![指令演示](/img/en/frontend/jolka-assistant-automation.jpeg)"
+      }
+    },
+    {
+      "segment_id": "95e9ba12",
+      "source_content": "To po wypowiedzeniu komendy [nazwa automatyzacji] asystent zrozumie, że chodzi nam o uruchomienie automatyzacji o tej nazwie.",
+      "source_content_hash": "545ac767d70a204d9918eb1ea4621688de6ccbeb2a27d32df36fe5c3eedf0dfd",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "说出[自动化名称]后，助手将自动执行对应名称的自动化流程。"
+      }
+    },
+    {
+      "segment_id": "a9d49f92",
+      "source_content": "Dodatkowo każdą zdefiniowaną w systemie automatyzację możemy uruchomić komendą głosową. Wystarczy powiedzieć:",
+      "source_content_hash": "bdc3de5d6f6d28413849c39ebf0d73364a870ecd85eb340c37fe8b74baed4454",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "此外，系统中定义的每个自动化任务均可通过语音命令触发。只需说出："
+      }
+    },
+    {
+      "segment_id": "95318d95",
+      "source_content": "```text\n'Jolka {nazwa automatyzacji}'\n```",
+      "source_content_hash": "a82aeb0571084b572de87a0e22b20abafd2cc46de8ba88cf6eed3fae833814d9",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_95318d95"
+      }
+    },
+    {
+      "segment_id": "98d26038",
+      "source_content": "lub",
+      "source_content_hash": "d0afe5ed2bd67151d4dd103cbc58f94c43e56d5ebb122e9538f2718ee6d48c4c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "或"
+      }
+    },
+    {
+      "segment_id": "f275f5fd",
+      "source_content": "```text\n'Uruchom {nazwa automatyzacji}'\n```",
+      "source_content_hash": "2923127d37fb3b86210e6691fcc98b616a7ad7e20337c0b1678a3bcf4646b43e",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_f275f5fd"
+      }
+    },
+    {
+      "segment_id": "23dfb152",
+      "source_content": "lub",
+      "source_content_hash": "d0afe5ed2bd67151d4dd103cbc58f94c43e56d5ebb122e9538f2718ee6d48c4c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "或"
+      }
+    },
+    {
+      "segment_id": "c05ad55e",
+      "source_content": "```text\n'Automatyzacja {nazwa automatyzacji}'\n```",
+      "source_content_hash": "86cb8e9ab35739559e74c7af75472b298fa965e943811f754653ab711e5e167f",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_c05ad55e"
+      }
+    },
+    {
+      "segment_id": "5dae11e3",
+      "source_content": "w ten sposób można łatwo dodawać głosowe sterowanie praktycznie dowolnym urządzeniem, które mamy zintegrowane w systemie. Przykładowo, gdy chcemy dodać uruchomienie odkurzania głosowo, to wystarczy, że dodamy automatyzację o nazwie np. **Odkurzanie** (lub Start odkurzania), która będzie wywoływała akcję **vacuum.start**. Po zdefiniowaniu takiej akcji wystarczy powiedzieć **\"Uruchom odkurzanie\"**, by głosowo uruchomić odkurzanie 💪",
+      "source_content_hash": "7cfc875855dbbc775d0cadfa95007b108c4115fd3aa62dd106a4727176f61b0e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过这种方式，可以轻松为系统中集成的几乎所有设备添加语音控制功能。例如，若需语音启动扫地机器人，只需创建一个名为**吸尘**（或开始吸尘）的自动化任务，该任务将执行**vacuum.start**动作。定义完成后，说出**\"启动吸尘\"**即可通过语音控制扫地机器人 💪"
+      }
+    },
+    {
+      "segment_id": "3ef18741",
+      "source_content": "## Więcej o komendach głosowych",
+      "source_content_hash": "16fad4c11488c04bd51e98c89d4e2eb003786cc609fbfcc74c53242dc76dcde9",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 关于语音命令的更多信息"
+      }
+    },
+    {
+      "segment_id": "e7772088",
+      "source_content": "Więcej o wbudowanych komendach: [Wbudowane komendy](ais_app_assistent_commands) i o możliwości definiowania własnych nowych komend: [Dodawanie komendy](ais_app_assistent_add_command).",
+      "source_content_hash": "04fce1b88d1811033a5313516b8ff5ef2f524216100e8084e990f3f730bc315a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "内置命令详情参阅：[内置命令](ais_app_assistent_commands)，自定义新命令方法参见：[添加命令](ais_app_assistent_add_command)。"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_app_ai_integration.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.106259+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "de1b57a00a6d860e2dd15ea92d88f0fc21013c0af8d12f654b3a859e63b93dc5"
+  }
+}

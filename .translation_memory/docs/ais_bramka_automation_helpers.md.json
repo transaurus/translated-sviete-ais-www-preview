@@ -1,0 +1,502 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_automation_helpers.md",
+  "source_file_content_hash": "df4a4282f2556bc40cda4b464c917605dea77ad97dc8064f76c84b2d3fc54a71",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Pomocnicy Automatyzacji\"\nsidebar_label: Pomocnicy Automatyzacji\n---",
+      "source_content_hash": "bc17a703ee6767ff1ebc9cb9155a97c00aefcaf90460751a05b1a04f726f951a",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Wprowadzenie",
+      "source_content_hash": "138964b3f05ef631ae55efd030ca96538eb5d783961ef7b978515da6c937d13f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 简介"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Podczas tworzenia zaawansowanych automatyzacji może wystąpić potrzeba użycia dodatkowego pola do zapisu stanu lub wprowadzenia danych.\nElementy takie nazywamy \"Pomocnikami Automatyzacji\" i możemy je definiować w aplikacji.",
+      "source_content_hash": "d706ba63c94e709977f3aa8563dad227f6edf7170777b59c578f9169b89b40ca",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在创建高级自动化规则时，可能需要使用额外字段来存储状态或输入数据。这类元素我们称为\"自动化助手\"，可以在应用程序中进行定义。"
+      }
+    },
+    {
+      "segment_id": "8a5f6a7b",
+      "source_content": "## Przejście do Pomocników Automatyzacji",
+      "source_content_hash": "8372738488880ce881e6dcaf594b1b0606c5a3bf7d411b624903f8eaa9441ccc",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 进入自动化助手界面"
+      }
+    },
+    {
+      "segment_id": "180bddb1",
+      "source_content": "W aplikacji Asystent domowy otwórz menu (klikając ikonę w lewym górnym rogu), a następnie kliknij w konfigurację. Wybierz z listy dostępnych elementów konfiguracji Asystenta domowego pozycję \"Pomocnicy\"",
+      "source_content_hash": "db1612450d14f6719b19a890ba5cef3a1db120f66c1ef6d3c28a7689f7d53d79",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在家庭助手应用中，点击左上角菜单图标打开菜单，然后点击配置。从家庭助手可配置元素列表中选择\"助手\"选项。"
+      }
+    },
+    {
+      "segment_id": "cf898102",
+      "source_content": "![Pomocnicy automatyzacji](/img/en/bramka/automation_helpers.png)",
+      "source_content_hash": "34015f919e4e61798d4fda49742eb28fef7826b8491ed58824f85ba0aa9740d3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![自动化助手](/img/en/bramka/automation_helpers.png)"
+      }
+    },
+    {
+      "segment_id": "3daf1b88",
+      "source_content": "## Ekran z listą Pomocników Automatyzacji",
+      "source_content_hash": "4e2fd967f090ce1f6633bd72728d2fc0351817dbf3c7045710efee45ba425e2f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 自动化助手列表界面"
+      }
+    },
+    {
+      "segment_id": "f6168993",
+      "source_content": "Na ekranie z listą \"Pomocników Automatyzacji\" możemy wybrać pozycję do edycji (klikając w nią) lub zdefiniować nowy element - klikając przycisk \"plus\" w prawym dolnym rogu.",
+      "source_content_hash": "2f9218774268556ab4be8a45a6aa2c175ac5b05a2208663cd82f29f74ecdf0a2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在\"自动化助手\"列表界面中，我们可以选择要编辑的条目（点击该条目），或通过点击右下角的\"加号\"按钮定义新元素。"
+      }
+    },
+    {
+      "segment_id": "f5f6d2ce",
+      "source_content": "![Pomocnicy automatyzacji](/img/en/bramka/automation_helpers2.png)",
+      "source_content_hash": "ef2d873190a19b87bd8aa123d7d696565a3725c2cb83866240299f62e28d40ea",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![自动化助手](/img/en/bramka/automation_helpers2.png)"
+      }
+    },
+    {
+      "segment_id": "40f9552a",
+      "source_content": "## Definicja Pomocnika Automatyzacji",
+      "source_content_hash": "48e2e50795e5693a4ac6fec55ad153b3b54e50335304da41d3f516d2452f428f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 定义自动化助手"
+      }
+    },
+    {
+      "segment_id": "f2c2bdd0",
+      "source_content": "Z listy wybieramy jakiego typu element chcemy utworzyć, by potem przejść do definicji jego atrybutów.",
+      "source_content_hash": "18a6e7242a3b34e7301996b23bcc5d1a8b596ecceceb7caeead658648feef54f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "从列表中选择要创建的元素类型，然后进入其属性定义界面。"
+      }
+    },
+    {
+      "segment_id": "a76548f8",
+      "source_content": "![Pomocnicy automatyzacji](/img/en/bramka/automation_helpers3.png)",
+      "source_content_hash": "e3ebd2ae944674c10e60d4e39c9165fe6071fc8ea4339ace1fc7af19eef08ddc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![自动化助手](/img/en/bramka/automation_helpers3.png)"
+      }
+    },
+    {
+      "segment_id": "4b1d2d7d",
+      "source_content": "Po zdefiniowaniu elementu możemy umieścić go na karcie w interfejsie oraz użyć w automatyzacji.",
+      "source_content_hash": "1ba8ced84c9b7dac047570152b3690a5c9c995cc3ef764c6f9444f5709a55662",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "定义完元素后，我们可以将其放置在界面卡片上，并在自动化规则中使用。"
+      }
+    },
+    {
+      "segment_id": "b25f21be",
+      "source_content": "## Przykład - prosty budzik",
+      "source_content_hash": "6bfbd0cf029d70f2998bf84dfc7ffe960834a3d50700d571ea07637ad6fda6ed",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 示例 - 简单闹钟"
+      }
+    },
+    {
+      "segment_id": "a1b3d8cb",
+      "source_content": "### Zdefiniujmy Pomocnika typu \"Data i/lub godzina\"",
+      "source_content_hash": "73287a456cd85a0662fa77a072fdc24f0cb1f6473d213074ba1756833ba02a65",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 定义\"日期和/或时间\"类型的助手"
+      }
+    },
+    {
+      "segment_id": "517051a7",
+      "source_content": "![Pomocnik data godzina](/img/en/bramka/automation_helpers4.png)",
+      "source_content_hash": "c3b59bfeee6ad09acb2121e6f56afed67f0eadc97d805a392ca024013ae14f6e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![日期时间助手](/img/en/bramka/automation_helpers4.png)"
+      }
+    },
+    {
+      "segment_id": "135468ee",
+      "source_content": "Po zdefiniowaniu atrybutów jak na obrazku powyżej naciskamy \"UTWÓRZ\".",
+      "source_content_hash": "97118309171b308360064f8d510beb09e6852fc95a1615f60b034af9d6e92745",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "按照上图所示定义属性后，点击\"创建\"按钮。"
+      }
+    },
+    {
+      "segment_id": "782c902a",
+      "source_content": "### Umieszczamy Pomocnika na karcie",
+      "source_content_hash": "1d9cd85180d28f7d71ce4e4cef9b592e0d0d44ce79d2a78a3b7e05c1f09d65d8",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 将助手添加到卡片"
+      }
+    },
+    {
+      "segment_id": "1042b50d",
+      "source_content": "Przechodzimy do naszego pulpitu i na wybranym widoku tworzymy nową kartę.\nMoże to być najprostsza karta wyświetlająca nasz element ``input_datetime.budzik``\n![Pomocnik karta](/img/en/bramka/automation_helpers5.png)",
+      "source_content_hash": "4958db2f8b6138ec87e732f1bbd2661c48add7f702bd1e85901a9ff9d165b115",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "进入仪表盘界面，在选定视图上创建新卡片。可以是最简单的显示元素``input_datetime.budzik``的卡片：\n![助手卡片](/img/en/bramka/automation_helpers5.png)"
+      }
+    },
+    {
+      "segment_id": "13d9cd70",
+      "source_content": "Oczywiście kartę możemy \"upiększyć\" dodając ręcznie obrazek, np. zdjęcie szefowej, która czeka na raport itd.:",
+      "source_content_hash": "608b49fbb29df3fa583ec3e6eed16332f27b8492a6d071cd06046a064553bc6b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "当然，我们可以通过手动添加图片（比如老板等待汇报的照片等）来\"美化\"卡片："
+      }
+    },
+    {
+      "segment_id": "29528c8d",
+      "source_content": "![Pomocnik karta](/img/en/bramka/automation_helpers6.png)",
+      "source_content_hash": "e0631c115b8df8fc6c5880e6f302c2310c0578e750ecb7e801a763ce8b95103f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![助手卡片](/img/en/bramka/automation_helpers6.png)"
+      }
+    },
+    {
+      "segment_id": "c504c207",
+      "source_content": "Kod karty w YAML:",
+      "source_content_hash": "c923b5fb460831aad65af150400f4946fb594de1ce73da052511e4da3070fac6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "卡片YAML代码："
+      }
+    },
+    {
+      "segment_id": "ac961110",
+      "source_content": "``` yaml\ntype: entities\ntitle: Budzik\nheader:\n  image: >-\n    https://www.wikihow.com/images/thumb/6/64/Deal-With-a-Moody-Boss-Step-10.jpg/aid236433-v4-728px-Deal-With-a-Moody-Boss-Step-10.jpg.webp\n  type: picture\nentities:\n  - entity: input_datetime.budzik\n```",
+      "source_content_hash": "4b74621a4f6a57f63756fd7df582e69a6fb3c85f41a17ed55284dd38e434d127",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_ac961110"
+      }
+    },
+    {
+      "segment_id": "79ad944d",
+      "source_content": "![Pomocnik karta](/img/en/bramka/automation_helpers13.png)",
+      "source_content_hash": "d802efc88f281e6a19e9e4a6daa04522227cca60b3cd2c89552bf64640a2fb15",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![助手卡片](/img/en/bramka/automation_helpers13.png)"
+      }
+    },
+    {
+      "segment_id": "a5a4323e",
+      "source_content": "### Użycie Pomocnika w automatyzacji",
+      "source_content_hash": "c0c1f99e388e324dc3e4a1fffc6c21791940768d098f9d223209d0c8e5438c08",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 在自动化中使用助手"
+      }
+    },
+    {
+      "segment_id": "3ef18741",
+      "source_content": "#### Definiujemy nową automatyzację:",
+      "source_content_hash": "687a40e747a9cdedb64d448fa4538e90c5a19a97e18ef85c7c972d1ae90bd8c2",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "#### 定义新自动化规则："
+      }
+    },
+    {
+      "segment_id": "e7772088",
+      "source_content": "![Pomocnik automatyzacja](/img/en/bramka/automation_helpers7.png)",
+      "source_content_hash": "0e13e7ed1b65809f628f3948389c51f7632859f51d4fea44b83d9e0bfad4518a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![助手自动化](/img/en/bramka/automation_helpers7.png)"
+      }
+    },
+    {
+      "segment_id": "eab056be",
+      "source_content": "Jako wyzwalacz możemy zastosować szablon - sprawdzimy w nim, czy aktualny czas jest równy ustawionemu w polu budzik:",
+      "source_content_hash": "30d6fdf56769e894e257a0db4bc423b051662f2f38d2f6b71aa8b38ff51016e6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们可以使用模板作为触发器 - 在模板中检查当前时间是否等于闹钟字段设置的时间："
+      }
+    },
+    {
+      "segment_id": "f01228d3",
+      "source_content": "![Pomocnik szablon](/img/en/bramka/automation_helpers8.png)",
+      "source_content_hash": "4111c1220d851e654c846f9d50bcaa09b9a26b7258fb7fd81423ce1467910e0f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![助手模板](/img/en/bramka/automation_helpers8.png)"
+      }
+    },
+    {
+      "segment_id": "93028a4e",
+      "source_content": "#### Cały kod szablonu:",
+      "source_content_hash": "3738e0d9a7b01960a9f164e4c0e85793664c928c2ead3ee5a9f8c4b210195877",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "#### 完整模板代码："
+      }
+    },
+    {
+      "segment_id": "a89f84e1",
+      "source_content": "``` javascript\n{{ states('sensor.time') ==\n(state_attr('input_datetime.budzik', 'timestamp') | int\n| timestamp_custom('%H:%M', True)) }}\n```",
+      "source_content_hash": "6c3e1ebdcb9ce6251231286fe9731689e0325ea5f703d18968881c3af2a229cd",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_a89f84e1"
+      }
+    },
+    {
+      "segment_id": "edb00ead",
+      "source_content": ":::tip[Wskazówka]\nKody szablonów możesz sprawdzać w \"Narzędzia developerskie\" -> \"SZABLON\"\n:::",
+      "source_content_hash": "edc244349951265677a862cb7d2acb4a1e7393a5e7dcd6d321457b77cb7f13da",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::tip[提示]\n您可以在\"开发者工具\" -> \"模板\"中验证模板代码\n:::"
+      }
+    },
+    {
+      "segment_id": "74dd7937",
+      "source_content": "Przejdz do sprawdzenia szablonu i w pole edytora szablonów wklej taki kod:",
+      "source_content_hash": "26a4ebf3cf52b2805426fe354898efa6b82ac73fa72067668424e3d51e0d021b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "前往模板验证界面，在模板编辑器中粘贴如下代码："
+      }
+    },
+    {
+      "segment_id": "5dd0e3a7",
+      "source_content": "``` javascript\n{{ states('sensor.time') }}\n```",
+      "source_content_hash": "1fcc289df642dbf1738026b0ed5f5607858a0c7d7371635ee9728c5f39f5ad10",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_5dd0e3a7"
+      }
+    },
+    {
+      "segment_id": "785750ac",
+      "source_content": "żeby zobaczyć stan sensora czasu w systemie.",
+      "source_content_hash": "60fd187a82589718ef7501ae085f356df16d6cc448e950c29d356e152e52e532",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "即可查看系统中时间传感器的状态。"
+      }
+    },
+    {
+      "segment_id": "82e90254",
+      "source_content": "![Pomocnik szablon](/img/en/bramka/automation_helpers9.png)",
+      "source_content_hash": "2c055e8e6caf91c413024fa72b3c4405f720f8af22d77967a3c09bd4ea5a9c43",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![自动化助手模板](/img/en/bramka/automation_helpers9.png)"
+      }
+    },
+    {
+      "segment_id": "2822251a",
+      "source_content": "``sensor.time`` to wbudowany element systemu Asystent domowy - godzina prezentowana w aplikacji.",
+      "source_content_hash": "934ade70c31fe431ae3331a707d911eea66d9f26630b0b50d8a5d5fda72f1f2d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "``sensor.time``是家庭助理系统的内置组件，用于显示应用中的当前时间。"
+      }
+    },
+    {
+      "segment_id": "25212439",
+      "source_content": "![Pomocnik szablon](/img/en/bramka/automation_helpers101.png)",
+      "source_content_hash": "4f60ad0ac3f9143ccce7985878a2fb12b89623d2a75949b02a7b626367ae5699",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![自动化助手模板](/img/en/bramka/automation_helpers101.png)"
+      }
+    },
+    {
+      "segment_id": "d79a4831",
+      "source_content": "Następnie by zobaczyć, odpowiednio sformatowany, aktualny status elementu budzik, wklej taki kod:",
+      "source_content_hash": "adbb85bb78be901044b54fd99dd88133eda296f7e741a5e343355e08ca792d1d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "若要查看闹钟元素的格式化当前状态，请粘贴以下代码："
+      }
+    },
+    {
+      "segment_id": "64071bcc",
+      "source_content": "``` javascript\n{{ (state_attr('input_datetime.budzik', 'timestamp') | int | timestamp_custom('%H:%M', True)) }}\n```",
+      "source_content_hash": "9897b84c69d29f0ef33c011b908c0ffc3dffd9c0f0a76df517788e1a79f0f14c",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_64071bcc"
+      }
+    },
+    {
+      "segment_id": "0e80209e",
+      "source_content": "![Pomocnik szablon](/img/en/bramka/automation_helpers10.png)",
+      "source_content_hash": "db88c13d78ef84b7b7cdf8fb103003f06aa7bac2987afbd626fbae6f4373d3bb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![自动化助手模板](/img/en/bramka/automation_helpers10.png)"
+      }
+    },
+    {
+      "segment_id": "7bc8bb24",
+      "source_content": "Cały kod sprawdzający, czy aktualna godzina i minuta jest równa nastawionej godzinie i minucie na budziku:",
+      "source_content_hash": "65bd21ee0d24e2c5f21e6b12163610cf0946508656331529c138c8de7b9adeb7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "完整代码用于检查当前时分是否与闹钟设定时间匹配："
+      }
+    },
+    {
+      "segment_id": "f39e109c",
+      "source_content": "``` javascript\n{{ states('sensor.time') ==\n(state_attr('input_datetime.budzik', 'timestamp') | int\n| timestamp_custom('%H:%M', True)) }}\n```",
+      "source_content_hash": "6c3e1ebdcb9ce6251231286fe9731689e0325ea5f703d18968881c3af2a229cd",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_f39e109c"
+      }
+    },
+    {
+      "segment_id": "1958bc43",
+      "source_content": "![Pomocnik szablon](/img/en/bramka/automation_helpers11.png)",
+      "source_content_hash": "c8c2935f55a83b898428771a0f63ff5df78626c0742bde2b29cda47c8a4fd5df",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![自动化助手模板](/img/en/bramka/automation_helpers11.png)"
+      }
+    },
+    {
+      "segment_id": "a8610918",
+      "source_content": "Gdy warunek będzie spełniony, czyli wartość sensor.time == wartości naszego elementu input_datetime.budzik automatyzacja zostanie uruchomiona.",
+      "source_content_hash": "b827af35ca410be71631bf69690a7f07b06685da443be7fe84c3b51ac76d1221",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "当条件满足时（即sensor.time时间值等于input_datetime.budzik元素设定值），自动化流程将被触发。"
+      }
+    },
+    {
+      "segment_id": "64d57278",
+      "source_content": "#### Wykonanie akcji automatyzacji",
+      "source_content_hash": "96189e7317991e4f86f4d6268c49c258b04724aa6ebff3eec5df786c95a21da8",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "#### 执行自动化动作"
+      }
+    },
+    {
+      "segment_id": "5f82a1e9",
+      "source_content": "Akcja automatyzacji może być tekstem, który Jolka przeczyta, żeby nas obudzić, dodatkowo możemy włączyć radio lub dowolną inną muzykę z dysku czy serwisu zdalnego.",
+      "source_content_hash": "98b041ef5568154ddc322711dd1db5e2c0002f4b62ae4f68000a8517a996c27c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "自动化动作可以是Jolka语音助手播报的唤醒文本，同时还可启动收音机或播放本地/在线音乐服务中的任意曲目。"
+      }
+    },
+    {
+      "segment_id": "6fc234cf",
+      "source_content": "![Pomocnik szablon](/img/en/bramka/automation_helpers12.png)",
+      "source_content_hash": "08112371978af068c245f624eca2a2000c2c6516aaf9d5a41f706eb5b3813174",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![自动化助手模板](/img/en/bramka/automation_helpers12.png)"
+      }
+    },
+    {
+      "segment_id": "c364340c",
+      "source_content": "Akcja opóźnienie pomiędzy akcją powiedzenia tekstu przez Jolkę a akcją włączenia radia, jest po to, żebyśmy zdążyli usłyszeć tekst pobudki, zanim zacznie grać radio.\nOczywiście to tylko przykład, w razie potrzeby możemy też zaświecić światło, stopniowo zwiększać głośność audio itp.",
+      "source_content_hash": "14d887d7f2b46653289dcc40e6f5c08784f1395bd5b2d06dbd6e5f4be3f51cbe",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在Jolka播报文本与启动收音机之间设置延迟动作，是为了确保我们能听清唤醒提示后再播放音乐。\n当然这仅是示例，您还可以根据需要实现开灯、渐进调节音量等复杂场景。"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_automation_helpers.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.136015+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "df4a4282f2556bc40cda4b464c917605dea77ad97dc8064f76c84b2d3fc54a71"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_dev_kit_1_parts.md",
+  "source_file_content_hash": "a8e64a00d211372ceb575224592258ca64291a3c5783b7de82362006b206ec2d",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Części zestawu\"\nsidebar_label: Części zestawu\n---",
+      "source_content_hash": "5012b41d02104af3a410bb97b6611b25daa275bd6f2c291979deb937e3ada341",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Opis",
+      "source_content_hash": "213089b969518edeaef89b69fec05f6aa90907037d8c093ae41737cc35ac7a23",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 描述"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Obudowę głośnika należy wydrukować w 3D, potrzebne do tego kody są w [udostępnionym projekcie](https://github.com/sviete/AIS-3D-MODELS/tree/master/AIS_DEV_KIT_1_Spherical_Speaker_Dayton_PS95-8). \nDodatkowo trzeba zakupić głośnik, płytę audio ze wzmacniaczem, układem Bluetooth i komunikacją TTL, watę wygłuszającą oraz kilka przewodów i śrubek do mocowania elementów - wszyskie potrzebne części opisane są poniżej.",
+      "source_content_hash": "46778746c35ee4ba67f7c606131fc4dcedf22a474939a9223e2d0eaad591e86d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "音箱外壳需通过3D打印制作，相关代码文件可在[开源项目](https://github.com/sviete/AIS-3D-MODELS/tree/master/AIS_DEV_KIT_1_Spherical_Speaker_Dayton_PS95-8)中获取。\n此外还需采购扬声器单元、带蓝牙功能和TTL通信的音频功放板、吸音棉，以及若干用于固定组件的线材和螺丝——下文将详细列出所有必需配件清单。"
+      }
+    },
+    {
+      "segment_id": "8ac585fb",
+      "source_content": "![DEV KIT 1](/img/en/iot/dev_kit_1_3d.png)",
+      "source_content_hash": "b12fe5baf5f3747eafcba75893d06286a4d05ac80d5d126e1fd0ea87f12482c4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![开发套件1](/img/en/iot/dev_kit_1_3d.png)"
+      }
+    },
+    {
+      "segment_id": "70153c6e",
+      "source_content": "## Części zestawu",
+      "source_content_hash": "816804cda77eaebb3e5b53dc68c84a5a4886074096e663dbae5c3e7d29cf3b10",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 套件组件清单"
+      }
+    },
+    {
+      "segment_id": "ac7ef717",
+      "source_content": "|nazwa|model|zdjęcie|\n| --- | --- | --- |\n|Obudowa głośnika|AI-Speaker Spherical Speaker, projekt i kody do wydrukowania, dostępne w repozytorium Github: [AI-Speaker](https://github.com/sviete/AIS-3D-MODELS/tree/master/AIS_DEV_KIT_1_Spherical_Speaker_Dayton_PS95-8)|<img src=\"/img/en/iot/dev_kit_parts_1.png\" width=\"400\"/>|\n|Głośnik|Dayton Audio PS95-8 3.5\" Pełnozakresowy|<img src=\"/img/en/iot/dev_kit_parts_2.png\" width=\"400\"/>|\n|Wzmacniacz audio z modułem Bluetooth oraz złączem do komunikacji po TTL|Płyta audio z układem Beken BK3266, zasilanie 5V|<img src=\"/img/en/iot/dev_kit_parts_3.png\" width=\"400\"/>|\n|Przewód aux łączący wyjście audio z bramki (aux out) AIS DEV ze wzmacniaczem na płytce audio (aux in)|20cm, Jack 3.5 <br/>>2 razy męski|<img src=\"/img/en/iot/dev_kit_parts_4.png\" width=\"400\"/>|\n|Przewód głośnikowy|32cm, 2x0,5mm <br/>JST 2pin 2,5mm <br/>Konektor 2,8 żeński <br/>Konektor 4,8 żeński|<img src=\"/img/en/iot/dev_kit_parts_5.png\" width=\"400\"/>|\n|Przewód do komunikacji TTL zakończony wtyczką oraz gniazdo do wlutowania w płytkę na bramce AIS DEV|10cm, 4x0,1mm <br/>JST 4pin 2mm|<img src=\"/img/en/iot/dev_kit_parts_6.png\" width=\"400\"/>|\n|4 śruby mocujące głośnik w obudowie|Imbus M4 x 12mm|<img src=\"/img/en/iot/dev_kit_parts_7.png\" width=\"400\"/>|\n|4 śruby mocujące płytkę audio do obudowy|Krzyżak M3 x 6mm|<img src=\"/img/en/iot/dev_kit_parts_8.png\" width=\"400\"/>|\n|4 śruby mocujące obudowę głośnika do obudowy bramki AIS DEV|Krzyżak M4 x 10mm|<img src=\"/img/en/iot/dev_kit_parts_9.png\" width=\"400\"/>|\n|Uszczelka głośnikowa|32cm / 1,5mm / 12mm|<img src=\"/img/en/iot/dev_kit_parts_10.png\" width=\"400\"/>|\n|Pianka wytłumiająca obudowę|30cm / 15cm <br/>17cm / 15cm|<img src=\"/img/en/iot/dev_kit_parts_11.png\" width=\"400\"/>|",
+      "source_content_hash": "0df0471aed3e151bca7d406060a2b51b2c8bdc8695ec267e3ec37aca51d41963",
+      "node_type": "table",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_ac7ef717"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_dev_kit_1_parts.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.103756+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "a8e64a00d211372ceb575224592258ca64291a3c5783b7de82362006b206ec2d"
+  }
+}

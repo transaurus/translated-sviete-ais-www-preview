@@ -1,0 +1,82 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_update_logs.md",
+  "source_file_content_hash": "b76cd2fedc0ffbed8d3e261b827ff1531c89ded62e8b3055beb8989df3f588c3",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Logi aktualizacji\"\nsidebar_label: Logi aktualizacji\n---",
+      "source_content_hash": "87ab8827df04466f15d712a7c1026f5b5690e0d9971e6de960f8794a99ba7a30",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "W aplikacji “Asystent domowy”, w zakładce **Narzędzia deweloperskie** dostępna jest konsola.",
+      "source_content_hash": "3f869b02be4c900db4579e304a2965eabf0559cb56ed903b20099d15a6322b9a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在\"家庭助手\"应用的**开发者工具**选项卡中，可访问控制台界面。"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "![Logi aktualizacji](/img/en/frontend/update_logs.png)",
+      "source_content_hash": "a0ac03ff4e8ec5bdf9bcc07f5f704b1fafd2b7cb2efedf34fa3262fabc43a086",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![更新日志](/img/en/frontend/update_logs.png)"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "polecenie `pm2 logs` wyświetla aktualne logi bramki.",
+      "source_content_hash": "fadf3ab1e2f44b1358998c015d4248718080f17e2c2fc335416ae80f3b5744a6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "执行`pm2 logs`命令可查看网关的实时日志。"
+      }
+    },
+    {
+      "segment_id": "180bddb1",
+      "source_content": "Będą w lokalnej sieci (taj samej co bramka) możemy uruchomić konsole w osobnym oknie przeglądarki, pod adresem: http://ais-dom.local:8888 lub http://**lokalny_adres_ip_bramki**:8888",
+      "source_content_hash": "4f2c97435cc8224b182ab6865454f5108223173d007a792a8e750888cc7bf230",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在本地网络（与网关同一网络）中，可通过浏览器新窗口访问以下地址打开控制台：http://ais-dom.local:8888 或 http://**网关本地IP地址**:8888"
+      }
+    },
+    {
+      "segment_id": "cf898102",
+      "source_content": "Dzięki temu możemy uruchomić aktualizacje (w jednej karcie przeglądarki) oraz konsole (w drugiej karcie przeglądarki) i ślcedzić logi aktualizacji.\nW przypadku problemu z aktualizacją logi możemy wysłać do serwisu AI-Speaker. info@ai-speaker.com",
+      "source_content_hash": "a9235eb52c6bcffa11494edc29317b2dc7b6ffcdcb5c4ba121f76e162dd12e6e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过此方式，您可以在一个浏览器标签页执行更新操作，同时在另一个标签页打开控制台监控更新日志。若遇更新问题，可将日志发送至AI-Speaker技术支持邮箱：info@ai-speaker.com"
+      }
+    },
+    {
+      "segment_id": "39b3772c",
+      "source_content": "![Logi aktualizacji](/img/en/frontend/update_logs_txt.png)",
+      "source_content_hash": "9cca96a1445cc5fee15d5cfe647adc264b16e315a0f2b797833ecd20cc542881",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![更新日志文本](/img/en/frontend/update_logs_txt.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_update_logs.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.109969+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "b76cd2fedc0ffbed8d3e261b827ff1531c89ded62e8b3055beb8989df3f588c3"
+  }
+}

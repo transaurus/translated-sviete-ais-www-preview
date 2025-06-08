@@ -1,0 +1,72 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_iot_commands.md",
+  "source_file_content_hash": "bb21446a45af5346dc94fa17e658b364e3046860a0b93da242a23585d54711b1",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: S26, inteligentne gniazdo WiFi\nsidebar_label: Inteligentne gniazdo WiFi\n---",
+      "source_content_hash": "c2201242970f9309f14237c60faa935495114cba3441dc558e61d73f08899d92",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Opis",
+      "source_content_hash": "213089b969518edeaef89b69fec05f6aa90907037d8c093ae41737cc35ac7a23",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 描述"
+      }
+    },
+    {
+      "segment_id": "df80d009",
+      "source_content": "1. erase all flash and reset parameters to firmware defaults but keep Wi-Fi settings and restart\nReset 5\n\n\n2. add new settings\nBacklog ssid2 8DB0839D; password2 094FAFE8; SetOption57 1; SetOption3 0; WifiConfig 4",
+      "source_content_hash": "b1ab6743291c4c2a006402f6c0c0426ae5f287b93b77f6afb0c1afe43e49edab",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "1. 擦除所有闪存并将参数重置为固件默认值，但保留Wi-Fi设置并重启\nReset 5\n\n\n2. 添加新设置\nBacklog ssid2 8DB0839D; password2 094FAFE8; SetOption57 1; SetOption3 0; WifiConfig 4"
+      }
+    },
+    {
+      "segment_id": "cf898102",
+      "source_content": "SetOption3 0 - disable MQTT\nWifiConfig 4 - disable Wi-Fi config but retry other AP without restart\nSetOption57 - Wi-Fi network re-scan every 44 minutes with switch to +10dB stronger signal if detected (only visible networks)",
+      "source_content_hash": "686c809c3944de12f8ad332db62ca558d9fd3acdc3976235d0e505d2277d75ac",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "SetOption3 0 - 禁用MQTT\nWifiConfig 4 - 禁用Wi-Fi配置但会尝试其他接入点而不重启\nSetOption57 - 每44分钟重新扫描Wi-Fi网络，若检测到信号强度+10dB更强的网络则切换（仅限可见网络）"
+      }
+    },
+    {
+      "segment_id": "f6168993",
+      "source_content": "LedPower - LED power state as on or off\n0 = turn LED OFF and set LedState 0\n1 = turn LED ON and set LedState 0\n2 = toggle LED and set LedState 0\n(Use Backlog LedPower 0; SetOption31 1 to disable LED even when Wi-Fi or MQTT is not connected)",
+      "source_content_hash": "2904e574c8b1ad6a09508079fbd1be5802637ae39f656b762528f26efbcc31dd",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "LedPower - LED电源状态开关\n0 = 关闭LED并设置LedState 0\n1 = 开启LED并设置LedState 0\n2 = 切换LED状态并设置LedState 0\n（使用Backlog LedPower 0; SetOption31 1可禁用LED，即使Wi-Fi或MQTT未连接时也生效）"
+      }
+    },
+    {
+      "segment_id": "f2c2bdd0",
+      "source_content": "SetOption31 - Disable status LED blinking during Wi-Fi and MQTT connection problems.LedPower must be set to 0 for this feature to work.\n0 = LED blinking enabled (default)\n1 = LED blinking disabled",
+      "source_content_hash": "ae8b82338a64ea94e6b4fe3dbc3dca1705422a35cfd548bc85780708e039bf4b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "SetOption31 - 在Wi-Fi和MQTT连接问题期间禁用状态LED闪烁。此功能需将LedPower设置为0才能生效。\n0 = 启用LED闪烁（默认）\n1 = 禁用LED闪烁"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_iot_commands.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.133638+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "bb21446a45af5346dc94fa17e658b364e3046860a0b93da242a23585d54711b1"
+  }
+}

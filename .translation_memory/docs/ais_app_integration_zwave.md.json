@@ -1,0 +1,332 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_app_integration_zwave.md",
+  "source_file_content_hash": "3d4097f61ba0b7b479f3bae468d0fc363520df6790997a7effbc63a6b3174f79",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Zwave\"\nsidebar_label: Zwave\n---",
+      "source_content_hash": "6b173c2a21b9eb724f1a138e6e6e83f21253297f7ca73ecc5eebde30af00dd77",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Wprowadzenie",
+      "source_content_hash": "138964b3f05ef631ae55efd030ca96538eb5d783961ef7b978515da6c937d13f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 简介"
+      }
+    },
+    {
+      "segment_id": "53eaf0e1",
+      "source_content": "Integracja Zwavejs w Asystencie domowym daje możliwość korzystania z urządzeń Zwave bez potrzeby stosowania bramek producentów. Rozwiązanie oparte jest na projekcie [ZwaveJs2Mqtt](https://github.com/zwave-js/zwavejs2mqtt). Dzięki czemu możesz dodać swoje urządzenia Zwave do całej infrastruktury inteligentnego domu działającej na systemie Asystent domowy.",
+      "source_content_hash": "0ef853ab282076ab9310e23fb46ec9e66b792f9628e03444052acfb1e85ab600",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Zwavejs集成使您无需使用制造商网关即可在智能家居系统中使用Zwave设备。该解决方案基于[ZwaveJs2Mqtt](https://github.com/zwave-js/zwavejs2mqtt)项目开发，可将Zwave设备接入运行AI-Speaker系统的智能家居基础设施。"
+      }
+    },
+    {
+      "segment_id": "9fcbdce9",
+      "source_content": "### <span class=\"mdi mdi-professional-hexagon\"></span> Bramka PRO",
+      "source_content_hash": "aa45bab1258e437bd5cac89b2ca2550e1722f0b1dc6c32137b5c9d9fa1e13070",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### <span class=\"mdi mdi-professional-hexagon\"></span> PRO网关"
+      }
+    },
+    {
+      "segment_id": "ad8fd492",
+      "source_content": "Na bramce AIS PRO <span class=\"mdi mdi-professional-hexagon\"></span> integracja Zwavejs jest zainstalowana i skonfigurowana domyślnie.",
+      "source_content_hash": "fbe841fe0c17b0be4a6dcde238438d5ad4cd527dbf879194bcf2be6e738d6879",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在AIS PRO <span class=\"mdi mdi-professional-hexagon\"></span>网关上，Zwavejs集成已默认安装并配置完成。"
+      }
+    },
+    {
+      "segment_id": "86b54d44",
+      "source_content": "![Zwave](/img/en/frontend/zwave_control_panel_dark.png)",
+      "source_content_hash": "83a771af58fec1b91e82eab081fe3880d6470eb8acaf4d01deeb49ff6dc49747",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Zwave](/img/en/frontend/zwave_control_panel_dark.png)"
+      }
+    },
+    {
+      "segment_id": "aee0e40d",
+      "source_content": "### <span class=\"mdi mdi-dev-to\"></span> Bramka DEV",
+      "source_content_hash": "dd9f7944ee9cd520aa64ce17b50f6cf86aa0049b2952c177d6f0411b999f167f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### <span class=\"mdi mdi-dev-to\"></span> DEV网关"
+      }
+    },
+    {
+      "segment_id": "f5f6d2ce",
+      "source_content": "W przypadku bramek DEV integracja Zwave wymaga instalacji ręcznej.\nCała procedura opisana jest na forum AI-Speaker: [ZWave na bramce AIS - Zwavejs2Mqtt](https://ai-speaker.discourse.group/t/zwave-na-bramce-ais-zwavejs2mqtt/1769)",
+      "source_content_hash": "607cbaba424116581fb293ce112b146e6587248a03dc83ed43321fa916aa60a3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "对于DEV网关，Zwave集成需要手动安装。完整操作指南详见AI-Speaker论坛：[在AIS网关上使用Zwave - Zwavejs2Mqtt](https://ai-speaker.discourse.group/t/zwave-na-bramce-ais-zwavejs2mqtt/1769)"
+      }
+    },
+    {
+      "segment_id": "98cfbd53",
+      "source_content": "![Zwave](/img/en/frontend/zwave_dev_integration.png)",
+      "source_content_hash": "011f92434cfcd8437853c83caa2a8f936eab61254d1dd81a1560d0501ea93814",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Zwave](/img/en/frontend/zwave_dev_integration.png)"
+      }
+    },
+    {
+      "segment_id": "3c36424c",
+      "source_content": "## Integracja Zwave",
+      "source_content_hash": "25204d94663c6e91f0d8bc41a2db00ccc78c8a99802756dd475e9ff859f01c09",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## Zwave集成"
+      }
+    },
+    {
+      "segment_id": "26524352",
+      "source_content": "Integracja testowana jest z popularnym na rynku adapterem Aeotec Z-Stick, który komunikuje się za pomocą USB CDC (Communication Device Class).",
+      "source_content_hash": "0d743af68a12a620ee566a0506f69ca4e81f676c068707064d20664b95f58f05",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "本集成已通过市场主流适配器Aeotec Z-Stick测试验证，该设备采用USB CDC（通信设备类）协议进行通信。"
+      }
+    },
+    {
+      "segment_id": "73ab96a3",
+      "source_content": "![Zwave](/img/en/frontend/zwave_adapter.jpeg)",
+      "source_content_hash": "0366aea1dc2362f5bff393314531507cb22ebf82191e5cd41c7fe020aebdd453",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Zwave](/img/en/frontend/zwave_adapter.jpeg)"
+      }
+    },
+    {
+      "segment_id": "bdc231b1",
+      "source_content": "Integracja może też działać z adapterami, które nie obsługują USB CDC, za pomocą zdalnego połączenia tcp socket, obsługiwanego przez ZwaveJs2Mqtt:",
+      "source_content_hash": "46a62c978a633404179bef75e006a8c90933ee9f703d43b4c74d58ac66efa83e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过ZwaveJs2Mqtt支持的TCP socket远程连接，本集成也可兼容不支持USB CDC协议的适配器："
+      }
+    },
+    {
+      "segment_id": "076d64d1",
+      "source_content": "```\n tcp://dongle.lan:5000\n```",
+      "source_content_hash": "23af58884c2e01f5bd41181d4bb6dd966bf574e466fc489ee426044b57f47fa3",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_076d64d1"
+      }
+    },
+    {
+      "segment_id": "9f9e64f5",
+      "source_content": "## Obsługiwane urządzenia",
+      "source_content_hash": "a2e78577cfd6cc78ab4e41dfd396989bd1aa07f861ec682f5166d0d027f880fb",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 支持的设备"
+      }
+    },
+    {
+      "segment_id": "1042b50d",
+      "source_content": "Obsługujemy to, co obsługuje Zwavejs2Mqtt, więcej informacji na [stronie projektu ZwaveJs2Mqtt](https://zwave-js.github.io/zwavejs2mqtt/#/).",
+      "source_content_hash": "3a66d54d68e9cdfd62bc5c4d06bf9229264e9cf433e2aacd0910eb87a3140840",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们支持所有Zwavejs2Mqtt兼容设备，更多信息请参阅[ZwaveJs2Mqtt项目页面](https://zwave-js.github.io/zwavejs2mqtt/#/)。"
+      }
+    },
+    {
+      "segment_id": "8bddee80",
+      "source_content": "### Mapa sieci",
+      "source_content_hash": "26e261b4f346a0d26fdc898dd9b9db86b056c6018f870affe6a59b112bb78424",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 网络拓扑图"
+      }
+    },
+    {
+      "segment_id": "a9d49f92",
+      "source_content": "Możemy odświeżyć stronę z mapą sieci Zwave, by zobaczyć urządzenia podłączone do bramki",
+      "source_content_hash": "6b46cce3682fb5c7e9c24f6d877256011b89d5be9d2caf565ffc9d411a66c220",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "可刷新Zwave网络拓扑页面查看已接入网关的设备"
+      }
+    },
+    {
+      "segment_id": "a44047a5",
+      "source_content": "![Zigbee integracja](/img/en/frontend/zwave_mesh_diagram.png)",
+      "source_content_hash": "bcb08b1866adce82b2f4ba680f6b4eaa84d57fb04398ceef64a5c6075f29e7ac",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Zigbee集成](/img/en/frontend/zwave_mesh_diagram.png)"
+      }
+    },
+    {
+      "segment_id": "49d8fe2a",
+      "source_content": "-----------------------------------------------------",
+      "source_content_hash": "4b2565bde18586a3df94f1a47659f4632cd797b455b5dc416ee2a6886aef3fa9",
+      "node_type": "thematicBreak",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "-----------------------------------------------------"
+      }
+    },
+    {
+      "segment_id": "af52d59d",
+      "source_content": "## Informacje techniczne",
+      "source_content_hash": "3dfe84774725c9ca724b9d3eab0440e4139e6b15e87494c029c9dae93ac448e7",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 技术信息"
+      }
+    },
+    {
+      "segment_id": "e50bebbf",
+      "source_content": "### Proces zwave",
+      "source_content_hash": "a077d9d2add47174ebe3331d62c046e0e3e8bac193da440f309dfd0a6732e1a3",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### Zwave进程"
+      }
+    },
+    {
+      "segment_id": "23dfb152",
+      "source_content": "Procesami na bramce steruje [Menedżer procesów PM2](http://pm2.keymetrics.io/).\nPM2 odpowiedzialny jest też za uruchomienie procesu zwave po wykryciu urządzenia (adaptera Zwave Aeotec Z-Stick), a następnie czuwa nad jego ciągłym działaniem.",
+      "source_content_hash": "e63be290a20d34aa15fa2c9a7a5c2444230930bc75b7944cc85ce4501a65843c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "网关进程由[PM2进程管理器](http://pm2.keymetrics.io/)控制。PM2会在检测到Zwave设备（Aeotec Z-Stick适配器）后启动zwave进程，并持续监控其运行状态。"
+      }
+    },
+    {
+      "segment_id": "6ea4c715",
+      "source_content": "Żeby zobaczyć status procesu zigbee w konsoli wpisujemy:",
+      "source_content_hash": "be06a83bd65f135c01c00f23ed9fd26e32fd035d4d737352f5974985f87a177a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "查看zigbee进程状态可通过控制台输入："
+      }
+    },
+    {
+      "segment_id": "5a41b4fb",
+      "source_content": "```\npm2 show zwave\n```",
+      "source_content_hash": "3e9b15c72164aa8c9ef37867486998b89af4bed0fcceba8d52db024ebbf1ed45",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_5a41b4fb"
+      }
+    },
+    {
+      "segment_id": "06e24cc0",
+      "source_content": "![zwave](/img/en/frontend/pm2_zwave.png)",
+      "source_content_hash": "fb8292f6191f585e80a369fa8178a48b2fa2bb444b54d5860575ddcdf411c96a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![zwave](/img/en/frontend/pm2_zwave.png)"
+      }
+    },
+    {
+      "segment_id": "52388877",
+      "source_content": "### Dostęp do aplikacji w sieci lokalnej",
+      "source_content_hash": "e6d839eccf33a524e581fbb071f058ec776881f48c570965c8fc465f84b8ee47",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 本地网络访问"
+      }
+    },
+    {
+      "segment_id": "eab056be",
+      "source_content": "Aplikacja Zwavejs2MQTT działa na porcie **8091** w lokalnej sieci, można połączyć się z nią bezpośrednio wpisując w przeglądarce ``http://<ip-bramki>:8091``",
+      "source_content_hash": "45467aadba8420af1d81620263898f06622e14771bfed3ec06df5232c30c1ff8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Zwavejs2MQTT应用运行在本地网络**8091**端口，可直接通过浏览器访问``http://<网关IP>:8091``"
+      }
+    },
+    {
+      "segment_id": "f01228d3",
+      "source_content": "![Zwavejs2MQTT](/img/en/frontend/app_zwavejs2mqtt.png)",
+      "source_content_hash": "58fd46222b3704a7363c61762d863e115006514ce3df09f5306c5f97f8e7c5a2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Zwavejs2MQTT](/img/en/frontend/app_zwavejs2mqtt.png)"
+      }
+    },
+    {
+      "segment_id": "98355e36",
+      "source_content": "### Dostęp do konfiguracji",
+      "source_content_hash": "e17192c0dd9af397e3bb17cf7904bb2119026ec7b0333edc1409d3f86172f3b0",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 配置访问"
+      }
+    },
+    {
+      "segment_id": "7736989b",
+      "source_content": "Cała konfiguracja ZwaveJs2Mqtt możliwa jest z aplikacji webowej.\nObecnie nie wspieramy jeszcze przesyłania plików konfiguracji Zwave do serwisu AIS i jej kopiowania pomiędzy bramkami.\nKopię plików konfiguracji (zawartość folderu ``~/zwavejs2mqtt/store``) można wykonać z konsoli lub z aplikacji ZwaveJs2Mqtt.",
+      "source_content_hash": "6b408821ede28efd6a0fe5a35de24a3bed448bbf38ef78950ce3d76a99de9fed",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "所有ZwaveJs2Mqtt的配置均可通过网页应用完成。\n目前我们暂不支持将Zwave配置文件上传至AIS服务或在网关间复制配置。\n可通过控制台或ZwaveJs2Mqtt应用程序备份配置文件（即``~/zwavejs2mqtt/store``目录内容）。"
+      }
+    },
+    {
+      "segment_id": "a1fa5396",
+      "source_content": "![Zwavejs2MQTT](/img/en/frontend/zwave_configuration.png)",
+      "source_content_hash": "b7a603dfce9cd0a3e63c78d81e4204e07f9c29fe1d671b8349bb22ff41cb200e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Zwavejs2MQTT](/img/en/frontend/zwave_configuration.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_app_integration_zwave.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.096994+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "3d4097f61ba0b7b479f3bae468d0fc363520df6790997a7effbc63a6b3174f79"
+  }
+}

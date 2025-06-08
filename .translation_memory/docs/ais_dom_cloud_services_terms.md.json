@@ -1,0 +1,142 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_dom_cloud_services_terms.md",
+  "source_file_content_hash": "294e45c93bed51e92e49279583899d4ed36e9959f913e0c5c9e7f69ae1788982",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Usługi zdalne, zasady\"\nsidebar_label: Usługi zdalne, zasady\n---",
+      "source_content_hash": "70a8e8e3710665fea7f92773eea4518528eca5af6b16a1b499d36140a0e9779c",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Wprowadzenie",
+      "source_content_hash": "138964b3f05ef631ae55efd030ca96538eb5d783961ef7b978515da6c937d13f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 简介"
+      }
+    },
+    {
+      "segment_id": "53eaf0e1",
+      "source_content": "Nasze usługi zdalne (szyfrowany tunel, kopie zapasowe, aktualizacje OTA, treści audio, powiadomienia w aplikacji mobilnej itd…) są hostowane w dwóch miejscach.",
+      "source_content_hash": "f70286b839fa80a9fa4d99aa383250440dfe5ac889de164393c31216e2526dcf",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们的远程服务（加密隧道、备份、OTA更新、音频内容、移动应用通知等）托管在两个不同平台。"
+      }
+    },
+    {
+      "segment_id": "ba4f48ff",
+      "source_content": "### <span class=\"mdi mdi-dev-to\"></span> Bramka DEV",
+      "source_content_hash": "dd9f7944ee9cd520aa64ce17b50f6cf86aa0049b2952c177d6f0411b999f167f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### <span class=\"mdi mdi-dev-to\"></span> DEV网关"
+      }
+    },
+    {
+      "segment_id": "cf898102",
+      "source_content": "Usługi w chmurze na bramkach DEV są hostowane przez organizację [fosshost.org](https://fosshost.org).\nFosshost to organizacja non-profit, skupiona na wspieraniu projektów OpenSource.",
+      "source_content_hash": "1d482e7bb073f205a9f575fbd7cfee20e8d2b706aaced877079ab16a2249e3ff",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "DEV网关的云服务由非营利组织[fosshost.org](https://fosshost.org)托管。Fosshost专注于支持开源项目。"
+      }
+    },
+    {
+      "segment_id": "39b3772c",
+      "source_content": "**Foss Host to gwarancja darmowości usług na bramkach DEV. Ponieważ z założenia hosting Fosshost nie ma być wykorzystywany do usług, za które pobierany jest abonament.**",
+      "source_content_hash": "e4584a9f5127465da929a2c55b19cada81d01e78a56ef8eeec17152473437633",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "**Foss Host保障了DEV网关服务的永久免费特性。根据其宗旨，Fosshost的托管资源不得用于需要订阅付费的服务。**"
+      }
+    },
+    {
+      "segment_id": "1acb9a05",
+      "source_content": "![fosshost](/img/en/bramka/fosshost_logo.jpeg)",
+      "source_content_hash": "e9ee7c823357cba62b99c899649eb87c046c0ce5ee8ddbdc821842a90063fb73",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![fosshost](/img/en/bramka/fosshost_logo.jpeg)"
+      }
+    },
+    {
+      "segment_id": "9beb6e94",
+      "source_content": ":::caution[Uwaga]\nTe usługi są gratis - „bez żadnych kosztów”. Działa to jak prezent 🎁, który otrzymujesz za darmo i bez żadnych oczekiwań ze swojej strony. \n\nDawca (AI-Speaker) daje Ci je, abyś mógł się nim cieszyć bez konieczności robienia czegokolwiek.\n:::",
+      "source_content_hash": "29a197098019bf79aa4929ebd8a7fe4ddba208aaaa82db82c1bb980d228e3fdd",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[注意]\n这些服务完全免费——\"零成本\"。它们就像你收到的礼物🎁，无需任何回报。\n\n提供方（AI-Speaker）让你无偿享受这些服务，且不附带任何条件。\n:::"
+      }
+    },
+    {
+      "segment_id": "d06306f7",
+      "source_content": "### <span class=\"mdi mdi-professional-hexagon\"></span> Bramka PRO",
+      "source_content_hash": "aa45bab1258e437bd5cac89b2ca2550e1722f0b1dc6c32137b5c9d9fa1e13070",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### <span class=\"mdi mdi-professional-hexagon\"></span> PRO网关"
+      }
+    },
+    {
+      "segment_id": "73ab96a3",
+      "source_content": "Na bramce AIS PRO <span class=\"mdi mdi-professional-hexagon\"></span> oferujemy możliwość wykupienia usług na serwerach komercyjnych z gwarancją działania.",
+      "source_content_hash": "a4c38eef4983541ce2ec8ad93995a7ec0f6f2efde82e53a79b156808174c6517",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在AIS PRO <span class=\"mdi mdi-professional-hexagon\"></span>网关上，我们提供基于商业服务器的可订阅服务，并承诺服务可用性保障。"
+      }
+    },
+    {
+      "segment_id": "7499a4e7",
+      "source_content": "Możliwe jest też wykonanie lub dostosowanie funkcjonalności pod zamówienie klienta.",
+      "source_content_hash": "203260e520d204d1803154b6fb2ca0a4b48e7fa07bf1d6b7ce6d2588508494d0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "同时也支持根据客户需求进行功能定制开发。"
+      }
+    },
+    {
+      "segment_id": "97ae4a01",
+      "source_content": "![AIS SLA](/img/en/bramka/ais_sla.png)",
+      "source_content_hash": "6ed41231a405ff5b140fdb22a1faa7323dda3732e30adbf1bf16e9fab4dc5b54",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS SLA](/img/en/bramka/ais_sla.png)"
+      }
+    },
+    {
+      "segment_id": "c3a738de",
+      "source_content": "Jeżeli masz pomysł, jak wykorzystać bramkę AIS w komercyjnym produkcie, to skontaktuj się z nami info@ai-speaker.com w celu ustalenia zasad współpracy.",
+      "source_content_hash": "c759fbafc9ea8262e0948e1c462de4294fbfbaab646086e289b340ea61a1e782",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "如果您有将AIS网关应用于商业产品的构想，请联系info@ai-speaker.com洽谈合作事宜。"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_dom_cloud_services_terms.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.129861+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "294e45c93bed51e92e49279583899d4ed36e9959f913e0c5c9e7f69ae1788982"
+  }
+}

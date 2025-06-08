@@ -1,0 +1,72 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_app_android_launcher.md",
+  "source_file_content_hash": "1b1a15503a8d102efc7520beab4eddeb683b5391ddbe2d7bc5c07b6bef1a0676",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"AIS launcher\"\nsidebar_label: AIS launcher\n---",
+      "source_content_hash": "9e86bac5dddd02231f4411723a3a9cbc755008b3e6ef62481a191bdd757fa3e9",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "6ef78e84",
+      "source_content": "Na urządzeniu dostarczamy swój własny launcher (aplikację do uruchamiania innych aplikacji).",
+      "source_content_hash": "31c89a54b92855f0e7e91c351b2dc883b6acf3ed792e3354ae784d5fc92540b0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们在设备上预装了自主研发的启动器（用于运行其他应用程序的专用程序）。"
+      }
+    },
+    {
+      "segment_id": "53eaf0e1",
+      "source_content": "![AIS Launcher](/img/en/frontend/ais_launcher_apk_screen.png)",
+      "source_content_hash": "e4d8e01e0bdc39eeb3f290d9ecfbaf87ff53fed542422e9df3375e2d499dd65c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS启动器](/img/en/frontend/ais_launcher_apk_screen.png)"
+      }
+    },
+    {
+      "segment_id": "8ac585fb",
+      "source_content": "Staraliśmy się, żeby nasze rozwiązanie było najprostsze z dostępnych na rynku i chyba nam się udało ;) cała implementacja to około 600 [linijek kodu w Javie](https://github.com/sviete/AIS-launcher).\nWszystko, co potrafi nasz launcher to uruchamianie 5 aktywności oraz aktualizowanie innych aplikacji. Aplikacja dostępna jest w Google Play, ale z powodu dość specyficznej funkcjonalności nie polecamy jej instalować na innych urządzeniach niż nasza bramka AIoT.",
+      "source_content_hash": "26f63e24da15c21137b5b6e89df2a1605a7531b32ec4be9950d955830da13486",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们致力于打造市面上最简洁的解决方案——整个实现仅约600行[Java代码](https://github.com/sviete/AIS-launcher)。该启动器仅支持运行5个活动界面及更新其他应用。虽然已在Google Play上架，但由于功能高度专一化，建议仅在我们的AIoT网关上使用，不推荐安装至其他设备。"
+      }
+    },
+    {
+      "segment_id": "cf898102",
+      "source_content": "Kod źródłowy dostępny jest w naszym [publicznie dostępnym repozytorium](https://github.com/sviete/AIS-launcher)",
+      "source_content_hash": "5016189655a10e9f51d2ccd9f7946ec6bf0213c6af74d26a0b08a0802584e8b3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "源代码存放于我们的[公开代码仓库](https://github.com/sviete/AIS-launcher)"
+      }
+    },
+    {
+      "segment_id": "42ad8e83",
+      "source_content": "Podpisane wersje beta publikujemy na naszym [serwisie ze składowymi systemu](https://powiedz.co/ota/)",
+      "source_content_hash": "f36306a41c6cc7f6627c42a6bd2bf44e674b0217fc0fbece6d158bcd8edb4d85",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "签名测试版发布在[系统组件服务站点](https://powiedz.co/ota/)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_app_android_launcher.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.109337+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "1b1a15503a8d102efc7520beab4eddeb683b5391ddbe2d7bc5c07b6bef1a0676"
+  }
+}

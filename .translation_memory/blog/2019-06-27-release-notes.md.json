@@ -1,0 +1,162 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2019-06-27-release-notes.md",
+  "source_file_content_hash": "0fad7a589841435b3d45e12088e279748ccac53f5cdd028cc91df657d1179b22",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Jola AI-Speaker\nauthorURL: https://github.com/sviete\nauthorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4\ntitle: Wersja systemu 0.94.6  Dostęp do darmowej biblioteki audiobooków.\n---",
+      "source_content_hash": "4dd526a6a8170f44771fbe35d2d9b2543459f849fe905abc48a7a00228e6bcb3",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Wersja systemu 0.94.6 z dnia 27 czerwca 2019 roku,",
+      "source_content_hash": "8c04e109cf21c115fb867fd3a39f74a433c4e45cd305808382203ddcdf4f66f7",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 2019年6月27日发布的系统版本0.94.6"
+      }
+    },
+    {
+      "segment_id": "1cc03ec8",
+      "source_content": "### Dostęp do darmowej biblioteki audiobooków.",
+      "source_content_hash": "3e519f92d9a6964560ae4f494d4bfbc90e2fa0e61505586c69ad562cac5fabd7",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 免费有声书库访问"
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "Cała kolekcja audiobooków <a href=\"https://wolnelektury.pl/\" target=\"_blank\">WolneLektury.pl</a>,  do których masz dostęp za darmo!",
+      "source_content_hash": "c2cb43cab07382fc252a9a48e0efa223ee98639fd56bd55435ac3cb8e44ab761",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "可免费访问<a href=\"https://wolnelektury.pl/\" target=\"_blank\">WolneLektury.pl</a>全部有声书收藏！"
+      }
+    },
+    {
+      "segment_id": "ad8fd492",
+      "source_content": "*Utwory w bibliotece nie są objęte majątkowym prawem autorskim i znajdują się w domenie publicznej, co oznacza, że możesz je swobodnie słuchać, publikować i rozpowszechniać.*",
+      "source_content_hash": "29e1b1c119870bd67cf187a211187ec296780f851ad030ba37948572c587199b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "*该图书馆作品不受财产版权保护，属于公共领域，这意味着您可以自由收听、发布和传播。*"
+      }
+    },
+    {
+      "segment_id": "86b54d44",
+      "source_content": "![Książki](/img/en/frontend/ais_books_player.png)",
+      "source_content_hash": "ea452ecef5132e8e9bdab774a138f86c76b77691ba56ff1fd28f1c66f534b0ab",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![书籍](/img/en/frontend/ais_books_player.png)"
+      }
+    },
+    {
+      "segment_id": "29ee8c7a",
+      "source_content": "<!--truncate-->",
+      "source_content_hash": "f5cded2aa7e288e395fe4f67f9dabda2281904b2f5358d07302b3aa8be0acdfa",
+      "node_type": "comment",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_29ee8c7a"
+      }
+    },
+    {
+      "segment_id": "418617bd",
+      "source_content": "### Możliwość wybrania strefy czasowej i zaznaczenia lokalizacji na mapie w aplikacji",
+      "source_content_hash": "384619b8c492c5f7022cd9a472f7772d6a0300ce3518b8ed0fc578d62afab352",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 应用中支持选择时区及在地图上标记位置"
+      }
+    },
+    {
+      "segment_id": "2fdadb08",
+      "source_content": "Podczas pierwszego uruchomienia Asystent domowy zapyta Cię gdzie mieszkasz. Pomoże to w wyświetlaniu informacji i konfigurowaniu automatyki opartej na położeniu słońca. **Dane te nigdy nie będą udostępniane poza Twoją sieć lokalną.**\nPodczas początkowej prostej konfiguracji wykonywanej przy pierwszym uruchomieniu można też skonfigurować połączenie Wi-Fi oraz dodać urządzenia i usługi.",
+      "source_content_hash": "fd5dbdbf09dca6e3e606804229aab3fcc7fdbb34e555cc162961019911d2fe1d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "首次启动时，家庭助理会询问您的居住地。这将有助于显示信息并配置基于太阳位置的自动化功能。**这些数据永远不会在您的本地网络之外共享。**\n在首次启动执行的初始简单配置中，您还可以配置Wi-Fi连接并添加设备和服务。"
+      }
+    },
+    {
+      "segment_id": "a76548f8",
+      "source_content": "![Pierwsze uruchomienie](/img/en/frontend/onboarding_step_2.png)",
+      "source_content_hash": "6db65f38b578c76038dd1e7744f7ba4ac86f1af17261c78ad3672d88be641dd0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![首次启动](/img/en/frontend/onboarding_step_2.png)"
+      }
+    },
+    {
+      "segment_id": "d06306f7",
+      "source_content": "### Łatwiejsze wybieranie typów i kategorii w aplikacji",
+      "source_content_hash": "3b530f82074e4e404ca60b2c3e713027962f1072e281993ec54793aa9e944c28",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 应用中更便捷的类型和类别选择"
+      }
+    },
+    {
+      "segment_id": "73ab96a3",
+      "source_content": "Zastąpiliśmy listy wyboru regionem z klikalnymi linkami, co znacznie ułatwia i przyspiesza wybór interesującej nas kategorii, szczególnie na urządzeniach z dotykowym ekranem.",
+      "source_content_hash": "df99f4017ade7db898f2523460fd7ce115201b875540c787e8fe4144ab1f9a3b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们将选择列表替换为可点击链接区域，这极大方便并加速了目标类别的选择，特别在触屏设备上。"
+      }
+    },
+    {
+      "segment_id": "bdc231b1",
+      "source_content": "![Książki](/img/en/frontend/ais_easy_picker.png)",
+      "source_content_hash": "2e181f4e538d0928b38b878cd4759ab8f439566c4eef25776c2aa4db00be55e7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![书籍](/img/en/frontend/ais_easy_picker.png)"
+      }
+    },
+    {
+      "segment_id": "62a6890b",
+      "source_content": "### Pozostałe istotne zmiany",
+      "source_content_hash": "d9fdc1d919787ef9b45ab06c1b00ed50caa14ddcfaf0962bf21c363ba7f902f7",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 其他重要变更"
+      }
+    },
+    {
+      "segment_id": "8a01ee7b",
+      "source_content": "- Wyświetlanie czasu postępu odtwarzania audio (pokazywanie postępu na odtwarzaczu, np. 5:23, co oznacza 5 minut i 23 sekundy).\n- Możliwość podłączenia bramki do ukrytej sieci Wi-Fi za pomocą konfiguratora - obsługa zaawansowanych ustawień sieci.\n- Uproszczony konfigurator integracji ze Spotify - łatwiejsze wykonywanie zewnętrznych kroków integracji.\n- Poprawione działanie komend z mikrofonu w przeglądarce po https.\n- Możliwość dodawania urządzeń Wi-Fi, gdy bramka ma aktywne połączenie Ethernet.\n- Przyspieszenie i optymalizacja działania aplikacji na telefonie (aplikacja na telefonie ma tylko aktywność z mikrofonem, która nie wymaga już działającego serwisu do komunikacji z bramką).\n- Możliwość wyłączenia powiadomień dźwiękowych (typu 'beep') generowanych po naciśnięciu przycisku na pilocie, gdy bramka działa w trybie sterowania bez monitora (opcja dostępna w ustawieniach aplikacji na bramce).",
+      "source_content_hash": "d1d03e8f0a6207acac24780caa71986002bc45b9866b752c337c09da00e4e0ad",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 显示音频播放进度时间（在播放器上显示进度，例如5:23表示5分23秒）\n- 通过配置器将网关连接到隐藏Wi-Fi网络 - 支持高级网络设置\n- 简化的Spotify集成配置器 - 更轻松完成外部集成步骤\n- 修复了HTTPS协议下浏览器麦克风指令的运行问题\n- 网关启用以太网连接时仍可添加Wi-Fi设备\n- 手机端应用运行速度优化提升（手机应用仅保留麦克风活动模块，不再需要运行服务来与网关通信）\n- 可禁用遥控器按钮触发的提示音（'哔'声），该功能适用于无显示器模式下的网关运行（选项位于网关应用设置中）"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2019-06-27-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.143490+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "0fad7a589841435b3d45e12088e279748ccac53f5cdd028cc91df657d1179b22"
+  }
+}

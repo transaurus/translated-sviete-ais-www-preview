@@ -1,0 +1,212 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2019-10-12-release-notes.md",
+  "source_file_content_hash": "2f99db501704f57c82d06b9769cff2190907ca18f8fc67a84ccd5ca36de74adf",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Jola AI-Speaker\nauthorURL: https://github.com/sviete\nauthorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4\ntitle: Wersja systemu 0.99 Automatyczne Aktualizacje, SUPLA, TAURON eLicznik\n---",
+      "source_content_hash": "5de83c7ee9874cab9b9540391497cc17d328f8f64a3ae6c60aa37fd0470bdde7",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Wersja systemu 0.99 z dnia 12 października 2019 roku,",
+      "source_content_hash": "5c4ecde65834d444925f576a5cc906b3ab85aaffaec7e6ac26b696727ab33e36",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 系统版本 0.99（2019年10月12日）"
+      }
+    },
+    {
+      "segment_id": "1cc03ec8",
+      "source_content": "## Automatyczne Aktualizacje",
+      "source_content_hash": "c12d752dec87e55aada95b6e9f947a0d85d74e126d655abb75803454115a5b2a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 自动更新功能"
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "W ustawieniach bramki dodaliśmy możliwość włączenia automatycznych aktualizacji. Jeśli je włączysz, to codziennie sprawdzimy i automatycznie zainstalujemy dostępne aktualizacje składowych systemu Asystent domowy.",
+      "source_content_hash": "12547fb8ea451d6016e2881e75b93511bb8057d68d4f12b661bd442dee569a08",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们在网关设置中新增了启用自动更新的选项。开启后，系统将每日检查并自动安装家庭助理（Asystent domowy）组件的可用更新。"
+      }
+    },
+    {
+      "segment_id": "899bc9b4",
+      "source_content": "<div>\n  <video width=\"100%\" height=\"100%\" playsInline autoPlay muted loop>\n    <source src=\"/video/autoupdate.webm\" type=\"video/webm\"/>\n  </video>\n</div>",
+      "source_content_hash": "1d9bd6cb8f900d5695c2f2af3be532fbc65e1707b1b10716692849c15877a49e",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_899bc9b4"
+      }
+    },
+    {
+      "segment_id": "c6da205d",
+      "source_content": "<!--truncate-->",
+      "source_content_hash": "f5cded2aa7e288e395fe4f67f9dabda2281904b2f5358d07302b3aa8be0acdfa",
+      "node_type": "comment",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_c6da205d"
+      }
+    },
+    {
+      "segment_id": "08ef5e40",
+      "source_content": "> Cześć aktualizacji będzie wymagała restartu urządzenia, który też zostanie automatycznie wykonany.",
+      "source_content_hash": "14a00308fbc552ed332f1565d2031c068b3a8c0b74f76c8e72f9c0f7c1ceb5a1",
+      "node_type": "blockquote",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "> 注意：部分更新需要设备重启，此操作也将自动完成。"
+      }
+    },
+    {
+      "segment_id": "f2c2bdd0",
+      "source_content": "Oczywiście, jeśli wolisz sam decydować, kiedy aktualizować system, to nie włączaj auto aktualizacji i tak jak dotychczas uruchamiaj aktualizację Asystenta domowego samodzielnie w dogodnym dla Ciebie czasie.\nAktualizacje dostarczają najnowsze funkcjonalności oraz poprawki zapewniające bezpieczeństwo i stabilność działania systemu dlatego zachęcamy do ich wykonywania.",
+      "source_content_hash": "968b42a9a0bb5cd2df75153d2e7e07d0dbc5f86a3fe6b49987f4dab779caefe5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "当然，如果您更倾向于手动控制更新时机，可保持自动更新关闭状态，继续按原有方式在合适时间手动启动家庭助理更新。更新能提供最新功能和安全补丁，确保系统稳定运行，因此我们强烈建议定期执行更新。"
+      }
+    },
+    {
+      "segment_id": "d06306f7",
+      "source_content": "## Integracja z SUPLA",
+      "source_content_hash": "07d2603ce16426a634f29fb605051459430d50a7bfaf1f2bbf051f078a82ea9a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## SUPLA平台集成"
+      }
+    },
+    {
+      "segment_id": "73ab96a3",
+      "source_content": "Dodaliśmy pierwszą wersę (jeszcze nie kompletną - obecnie obsługiwane są tylko żaluzje i przełączniki) integracji z SUPLA OpenAPI.\nBazujemy na pakiecie [PySupla](https://github.com/mwegrzynek/pysupla) i na integracji z Home Assistant autorstwa Michała Węgrzynka [mwegrzynek](https://github.com/mwegrzynek).",
+      "source_content_hash": "eceef8b14d08961a6515f6016e168008cb6a802b57498710b0d2a7669d34601e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们发布了与SUPLA OpenAPI集成的首个版本（当前仅支持百叶窗和开关，功能尚未完整）。该实现基于[Michał Węgrzynek](https://github.com/mwegrzynek)开发的[PySupla](https://github.com/mwegrzynek/pysupla)包及其为Home Assistant编写的集成组件。"
+      }
+    },
+    {
+      "segment_id": "bdc231b1",
+      "source_content": "[Opis konfiguracji](/docs/ais_app_supla)",
+      "source_content_hash": "523196055fedc17f7729c01ea62fd26cd80605ff9045172f5629f68594cf07eb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "[配置说明](/docs/ais_app_supla)"
+      }
+    },
+    {
+      "segment_id": "7b66d6d6",
+      "source_content": "<div>\n  <video width=\"100%\" height=\"100%\" playsInline autoPlay muted loop>\n    <source src=\"/video/supla.webm\" type=\"video/webm\" />\n  </video>\n</div>",
+      "source_content_hash": "0d6d875d5a0a4e03a2e0e3faf98c660b4c87aa9e4cc62d1d723dc3aa32dc8448",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_7b66d6d6"
+      }
+    },
+    {
+      "segment_id": "1042b50d",
+      "source_content": "Ta integracja skierowana jest do osób, które chcą sterować swoimi urządzeniami SUPLA także głosowo z Asystenta domowego. Nie jesteśmy w żaden sposób związani z projektem SUPLA ani z firmą Zamel - wiemy tylko, że robią fajne urządzenia :)",
+      "source_content_hash": "c95ef20bfa31a5d07ce52488d32fc790554dc0f66c03b97712208fc855869db7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "此集成面向希望通过家庭助理语音控制SUPLA设备的用户。我们与SUPLA项目及Zamel公司无任何关联——仅因认可其出色的硬件产品而开发此功能。"
+      }
+    },
+    {
+      "segment_id": "f44c1398",
+      "source_content": "## Pozostałe istotne zmiany",
+      "source_content_hash": "3f788e390cc2b6086ae05294b0a7993158aa34320814d084b6b123f05c0dc064",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 其他重要变更"
+      }
+    },
+    {
+      "segment_id": "6773b78b",
+      "source_content": "- Dodaliśmy [małą poprawkę do projektu Hacs](https://github.com/custom-components/hacs/pull/636) dzięki której Hacs może być używany na większej ilości platform także w Asystencie domowym\n- Najnowsze wersje ponad 600 pakietów Linux, dostępne w naszym repozytorium apt, w tym najnowsze wersje:",
+      "source_content_hash": "ae9b0751748ff240a7aefe4212dd8d71c331b8188a6827c643ce63ffe9934611",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 为[Hacs项目提交了小修复](https://github.com/custom-components/hacs/pull/636)，使Hacs能在包括家庭助理在内的更多平台上运行\n- 更新了apt仓库中600多个Linux软件包至最新版本，包括："
+      }
+    },
+    {
+      "segment_id": "4795a13d",
+      "source_content": "```bash\napt 1.4.9-16 arm [upgradable from: 1.4.9-15]\nbash 5.0.11 arm [upgradable from: 5.0.9]\nbusybox 1.30.1-9 arm [upgradable from: 1.30.1-8]\nca-certificates 20190828 all [upgradable from: 20190515]\ncurl 7.66.0-1 arm [upgradable from: 7.65.3-6]\nlibcrypt 0.2-2 arm [upgradable from: 0.2-2]\nlibcurl 7.66.0-1 arm [upgradable from: 7.65.3-6]\nlibgcrypt 1.8.5 arm [upgradable from: 1.8.4-1]\nlibmosquitto 1.6.7 arm [upgradable from: 1.6.4]\nlibwebsockets 3.2.99.1 arm [upgradable from: 3.1.0]\nmosquitto 1.6.7 arm [upgradable from: 1.6.4]\nnodejs 12.11.1 arm [upgradable from: 12.4.0-2]\nopenssh 8.0p1-6 arm [upgradable from: 8.0p1-3]\nopenssl 1.1.1d-1 arm [upgradable from: 1.1.1c-2]\npython 3.7.4-1 arm [upgradable from: 3.7.3-1]\nrclone 1.49.5 arm [upgradable from: 1.48.0-1]\nttyd 1.5.2-1 arm [upgradable from: 1.5.2]\n```",
+      "source_content_hash": "6d7f0e51367666815949325bba9e3b34517961d06795debcd5a09036ead17142",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_4795a13d"
+      }
+    },
+    {
+      "segment_id": "af7d8a35",
+      "source_content": "- Dodanie obsługi jezyka c/c++, pakiet [clang 8.0.1-4](https://clang.llvm.org/)\n- Najnowszy (stabilny) Home Assistant <a href=\"https://www.home-assistant.io/blog/2019/09/18/release-99/\" target=\"_blank\">0.99</a> z jak zwykle mnóstwem nowości i ulepszeń.",
+      "source_content_hash": "2bb5877cf5f82c31c4425863d8311fa5b0ecc4468545ece0732736e0141f0abe",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 新增C/C++语言支持，集成[clang 8.0.1-4](https://clang.llvm.org/)包\n- 最新稳定版Home Assistant <a href=\"https://www.home-assistant.io/blog/2019/09/18/release-99/\" target=\"_blank\">0.99</a> 包含多项功能增强与改进"
+      }
+    },
+    {
+      "segment_id": "7afb38f4",
+      "source_content": "----",
+      "source_content_hash": "bd64bb8efa5b3f27e6442f23600c3b516127ea17e23724b41e50da4c22883edd",
+      "node_type": "thematicBreak",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "----"
+      }
+    },
+    {
+      "segment_id": "f01228d3",
+      "source_content": "Zapraszamy do aktualizowania.",
+      "source_content_hash": "019f589ac577f2bf8bfc5801fdca42b7e57eb09505074ee6aeb83a34a6cd30af",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "欢迎立即升级体验。"
+      }
+    },
+    {
+      "segment_id": "afa378f7",
+      "source_content": "2019.10 Zespół Asystent domowy.",
+      "source_content_hash": "91722a1bc4d85033722bdc04e1fc7bfab20652795295f918a0b1fefb0033a9e7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "2019年10月 家庭助理团队"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2019-10-12-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.145879+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "2f99db501704f57c82d06b9769cff2190907ca18f8fc67a84ccd5ca36de74adf"
+  }
+}

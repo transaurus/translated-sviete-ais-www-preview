@@ -1,0 +1,122 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2019-05-11-release-notes.md",
+  "source_file_content_hash": "f89d7f90756195dc70b78f9e378e3694d0f292237ca8991ed24acd1c6dabb77d",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Jola AI-Speaker\nauthorURL: https://github.com/sviete\nauthorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4\ntitle: Wersja systemu 0.92.6  Listy w aplikacji\n---",
+      "source_content_hash": "fc945edfe8fca9d0215b3ee3bac47d0a01b0507ca91858eb2189c391e2ae0851",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Wersja systemu 0.92.6 z dnia 11 maja 2019 roku,",
+      "source_content_hash": "2ecad5760469f4d2bb2f7b99ffcbded9423e26ba4ddf2388a46396cb8150b3ab",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 2019年5月11日发布的系统版本0.92.6"
+      }
+    },
+    {
+      "segment_id": "1cc03ec8",
+      "source_content": "### Listy w aplikacji",
+      "source_content_hash": "46b6029c7c7d3378a9018a29051e9e4c9ab0b4474b00f4621bdb04a546596f16",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 应用中的列表功能"
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "Ulubione, zakładki, artykuły, stacje radiowe, podcasty, wyszukane pozycje z YouTube i Spotify można teraz w prosty sposób wybierać, wystarczy kliknąć pozycję na liście.",
+      "source_content_hash": "ff7d82e7d2f378f9433c0a1dc0335ff38db051a5f38e595f09f84cec6856bc80",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "收藏夹、书签、文章、广播电台、播客、YouTube和Spotify的搜索结果现在可以通过简单点击列表项快速选择。"
+      }
+    },
+    {
+      "segment_id": "ad8fd492",
+      "source_content": "![Konfiguracja interfejsu użytkownika](/img/en/frontend/audio_lists.png)",
+      "source_content_hash": "60298ea71aaea88f3844fbc1c7ffd6ff9c285adc5eee38dd3a0cd14480540c8f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![用户界面配置](/img/en/frontend/audio_lists.png)"
+      }
+    },
+    {
+      "segment_id": "6429a3aa",
+      "source_content": "<!--truncate-->",
+      "source_content_hash": "f5cded2aa7e288e395fe4f67f9dabda2281904b2f5358d07302b3aa8be0acdfa",
+      "node_type": "comment",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_6429a3aa"
+      }
+    },
+    {
+      "segment_id": "d350c018",
+      "source_content": "### Ulubione i zakładki",
+      "source_content_hash": "ac192019efb9399eb608dd55d1c3436644ab437ffcbea6176b5b367d12afa5c6",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 收藏与书签功能"
+      }
+    },
+    {
+      "segment_id": "1acb9a05",
+      "source_content": "Łatwe dodawanie treści audio do ulubionych, za pomocą komendy \"lubię to\" lub naciskając przycisk przy odtwarzaczu.\nDo ulubionych możemy dodać stację radiową, podcast, muzykę z YouTube lub Spotify oraz treści audio z dysków.\nZakładki do treści audio z dysków dodają i aktualizują się automatycznie podczas pauzowania odtwarzania.\nZakładki i ulubione można usuwać zarówno z aplikacji jak i za pomocą pilota.",
+      "source_content_hash": "a46757f9d3b0d3188dfac8d48a733ff452b03428997f5b761c58a484f97fd468",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过语音指令\"我喜欢这个\"或点击播放器按钮，可轻松将音频内容添加至收藏夹。支持添加广播电台、播客、YouTube/Spotify音乐及本地存储的音频文件。本地音频的书签会在暂停播放时自动创建和更新。收藏项和书签既可通过应用程序删除，也可通过遥控器操作。"
+      }
+    },
+    {
+      "segment_id": "f2c2bdd0",
+      "source_content": "![Kamery](/img/en/frontend/favorite_list.png)",
+      "source_content_hash": "85c54203ad4b9dca2788048dd878fd9807130b64c4d8a6a13eb0546f2200667e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![摄像头](/img/en/frontend/favorite_list.png)"
+      }
+    },
+    {
+      "segment_id": "3c36424c",
+      "source_content": "### Pozostałe istotne zmiany",
+      "source_content_hash": "d9fdc1d919787ef9b45ab06c1b00ed50caa14ddcfaf0962bf21c363ba7f902f7",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 其他重要更新"
+      }
+    },
+    {
+      "segment_id": "5da9e02b",
+      "source_content": "- Szybsze uruchamianie audio z YouTube, nowy otwartoźródłowy komponent - <a href=\"https://github.com/sviete/AIS-media-extractor\" target=\"_blank\"> AIS-media-extractor </a>\n\n- Uproszczone menu w aplikacji, ulepszenia w menu dostępnego za pomocą pilota radiowego.\n\n- Automatyczne zwalnianie miejsca na urządzeniu, usuwanie logów i kasowanie historii z lokalnej bazy danych.\n\n- Możliwość usuwania plików z dysku wewnętrznego urządzenia za pomocą pilota.\n\n- Najnowszy Home Assistant.\n<a href=\"https://www.home-assistant.io/blog/2019/04/24/release-92/\" target=\"_blank\">0.92</a>",
+      "source_content_hash": "d4f6b7ab58be560fbafd2d5d1cc4f6cad8f711072139c200e87fd3b50228f046",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 更快速的YouTube音频播放，采用新型开源组件<a href=\"https://github.com/sviete/AIS-media-extractor\" target=\"_blank\">AIS-media-extractor</a>\n- 简化应用菜单结构，优化无线电遥控器菜单交互\n- 自动释放设备存储空间：清除日志文件及本地数据库历史记录\n- 新增通过遥控器删除设备内部存储文件的功能\n- 集成最新版Home Assistant\n<a href=\"https://www.home-assistant.io/blog/2019/04/24/release-92/\" target=\"_blank\">0.92</a>"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2019-05-11-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.123283+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "f89d7f90756195dc70b78f9e378e3694d0f292237ca8991ed24acd1c6dabb77d"
+  }
+}

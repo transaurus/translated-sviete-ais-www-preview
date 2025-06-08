@@ -1,0 +1,62 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_dom_cloud_index.md",
+  "source_file_content_hash": "229d090fe6ccf6722d1a59d233dc385e17eb9bf2b2beef558d4bc5d758a81430",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Portal integratora\"\nsidebar_label: Wprowadzenie\n---",
+      "source_content_hash": "8661a2d2924a42d82ba60b17b9ce51a4035b11660b0e103251456eea6f75e212",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Portal integratora to aplikacja pozwalająca na zdalną konfigurację treści oraz usług dostępnych na urządzeniach.",
+      "source_content_hash": "a12281a39c3e9a39704c22561588e07839c04d99a88ad6a7498326f4ce17685b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "集成商门户是一个支持远程配置设备上可用内容及服务的应用程序。"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Ta funkcjonalność powstała jako odpowiedź na zgłaszane nam potrzeby przez użytkowników:",
+      "source_content_hash": "8fef246a59486ea2a1e8d6f8a14af9fa63593d05b12e0db9a6dff1e40caa24d5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该功能的开发源于用户向我们反馈的以下需求："
+      }
+    },
+    {
+      "segment_id": "be33979e",
+      "source_content": "1. Integrator naszego systemu chce sam zarządzać treścią dostępną na bramce dla swoich użytkowników\n2. Osoba, która kupiła kilka urządzeń dla rodziny, chce tymi urządzeniami administrować\n3. Użytkownik chce dodać własne stacje radiowe, podcasty oraz konfigurować dostęp do innych usług",
+      "source_content_hash": "e25937370e82a981fe8d1955bb7d78cb44f958e601c336aff630259fb9a4f7f3",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "1. 系统集成商希望自主管理网关终端用户可访问的内容\n2. 为家庭成员购买多台设备的用户需要集中管理这些设备\n3. 用户希望添加自定义广播电台、播客并配置其他服务的访问权限"
+      }
+    },
+    {
+      "segment_id": "86b54d44",
+      "source_content": "![Portal integratora](/img/en/frontend/dom_cloud_intro.png)",
+      "source_content_hash": "99b19a4b0055948f55d8fa5b3d7dcb3158ef259d98594484f8e973f1445ccb6a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Portal integratora](/img/en/frontend/dom_cloud_intro.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_dom_cloud_index.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.099927+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "229d090fe6ccf6722d1a59d233dc385e17eb9bf2b2beef558d4bc5d758a81430"
+  }
+}

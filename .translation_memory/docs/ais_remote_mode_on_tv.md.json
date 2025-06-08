@@ -1,0 +1,192 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_remote_mode_on_tv.md",
+  "source_file_content_hash": "8016e00090870fd9d30490fe8b30ab8deab8c89d919c59cac309cca3b1b61280",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Sterowanie na monitorze\"\nsidebar_label: Sterowanie na monitorze\n---",
+      "source_content_hash": "fcc02a4386ebc67e5e582abca8c05c0ad08c8ed5dc1ec418d543328402f74792",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Wprowadznie",
+      "source_content_hash": "dd8fcf37c3c3e73df3b6a992ade11be02eeb534fb7f1cedfb8baa5ef70e5955d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 简介"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "W tym trybie pilot działa na zasadzie zdalnej myszki komputerowej, można nawigować nim po aplikacji i kontrolować wszystkie elementy systemu. Podczas sterowania na monitorze użytkownik widzi status systemu w aplikacji na monitorze, dlatego zwrotne informacje głosowe od asystentki są bardzo ograniczone.",
+      "source_content_hash": "7dae9333da5937257dd4571c41fab4c236db2ed78a35e04edadbc8242c4093c9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在此模式下，遥控器作为计算机无线鼠标使用，可导航应用程序界面并控制系统所有元素。由于用户能通过显示器上的应用程序查看系统状态，因此AI助手的语音反馈会大幅精简。"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "![Sterowanie na monitorze](/img/en/bramka/bramka_start_menu.png)",
+      "source_content_hash": "4deba1894e990b144b6161fc78431b53a252f023d2e11243ab0cd50a538f6a06",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![显示器控制模式](/img/en/bramka/bramka_start_menu.png)"
+      }
+    },
+    {
+      "segment_id": "70153c6e",
+      "source_content": "## Pulpit",
+      "source_content_hash": "dca8201bef1e2470447b20501848878a0748308e4698e85850a07480ffcd8a47",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 控制面板"
+      }
+    },
+    {
+      "segment_id": "cbe57f9d",
+      "source_content": "### Definicja pulpitu",
+      "source_content_hash": "805164c717a2676e61862c1b0e53825c78630fdcb2d3c040abde634e153d65c9",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 控制面板定义"
+      }
+    },
+    {
+      "segment_id": "39b3772c",
+      "source_content": "Można zdefiniować w aplikacji specjalny `Pulpit`(dashboard), który będzie prezentował wybrane przez nas elementy i umożliwiał łatwe sterownaie nimi w trybie `Sterowania na monitorze`.",
+      "source_content_hash": "72f56f4ce4ca0fcbead2aa23567928dd0150a60ec56f92ea23e331853cb17505",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "用户可在应用程序中自定义专属`控制面板`(dashboard)，该面板将展示选定元素并支持在`显示器控制模式`下便捷操作。"
+      }
+    },
+    {
+      "segment_id": "80e6256a",
+      "source_content": ":::important[informacja]\nW wersji 0.107, którą wydamy w kwietniu 2020 roku, dodana zostanie opcja konfiguracji wielu pulpitów (dashboards).\nPo dodaniu tej opcji zaktualizujemy ten opis.\n:::",
+      "source_content_hash": "5fceefebfd0850679deadfb159e030a586f5c1e5e000cc061ca3e753c68be6f1",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::important[重要通知]\n2020年4月发布的0.107版本将新增多控制面板(dashboards)配置功能。\n该功能上线后我们将同步更新本文档。\n:::"
+      }
+    },
+    {
+      "segment_id": "f7b50957",
+      "source_content": "> Definicja pulpitu - opis w przygotowaniu",
+      "source_content_hash": "e1771e081130c2c921e5f08c086a0a2521cc726c58f3943bb4f472b68e2d5a8d",
+      "node_type": "blockquote",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "> 控制面板定义 - 文档编写中"
+      }
+    },
+    {
+      "segment_id": "3c36424c",
+      "source_content": "### Ustawienie wybranego pulpitu",
+      "source_content_hash": "d10a1d54d518a84a9bb5ad3d043a7f8a6030e5733c816874a3875f295609e87c",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 设置指定控制面板"
+      }
+    },
+    {
+      "segment_id": "26524352",
+      "source_content": "W celu ustawienia, jaki pulpit ma się wyświetlać na monitorze, z menu `Sterowania na monitorze` wybieramy pozycję **Ustawienia serwisu Asystent domowy**:",
+      "source_content_hash": "02d7a01b998ae4329236bb1937a874b79e5b9cfac6fd6889f4599d29fb695e40",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过`显示器控制模式`菜单进入**智能家居助手服务设置**即可配置主屏幕显示的控制面板："
+      }
+    },
+    {
+      "segment_id": "73ab96a3",
+      "source_content": "![Przejście do ustawień serwera](/img/en/bramka/settings_ais_service.png)",
+      "source_content_hash": "7ec615500c6e73b4047f20c23d03a0ad502135af0928e4ad1f373974b98d9d38",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![进入服务器设置](/img/en/bramka/settings_ais_service.png)"
+      }
+    },
+    {
+      "segment_id": "7499a4e7",
+      "source_content": "Tu możemy wybrać pulpit oraz dostosować jego rozmiar w aplikacji:\n![Wybór pulpitu](/img/en/remote/remote_select_dashboard.png)",
+      "source_content_hash": "0bad7e47840ecc177e5c3f3fa207623871470c72647b70ab1a639d1a8e8ec8ae",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在此可选取控制面板并调整其应用内显示尺寸：\n![选择控制面板](/img/en/remote/remote_select_dashboard.png)"
+      }
+    },
+    {
+      "segment_id": "80d9e13c",
+      "source_content": "### Wyświetlanie pulpitu",
+      "source_content_hash": "c8f1b9b45987da06d7627f7548efac5b1266f6087110b2dcff8dffc782ff5b57",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 显示控制面板"
+      }
+    },
+    {
+      "segment_id": "33331f27",
+      "source_content": "W celu przejścia do pulpitu wystarczy z menu `Sterowania na monitorze` wybrać pozycję **Pulpit**:",
+      "source_content_hash": "365e83732bcec906d877a321f7e925c3cf25b6c0abf729ff49240edf137b39a9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "从`显示器控制模式`菜单选择**控制面板**即可快速切换："
+      }
+    },
+    {
+      "segment_id": "50746522",
+      "source_content": "![Sterowanie na monitorze](/img/en/remote/remote_go_to_panel.png)",
+      "source_content_hash": "b48d4d0c42a0f7a9813f83f0d780b0cac73cebf0788d7d861121645b4bc264ad",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![显示器控制模式](/img/en/remote/remote_go_to_panel.png)"
+      }
+    },
+    {
+      "segment_id": "2a3daf97",
+      "source_content": "> Widok pulpitu - opis w przygotowaniu",
+      "source_content_hash": "ad957e4084ef51b10f2431fe20349fcef687e951b4405cbcafc3d9611f1c65a7",
+      "node_type": "blockquote",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "> 控制面板视图 - 文档编写中"
+      }
+    },
+    {
+      "segment_id": "13d9cd70",
+      "source_content": "![Sterowanie na monitorze](/img/en/remote/remote_on_tv_mode.png)",
+      "source_content_hash": "29a104d907e5e6f7a6af1ed6cb9fda0953ef2b9de7eb7da9be745de0ac59b6d7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![显示器控制模式](/img/en/remote/remote_on_tv_mode.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_remote_mode_on_tv.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.141029+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "8016e00090870fd9d30490fe8b30ab8deab8c89d919c59cac309cca3b1b61280"
+  }
+}

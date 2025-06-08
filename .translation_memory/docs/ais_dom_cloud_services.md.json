@@ -1,0 +1,62 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_dom_cloud_services.md",
+  "source_file_content_hash": "7717635947c04813933aa75c9a701783186abf544f9b85643ff3b217fa94f3a8",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Usługi zdalne\"\nsidebar_label: Usługi zdalne\n---",
+      "source_content_hash": "f917ef8f26423194ccb624924428c2714427ea109867270429faca03400f86f8",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "f1ef2f7d",
+      "source_content": "> Ta funkcjonlaność jest w przygotowaniu",
+      "source_content_hash": "00529044deb9e6c667bf93f21861769fcd10e83216f5a1b2609e29d0d4322d41",
+      "node_type": "blockquote",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "> 该功能正在开发中"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Moje usługi",
+      "source_content_hash": "5a34482412265b8cfeb692a7838f18f937b36bef6c88280096c87d57de479464",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 我的服务"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "W pozycji **Moje Usługi** można dodawać dostęp do danych i usług z zewnętrznych serwisów, do których mamy dostęp.",
+      "source_content_hash": "d05ba3b9b2efd0b421a0afbf963b42ff742a78f77c7443848bf19da2f9b76e8b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在**我的服务**选项中，您可以添加对已授权外部服务的数据和功能访问权限。"
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "![Aplikacja asystent domowy](/img/en/frontend/dom_cloud_my_services.png)",
+      "source_content_hash": "52cc9b4850c2f31a1c94cb448be00e01d76fea6cf53e2ac0e916bbb97515c7ca",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![智能家居助手应用](/img/en/frontend/dom_cloud_my_services.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_dom_cloud_services.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.099047+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "7717635947c04813933aa75c9a701783186abf544f9b85643ff3b217fa94f3a8"
+  }
+}

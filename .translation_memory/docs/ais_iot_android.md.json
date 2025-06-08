@@ -1,0 +1,52 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_iot_android.md",
+  "source_file_content_hash": "b184b83be0f6140387aad1ebea4a52fad031f1252d762d20c3c58013f162f43e",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: Obsługa urządznia z aplikacji Android\nsidebar_label: Obsługa urządznia z aplikacji Android\n---",
+      "source_content_hash": "977088399e9af10db66bd526d5355cf6bb2620699a0b9bdfdf991ef9c8b49294",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Wprowadzenie",
+      "source_content_hash": "138964b3f05ef631ae55efd030ca96538eb5d783961ef7b978515da6c937d13f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 简介"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Urządzenie z oprogramowaniem **Asystent domowy** jest autonomiczne i do podstawowych funkcjonalności nie potrzebuje żadnego dodatkowego komponentu, takiego jak bramka czy chmura. Poniżej przedstawiamy w jaki sposób urządzenie może być sterowane za pomocą naszej dedykowanej aplikacji dla systemu Android.",
+      "source_content_hash": "77389fdfe16382f7f298a514b70a287f20482a652f6ff452e182e64a16aaae82",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "搭载**家庭助手**软件的设备具有自主性，其基础功能无需依赖网关或云端等额外组件。以下将展示如何通过我们专为Android系统开发的应用程序控制该设备。"
+      }
+    },
+    {
+      "segment_id": "2f796981",
+      "source_content": "> Opis/Film w przygotowaniu",
+      "source_content_hash": "f7ed0ae35d0d003ea687e550b101487301b04959ca0f334bc066723d19ba6953",
+      "node_type": "blockquote",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "> 说明/视频制作中"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_iot_android.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.112507+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "b184b83be0f6140387aad1ebea4a52fad031f1252d762d20c3c58013f162f43e"
+  }
+}

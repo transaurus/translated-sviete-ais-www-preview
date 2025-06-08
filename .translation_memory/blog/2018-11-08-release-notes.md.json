@@ -1,0 +1,52 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2018-11-08-release-notes.md",
+  "source_file_content_hash": "417fc0f6af95f82bccb27bb39213b8c818d27c2e90682e367199db56434c379e",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Andrzej Raczkowski\nauthorURL: https://github.com/sviete\nauthorFBID: 1546384510\ntitle: Wersja systemu 0.81.12  \n---",
+      "source_content_hash": "d5ad001237be6f7bf3480391fdfdacc0a7e7d19487edd0eeb2305e06013e3d84",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Wersja systemu 0.81.12  z dnia 8 listopada 2018 roku,",
+      "source_content_hash": "6bfe282e51b94e82345a7dd7fce02b120b1b67d74f57e56376c92e29ce22dc41",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 2018年11月8日发布的系统版本0.81.12"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "w tej wersji dodano:",
+      "source_content_hash": "3872a90319800ef209dc86e7768257437634efb2d0bd4158297f09cf8d4b1322",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "本版本新增功能："
+      }
+    },
+    {
+      "segment_id": "be33979e",
+      "source_content": "- Zeroconf/Avahi/Bonjour - rozgłaszanie usług bramki (HTTP, FTP, MQTT) w lokalnej seici\n- wprowadzenie do usług bramki / start opisu API bramki [API](/docs/ais_bramka_api_index)\n- najonowszy YouTube-dl\n- najnowszy Home Assistant <a href=\"https://www.home-assistant.io/blog/2018/10/26/release-81/\" target=\"_blank\">0.81</a>",
+      "source_content_hash": "dfae04a3b17c0ef0789fd944747029942c5f9d026ce36cc0dba2a7a760f47a91",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- Zeroconf/Avahi/Bonjour - 网关服务（HTTP、FTP、MQTT）在本地网络中的广播\n- 网关服务介绍 / 网关API文档开始编写 [API](/docs/ais_bramka_api_index)\n- 最新版YouTube-dl\n- 最新版Home Assistant <a href=\"https://www.home-assistant.io/blog/2018/10/26/release-81/\" target=\"_blank\">0.81</a>"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2018-11-08-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.099208+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "417fc0f6af95f82bccb27bb39213b8c818d27c2e90682e367199db56434c379e"
+  }
+}

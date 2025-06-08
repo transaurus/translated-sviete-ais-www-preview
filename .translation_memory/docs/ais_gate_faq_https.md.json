@@ -1,0 +1,192 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_gate_faq_https.md",
+  "source_file_content_hash": "7b7993eb7f545f6b7b18fbba6f4ff225befd7da1e2965e1f31fdf6d7fc5e34e0",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Lokalny serwer z szyfrowaniem\"\nsidebar_label: HTTPS na bramce\n---",
+      "source_content_hash": "cfe82045bf6912d08666ff9d7e2b0e3a5ada811539258f66d19a44cc60746e62",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Uruchomienie usługi lokalnego serwera z szyfrowaniem",
+      "source_content_hash": "74560f2c3e9e3edc4239eaf66a38d68821f859adca1de448d55e1ceefbe0daa8",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 启用本地加密服务器服务"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Najprostszym sposobem jest włączenie serwera caddy https://caddyserver.com/, który jest już zainstalowany na urządzeniu i posiada domyślną konfigurację https.\nPodobnie można zrobić za pomocą serwera nginx czy apache, ale te serwery nie są domyślnie zainstalowane (trzeba je zainstalować za pomocą menadżera pakietów apt).",
+      "source_content_hash": "9c8b4c5bfb81d66d1c371cc07a9bd18b8fbb0382a1baa754a3f991b3a08087b1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "最简单的方法是启用设备上已安装且默认配置了HTTPS的Caddy服务器（https://caddyserver.com/）。类似地，也可以通过nginx或apache服务器实现，但这些服务器默认未安装（需通过apt包管理器安装）。"
+      }
+    },
+    {
+      "segment_id": "8ac585fb",
+      "source_content": "Poniżej opiszemy instalację krok po kroku na podstawie serwera cadd",
+      "source_content_hash": "4a6725c322c22621962d1056b4d91ab6f3e36cd4a000fa20458b9fd0e12d0b3c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "以下基于Caddy服务器逐步说明安装流程："
+      }
+    },
+    {
+      "segment_id": "730c423c",
+      "source_content": "1. Przejdź do [konsoli na urządzeniu](/docs/ais_bramka_remote_ssh)\n2. Sprawdź konfigurację serwera caddy za pomocą polecenia",
+      "source_content_hash": "a379620e6ea43bcb20ceaf76a4787d8f3d6a05d7ec67d74a5d7c019fda86b0d1",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "1. 进入[设备控制台](/docs/ais_bramka_remote_ssh)\n2. 通过以下命令检查Caddy服务器配置："
+      }
+    },
+    {
+      "segment_id": "4b395385",
+      "source_content": "```bash\ncat $PREFIX/bin/Caddyfile\n```",
+      "source_content_hash": "7b1b1dddf64fed3b82b81c1e1f5eb89f534bd99613307ba5f8db33ba27bb6e62",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_4b395385"
+      }
+    },
+    {
+      "segment_id": "39b3772c",
+      "source_content": "odpowiedź w konsoli powinna być taka jak poniżej",
+      "source_content_hash": "6f4fedd8c0d66c0e7bbba3870266f6974d9af579b9ebf87c39c21bd886247ceb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "控制台应返回如下响应："
+      }
+    },
+    {
+      "segment_id": "166426c2",
+      "source_content": "``` bash\n$ cat $PREFIX/bin/Caddyfile\n:8123 {\n    tls /data/data/com.termux/files/home/AIS/servercert.pem /data/data/com.termux/files/home/AIS/privekey.pem\n    proxy / localhost:8180 {\n        websocket\n        transparent\n    }\n}\n```",
+      "source_content_hash": "b4cc81e94199c6a5906a0a3d9107743c547137550af487415887493ddbc29d64",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_166426c2"
+      }
+    },
+    {
+      "segment_id": "5da9e02b",
+      "source_content": "3. Uruchom serwer poleceniem",
+      "source_content_hash": "85798c2882d8f2ee39d1a57f8b06f14f2df07978759ee79a1b39662356c0ab0e",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "3. 运行以下命令启动服务器："
+      }
+    },
+    {
+      "segment_id": "b017063d",
+      "source_content": "``` bash\ncaddy -conf $PREFIX/bin/Caddyfile\n```",
+      "source_content_hash": "ad1ba47ae90a969910ce96667616432be0094723bda5553ca1c3c259c921da47",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_b017063d"
+      }
+    },
+    {
+      "segment_id": "bdc231b1",
+      "source_content": "odpowiedź w konsoli powinna być taka jak poniżej",
+      "source_content_hash": "6f4fedd8c0d66c0e7bbba3870266f6974d9af579b9ebf87c39c21bd886247ceb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "控制台应返回如下响应："
+      }
+    },
+    {
+      "segment_id": "be2d5397",
+      "source_content": "``` bash\n$ caddy -conf $PREFIX/bin/Caddyfile\nActivating privacy features... done.\n...\n```",
+      "source_content_hash": "82deb914f9590b95caa310530bbbbefcd77f3996af05c69cd4d812681eb095a4",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_be2d5397"
+      }
+    },
+    {
+      "segment_id": "bdfae007",
+      "source_content": "4. Sprawdź działanie w przeglądarce wchodząc na adres https://ip-bramki-iot:8123\n\n5. Jeśli chcesz, by serwer był automatycznie uruchamiany, dodaj go do menadżera usług PM2:",
+      "source_content_hash": "578764db173928f82b5f12ae1c32c4b8e4f33a6d4a782c7ca11d0dd9d7b3bd5b",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "4. 在浏览器访问 https://物联网网关IP:8123 验证服务运行状态\n\n5. 若需设置开机自启，将服务添加至PM2进程管理器："
+      }
+    },
+    {
+      "segment_id": "824626b3",
+      "source_content": "- zatrzymaj serwer w konsoli (uruchomiony w punkcie 3) komendą **Ctrl + c**\n- by uruchomić serwer jako usługę, wpisz w konsoli polecenie",
+      "source_content_hash": "259eebfe7c5b087cea78a182e46d6d7dd14a4eae594dd8d608121b2dea507e5a",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 在控制台停止当前运行的服务器（步骤3中启动的）按 **Ctrl + c**\n- 输入以下命令将服务器注册为守护进程："
+      }
+    },
+    {
+      "segment_id": "229d6705",
+      "source_content": "``` bash\npm2 start caddy --name https -- -conf \"$PREFIX/bin/Caddyfile\"\n```",
+      "source_content_hash": "125d98e82ce6f6fbb538803d5e9d5623eb35b8e7a54b3480657e51b6c58e1e02",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_229d6705"
+      }
+    },
+    {
+      "segment_id": "310e47b7",
+      "source_content": "- zapisz ustawienia menadżera usług komendą **pm2 save** - usługa **https** będzie już domyślnie uruchamiana po restarcie bramki",
+      "source_content_hash": "2dfabfff63909104eda937720095fee0ded814a646bdf781cfbe9eb7632b0f33",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 执行 **pm2 save** 保存配置 - **https** 服务将在网关重启后自动运行"
+      }
+    },
+    {
+      "segment_id": "f275f5fd",
+      "source_content": "``` bash\npm2 save\n```",
+      "source_content_hash": "80984fcd503e93a8df506de04c905ecc6c8e2c56a371a62e91fb4aa4b5600cfe",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_f275f5fd"
+      }
+    },
+    {
+      "segment_id": "23dfb152",
+      "source_content": "![](/img/en/iot/bramka_caddy.png)",
+      "source_content_hash": "12b3204085a1642ab6abba42e89e6c783ec0992640d4a68e94c4ee8cbad58396",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/iot/bramka_caddy.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_gate_faq_https.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.138939+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "7b7993eb7f545f6b7b18fbba6f4ff225befd7da1e2965e1f31fdf6d7fc5e34e0"
+  }
+}

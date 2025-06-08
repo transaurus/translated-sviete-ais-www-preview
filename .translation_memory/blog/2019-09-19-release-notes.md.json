@@ -1,0 +1,352 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2019-09-19-release-notes.md",
+  "source_file_content_hash": "5b22bc238e1d831ab7a41ac837e55b5377c46fc681d52ef81bd41078ee309cab",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Jola AI-Speaker\nauthorURL: https://github.com/sviete\nauthorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4\ntitle: Wersja systemu 0.98.9 Tryb nocny, start autoaktualizacji\n---",
+      "source_content_hash": "9c91af701356cd5d756ec1fc7306371e688ec69c9462f1d370d4ae318ed37343",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Wersja systemu 0.98.9 z dnia 19 września 2019 roku,",
+      "source_content_hash": "53daa31d40909c9cd90a25ac23e87b22d1226caef7cf27da3c67af3cd017b479",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 2019年9月19日发布的系统版本0.98.9"
+      }
+    },
+    {
+      "segment_id": "1cc03ec8",
+      "source_content": "## Tryb nocny",
+      "source_content_hash": "71c3cebd0772d198e7c6a1116fbbbb9cf49d6d2290a70aaa97ad81cbb337c963",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 夜间模式"
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "W ustawieniach bramki dodaliśmy możliwość włączenia automatycznego uruchamiania trybu nocnego.",
+      "source_content_hash": "8d9697f44ad86c4363b02037a7c518a90bf409151af32ecd98b297a178ac4171",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们在网关设置中新增了自动启用夜间模式的功能。"
+      }
+    },
+    {
+      "segment_id": "ad8fd492",
+      "source_content": "![AIS dom Tryb nocny](/img/en/blog/ais_dom_dark_mode.gif)",
+      "source_content_hash": "23abcfe0a284d87a99e544c4038be1fd7ff0cffb4563a1dcac97a52b93e37c7f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS dom Tryb nocny](/img/en/blog/ais_dom_dark_mode.gif)"
+      }
+    },
+    {
+      "segment_id": "6429a3aa",
+      "source_content": "<!--truncate-->",
+      "source_content_hash": "f5cded2aa7e288e395fe4f67f9dabda2281904b2f5358d07302b3aa8be0acdfa",
+      "node_type": "comment",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_6429a3aa"
+      }
+    },
+    {
+      "segment_id": "39b3772c",
+      "source_content": "Gdy \"uruchamianie trybu nocnego jest włączone\" to o wybranej godzinie startu trybu nocnego asystent automatycznie:",
+      "source_content_hash": "331fd18f8e36bc1c2d5a4d2c3aebf81e574406183b455646ccf76cc0d0796afb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "当\"启用夜间模式\"后，系统将在设定的夜间模式启动时间自动执行以下操作："
+      }
+    },
+    {
+      "segment_id": "034de896",
+      "source_content": "- zredukuje głośność czytanych powiadomień do 20%,\n- zredukuje głośność odtwarzacza audio do 20%,\n- zmieni motyw wyglądu aplikacji na nocny.",
+      "source_content_hash": "2ab5ba9f12da1cdfef4021468c6d837e49dd01f6b0f9dec69b0605a5fe7186f8",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 将通知朗读音量降低至20%\n- 将音频播放器音量降低至20%\n- 将应用界面主题切换为夜间模式"
+      }
+    },
+    {
+      "segment_id": "2fdadb08",
+      "source_content": "Oczywiście o wybranej godzinie zakończenia trybu nocnego głośność i wygląd zostaną automatycznie przywrócone do wartości przed ciszą nocną.",
+      "source_content_hash": "50c7d96924e37ee11e004eb7f415a6c07a3cc75713b5c6ee1560c69d13aa9666",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "当然，在设定的夜间模式结束时间，音量和界面外观将自动恢复至夜间静默前的状态。"
+      }
+    },
+    {
+      "segment_id": "79b2d0b9",
+      "source_content": "## Nie nadpisujemy widoków i kart użytkownika",
+      "source_content_hash": "4e33c07da5dd30354bff5cd4621f4062e0fc0ef5087ac766d8fcea0f7bb600b9",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 不再覆盖用户视图和卡片"
+      }
+    },
+    {
+      "segment_id": "d9172fa4",
+      "source_content": "Przez kilka miesięcy intensywnie rozwijaliśmy interfejs w aplikacji i niektóre aktualizacje nadpisywały ustawienia wyglądu zdefiniowane przez użytkownika.",
+      "source_content_hash": "5ff31160be35ef414b4ac2bcebc2239b1c4cfb8e82ae3cdd020bbd14ff14a846",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "经过数月的密集界面开发，部分更新会覆盖用户自定义的界面设置。"
+      }
+    },
+    {
+      "segment_id": "26524352",
+      "source_content": "Miło nam Cię poinformować, że od wersji 0.98 nie będziemy już nadpisywali widoków tworzonych przez Ciebie. Będziemy jedynie aktualizować trzy pierwsze widoki (dom, audio i urządzenia). Reszta należy do Ciebie- nadszedł czas, żebyś przejął/przejęła kontrolę nad konfiguracją interfejsu!",
+      "source_content_hash": "34b6b0eb9635d4825393157d915e7d7518c30ebcb4e5a092d735a46ea3c442c5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们很高兴地告知您，从0.98版本起，我们将不再覆盖您创建的视图。仅会更新前三个默认视图（首页、音频和设备）。其余配置完全由您掌控——现在正是您全面接管界面配置的时候！"
+      }
+    },
+    {
+      "segment_id": "73ab96a3",
+      "source_content": "W instrukcji wyjaśniamy [jak włączyć tryb konfiguracji](/docs/ais_app_ui_config).\nW FAQ dodaliśmy przykład, jak dodać [własną kartę z wykresem temperatury procesora](/docs/ais_gate_faq_config_yaml) oraz bardziej zaawansowany tutorial [jak dodać Node-RED](/docs/ais_faq_node_red), w którym pokazujemy, jak zainstalować na bramce Node-RED oraz jak zintegrować go z aplikacją Asystent domowy (dziękujemy Łukaszowi G. za podesłanie pomysłu).",
+      "source_content_hash": "d6fc254d78a1aafb1b117def4e1bd479c8485b93f0cf2f89da4dda4a6a5b8b77",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "说明文档中我们解释了[如何启用配置模式](/docs/ais_app_ui_config)。\nFAQ中新增了示例，展示如何添加[自定义处理器温度图表卡片](/docs/ais_gate_faq_config_yaml)以及更进阶的[Node-RED集成教程](/docs/ais_faq_node_red)，其中演示了在网关上安装Node-RED并与家庭助手应用集成的方法（感谢Łukasz G.提供的创意）。"
+      }
+    },
+    {
+      "segment_id": "bdc231b1",
+      "source_content": "![AIS dom Tryb nocny](/img/en/blog/0.88_definiuj_vidoki_i_karty.png)",
+      "source_content_hash": "17e395765cce06393f9cd0dd47d3e06d2a5c897c58694e0cd33561dbcab364a5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS dom Tryb nocny](/img/en/blog/0.88_definiuj_vidoki_i_karty.png)"
+      }
+    },
+    {
+      "segment_id": "782c902a",
+      "source_content": "## Nowy, ładniejszy wygląd list z pozycjami audio",
+      "source_content_hash": "5471eeafd9eca4f9414815a4a66e5c971ad4bb605f83cc43e7cd9b685f76782a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 音频列表全新美化外观"
+      }
+    },
+    {
+      "segment_id": "50746522",
+      "source_content": "Popawiliśmy wygląd list wyszukiwania oraz dodaliśmy możliwość usuwania utworów z list odtwarzania (Spotify i YouTube).",
+      "source_content_hash": "bb94214958611b2488d7a5e1c14e60ffe89412c5f58ef0438f74b9c67120bf53",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们优化了搜索列表的视觉效果，并新增了从播放列表删除曲目的功能（支持Spotify和YouTube）。"
+      }
+    },
+    {
+      "segment_id": "95e9ba12",
+      "source_content": "![AIS dom remove from list](/img/en/blog/remove_from_yt_list.png)",
+      "source_content_hash": "ae44555205104caa09db66ed349eb570980c62e456cb95899e88b3c13004f970",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS dom remove from list](/img/en/blog/remove_from_yt_list.png)"
+      }
+    },
+    {
+      "segment_id": "c674e260",
+      "source_content": "## Integracja z Google Drive została oficjalnie zweryfikowana i zaakceptowana przez Google",
+      "source_content_hash": "7873dbcd8c54c11dfde24f1d0f0b713fbdb46e82c7360e1ac2f7cf95bd0b1b81",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## Google Drive集成已通过Google官方验证"
+      }
+    },
+    {
+      "segment_id": "a44047a5",
+      "source_content": "Teraz w łatwiejszy spoób będzie można dodać dysk zdalny Google Drive.",
+      "source_content_hash": "5febc50b53686c56ea5f42002db76ebe69218514fc4c78aefadafce912749ff3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "现在可以更便捷地添加Google云端硬盘。"
+      }
+    },
+    {
+      "segment_id": "f7ef78f9",
+      "source_content": "![Google Drive](/img/en/blog/drive_logowanie.png)",
+      "source_content_hash": "528018404b64454b766a39716325d4dfc84501df8e93f2d40f7540b2ddaa619a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Google Drive](/img/en/blog/drive_logowanie.png)"
+      }
+    },
+    {
+      "segment_id": "2c1b51df",
+      "source_content": "## Ustawienia ekranu z aplikacji",
+      "source_content_hash": "863544b8ff1bd064a30595ddc4381a1b893e4817d7f0ac2a70f85f6c3433376c",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 通过应用程序进行屏幕设置"
+      }
+    },
+    {
+      "segment_id": "e536ea0d",
+      "source_content": "W konfiguracji bamki dodaliśmy możliwość dostosowania obrazu do rozmiaru ekranu.\nJeżeli obraz na Twoim monitorze lub telewizorze podłączonym do bramki za pomocą złącza HDMI jest ucięty lub przesunięty, to w tym miejscu możesz dostosować obraz do rozmiaru ekranu.",
+      "source_content_hash": "72be91bf693bb2539b2910f8b3680035669ba2aa60cd589b2854e649071d18d3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在网关配置中，我们新增了屏幕画面自适应功能。\n若通过HDMI接口连接的显示器或电视出现画面裁剪或偏移现象，您可在此处调整图像以匹配屏幕尺寸。"
+      }
+    },
+    {
+      "segment_id": "1131ef75",
+      "source_content": "![Google Drive](/img/en/blog/ustawienia_ekranu.png)",
+      "source_content_hash": "bfefbbfaa16a160a69f5051a8aaaadb0c0745b17f2fab91e0e0ef27b3d78cedf",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Google Drive](/img/en/blog/ustawienia_ekranu.png)"
+      }
+    },
+    {
+      "segment_id": "126950d7",
+      "source_content": "## Start prac nad autoaktualizacją systemu",
+      "source_content_hash": "2e6ce51d1de72258f23245941d69691cbd748f2a7be989c96db1e598119d4a86",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 系统自动更新功能开发启动"
+      }
+    },
+    {
+      "segment_id": "0bb95128",
+      "source_content": "Dodanie cichego trybu nocnego oraz nienadpisywanie interfejsu to pierwszy krok do funkcjonalności automatycznych aktualizacji systemu. Od wersji 1.0 będziemy nadal oczywiście rozwijać funkcjonalność system i aktualizować na bieżąco pakiety, ale planujemy dodać opcjonalną możliwość włączenia automatycznej aktualizacji do najnowszej wersji systemu.",
+      "source_content_hash": "f22dc5b78e5425ae1bba1e092fd2e4faa49cf12326cf8c421ccaf1b33bbf9928",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "夜间静默模式与用户界面保护机制的引入，是实现系统自动更新功能的第一步。自1.0版本起，我们将持续完善系统功能并实时更新软件包，同时计划新增可选式自动升级至最新系统版本的功能。"
+      }
+    },
+    {
+      "segment_id": "3ef18741",
+      "source_content": "### Auto-aktualizacja pierwszego pakietu youtube-dl",
+      "source_content_hash": "d6617f03786fca3cbb82a59673452e75b43becd89e7d2ab839f3f186948de7ab",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 首个自动更新组件youtube-dl"
+      }
+    },
+    {
+      "segment_id": "e7772088",
+      "source_content": "W bieżącej wersji (0.98.9) dodajemy automatyczną aktualizację pierwszego pakietu youtube-dl.",
+      "source_content_hash": "fb2d774329fb51703dc65d90769ac40d10d9461bf3790593f925407c1e229109",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "当前版本(0.98.9)已实现对youtube-dl组件的自动更新支持。"
+      }
+    },
+    {
+      "segment_id": "eab056be",
+      "source_content": "<a href=\"https://github.com/ytdl-org/youtube-dl/\" target=\"_blank\">youtube-dl</a> to program napisany w języku Python, który pozwala na pobieranie treści audio-video z setek darmowych stron dostępnych w Internecie - <a href=\"http://ytdl-org.github.io/youtube-dl/supportedsites.html\" target=\"_blank\">lista stron wspieranych przez youtube.dl</a>.\nMy obecnie używamy tego programu na bramkach do odtwarzania muzyki z serwisu YouTube.com.",
+      "source_content_hash": "0ca0e04ca588de5f11e7398e71707eadc0770356eec77b93f657ebde5b7c45b9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "<a href=\"https://github.com/ytdl-org/youtube-dl/\" target=\"_blank\">youtube-dl</a> 是一款基于Python开发的工具，支持从数百个免费网站下载音视频内容——<a href=\"http://ytdl-org.github.io/youtube-dl/supportedsites.html\" target=\"_blank\">查看youtube-dl支持的平台列表</a>。目前我们通过该组件实现网关对YouTube.com音乐内容的播放功能。"
+      }
+    },
+    {
+      "segment_id": "6cc549f2",
+      "source_content": "Program jest stosunkowo mały, ale wymaga dość częstej aktualizacji, ponieważ sposób prezentowania treści audio na darmowych stronach bardzo często się zmienia. Z uwagi na częste aktualizacje tego pakietu uznaliśmy, że to najlepszy kandydat na sprawdzenie działania naszego mechanizmu automatycznej aktualizacji. Od wersji 0.98, jeżeli będzie dostępna zweryfikowana przez nas nowa wersja programu youtube-dl to bramka automatycznie ją zainstaluje.",
+      "source_content_hash": "2127301f349b2041037e6a5fe32964e5d00ab76c3b0245480143d15dd4babdd0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该组件体积虽小，但因免费网站音频内容的呈现方式频繁变更，需保持较高更新频率。鉴于其特殊性，我们将其作为自动更新机制的试点组件。自0.98版本起，网关将自动安装经我们验证的youtube-dl新版本。"
+      }
+    },
+    {
+      "segment_id": "2fd0be2a",
+      "source_content": "## Pozostałe istotne zmiany",
+      "source_content_hash": "3f788e390cc2b6086ae05294b0a7993158aa34320814d084b6b123f05c0dc064",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 其他重要更新"
+      }
+    },
+    {
+      "segment_id": "c0ea80dd",
+      "source_content": "- Blokowanie możliwości \"odpinania mikrofonu\" (latający mikrofon nad innymi aplikacjami) w przypadku działania na bramce (Dziękujemy Tomkowi B. za zgłoszenie problemu).\n\n- Cisza nocna, nie powiadamiamy o nowej wersji w nocy (to pomysł innego użytkownika - dziękujemy bardzo).\n\n- Automatycznie na starcie wyłączamy możliwość sterowania urządzeniem przez HDMI CEC, ponieważ niektóre monitory/telewizory mogły w ten sposób usypiać/wyłączać bramkę. (Ten problem pojawił się w najnowszej kompilacji obrazu systemu i został nam zgłoszony przez kilku użytkowników. Znaleźliśmy natychmiast obejście. a w tej wersji dostarczamy poprawkę dla wszystkich urządzeń.)\n\n-  Najnowszy (stabilny) Home Assistant <a href=\"https://www.home-assistant.io/blog/2019/08/28/release-98/\" target=\"_blank\">0.98</a> z jak zwykle mnóstwem nowości i ulepszeń.",
+      "source_content_hash": "8580ea3ffe18f3f5d643af264b86748632794dabaadc460ff1dfd2fd2f233f12",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 禁止在网关运行时\"取消麦克风常驻\"(悬浮于其他应用上方的麦克风图标)(感谢Tomasz B.反馈该问题)\n\n- 夜间静默时段暂停新版本通知推送(该创意来自热心用户——衷心感谢)\n\n- 启动时默认禁用HDMI CEC设备控制功能，避免部分显示器/电视误触发网关休眠/关机(该问题出现在最新系统镜像中，经多位用户反馈后，我们已立即提供临时解决方案，本版本将为所有设备永久修复)\n\n- 集成最新稳定版Home Assistant <a href=\"https://www.home-assistant.io/blog/2019/08/28/release-98/\" target=\"_blank\">0.98</a>，包含大量新特性与改进"
+      }
+    },
+    {
+      "segment_id": "9006437d",
+      "source_content": "----",
+      "source_content_hash": "bd64bb8efa5b3f27e6442f23600c3b516127ea17e23724b41e50da4c22883edd",
+      "node_type": "thematicBreak",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "----"
+      }
+    },
+    {
+      "segment_id": "51867d16",
+      "source_content": "Zapraszamy do aktualizowania.",
+      "source_content_hash": "019f589ac577f2bf8bfc5801fdca42b7e57eb09505074ee6aeb83a34a6cd30af",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "欢迎立即升级体验"
+      }
+    },
+    {
+      "segment_id": "785750ac",
+      "source_content": "2019.09.19 Zespół Asystent domowy.",
+      "source_content_hash": "6e07385d11a7ed03d446be45902e1286c811e1b324924fdd0880156d19197e62",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "2019.09.19 智能家居助手团队"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2019-09-19-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.139728+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "5b22bc238e1d831ab7a41ac837e55b5377c46fc681d52ef81bd41078ee309cab"
+  }
+}

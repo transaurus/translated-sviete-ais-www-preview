@@ -1,0 +1,72 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_app_android.md",
+  "source_file_content_hash": "6fbaa660a9cd2248fe35aa19561ae8f8d7fbdbb660a27c3a9e986a00bfaa1966",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"AIS Android\"\nsidebar_label: AIS Android\n---",
+      "source_content_hash": "b105281c9016cc378a307714f5013f69c763c3909be67b1bc66e5d54b5471c92",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## AIS Android",
+      "source_content_hash": "72cfdb5f5cd1c51e11d63d1c8f6137085a0a8bd15266835d40bdf725819b8b29",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## AIS Android 安卓集成"
+      }
+    },
+    {
+      "segment_id": "53eaf0e1",
+      "source_content": "Integracja AIS Android umożliwia komunikację z systemem Android, który jest na bramce oraz z dodatkowymi urządzeniami działającymi na systemie Android, takimi jak: telewizory, telefony, tablety, zegarki, odtwarzacze samochodowe, przystawki do telewizorów.",
+      "source_content_hash": "2ec48743c6d71cf860b1b59aa44cf2b50286c1fd353d363eba0774a67d917bf7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "AIS Android集成支持与运行安卓系统的网关及其他安卓设备（如电视、手机、平板、智能手表、车载播放器、电视盒子等）进行通信。"
+      }
+    },
+    {
+      "segment_id": "0e7eb58c",
+      "source_content": ":::caution[Uwaga]\n**Integracja z innymi urządzeniami Android**\n\nIntegracja działa komunikując się za pomocą interfejsu [Android ADB TCP/IP](https://developer.android.com/studio/command-line/adb).\nNie każde urządzenie z Android pozwala na łatwe włączenie interfejsu ADB tak, jak to możemy zrobić na bramce i nie każde urządzenie poprawnie obsługuje komunikację po ADB.\n:::",
+      "source_content_hash": "2d6c09abfcdf699cd8481c94aaa897327021784c9c6718e2a03c07580dde6ab7",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[注意]\n**与其他安卓设备的集成**\n\n该集成通过[Android ADB TCP/IP](https://developer.android.com/studio/command-line/adb)接口进行通信。并非所有安卓设备都像网关那样能轻松启用ADB接口，也并非所有设备都能完整支持ADB通信协议。\n:::"
+      }
+    },
+    {
+      "segment_id": "f5f6d2ce",
+      "source_content": "Integracja obecnie wykorzystywana jest do sterowania odtwarzaczem Spotify na bramce:",
+      "source_content_hash": "05c2b3249af3cee1bfd6571b19f7565148659d13bc057bcef1cbd2ba22f9d353",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "当前该集成主要用于控制网关上的Spotify播放器："
+      }
+    },
+    {
+      "segment_id": "98cfbd53",
+      "source_content": "![Spotify](/img/en/frontend/spotify_adb.png)",
+      "source_content_hash": "403926e0878df55aca7f0eb1c00409c181a20219a6774a86d8db3894fac6cedf",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Spotify](/img/en/frontend/spotify_adb.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_app_android.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.111452+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "6fbaa660a9cd2248fe35aa19561ae8f8d7fbdbb660a27c3a9e986a00bfaa1966"
+  }
+}

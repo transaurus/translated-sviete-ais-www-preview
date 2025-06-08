@@ -1,0 +1,62 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_first_run_step_mobile.md",
+  "source_file_content_hash": "9d15e94fd9745191111df7aeda41bccc27eec0c5205779f99bec8a25fcde5c78",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Pierwsze uruchomienie - Aplikacja mobilna\"\nsidebar_label: Aplikacja mobilna\n---",
+      "source_content_hash": "1ecd084c61d8556a7fd94f38ca4100d93aa9d592bbfc1a6af3dcc9b1ff0dd66d",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Aplikacja mobila AIS dom",
+      "source_content_hash": "ec45a0d1beacd9aa013050f1a3df4eddaeca2c7a01a1618f38a89c9a1abe688a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## AIS 家庭移动应用"
+      }
+    },
+    {
+      "segment_id": "50387553",
+      "source_content": "import BrowserWindow from '@site/src/components/BrowserWindow';",
+      "source_content_hash": "c30f3ec38b8fe46ed14acfdf630f27b5f382afaea44d9df375ff4baf3311b08e",
+      "node_type": "mdxjsEsm",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_50387553"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "Jeśli chcesz, możesz zainstalować aplikację mobilną i połączyć się z niej ze swoją bramką.\nDzięki aplikacji mobilnej możesz wysyłać komendy głosowe, otrzymywać powiadomienia o zdarzeniach w domu, kontrolować spoza domu, wysyłać swoją aktualną lokalizację do bramki itp.",
+      "source_content_hash": "2b756265c8427aa90eeae3667d4c231f464a6553dd3848e7a107a9458f7a5bc8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "您可选择安装移动应用并与家庭网关建立连接。\n通过移动应用，您可以发送语音指令、接收家庭事件通知、实现远程控制、将当前位置信息同步至网关等。"
+      }
+    },
+    {
+      "segment_id": "5da3670c",
+      "source_content": "<BrowserWindow url=\"http://ais-dom.local\">\n<center>\n![Aplikacja mobilna](/img/en/bramka/onboarding_step_mob_app_2.png)\n</center>\n</BrowserWindow>",
+      "source_content_hash": "b20311c9a69adf72dc35c1c9d930fbe197ac3ac72301639c6fbb641e222ab7be",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_5da3670c"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_first_run_step_mobile.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.094346+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "9d15e94fd9745191111df7aeda41bccc27eec0c5205779f99bec8a25fcde5c78"
+  }
+}

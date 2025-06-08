@@ -1,0 +1,112 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_configuration_usb.md",
+  "source_file_content_hash": "94cc72780ab7969bd6e12a0488a9304045b470aa34dabd8aa6c39b52396f6b7a",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Konfiguracja bramki - USB\"\nsidebar_label: Konfiguracja USB\n---",
+      "source_content_hash": "1e215dac1d155a8d7abc4bdd0846728bf3c4b54a881ce02a5dbf392a8e5f5d4f",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "W tym miejscu możesz ustalić czy Asystent ma sam rozpoznawać adaptery USB, uruchamiać automatycznie domyślne usługi Zigbee i Zwave oraz czy ma głosowo powiadamiać o dodaniu i usunięciu urządzenia USB.",
+      "source_content_hash": "b240821113239fc5b14ab3db834f9ab336a224fc87032ec93a3c39e553dbe462",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在此处您可以设置助手是否自动识别USB适配器、默认自动启动Zigbee和Zwave服务，以及是否通过语音通知USB设备的插拔状态。"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "![Konfiguracja USB](/img/en/bramka/ais_usb.png)",
+      "source_content_hash": "6f90cd0cab1f75b7797e2f7fbfadf0233565f44066febe33552af2050778b471",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![USB配置](/img/en/bramka/ais_usb.png)"
+      }
+    },
+    {
+      "segment_id": "8a5f6a7b",
+      "source_content": "## Automatyczne uruchamianie i zatrzymywanie usług",
+      "source_content_hash": "76252c10ea491e0c7d4e6dc3a9d2a4aaa99d97ae301a4f22fba7de693a625cf5",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 服务的自动启动与停止"
+      }
+    },
+    {
+      "segment_id": "180bddb1",
+      "source_content": "Asystent domowy powiadamia komunikatem głosowym o tym, jakie urządzenie zostało dodane. Jeżeli obsługa danego urządzenia jest wspierana, to Asystent rozpozna na jakim porcie działa urządzenie i wykona dalsze akcje związane z obsługą danego urządzenia.",
+      "source_content_hash": "2e3297c967dafe659a0c993bd1ff7798fa3638d2bb5efa516aeffcfabdc4df53",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "家庭助手会通过语音消息告知新增设备类型。若设备受支持，助手将识别其运行端口并执行与该设备相关的后续操作。"
+      }
+    },
+    {
+      "segment_id": "cf898102",
+      "source_content": "Jeżeli chcesz korzystać z innych integracji do zWave i Zigbee (niż nasze standardowe Zigbee2Mqtt i zWaveJs2Mqtt), to wystarczy, że wyłączysz automatyczne rozpoznawania urządzeń i sam skonfigurujesz integrację wg własnych potrzeb.",
+      "source_content_hash": "1e1e23804c62876732da78bd9e6dea76ef176922df315620070e1a33d7292fa0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "如需使用其他zWave和Zigbee集成方案（非我们标准的Zigbee2Mqtt和zWaveJs2Mqtt），只需关闭设备自动识别功能，即可根据需求自行配置集成方案。"
+      }
+    },
+    {
+      "segment_id": "42ad8e83",
+      "source_content": "![Konfiguracja USB](/img/en/bramka/ais_usb_2.png)",
+      "source_content_hash": "a4f38bc018445276b42aca1e220bc4790ffca6152544dee3869bd9ad9c555d0e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![USB配置](/img/en/bramka/ais_usb_2.png)"
+      }
+    },
+    {
+      "segment_id": "bc633244",
+      "source_content": "## Powiadomienia głosowe o urządzeniach USB",
+      "source_content_hash": "c23737a682e8643a4db9349c9e69104db497d16dd4f1d1b4e5365bcfa75e22af",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## USB设备的语音通知"
+      }
+    },
+    {
+      "segment_id": "2df4f75f",
+      "source_content": "Asystent powiadamia komunikatem głosowym o tym, jakie urządzenie USB zostało dodane lub usunięte. Możesz tę funkcję wyłączyć.",
+      "source_content_hash": "dbabb06cd47916b88a4af9ad132cb93b75cd5737c2b9ab8e57b5e97f5cc1a0ae",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "助手会通过语音消息通报USB设备的插拔状态。您可随时关闭此功能。"
+      }
+    },
+    {
+      "segment_id": "98cfbd53",
+      "source_content": "![Konfiguracja USB](/img/en/bramka/ais_usb_3.png)",
+      "source_content_hash": "e96c6b60a5b9c729c8e704958bef923e02317ecb32c649ac8ebcfdb3384bec28",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![USB配置](/img/en/bramka/ais_usb_3.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_configuration_usb.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.113676+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "94cc72780ab7969bd6e12a0488a9304045b470aa34dabd8aa6c39b52396f6b7a"
+  }
+}

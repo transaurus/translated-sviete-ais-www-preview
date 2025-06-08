@@ -1,0 +1,342 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_remote_other_programs.md",
+  "source_file_content_hash": "458004da5b54c08fa90d6a1028b3302b6577e50db2e75509bab215a4ce384fd7",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Instalowanie Aplikacji Android\"\nsidebar_label: Instalowanie Aplikacji Android\n---",
+      "source_content_hash": "6bc5f8734498bf9ee546a950ca1f6f87929a373d067f1b5e403c91061f3d67cc",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "W deweloperskiej wersji bramki instnieje możliwość uruchamiania przeglądarki Internetowej oraz instalowania innych aplikacji.",
+      "source_content_hash": "a1e7a4dee9fb5ec0e09d0f947312e09221e4aa36a40ca816380655672555f51d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在网关开发者版本中，可运行网页浏览器并安装其他应用程序。"
+      }
+    },
+    {
+      "segment_id": "e7ec881c",
+      "source_content": "> Poniższy opis wyjaśnia krok po kroku jak za pomocą przeglądarki Internetowej dostępnej na bramce, pobrać aplikację i ją zainstalować.\nInstalację wykonamy na przykładzie aplikacji **Asystent domowy**.",
+      "source_content_hash": "b5f5effded3b8389f67e2b3b5d9b4e62b780ddb84079a5ebac9edc68f756eb08",
+      "node_type": "blockquote",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "> 以下说明逐步讲解如何通过网关内置的网页浏览器下载并安装应用。\n我们将以**家庭助手**应用为例进行安装演示。"
+      }
+    },
+    {
+      "segment_id": "9fcbdce9",
+      "source_content": "## Uruchomienie przeglądarki internetowej na bramce",
+      "source_content_hash": "55b6d97378707cbec2998ae921d76b958ab136c3537b43a9dd989ee884aabda9",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 在网关上启动网页浏览器"
+      }
+    },
+    {
+      "segment_id": "9e760345",
+      "source_content": "1. Podłącz bramkę po HDMI do telewizora lub monitora\n\n2. Wyjdź z aplikacji Asystent domowy,\n[Wyjście z aplikacji](/docs/ais_bramka_settings#ustawienia-aplikacji-asystent-domowy)\n\n3. Przejdź do programu **AIS Explorer**",
+      "source_content_hash": "bdb5c72a5f55b713251760ed55e2f2eb2b43254a8fe8f619dfe174998de6e1a3",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "1. 通过HDMI将网关连接至电视或显示器\n\n2. 退出家庭助手应用，\n[退出应用](/docs/ais_bramka_settings#ustawienia-aplikacji-asystent-domowy)\n\n3. 打开**AIS文件管理器**程序"
+      }
+    },
+    {
+      "segment_id": "265557aa",
+      "source_content": "> Program **AIS Explorer** pozwala na przeglądanie oraz zarządzanie plikami, procesami oraz aplikacjami dostępnymi na urządzeniu. Za jego pomocą możemy odinstalować aplikację, uruchomić przeglądarkę internetową, pobrać aplikację i zapisać w pamięci urządzenia, następnie uruchomić pobraną aplikację w celu jej instalacji - opiszemy to dokładnie poniżej.",
+      "source_content_hash": "0a34a2838dd3f496e9f7c189ec55baa02eec93cf2c8ac01f2f971d17fa2f4374",
+      "node_type": "blockquote",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "> **AIS文件管理器**可用于浏览和管理设备中的文件、进程及应用程序。通过该程序可卸载应用、启动网页浏览器、下载应用并保存至设备存储，随后运行下载的应用进行安装——下文将详细说明此流程。"
+      }
+    },
+    {
+      "segment_id": "2fdadb08",
+      "source_content": "Żeby uruchomić program **AIS Explorer** należy kliknąć w ikonę po lewej stronie na górze ekranu",
+      "source_content_hash": "0d5470c0880ac1f44c9c56155cac8df8e46219199461648c3b2c695fc86b0615",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "点击屏幕左上角图标即可启动**AIS文件管理器**"
+      }
+    },
+    {
+      "segment_id": "f2c2bdd0",
+      "source_content": "![AIS Explorer](/img/en/bramka/other_programs_1.png)",
+      "source_content_hash": "2ab9da6df7ef20c6d4add7d81354a78ee7d46928eaddd63f90c5592b1ac13b5b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS文件管理器](/img/en/bramka/other_programs_1.png)"
+      }
+    },
+    {
+      "segment_id": "b3f5c97c",
+      "source_content": "4. W aplikacji AIS Explorer wybierz **Aplikacje użytkownika**",
+      "source_content_hash": "1d6f9f9fcd965ac9872cb8b8b7fac6b1dcadc18b6225bdc6cda7abacc173d871",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "4. 在AIS文件管理器中选择**用户应用**"
+      }
+    },
+    {
+      "segment_id": "4b1d2d7d",
+      "source_content": "![AIS Explorer](/img/en/bramka/other_programs_2.png)",
+      "source_content_hash": "8a9a93e0cfb547621e34d7bcbd3efbd1639c0f0af4714e98fcc1c43078bba09b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS文件管理器](/img/en/bramka/other_programs_2.png)"
+      }
+    },
+    {
+      "segment_id": "c6dea11f",
+      "source_content": "5. Uruchom aplikację Chrome.",
+      "source_content_hash": "950f8c0b03a587762fdb6ad34b4b79ab0e6412b6b126b58aab8d2390c1159ea1",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "5. 启动Chrome浏览器。"
+      }
+    },
+    {
+      "segment_id": "4daf5cdd",
+      "source_content": "Rozwiń menu aplikacji klikając na ikonę z trzema kropkami po prawej stronie\n![AIS Explorer](/img/en/bramka/other_programs_3.png)",
+      "source_content_hash": "424a0cf955218bca8e82e139e6b53ba1ef3ea6f2d4882edbedd8336fe4b0edc0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "点击右侧三点图标展开应用菜单\n![AIS文件管理器](/img/en/bramka/other_programs_3.png)"
+      }
+    },
+    {
+      "segment_id": "517051a7",
+      "source_content": "Następnie wybierz opcję **Otwórz**",
+      "source_content_hash": "eeec36f669d77eadd9ccee43d4d9ecfe58fa2706f340c65b3d93c56f568051ab",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "选择**打开**选项"
+      }
+    },
+    {
+      "segment_id": "135468ee",
+      "source_content": "![AIS Explorer](/img/en/bramka/other_programs_4.png)",
+      "source_content_hash": "5b3e41a4f31bb6e8ec0f466bfbbc51bd458a01670cfc17b1079394d85f3e1696",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS文件管理器](/img/en/bramka/other_programs_4.png)"
+      }
+    },
+    {
+      "segment_id": "9f9e64f5",
+      "source_content": "## Pobieranie plików z Internetu",
+      "source_content_hash": "989f477f046af688f883156b12524431314e0a0b719e4758e4d11ecabea131fb",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 从互联网下载文件"
+      }
+    },
+    {
+      "segment_id": "bdfae007",
+      "source_content": "1. W przeglądarce przejdź na adres z aktualnymi plikami projektu AI-Speaker",
+      "source_content_hash": "641a6a7fb6b913a32b53a0060f4fd623d404d97657563f8e30242a1d8d0c5c87",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "1. 在浏览器访问AI-Speaker项目最新文件地址"
+      }
+    },
+    {
+      "segment_id": "aa1e7006",
+      "source_content": "https://powiedz.co/ota/",
+      "source_content_hash": "7ee81559b98f509b12e86e0b6efb5db2b463f38ba6ec76dbdb49a2746f693d7a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "https://powiedz.co/ota/"
+      }
+    },
+    {
+      "segment_id": "b93ddfac",
+      "source_content": "2. Pobierz paczkę z aktualnymi kodami systemu",
+      "source_content_hash": "4fd874a4ce86a38e1268ebc371fda569c4fbb8daa90c3cb62b76c3377e58888f",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "2. 下载系统最新代码包"
+      }
+    },
+    {
+      "segment_id": "29528c8d",
+      "source_content": "https://powiedz.co/ota/bootstrap/files.tar.7z",
+      "source_content_hash": "f20913b8a692050436c290ca7cc1d0750d929ff07a0ca15ca64f6e82c04cdeda",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "https://powiedz.co/ota/bootstrap/files.tar.7z"
+      }
+    },
+    {
+      "segment_id": "c504c207",
+      "source_content": "![AIS Explorer](/img/en/bramka/other_programs_5.png)",
+      "source_content_hash": "a5057dac35e1828c9c04900caf00123a6eb9d4b0cb148187882d2265b0cb8d25",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS文件管理器](/img/en/bramka/other_programs_5.png)"
+      }
+    },
+    {
+      "segment_id": "310e47b7",
+      "source_content": "3. Pobierz aplikację",
+      "source_content_hash": "37c53ed5d93fcee40350da2bc978399042db4910aee4eafce27483efb9a8a50a",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "3. 下载应用程序"
+      }
+    },
+    {
+      "segment_id": "d3649a1e",
+      "source_content": "https://powiedz.co/ota/android/AisPanelApp.apk",
+      "source_content_hash": "b3a87b9ee218e11c833d646399fb6a6c208283d4512e4e46e7ad74797bf8a7df",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "https://powiedz.co/ota/android/AisPanelApp.apk"
+      }
+    },
+    {
+      "segment_id": "4d52a261",
+      "source_content": "![AIS Explorer](/img/en/bramka/other_programs_6.png)",
+      "source_content_hash": "280bf56f79510665c81ea389e0d0d030e106ef32c2f41d377af62103d9efc71e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS文件管理器](/img/en/bramka/other_programs_6.png)"
+      }
+    },
+    {
+      "segment_id": "7283cdac",
+      "source_content": "## Kopiowanie / przenoszenie plików na urządzeniu",
+      "source_content_hash": "a330c2cd9ab102ed4f66f7cc7cd3df24f48c24065e7766d37075cc4d1befea54",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 在设备上复制/移动文件"
+      }
+    },
+    {
+      "segment_id": "3df4f066",
+      "source_content": "1. Uruchom program **AIS Explorer**\n\n2. Przejdź do lokalizacji **Pamięć wewnętrzna/Downloads**,\nskopiuj pobrane pliki za pomocą dodatkowego menu dostępnego po prawej stronie pliku",
+      "source_content_hash": "cd634f707c4ac34a797df1ad396650d06a001f0143c16decbe7876d0dac90424",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "1. 启动**AIS文件管理器**\n\n2. 进入**内部存储/Downloads**目录，\n通过文件右侧附加菜单复制已下载文件"
+      }
+    },
+    {
+      "segment_id": "531437ca",
+      "source_content": "![AIS Explorer](/img/en/bramka/other_programs_7.png)",
+      "source_content_hash": "68ee60fee6469d8f5a47b1037634eda199176b223be3bf4608d2c21681b7941a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS文件管理器](/img/en/bramka/other_programs_7.png)"
+      }
+    },
+    {
+      "segment_id": "645e08e3",
+      "source_content": "3. Przejdź do lokalizacji **Pamięć wewnętrzna**,\nwklej skopiowane pliki klikając ikonę po prawej stronie na dole",
+      "source_content_hash": "5696942eecf505037891275167d6b183b2e4aadcc4252369fe6676bb0486c2af",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "3. 进入**内部存储**目录，\n点击右下角的粘贴图标将复制的文件粘贴至此"
+      }
+    },
+    {
+      "segment_id": "e7772088",
+      "source_content": "![AIS Explorer](/img/en/bramka/other_programs_8.png)",
+      "source_content_hash": "07ad99e754d9e0497ad836e18ddf9d7e23cf5efeb65dcc2a2d5d7cd1502f9295",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS Explorer](/img/en/bramka/other_programs_8.png)"
+      }
+    },
+    {
+      "segment_id": "3b2a0fd3",
+      "source_content": "> Jeżeli wykonujemy instalację Asystenta domowego, to paczka z aktualnymi kodami systemu (plik **files.tar.7z**) musi znajdować się w lokalizacji  **Pamięć wewnętrzna** i mieć niezmienioną nazwę **files.tar.7z**",
+      "source_content_hash": "5526d27b0f0ac8e697294666f7825adddc03cb621acf1b8e1a5f4c53acaf6528",
+      "node_type": "blockquote",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "> 若需安装家庭助理，系统代码压缩包（**files.tar.7z**文件）必须存放在**内部存储**目录下，且保持原始文件名**files.tar.7z**不变"
+      }
+    },
+    {
+      "segment_id": "b051b70c",
+      "source_content": "## Instalowanie aplikacji",
+      "source_content_hash": "58f4dd0c1b811a867c1df55422edbbf3875d39ae09a1e6e27efdda5dea310648",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 安装应用程序"
+      }
+    },
+    {
+      "segment_id": "6384b3d4",
+      "source_content": "1. Uruchom pobraną aplikację klikając na nią",
+      "source_content_hash": "71ad2ffeb2fe06948a9025a3087b220e6982f562fe6572d3acaf6f50514f16f0",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "1. 点击已下载的应用程序文件启动安装"
+      }
+    },
+    {
+      "segment_id": "7736989b",
+      "source_content": "![AIS Explorer](/img/en/bramka/other_programs_9.png)",
+      "source_content_hash": "de12ec3455d25e264b8f2a2c52382175cc2c286c186f041178c0ede97a2e730f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS Explorer](/img/en/bramka/other_programs_9.png)"
+      }
+    },
+    {
+      "segment_id": "6270d577",
+      "source_content": "potwierdź instalację i poczekaj na jej zakończenie",
+      "source_content_hash": "2e78c737476b6de1784c94080d9154cc0875c52bc3a5eb64245117bc95e17366",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "确认安装并等待安装完成"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_remote_other_programs.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.100675+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "458004da5b54c08fa90d6a1028b3302b6577e50db2e75509bab215a4ce384fd7"
+  }
+}

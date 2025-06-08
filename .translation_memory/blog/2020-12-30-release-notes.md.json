@@ -1,0 +1,412 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2020-12-30-release-notes.md",
+  "source_file_content_hash": "f94e1e77a933280d4bfe8d40adbab9ddfea8932eb988c7971270f1d3857eb006",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Jola AI-Speaker\nauthorURL: https://github.com/sviete\nauthor_title: Asystentka\nauthorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4\ntitle: Wersja systemu Bartek\ntags: [\"automatyzacje\", \"ais dom\", \"home assistant\"]\n---",
+      "source_content_hash": "42ec1544e044c0950b6eb37fc9a58859aa433228da40c1f438fec9732f8925d2",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "775b7fa4",
+      "source_content": "<div class=\"IntroAisBlogMenu\" >\n<div>\n\n![AIS 2020](/img/en/blog/202012/blueprint.png)\n\n</div>\n<h2>Schematy <br/>Automatyzacji</h2>\n</div>",
+      "source_content_hash": "ca5aadd76fb2813fe8895bb08a1ec6cd4b33667270f7d0fb8af0342d2715f3d9",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_775b7fa4"
+      }
+    },
+    {
+      "segment_id": "09a8fe76",
+      "source_content": "<div class=\"IntroAisBlogMenu\" >\n<div>\n\n![AIS 2020](/img/en/blog/202012/mob_app.png)\n\n</div>\n<h2>Aplikacja Mobila</h2>\n</div>",
+      "source_content_hash": "4b12a1933fd20462befd5af17da0605135de4132905ca0c87f3e07ae3702ce58",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_09a8fe76"
+      }
+    },
+    {
+      "segment_id": "2a3434e4",
+      "source_content": "<div class=\"IntroAisBlogMenu\" >\n<div>\n\n![AIS 2020](/img/en/blog/202012/christmas-tree.png)\n\n</div>\n<h2>2021 Wydania</h2>\n</div>",
+      "source_content_hash": "73e2e0ee07fc1ec66341240965460b08e6a32dc912b934213266c49901338000",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_2a3434e4"
+      }
+    },
+    {
+      "segment_id": "34229cbd",
+      "source_content": "<!--truncate-->",
+      "source_content_hash": "f5cded2aa7e288e395fe4f67f9dabda2281904b2f5358d07302b3aa8be0acdfa",
+      "node_type": "comment",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_34229cbd"
+      }
+    },
+    {
+      "segment_id": "9f9e64f5",
+      "source_content": "## ABC bezproblemowej aktualizacji",
+      "source_content_hash": "c90f3410f68be4e7ee6017947af078313ab12a12edc09598ec43646aef83e69a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 无忧升级指南"
+      }
+    },
+    {
+      "segment_id": "18867dc1",
+      "source_content": ":::tip[Kopia zapasowa.]\n### ![A](/img/en/blog/202009/alpha-a-circle.png) Kopia zapasowa.\n\nUWAGA Przed aktualizacją zalecamy wykonać [kopię zapasową konfiguracji](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji). W ten sposób sprawdzisz poprawność swojej konfiguracji przed rozpoczęciem aktualizacji i zwiększysz prawdopodobieństwo bezproblemowej aktualizacji.\n:::",
+      "source_content_hash": "1828218cdc126741a2ebe2de65e3dd6aff658b58cb960a102231a8a3be71ca74",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::tip[配置备份]\n### ![A](/img/en/blog/202009/alpha-a-circle.png) 配置备份\n\n注意：升级前建议先执行[配置备份](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji)。通过这种方式可以在升级前验证配置的正确性，提高升级成功率。\n:::"
+      }
+    },
+    {
+      "segment_id": "5a149cd3",
+      "source_content": ":::important[Konsola i logi na bramce.]\n### ![B](/img/en/blog/202009/alpha-b-circle.png)Konsola i logi na bramce.\n\nW razie problemów z aktualizacją, sprawdź procedurę [Aktualizacja z konsoli](/docs/ais_bramka_update_manual) lub [Wykonanie pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step).\nTo może dotyczyć szczególnie osób, które instalują na bramce dodatkowe niestandardowe komponenty.\n:::",
+      "source_content_hash": "801d23fb7fc2431bbe434b4eda5e7c084e2507d287d3851fa318ec48da59ea9e",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::important[网关控制台与日志]\n### ![B](/img/en/blog/202009/alpha-b-circle.png)网关控制台与日志\n\n若升级遇到问题，请参考[通过控制台升级](/docs/ais_bramka_update_manual)或[执行应用完全重置](/docs/ais_bramka_reset_ais_step_by_step)流程。特别是对于在网关上安装了非标准组件的用户。\n:::"
+      }
+    },
+    {
+      "segment_id": "f90b9a6a",
+      "source_content": ":::caution[Poczekaj cierpliwie.]\n### ![C](/img/en/blog/202009/alpha-c-circle.png) Cierpliwość. Pierwsze uruchomienie po aktualizacji trwa dłużej - poczekaj cierpliwie.\n\n **Po aktualizacji pierwsze uruchomienie może trwać nawet 20 minut.**\n W tym czasie aktualizowane są biblioteki do integracji dodanych na bramce i baza danych jest migrowana do nowego formatu.\n **Poczekaj cierpliwie na zakończenie aktualizacji.**\n:::",
+      "source_content_hash": "ad8fdeaa6b3f40c9e947e0d0ca97c330a7c8844dae9594bb1d45ca083ea5ab38",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[耐心等待]\n### ![C](/img/en/blog/202009/alpha-c-circle.png) 耐心等待。升级后首次启动耗时较长——请保持耐心。\n\n**升级后的首次启动可能耗时长达20分钟。**\n在此期间会更新网关上的集成库，并将数据库迁移至新格式。\n**请耐心等待升级完成。**\n:::"
+      }
+    },
+    {
+      "segment_id": "126950d7",
+      "source_content": "## ![](/img/en/blog/202012/blueprint.png) Schematy Automatyzacji",
+      "source_content_hash": "b5094d1afd8760887a808b7beada045c8bba695504fa519c7a4e00ea3b589282",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202012/blueprint.png) 自动化蓝图"
+      }
+    },
+    {
+      "segment_id": "0bb95128",
+      "source_content": "W tej wersji dostarczamy aktualizcję [Home Assistant do najnowszej wersji 2020.12](https://www.home-assistant.io/blog/2020/12/13/release-202012/).\nNajwiększą nowością w Home Assistant 2020.12 są **Blueprints** - Schematy Automatyzacji.",
+      "source_content_hash": "6c5d1ee799b34c4e201e179020b99af8f791d08a6dc3e2d827d86be043a2f5ea",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "本次版本将[Home Assistant更新至2020.12最新版](https://www.home-assistant.io/blog/2020/12/13/release-202012/)。Home Assistant 2020.12最重大的新特性是**Blueprints**——自动化蓝图。"
+      }
+    },
+    {
+      "segment_id": "7f71ff2a",
+      "source_content": "Schematy automatyzacji to gotowe szablony automatyzacji, które można łatwo dostosować i dodać do swojego Asystenta domowego jako automatyzacje.\nCzyli są to takie wstępnie skonfigurowane automatyzacje, które wystarczy dostosować do własnych potrzeb.",
+      "source_content_hash": "1ebe016a6d3854859beef79042f24a0d726df160b574c86ea0a923135d421234",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "自动化蓝图是预先配置好的自动化模板，用户可以轻松定制并添加到智能家居助手作为自动化规则。这些即用型自动化方案只需根据个人需求进行调整即可。"
+      }
+    },
+    {
+      "segment_id": "eab056be",
+      "source_content": "Jak to działa opisujemy w dokumentacji [Schematy Automatyzacji](/docs/ais_bramka_automation_blueprint)",
+      "source_content_hash": "9e5dfa51c536f6babedada1de0bf1654020fc2b05aeacc54d73c724c6f616f47",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "具体操作详见文档[自动化蓝图](/docs/ais_bramka_automation_blueprint)"
+      }
+    },
+    {
+      "segment_id": "f01228d3",
+      "source_content": "![Ekran z listą automatyzacji](/img/en/bramka/blueprint1.png)",
+      "source_content_hash": "ce2db8f13be1275a8c9e8409eaa16856368b9e078e4a96eca951eb3e2b775b10",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![自动化列表界面](/img/en/bramka/blueprint1.png)"
+      }
+    },
+    {
+      "segment_id": "d0dd855b",
+      "source_content": "Dodaliśmy kilka przykładowych schematów automatyzacji w aplikacji:",
+      "source_content_hash": "5a98739094a05aab09f14117bdb2a5b489b02ab1506f5f67db3bd83da9eab4bb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们在应用中新增了几个示例自动化蓝图："
+      }
+    },
+    {
+      "segment_id": "ca1573da",
+      "source_content": "- Automatyzację włączającą [oświetlenie po zachodzie słońca](/docs/ais_bramka_automation#schemat-automatyzacji)",
+      "source_content_hash": "10b421a6b89ffddf3b2b06985b0af955c2bd797998b36e09e5b5486f9236ceec",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- [日落时自动开启照明](/docs/ais_bramka_automation#schemat-automatyzacji)的自动化"
+      }
+    },
+    {
+      "segment_id": "6270d577",
+      "source_content": "![Oświetlenie](/img/en/bramka/blueprint4.png)",
+      "source_content_hash": "c72003bdcc750ecad7cb0081237c5f7ea099f57eb965a54e9ee6eb2bc018100f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![照明控制](/img/en/bramka/blueprint4.png)"
+      }
+    },
+    {
+      "segment_id": "c142abbb",
+      "source_content": "- Automatyzację wyzwalaną przez [zdarzenie naciśnięcia przycisku](/docs/ais_bramka_key_event_automation#schemat-automatyzacji)",
+      "source_content_hash": "a5578eaadf8c3fc18d2954517820db955388633994b023e86a73dba1601aad00",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 由[按键事件触发](/docs/ais_bramka_key_event_automation#schemat-automatyzacji)的自动化"
+      }
+    },
+    {
+      "segment_id": "ec619944",
+      "source_content": "![Przycisk](/img/en/blog/202012/blueprint_button.png)",
+      "source_content_hash": "e774a710c35a82b12c61a23274fa1b8fe338655664164425f5601325f82aabf9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![按键](/img/en/blog/202012/blueprint_button.png)"
+      }
+    },
+    {
+      "segment_id": "9e8f150c",
+      "source_content": "- Automatyzację wyzwalaną przez [skan TAG-a](/docs/ais_bramka_tag_automation#schemat-automatyzacji)",
+      "source_content_hash": "aed096b1bcd93b9b9fae960cbb8994cddced715684af6648785478b565d17e53",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 由[TAG标签扫描](/docs/ais_bramka_tag_automation#schemat-automatyzacji)触发的自动化"
+      }
+    },
+    {
+      "segment_id": "5803caac",
+      "source_content": "![Przycisk](/img/en/blog/202012/blueprint_tag.png)",
+      "source_content_hash": "322726ebc17c5ef952cffe4da09041c984e09f0427c91ffa4b8fe24db77f1730",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![标签按钮](/img/en/blog/202012/blueprint_tag.png)"
+      }
+    },
+    {
+      "segment_id": "d0b8a6db",
+      "source_content": "- Automatyzację wyzwalaną przez [wydarzenie z kalendarza](/docs/ais_bramka_calendar_event_automation#schemat-automatyzacji)",
+      "source_content_hash": "b4d335570ef0838c7028640ccf52de91663a570eb537c8e3a5118ac4d31da7a2",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 由[日历事件](/docs/ais_bramka_calendar_event_automation#schemat-automatyzacji)触发的自动化"
+      }
+    },
+    {
+      "segment_id": "785750ac",
+      "source_content": "![Przycisk](/img/en/blog/202012/blueprint_calendar.png)",
+      "source_content_hash": "780ade092c5070474ada2c1813d5080ec6ed974c61e7d460ed1e7ba54106f4ef",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![日历按钮](/img/en/blog/202012/blueprint_calendar.png)"
+      }
+    },
+    {
+      "segment_id": "cfea4c31",
+      "source_content": "- Automatyzację wyzwalaną przez [zmianę lokalizacji](/docs/ais_bramka_presence_detection#schemat-automatyzacji)",
+      "source_content_hash": "418b6375d9f6f4b0fd14624360af964ca47e7868a26ab3c9897dfaff2c3c4863",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 由[位置变更](/docs/ais_bramka_presence_detection#schemat-automatyzacji)触发的自动化"
+      }
+    },
+    {
+      "segment_id": "1862c5fe",
+      "source_content": "![Przycisk](/img/en/blog/202012/blueprint_zone.png)",
+      "source_content_hash": "2c3bf538a2c2db6238f8266bc3c213ac275cf060c057bee3bec1214bf3ae5d58",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![区域按钮](/img/en/blog/202012/blueprint_zone.png)"
+      }
+    },
+    {
+      "segment_id": "d79a4831",
+      "source_content": "Do wpisywania komend używamy własnego [selektora](https://www.home-assistant.io/docs/blueprint/selectors/) typu \"text\".",
+      "source_content_hash": "db1c7c9a4c13b4d5c3b0a2af49fcaa38eacc7da41d46b4a9b21980144e05e649",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们使用自建的[选择器](https://www.home-assistant.io/docs/blueprint/selectors/)类型\"text\"来输入指令。"
+      }
+    },
+    {
+      "segment_id": "2838eb68",
+      "source_content": "Zastanawiamy się nad możliwością wykorzystania tego mechanizmu do domeny intencji - żeby można było definiować [komendy](/docs/ais_app_assistent_add_command) (szablony sentencja -> intencja -> akcja) z poziomu interfejsu użytkownika. Może uda się dostarczyć w 2021 :)",
+      "source_content_hash": "a09a8309bdc3ea42e6b7b7cbd4e8ff02d9d617a9d5313c0dd5f703a5a86beaee",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们正在探索将该机制应用于意图领域——让用户能通过界面直接定义[语音指令](/docs/ais_app_assistent_add_command)（模板：语句→意图→动作）。这项功能有望在2021年实现 :)"
+      }
+    },
+    {
+      "segment_id": "1f4b3b94",
+      "source_content": "## ![](/img/en/blog/202012/mob_app.png) Aplikacja mobilna 1.8.1.LocalUrlFix",
+      "source_content_hash": "246a9957d68d759aaf325a3f33b85f86c3a9e8aeb4255dc867bad04cf6afa8ba",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202012/mob_app.png) 移动应用 1.8.1.LocalUrlFix"
+      }
+    },
+    {
+      "segment_id": "2270deb6",
+      "source_content": "1. Kilka poprawek i optymalizacji.\nNajwiększa poprawka dotyczy wysyłania komend głosowych w sieci lokalnej, przy wyłączonym tunelu i przy podaniu w parametrach połączenia z bramką jej identyfikatora (a nie lokalnego adresu URL).\nOkazało się, że jest tu błąd - dzięki za zgłoszenia. To już powinno działać OK.\n\n2. Ulepszone sterowanie głośnością bramki (głośnika AIS) za pomocą przycisków vol+ / vol- w aplikacji mobilnej.",
+      "source_content_hash": "01f61109d98c9c2a9b0dfab10a59f074147da4fed7cbff84fb3376d1c09c2469",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "1. 若干修复与优化\n最重要的修复涉及局域网内语音指令发送问题：当隧道关闭且连接参数中使用网关ID（而非本地URL）时存在的缺陷。感谢用户反馈，现该功能应能正常运作。\n\n2. 增强通过移动应用音量键（vol+/vol-）控制网关（AIS扬声器）音量的功能"
+      }
+    },
+    {
+      "segment_id": "d21af28f",
+      "source_content": "![App VOL](/img/en/blog/202012/mob_app_vol.png)",
+      "source_content_hash": "a4da25f293c930035d4c80179291cb8fbf16b575485acbffc93f931229896e0c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![应用音量控制](/img/en/blog/202012/mob_app_vol.png)"
+      }
+    },
+    {
+      "segment_id": "2ddd26d5",
+      "source_content": "3. Nowe wytrenowane Wake / Hot Word-y",
+      "source_content_hash": "b05792146659f53d9c4dda367f8f13766d33488257c9dc87324ef6111cfb90dc",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "3. 新训练的唤醒词/热词"
+      }
+    },
+    {
+      "segment_id": "a8610918",
+      "source_content": "![Hey Maya](/img/en/blog/202012/mob_app_hot_word.png)",
+      "source_content_hash": "20ecbf80b308d46036824b8b5dc86d6ebfd5d96667fb5103e7c18caf34026dd6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![嘿 Maya](/img/en/blog/202012/mob_app_hot_word.png)"
+      }
+    },
+    {
+      "segment_id": "a6c928a1",
+      "source_content": "Funkcjonalność nadal w menu eksperymentalnym w aplikacji mobilnej.\nWięcej informacji na forum [Trenujemy nowe Wake / Hot Word-y](https://ai-speaker.discourse.group/t/trenujemy-nowe-wake-hot-word-y/1075)",
+      "source_content_hash": "295898bcdaf94f6a136632225b622c853944db53cf4ab2f1397cd58b58a518fa",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该功能仍位于移动应用的实验性菜单中。更多讨论详见论坛帖[训练新唤醒词/热词](https://ai-speaker.discourse.group/t/trenujemy-nowe-wake-hot-word-y/1075)"
+      }
+    },
+    {
+      "segment_id": "5f82a1e9",
+      "source_content": "![Hey Maya](/img/en/blog/202012/hey_maya.png)",
+      "source_content_hash": "5a6a8dcee50f60078b1a788958b4b182376393418de8469023b0a81ce8a52010",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![嘿 Maya](/img/en/blog/202012/hey_maya.png)"
+      }
+    },
+    {
+      "segment_id": "2bb63d77",
+      "source_content": "## ![](/img/en/blog/202012/christmas-tree.png) Życzymy Wszystkim spełniania marzeń w 2021!",
+      "source_content_hash": "528b25f69e1fb32923b0167ed44c1bd98cfc5ae549ab327b9afff7ef2edd1585",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202012/christmas-tree.png) 祝大家2021年梦想成真！"
+      }
+    },
+    {
+      "segment_id": "53aa2b95",
+      "source_content": "**W 2021 wydawać będziemy wersję raz na miesiąc.**",
+      "source_content_hash": "609a8605b3f65d5b8dcaf52d277f86563feb730bdb65f0e1af3cb6cc643e0102",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "**2021年起我们将实行月度发布机制**"
+      }
+    },
+    {
+      "segment_id": "9c9e2b64",
+      "source_content": "Pierwsze wydanie BETA będzie w pierwszą środę każdego miesiąca, a wydanie na kanale STABILNYM będzie w ostatnią środę każdego miesiąca.",
+      "source_content_hash": "e21fdfb377b22bb2e8a7c098f705ede4b6b1e1b11a73b0ed14b97a65c0c3c7c9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "每月第一个周三发布BETA版，最后一个周三发布STABLE稳定版"
+      }
+    },
+    {
+      "segment_id": "5c7d994c",
+      "source_content": "![Calendar](/img/en/blog/202012/calendar_releases.png)",
+      "source_content_hash": "13a497a27d96179dac874538dbca4501fa8cae931c1bb054b234f5b5ce21e02f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![发布日历](/img/en/blog/202012/calendar_releases.png)"
+      }
+    },
+    {
+      "segment_id": "efbc76b7",
+      "source_content": "-------",
+      "source_content_hash": "11d925ecde7d1b6aa2c2881df15ce7b8553e7f48b782e061b658f050a673013f",
+      "node_type": "thematicBreak",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "-------"
+      }
+    },
+    {
+      "segment_id": "c6868a9f",
+      "source_content": "##### AI-Speaker 12/2020",
+      "source_content_hash": "8527312cb877a79816d6f750e05f62acb5cb5e76b3d66ea31e060b386ca06a65",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "##### AI-Speaker 2020年12月版"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2020-12-30-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.145654+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "f94e1e77a933280d4bfe8d40adbab9ddfea8932eb988c7971270f1d3857eb006"
+  }
+}

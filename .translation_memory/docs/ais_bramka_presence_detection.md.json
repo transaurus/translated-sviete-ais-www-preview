@@ -1,0 +1,432 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_presence_detection.md",
+  "source_file_content_hash": "fe09c2abb0a5085c0509253e2cd740e91ebc7262a6b8f9214f1557326163708b",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Konfigurowanie wykrywania obecności\"\nsidebar_label: Wykrywanie obecności\n---",
+      "source_content_hash": "0e84f912f4bfb4a3a6095fc568febc21f1439bbf6083c2024c2f8b6d39ab8191",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Wprowadzenie",
+      "source_content_hash": "138964b3f05ef631ae55efd030ca96538eb5d783961ef7b978515da6c937d13f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 简介"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Wykrywanie obecności ma na celu ustalenie, czy i kto jest w domu (lub innej zdefiniowanej strefie), co jest bardzo cennym źródłem automatyzacji. Wiedza o tym, kto jest w domu lub gdzie jest, pozwala nam na całą gamę opcji automatyzacji, przykładowe użycie:",
+      "source_content_hash": "eee8444be9b17fe2d4eb5bdc6c2e2c71790971fde78f6a1055e06abfed415893",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "存在检测功能旨在确定谁在家中（或其他定义区域），这是自动化的重要数据来源。了解家庭成员是否在家或具体位置，能实现丰富的自动化场景，例如："
+      }
+    },
+    {
+      "segment_id": "abcf54e3",
+      "source_content": "- Wyślij mi powiadomienie, gdy moje dziecko dotrze do szkoły\n- Włącz klimatyzację w domu, kiedy wychodzę z pracy\n- Otwórz bramę i włącz na 30 minut oświetlenie zewnętrzne, jeżeli jest noc i moje auto pojawia się w strefie przed bramą wjazdową",
+      "source_content_hash": "9c4650b55cea54e4ceb46f562091acd34ba24fdbd0a2396ed384e2573589fc26",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 当孩子到达学校时发送通知\n- 下班离开办公区域时自动开启家中空调\n- 夜间检测到车辆进入前院区域时，自动开启大门并点亮外围照明30分钟"
+      }
+    },
+    {
+      "segment_id": "180bddb1",
+      "source_content": "![Wykrywanie obecności](/img/en/bramka/presence_detection_14.png)",
+      "source_content_hash": "c49e321a875bbac0598e0f34a2b481dcc1fd665fd06b2207d212973a1316db65",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![存在检测](/img/en/bramka/presence_detection_14.png)"
+      }
+    },
+    {
+      "segment_id": "e14c9928",
+      "source_content": "## Wykrywanie obecności",
+      "source_content_hash": "6244e92d5c7283d39daa8290a0b6318a1083993eb228889ef5fdc974a0c5c61f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 存在检测"
+      }
+    },
+    {
+      "segment_id": "42ad8e83",
+      "source_content": "Istnieją różne sposoby wykrywania obecności w systemie Asystent domowy. Najłatwiejszym i zalecanym przez nas sposobem jest włączenie raportowania obecności w naszej aplikacji AIS dom, na telefonie - po zalogowaniu się z telefonu do aplikacji na bramce możesz w łatwy sposób przypisać telefon do osoby i przesyłać zmiany lokalizacji bezpośrednio do bramki domowej.",
+      "source_content_hash": "289a511533da6e50e95610d654857233ba4a73f5eed050f776e56255beaf6eaf",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "家庭助理系统支持多种存在检测方式。我们推荐的最简便方法是启用AIS dom应用的位置上报功能——手机登录网关后，可轻松将手机与成员绑定，直接向家庭网关传输位置变更数据。"
+      }
+    },
+    {
+      "segment_id": "f6168993",
+      "source_content": "![AIS dom GPS](/img/en/bramka/presence_detection_00.png)",
+      "source_content_hash": "55ffaa1fc2f44bd96671ebc77d8a6966577337c224b6816fcf49c8ab21131fa7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS dom GPS定位](/img/en/bramka/presence_detection_00.png)"
+      }
+    },
+    {
+      "segment_id": "2df4f75f",
+      "source_content": "Inną aplikacją dostarczającą szczegółowe informacje o lokalizacji jest aplikacja OwnTracks, która działa zarówno dla Androida, jak i iOS.\nOwnTracks warto polecić bo tak jak AIS dom, jest też darmowa i otwarto źródłowa, wykryte zmiany lokalizacji wysyła bezpośrednio do systemu Asystent domowy.\nMożna ją skonfigurować za pomocą integracji dostępnej w konfiguracji systemu - w dokumentacji [integracji OwnTracks](/docs/ais_app_owntracks) pokazujemy krok po kroku jak to zrobić.",
+      "source_content_hash": "4be6f75b2edddac3bb2e6b0bcc351dadc66beb69e413a7cb13baefd33f42ee1b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "另一款提供精确定位数据的应用是OwnTracks，同时支持Android和iOS系统。该应用与AIS dom同样免费开源，能将检测到的位置变化直接推送至家庭助理系统。您可通过系统配置中的集成功能进行设置，具体步骤详见[OwnTracks集成文档](/docs/ais_app_owntracks)。"
+      }
+    },
+    {
+      "segment_id": "fa430ad4",
+      "source_content": "## Osoby",
+      "source_content_hash": "34236cb9c41fb80bc6066eb1ef0546888d5025e963c802bd12703613f9f9205c",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 人员管理"
+      }
+    },
+    {
+      "segment_id": "4b1d2d7d",
+      "source_content": "Dodanie osoby umożliwia podłączenie do niej wielu urządzeń raportujących lokalizację. Gdy używanych jest wiele urządzeń śledzących, lokalizacja jest określana z uwzględnieniem typu urządzenia śledzącego:",
+      "source_content_hash": "479cb82f32847e916439921210835b273bdf82fe58369e9c177e457959289247",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "添加人员后可关联多个位置上报设备。当使用多个追踪设备时，系统会根据设备类型确定优先级："
+      }
+    },
+    {
+      "segment_id": "5da9e02b",
+      "source_content": "- stacjonarne (Router lub lokalizator Bluetooth)\n- mobilne (GPS)",
+      "source_content_hash": "4f9048a3a3d1f381e2dab72ca505d85f7c3db340d7d694edee4e19c9b0337911",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 固定设备（路由器或蓝牙定位器）\n- 移动设备（GPS）"
+      }
+    },
+    {
+      "segment_id": "4daf5cdd",
+      "source_content": "Kiedy jesteś w domu, twoją pozycję określają najpierw stacjonarne trackery (jeśli istnieją), a następnie GPS. Kiedy jesteś poza domem, twoja pozycja jest określana najpierw przez GPS, a następnie przez stacjonarne urządzenia śledzące.",
+      "source_content_hash": "19f9aadb6ed67bdc06760287caec99b8317357a5285012fb44b0782ac3336734",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "居家时优先采用固定设备定位，其次使用GPS数据；外出时则优先采用GPS定位，其次参考固定设备数据。"
+      }
+    },
+    {
+      "segment_id": "109ace10",
+      "source_content": "### Dodanie osoby",
+      "source_content_hash": "eb9546c4ed7083c3f70154ba4bc0417167e37cf585822b128197dd350183483c",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 添加人员"
+      }
+    },
+    {
+      "segment_id": "135468ee",
+      "source_content": "Aby dodać nową osobę, przejdź do konfiguracji a następnie wybierz opcję **Osoby**.",
+      "source_content_hash": "f5fc2ae430921af83454eacc2c5c70d5a8a9cfef2543d6d384d9cce2ad961ec9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "添加新成员需进入配置界面选择**人员管理**选项。"
+      }
+    },
+    {
+      "segment_id": "33331f27",
+      "source_content": "![Dodanie osoby](/img/en/bramka/presence_detection_10.png)",
+      "source_content_hash": "af079293826339afa26a934a751d6e53ceb8bd39f627f4094d3c322def672e90",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![添加人员](/img/en/bramka/presence_detection_10.png)"
+      }
+    },
+    {
+      "segment_id": "1042b50d",
+      "source_content": "Naciśnij pomarańczowy przycisk z ikonką \"plus\" w prawym dolnym rogu ekranu, żeby otworzyć formularz dodawania osoby. Wybierz urządzenia raportujące lokalizację, tak jak to pokazano poniżej.",
+      "source_content_hash": "043d0dff5692e08a741a9d91a3ef5f543b8665f373896972e5545a0d8d88a968",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "点击屏幕右下角橙色\"+\"按钮打开人员添加表单，按以下示例关联位置上报设备。"
+      }
+    },
+    {
+      "segment_id": "aa1e7006",
+      "source_content": "![Dodanie osoby](/img/en/bramka/presence_detection_9.png)",
+      "source_content_hash": "ab3f5d04c8f9f2fbec12e055af722cd5ca867f49f3d95f8b8b27ff9acffd0599",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![添加人员](/img/en/bramka/presence_detection_9.png)"
+      }
+    },
+    {
+      "segment_id": "c674e260",
+      "source_content": "### Ustawienie zdjęcia osoby",
+      "source_content_hash": "ce3879d5757bc485c318b53f5c2d9d8966b30070d3d7b0e7028c64537e9727e8",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 设置人员照片"
+      }
+    },
+    {
+      "segment_id": "a44047a5",
+      "source_content": "Podczas dodawania lub edycji osoby możesz dodać jej zdjęcie które będzie wyświetlane w aplikacji i na mapie.",
+      "source_content_hash": "4b32e86a3c7c50f8cfbd54f9b495083dbb56d8d34840790234af466a3e083be7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在添加或编辑人员时，您可上传其照片，该照片将显示在应用程序和地图中。"
+      }
+    },
+    {
+      "segment_id": "98d26038",
+      "source_content": "![Dodanie zdjęcia osoby](/img/en/bramka/presence_detection_8.png)",
+      "source_content_hash": "c1c6328566bdc6a468bc30c6529f50ea26a8708c58aaefaf25ecfc866e95fd4f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![添加人员照片](/img/en/bramka/presence_detection_8.png)"
+      }
+    },
+    {
+      "segment_id": "b9aaa519",
+      "source_content": "Osoba na mapie i na kartach w aplikacji będzie teraz wyświetlana wraz ze zdjęciem.",
+      "source_content_hash": "6b7124be52eaf33f9b1be912581bc3751bf9023146d4cc0c1ea294c012e57e5b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "地图和应用卡片中的人员信息现在将附带照片显示。"
+      }
+    },
+    {
+      "segment_id": "e536ea0d",
+      "source_content": "![Dodanie osoby](/img/en/bramka/presence_detection_11.png)",
+      "source_content_hash": "d129d264f49084971ba8203c48bfb2248711341aef3d2a1954a8cbaf74df0276",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![添加人员](/img/en/bramka/presence_detection_11.png)"
+      }
+    },
+    {
+      "segment_id": "e912d935",
+      "source_content": "## Strefy",
+      "source_content_hash": "bdc0d3add8995c8c056630d3ca8b181e3415e8864cc1bc65f3a062b26d94978d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 区域设置"
+      }
+    },
+    {
+      "segment_id": "8b2a52b1",
+      "source_content": "Strefy pozwalają nazywać obszary na mapie. Obszary te mogą być następnie użyte do nazwania aktualnej lokalizacji śledzonego użytkownika lub użycia wejścia / wyjścia ze strefy jako wyzwalacza lub warunku automatyzacji. Strefy można skonfigurować na stronie integracji na ekranie konfiguracji.",
+      "source_content_hash": "06c37da7afaee9974aecdfad99c9963855145e1623af7dd859b724404808977c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "区域功能允许为地图上的特定范围命名。这些命名区域可用于标识被追踪用户的当前位置，或作为自动化触发条件（进入/离开区域）。区域配置可在集成页面的系统设置中完成。"
+      }
+    },
+    {
+      "segment_id": "126950d7",
+      "source_content": "### Dodanie strefy",
+      "source_content_hash": "8fb68a9c9430bb5eec92b2fe548c05b73fb2f57d30ced6c21fdaa1da72364a55",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 添加区域"
+      }
+    },
+    {
+      "segment_id": "0bb95128",
+      "source_content": "Aby skonfigurować nową stefę, przejdź do konfiguracji a następnie wybierz opcję **Strefy**.",
+      "source_content_hash": "90f4f854fd0563879456893ab7a80c162b49b386636b0fe9b36b604b6b1d0c06",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "请前往配置菜单选择**区域**选项以创建新区域。"
+      }
+    },
+    {
+      "segment_id": "657c2b20",
+      "source_content": "![Dodanie strefy](/img/en/bramka/presence_detection_12.png)",
+      "source_content_hash": "166acc390279721e21c6722e85b77af4a97aaffcd471505fd34394b56ce8c715",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![添加区域](/img/en/bramka/presence_detection_12.png)"
+      }
+    },
+    {
+      "segment_id": "e7772088",
+      "source_content": "Dodaj strefy które Cię interesują wypełniając formularz strefy w podobny sposób jak przedstawiono na przykładzie poniżej.",
+      "source_content_hash": "a4c8480db60aecb23bf3b802eb247b51270d651161dffa45bd9c8ba8100a643c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "参照下方示例填写区域表单，添加您需要的特定区域。"
+      }
+    },
+    {
+      "segment_id": "eab056be",
+      "source_content": "![Dodanie strefy](/img/en/bramka/presence_detection_13.png)",
+      "source_content_hash": "df32aeea42268228b069a9ca04aa8457910ce0ba06bb3bfdfea68ffda3e351d9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![添加区域](/img/en/bramka/presence_detection_13.png)"
+      }
+    },
+    {
+      "segment_id": "98355e36",
+      "source_content": "## Automatyzacje oparte na lokalizacji",
+      "source_content_hash": "ad6ef704a56b37516feb9bc955a1ab80327c71f82868d4db2ae27c7ce0d455dc",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 基于位置的自动化"
+      }
+    },
+    {
+      "segment_id": "463ed165",
+      "source_content": "Wyzwalacze strefy oraz geolokalizacji mogą uruchamiać się, gdy osoba wchodzi w strefę lub gdy opuszcza strefę. W celu dodania automatyzacji opartej na lokalizacji, podczas dodawania automatyzacji wybierz typ wyzwalacza **Strefa**, następnie wybierz osobę, której dotyczy sprawdzenie lokalizacji.",
+      "source_content_hash": "862863341041d6b10ee6d98ff6bdbabd63d5f3b0a8172d62c730e140319e1258",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "当人员进入或离开某区域时，可触发区域及地理围栏相关的自动化规则。创建基于位置的自动化时，请选择**区域**作为触发器类型，并指定需要监测位置的人员。"
+      }
+    },
+    {
+      "segment_id": "a5c5772a",
+      "source_content": "![Dodanie automatyzacji](/img/en/bramka/presence_detection_15.png)",
+      "source_content_hash": "e6ca40568bd698c6cf179e13cc2c6d71a6e4eba04e3682be402f10405e893395",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![添加自动化规则](/img/en/bramka/presence_detection_15.png)"
+      }
+    },
+    {
+      "segment_id": "fbc2db85",
+      "source_content": "W kolejnym kroku wybierz strefę oraz zaznacz typ zdarzenia (wejście w strefę lub opuszczenie strefy)",
+      "source_content_hash": "eff7831d96c311b29b8208823cde3215b554623bd97f4e70a39fc962e69f2fae",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "下一步选择目标区域并设置事件类型（进入区域或离开区域）。"
+      }
+    },
+    {
+      "segment_id": "8126f763",
+      "source_content": "![Dodanie automatyzacji](/img/en/bramka/presence_detection_16.png)",
+      "source_content_hash": "bbb2cb5ec753aa7e7f01c3d73ce6aafcde6a275669baca7d8cd71bd9648e1e56",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![添加自动化规则](/img/en/bramka/presence_detection_16.png)"
+      }
+    },
+    {
+      "segment_id": "90d35b51",
+      "source_content": "## Schemat automatyzacji",
+      "source_content_hash": "f6e32c06e74c707ff40ad2ec27feb273cc7dd5f46f5441bcbc5ed35e8ee4b339",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 自动化蓝图"
+      }
+    },
+    {
+      "segment_id": "86348f98",
+      "source_content": "Automatyzację wyzwalaną przez zmianę lokalizacji możemy w łatwy sposób utworzyć na podstawie gotowego [schematu automatyzacji](ais_bramka_automation_blueprint).",
+      "source_content_hash": "8448011a9e527447490571b120b8c130912c4c29a515ba87c7eb60579083f6e6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过现成的[自动化蓝图](ais_bramka_automation_blueprint)，可轻松创建基于位置变化的自动化规则。"
+      }
+    },
+    {
+      "segment_id": "6b77b644",
+      "source_content": "Wystarczy, że:",
+      "source_content_hash": "61d6b0597f4d039c154924ea1f066f804ca95233dc54008178d34eb1a7fa31cd",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "只需："
+      }
+    },
+    {
+      "segment_id": "b0dbe2f3",
+      "source_content": "1. Wybierzemy predefiniowany schemat **Powiadomienie po opuszczeniu strefy**",
+      "source_content_hash": "b5cca6acff24bad43b9985719b4b1fa5f901c190e2032c5155666f08c3cb7a75",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "1. 选择预定义的**离开区域通知**蓝图"
+      }
+    },
+    {
+      "segment_id": "82e90254",
+      "source_content": "![Dodanie nowej automatyzacji](/img/en/bramka/blueprint_zone_0.png)",
+      "source_content_hash": "dab31c696a7df1b8e865d3787cc370654301f9ad10a8fc8b0f5a25917b42e7aa",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![添加新自动化规则](/img/en/bramka/blueprint_zone_0.png)"
+      }
+    },
+    {
+      "segment_id": "dee20070",
+      "source_content": "2. Uzupełnimy i zapiszemy zdefiniowany szablon:",
+      "source_content_hash": "fdeac924c06a482294d315f54920c69ba75ff51f8a14bba508ab3336b51f0a8b",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "2. 填写并保存定义好的模板："
+      }
+    },
+    {
+      "segment_id": "25212439",
+      "source_content": "![Dodanie nowej automatyzacji](/img/en/bramka/blueprint_zone.png)",
+      "source_content_hash": "c5a063936b7d63dfe853aed7853aafa6b686f491f206e91047499f5fade6f4a0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![添加新自动化规则](/img/en/bramka/blueprint_zone.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_presence_detection.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.137508+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "fe09c2abb0a5085c0509253e2cd740e91ebc7262a6b8f9214f1557326163708b"
+  }
+}

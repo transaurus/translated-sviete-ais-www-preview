@@ -1,0 +1,72 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_api_led.md",
+  "source_file_content_hash": "44a8874cdb21cc16fef98222f1ff74cd0ae0bb88d665947d2c03d8ed8d9ef037",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Sterowanie diodą LED\"\nsidebar_label: Sterowanie diodą LED\n---",
+      "source_content_hash": "52efae253e0c47d7892d56bd7d56cd34cdaf166b6214ca3da33cd859c13ab927",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Usługa **ais_shell_command.led** pozwala na sterowanie diodą led umieszczoną z przodu urządzenia.\nWymagany jest jeden parametr **brightness**, przykładowe wartości parametru to:",
+      "source_content_hash": "38064a900c116733a80c8d01adc6373d0583fb11902cef01c86301505e5de4cb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "服务 **ais_shell_command.led** 可用于控制设备正面的LED指示灯。\n需要传入一个参数 **brightness**，参数示例如下："
+      }
+    },
+    {
+      "segment_id": "df80d009",
+      "source_content": "- 0 - czerwony,\n- 255 - niebieski,\n- timer - uruchomienie funkcji mrugania,\n- heartbeat - uruchomienie funkcji bicia serca",
+      "source_content_hash": "6861c5ff47532a85e2e9f3ad4a07042c0582caf63a02b84fb47ba0b48490e555",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 0 - 红色，\n- 255 - 蓝色，\n- timer - 启用闪烁功能，\n- heartbeat - 启用心跳呼吸灯功能"
+      }
+    },
+    {
+      "segment_id": "ad8fd492",
+      "source_content": "Przykładowo- żeby dioda pulsowała w rytmie bicia serca wywołujemy usługę ais_shell_command.led z takimi parametrami:",
+      "source_content_hash": "bebe29e8b54ebe51c5d9cac9c7864cd3df43f45f4e958ab5a9de5338e394d5c8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "例如，若要让LED呈现心跳节奏的呼吸效果，需调用ais_shell_command.led服务并传入以下参数："
+      }
+    },
+    {
+      "segment_id": "41ad46a6",
+      "source_content": "```JSON\n{\"brightness\": \"heartbeat\"}\n```",
+      "source_content_hash": "e2dd919bab5310537e63407f1397d85397bc6bfb41ee4129bccdcab9d4e25ede",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_41ad46a6"
+      }
+    },
+    {
+      "segment_id": "f5f6d2ce",
+      "source_content": "![Ustawienia sieci](/img/en/frontend/services_led.png)",
+      "source_content_hash": "c841bef460c3f1d4ef1776501828bba7fc37f11f39f64935c8dccd41d93a6dfc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![网络设置](/img/en/frontend/services_led.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_api_led.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.100082+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "44a8874cdb21cc16fef98222f1ff74cd0ae0bb88d665947d2c03d8ed8d9ef037"
+  }
+}

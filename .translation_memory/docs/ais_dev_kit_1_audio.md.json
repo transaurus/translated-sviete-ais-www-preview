@@ -1,0 +1,92 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_dev_kit_1_audio.md",
+  "source_file_content_hash": "5bec3119e75e27d67bc6f1c589e0dc5813307e1fd777c917d2f5cc38ca371a3e",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Audio\"\nsidebar_label: Pomiary głośnika\n---",
+      "source_content_hash": "320cca89abf4088075d0f02f87f1b7888aa8ab535097a3a413702331df5219c1",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Pomiary głośnika",
+      "source_content_hash": "131db4cf9bdf8f74d75dc22e1376d4f7d612bf28ed95d82cee466a20b21cae76",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 扬声器测量数据"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "![|509x245](https://lh6.googleusercontent.com/b7cUJNb4ieGXfRkL3hVSVSsuSdBExty1ev0o2c7qTtRzESLciKNlGoXMTZpgraS5C_kCgAeq-nu7KVp7D_T18x4yqcuwjq9_f4jTI0_xiWzWE3un4NI3q8kP6dQmrSD6vp3CXabL)",
+      "source_content_hash": "ed0cd2af2874b41a60e7f56fc7d32e0bb04095f7bfe5d3c7e3a4e574bfaa564b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![|509x245](https://lh6.googleusercontent.com/b7cUJNb4ieGXfRkL3hVSVSsuSdBExty1ev0o2c7qTtRzESLciKNlGoXMTZpgraS5C_kCgAeq-nu7KVp7D_T18x4yqcuwjq9_f4jTI0_xiWzWE3un4NI3q8kP6dQmrSD6vp3CXabL)"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "Impedancja PS95-8: 110Hz (linia zielona)",
+      "source_content_hash": "5c88f6413137103eef596d98e2bdf6c84fef56abbe336f922687278c04293c0c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "PS95-8阻抗曲线：110Hz（绿色线）"
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "Impedancja w obudowie: 77Hz (linia fioletowa)",
+      "source_content_hash": "48c2a4227171349f051f89a091c4a3485c26681d70951192ac4f4b5069973bbb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "箱体阻抗曲线：77Hz（紫色线）"
+      }
+    },
+    {
+      "segment_id": "ad8fd492",
+      "source_content": "![|507x250](https://lh5.googleusercontent.com/7mwW8XAdEjJO4xJfqw-Z8OEw_Z3umOyibELAqNth-_RxfuyT8VvOn_cFZcqZyCFmpd1IevdAPQEHjpwBzxbgtgFZlW_QCKzJfcb3BB-HnI38z577SDdvPC91CiMgjS8vJWAJwhjD)",
+      "source_content_hash": "221a61dce824d52e80de2463c0bdfe4202b6b7584bef0c06402966774530b4c4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![|507x250](https://lh5.googleusercontent.com/7mwW8XAdEjJO4xJfqw-Z8OEw_Z3umOyibELAqNth-_RxfuyT8VvOn_cFZcqZyCFmpd1IevdAPQEHjpwBzxbgtgFZlW_QCKzJfcb3BB-HnI38z577SDdvPC91CiMgjS8vJWAJwhjD)"
+      }
+    },
+    {
+      "segment_id": "86b54d44",
+      "source_content": "Pasmo przenoszenia (wygładzanie do 1/24 oktawy):",
+      "source_content_hash": "9c182100cb06667b8d9a92c22da7d74c5c06d485fd93fca16e8b0ca2097b6d81",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "频响曲线（1/24倍频程平滑处理）："
+      }
+    },
+    {
+      "segment_id": "39b3772c",
+      "source_content": "![|507x206](https://lh5.googleusercontent.com/VpVNrXqXZMBmCVgC0Jcp9BwLYh-4vkJMlES85Z9K7-0E9lSD8WZ_n_tRu58MhkyYjGrwrF_jzBIhSc_vA6iQ09fJITFRjuGNLElOalFkaInI2R6aIwtKMzTZBkJYMWBLaEBQQ7o7)",
+      "source_content_hash": "b96034b12104761952de1e8b0cca2856a657710b0444fc8a24cd876e1ab75601",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![|507x206](https://lh5.googleusercontent.com/VpVNrXqXZMBmCVgC0Jcp9BwLYh-4vkJMlES85Z9K7-0E9lSD8WZ_n_tRu58MhkyYjGrwrF_jzBIhSc_vA6iQ09fJITFRjuGNLElOalFkaInI2R6aIwtKMzTZBkJYMWBLaEBQQ7o7)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_dev_kit_1_audio.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.138639+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "5bec3119e75e27d67bc6f1c589e0dc5813307e1fd777c917d2f5cc38ca371a3e"
+  }
+}

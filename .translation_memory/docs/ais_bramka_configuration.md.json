@@ -1,0 +1,62 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_configuration.md",
+  "source_file_content_hash": "7072e5e9785b706ef111f6a2bde126804931d6f0e4f2bb827a5adbe81fd29da5",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Konfiguracja bramki\"\nsidebar_label: Konfiguracja bramki\n---",
+      "source_content_hash": "c7a867c19b2f46bf560c449901aa67fd9c39bd471db96c887478ff327e8e3355",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Ustawienia Twojej bramki IoT i audio dostępne są po wybraniu z menu po lewej stronie opcji **Konfiguracja** a następnie pierwszej opcji na liście **Ustawienia bramki AIS dom**.\nTak jak to pokazano na zdjęciu poniżej.",
+      "source_content_hash": "138d8b0c1298509341390b0e4dc79b8ab73c5ec898963f72de4a8040edbb5f0c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "您的物联网音频网关设置可通过左侧菜单选择**配置**选项，然后选择列表中的第一项**AIS dom网关设置**进行访问。如下图所示。"
+      }
+    },
+    {
+      "segment_id": "53eaf0e1",
+      "source_content": "![Konfiguracja bramki](/img/en/bramka/go_to_config_gate.png)",
+      "source_content_hash": "2c2ff760d971dacc5eeaeb1f53ffa6b8e364905a6c8a82119921020dcad9f49b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Konfiguracja bramki](/img/en/bramka/go_to_config_gate.png)"
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "Ustawienia podzielone są na sekcje, których opis znajduje się na kolejnych stronach.",
+      "source_content_hash": "4b4495c041f4c500be7a2c0f35f900ba02ebba7ea1e2ed00d38ed5f1553d30ed",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "设置按功能分区，各模块说明详见后续页面。"
+      }
+    },
+    {
+      "segment_id": "ad8fd492",
+      "source_content": "![Konfiguracja bramki menu](/img/en/bramka/config_ais_dom_menu.png)",
+      "source_content_hash": "b7f230733934c7adb82a803e9aa3feb5b7327b865cd64972655846dfde218aa4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Konfiguracja bramki menu](/img/en/bramka/config_ais_dom_menu.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_configuration.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.103570+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "7072e5e9785b706ef111f6a2bde126804931d6f0e4f2bb827a5adbe81fd29da5"
+  }
+}

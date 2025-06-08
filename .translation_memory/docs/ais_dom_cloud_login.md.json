@@ -1,0 +1,52 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_dom_cloud_login.md",
+  "source_file_content_hash": "759d19acf7d8ea449e9dad513413edb4117f4908bb8505e6c6c0b70054ba4aa4",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Logowanie\"\nsidebar_label: Logowanie do Portalu integratora \n---",
+      "source_content_hash": "5a4164edd8da05fb9a481e581f250e67a0a63b899c8b5dcc65e5287cd5762b66",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Aplikacja dostępna jest online pod adresem [Logowanie do Portalu integratora](https://powiedz.co/ords/f?p=100)",
+      "source_content_hash": "12d0351616686057c8389bab2b415bdf86689f61b605d102d1d3791532f12ca4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该应用程序可通过在线地址访问 [集成商门户登录](https://powiedz.co/ords/f?p=100)"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Każdy właściciel bramki może założyć konto i zalogować się na tej stronie a następnie zarządzać treściami na swojej bramce.",
+      "source_content_hash": "8fc05341152e659f8655eb77b3ee94012e73ee6735753bcf1509086b159266ac",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "任何网关所有者均可在此页面注册账户并登录，随后管理其网关上的内容。"
+      }
+    },
+    {
+      "segment_id": "8ac585fb",
+      "source_content": "![Portal integratora logowanie](/img/en/frontend/dom_cloud_login.png)",
+      "source_content_hash": "973009f70e4020294aa74892f5643193dcf2175ac782066e31ab913f94637570",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![集成商门户登录界面](/img/en/frontend/dom_cloud_login.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_dom_cloud_login.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.098228+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "759d19acf7d8ea449e9dad513413edb4117f4908bb8505e6c6c0b70054ba4aa4"
+  }
+}

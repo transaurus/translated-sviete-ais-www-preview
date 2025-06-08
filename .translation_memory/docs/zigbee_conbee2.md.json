@@ -1,0 +1,122 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/zigbee_conbee2.md",
+  "source_file_content_hash": "160ed4e23e86fa9fb98efbc8b0cb5d4a62a7f2fca705b27e8db56d6fc7b69d5c",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Conbee2\"\nsidebar_label: Opis produktu Conbee2\n---",
+      "source_content_hash": "867bb84aa8e9bc7e15e3e951f66cbb56faad74f03259e152d8882a7386ec6093",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "![CC2531](/img/en/iot/ais_con_bee2.jpg)",
+      "source_content_hash": "9e939f3abd33e1651dd30e97d039a4c467c2c61e7df27e3b647b2bea9889d141",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![CC2531](/img/en/iot/ais_con_bee2.jpg)"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Wprowadzenie",
+      "source_content_hash": "138964b3f05ef631ae55efd030ca96538eb5d783961ef7b978515da6c937d13f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 简介"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "Urządzenie Zigbee USB adapter daje możliwość łatwego korzystania z urządzeń Zigbee bez potrzeby stosowania bramek producentów.",
+      "source_content_hash": "79bdc75d9fd2c57ff03ec8fedeae8d34e683f312380c45c3337e3e5d35fa5fb8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Zigbee USB适配器设备让您无需使用厂商网关即可轻松接入Zigbee设备。"
+      }
+    },
+    {
+      "segment_id": "9fcbdce9",
+      "source_content": "## Adapter Zigbee ConBee2",
+      "source_content_hash": "38a564cdd3ded2d5bc7190ee6982de8dd36579c6fbf4ee54b2c5ac0f8f403be2",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ConBee2 Zigbee适配器"
+      }
+    },
+    {
+      "segment_id": "ad8fd492",
+      "source_content": "![ais](/img/en/iot/work-with-ais.png)",
+      "source_content_hash": "872427b8e729390edc39a4bc3917ed8b4ffd090c91100b9de0f1352ee71e9385",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![ais](/img/en/iot/work-with-ais.png)"
+      }
+    },
+    {
+      "segment_id": "cbe57f9d",
+      "source_content": "## Strona producenta",
+      "source_content_hash": "9320010df79c99dd233fff0866d17871846cb5426fa148f0c8cdab48d0dec26f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 制造商官网"
+      }
+    },
+    {
+      "segment_id": "39b3772c",
+      "source_content": "[Dresden elektronik ingenieurtechnik gmbh - Phoscon](https://phoscon.de/en/conbee2/)",
+      "source_content_hash": "3a8fe726501186b80985f45d786b78390fae127f8a3b834f75779ab457f010b8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "[Dresden elektronik ingenieurtechnik gmbh - Phoscon](https://phoscon.de/en/conbee2/)"
+      }
+    },
+    {
+      "segment_id": "bc633244",
+      "source_content": "## Dostępność i cena",
+      "source_content_hash": "8c8b0d24dfa40d6ef28d3caf96c499605e3ba03d4f196ccba735d26d431bf4a4",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 供货与价格"
+      }
+    },
+    {
+      "segment_id": "2df4f75f",
+      "source_content": "Jesteśmy oficjalnym bezpośrednim importerem i sprzedawcą urządzeń od producenta [Dresden elektronik ingenieurtechnik gmbh](https://www.dresden-elektronik.com/)",
+      "source_content_hash": "0037f46f61064ea17200ad91d87613234abbc10c7d07b35ae5e1dc5b770767b5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们是[Dresden elektronik ingenieurtechnik gmbh](https://www.dresden-elektronik.com/)制造商的官方直营进口商和经销商。"
+      }
+    },
+    {
+      "segment_id": "6604338b",
+      "source_content": ":::warning[Sklep]\n<center>\n[Urządzenie jest dostępne na naszych aukcjach na platformie allegro.pl](https://allegro.pl/uzytkownik/AI-Speaker)\n<br/>\n[<img src=\"/img/allegro.png\" alt=\"drawing\" width=\"200\"/>](https://allegro.pl/uzytkownik/AI-Speaker)\n</center>\n:::",
+      "source_content_hash": "802345eab216854db6a6aabc9b43ba5b598b7d09e02ae02ce564eaaf63e0c8e0",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::warning[商店]\n<center>\n[该设备可在我们allegro.pl平台的拍卖页面获取](https://allegro.pl/uzytkownik/AI-Speaker)\n<br/>\n[<img src=\"/img/allegro.png\" alt=\"drawing\" width=\"200\"/>](https://allegro.pl/uzytkownik/AI-Speaker)\n</center>\n:::"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/zigbee_conbee2.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.133359+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "160ed4e23e86fa9fb98efbc8b0cb5d4a62a7f2fca705b27e8db56d6fc7b69d5c"
+  }
+}

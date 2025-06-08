@@ -1,0 +1,730 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2023-12-26-release-notes.md",
+  "source_file_content_hash": "a113c7b461326c540f04b2a16c4e0ff5aeb843eebe9596f2d9bd7ada7a62d53c",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Jola AI-Speaker\nauthorURL: https://github.com/sviete\nauthor_title: Asystentka\nauthorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4\ntitle: Wersja systemu Home Assistant Supervised\ntags: [\"home assistant\", \"zigbee2mqtt\"]\n---",
+      "source_content_hash": "be8a3d6f911988a7d20964efa39292ba418bd93db29b4d5861439a4f73254fbf",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "73ddcfdf",
+      "source_content": "import BrowserWindow from '@site/src/components/BrowserWindow';",
+      "source_content_hash": "c30f3ec38b8fe46ed14acfdf630f27b5f382afaea44d9df375ff4baf3311b08e",
+      "node_type": "mdxjsEsm",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_73ddcfdf"
+      }
+    },
+    {
+      "segment_id": "9fcbdce9",
+      "source_content": "## Szanowni Użytkownicy,",
+      "source_content_hash": "a26c3af57d7248da06db7050fc140485a90aeaaa08ad1ff411d13d3f6f3a2c7c",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 尊敬的各位用户，"
+      }
+    },
+    {
+      "segment_id": "ad8fd492",
+      "source_content": "Z przyjemnością chcielibyśmy Was poinformować o znaczącej zmianie, która wpłynie na naszą platformę w pozytywny sposób. Po przemyślanej analizie oraz wysłuchaniu Waszych opinii, zdecydowaliśmy się na przejście z systemu operacyjnego Adroid Termux na Linux, a co za tym idzie, z Home Assistant Core na Home Assistant Supervised.",
+      "source_content_hash": "bd9a3d9d454730c2955ea2e0f779439d571d1116dd00c1ae66898391914581ee",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们很高兴地宣布一项将积极影响我们平台的重大变革。经过审慎分析和听取用户反馈后，我们决定将操作系统从Android Termux迁移至Linux，并随之将Home Assistant Core升级为Home Assistant Supervised。"
+      }
+    },
+    {
+      "segment_id": "86b54d44",
+      "source_content": "![D](/img/en/blog/202312/linux.jpeg)",
+      "source_content_hash": "2735872f700815bed49023514f3a1243ded69e2986f07ef59ee50860f3241df7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![D](/img/en/blog/202312/linux.jpeg)"
+      }
+    },
+    {
+      "segment_id": "29ee8c7a",
+      "source_content": "<!--truncate-->",
+      "source_content_hash": "f5cded2aa7e288e395fe4f67f9dabda2281904b2f5358d07302b3aa8be0acdfa",
+      "node_type": "comment",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_29ee8c7a"
+      }
+    },
+    {
+      "segment_id": "63622bf0",
+      "source_content": "## Dlaczego ta zmiana?",
+      "source_content_hash": "bf30a777666397b868e2bdb945364a178a9a8b2fa7f5921e4a24ac9c2d600c98",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 为何做出这一改变？"
+      }
+    },
+    {
+      "segment_id": "95b38f97",
+      "source_content": "### 1. Asystent Głosowy Wbudowany w Home Assistant",
+      "source_content_hash": "a7c20adcb30144a4c43f367feec52ad70e81267e4f18ee5dbef9ef1cacff3677",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 1. 原生集成于Home Assistant的语音助手"
+      }
+    },
+    {
+      "segment_id": "ccc88b4c",
+      "source_content": "W 2023 roku Home Assistant pracował nad wbudowanym w system asystentem głosowym. Pracę te dobiegają końca i w efekcie nasze rozwiązanie oparte na usługach STT i TTS wbudowanych w system Android przestało być niezbędne do działania asystenta.\n![yolca](/img/en/blog/202312/yolca.jpeg)\nZdecydowaliśmy się rozwijać i wspierać rozwiązanie dostarczane przez Home Assistant.\nW naszym wpisie na blogu opisujemy jak dodać własne wyrażenie włączające mikrofon “Wake Word:\n[Hey Yolca - “Wake Word”, własne wyrażenie włączające mikrofon](https://ai-speaker.discourse.group/t/hey-yolca-wake-word-wlasne-wyrazenie-wlaczajace-mikrofon/3668)\nTo pierwszy s serii wpisów w których będziemy zajmowali się asystentem głosowym wbudowanym w Home Assistant.",
+      "source_content_hash": "611b26a30de4bc7df206efdf965baf5abfdb74fddeadf98fe65b65a73adb0d3b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "2023年Home Assistant团队着力开发了原生集成的语音助手功能。随着该功能趋于完善，我们基于Android系统STT和TTS服务的解决方案已不再是语音助手的必要组件。\n![yolca](/img/en/blog/202312/yolca.jpeg)\n我们决定全力支持并发展Home Assistant官方提供的解决方案。\n在博客文章中我们详细介绍了如何自定义唤醒词\"Hey Yolca\"：\n[自定义唤醒词\"Hey Yolca\"——开启麦克风的专属口令](https://ai-speaker.discourse.group/t/hey-yolca-wake-word-wlasne-wyrazenie-wlaczajace-mikrofon/3668)\n这是关于Home Assistant内置语音助手系列教程的首篇文章。"
+      }
+    },
+    {
+      "segment_id": "0037ff70",
+      "source_content": "### 2. Kontenery Docker-a i dodatki Home Assistant",
+      "source_content_hash": "52551afceee1635103f1a0e80e2db422ecd8fb29c72c080f8c2622b3da1e9b0c",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 2. Docker容器与Home Assistant插件"
+      }
+    },
+    {
+      "segment_id": "bdc231b1",
+      "source_content": "Kontenery Docker to lekkie, przenośne i samowystarczalne jednostki oprogramowania, które umożliwiają pakowanie, dostarczanie i uruchamianie aplikacji w izolowanym środowisku.\nW przypadku Androida kontererami były Aplikacje, ale prawda jest taka, że Home Assistant działa na kontenerach Dockera a nie Anroida.\nDzięki przejściu na Linux-a będziemy mieli dostęp do wszystkich dodatków Home Assistant.",
+      "source_content_hash": "2b6c96475cc18e06e7b59008ebf26f1f60eb34fb017990f05fcb0f64405d19a5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Docker容器是轻量级、可移植且自包含的软件单元，能在隔离环境中打包、交付和运行应用程序。\n在Android平台上，容器以应用程序形式存在，但事实上Home Assistant本就运行于Docker容器而非Android环境。\n迁移至Linux系统后，我们将获得完整的Home Assistant插件生态支持。"
+      }
+    },
+    {
+      "segment_id": "c3a738de",
+      "source_content": "![docker](/img/en/blog/202312/docker.jpeg)",
+      "source_content_hash": "bdab6634fe3901578e57f1569cb98f74031817af29fd6d9202a81e480d0ea86c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![docker](/img/en/blog/202312/docker.jpeg)"
+      }
+    },
+    {
+      "segment_id": "9f9e64f5",
+      "source_content": "### 3. Łatwiejsze Aktualizacje Systemu",
+      "source_content_hash": "6143e473d9ef3695cd54f1f91ef6ee94645c1a79d329bc000eda203ef0e347f0",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 3. 更便捷的系统更新"
+      }
+    },
+    {
+      "segment_id": "1042b50d",
+      "source_content": "Zmiana na Linux ułatwi proces aktualizacji systemu Home Assistant.\nAktualizacja systemu Home Assistant w przypadku działania Home Assistant w kontenerze sprowadza się do aktualizacji kontenera Docker. Tak samo aktualizowane są dodatki które działają też w kontenerach Docker.\nTo ułatwia proces aktualizacji ponieważ aplikacje są pakowane wraz ze wszystkimi niezbędnymi zależnościami i konfiguracją, co sprawia, że są przenośne między różnymi środowiskami. Oznacza to, że to, co działa na jednym systemie, powinno działać na innym bez większych modyfikacji.",
+      "source_content_hash": "3fa2e79bdffe05e6b4108dfc7d08ce45ce103c45899d136099c86f02c1050f25",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "转向Linux系统将简化Home Assistant的更新流程。\n当Home Assistant运行于Docker容器时，系统更新仅需升级对应容器即可，各类插件同样以容器化方式更新。\n这种机制显著提升了更新效率，因为应用程序已打包所有必要依赖和配置，确保在不同环境间无缝迁移。这意味着在一个系统上正常运行的组件，无需调整即可适配其他环境。"
+      }
+    },
+    {
+      "segment_id": "13d9cd70",
+      "source_content": "![docker2](/img/en/blog/202312/docker2.jpeg)",
+      "source_content_hash": "50fdf4bc72a8d844329fb690c48779b176d9b34609601f4a66e1df5a7d7a3758",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![docker2](/img/en/blog/202312/docker2.jpeg)"
+      }
+    },
+    {
+      "segment_id": "6f930b2f",
+      "source_content": "### 4. Pakiety Linux-a",
+      "source_content_hash": "7060f99a301905dae6e9478f09a94616ce38b5a2310577d2fba3e0a23f965ff3",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 4. Linux软件包"
+      }
+    },
+    {
+      "segment_id": "c504c207",
+      "source_content": "W przypadku Termux, liczba dostępnych pakietów jest mniej imponująca w porównaniu do tradycyjnych dystrybucji Linuxa na komputerach stacjonarnych lub serwerach. Termux jest środowiskiem do uruchamiania terminala na systemie Android, a liczba pakietów jest ograniczona ze względu na specyficzne wymagania i ograniczenia środowiska Android.",
+      "source_content_hash": "ec72205291a45a24ef3b9e3ca263ca1c5ce3d3d7c0f73fc6f0217dab59666b3b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "与传统的桌面或服务器Linux发行版相比，Termux环境下可用的软件包数量相对有限。Termux是专为Android系统设计的终端模拟环境，由于Android平台的特定需求和限制，其软件生态规模受到制约。"
+      }
+    },
+    {
+      "segment_id": "98d26038",
+      "source_content": "W ostatnich latach Termux znacząco rozszerzył swoją ofertę, a liczba dostępnych pakietów stale rośnie. Aktualnie Termux oferuje dostęp do wielu popularnych narzędzi i programów, w tym edytory tekstowe, języki programowania, narzędzia programistyczne, serwery, narzędzia sieciowe itp. Jednak liczba pakietów nie jest w dziesiątkach tysięcy, jak w przypadku tradycyjnych dystrybucji.",
+      "source_content_hash": "8238e90a04b7536ce9282d06d301bdaa2c87036fe23757575af4595842dd84ba",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "近年来Termux生态已显著扩展，可用软件包数量持续增长。目前该平台已涵盖文本编辑器、编程语言、开发工具、服务器软件及网络工具等主流应用，但其软件库规模仍无法与拥有数万软件包的传统Linux发行版相提并论。"
+      }
+    },
+    {
+      "segment_id": "d3649a1e",
+      "source_content": "![debian](/img/en/blog/202312/debian.jpeg)",
+      "source_content_hash": "30fc46640312a58395b3b99ef87a7bd657c7c6d5702489e14bb7f8e081e08ccc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![debian](/img/en/blog/202312/debian.jpeg)"
+      }
+    },
+    {
+      "segment_id": "4d52a261",
+      "source_content": "W przypadku systemu Linux bazującego na dystrybucji Debian mamy do dyspozycji praktycznie wszystkie pakiety Linux-a a co za tym idzie możemy instalować na bramce więcej pożytecznych rzeczy.",
+      "source_content_hash": "f93e1a793bebaf2c07e3c6d2966895cd344e853f272042f3865eec2987c5bf87",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "基于Debian的Linux系统则能提供近乎完整的Linux软件生态，这意味着我们可以在网关上安装更多实用工具。"
+      }
+    },
+    {
+      "segment_id": "7283cdac",
+      "source_content": "### 5. Obsługa adapterów i seriala",
+      "source_content_hash": "005227966c21fd3106c0060097aa9d8e9c94c2b0847c7253d06243de2029d418",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 5. 适配器与串口支持"
+      }
+    },
+    {
+      "segment_id": "1131ef75",
+      "source_content": "W systemie Android, który jest zaprojektowany głównie z myślą o urządzeniach mobilnych, takich jak smartfony i tablety, obsługa portu szeregowego (serial port) nie jest domyślnie wbudowana.",
+      "source_content_hash": "cb8e0fb59d3a38c72bbb6b2f08b33326a4c13ccbdd878ae506d93e7b94fad4de",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Android系统主要面向智能手机和平板等移动设备设计，默认并不原生支持串行端口(serial port)功能。"
+      }
+    },
+    {
+      "segment_id": "8b2a52b1",
+      "source_content": "Większość producentów adapterów (Zigbee, Z-Wave, Thread, Lora ...) nie oferuje obsługugi USB ale wymaga obsługi portu szeregowego. Taka komunikacja jest zwykle bardziej istotna w kontekście bramek IoT, systemów do kontroli przemysłowej i innych specjalizowanych zastosowań. Natomiast urządzenia Android są głównie ukierunkowane na obsługę standardowych interfejsów komunikacyjnych, takich jak USB, Bluetooth czy Wi-Fi.",
+      "source_content_hash": "a737fe3276bde56bad1da71d26acbce9a20172a3aa0a244aba9a04865f119eb2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "大多数适配器厂商(Zigbee/Z-Wave/Thread/LoRa等)不提供USB驱动支持，而是要求通过串口通信。这种通信方式在物联网网关、工业控制系统等专业领域更为常见，而Android设备主要面向USB/蓝牙/Wi-Fi等标准通信接口。"
+      }
+    },
+    {
+      "segment_id": "5dae11e3",
+      "source_content": "![debian](/img/en/blog/202312/serial.jpeg)",
+      "source_content_hash": "903436e0e0010568a14b65deebe7c728345d0394670fc10fbe06baf46d8eb429",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![debian](/img/en/blog/202312/serial.jpeg)"
+      }
+    },
+    {
+      "segment_id": "0bb95128",
+      "source_content": "Obchodziliśmy te ogranicznia z różnym skutkiem, kompilując jądro Linux-a i/lub urzywając adapterów które rozumiały komunikację USB.\nTeraz dzięki przejściu na system Linux, będziemy w stanie obsługiwać każdy adapter.",
+      "source_content_hash": "aea3fb802aa8373a90cd7d91abbd71077ee114e86ebdc2630c248fb94a099670",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们曾通过编译Linux内核或使用支持USB通信的适配器等变通方案来突破这些限制，效果参差不齐。现在迁移到Linux系统后，我们将能全面支持各类适配器。"
+      }
+    },
+    {
+      "segment_id": "52388877",
+      "source_content": "### Dziękujemy za Wasze zrozumienie i wsparcie. Ta zmiana ma na celu podniesienie standardów naszego systemu i dostarczenie Wam jeszcze lepszego doświadczenia z Home Assistant.",
+      "source_content_hash": "42f902b3cd8add030879d0d1949d6f8e97150242591563c0b8418a3ad4b3c960",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 感谢各位的理解与支持。本次升级旨在提升系统标准，为您带来更优质的Home Assistant使用体验。"
+      }
+    },
+    {
+      "segment_id": "daed5acb",
+      "source_content": "## Jak przystąpić do aktualizacji?",
+      "source_content_hash": "59e91e3a085222538427e69eef162c26f0dbaa7e9736256849a6c95058069357",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 如何开始升级？"
+      }
+    },
+    {
+      "segment_id": "6cc549f2",
+      "source_content": "Instrukcje dotyczące aktualizacji oraz migracji są dostępne na naszym forum:",
+      "source_content_hash": "846a4fa14919e618891a42f6fd328563ff14d388858d4be5e6ff065dec82fffc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "升级迁移指南详见我们的论坛："
+      }
+    },
+    {
+      "segment_id": "6384b3d4",
+      "source_content": "- [DEV1, DEV2, DEV3](https://ai-speaker.discourse.group/t/home-assistant-supervised-na-dev1-dev2-i-dev-bt/3562/1)\n\n- [DEV3 i PRO1](https://ai-speaker.discourse.group/t/home-assistant-supervised-na-dev3-i-pro1/3550/1)",
+      "source_content_hash": "b46e3b72bd70125ebd60541851d42f474192986db09a74d994f542375c3f7c30",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {}
+    },
+    {
+      "segment_id": "6270d577",
+      "source_content": "Wystarczy zaopatrzyć się w kartę SD lub pendrive i można pobrać nasze obrazy Linuxa z już zainstalowanym i skonfigurowanym Home Assistant, następnie trzeba nagrać obraz systemu na nośnik i uruchomić bramkę na nowym systemie.",
+      "source_content_hash": "d6bc784e276d033188d57d67dd8897bdc639ccb5a474f7b6ee9941bbd68ea63d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "您只需准备SD卡或U盘，下载我们预装配置好的Linux系统镜像，将其烧录至存储介质后即可在新系统上启动网关设备。"
+      }
+    },
+    {
+      "segment_id": "a1fa5396",
+      "source_content": "![Aktualizacja](/img/en/blog/202312/linux1.png)",
+      "source_content_hash": "11798b7c4b570d9ac6d5805a1a0786cc2691f7d2d66ad5719a8fce1940d8fd6b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Aktualizacja](/img/en/blog/202312/linux1.png)"
+      }
+    },
+    {
+      "segment_id": "1c598ecd",
+      "source_content": "## Gotowe karty SD",
+      "source_content_hash": "6f2a4465694aafc6e42515b4de70612d623d2efe633c7fb9254ab3dbf716b861",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 预装SD卡"
+      }
+    },
+    {
+      "segment_id": "2547a6bb",
+      "source_content": "Dla osób które chciały by kupić gotową kartę z zainstalownym systemem Home Assistant oferujemy w naszym sklepie nowy produkt - [SDCARD 128GB - HOME ASSISTANT SUPERVISED](https://get-iot.com/index.php?id_product=33&id_product_attribute=42&rewrite=sdcard-128gb-home-assistant-supervised&controller=product&id_lang=2#/32-wersja_bramki-dev3):",
+      "source_content_hash": "b18c98d0f1c61aac0e818830b8c021183722c858bb892fa6b630eb5a1a116fa1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "对于希望直接购买预装Home Assistant系统的用户，我们商店提供新产品——[128GB SD卡 - HOME ASSISTANT SUPERVISED](https://get-iot.com/index.php?id_product=33&id_product_attribute=42&rewrite=sdcard-128gb-home-assistant-supervised&controller=product&id_lang=2#/32-wersja_bramki-dev3):"
+      }
+    },
+    {
+      "segment_id": "0750bfa1",
+      "source_content": "[![SD](/img/en/blog/202312/sd-card.png)](https://get-iot.com/index.php?id_product=33&id_product_attribute=42&rewrite=sdcard-128gb-home-assistant-supervised&controller=product&id_lang=2#/32-wersja_bramki-dev3)",
+      "source_content_hash": "a90caea114b5c09b92e9bf97a9e5b7958d484cf63e3b5f1724109d4ed02fa8e0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "[![SD卡](/img/en/blog/202312/sd-card.png)](https://get-iot.com/index.php?id_product=33&id_product_attribute=42&rewrite=sdcard-128gb-home-assistant-supervised&controller=product&id_lang=2#/32-wersja_bramki-dev3)"
+      }
+    },
+    {
+      "segment_id": "39db08de",
+      "source_content": "## Bramki AIS",
+      "source_content_hash": "39694ff3aa1c6df103a06c2bac61368d02698201039ecbcc804e8320c9f6b9a9",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## AIS网关设备"
+      }
+    },
+    {
+      "segment_id": "785750ac",
+      "source_content": "Nowo sprzedawane bramki AIS, dostarczane są już z zainstalowanym systemem Linux oraz Home Assistant Supervised - [AIS DOM DEV-3 BRAMKA IOT&AUDIO - WERSJA DEWELOPERSKA](https://get-iot.com/index.php?id_product=27&rewrite=ais-dom-dev-3-bramka-lotaudio-wersja-deweloperska&controller=product&id_lang=2)",
+      "source_content_hash": "41408285e3b5213316c4ff2936fcce3bec343273b0b798ab181671efec9ac106",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "新销售的AIS网关现已预装Linux系统和Home Assistant Supervised——[AIS DOM DEV-3 物联网&音频网关 - 开发者版](https://get-iot.com/index.php?id_product=27&rewrite=ais-dom-dev-3-bramka-lotaudio-wersja-deweloperska&controller=product&id_lang=2)"
+      }
+    },
+    {
+      "segment_id": "82e90254",
+      "source_content": "[![SD](/img/en/blog/202312/dev3.png)](https://get-iot.com/index.php?id_product=27&rewrite=ais-dom-dev-3-bramka-lotaudio-wersja-deweloperska&controller=product&id_lang=2)",
+      "source_content_hash": "c727b0df280b90da2fff4275eda56cd7fa9c61cc52e361a3cd6f40e6ee5f5754",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "[![SD卡](/img/en/blog/202312/dev3.png)](https://get-iot.com/index.php?id_product=27&rewrite=ais-dom-dev-3-bramka-lotaudio-wersja-deweloperska&controller=product&id_lang=2)"
+      }
+    },
+    {
+      "segment_id": "7fc4bca5",
+      "source_content": "-------------------------------------------------------------------------------------",
+      "source_content_hash": "0023541a826daa80483c363fed6b16906c5f51ed921e449b5fe0c90209910d11",
+      "node_type": "thematicBreak",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "-------------------------------------------------------------------------------------"
+      }
+    },
+    {
+      "segment_id": "a138e327",
+      "source_content": "## AIS Android, co nowego na kanale ALFA :)",
+      "source_content_hash": "152ce3d17b43322ce400bf526970175bf1f5e6640571485bf5fdd38c187e70ad",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## AIS Android版本，ALFA频道的新动态"
+      }
+    },
+    {
+      "segment_id": "a2c0166e",
+      "source_content": "Na kanale alfa, będziemy nadal wydawać wersje. Z uwagi jednak na argumenty opisane powyżej: kłopotliwą aktualizację, brak wsparcia dla wszystkich pakietów linux-a, brak obsługi wszystkich adapterów(brak obsługi seriala) w systemie Android, brak obsługi kontenerów w systemie Android, zalecamy przejście na system Linux i Home Assistant Supervised.",
+      "source_content_hash": "6c8e627b60f468057dcc250e95961730b7699335b0a1499327ea8d36746e25d3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们仍将在ALFA频道发布Android版本。但基于前述原因：系统更新困难、缺乏完整Linux软件包支持、Android系统对串口设备的兼容性限制（如Zigbee等适配器）、以及Android容器化支持缺失，我们强烈建议用户迁移至Linux系统运行Home Assistant Supervised。"
+      }
+    },
+    {
+      "segment_id": "c1eaf30b",
+      "source_content": "![Aktualizacja](/img/en/blog/202312/android.jpeg)",
+      "source_content_hash": "612f056a9ed07413a5ff966d08794c564b66fc0c2bef3235bdcdf0c1fb094976",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![系统更新](/img/en/blog/202312/android.jpeg)"
+      }
+    },
+    {
+      "segment_id": "f947c8e4",
+      "source_content": "### Python",
+      "source_content_hash": "23674d762963a78f9a4fe4ac17cace38287306ccafd4cd93ab538d9e7d75e3da",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### Python环境"
+      }
+    },
+    {
+      "segment_id": "a81544fd",
+      "source_content": "Home Assistant serwer jest napisany i działa z Pythonem 3. Na bramce dostarczamy najnowszą, stabilną, wspieraną przez Home Assistant wersję Python.",
+      "source_content_hash": "039755ca91e51261c386f43876ab2469b39383248543a28203cb76528f42cec3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Home Assistant服务端基于Python 3开发运行。我们为网关提供最新稳定版Python，确保与Home Assistant完全兼容。"
+      }
+    },
+    {
+      "segment_id": "bfdcf081",
+      "source_content": "<BrowserWindow url=\"http://ais-dom.local\">\n<center>\n![](/img/en/blog/202312/python.png)\n</center>\n</BrowserWindow>",
+      "source_content_hash": "95ebe820b25cc8c94b4faff3771964780880b015de48bc30bbb798884323d6af",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_bfdcf081"
+      }
+    },
+    {
+      "segment_id": "f8614e13",
+      "source_content": "### mqtt",
+      "source_content_hash": "ad6b611773c8eee30b2c1daf1c8cbe4d63abd4d5c95590ace7e9ace3cfda2218",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### MQTT服务"
+      }
+    },
+    {
+      "segment_id": "1958bc43",
+      "source_content": "Mosquitto to broker komunikatów, który implementuje protokoły MQTT w wersjach 5.0, 3.1.1 i 3.1. Mosquitto jest lekki i nadaje się do stosowania na wszystkich urządzeniach, od bramki AIS czy komputerów jednopłytkowych o niskim poborze mocy po pełne serwery.",
+      "source_content_hash": "22b849d1ba436a530168c9da677fbc8e34473508fd3663464a3ca94960f27f28",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Mosquitto是支持MQTT 5.0/3.1.1/3.1协议的轻量级消息代理，适用于从低功耗AIS网关、单板计算机到完整服务器的全场景部署。"
+      }
+    },
+    {
+      "segment_id": "b9e4680c",
+      "source_content": "<BrowserWindow url=\"http://ais-dom.local\">\n<center>\n![](/img/en/blog/202312/mqtt.png)\n</center>\n</BrowserWindow>",
+      "source_content_hash": "207e1c3c07cf697d4ae2acd9d77cb83ad7e43c5c9a48bfd8b997ac11e9633e98",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_b9e4680c"
+      }
+    },
+    {
+      "segment_id": "23b96cc0",
+      "source_content": "### Clang",
+      "source_content_hash": "f058f8f602795f3ca760af925498aa81019689c3ef198b57c4f29c1e105ece08",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### Clang编译器"
+      }
+    },
+    {
+      "segment_id": "6fc234cf",
+      "source_content": "Narzędzie clang to kompilator używany do kompilowania języków programowania, takich jak C, C, Objective C i Objective C, do kodu maszynowego. \nClang na bramce używamy do kompilowania rozszerzeń Pythona - używamy tego samego kompilatora do budowania rozszerzeń, którego użyto do zbudowania dystrybucji Pythona. Dzięki obecności clang na bramce AIS, można oczywiście kompilować własne programy napisane w C/C++ i je uruchamiać bezpośrednio na bramce AIS.",
+      "source_content_hash": "14d0a70fb79abd0fc5242c57fbb149f6c08c8bd3141033e793fd1f804f145d2b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Clang是用于编译C/C++/Objective-C等语言的工具链。在网关上，我们使用与Python发行版构建相同的Clang编译器来构建Python扩展模块。用户也可直接编译运行自行开发的C/C++程序。"
+      }
+    },
+    {
+      "segment_id": "349bca41",
+      "source_content": "<BrowserWindow url=\"http://ais-dom.local\">\n<center>\n![](/img/en/blog/202312/clang.png)\n</center>\n</BrowserWindow>",
+      "source_content_hash": "80f19def31af39e19c558eb5317b13b5573ac77c8b62e58a951de9c8d9a7f957",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_349bca41"
+      }
+    },
+    {
+      "segment_id": "a461a67b",
+      "source_content": "### FFmpeg",
+      "source_content_hash": "7ae9164ccb01738f852038b4dc9ba753f1d1eea6f3a2bb504692514066d3e936",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### FFmpeg组件"
+      }
+    },
+    {
+      "segment_id": "14bc6b75",
+      "source_content": "FFmpeg umożliwia platformie Home Assistant przetwarzanie strumieni wideo i audio.",
+      "source_content_hash": "ff5a8ec3f43d3a176e9152b87b5ef354f2aaba5c14647d44ddcec41d77de8f62",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "FFmpeg为Home Assistant平台提供音视频流处理能力。"
+      }
+    },
+    {
+      "segment_id": "3c293157",
+      "source_content": "<BrowserWindow url=\"http://ais-dom.local\">\n<center>\n![](/img/en/blog/202312/ffmpeg.png)\n</center>\n</BrowserWindow>",
+      "source_content_hash": "81c8b6199b9f62e9f64e078f0dbc54c5bebae6e4abf0b0dd44fb00168c98c013",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_3c293157"
+      }
+    },
+    {
+      "segment_id": "73776161",
+      "source_content": "### Coder",
+      "source_content_hash": "0d0755281f9722d16306bd43e651bb2a994bc1f73231484a6ce60e9a7d26966f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### Coder"
+      }
+    },
+    {
+      "segment_id": "681ef526",
+      "source_content": "W tej wersji dostarczamy platformę developerską ``Coder``. Dzięki niej można w łatwy sposób rozwijać własne programy lub edytować konfigurację systemu bezpośrednio na bramce AIS.",
+      "source_content_hash": "8cdf6eaa31a735319296fad415a7012893b0cc08b4d3b1802f2ad8e95e5c0d38",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "此版本我们提供了开发者平台``Coder``。通过它，您可以轻松开发自定义程序或直接在AIS网关上编辑系统配置。"
+      }
+    },
+    {
+      "segment_id": "40e141c5",
+      "source_content": "<BrowserWindow url=\"http://ais-dom.local\">\n<center>\n![](/img/en/blog/202312/code.png)\n</center>\n</BrowserWindow>",
+      "source_content_hash": "f6b49522d1bc962a8384b72e9833236b109be5e80f4f6ff62cc202f724512345",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_40e141c5"
+      }
+    },
+    {
+      "segment_id": "55dc794c",
+      "source_content": "### Tmux",
+      "source_content_hash": "869a3e0149ad62152ec47a634fc685ad677f9651ec4a493f5112fd38af77d7d2",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### Tmux"
+      }
+    },
+    {
+      "segment_id": "619c3209",
+      "source_content": "Naszym domyślnym terminalem jest teraz Tmux. Tmux pozwala nam ponownie się połączyć do utraconej sesji ssh, czy też pomóc w zarządzaniu długo trwającymi skryptami. Dodatkowo możemy skorzystać z opcji podziału okna na kilka terminali i zarządzać na ekranie jednocześnie kilkoma programami na raz.",
+      "source_content_hash": "ebb80457bc46758a6b96bb6e305cb59ad4a25be753b9f429d152c85163f510b3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们现在的默认终端是Tmux。Tmux允许我们重新连接到丢失的ssh会话，或帮助管理长时间运行的脚本。此外，我们还可以利用窗口分割功能，在屏幕上同时管理多个程序。"
+      }
+    },
+    {
+      "segment_id": "24d53e93",
+      "source_content": "<BrowserWindow url=\"http://ais-dom.local\">\n<center>\n![](/img/en/blog/202312/tmux.png)\n</center>\n</BrowserWindow>",
+      "source_content_hash": "000fabb3e83b012e98e9a3af4c944e4c037157ab3caff38c85976f7e8d38e0a7",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_24d53e93"
+      }
+    },
+    {
+      "segment_id": "d4eab4a6",
+      "source_content": "### ![](/img/en/blog/202102/honeybee.png) Zigbee2Mqtt",
+      "source_content_hash": "66a9914e72acab290690746f63dbd2e2db4834db52483737dfde28177b71768b",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### ![](/img/en/blog/202102/honeybee.png) Zigbee2Mqtt"
+      }
+    },
+    {
+      "segment_id": "0ddaa835",
+      "source_content": "Aktualizacja Zigbee2Mqtt do najnowszej wersji 1.32.1.\nW najnowszej wersji jest obsługiwanych [ponad 3000 urządzeń od ponad 380 producentów](https://www.zigbee2mqtt.io/supported-devices/):",
+      "source_content_hash": "80c35b9d026d23b89503d2286ee865ebb0705dd82caa0ef0c66497217f06e973",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "将Zigbee2Mqtt更新至最新版本1.32.1。\n最新版本支持[来自380多家制造商的3000多台设备](https://www.zigbee2mqtt.io/supported-devices/)："
+      }
+    },
+    {
+      "segment_id": "39f476dc",
+      "source_content": "[![](/img/en/blog/202306/zigbee2mqtt.png)](https://www.zigbee2mqtt.io/supported-devices/)",
+      "source_content_hash": "ee15be08c8dee45610ddce1d22b525060a3dc49394ae232b4c55480c63acc476",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "[![](/img/en/blog/202306/zigbee2mqtt.png)](https://www.zigbee2mqtt.io/supported-devices/)"
+      }
+    },
+    {
+      "segment_id": "d636abf8",
+      "source_content": "Szczegóły w dokumentacji Zigbee2Mqtt: https://www.zigbee2mqtt.io/",
+      "source_content_hash": "088a8af47cce486d05729b0122a01617ee5b6d14bc31493150272caa5a55a9e7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "详情请参阅Zigbee2Mqtt文档：https://www.zigbee2mqtt.io/"
+      }
+    },
+    {
+      "segment_id": "89cf7bac",
+      "source_content": "O nowościach w poszczególnych wersjach Zigbee2Mqtt można poczytać na stronie projektu w serwisie Github:",
+      "source_content_hash": "f84d5cedfb6d85ba089881308a886ee42c9b8181168f6636775916efd581e406",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "关于Zigbee2Mqtt各版本的新特性，可以在Github上的项目页面阅读："
+      }
+    },
+    {
+      "segment_id": "ebb827a7",
+      "source_content": "- [1.32.1](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.32.1)",
+      "source_content_hash": "41d0f159889846e35270f50bccc49bd5056fa4ecbc45a89a39db3877181c9e18",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- [1.32.1](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.32.1)"
+      }
+    },
+    {
+      "segment_id": "445c72bd",
+      "source_content": "### ![](/img/en/blog/202101/hass.png) Asystent domowy",
+      "source_content_hash": "c88eb95cf5f4ecbf0bf89865b0f4583cce01d1d6c074e8bb9bc40d03ddba2dcd",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### ![](/img/en/blog/202101/hass.png) 家庭助理"
+      }
+    },
+    {
+      "segment_id": "e29bd639",
+      "source_content": "Najnowsza wersja Asystenta domowego 2023.7.2, czyli naszego pakietu ``ais-dom`` bazującego na Home Assistant Core.\nW najnowszej wersji [dostępne jest 3489 integracji](https://www.home-assistant.io/integrations/):",
+      "source_content_hash": "f3a5b5ddef3cafad6714713c9b7bb4168eed370e6c63e0fd3f55a48fb9064d62",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "最新版本的家庭助理2023.7.2，即我们基于Home Assistant Core的``ais-dom``软件包。\n最新版本中[提供了3489个集成](https://www.home-assistant.io/integrations/)："
+      }
+    },
+    {
+      "segment_id": "5cf1bce4",
+      "source_content": "[![](/img/en/blog/202306/ha.png)](https://www.home-assistant.io/integrations/)",
+      "source_content_hash": "96dba2ce697d2167e2376a6a0b1fa3e157703fffb079d08e63c4e730e02d02ce",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "[![](/img/en/blog/202306/ha.png)](https://www.home-assistant.io/integrations/)"
+      }
+    },
+    {
+      "segment_id": "295367fa",
+      "source_content": "O nowościach w poszczególnych wersjach Home Assistant można poczytać na blogu Home Assistant:",
+      "source_content_hash": "761e22a7af538609d03d908e767e965035f9e2609c55ca5513dde67fd2bd5271",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "关于Home Assistant各版本的新特性，可以在Home Assistant博客上阅读："
+      }
+    },
+    {
+      "segment_id": "e612e1d0",
+      "source_content": "- 2023.7 [![](https://www.home-assistant.io/images/blog/2023-07/social.png)](https://www.home-assistant.io/blog/2023/07/07/release-20237/)\n- 2023.8 [![](https://www.home-assistant.io/images/blog/2023-08/social.png)](https://www.home-assistant.io/blog/2023/08/02/release-20238/)\n- 2023.9 [![](https://www.home-assistant.io/images/blog/2023-09/social.png)](https://www.home-assistant.io/blog/2023/09/06/release-20239/)\n- 2023.10 [![](https://www.home-assistant.io/images/blog/2023-10/social.png)](https://www.home-assistant.io/blog/2023/10/04/release-202310/)",
+      "source_content_hash": "7d8e79dd52c1a29f473b126e80b95bcb2a09a155584916d6acd592aa2c26b605",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 2023.7 [![](https://www.home-assistant.io/images/blog/2023-07/social.png)](https://www.home-assistant.io/blog/2023/07/07/release-20237/)\n- 2023.8 [![](https://www.home-assistant.io/images/blog/2023-08/social.png)](https://www.home-assistant.io/blog/2023/08/02/release-20238/)\n- 2023.9 [![](https://www.home-assistant.io/images/blog/2023-09/social.png)](https://www.home-assistant.io/blog/2023/09/06/release-20239/)\n- 2023.10 [![](https://www.home-assistant.io/images/blog/2023-10/social.png)](https://www.home-assistant.io/blog/2023/10/04/release-202310/)"
+      }
+    },
+    {
+      "segment_id": "4fa624b2",
+      "source_content": "--------",
+      "source_content_hash": "370d9b71060be968d97de6de91fff200e4dd739e4e1fd7d6e983d9a7c60bdbb0",
+      "node_type": "thematicBreak",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "--------"
+      }
+    },
+    {
+      "segment_id": "6ac93c98",
+      "source_content": "##### AI-Speaker 12/2023",
+      "source_content_hash": "903fa829141cbcec704c9239565dab2309324c3b3dce5a886baef6a703653627",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "##### AI-Speaker 2023年12月"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2023-12-26-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.145000+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "a113c7b461326c540f04b2a16c4e0ff5aeb843eebe9596f2d9bd7ada7a62d53c"
+  }
+}

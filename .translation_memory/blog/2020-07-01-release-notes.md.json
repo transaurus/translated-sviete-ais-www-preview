@@ -1,0 +1,502 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2020-07-01-release-notes.md",
+  "source_file_content_hash": "abbe23abd1b94603363dda57bac6eeff5898b3787312e4cf42fba60ab3820b0a",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Jola AI-Speaker\nauthorURL: https://github.com/sviete\nauthor_title: Asystentka\nauthorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4\ntitle: Wersja systemu 0.111.6\ntags: [\"spotify\", \"zigbee\", \"home assistant\", \"mqtt bridge\", \"exta life\"]\n---",
+      "source_content_hash": "93b7cc92ff800f51fec1189d2aa2ea123dd6bdbd804717bc9202b0569a167271",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "1cc03ec8",
+      "source_content": "# 0.111.6 Biblioteka Spotify, MQTT bridge, EXTA LIFE...",
+      "source_content_hash": "e00a6cf5393f3c8056f004da2edaf9434c086f7b1ef5e4fc4bc2c2fc3794ecc3",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# 0.111.6 Spotify音乐库、MQTT桥接、EXTA LIFE..."
+      }
+    },
+    {
+      "segment_id": "143e51c1",
+      "source_content": "- ![Biblioteka Spotify](/img/en/blog/202007/spoify_icon.png) Biblioteka Spotify\n- ![EXTA LIFE](/img/en/blog/202007/exta_life.png) Integracja EXTA LIFE\n- ![Restore from backup](/img/en/blog/202007/system_restore.png) Łatwiejsze przywrócenie konfiguracji z kopii\n- ![MQTT bridge](/img/en/blog/202007/mqtt_bridge.png) Skalowanie systemu za pomocą mostu MQTT\n- ![Home Assistant](/img/en/blog/202007/hass.png) Nowy Home Assistant - szybsze uruchamianie\n- ![Zigbee](/img/en/blog/202007/zigbee.png) Aktualizacja Zigbee2Mqtt, już [ponad 849 urządzeń od 146 różnych producentów](https://www.zigbee2mqtt.io/information/supported_devices.html)",
+      "source_content_hash": "fb30ab96b6db04eaa27a98497e4bd5f0834464b3ddbb0aa6b6ed1721a29db971",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- ![Biblioteka Spotify](/img/en/blog/202007/spoify_icon.png) Spotify音乐库\n- ![EXTA LIFE](/img/en/blog/202007/exta_life.png) EXTA LIFE集成\n- ![Restore from backup](/img/en/blog/202007/system_restore.png) 更便捷的备份配置恢复\n- ![MQTT bridge](/img/en/blog/202007/mqtt_bridge.png) 通过MQTT桥接实现系统扩展\n- ![Home Assistant](/img/en/blog/202007/hass.png) 新版Home Assistant - 启动更快速\n- ![Zigbee](/img/en/blog/202007/zigbee.png) Zigbee2Mqtt更新，现已支持[146个厂商的849种设备](https://www.zigbee2mqtt.io/information/supported_devices.html)"
+      }
+    },
+    {
+      "segment_id": "ea978e4d",
+      "source_content": "<!--truncate-->",
+      "source_content_hash": "f5cded2aa7e288e395fe4f67f9dabda2281904b2f5358d07302b3aa8be0acdfa",
+      "node_type": "comment",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_ea978e4d"
+      }
+    },
+    {
+      "segment_id": "6604338b",
+      "source_content": ":::tip[Wskazówka]\nUWAGA Przed aktualizacją zalecamy wykonać [kopię zapasową konfiguracji](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji). W ten sposób sprawdzisz poprawność swojej konfiguracji przed rozpoczęciem aktualizacji i zwiększysz prawdopodobieństwo bezproblemowej aktualizacji.\n:::",
+      "source_content_hash": "8037a28333f24321b7f0ca3b0ff5dadb46488124d52cf37fa284e31f781ef145",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::tip[提示]\n注意：更新前建议先进行[配置备份](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji)。通过这种方式可以在更新前验证配置的正确性，提高顺利更新的概率。\n:::"
+      }
+    },
+    {
+      "segment_id": "d2808037",
+      "source_content": ":::important[informacja]\nW razie problemów po aktualizacji sprawdź procedurę [Aktualizacja z konsoli](/docs/ais_bramka_update_manual) lub [Wykonanie pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step)- to może dotyczyć szczególnie osób, które instalują na bramce dodatkowe niestandardowe komponenty.\n:::",
+      "source_content_hash": "3cec0bb82063176fa13cef39765f9b987deaab39151bf29d8edb2af0bf5c6672",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::important[重要通知]\n若更新后遇到问题，请参考[控制台更新指南](/docs/ais_bramka_update_manual)或[执行应用完全重置](/docs/ais_bramka_reset_ais_step_by_step)——特别是对于安装了额外自定义组件的用户。\n:::"
+      }
+    },
+    {
+      "segment_id": "0d170438",
+      "source_content": ":::caution[Ważna informacja o aktualizacji!]\n **Po aktualizacji pierwsze uruchomienie może trwać nawet 20 minut.**\n\n ![wait](/img/en/blog/202007/wait.png) w tym czasie aktualizowane są biblioteki do integracji dodanych na bramce i baza danych jest migrowana do nowego formatu.\n\n **Poczekaj cierpliwie na zakończenie aktualizacji.**\n:::",
+      "source_content_hash": "f24e7e32d2944c5197cc2045eae7d3675cf519a84dcd85b4b9da2ec0ee81b7c1",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[重要更新须知!]\n **更新后的首次启动可能耗时长达20分钟。**\n\n ![wait](/img/en/blog/202007/wait.png) 在此期间将更新网关集成的库文件，并将数据库迁移至新格式。\n\n **请耐心等待更新完成。**\n:::"
+      }
+    },
+    {
+      "segment_id": "8d04259b",
+      "source_content": "## ![Biblioteka Spotify](/img/en/blog/202007/spoify_icon.png) Biblioteka Spotify",
+      "source_content_hash": "f834f2214bc9feafef255f779c8d0b66a84a919738a3b86cbc4036877c82980c",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![Biblioteka Spotify](/img/en/blog/202007/spoify_icon.png) Spotify音乐库"
+      }
+    },
+    {
+      "segment_id": "95e9ba12",
+      "source_content": "W naszej wbudowanej [integracji Spotify](/docs/ais_app_spotify) dodaliśmy obsługę biblioteki ze Spotify. [Sebastian](https://github.com/sgrzys) ciężko się nakodował 🥵 żeby całe to (nie zawsze niestety spójne) [API Spotify](https://developer.spotify.com/documentation/web-api/) wywołać i zaprezentować w aplikacji wyniki. Dzięki temu mamy przyciski, które pozwalają na szybkie przeglądanie i odtwarzanie ze Spotify:",
+      "source_content_hash": "d290364d14500b036df9c06799f8460d30bfe9c6ade3120f3941301ccce2f287",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们在内置的[Spotify集成](/docs/ais_app_spotify)中新增了Spotify音乐库功能。[Sebastian](https://github.com/sgrzys) 经过大量编码工作 🥵 才成功调用这个（有时并不完全一致的）[Spotify API](https://developer.spotify.com/documentation/web-api/) 并在应用中展示结果。现在通过快捷按钮即可浏览和播放："
+      }
+    },
+    {
+      "segment_id": "4c077b92",
+      "source_content": "- Polecanych nam list odtwarzania\n- Naszych zapisanych list odtwarzania\n- Naszych ulubionych artystów\n- Nasze ulubione albumy\n- Nasze ulubione piosenki",
+      "source_content_hash": "61fd2f0ac61bd6f3f9826d5d265eead6efcf6685fc8bd9bce9bb5e7da32adf44",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 平台推荐歌单\n- 用户收藏歌单\n- 喜爱艺人作品\n- 喜爱专辑列表\n- 收藏单曲列表"
+      }
+    },
+    {
+      "segment_id": "c504c207",
+      "source_content": "Sebastian dodał też stronicowanie wyników, dzięki czemu nawet słabsze przeglądarki powinny sobie płynnie radzić z szybkim wyświetlaniem list wyników zwracanych ze Spotify 🥳",
+      "source_content_hash": "30803772282d355adacc686aa07c80849135da775c79fae3f7f35a17bddb6014",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Sebastian还添加了分页功能，即使性能较弱的浏览器也能流畅加载Spotify返回的列表结果 🥳"
+      }
+    },
+    {
+      "segment_id": "17bc5bbf",
+      "source_content": ":::caution[Uwaga.]\n Potrzebujemy więcej uprawnień do Spotify, żeby można było z poziomu AI-Speaker przeglądać ulubione playlisty, albumy, wykonawców, utwory.\n **Nic nie modyfikujemy z poziomu Asystenta domowego w bibliotece Spotify (tylko przeglądamy i odtwarzamy treści).**\n:::",
+      "source_content_hash": "bd71a1a13d4be999e46521640e76f63798d9ef719bd35849c5e6d694b02ab2c0",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[注意事项]\n 我们需要获取更多Spotify权限，才能通过AI-Speaker浏览收藏的歌单、专辑、艺术家和曲目。\n **家庭助理不会对Spotify资料库进行任何修改操作（仅支持浏览和播放内容）。**\n:::"
+      }
+    },
+    {
+      "segment_id": "e536ea0d",
+      "source_content": "Jeżeli korzystasz z integracji ze Spotify, to po tej aktualizacji należy ją przeinstalować, w tym celu wystarczy:",
+      "source_content_hash": "27b16189f6fdc8963f01ba090a2dc5feb2366ddebb5ddb9ff3806a977ca2fcf6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "如果您正在使用Spotify集成服务，本次更新后需要重新安装该集成，具体步骤如下："
+      }
+    },
+    {
+      "segment_id": "a0e887c2",
+      "source_content": "1. Usunąć integrację ze Spotify",
+      "source_content_hash": "d866d616b5f12604e8f971bfdcac082066e899ba84d594f6515069b72ade3ff7",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "1. 删除现有Spotify集成"
+      }
+    },
+    {
+      "segment_id": "6ea4c715",
+      "source_content": "![spotify auth](/img/en/blog/202007/spotify_auth_1.png)",
+      "source_content_hash": "dcc97a973c814426247f9b3bdf05a31ddaaf2b102faf3c6258505bcb97b36fe2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![spotify auth](/img/en/blog/202007/spotify_auth_1.png)"
+      }
+    },
+    {
+      "segment_id": "158e1f5d",
+      "source_content": "2. Dodać ponownie integrację ze Spotify",
+      "source_content_hash": "67204f791fa5d7e200edf10afa1b082bfa56ed2034504500438d72fb9c427077",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "2. 重新添加Spotify集成"
+      }
+    },
+    {
+      "segment_id": "531437ca",
+      "source_content": "![spotify auth](/img/en/blog/202007/spotify_auth_2.png)",
+      "source_content_hash": "868552f1ee10c34bcb75daf1da1a638fd51f33b14cd75bb8987ceaee527dda88",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![spotify auth](/img/en/blog/202007/spotify_auth_2.png)"
+      }
+    },
+    {
+      "segment_id": "a4bd3cfc",
+      "source_content": "3. Przyznać więcej uprawnień dla AI-Speaker",
+      "source_content_hash": "4dcc5f3ed9e492d9dd6dadbdebfc125c7b766618cc37ac09e582b11bc90d2c05",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "3. 为AI-Speaker授予更多权限"
+      }
+    },
+    {
+      "segment_id": "e7772088",
+      "source_content": "![spotify auth](/img/en/blog/202007/spotify_auth_3.png)",
+      "source_content_hash": "72a85b4b9771ba8563945e0718f3f67de947a30458371903cb83c0a1d10c9690",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![spotify auth](/img/en/blog/202007/spotify_auth_3.png)"
+      }
+    },
+    {
+      "segment_id": "daed5acb",
+      "source_content": "## ![EXTA LIFE](/img/en/blog/202007/exta_life.png) Integracja EXTA LIFE",
+      "source_content_hash": "2c79120be8ce274e7ace24bc02ab55beb5661079f5230cd7ac51e87da6010132",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![EXTA LIFE](/img/en/blog/202007/exta_life.png) EXTA LIFE集成"
+      }
+    },
+    {
+      "segment_id": "6cc549f2",
+      "source_content": "Autorem integracji Exta Life z Home Assistant jest [dgtal1](https://github.com/dgtal1), który to był tak otwarty i uprzejmy, że zgodził się dodać tę integrację jako wbudowany komponent do bramki AIS. **Dzięki dgtal1** 🥰 **!**\nDzięki temu nasi użytkownicy mają możliwość łatwej konfiguracji integracji z poziomu aplikacji (bez konieczności doinstalowywania niestandardowych komponentów).",
+      "source_content_hash": "b9e05dad79bcfe05e5857b8d9005d0e3a8f0d1a56e7455242c9d9bbfb023d664",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Exta Life与Home Assistant的集成由[dgtal1](https://github.com/dgtal1)开发，这位开发者非常友好地同意将该集成作为内置组件加入AIS网关。**感谢dgtal1** 🥰 **！**\n这使得我们的用户可以直接通过应用程序轻松配置集成（无需额外安装自定义组件）。"
+      }
+    },
+    {
+      "segment_id": "e8e162a9",
+      "source_content": "Taka integracja jest efektem miesięcy kodowania, zachęcamy do zapoznania się z projektem na [forumextalife.pl](https://www.forumextalife.pl/index.php/topic,311.0.html)",
+      "source_content_hash": "8b5851192c76457a0cbcd8dd83ac3b0bec98266a74a9ef9924b9ac664079d51a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该集成是数月编程开发的成果，欢迎访问[forumextalife.pl](https://www.forumextalife.pl/index.php/topic,311.0.html)了解项目详情"
+      }
+    },
+    {
+      "segment_id": "463ed165",
+      "source_content": "Jest to kolejny ciekawy przykład tego, jak skuteczna jest pasja i otwartość, żadna firma nie jest w stanie konkurować z tym swoimi zamkniętymi rozwiązaniami.\nZrozumieli to już tacy giganci IT jak Microsoft, Google... miejmy nadzieję, że kiedyś zrozumieją to też inne firmy.",
+      "source_content_hash": "b3c3f56f3353f60350646fe3ee72635ce5888b9aa387044f1e13f9d9fdeeceee",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "这再次证明了热情和开放精神的强大力量，任何企业的封闭解决方案都难以与之抗衡。\n微软、谷歌等科技巨头已经深刻认识到这一点，希望其他公司也能早日领悟。"
+      }
+    },
+    {
+      "segment_id": "a1fa5396",
+      "source_content": "![EXTA LIFE](/img/en/frontend/extalife_1.png)",
+      "source_content_hash": "3b01128ded28d4b47a82c85a4d39528d2a160d7cb24d218fc31564d8e2863c74",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![EXTA LIFE](/img/en/frontend/extalife_1.png)"
+      }
+    },
+    {
+      "segment_id": "ec619944",
+      "source_content": "Integracja jest jeszcze rozwijana, w przyszłości dodamy ją jako sub moduł do naszego repozytorium kodów i postaramy się dodać jakieś nasze 3 grosze do tego kodu.\nUzupełnimy też dokumentację i opiszemy jak dodać konfigurację krok po kroku.\nTym samym mamy już możliwość konfiguracji z interfejsu użytkownika popularnych w Polsce urządzeń: FIBARO, SUPLA, BleBox, Exta Life 🥳",
+      "source_content_hash": "4c4dbcb1e1a7ae5a785042004e784ea04d1f2d1c2d8ab3f4bd2a4ac1595b3de9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该集成仍在持续开发中，未来我们会将其作为子模块加入代码仓库，并贡献我们的改进建议。\n我们还将完善文档，逐步说明配置流程。\n至此，我们已经可以通过用户界面配置波兰市场主流设备：FIBARO、SUPLA、BleBox和Exta Life 🥳"
+      }
+    },
+    {
+      "segment_id": "0750bfa1",
+      "source_content": "![EXTA LIFE](/img/en/frontend/extalife_2.png)",
+      "source_content_hash": "66522761afba07dae28ae26198eb1bb001cc9fdc8fa8fa233725730c05cbbd74",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![EXTA LIFE](/img/en/frontend/extalife_2.png)"
+      }
+    },
+    {
+      "segment_id": "39db08de",
+      "source_content": "## ![Restore from backup](/img/en/blog/202007/system_restore.png) Łatwiejsze przywrócenie konfiguracji z kopii",
+      "source_content_hash": "42743d46476fdcc9b6285da17d1fee9fc1b28ee0148bd789a8a61a94e96dab27",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![Restore from backup](/img/en/blog/202007/system_restore.png) 更便捷的备份配置恢复"
+      }
+    },
+    {
+      "segment_id": "785750ac",
+      "source_content": "Dotychczas po wykonaniu procedury [Pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step) lub po wykonaniu [Przywrócenia ustawień fabrycznych urządzenia](/docs/ais_bramka_reset_index), żeby przywrócić konfigurację bramki, trzeba było wykonać kilka kroków:",
+      "source_content_hash": "8eb85c009b238f37de28095d7206a7532e542e4fcd84cb21c5fa81643359fa7c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "此前在执行[应用程序完全重置](/docs/ais_bramka_reset_ais_step_by_step)或[设备恢复出厂设置](/docs/ais_bramka_reset_index)后，要恢复网关配置需要执行以下步骤："
+      }
+    },
+    {
+      "segment_id": "b264104e",
+      "source_content": "- Uruchomić bramkę i wykonać “Początkową konfigurację” :\n- dodać nowe konto,\n- wybrać lokalizację,\n- dodać urządzenia i usługi (lub pominąć ekran).\n- Przejść do “Ustawienia” -> “Konfiguracja bramki AIS dom” -> “Oprogramowanie bramki” -> “Przywracanie ustawień”\n- Zrestartować bramkę i zalogować się na konto z przywróconych ustawień",
+      "source_content_hash": "368a0c4439dca5a184c22e54f56abed7229a31e7306b58106c96da4bc03fe6d9",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 启动网关并执行\"初始配置\":\n  - 添加新账户\n  - 选择地理位置\n  - 添加设备和服务（或跳过此步骤）\n- 进入\"设置\" -> \"AIS家庭网关配置\" -> \"网关软件\" -> \"恢复设置\"\n- 重启网关并使用恢复的账户凭据登录"
+      }
+    },
+    {
+      "segment_id": "a2c0166e",
+      "source_content": "Teraz będzie łatwiej 😊, bo dodaliśmy do interfejsu użytkownika możliwość przywrócenia z kopii przed wykonaniem “Początkowej konfiguracji”.",
+      "source_content_hash": "dc01ebac242cae24783b98e37a68058c0cfba12ac32bda1e9ef83e008a31ceae",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "现在操作更简便了😊，因为我们在用户界面中添加了在执行\"初始配置\"前从备份恢复的功能。"
+      }
+    },
+    {
+      "segment_id": "c1eaf30b",
+      "source_content": "![AIS restore](/img/en/blog/202007/ais_restore.png)",
+      "source_content_hash": "f7a4dbc9895f550b284cf8fedbc8a2726e74714839a72707aef63a84617de893",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS恢复](/img/en/blog/202007/ais_restore.png)"
+      }
+    },
+    {
+      "segment_id": "f0984c2a",
+      "source_content": "Czyli przed rozpoczęciem konfiguracji systemu, w kroku, w którym tworzymy pierwszego użytkownika, dodaliśmy możliwość zalogowania się do “Portalu integratora AI-Speaker” i przywrócenia konfiguracji z kopii zapasowej przesłanej do “Portalu Integratora AI-Speaker”.",
+      "source_content_hash": "e244162b93eb5eeb36fbbff14b10a86b0ef15a1b03e0346b8a70ebc926614130",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "即在系统配置开始阶段，创建首个用户的步骤中，我们新增了登录\"AI-Speaker集成商门户\"并从上传至该门户的备份文件恢复配置的功能。"
+      }
+    },
+    {
+      "segment_id": "a81544fd",
+      "source_content": "Opisujemy to w dokumentacji [Pierwsze uruchomienie - Konto właściciela](/docs/ais_bramka_first_run_step_account)",
+      "source_content_hash": "6197b629474440dfa1d781d122350ec2a7fc7ec1f246262b3208b072680e722c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "相关文档详见[首次启动 - 所有者账户](/docs/ais_bramka_first_run_step_account)"
+      }
+    },
+    {
+      "segment_id": "8574d51c",
+      "source_content": "## ![MQTT bridge](/img/en/blog/202007/mqtt_bridge.png) Skalowanie systemu za pomocą mostu MQTT",
+      "source_content_hash": "d8c6963dc50a15ee097f6cc8ddf47a8c8b1e838ca08fb889fe98e43e94b09a79",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![MQTT桥接](/img/en/blog/202007/mqtt_bridge.png) 通过MQTT桥接实现系统扩展"
+      }
+    },
+    {
+      "segment_id": "e9313fef",
+      "source_content": "Docelowo wprowadzimy do aplikacji możliwość definiowania mostu MQTT pomiędzy instancjami Asystenta domowego:",
+      "source_content_hash": "6d57593543b61ae42036a364dfce407e2e4911dd1fe1bfb518fd0f7fa8b8a7c8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们计划在应用中实现定义家庭助理实例间MQTT桥接的功能："
+      }
+    },
+    {
+      "segment_id": "1b4de6df",
+      "source_content": "![MQTT Bridge](/img/en/blog/202007/mosquitto_mqtt_bridg2.png)",
+      "source_content_hash": "554cc8976d4fc601edebb937e68333e8b7c50efb214175c8d576fa00ba60a4e2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![MQTT桥接](/img/en/blog/202007/mosquitto_mqtt_bridg2.png)"
+      }
+    },
+    {
+      "segment_id": "396efb28",
+      "source_content": "Na forum pokazujemy krok po kroku jak połączyć dwie bramki za pomocą MQTT Bridge -> [opis na forum](https://ai-speaker.discourse.group/t/skalowanie-systemu-do-sterowania-automatyka-domowa-most-mqtt-pomiedzy-bramkami/537)",
+      "source_content_hash": "6ef51d11c07d602b9735751d226e7512e3d025e4f62e1890f3edf962a1b073d9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "论坛上我们逐步演示了如何通过MQTT桥接连接两个网关 -> [论坛说明](https://ai-speaker.discourse.group/t/skalowanie-systemu-do-sterowania-automatyka-domowa-most-mqtt-pomiedzy-bramkami/537)"
+      }
+    },
+    {
+      "segment_id": "558df877",
+      "source_content": "![MQTT Bridge](/img/en/blog/202007/mosquitto_mqtt_bridg.png)",
+      "source_content_hash": "b97bf278e0af465341753f1be22937cdf398c37ef1a2be2dd925ada75a187d33",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![MQTT桥接](/img/en/blog/202007/mosquitto_mqtt_bridg.png)"
+      }
+    },
+    {
+      "segment_id": "f38d1cb0",
+      "source_content": "Oraz jak działa IoT w wielkiej skali - czyli jak połączyć 10 milionów urządzeń za pomocą brokera EMQX i mostów do bramek MQTT -> [opis na forum](https://ai-speaker.discourse.group/t/10-milionow-urzadzen-skalowanie-systemu-do-sterowania-automatyka-domowa/538)",
+      "source_content_hash": "331ad078d2141290308cb390604093cf926df9148f5246544d3916f10d78e5ef",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "以及大规模物联网实践 - 如何通过EMQX代理和MQTT网关桥接连接1000万台设备 -> [论坛说明](https://ai-speaker.discourse.group/t/10-milionow-urzadzen-skalowanie-systemu-do-sterowania-automatyka-domowa/538)"
+      }
+    },
+    {
+      "segment_id": "5f82a1e9",
+      "source_content": "![MQTT Bridge](/img/en/blog/202007/emqx_mqtt_bridge.jpeg)",
+      "source_content_hash": "247f128686a8efed90801664d61861248178433a9fc4feb0bf2f245d8045b7dc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![MQTT桥接](/img/en/blog/202007/emqx_mqtt_bridge.jpeg)"
+      }
+    },
+    {
+      "segment_id": "2bb63d77",
+      "source_content": "## ![Zigbee](/img/en/blog/202004/honeybee.png) Aktualizacja Zigbee2Mqtt do wersji 1.14.1",
+      "source_content_hash": "14b13c1f0e0917227b1172bf1922920918826a2b4f0af404ba0f19bebfb6876d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![Zigbee](/img/en/blog/202004/honeybee.png) Zigbee2Mqtt升级至1.14.1版本"
+      }
+    },
+    {
+      "segment_id": "c35e5786",
+      "source_content": "### [849 urządzeń od 146 różnych producentów](https://www.zigbee2mqtt.io/information/supported_devices.html)",
+      "source_content_hash": "5ef2c5d125699b49ee009377782325421e801bbe4096eed97fec7483334835b7",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### [支持146家厂商的849款设备](https://www.zigbee2mqtt.io/information/supported_devices.html)"
+      }
+    },
+    {
+      "segment_id": "692c6053",
+      "source_content": "Aktualizacja Zigbee, tak samo jak aktualizacja innych składowych, wykona się automatycznie.",
+      "source_content_hash": "c000643e221deb0a14e6e5eebf818e90914ce63e8f4e75a0d2d019c6c4993a12",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Zigbee更新与其他组件更新一样将自动完成。"
+      }
+    },
+    {
+      "segment_id": "383fbdd2",
+      "source_content": "![CC2531](/img/en/iot/CC2531_Zigbee2MQTT_USB.jpg)",
+      "source_content_hash": "e0a96c5516d89aa74e89ecd467c1026b1ba6056e5bb4d8b549140632667bb296",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![CC2531](/img/en/iot/CC2531_Zigbee2MQTT_USB.jpg)"
+      }
+    },
+    {
+      "segment_id": "c6868a9f",
+      "source_content": "## ![Home Assistant](/img/en/blog/202007/hass.png) Nowy Home Assistant - szybsze uruchamianie",
+      "source_content_hash": "91b6b0d7d0c4de7e312c3b7b8fc9378fdeadeeb571099728aa9d717a857e2b97",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![Home Assistant](/img/en/blog/202007/hass.png) 新版Home Assistant - 启动速度更快"
+      }
+    },
+    {
+      "segment_id": "534ac82e",
+      "source_content": "Najnowszy (stabilny) [Home Assistant 0.111.4](https://www.home-assistant.io/blog/2020/06/10/release-111/)\nTym razem oprócz nowości i kolejnych integracji, otrzymujemy poprawki dotyczące uruchamiania serwera Home Assistant.",
+      "source_content_hash": "eb8a0ea3e8c72bed3a87a8089fc451ea515c445532ece511e7f1a10b04538a45",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "最新稳定版[Home Assistant 0.111.4](https://www.home-assistant.io/blog/2020/06/10/release-111/)\n本次更新除了新增功能和集成外，还包含针对Home Assistant服务器启动过程的优化。"
+      }
+    },
+    {
+      "segment_id": "9e90a9b3",
+      "source_content": "![Home Assistant](/img/en/blog/202007/ha.png)",
+      "source_content_hash": "b589895a76b45246ce952b5ee34badd9cd32b3d52123a2db8effdf262434d2ad",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Home Assistant](/img/en/blog/202007/ha.png)"
+      }
+    },
+    {
+      "segment_id": "f97c407b",
+      "source_content": "----",
+      "source_content_hash": "bd64bb8efa5b3f27e6442f23600c3b516127ea17e23724b41e50da4c22883edd",
+      "node_type": "thematicBreak",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "----"
+      }
+    },
+    {
+      "segment_id": "35353302",
+      "source_content": "Zapraszamy do aktualizacji i [komentowania na forum :)](https://ai-speaker.discourse.group/)\nAI-Speaker 07/2020\n----",
+      "source_content_hash": "570e0f723f0239cf93bfbd083c037b5f6ed278cac876fef613ad755aa3e72b79",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "欢迎参与更新并[在论坛留言讨论 :)](https://ai-speaker.discourse.group/)\nAI-Speaker 2020年7月\n----"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2020-07-01-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.091273+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "abbe23abd1b94603363dda57bac6eeff5898b3787312e4cf42fba60ab3820b0a"
+  }
+}

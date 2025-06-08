@@ -1,0 +1,382 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2020-04-08-release-notes.md",
+  "source_file_content_hash": "c4abb10e47aaaf3dce6eccf95910f23a655f9b8a8b6abe259e34edb95e2d8db8",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Jola AI-Speaker\nauthorURL: https://github.com/sviete\nauthorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4\ntitle: Wersja systemu 0.107.8\n---",
+      "source_content_hash": "a17f8a88e31986485ea7d1c848d542086f23f718299a2e2394a0d7af1a5c9959",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "# 0.107.8 Fibaro, Pulpity, Pomocnicy, logi i baza danych",
+      "source_content_hash": "8a94cf695314407e8f9922614e9c1b2d241e8e6f8cdc30ab96fdf9dd860074fb",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# 0.107.8版本：Fibaro集成、仪表盘、自动化助手、日志与数据库"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "![Serwer](/img/en/blog/202004/fibaro.png)",
+      "source_content_hash": "7a01faaa2ab98b2c7b64064a9cda22187e484b3ca73a56415cea78b70237276e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![服务器](/img/en/blog/202004/fibaro.png)"
+      }
+    },
+    {
+      "segment_id": "b7b09f68",
+      "source_content": "<!--truncate-->",
+      "source_content_hash": "f5cded2aa7e288e395fe4f67f9dabda2281904b2f5358d07302b3aa8be0acdfa",
+      "node_type": "comment",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_b7b09f68"
+      }
+    },
+    {
+      "segment_id": "2a852f16",
+      "source_content": ":::tip[Wskazówka]\nUWAGA Przed aktualizacją zalecamy wykonać [kopię zapasową konfiguracji](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji). W ten sposób sprawdzisz poprawność swojej konfiguracji przed rozpoczęciem aktualizacji i zwiększysz prawdopodobieństwo bezproblemowej aktualizacji.\n:::",
+      "source_content_hash": "8037a28333f24321b7f0ca3b0ff5dadb46488124d52cf37fa284e31f781ef145",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::tip[提示]\n注意：建议在升级前执行[配置备份](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji)。通过这种方式，您可以在开始升级前验证配置的正确性，提高顺利升级的概率。\n:::"
+      }
+    },
+    {
+      "segment_id": "440191a5",
+      "source_content": ":::important[informacja]\nW razie problemów po aktualizacji sprawdź procedurę [Aktualizacja z konsoli](/docs/ais_bramka_update_manual) lub [Wykonanie pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step)- to może dotyczyć szczególnie osób, które instalują na bramce dodatkowe niestandardowe komponenty.\n:::",
+      "source_content_hash": "3cec0bb82063176fa13cef39765f9b987deaab39151bf29d8edb2af0bf5c6672",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::important[重要信息]\n若升级后遇到问题，请查阅[通过控制台升级](/docs/ais_bramka_update_manual)或[执行应用完全重置](/docs/ais_bramka_reset_ais_step_by_step)的流程——这对于在网关上安装了额外非标准组件的用户尤为重要。\n:::"
+      }
+    },
+    {
+      "segment_id": "63622bf0",
+      "source_content": "# Konfigurator integracji Fibaro",
+      "source_content_hash": "e4c63294e2feed7800111f52bbfe6861954a4eae7e58b15259f73a19683ab155",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# Fibaro集成配置器"
+      }
+    },
+    {
+      "segment_id": "98cfbd53",
+      "source_content": "W tej wersji dodaliśmy graficzny konfigurator do integracji z bramką Fibaro HC.\nCałość konfiguracji komunikacji z Fibaro wymaga tylko podania danych dostępu - wypełnienie i zatwierdzenie formatki w aplikacji.",
+      "source_content_hash": "7b0f5b71067dd011abe6f0bfe56f2cfe3c1d29494127250c9b8c75d1bac32f5c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "本版本新增了与Fibaro HC网关集成的图形化配置器。整个Fibaro通信配置仅需填写访问凭据——在应用中提交表单即可完成。"
+      }
+    },
+    {
+      "segment_id": "8e773518",
+      "source_content": "> 🥳 Dziękujemy bardzo naszemu użytkownikowi **Panu Mariuszowi** za zdalne udostępnienie nam bramki na potrzeby dodania tej integracji 🥰",
+      "source_content_hash": "c6c9480f1d339b2cd32873e1c6ce0f9b3bc43b7c4f606a1fbd035b744be87d92",
+      "node_type": "blockquote",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "> 🥳 特别感谢用户**Mariusz先生**远程提供网关设备，使我们得以实现该集成功能 🥰"
+      }
+    },
+    {
+      "segment_id": "4b1d2d7d",
+      "source_content": "![Fibaro config](/img/en/frontend/fibaro_config.png)",
+      "source_content_hash": "e5d61fe369cfeb352691b2e65ac558139d95fd968aee52a7083bdd06ffd7412a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Fibaro配置](/img/en/frontend/fibaro_config.png)"
+      }
+    },
+    {
+      "segment_id": "dfe931a2",
+      "source_content": "Integracja oparta jest na API, które napisał [Klaudiusz Staniek](https://github.com/kstaniek), a następnie użytkownik [pbalogh77](https://forum.fibaro.com/topic/32395-home-assistant-integrates-fibaro-hclhc2/) dodał do Home Assistant i ogłosił na forum Fibaro.",
+      "source_content_hash": "9169835b795068ef6099a95f3d2209e879dca5ca1dc67f1670b2ea1a80db2d49",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该集成基于[Klaudiusz Staniek](https://github.com/kstaniek)开发的API，后由用户[pbalogh77](https://forum.fibaro.com/topic/32395-home-assistant-integrates-fibaro-hclhc2/)将其引入Home Assistant并在Fibaro论坛发布。"
+      }
+    },
+    {
+      "segment_id": "4daf5cdd",
+      "source_content": "Cały projekt integracji z Fibaro trwa już kilka lat w Home Assistant. My ze swojej strony dodaliśmy konfigurator, żeby każdy bez potrzeby edycji plików mógł dodać taką integrację i głosowo sterować swoimi urządzeniami Fibaro, tak samo, jak wszystkimi innymi urządzeniami podłączonymi do bramki AIS dom.",
+      "source_content_hash": "c0e33231aa66ab0e00ea915b3d6c6c0b40d525a5d04dd9e3ef5a7f72673d3ced",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Fibaro集成项目在Home Assistant中已持续开发数年。我们通过添加配置器，让用户无需编辑文件即可实现集成，并通过语音控制Fibaro设备，如同操作所有接入AIS家庭网关的其他设备。"
+      }
+    },
+    {
+      "segment_id": "366d6955",
+      "source_content": "> Nie jesteśmy w żaden sposób związani z Fibaro - nie mamy żadnej umowy. Nie posiadamy też sprzętu Fibaro. Dlatego nie dodajemy tej integracji do listy wbudowanych i oficjalnie wspieranych na bramce AIS dom.",
+      "source_content_hash": "f8eb6825ff81896fa7f5d2a451386ae8b937985d7cc07a311868caa68f7d4894",
+      "node_type": "blockquote",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "> 我们与Fibaro无任何商业关联——既无合作协议，也不持有其硬件设备。因此该集成未被列入AIS家庭网关的内置官方支持列表。"
+      }
+    },
+    {
+      "segment_id": "97ae4a01",
+      "source_content": "Użytkownicy Fibaro mogą dzielić się swoimi doświadczeniami na naszym forum. W tym wątku, wyjaśniamy [jak działa integracja Fibaro - co jest możliwe](https://ai-speaker.discourse.group/t/ais-pytan-kilka-laika/209/10)",
+      "source_content_hash": "ce37d5496058c496fd8f853e8651031dc7aa4d203e1f6f998535392311f5668a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Fibaro用户可在我们的论坛分享使用经验。该主题帖详细解释了[Fibaro集成的工作原理与功能边界](https://ai-speaker.discourse.group/t/ais-pytan-kilka-laika/209/10)"
+      }
+    },
+    {
+      "segment_id": "9f9e64f5",
+      "source_content": "# Pulpity nawigacyjne",
+      "source_content_hash": "cda9fe2d61210487db8a910d7c4771ae53abcc376f365536c59d6b70d40fc6ed",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# 仪表盘"
+      }
+    },
+    {
+      "segment_id": "1042b50d",
+      "source_content": "Możesz tworzyć wiele konfiguracji interfejsu i zapisywać je jako \"Pulpity nawigacyjne\".",
+      "source_content_hash": "05ec62d8aa7f21224e0cb8f527f6a6847bbcad7cb0b33b7446b1706c7c563ba0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "您可以创建多种界面配置，并将其保存为\"仪表盘\"。"
+      }
+    },
+    {
+      "segment_id": "aa1e7006",
+      "source_content": "Ta funkcjonalność pozwala na dostosowanie pulpitu do preferencji użytkownika oraz do możliwości urządzenia, na którym pulpit jest prezentowany.",
+      "source_content_hash": "5fedbf6ef880200db07fdee0645c3238625f3d2f4dc0541589bcebf05efe5419",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "此功能支持根据用户偏好及展示设备的特性来自定义仪表盘布局。"
+      }
+    },
+    {
+      "segment_id": "13d9cd70",
+      "source_content": "![Pulpit](/img/en/blog/202004/pulpit.png)",
+      "source_content_hash": "ace3ddbf89c250f2729021efa796fbf39260a99afe1ca80dd7e810e013d199a3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![仪表盘](/img/en/blog/202004/pulpit.png)"
+      }
+    },
+    {
+      "segment_id": "29528c8d",
+      "source_content": "Czyli możesz mieć pulpit z głównym układem (automatycznie generowanym), do wyświetlania w przeglądarce na desktopie, pulpit prezentujący wykresy na TV podłączonym do bramki, osobny pulpit dla dzieci, specjalny na tablet, który jest na ścianie, inny na telefonie, osobny z bardziej kolorowym tematem dla żony 🥰 itp.",
+      "source_content_hash": "cf19e73d8288db000fe8d877ca5290794e6d11543449691d127eed234442d524",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "这意味着您可以拥有多种仪表盘配置：主界面（自动生成）用于桌面浏览器展示、连接至网关的电视上显示图表数据的仪表盘、专为孩子设计的独立界面、挂在墙上的平板专用界面、手机专属界面，以及为妻子定制的色彩更丰富的主题仪表盘🥰等等。"
+      }
+    },
+    {
+      "segment_id": "c504c207",
+      "source_content": "![Pulpit](/img/en/blog/202004/dashboardy.png)",
+      "source_content_hash": "2e652155e402bf09b03281656a0f61d82db21d125ca9a8364bcd68d9e21e3e6a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![仪表盘](/img/en/blog/202004/dashboardy.png)"
+      }
+    },
+    {
+      "segment_id": "98d26038",
+      "source_content": "Więcej w dokumentacji [Pulpity nawigacyjne](/docs/ais_app_dashboards)",
+      "source_content_hash": "9c62dc8756a8d310ba43f686d1c70da9d8d10c08128c72d1e31f19c4671c94a9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "更多详情请参阅文档[导航仪表盘](/docs/ais_app_dashboards)"
+      }
+    },
+    {
+      "segment_id": "e50bebbf",
+      "source_content": "# Pomocnicy automatyzacji",
+      "source_content_hash": "eb0aeca2ec3799ea674362c0ff5946de7ddab898901764e418ef043744af59a7",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# 自动化助手"
+      }
+    },
+    {
+      "segment_id": "23dfb152",
+      "source_content": "Podczas tworzenia zaawansowanych automatyzacji występuje potrzeba użycia dodatkowego pola do zapisu stanu lub wprowadzenia danych. Do tej pory takie pola były definiowane w konfiguracji systemu w plikach 🥺 YAML - teraz jest już łatwiej i można to robić w aplikacji 🥳.\nCzyli każdy użytkownik (nie tylko ekspert) może już zarządzać takimi dodatkowymi encjami i to bez restartowania systemu po dodaniu nowego pola. WOW ;)",
+      "source_content_hash": "ad34c9db81b566391a7fd8fbb3916f5398e009d2d54c0164159c5e9b8a267509",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "创建高级自动化时，常需要额外字段来存储状态或输入数据。此前这些字段需在系统配置的YAML文件中定义🥺，现在通过应用即可轻松实现🥳。所有用户（不仅是专家）都能直接管理这些附加实体，添加新字段后无需重启系统。太棒了;)"
+      }
+    },
+    {
+      "segment_id": "6ea4c715",
+      "source_content": "![Pomocnik automatyzacji](/img/en/bramka/automation_helpers3.png)",
+      "source_content_hash": "db77bb866d7113cbd28cb438d42773c148845d1af92df9ed3018aba305e61361",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![自动化助手](/img/en/bramka/automation_helpers3.png)"
+      }
+    },
+    {
+      "segment_id": "79ad944d",
+      "source_content": "W dokumentacji pokazujemy jak to działa na [przykładzie prostego budzika](/docs/ais_bramka_automation_helpers)",
+      "source_content_hash": "e5132afc15e5f5e154642b8e46848234b5c8a2f3bab468eded4e978853c542fb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们在文档中通过[简单闹钟示例](/docs/ais_bramka_automation_helpers)演示了其工作原理"
+      }
+    },
+    {
+      "segment_id": "0bb95128",
+      "source_content": "![Pomocnik karta](/img/en/bramka/automation_helpers13.png)",
+      "source_content_hash": "d802efc88f281e6a19e9e4a6daa04522227cca60b3cd2c89552bf64640a2fb15",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![助手卡片](/img/en/bramka/automation_helpers13.png)"
+      }
+    },
+    {
+      "segment_id": "ee8401db",
+      "source_content": "# Logi i baza danych",
+      "source_content_hash": "017a802748c36b39f3a86d766076a8b63c08c3288d8589a57401ec8ec2a8cc99",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# 日志与数据库"
+      }
+    },
+    {
+      "segment_id": "147e8550",
+      "source_content": "Żeby włączyć logowanie w systemie Asystent domowy, wystarczy wybrać lokalizację na dysku wymiennym, w której będzie zapisywany plik z rejestrem działań w systemie. Dodatkowo można też określić poziom szczegółowości logowania.",
+      "source_content_hash": "3ee0790323ef807a473ff86e9901de96f93ade28dda396c7eee514079c2b6329",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "要启用家庭助理系统的日志记录，只需选择外接磁盘中用于存储系统活动记录文件的路径，还可指定日志记录的详细级别。"
+      }
+    },
+    {
+      "segment_id": "883231d4",
+      "source_content": "Więcej w dokumentacji [Zapis logów systemu do pliku](/docs/ais_bramka_configuration_logs_and_db#zapis-logów-systemu-do-pliku)",
+      "source_content_hash": "d37f029fafed4d71fcdea6b9d2c51d6fca0bfb5d07330456dab9522294768afe",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "详见文档[系统日志文件存储](/docs/ais_bramka_configuration_logs_and_db#zapis-logów-systemu-do-pliku)"
+      }
+    },
+    {
+      "segment_id": "6cc549f2",
+      "source_content": "![Konfiguracja zapisu logów](/img/en/bramka/bramka_ais_dom_config_logs.png)",
+      "source_content_hash": "19bcd8a0a2df5cb84f8cb96a95921bf55bf18eec0581c2e65b66113207e001bb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![日志存储配置](/img/en/bramka/bramka_ais_dom_config_logs.png)"
+      }
+    },
+    {
+      "segment_id": "d0dd855b",
+      "source_content": "Gdy chcemy mieć dostęp do historii zdarzeń w systemie, to możemy zapisywać zdarzenia na zewnętrznym dysku lub w zdalnej bazie danych.\nJak to zrobić wyjaśniamy w dokumentacji [Zapis zdarzeń do bazy danych](/docs/ais_bramka_configuration_logs_and_db#zapis-zdarzeń-do-bazy-danych)",
+      "source_content_hash": "b1e1b0cf05589831192eb0e10a6294a39740cf28c2bbe5886993e1f0e96ff444",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "如需访问系统事件历史记录，可将事件存储在外接磁盘或远程数据库中。具体方法参见文档[事件数据库存储](/docs/ais_bramka_configuration_logs_and_db#zapis-zdarzeń-do-bazy-danych)"
+      }
+    },
+    {
+      "segment_id": "463ed165",
+      "source_content": "![Konfiguracja zapisu zdarzeń](/img/en/bramka/bramka_ais_dom_config_db.png)",
+      "source_content_hash": "a65b165b0f70f48a82023822a5efc8a4a04bcad38c9cf782e642e9d33dd10eee",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![事件存储配置](/img/en/bramka/bramka_ais_dom_config_db.png)"
+      }
+    },
+    {
+      "segment_id": "66819c78",
+      "source_content": "## Home Assistant",
+      "source_content_hash": "740b285c99ee849f17b14b85885c2e802b66edeeea4f9c6045c0fff785d20a55",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 家庭助理"
+      }
+    },
+    {
+      "segment_id": "fbc2db85",
+      "source_content": "Najnowszy (stabilny) Home Assistant <a href=\"https://www.home-assistant.io/blog/2020/03/18/release-107/\" target=\"_blank\">0.107.7</a>",
+      "source_content_hash": "cf61bd10812bb849bf9e41247533aaae92a5a8de6fe95e7745ed5c4963c4b5a9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "最新稳定版Home Assistant <a href=\"https://www.home-assistant.io/blog/2020/03/18/release-107/\" target=\"_blank\">0.107.7</a>"
+      }
+    },
+    {
+      "segment_id": "8126f763",
+      "source_content": "Poza fajnymi rzeczami opisanymi powyżej doszły ułatwienia i ulepszenia w obszarze edytowania interfejsu użytkownika - sprawdźcie sami, my dajemy 👍 👍 👍",
+      "source_content_hash": "6fb3f044a2b4ff171e998573d36eb32c7b52644d15f98e30763105622fd10abb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "除上述亮点功能外，用户界面编辑区域也进行了优化改进——亲自体验后我们给出👍 👍 👍推荐"
+      }
+    },
+    {
+      "segment_id": "2a9ed33d",
+      "source_content": "----",
+      "source_content_hash": "bd64bb8efa5b3f27e6442f23600c3b516127ea17e23724b41e50da4c22883edd",
+      "node_type": "thematicBreak",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "----"
+      }
+    },
+    {
+      "segment_id": "90d35b51",
+      "source_content": "Zapraszamy do aktualizacji i [komentowania na forum :)](https://ai-speaker.discourse.group/)\nAI-Speaker 04/2020\n----",
+      "source_content_hash": "1c55e3aed507bd2a2d7f99267c5d3af315e2d95a6ff58d608f45b853aca47608",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "欢迎升级并[参与论坛讨论 :)](https://ai-speaker.discourse.group/)\nAI-Speaker 2020年4月\n----"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2020-04-08-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.142453+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "c4abb10e47aaaf3dce6eccf95910f23a655f9b8a8b6abe259e34edb95e2d8db8"
+  }
+}

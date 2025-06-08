@@ -1,0 +1,122 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_faq_where_is_the_code.md",
+  "source_file_content_hash": "f6ba1d2183b697f40e65b2bdfd1d1835c1427c79bc6cb2b37f75d2aa2d6a190e",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Gdzie jest kod źródłowy?\"\nsidebar_label: Gdzie jest kod źródłowy?\n---",
+      "source_content_hash": "f276aedb0239befb1d533daaa1e161fd8891254d59ff01d1f41cb28f6f3e858d",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Repozytorium kodu",
+      "source_content_hash": "f311063ca90e704ab0a80742087cfed0c28e8ba05227ed90fa1321a4a4bbb232",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 代码仓库"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Kod źródłowy Asystenta domowego znajduje się w publicznie dostępnym repozytorium.\nAdres do naszego repozytorium kodu zródłowego: <a href=\"https://github.com/sviete\" target=\"_blank\">https://github.com/sviete</a>",
+      "source_content_hash": "41b09064f2ce5ff54759de7594474f8d4487562827dfaeac1ce12f3823e99078",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "家庭助理的源代码存放于公开代码仓库中。\n我们的源代码仓库地址为：<a href=\"https://github.com/sviete\" target=\"_blank\">https://github.com/sviete</a>"
+      }
+    },
+    {
+      "segment_id": "8ac585fb",
+      "source_content": "Bazujemy na oprogramowaniu o otwartym kodzie źródłowym.\nAsystent domowy jest zbudowany na solidnych fundamentach wolnego i otwartoźródłowego oprogramowania. Są to projekty takie jak Linux, Android, Python czy Home Assistant.",
+      "source_content_hash": "2c9b12a9236b92ca4706810e88b6562c0656ff0549e8dc3f4b952842db5c20b5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "本系统基于开源软件构建。\n家庭助理建立在坚实可靠的自由开源软件基础之上，包括Linux、Android、Python和Home Assistant等项目。"
+      }
+    },
+    {
+      "segment_id": "70153c6e",
+      "source_content": "## Bezpieczeństwo i prywatność",
+      "source_content_hash": "84958026c59e6ed9f203655feae2b1cc2791f929f9d202b45697e04406ecc176",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 安全与隐私"
+      }
+    },
+    {
+      "segment_id": "86b54d44",
+      "source_content": "Dzięki otwartym źródłom Asystent domowy może korzystać z doskonałego poziomu bezpieczeństwa i prywatności w porównaniu z oprogramowaniem o zamkniętych źródłach. Ponieważ kod źródłowy jest dostępny, każda osoba może upewnić się, że oprogramowanie jest bezpieczne oraz nie gromadzi informacji osobistych.",
+      "source_content_hash": "42d00883e3844a6f56de83d6f03d14e47c04cb63f83323560dec098f5e0ca7ac",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "得益于开源特性，家庭助理相比闭源软件能提供更出色的安全性和隐私保护水平。由于源代码公开可见，任何人都能验证软件的安全性并确认其不会收集个人信息。"
+      }
+    },
+    {
+      "segment_id": "d350c018",
+      "source_content": "## Zaangażuj się",
+      "source_content_hash": "c78578e2cc8601f2666f2197ea543fcb6d7318ba6b8fea425ce58a8a234cc965",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 参与贡献"
+      }
+    },
+    {
+      "segment_id": "1acb9a05",
+      "source_content": "Jeśli chcesz, aby Twój program czy urządzenie korzystało z systemowego API dostępnego w Asystencie domowych, to dobrze się składa, bo jesteśmy otwarci na każdą integrację. Jeżeli brakuje Ci jakiejś funkcjonalności w API lub w samym systemie Asystent domowy to możesz nam to zgłosić, lub możesz po prostu pobrać kod źródłowy i to zrobić.",
+      "source_content_hash": "c051492c4ed6fad24fb931088cac33837e04a1ffd9adb59d619941d473ee94b5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "如果您希望自己的程序或设备接入家庭助理的系统API，我们欢迎任何形式的集成方案。若您发现API或家庭助理系统本身缺少某些功能，既可以向我们提交需求，也可以直接下载源代码自行实现。"
+      }
+    },
+    {
+      "segment_id": "2df4f75f",
+      "source_content": "Jeśli masz pomysł jak coś ulepszyć, to jesteśmy otwarci na propozycję zmiany/ulepszenia w kodzie - wystarczy, że wyślesz nam prośbę o ściągnięcie twojego ulepszonego kodu (pull request).",
+      "source_content_hash": "362efd5ffddc96af262f67014c47033c088f8873d2999098e459b1cfeb43f47b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "如果您有改进建议，我们欢迎任何代码修改/优化提案——只需向我们提交您优化后的代码拉取请求(pull request)即可。"
+      }
+    },
+    {
+      "segment_id": "98cfbd53",
+      "source_content": "Nie przejmuj się, jeśli nie potrafisz kodować, możesz zgłosić nam swój pomysł na ulepszenie systemu bezpośrednio w repozytorium lub na adres email info@ai-speaker.com. Postaramy się w miarę możliwości technicznych i czasowych uwzględnić każdą sugestię.",
+      "source_content_hash": "57b9d230b420d8dfd9742b34584e90f3a813d5f6e6b3b5c1aa8e64d1e37b522e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "即使您不擅长编程也无须担心，您可以直接在代码仓库提交改进建议，或发送邮件至info@ai-speaker.com。我们将尽技术能力和时间所及考虑每一条建议。"
+      }
+    },
+    {
+      "segment_id": "ccc88b4c",
+      "source_content": "Jeśli chcesz się zaangażować w ulepszenie i rozwój Asystenta domowego, to możesz też zacząć od ulepszenia dokumentacji — popatrz, jak działa przycisk **EDIT** na górze, po prawej stronie strony, którą teraz czytasz :)",
+      "source_content_hash": "78908a724bacabd9673f503240986417f581490930a0b40bf63a672ecb7406e6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "若您想参与家庭助理的改进开发，也可以从完善文档开始——看看本页面右上角的**EDIT**按钮是如何工作的吧 :)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_faq_where_is_the_code.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.131687+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "f6ba1d2183b697f40e65b2bdfd1d1835c1427c79bc6cb2b37f75d2aa2d6a190e"
+  }
+}

@@ -1,0 +1,592 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2021-01-31-release-notes.md",
+  "source_file_content_hash": "1fd9717e77c146882e345aed5a1c90051ddad83877b1ee16b6456db87b4065a0",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Jola AI-Speaker\nauthorURL: https://github.com/sviete\nauthor_title: Asystentka\nauthorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4\ntitle: Wersja systemu Celina\ntags: [\"ais dom\", \"home assistant\", \"zigbee2mqtt\"]\n---",
+      "source_content_hash": "51eec4eadaef7566ee60615bb72faa93dd415f6c2928c42c7a58685b9057c1da",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "775b7fa4",
+      "source_content": "<div class=\"IntroAisBlogMenu\" >\n<div>\n\n![AIS](/img/en/blog/202101/celina.png)\n\n</div>\n\n<h2>Ewolucja</h2>\n\n</div>",
+      "source_content_hash": "b2b2e5c2744dd2789534c92f4f6ab190a39fc46eb0a735aaa16bce9e279360df",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_775b7fa4"
+      }
+    },
+    {
+      "segment_id": "f5f6d2ce",
+      "source_content": "![AIS Aplikacja mobilna](/img/en/blog/202101/mob_app.png) Aplikacja Mobilna ![AIS Kamery](/img/en/blog/202101/camera.png) Kamery ![AIS Media Cast](/img/en/blog/202101/mobile-request.png) Przekierowanie mediów ![AIS Zigbee2Mqtt](/img/en/blog/202101/zigbee.png) Zigbee2Mqtt ![AIS TV](/img/en/blog/202101/tv.png) Sterowanie TV ![AIS TTS](/img/en/blog/202101/tts_icon.png) Tekst powitalny ![AIS HA](/img/en/blog/202101/hass.png) Asystent domowy ![AIS Edit](/img/en/blog/202101/bridge.png) MQTT bridge",
+      "source_content_hash": "ad9fd0f9a9f214f085536c15a20ed7d6ab1bacb0b7852ec7c72a36ba981fc9be",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS 移动应用](/img/en/blog/202101/mob_app.png) 移动应用 ![AIS 摄像头](/img/en/blog/202101/camera.png) 摄像头 ![AIS 媒体投射](/img/en/blog/202101/mobile-request.png) 媒体重定向 ![AIS Zigbee2Mqtt](/img/en/blog/202101/zigbee.png) Zigbee2Mqtt ![AIS 电视](/img/en/blog/202101/tv.png) 电视控制 ![AIS TTS](/img/en/blog/202101/tts_icon.png) 欢迎文本 ![AIS 家庭助理](/img/en/blog/202101/hass.png) 家庭助理 ![AIS 编辑](/img/en/blog/202101/bridge.png) MQTT桥接"
+      }
+    },
+    {
+      "segment_id": "29e01ec2",
+      "source_content": "<!--truncate-->",
+      "source_content_hash": "f5cded2aa7e288e395fe4f67f9dabda2281904b2f5358d07302b3aa8be0acdfa",
+      "node_type": "comment",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_29e01ec2"
+      }
+    },
+    {
+      "segment_id": "79b2d0b9",
+      "source_content": "## ABC bezproblemowej aktualizacji",
+      "source_content_hash": "c90f3410f68be4e7ee6017947af078313ab12a12edc09598ec43646aef83e69a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 无忧升级指南"
+      }
+    },
+    {
+      "segment_id": "d2808037",
+      "source_content": ":::tip[Kopia zapasowa.]\n### ![A](/img/en/blog/202009/alpha-a-circle.png) Kopia zapasowa.\n\nUWAGA Przed aktualizacją zalecamy wykonać [kopię zapasową konfiguracji](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji). W ten sposób sprawdzisz poprawność swojej konfiguracji przed rozpoczęciem aktualizacji i zwiększysz prawdopodobieństwo bezproblemowej aktualizacji.\n:::",
+      "source_content_hash": "1828218cdc126741a2ebe2de65e3dd6aff658b58cb960a102231a8a3be71ca74",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::tip[数据备份]\n### ![A](/img/en/blog/202009/alpha-a-circle.png) 数据备份\n\n注意：升级前建议先执行[配置备份](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji)。通过此操作可在升级前验证配置的正确性，显著提高升级成功率。\n:::"
+      }
+    },
+    {
+      "segment_id": "b56ef571",
+      "source_content": ":::important[Konsola i logi na bramce.]\n### ![B](/img/en/blog/202009/alpha-b-circle.png)Konsola i logi na bramce.\n\nW razie problemów z aktualizacją, sprawdź procedurę [Aktualizacja z konsoli](/docs/ais_bramka_update_manual) lub [Wykonanie pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step).\nTo może dotyczyć szczególnie osób, które instalują na bramce dodatkowe niestandardowe komponenty.\n:::",
+      "source_content_hash": "801d23fb7fc2431bbe434b4eda5e7c084e2507d287d3851fa318ec48da59ea9e",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::important[网关控制台与日志]\n### ![B](/img/en/blog/202009/alpha-b-circle.png)网关控制台与日志\n\n若升级遇到问题，请查阅[通过控制台升级](/docs/ais_bramka_update_manual)或[执行应用完全重置](/docs/ais_bramka_reset_ais_step_by_step)流程。此情况尤其适用于在网关上安装了非标准组件的用户。\n:::"
+      }
+    },
+    {
+      "segment_id": "688f7369",
+      "source_content": ":::caution[Poczekaj cierpliwie.]\n### ![C](/img/en/blog/202009/alpha-c-circle.png) Cierpliwość. Pierwsze uruchomienie po aktualizacji trwa dłużej - poczekaj cierpliwie.\n\n **Po aktualizacji pierwsze uruchomienie może trwać nawet 20 minut.**\n W tym czasie aktualizowane są biblioteki do integracji dodanych na bramce i baza danych jest migrowana do nowego formatu.\n **Poczekaj cierpliwie na zakończenie aktualizacji.**\n:::",
+      "source_content_hash": "ad8fdeaa6b3f40c9e947e0d0ca97c330a7c8844dae9594bb1d45ca083ea5ab38",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[耐心等待]\n### ![C](/img/en/blog/202009/alpha-c-circle.png) 耐心等待。升级后首次启动耗时较长——请保持耐心\n\n**升级完成后首次启动可能耗时长达20分钟**\n此时系统正在更新网关集成库并将数据库迁移至新格式\n**请耐心等待升级完成**\n:::"
+      }
+    },
+    {
+      "segment_id": "6f930b2f",
+      "source_content": "## ![](/img/en/blog/202101/celina.png) Ewolucja",
+      "source_content_hash": "b62d99fe2e6db080113f0ea9188bff0c3f21207c02973f21d34b18450557d1ad",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202101/celina.png) 进化之路"
+      }
+    },
+    {
+      "segment_id": "d0479480",
+      "source_content": ":::caution[Animacje.]\nAnimacje wyświetlą się tylko na ekranach o szerokości co najmniej 600px. Mogą nie być wyświetlane na telefonie.\n:::",
+      "source_content_hash": "d5782c88d940ac0654c086a241d524e2bdb05a63e31f18389d77955d993dadc5",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[动画显示]\n动画仅会在屏幕宽度≥600px的设备显示，手机端可能无法呈现。\n:::"
+      }
+    },
+    {
+      "segment_id": "d3649a1e",
+      "source_content": "Asystent domowy i AI-Speaker konsekwentnie ewoluuje i przekształca się z oprogramowania poprzez bramkę w głośnik. Jesteśmy na ostatniej prostej, dokładnie tu:",
+      "source_content_hash": "7a7f053f517c1a4057ee1d6f716c4f9c16308884408a6f1d24db964b7a17be9b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "家庭助理与AI-Speaker正持续进化，从软件形态逐步发展为通过网关实现的智能音箱。我们已进入最后冲刺阶段："
+      }
+    },
+    {
+      "segment_id": "17300566",
+      "source_content": "<div className=\"shapeshifter play\"></div>",
+      "source_content_hash": "57d3d82aa4c1adfa1ae7b481808d27e75a4bf004edb2096e6cd2d3686085fa92",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_17300566"
+      }
+    },
+    {
+      "segment_id": "23dfb152",
+      "source_content": "Do pełnej realizacji planu brakuje nam tego ostatniego kroku, w którym bramka staje się głośnikiem:",
+      "source_content_hash": "acf3b3d9fbba9ab4150acf97e98b882f82cc41dd9de2a7f709fbe109d9789688",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "实现最终愿景仅差最后一步——将网关转变为智能音箱："
+      }
+    },
+    {
+      "segment_id": "d37a3b88",
+      "source_content": "<div className=\"shapeshifter2 play\"></div>",
+      "source_content_hash": "baab6ce9f96eade7812bdb5d70f35c0b676f01b51ff39400757768a1127876a5",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_d37a3b88"
+      }
+    },
+    {
+      "segment_id": "79ad944d",
+      "source_content": "Kwestią dyskusyjną nie jest już, czy AIS wyda głośnik, ale de facto ;) kiedy AIS wyda głośnik.\nJak niewiele brakuje, żeby te elementy połączyć w całość, pokażemy już za kilka tygodni (na 99% jeszcze w lutym 2021), kiedy wydamy KIT do przerobienia bramki w głośnik.",
+      "source_content_hash": "05f2f1502a1d71da0391b80071bcaf45a4f4d3469e1c16b216f33204084f78e0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "现在的问题已不再是AI-Speaker是否会推出智能音箱，而是实际上;)AI-Speaker何时会推出智能音箱。\n距离将这些元素整合为一个完整产品只差临门一脚，我们将在几周后（99%的概率在2021年2月内）展示开发套件(KIT)，用于将网关改造成智能音箱。"
+      }
+    },
+    {
+      "segment_id": "0bb95128",
+      "source_content": "Tak jak zapowiadaliśmy, opublikujemy szczegółową instrukcję tak, żeby każdy mógł sam kupić potrzebne elementy (niekoniecznie od nas - bo nawet nie będziemy mieli dużo takich zestawów) i przerobić bramkę w głośnik.\nNa forum można poczytać o szczegółach [Projekt DEV KIT głośnik](https://ai-speaker.discourse.group/t/dev-kit-glosnik-ankieta/1108)",
+      "source_content_hash": "1e4ddcc19d1c14571f9b0304b20bc10ea55855f5763b49c2600de4ba309170cf",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "正如我们此前承诺的，我们将发布详细指南，让每个人都能自行采购所需组件（不一定从我们这里购买——因为我们甚至不会有太多库存）来改造网关为智能音箱。\n论坛上可查阅相关细节 [DEV KIT智能音箱项目](https://ai-speaker.discourse.group/t/dev-kit-glosnik-ankieta/1108)"
+      }
+    },
+    {
+      "segment_id": "e7772088",
+      "source_content": "![](/img/en/blog/202101/dev-kit.jpeg)",
+      "source_content_hash": "1082a46dc8bfa28de25ae4978134171aac80d309b0261747a64d11df58614e13",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202101/dev-kit.jpeg)"
+      }
+    },
+    {
+      "segment_id": "d422fb13",
+      "source_content": "## ![](/img/en/blog/202012/mob_app.png) Aplikacja mobilna 2.0.2.CamCast",
+      "source_content_hash": "227a9ab690969be37086f6af3d96e3b411090b052e5d8c2d943428437914b963",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202012/mob_app.png) 移动应用2.0.2.CamCast版"
+      }
+    },
+    {
+      "segment_id": "f01228d3",
+      "source_content": "Najnowsza aplikacja AIS dom to kolejne uproszczenia i nowe możliwości.",
+      "source_content_hash": "48cc996c6a2b48ce4d01a0c085001ff2b87bdd8c0d972ae07740c5022ce95536",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "最新版AIS dom应用带来了更多简化和新功能。"
+      }
+    },
+    {
+      "segment_id": "afa378f7",
+      "source_content": "Ponieważ aplikacja działa na różnych urządzeniach (od zegarka poprzez telefon, tablet do TV), to żeby łatwiej było wybrać, w jaki sposób chcemy ją wykorzystywać, dodaliśmy możliwość włączania dodatkowych funkcjonalności w zależności od tego, do czego chcemy używać aplikacji.\nOczywiście moglibyśmy to robić automatycznie w zależności od typu urządzenia, ale nie chcemy nikogo ograniczać i narzucać \"jedynie słusznego rozwiązania\". Dzięki temu można użyć starego telefonu jako panelu sterowania (a nie tylko tabletu) itd.",
+      "source_content_hash": "2edcd409ca3dc27fb335df7475f2fcc20a46522cc4a01dec2009c4659f602181",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "由于该应用需适配多种设备（从智能手表、手机、平板到电视），为便于用户根据使用场景选择功能，我们新增了按需启用特定功能的选项。\n虽然可以根据设备类型自动配置，但我们不愿限制用户选择或强加\"唯一正确方案\"。这使得旧手机也能作为控制面板使用（而不仅限于平板电脑）等场景成为可能。"
+      }
+    },
+    {
+      "segment_id": "7736989b",
+      "source_content": "![Mob](/img/en/frontend/mob_special_functions.png)",
+      "source_content_hash": "8cca293925a77fae1648641db51e018d5845ab4b15519eedc587119e06637ef6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![移动端](/img/en/frontend/mob_special_functions.png)"
+      }
+    },
+    {
+      "segment_id": "6270d577",
+      "source_content": "O wszystkich funkcjonalnościach aplikacji można przeczytać w aktualnej dokumentacji:",
+      "source_content_hash": "e40b2a990c8ed8488a0de98e6d9bd9534bfdfa19073bb68fac5d6ba358576d67",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "应用所有功能详情可查阅最新文档："
+      }
+    },
+    {
+      "segment_id": "536b7b6b",
+      "source_content": "- [AIS dom Mobile](/docs/ais_app_android_dom_mob)\n- [AIS dom Panel](/docs/ais_app_android_dom_tablet)",
+      "source_content_hash": "9569eee3f7977b3065e44dffc17051628e55e5ea84bb5753fe0bbc80e0e40012",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- [AIS dom移动版](/docs/ais_app_android_dom_mob)\n- [AIS dom面板版](/docs/ais_app_android_dom_tablet)"
+      }
+    },
+    {
+      "segment_id": "8126f763",
+      "source_content": "Nazwa aplikacji to 2.0.2.CamCast bo w tej wersji dodaliśmy przekierowywanie treści video i obrazu z kamer z bramki do aplikacji AIS dom.\nŻeby aplikacja AIS dom była zdalnym odtwarzaczem należy ją dodać za pomocą kreatora integracji [Dodanie odtwarzacza do bramki](/docs/ais_app_player#dodanie-odtwarzacza-do-bramki)",
+      "source_content_hash": "8a8e9acd05d1ac06a1d0686bb429691682234beac5824e2aad1b97dd38db4d91",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "版本号命名为2.0.2.CamCast，因为此版本新增了将网关摄像头视频流重定向至AIS dom应用的功能。\n要使AIS dom应用成为远程播放器，需通过集成向导添加 [添加播放器至网关](/docs/ais_app_player#dodanie-odtwarzacza-do-bramki)"
+      }
+    },
+    {
+      "segment_id": "0750bfa1",
+      "source_content": "![AIS Radio](/img/en/frontend/ais_exo_player_add_new2.png)",
+      "source_content_hash": "1967c128b438de92f1843837a5ba9d3657c244408065f6c527178d40e0b06c2b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS广播](/img/en/frontend/ais_exo_player_add_new2.png)"
+      }
+    },
+    {
+      "segment_id": "86348f98",
+      "source_content": "Na wbudowany odtwarzacz mediów w aplikacji AIS dom, można teraz przekierowywać z bramki już nie tylko audio, tak jak jest to opisane tu [Przekierowanie Mediów](/docs/ais_app_player#przekierowanie-mediów)",
+      "source_content_hash": "5a733393fda7ffe46a582e5e0a7bfdadeb06a6610d979bb580ddc1e4bf857eb2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "现在除了文档所述音频重定向功能 [媒体重定向](/docs/ais_app_player#przekierowanie-mediów) 外，"
+      }
+    },
+    {
+      "segment_id": "6b77b644",
+      "source_content": "![Smart glass ustawienia](/img/en/frontend/redirect_media_to_client_gate.png)",
+      "source_content_hash": "37169ce17aa426872a688ee3c579252b2d980edff5b1252535ea87ee85613b4a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![智能眼镜设置](/img/en/frontend/redirect_media_to_client_gate.png)"
+      }
+    },
+    {
+      "segment_id": "82e90254",
+      "source_content": "ale też wideo wraz z audio z kamer:",
+      "source_content_hash": "a8be9383fefce3b85757341ad85e8c35de24b9919cf7a72ceaa0c1af05efc292",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "还能将摄像头带音频的视频流重定向至应用："
+      }
+    },
+    {
+      "segment_id": "2822251a",
+      "source_content": "![Mob](/img/en/frontend/video_doorbell.png)",
+      "source_content_hash": "4913e4bfabaf17a46359e9f821125b43f2c9bfabb910cc94b3e03c019a632375",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![移动端](/img/en/frontend/video_doorbell.png)"
+      }
+    },
+    {
+      "segment_id": "5064856a",
+      "source_content": ":::caution[UWAGA przekirowanie obrazu z kamery nie jest jeszcze proste]\nW opisie [API bramki](/docs/ais_bramka_api_index), w zasobie ```command``` umieściliśmy opis i składnię komendy ```showCamera``` która realizuje tę funkcjonalność.\nTa komenda dostepna też jest jako usługa na bramce ```redirect_camera_stream```\nFunkcjonalność ta będzie docelowo łatwo wywoływana z poziomu aplikacji (bez potrzeby użycia API).\n:::",
+      "source_content_hash": "ca119244822785edd839a102eaa235218952c40c40c4bf11f4e1bd5ff553f498",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[注意：摄像头画面重定向功能目前尚未简化]\n在[网关API文档](/docs/ais_bramka_api_index)中，我们在```command```资源部分添加了实现该功能的```showCamera```命令说明及语法格式。\n该命令也可通过网关服务```redirect_camera_stream```调用。\n此功能最终将通过应用程序界面直接调用（无需使用API）。\n:::"
+      }
+    },
+    {
+      "segment_id": "f947c8e4",
+      "source_content": "## ![](/img/en/blog/202101/tv.png) Sterowanie TV",
+      "source_content_hash": "7201b5d7c2ad9f566a26235929d27938c93c91359ed52f114f537baedc617aeb",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202101/tv.png) 电视控制"
+      }
+    },
+    {
+      "segment_id": "0801d969",
+      "source_content": "Jeżeli podłączymy bramkę do TV lub monitora to możemy teraz zdalnie (z przeglądarki lub aplikacji AIS dom) sterować aktywnościami/ekranami na bramce:",
+      "source_content_hash": "d38909fac9cecae9ad2479a24709842e762183156721a4493294bf612586b7d0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "当网关连接至电视或显示器时，现可通过浏览器或AIS dom应用程序远程控制网关上的活动界面/屏幕："
+      }
+    },
+    {
+      "segment_id": "3c19e221",
+      "source_content": "![Gate to tv](/img/en/frontend/gate_to_tv.jpeg)",
+      "source_content_hash": "9e5c72c70e28be76d74003683df5e6c1f3584883e8f108689204acb41551e51c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Gate to tv](/img/en/frontend/gate_to_tv.jpeg)"
+      }
+    },
+    {
+      "segment_id": "d21af28f",
+      "source_content": "W ten sposób możemy odtwarzać treści wideo z serwisów lub kamer.",
+      "source_content_hash": "ddb95af57528d850785b770ad43004b230d43a66596be56bf24f0d92fdbb1a74",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过该功能可播放流媒体服务或摄像头的视频内容。"
+      }
+    },
+    {
+      "segment_id": "44aaa880",
+      "source_content": "Na forum dodaliśmy opis w jaki sposób bramka może sterować urządzeniemi podłączonymi po HDMI za pomocą funkcji HDMI-CEC [HDMI-CEC sterowanie urządzeniami podłączonymi po HDMI](https://ai-speaker.discourse.group/t/hdmi-cec-sterowanie-urzadzeniami-podlaczonymi-po-hdmi/1254)",
+      "source_content_hash": "496e4148cbb62b5ebb2c9bcd51c5674d3609b434df63a65783b82dcad446be6d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们在论坛新增了关于网关通过HDMI-CEC功能控制HDMI连接设备的说明：[HDMI-CEC控制HDMI连接设备](https://ai-speaker.discourse.group/t/hdmi-cec-sterowanie-urzadzeniami-podlaczonymi-po-hdmi/1254)"
+      }
+    },
+    {
+      "segment_id": "a8610918",
+      "source_content": "![Gate to tv](/img/en/blog/202101/cec.jpeg)",
+      "source_content_hash": "fc8ee7a534ad32795f0cd4619822dd7ebd4b05c3cb73db3b029293f70c9193d2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Gate to tv](/img/en/blog/202101/cec.jpeg)"
+      }
+    },
+    {
+      "segment_id": "a6c928a1",
+      "source_content": "Połączenie tych funkcjonalności pozwala na wykonanie wideodomofonu. W przyszłości udostępnimy to w formie szablonu automatyzacji.",
+      "source_content_hash": "eb7e088d2d047da2d8398c8dd82ebad1179147a6c9f3cc6ac8672973839fe4cf",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "结合这些功能可实现视频门铃系统，未来我们将提供自动化模板实现方案。"
+      }
+    },
+    {
+      "segment_id": "47516512",
+      "source_content": "## ![](/img/en/blog/202101/tts_icon.png) Tekst powitalny",
+      "source_content_hash": "dc21d23da7710f1c06960db32afb8b1092b152bb69b6a9b554456addb725904e",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202101/tts_icon.png) 欢迎词设置"
+      }
+    },
+    {
+      "segment_id": "8fcdd6d4",
+      "source_content": "W [Konfiguracja bramki - ustawienia głosu asystenta](/docs/ais_bramka_configuration_tts) dodaliśmy możliwość zdefiniowania lub wyłączenia (definiując pusty tekst) tekstu powitalnego.",
+      "source_content_hash": "cc0eb136cb0f78eeeb55e6fb03da621c0a56f077e8c3fcbaf61bca26f2e58197",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在[网关配置-语音助手设置](/docs/ais_bramka_configuration_tts)中新增欢迎词自定义功能（留空可禁用）。"
+      }
+    },
+    {
+      "segment_id": "53aa2b95",
+      "source_content": "![Oprogramowanie bramki](/img/en/bramka/config_ais_dom_section4.jpeg)",
+      "source_content_hash": "0fb141785b86da1d0f083d9a8335760e053c7223a8aebedbd6fc0f7ed1937d40",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![网关软件](/img/en/bramka/config_ais_dom_section4.jpeg)"
+      }
+    },
+    {
+      "segment_id": "8f1c1cd6",
+      "source_content": "## ![](/img/en/blog/202101/zigbee.png) Zigbee2Mqtt",
+      "source_content_hash": "2ce9ae9742e6bfcb0992dbcd9a46dc1efd4133a1606c51db3f56cece1dceb2b8",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202101/zigbee.png) Zigbee2Mqtt"
+      }
+    },
+    {
+      "segment_id": "1ecf0882",
+      "source_content": "Aktualizacja Zigbee2Mqtt do najnowszej wersji 1.7.0\nSporo poprawek i oczywiście wsprawcie dla nowych urządzeń, wszystkie szczegóły tu [1.17.0](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.17.0)",
+      "source_content_hash": "03aea95c5cd78d68f19c2d114c6256891ecce18a23d264934a0317c15dd97b62",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Zigbee2Mqtt已更新至1.7.0版本\n包含多项修复及新设备支持，详见[1.17.0](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.17.0)"
+      }
+    },
+    {
+      "segment_id": "e478ec2c",
+      "source_content": "Dodaliśmy możliwość zmiany konfiguracji zigbee2mqtt oraz restartu serwisu zigbee z poziomu aplikacji:",
+      "source_content_hash": "4136a96789e65f0f4d3435ed265872a2f789d6cf3d3bad2b1812f9d8b97108e9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "新增通过应用程序修改zigbee2mqtt配置及重启zigbee服务功能："
+      }
+    },
+    {
+      "segment_id": "534ac82e",
+      "source_content": "![Oprogramowanie bramki](/img/en/blog/202101/zigbee_config.png)",
+      "source_content_hash": "e8c80e0f5f52d2cdf262005a61a152bbe78602786e07ac0421b545143fedae1a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![网关软件](/img/en/blog/202101/zigbee_config.png)"
+      }
+    },
+    {
+      "segment_id": "a9c2a503",
+      "source_content": "Może to być pomocne w przypadku problemów i do zmiany kanału, na którym działa zigbee:\nSzczegóły w dokumentacji [AIS Zigbee2MQTT](/docs/ais_app_integration_zigbee)\ni na forum: [Zigbee2mqtt cc2531 - przestało działać\n](https://ai-speaker.discourse.group/t/zigbee2mqtt-cc2531-przestalo-dzialac/743/93)",
+      "source_content_hash": "ad9f7b84ecb5d8035a363cf6790785f4a55c06991aa0ea13d97d2489349e08dc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该功能适用于故障排查及Zigbee工作频道调整：\n详见文档[AIS Zigbee2MQTT](/docs/ais_app_integration_zigbee)\n及论坛讨论：[Zigbee2mqtt cc2531停止工作](https://ai-speaker.discourse.group/t/zigbee2mqtt-cc2531-przestalo-dzialac/743/93)"
+      }
+    },
+    {
+      "segment_id": "3cd8185f",
+      "source_content": "## ![](/img/en/blog/202101/hass.png) Asystent domowy",
+      "source_content_hash": "d2abacfd8c155e4276e2b9e70fb69aea101d205f95027a171074d0f4d2661cbe",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202101/hass.png) 家庭助手"
+      }
+    },
+    {
+      "segment_id": "3e8f45da",
+      "source_content": "Najnowsza wersja Asystenta domowego, czyli naszego pakietu ``ais-dom`` bazującego na najnowszym stabilnym Home Assistant Core.",
+      "source_content_hash": "4f36ed4bd7e6fdbae4e71f7081f263804cfb8884b40cb03ecec164f202f07f42",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "最新版家庭助手即我们的``ais-dom``套件，基于最新稳定版Home Assistant Core构建。"
+      }
+    },
+    {
+      "segment_id": "4c787c52",
+      "source_content": "![Asystent domowy](/img/en/blog/202101/ha_social.png)",
+      "source_content_hash": "daf17e14013073ad023db937118bcc0d40b93fc3f1064176cffb7639d414007c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![家庭助理](/img/en/blog/202101/ha_social.png)"
+      }
+    },
+    {
+      "segment_id": "63565425",
+      "source_content": "Szczegółowy opis zmian w Home Assistant dostępny na blogu projektu Home Assistant: [2021.1: Happy New Year!](https://www.home-assistant.io/blog/2021/01/06/release-20211/)",
+      "source_content_hash": "fe5ff6fff26b0ac861a80d637d8d752a82f56b3f32dcd7c681855c7b8a1fe2f9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Home Assistant的详细变更说明可查阅项目博客：[2021.1: 新年快乐！](https://www.home-assistant.io/blog/2021/01/06/release-20211/)"
+      }
+    },
+    {
+      "segment_id": "531ec0bb",
+      "source_content": "## ![](/img/en/blog/202101/bridge.png) MQTT bridge",
+      "source_content_hash": "69cb14df5420d89705551974f2798a3ef07cb18666ae4b6c826f0546e3b060f2",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202101/bridge.png) MQTT桥接"
+      }
+    },
+    {
+      "segment_id": "d2a3d4c7",
+      "source_content": "Tak jak zapowiedzialiśmy na forum [Budujemy mosty](https://ai-speaker.discourse.group/t/kolejna-celina-beta-wydana/1277)",
+      "source_content_hash": "eddd5c26bc422788b2a4ead038a8ac5279896c7d5225cf487ea39ed900e7f7aa",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "正如我们在论坛[构建桥梁](https://ai-speaker.discourse.group/t/kolejna-celina-beta-wydana/1277)中所预告的"
+      }
+    },
+    {
+      "segment_id": "008183b0",
+      "source_content": "![MQTT Bridge](/img/en/blog/202101/mqtt_bridge.jpeg)",
+      "source_content_hash": "00bcf5e025775886c510cbb976df17913ea248342a07b7fb9bc936a8e7b291a7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![MQTT桥接](/img/en/blog/202101/mqtt_bridge.jpeg)"
+      }
+    },
+    {
+      "segment_id": "0ddaa835",
+      "source_content": "Pozwoli to na łatwą integrację z SUPLA Cloud, porozumieliśmy się w tej sprawie z zespołem SUPLA i otrzymaliśmy dostęp do wykonania takiej integracji.\nW kolejnej wersji skupimy się na tym temacie tak, żeby cała integracja sprowadziła się do kilku kliknięć w aplikacji.",
+      "source_content_hash": "6f12dfb28ec11150a65092a279ad5cb7db64d7f64bd47b277aa4a402c8373473",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该功能将实现与SUPLA云服务的便捷集成。我们已与SUPLA团队达成协议并获得了集成开发权限。\n下个版本我们将重点优化该功能，最终实现在应用中仅需点击几次即可完成集成。"
+      }
+    },
+    {
+      "segment_id": "b08ad0b4",
+      "source_content": "Gdyby ktoś chciał już testować integrację z MQTT Supla to w konfiguracji MQTT dodaliśmy możliwość zmiany konfiguracji brokera MQTT z poziomu aplikacji",
+      "source_content_hash": "87c4f71aad68882ba58299333f30aafae5f409b236f706f7a5f92687c977b9db",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "若您希望提前测试SUPLA MQTT集成，我们已在MQTT配置中新增了通过应用界面修改MQTT代理配置的功能"
+      }
+    },
+    {
+      "segment_id": "d636abf8",
+      "source_content": "![MQTT](/img/en/integrations/mqtt_edit_mosquito_config.png)",
+      "source_content_hash": "0ecdea722ad9005f7dae367c76b30f6cb17a205f3444183c791b0f4364fe2d97",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![MQTT](/img/en/integrations/mqtt_edit_mosquito_config.png)"
+      }
+    },
+    {
+      "segment_id": "89cf7bac",
+      "source_content": "Więcej informacji w dokumentacji: [Konfiguracja brokera mqtt](/docs/ais_app_integration_mqtt#konfiguracja-brokera-mqtt)",
+      "source_content_hash": "0a7cb517ff35e1c5da4316d73e1b84cf3e11cb71562d2426a6f9b9101ba254a8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "更多信息详见文档：[MQTT代理配置](/docs/ais_app_integration_mqtt#konfiguracja-brokera-mqtt)"
+      }
+    },
+    {
+      "segment_id": "33b68b3f",
+      "source_content": "-------",
+      "source_content_hash": "11d925ecde7d1b6aa2c2881df15ce7b8553e7f48b782e061b658f050a673013f",
+      "node_type": "thematicBreak",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "-------"
+      }
+    },
+    {
+      "segment_id": "c66e62ef",
+      "source_content": "##### AI-Speaker 01/2021",
+      "source_content_hash": "c86d6872f307b132025fdc1b52e28fb2b90bb2c11099e989b483be8d5e8c4831",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "##### AI-Speaker 2021年1月"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2021-01-31-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.121988+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "1fd9717e77c146882e345aed5a1c90051ddad83877b1ee16b6456db87b4065a0"
+  }
+}

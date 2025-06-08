@@ -1,0 +1,82 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_services.md",
+  "source_file_content_hash": "682c8dc05ef271543cf8cc8ff37892a7fd3f9cf52d85fa9534254d0899b7744c",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Usługi działające na bramce\"\nsidebar_label: Lokalne Usługi bramki\n---",
+      "source_content_hash": "790c6937c9ea8d9bf8518bf454121482505affb04d2ee09b7fed2f1d63d017ca",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Usługi działające na bramce",
+      "source_content_hash": "997f4f4effe95127bd77dc0a68458c83c8674b5531aa5724d66d53173a58c202",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 网关运行服务"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Na bramce standardowo działają następujące usługi:",
+      "source_content_hash": "1180156ca73d41d9a224856edc1692accb33b26e2714574e185b6e21bda3a1f4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "网关上默认运行以下服务："
+      }
+    },
+    {
+      "segment_id": "afe418c2",
+      "source_content": "| Nazwa         | Protokół | Porty           | Komenda/URL                                            | Opis                             | Bramka                                                                                    |\n| ------------- | -------- | --------------- | ------------------------------------------------------ | -------------------------------- | ----------------------------------------------------------------------------------------- |\n| Aplikacja AIS | http     | **80** / `8180` | [http://ais-dom.local](http://ais-dom.local)           | serwer http                      |     |\n| FTP           | ftp      | **21** / `1024` | [ftp://ais-dom.local](ftp://ais-dom.local)             | serwer ftp                       |     |\n| SSH           | ssh      | **22** / `8022` | `ssh ais-dom.local`                                    | serwer ssh                       |     |\n| MQTT          | mqtt     | **1883**        | `mosquitto_sub -h ais-dom.local -t '#'`                | serwer mqtt                      |     |\n| Terminal      | http     | **8888**        | [http://ais-dom.local:8888](http://ais-dom.local:8888) | powłoka bash w aplikacji webowej |     |\n| Zigbee        | http     | **8099**        | [http://ais-dom.local:8099](http://ais-dom.local:8099) | aplikajca zigbee2mqtt            |     |\n| Rest API      | http     | **8122**        | [http://ais-dom.local:8122](http://ais-dom.local:8122) | api bramki                       |     |\n| ADB           | tcp/ip   | **5555**        | `adb ais-dom.local`                                    | android debug bridge             |     |\n| WebCmd           | http  | **8000**  |[http://ais-dom.local:8000](http://ais-dom.local:8000)                                   | menedżer plików            | \n| ScreenStream           | http  | **9966**  |[http://ais-dom.local:9966](http://ais-dom.local:9966)                                   | android device screen             |    |\n| Zwave         | http     | **8091**        | [http://ais-dom.local:8091](http://ais-dom.local:8091) | aplikajca zwavejs2mqtt           |   |\n| PostgreSQL    | tcp/ip   | **5432**        | `psql ha`                                              | relacyjna baza danych            |  |\n| SIP Proxy     | udp      | **5060**        |                                                        | serwer udp sip                   |  |",
+      "source_content_hash": "426ba1682d1e7e3e6548084b305275aec83217c144d0f7713f0ccf1a4e1611ef",
+      "node_type": "table",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_afe418c2"
+      }
+    },
+    {
+      "segment_id": "79b2d0b9",
+      "source_content": "## Przydatne linki",
+      "source_content_hash": "452397007484892acd06f287b297487c37593235261ad0899b243e2e9cdf0b83",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 实用链接"
+      }
+    },
+    {
+      "segment_id": "d9172fa4",
+      "source_content": "Linki do usług działających na bramce oraz inne przydatne linki dostępne są z aplikacji, wystarczy w menu wybrać opcję **Przydatne linki**",
+      "source_content_hash": "ebea7b8e7636cbed878d9cf60b44559e00e305476623085bf2b5de1d5ed31b57",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "网关运行服务的链接及其他实用链接可通过应用程序获取，只需在菜单中选择**实用链接**选项"
+      }
+    },
+    {
+      "segment_id": "26524352",
+      "source_content": "![Przydatne Linki](/img/en/bramka/ais_gate_links.png)",
+      "source_content_hash": "7ea2f0d12307df97ded49f923f184ac821943169d00aba3c31508d39b78368bf",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![实用链接](/img/en/bramka/ais_gate_links.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_services.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.099364+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "682c8dc05ef271543cf8cc8ff37892a7fd3f9cf52d85fa9534254d0899b7744c"
+  }
+}

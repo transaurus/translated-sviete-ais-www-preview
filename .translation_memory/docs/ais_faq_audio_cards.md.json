@@ -1,0 +1,122 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_faq_audio_cards.md",
+  "source_file_content_hash": "4c7e142baf087c076674c62d33b3ee38d463317e82893bc20173353665566dee",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Obsługa kart dźwiękowych\"\nsidebar_label: Obsługa kart dźwiękowych\n---",
+      "source_content_hash": "f805092baaebde8acf8b30951e6c96bfcbd10bcbcf3c5657078021bde288be49",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "### Wprowadzenie",
+      "source_content_hash": "29e8d70c446f19194c201f4769834e215793f03e72694cbb3d9e9b2100a60de8",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 简介"
+      }
+    },
+    {
+      "segment_id": "e7ec881c",
+      "source_content": "> Opis w przygotowaniu",
+      "source_content_hash": "4b430479771ba0848417f7b1dda0546dfb05d5aff916293da3587451482ff041",
+      "node_type": "blockquote",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "> 描述内容准备中"
+      }
+    },
+    {
+      "segment_id": "1cc03ec8",
+      "source_content": "### Wyświetlenie wszystkich kart dzwiękowych",
+      "source_content_hash": "73e252bdffe13727ee476658677dcbbc25b3dcee3166fc4a328a8e75aa6836d5",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 显示所有音频设备"
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "Wszystkie karty audio, które są dostepne w systemie (podłączone i z zainstalowanym sterownikiem) listujemy komendą w konsoli:",
+      "source_content_hash": "2b0167852f2bdc9ab89e46d489742d9f0d5f7c6a13a787cc709632b0dc028e7d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过控制台命令可列出系统中所有可用音频设备（已连接且驱动安装完毕）："
+      }
+    },
+    {
+      "segment_id": "5564d81d",
+      "source_content": "```bash\ncat /proc/asound/cards\n```",
+      "source_content_hash": "8d25d40aeb92c033bac70a37b8cd6c498fbe74f6b935598029ec847a3b09fa56",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_5564d81d"
+      }
+    },
+    {
+      "segment_id": "42ad8e83",
+      "source_content": "wynik powinien być podobny do tego poniżej:",
+      "source_content_hash": "1684271440c62bc55e9d9758bca1235daba6d5275b506373e44985ee74bd05f2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "输出结果应类似如下所示："
+      }
+    },
+    {
+      "segment_id": "940e34e3",
+      "source_content": "```bash\n$ cat /proc/asound/cards\n 0 [AMLM8AUDIO     ]: AML-M8AUDIO - AML-M8AUDIO\n                      AML-M8AUDIO\n 1 [CameraB409241  ]: USB-Audio - USB Camera-B4.09.24.1\n                      OmniVision Technologies, Inc. USB Camera-B4.09.24.1 at usb-xhci-hcd.0.auto-2, h\n 2 [dabaizhiyin16k1]: USB-Audio - dabaizhiyin16k16b\n                      dabaizhiyin dabaizhiyin16k16b at usb-xhci-hcd.0.auto-1.3, full speed\n```",
+      "source_content_hash": "43abc8271bd368745e4f75aac22bb6f3415c5f9ab210f0249c17171c4849125d",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_940e34e3"
+      }
+    },
+    {
+      "segment_id": "f2f30ae8",
+      "source_content": "### Testowanie kart dźwiękowych",
+      "source_content_hash": "57d12f50d574fc34748ad0fc081efd47ab8cfa72d2432f18eb1dd97ef0e0beac",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 音频设备测试"
+      }
+    },
+    {
+      "segment_id": "cb57d798",
+      "source_content": "```bash\n$ su -c 'tinymix -D 0'\n```",
+      "source_content_hash": "ef5054beeda1a9c3a95dc16bd485116a0d9cd1731ec05d7ff3c8737e7d313915",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_cb57d798"
+      }
+    },
+    {
+      "segment_id": "366d6955",
+      "source_content": "> TODO",
+      "source_content_hash": "300e40aea59c9bbfdf04a391b4eba595cc133d908819fd5b87632df698d8547d",
+      "node_type": "blockquote",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "> 待完善"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_faq_audio_cards.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.104534+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "4c7e142baf087c076674c62d33b3ee38d463317e82893bc20173353665566dee"
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_faq_components_weather.md",
+  "source_file_content_hash": "9a46df6028646f4172f25173b4201d2b2c3120ee6d6f5648793b7dd98289b221",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Jak dodać własny serwis Pogodowy?\"\nsidebar_label: Własny serwis Pogodowy\n---",
+      "source_content_hash": "a347c7a6149732c6d76093f432fdf28dcc30db44980b9d3a77b896bca4331537",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Obecnie w systemie Asystent domowy w podstawowej konfiguracji (z pudełka) dostarczamy dane pogodowe z dwóch źródeł:",
+      "source_content_hash": "50a10320af4074c857c53c58c7cb518ed3d9f7324074e66e5042a9a71c91a9df",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "当前家庭助理系统在出厂默认配置中提供来自两个数据源的天气信息："
+      }
+    },
+    {
+      "segment_id": "57e757df",
+      "source_content": "- [Serwisu pogodowego Dark Sky](https://darksky.net/dev) - ten serwis jest źródłem opisowej prognozy pogody dla Twojej lokalizacji. Gdy pytamy asystenta o pogodę, to zwracana opisowa informacja pogodowa pochodzi z tego serwisu\n- [Serwisu pogodowego Open Weather Map](https://openweathermap.org/) - ten serwis jest źródłem aktualnych danych meteorologicznych dla Twojej lokalizacji, wyświetlanych w aplikacji w widoku pogoda",
+      "source_content_hash": "2e2d793999feffcb2910d67b4fd359d906f32f58ae61b4eef65781222194d8c5",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- [Dark Sky天气服务](https://darksky.net/dev) - 该服务提供您所在位置的描述性天气预报。当询问助手天气状况时，返回的描述性天气信息即源自此服务\n- [Open Weather Map服务](https://openweathermap.org/) - 该服务提供您所在位置的实时气象数据，这些数据会显示在应用的天气视图界面中"
+      }
+    },
+    {
+      "segment_id": "8a5f6a7b",
+      "source_content": "## Lokalizacja",
+      "source_content_hash": "d41b658ae1f1660be5aff72fb546b052d982210184aecdd6daca99c745a1a68d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 地理位置设置"
+      }
+    },
+    {
+      "segment_id": "180bddb1",
+      "source_content": "Domyślnie pogoda pobierana jest dla lokacji zdefiniowanej na bramce. W celu uzyskania lepszych danych pogodowych należy podać w systemie swoją lokalizację. Lokalizacja definiowana jest w konfiguracji:",
+      "source_content_hash": "73912fa42e5053d602dd187bb07f4e5b4c1a678ed71c8d496aebe30968904213",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "默认情况下天气数据根据网关定义的位置获取。为获得更精准的天气数据，需在系统中设置您的具体位置。位置信息通过以下配置项定义："
+      }
+    },
+    {
+      "segment_id": "cf898102",
+      "source_content": "![Lokalizacja](/img/en/frontend/gps_settings.png)",
+      "source_content_hash": "60d4b8b4f0a319f9570c093fb04c3d18e3d4869dbd8ae81e7a73d897f8c8808c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![地理位置设置](/img/en/frontend/gps_settings.png)"
+      }
+    },
+    {
+      "segment_id": "3daf1b88",
+      "source_content": "## Definicja innego serwisu do danych pogodowych",
+      "source_content_hash": "fa6ea72e0e218b8ff21c2e30edb567ce6784fd65a0d5860780209ee73f46da5c",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 自定义天气数据服务"
+      }
+    },
+    {
+      "segment_id": "1acb9a05",
+      "source_content": "Istnieje możliwość zmiany serwisu dostarczającego dane pogodowe, w tym celu wystarczy wybrać i skonfigurować jeden z kilkudziesięciu gotowych komponentów pogodowych dostarczanych przez [Home Assistant Weather](https://www.home-assistant.io/components/#weather)\n(oczywiście można też zaimplementować własny komponent do danych pogodowych, ale jest to opcja bardziej zaawansowana i wymagająca znajomości języka programowania Python).",
+      "source_content_hash": "cef53c6328a2a08177e6dbdac0b07f38dae62c76da8c58bc2e97a653fadee902",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "您可更换天气数据提供商，只需从[Home Assistant Weather](https://www.home-assistant.io/components/#weather)提供的数十个预制天气组件中选择并配置即可\n（当然也可自行实现天气数据组件，但这属于高阶选项且需要Python编程能力）。"
+      }
+    },
+    {
+      "segment_id": "2fdadb08",
+      "source_content": "Poniżej pokażemy przykład krok po kroku, jak dodać dane pogodowe z serwisu pogodowego Dark Sky, w analogiczny sposób można dodawać dane z innych serwisów.",
+      "source_content_hash": "43087da3ad773a69c9edb7b073304257786f9d09b89d8cf972833e01ad777db2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "以下我们将逐步演示如何添加Dark Sky天气服务数据，其他服务的添加方式可参照此流程。"
+      }
+    },
+    {
+      "segment_id": "79b2d0b9",
+      "source_content": "### Dark Sky - Klucz API",
+      "source_content_hash": "442abbc513e89affbd6dc7bf3e0e85cc9885ff32349b32c5851f2285908b47a7",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### Dark Sky - API密钥获取"
+      }
+    },
+    {
+      "segment_id": "d9172fa4",
+      "source_content": "Będzie nam potrzebny klucz API, który jest bezpłatny, ale wymaga rejestracji. Bezpłatnie można wykonać maksymalnie 1000 zapytań dziennie.",
+      "source_content_hash": "bee5fc136bd0a8f3a3f1622b329f7b50beaf6c3e5a319e937036c3c2cbee3c98",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "需申请免费的API密钥（需注册）。免费版每日最多可调用1000次接口。"
+      }
+    },
+    {
+      "segment_id": "22ae2175",
+      "source_content": "> **UWAGA** Dark Sky obciąży Cię 0,0001 USD za każde połączenie z interfejsem API, jeśli podasz dane swojej karty kredytowej i utworzysz ponad 1000 zapytań dziennie.",
+      "source_content_hash": "026c1d128d4bed7f19937ec1ef1c5a66fd792bb4f7e58edb95f2eacab9868e11",
+      "node_type": "blockquote",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "> **注意** 若您已绑定信用卡且日调用量超过1000次，Dark Sky将按每次0.0001美元的标准计费。"
+      }
+    },
+    {
+      "segment_id": "73ab96a3",
+      "source_content": "Rejestracja dostępna jest tu: [Dark Sky API](https://darksky.net/dev)",
+      "source_content_hash": "541dc4544a05c829bfb35d1213c3a4969f3794d33e2774f9de909587b6be744f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "注册地址：[Dark Sky API](https://darksky.net/dev)"
+      }
+    },
+    {
+      "segment_id": "f422383e",
+      "source_content": "### Dark Sky - Konfiguracja",
+      "source_content_hash": "f20958e17446d3d5f6b042f4db6b7bddf5e2c7feace85b9de54558b03c0d796e",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### Dark Sky - 配置方法"
+      }
+    },
+    {
+      "segment_id": "97ae4a01",
+      "source_content": "Aby dodać Dark Sky do swojej instalacji, dodaj następujące elementy do pliku configuration.yaml:",
+      "source_content_hash": "1984da1625b42e8b379c5a13018378ed698b0b139b563d52a637db3971dd0d05",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "将以下配置添加至configuration.yaml文件以启用Dark Sky："
+      }
+    },
+    {
+      "segment_id": "33331f27",
+      "source_content": "`configuration.yaml`:",
+      "source_content_hash": "a460e73a5064da3cd70817e752720c8b7dcefa1cfb895acd86db8caa4bc35275",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "`configuration.yaml`:"
+      }
+    },
+    {
+      "segment_id": "026f2f3e",
+      "source_content": "```yaml\n# Przykład z configuration.yaml\nweather:\n  - platform: darksky\n    api_key: TWOJ_KLUCZ_API\n```",
+      "source_content_hash": "4310505b78f3380b6cc8a8e04b82fe662376bae7898000102f608cc671b9a29f",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_026f2f3e"
+      }
+    },
+    {
+      "segment_id": "29528c8d",
+      "source_content": "Szczegółowa konfiguracja dostępna jest tutaj: [Home Assistant, Dark Sky](https://www.home-assistant.io/components/weather.darksky/)",
+      "source_content_hash": "187ffcf8eb6a8de244130c0ff18d11668960324eb7d315b0db8aa02d182ce429",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "详细配置说明参见：[Home Assistant, Dark Sky](https://www.home-assistant.io/components/weather.darksky/)"
+      }
+    },
+    {
+      "segment_id": "cb5b269c",
+      "source_content": "### Dark Sky - dodanie do widoku",
+      "source_content_hash": "f9669f9b33e5206ebdb4dc41f32ff12828ddd2a47ead3dec505bb493060c2f12",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### Dark Sky - 视图集成"
+      }
+    },
+    {
+      "segment_id": "b36c6338",
+      "source_content": "Aby dane o pogodzie z naszego nowo dodanego serwisu wyświetlały się w widoku pogody w aplikacji należy nadpisać domyślną definicję grupy pogody.",
+      "source_content_hash": "f382322ee760b1d2e12ad22126ce7501a579ae24ccd6f32604bc1365a00f8510",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "要使新添加的天气服务数据显示在应用天气视图中，需覆盖默认的天气组定义。"
+      }
+    },
+    {
+      "segment_id": "b9aaa519",
+      "source_content": "Nadpisywanie group/widoków możliwe jest w pliku groups.yaml, znajdującego się na bramce w tym samym folderze z konfiguracją, co główny plik konfiguracyjny configuration.yaml.",
+      "source_content_hash": "c679b00f7244a4e86f8fb68ab0b880c07b9f324deda842166a5244ac7415d7ca",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "组/视图的覆盖配置通过groups.yaml文件实现，该文件位于网关设备上，与主配置文件configuration.yaml处于同一配置目录。"
+      }
+    },
+    {
+      "segment_id": "23dfb152",
+      "source_content": "Domyślna definicja widoku pogody, którą dostarczamy w podstawowej konfiguracji systemu wygląda tak:",
+      "source_content_hash": "06dfb3d91adea4e05344c2e828011e8390ad5be013f34a673d1f9a495e9b4f1f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "系统在基础配置中提供的默认天气视图定义如下："
+      }
+    },
+    {
+      "segment_id": "c05ad55e",
+      "source_content": "```yaml\n# Domyślna definicja widoku pogody w aplikacji\npogoda:\n  name: Pogoda\n  view: yes\n  icon: mdi:weather-partlycloudy\n  entities:\n    - weather.openweathermap\n    - sensor.dark_sky_hourly_summary\n    - sensor.dark_sky_daily_summary\n```",
+      "source_content_hash": "f6119901b9346360e63c1354a7a6f8557d04affdf04a405163a6ad02434c27db",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_c05ad55e"
+      }
+    },
+    {
+      "segment_id": "883231d4",
+      "source_content": "żeby nadpisać domyślną definicję własną konfiguracją, wystarczy dodać odpowiednie wpisy do pliku groups.yaml.\nPoniżej przykład zawierający całą podstawową konfigurację oraz nasz nowo dodany komponent pogodowy Dark Sky (patrz ostatnia linijka):",
+      "source_content_hash": "113c0923078dda0b0cb5ec32e409d61059c6f35d99a35d64d8567c4ccb4fa3e0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "要使用自定义配置覆盖默认定义，只需在groups.yaml文件中添加相应条目即可。\n以下示例包含完整的基础配置以及我们新添加的Dark Sky天气组件（参见最后一行）："
+      }
+    },
+    {
+      "segment_id": "afa378f7",
+      "source_content": "`groups.yaml`:",
+      "source_content_hash": "aede42e858f8c4d819112f340c146d478d4cab9ce7c3af59b3610d17f7c4559b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "`groups.yaml`:"
+      }
+    },
+    {
+      "segment_id": "a89f84e1",
+      "source_content": "```yaml\n# Zmodyfikowana definicja widoku pogoda w aplikacji\npogoda:\n  name: Pogoda\n  view: yes\n  icon: mdi:weather-partlycloudy\n  entities:\n    - weather.openweathermap\n    - sensor.dark_sky_hourly_summary\n    - sensor.dark_sky_daily_summary\n    - weather.dark_sky\n```",
+      "source_content_hash": "775ab345c84afbf66f922bcd875dea0b6fe0f6c4e33f1a3244983a6e1e934443",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_a89f84e1"
+      }
+    },
+    {
+      "segment_id": "86348f98",
+      "source_content": "w efekcie, po restarcie aplikacji, w widoku pogody będziemy mieli dane z dwóch serwisów pogodowych:",
+      "source_content_hash": "c16069399102ddcd39f39eddecef3b8f7f5ae37024e5cf6a67bf1310f9270dee",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "重启应用后，天气视图将显示来自两个天气服务的数据："
+      }
+    },
+    {
+      "segment_id": "785750ac",
+      "source_content": "![Aplikacja asystent domowy widok pogody](/img/en/frontend/frontend-weather.png)",
+      "source_content_hash": "fcdc88cf346e92e52542b5f157ed120b33d6e637328fcec75988372325b014e0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![家庭助理应用天气视图](/img/en/frontend/frontend-weather.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_faq_components_weather.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.110671+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "9a46df6028646f4172f25173b4201d2b2c3120ee6d6f5648793b7dd98289b221"
+  }
+}

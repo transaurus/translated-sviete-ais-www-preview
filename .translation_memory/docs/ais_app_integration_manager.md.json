@@ -1,0 +1,192 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_app_integration_manager.md",
+  "source_file_content_hash": "a8066a5e5387dda88df062df765f9c85798fe89fd0c7b0282bea5ee87f1fd876",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Menedżer plików\"\nsidebar_label: Menedżer plików\n---",
+      "source_content_hash": "d511a403fb390f15067216ed2b865c4aa6892676d95573387fcd94a9bb433bc9",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Wprowadzenie",
+      "source_content_hash": "138964b3f05ef631ae55efd030ca96538eb5d783961ef7b978515da6c937d13f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 简介"
+      }
+    },
+    {
+      "segment_id": "53eaf0e1",
+      "source_content": "Na bramce dostarczamy menedżer plików w formie aplikacji webowej. Menedżer plików zawiera edytor plików tekstowych oraz podgląd plików (tekst, audio, wideo). Aplikacja umożliwia pracę z plikami i katalogami w przeglądarce internetowej z dowolnego komputera, telefonu komórkowego lub tabletu.",
+      "source_content_hash": "eb3ed4ac4329c84c672825b8520ab9462e120ad814a1dfc0942407451e68b21b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们在网关上提供基于网页应用的文件管理器。该文件管理器包含文本编辑器及文件预览功能（支持文本、音频、视频）。通过浏览器应用，您可以在任意电脑、手机或平板上管理网关中的文件和目录。"
+      }
+    },
+    {
+      "segment_id": "180bddb1",
+      "source_content": "![WEB cmd](/img/en/bramka/web_cmd.png)",
+      "source_content_hash": "7eebd7fb29cdbc4900df79190a3c84c9a68f587a79d9c3f456cc590185e647d8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![WEB cmd](/img/en/bramka/web_cmd.png)"
+      }
+    },
+    {
+      "segment_id": "976d532b",
+      "source_content": ":::caution[Uwaga]\nAplikacja **Menedżer plików** preinstalowana jest na bramkach sprzedawanych z wersją systemu **Leon** i późniejszą. Posiadacze bramek zakupionych z wcześniejszą wersją systemu mogą sami doinstalować aplikację Menedżer plików wg opisu umieszczonego na [Forum AI-Speaker](https://ai-speaker.discourse.group/t/ais-commander/2312). \n:::",
+      "source_content_hash": "5d467c2dc1193dfb733a18565885f43554e49a0ebd14acfba8b9faec9bef2907",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[注意]\n**文件管理器**应用预装在系统版本为**Leon**及后续版本的网关上。早期版本网关用户可参照[AI-Speaker论坛指南](https://ai-speaker.discourse.group/t/ais-commander/2312)自行安装该应用。\n:::"
+      }
+    },
+    {
+      "segment_id": "507b4652",
+      "source_content": "-----------------------------------------------------",
+      "source_content_hash": "4b2565bde18586a3df94f1a47659f4632cd797b455b5dc416ee2a6886aef3fa9",
+      "node_type": "thematicBreak",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "-----------------------------------------------------"
+      }
+    },
+    {
+      "segment_id": "418617bd",
+      "source_content": "## Informacje techniczne",
+      "source_content_hash": "3dfe84774725c9ca724b9d3eab0440e4139e6b15e87494c029c9dae93ac448e7",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 技术信息"
+      }
+    },
+    {
+      "segment_id": "40f9552a",
+      "source_content": "### Proces webcmd",
+      "source_content_hash": "5a8844993da196ae130630e838c57b797afdfbbdece1296c585f1478ab562396",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### webcmd进程"
+      }
+    },
+    {
+      "segment_id": "f2c2bdd0",
+      "source_content": "Procesami na bramce steruje [Menedżer procesów PM2](http://pm2.keymetrics.io/).\nPM2 odpowiedzialny jest też za uruchomienie udostępniania terminala bramki w aplikacji webowej (uruchomienie procesu webssh) po starcie systemu, a następnie czuwa nad jego ciągłym działaniem.",
+      "source_content_hash": "06d8ff68fb12f66c8f4ba931f060907e0918598b7787c50e121d90705f504fed",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "网关进程由[PM2进程管理器](http://pm2.keymetrics.io/)控制。PM2负责在系统启动时运行网关终端网页应用（即启动webssh进程），并持续监控其运行状态。"
+      }
+    },
+    {
+      "segment_id": "d9172fa4",
+      "source_content": "Żeby zobaczyć status procesu webcmd w konsoli wpisujemy:",
+      "source_content_hash": "d59d14acf01f57c10e7eac1a294a61518919ecf690003375aebef9e2083a2159",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "查看webcmd进程状态需在控制台输入："
+      }
+    },
+    {
+      "segment_id": "b7c3dbd1",
+      "source_content": "```\npm2 show webcmd\n```",
+      "source_content_hash": "05ac7d97dba06c26d442edf45bbee4d79e5c561ad84cc97604a8bbe4465a948a",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_b7c3dbd1"
+      }
+    },
+    {
+      "segment_id": "7499a4e7",
+      "source_content": "![webssh](/img/en/bramka/web_cmd_pm2.png)",
+      "source_content_hash": "d1a7d9bfd89c352cc6922ba2c2d30066e047a159d6f9b97e8d9e1df966c8252d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![webssh](/img/en/bramka/web_cmd_pm2.png)"
+      }
+    },
+    {
+      "segment_id": "3b7478ea",
+      "source_content": "### Kody",
+      "source_content_hash": "f714b9e774c7bb7be8671f071add272c8c19ad297e1b0478b561caee931afc27",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 代码实现"
+      }
+    },
+    {
+      "segment_id": "c3a738de",
+      "source_content": "Funkcjonalność menedżer plików realizowana jest przez aplikację [AIS-webcmd](https://github.com/sviete/AIS-webcmd).\nAplikację tą publikujemy też w formie pakietu w repozytorium npm",
+      "source_content_hash": "9cf9d3206523ba8dea6acc7ab908c5d5a0f74f512141eb522f8f4e35f3954ed2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "文件管理功能由[AIS-webcmd](https://github.com/sviete/AIS-webcmd)应用实现。该应用同时以npm包形式发布在仓库中："
+      }
+    },
+    {
+      "segment_id": "50746522",
+      "source_content": "![MQTT broker](/img/en/bramka/web_cmd_npm.png)",
+      "source_content_hash": "848e8d8c1f47cf4fd0ecb542a5b10a4d8963cd8d197c75c2880c9d51d2abd93f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![MQTT broker](/img/en/bramka/web_cmd_npm.png)"
+      }
+    },
+    {
+      "segment_id": "35a77014",
+      "source_content": "### Dostęp tylko lokalny",
+      "source_content_hash": "8515cb926ba1aa70c2d132d1354e58120acb56b2e990c9ade676334fd5433d9d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 仅限本地访问"
+      }
+    },
+    {
+      "segment_id": "13d9cd70",
+      "source_content": "Konsola umożliwia dostęp do konta **root** i pozwala na zrobinie wszystkiego w systmie. Dlatego dostęp do niej jest tylko z sieci lokalnej:",
+      "source_content_hash": "530f56308ca0328d4a7f15298b07c8c36e2cb6e139f22b030a8d3c3b7f7af9c0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该控制台具有**root**账户权限，可执行系统所有操作。因此仅开放局域网访问权限："
+      }
+    },
+    {
+      "segment_id": "29528c8d",
+      "source_content": "![MQTT broker](/img/en/bramka/ttyd_local_only.png)",
+      "source_content_hash": "ad9009dda0bd23a26734dceb96f7c316d93d23c717da3f0c388b99195079a3ca",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![MQTT broker](/img/en/bramka/ttyd_local_only.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_app_integration_manager.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.131453+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "a8066a5e5387dda88df062df765f9c85798fe89fd0c7b0282bea5ee87f1fd876"
+  }
+}

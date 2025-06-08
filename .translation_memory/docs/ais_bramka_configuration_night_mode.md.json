@@ -1,0 +1,72 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_configuration_night_mode.md",
+  "source_file_content_hash": "480a24c75ac0a6d1a6ac0f03be81f66fb143ae69218bfb8cc99706ede64b58af",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Konfiguracja bramki - Tryb nocny\"\nsidebar_label: Tryb nocny\n---",
+      "source_content_hash": "8aa4bb4c9ed8570f247b066321e54499d5133f9a4d6f20eceb82e51f6b6da46b",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Możesz ustalić, w jakich godzinach asystent ma ściszać audio oraz zmieniać wygląd aplikacji na \"nocny\"",
+      "source_content_hash": "c12f880f672f47f85c3b7889261ac094a831cc04e47a97f05815fdbe5aac164a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "您可以设置助手在特定时段降低音频音量，并将应用界面切换为\"夜间模式\""
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "![Tryb nocny](/img/en/bramka/config_ais_dom_section5.png)",
+      "source_content_hash": "57ae39be910640a3cc2bc8d9b6cc10a1abd47a3688b5a2c81faedd797fd5c6e2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![夜间模式](/img/en/bramka/config_ais_dom_section5.png)"
+      }
+    },
+    {
+      "segment_id": "8ac585fb",
+      "source_content": "Gdy włączysz tryb nocny to o wybranej godzinie asystent:",
+      "source_content_hash": "ab37e466f88e44571d8c74d6acff9651d52f65af0c751660d49a5a4a6e0764e9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "启用夜间模式后，系统将在指定时间自动执行以下操作："
+      }
+    },
+    {
+      "segment_id": "143e51c1",
+      "source_content": "* zredukuje głośność czytanych powiadomień do 20%\n* zredukuje głośność odtwarzacza audio do 20%\n* zmieni motyw wyglądu aplikacji na nocny\nPo zakończeniu ciszy nocnej, o wybranej godznie, głośność i wygląd zostaną automatycznie przywrócone do wartości przed ciszą nocną.",
+      "source_content_hash": "2661eef529e5d4b368608bfe186f8aff9feb5cfe04bf048c27f0da26587f2a24",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "* 将通知朗读音量降低至20%\n* 将音频播放器音量降低至20%\n* 将应用主题切换为夜间界面\n当夜间静默时段结束后，系统会在预设时间自动恢复音量和界面至夜间模式前的状态"
+      }
+    },
+    {
+      "segment_id": "42ad8e83",
+      "source_content": "![Tryb nocny](/img/en/bramka/config_ais_dom_section5_2.png)",
+      "source_content_hash": "f0ca44df954e53b919ee60980c549b44d1b7b3002c6c17118034e497b4f79c95",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![夜间模式](/img/en/bramka/config_ais_dom_section5_2.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_configuration_night_mode.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.104374+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "480a24c75ac0a6d1a6ac0f03be81f66fb143ae69218bfb8cc99706ede64b58af"
+  }
+}

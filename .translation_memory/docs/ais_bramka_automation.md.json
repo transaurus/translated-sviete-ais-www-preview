@@ -1,0 +1,402 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_automation.md",
+  "source_file_content_hash": "5c359199a54287faa9e44a2d98c9a72ddb98a54c9df891bffca300a65104190b",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Definiowanie Automatyzacji\"\nsidebar_label: Definiowanie Automatyzacji\n---",
+      "source_content_hash": "01d47113079ee185c0b63fb23450cd790cc8d214d2e17584ede5e1889cd98f6e",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Wprowadzenie",
+      "source_content_hash": "138964b3f05ef631ae55efd030ca96538eb5d783961ef7b978515da6c937d13f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 简介"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Po podłączeniu i skonfigurowaniu urządzeń nadszedł czas, aby dodać pierwszą automatyzację. W tym przewodniku pokazujemy jak stworzyć prostą regułę automatyzacji, która włącza oświetlenie, gdy zachodzi słońce.",
+      "source_content_hash": "7129333ab20eb29e98da87be5de12927c1ccbcb9da074b76465cc6c9816c4cd1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "设备连接并配置完成后，现在可以添加第一个自动化规则。本指南将演示如何创建一个简单的自动化规则，在日落时开启照明。"
+      }
+    },
+    {
+      "segment_id": "8a5f6a7b",
+      "source_content": "## Przejście do automatyzacji",
+      "source_content_hash": "cf436d305c34e69eafc3b7ccd6ba71da9fb7888b1f8b060216e1ed12393de80e",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 进入自动化设置"
+      }
+    },
+    {
+      "segment_id": "180bddb1",
+      "source_content": "W aplikacji Asystent domowy otwórz menu (klikając ikonę w lewym górnym rogu) a następnie kliknij w konfigurację.",
+      "source_content_hash": "33177f3f0eb76701e0119ce964149e2b793f9db334e45abbae02b0fc24f4cb1a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在家庭助手应用中，点击左上角菜单图标打开菜单，然后点击配置。"
+      }
+    },
+    {
+      "segment_id": "cf898102",
+      "source_content": "![Ekran z listą automatyzacji](/img/en/bramka/automation1.png)",
+      "source_content_hash": "fcb6495761ec94066a5136c1028cf1f58b460b28fca212d48fca80a09a4689cc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![自动化列表界面](/img/en/bramka/automation1.png)"
+      }
+    },
+    {
+      "segment_id": "3daf1b88",
+      "source_content": "## Ekran z listą automatyzacji",
+      "source_content_hash": "380e3f7532106f58af87587b31d8996796d6f3ddf8f80798fee84eda8e25cbef",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 自动化列表界面"
+      }
+    },
+    {
+      "segment_id": "39b3772c",
+      "source_content": "Teraz kliknij na automatyzację. Jest to ekran z listą automatyzacji, z którego można zarządzać wszystkimi automatyzacjami w systemie.",
+      "source_content_hash": "46995b76e1b3bc243b0d4d3ecee54cd176e02a80094781b46de79ac65b69e330",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "现在点击\"自动化\"。这是系统内管理所有自动化规则的列表界面。"
+      }
+    },
+    {
+      "segment_id": "1acb9a05",
+      "source_content": "![Przejście do automatyzacji](/img/en/bramka/automation2.png)",
+      "source_content_hash": "89e8e8afde5997b0bd876b771a7a2311768c660ae3ccf25bbdbd11e40159b503",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![进入自动化设置](/img/en/bramka/automation2.png)"
+      }
+    },
+    {
+      "segment_id": "63622bf0",
+      "source_content": "## Definicja automatyzacji",
+      "source_content_hash": "1b1c1f3a6bc6a34723819d7bbfd462bc62c29f3181e9e7e6fe3b9ddccf80b5d0",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 定义自动化规则"
+      }
+    },
+    {
+      "segment_id": "98cfbd53",
+      "source_content": "Kliknij pomarańczowy przycisk w prawym dolnym rogu, aby utworzyć nową automatyzację. Zostanie wyświetlony ekran do konfiguracji automatyzacji.",
+      "source_content_hash": "5c8040af5544a430bd305e11067640dd28785f043b0ffccf20867524e5c80abc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "点击右下角的橙色按钮创建新自动化。将显示自动化配置界面。"
+      }
+    },
+    {
+      "segment_id": "ccc88b4c",
+      "source_content": "![Dodanie nowej automatyzacji](/img/en/bramka/automation3.png)",
+      "source_content_hash": "1d38ae36d9200ae82d450a2bbc5ecfbf71ce0f9c12d13324b680d8797a992ac1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![添加新自动化](/img/en/bramka/automation3.png)"
+      }
+    },
+    {
+      "segment_id": "3c36424c",
+      "source_content": "### Ustawienie nazwy automatyzacji",
+      "source_content_hash": "54173b5bc1742239184c3e4c15e9ea685ed575f6ec8a494af8154ff899f5e6c6",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 设置自动化名称"
+      }
+    },
+    {
+      "segment_id": "26524352",
+      "source_content": "Pierwszą rzeczą, jaką zrobimy, jest ustawienie nazwy. Wprowadź „Włącz oświetlenie bramy wjazdowej po zachodzie słońca”.",
+      "source_content_hash": "d27959f5b98ebe753f56dd66ddeeedf5820b9d35cd723df8deed72bb7b8cba1c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "首先设置名称。输入\"在日落时开启入口照明\"。"
+      }
+    },
+    {
+      "segment_id": "73ab96a3",
+      "source_content": "![Ustawienie nazwy automatyzacji](/img/en/bramka/automation4.png)",
+      "source_content_hash": "2c057d792dcd90299e520dd9e1436661118811bf3f7bf7ccfb8883c0ff67d928",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![设置自动化名称](/img/en/bramka/automation4.png)"
+      }
+    },
+    {
+      "segment_id": "a1b3d8cb",
+      "source_content": "### Wyzwalacze automatyzacji",
+      "source_content_hash": "8760f97864383ece4924a3450ebe96da6200b1732f86caf27c153872de7eb9a5",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 自动化触发器"
+      }
+    },
+    {
+      "segment_id": "517051a7",
+      "source_content": "Drugim krokiem jest określenie, co powinno uruchomić naszą automatyzację. W tym przypadku chcemy użyć zdarzenia **zachód słońca**, aby ją uruchomić. Możemy dodać też przesunięcie czasowe tak, żeby włączyć oświetlenie np. na 15 minut przed zachodem (ponieważ po zachodzie jest już dość ciemno).",
+      "source_content_hash": "dbaec7ce88f1f948fc8c78b96b2356fae9223216469dc3c978eb1eb3f9bdf7f6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "第二步是确定触发条件。本例中我们使用\"日落\"事件作为触发器。可以添加时间偏移量，例如在日落前15分钟开启照明（因为日落后天色已暗）。"
+      }
+    },
+    {
+      "segment_id": "135468ee",
+      "source_content": "W sekcji wyzwalacza kliknij rozwijaną listę i zmień typ wyzwalacza na **Słońce**. Następnie wybierz **zachód słońca**. Ponieważ chcemy, aby nasza automatyzacja była uruchamiana 15 minut przed faktycznym zachodem słońca, dlatego dodajmy -0:15 do przesunięcia. Oznacza to, że uruchomimy ją 15 minut przed faktycznym zachodem słońca.",
+      "source_content_hash": "3315616391f02279eb26a1b81db385061f0114eac9cb5dad84d491d8fd3c94a5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在触发器部分点击下拉列表，将触发器类型改为\"太阳\"。然后选择\"日落\"。由于我们希望自动化在实际日落前15分钟触发，因此添加-0:15的时间偏移量。"
+      }
+    },
+    {
+      "segment_id": "33331f27",
+      "source_content": "![Dodanie nowej automatyzacji](/img/en/bramka/automation5.png)",
+      "source_content_hash": "11671184e393aa6e70bf39bb83f46e71ed50f697b3fb4f9857c14eab9912c1ef",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![添加新自动化](/img/en/bramka/automation5.png)"
+      }
+    },
+    {
+      "segment_id": "8d04259b",
+      "source_content": "### Akcje automatyzacji",
+      "source_content_hash": "db041da273e95c53a49be3773ddd426e3fb9bd0a583ef217518cb66988cffbca",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 自动化动作"
+      }
+    },
+    {
+      "segment_id": "95e9ba12",
+      "source_content": "Po zdefiniowaniu naszego wyzwalacza przejdź w dół do sekcji Akcje (pomijając opcjonalną sekcję Warunki).",
+      "source_content_hash": "bf5cc1488dc3a2cde1b4d68b4dfce7cb645d61352c24e6838bd48d6ce406b495",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "定义完触发器后，向下滚动到\"动作\"部分（可跳过可选的\"条件\"部分）。"
+      }
+    },
+    {
+      "segment_id": "8af76f3d",
+      "source_content": "Upewnij się, że typ akcji jest ustawiony na **Urządzenie** i wybierz urządzenie z listy **Lampy zewnętrzne** - oczywiście w Twoim przypadku może być inaczej w zależności od tego jak nazwałeś swoje urządzenie. Nastepnie w polu **Akcja** wybierz **Włącz lampy zewnętrzne**",
+      "source_content_hash": "6efd6ec6b633b5317eb690543b38ebfccc93bd7bd5938d4206bac75d5e664186",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "请确保操作类型设置为**设备**，并从**外部灯具**列表中选择您的设备——当然，根据您对设备的命名，实际选项可能有所不同。接着在**操作**字段中选择**开启外部灯具**。"
+      }
+    },
+    {
+      "segment_id": "a9d49f92",
+      "source_content": "![Dodanie nowej automatyzacji](/img/en/bramka/automation6.png)",
+      "source_content_hash": "abf472ed638047b4fd7f6b0de8fd0efd4412981695d5624d3410ba15e760adab",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Dodanie nowej automatyzacji](/img/en/bramka/automation6.png)"
+      }
+    },
+    {
+      "segment_id": "7d0728d9",
+      "source_content": ":::tip[Wskazówka]\nW ten sam sposób, w jednej automatyzacji możesz też dodać akcję `opóźnienie`, a następnie akcję `wyłącz`, żeby mieć sterowanie w jednym miejscu.\n:::",
+      "source_content_hash": "ccc7b4295f5a32f08c67d3d77cedfe2dd1e17ae80078cc6a3c2b894abce85f4e",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::tip[小技巧]\n您可以在同一自动化规则中添加`延迟`操作，随后再添加`关闭`操作，从而实现集中控制。\n:::"
+      }
+    },
+    {
+      "segment_id": "98d26038",
+      "source_content": "![Dodanie nowej automatyzacji](/img/en/bramka/automation_6_1.png)",
+      "source_content_hash": "6116e1b19509f7cb2d28e02121808d2c3c6af0c30e6c1b6929c03d506b025534",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Dodanie nowej automatyzacji](/img/en/bramka/automation_6_1.png)"
+      }
+    },
+    {
+      "segment_id": "d3649a1e",
+      "source_content": "Kliknij pomarańczowy przycisk w prawym dolnym rogu, aby zapisać definicję automatyzacji.",
+      "source_content_hash": "97d19d71093b02da4f08b257fa837ee3033f95e87e5c67f60e053f607ae059b2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "点击右下角的橙色按钮保存自动化规则定义。"
+      }
+    },
+    {
+      "segment_id": "e50bebbf",
+      "source_content": "### Edycja i zarządzanie",
+      "source_content_hash": "410259cc4c5ca700116b3b72a4d00b5889bb8d1ec73a3d056f5f12c2c14e2e29",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 编辑与管理"
+      }
+    },
+    {
+      "segment_id": "23dfb152",
+      "source_content": "**Gratulacje! Dodałeś pierwszą automatyzację :)**",
+      "source_content_hash": "0e19176ea6f26f813d9832c09382bc80df7023140e0236d72e8cff81e50e853e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "**恭喜！您已成功添加第一条自动化规则 :)**"
+      }
+    },
+    {
+      "segment_id": "1131ef75",
+      "source_content": "Możesz wrócić do ekranu z listą automatyzacji, z którego można zarządzać i edytować wszystkie automatyzacje w systemie.",
+      "source_content_hash": "92ff167029fd4ddf49529e122eb808668fbfe51551d3a51ae272f69459929068",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "您可以返回自动化列表界面，在此管理并编辑系统中的所有自动化规则。"
+      }
+    },
+    {
+      "segment_id": "8b2a52b1",
+      "source_content": "![Dodanie nowej automatyzacji](/img/en/bramka/automation8.png)",
+      "source_content_hash": "ffee734dd1b3de7c082a2cd0746d9cba61dae69a28d257766c2128af359a6efc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Dodanie nowej automatyzacji](/img/en/bramka/automation8.png)"
+      }
+    },
+    {
+      "segment_id": "5dae11e3",
+      "source_content": "Z tego miejsca możesz też wypróbować działanie swojej nowej automatyzacji uruchamiając ją ręcznie",
+      "source_content_hash": "f7de5ac63d12ce511b01bc3fd5b1c89140481210c15fa09d9bd2f4698bcd60e8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在此界面您还可以手动触发新创建的自动化规则进行测试"
+      }
+    },
+    {
+      "segment_id": "0bb95128",
+      "source_content": "![Dodanie nowej automatyzacji](/img/en/bramka/automation9.png)",
+      "source_content_hash": "81e271cf2aea4540867cfb988cadd6436cfa15c51d5deeac17e0427fdee7ab8f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Dodanie nowej automatyzacji](/img/en/bramka/automation9.png)"
+      }
+    },
+    {
+      "segment_id": "ee8401db",
+      "source_content": "## Schemat automatyzacji",
+      "source_content_hash": "f6e32c06e74c707ff40ad2ec27feb273cc7dd5f46f5441bcbc5ed35e8ee4b339",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 自动化方案"
+      }
+    },
+    {
+      "segment_id": "147e8550",
+      "source_content": "Powyższą automatyzację możemy w łatwy sposób utworzyć na podstawie gotowego [schematu automatyzacji](ais_bramka_automation_blueprint).",
+      "source_content_hash": "043ea7f7ca2dfe88c37213373b620bfe0b0d3eabdb49fcaa29ff8f4283205916",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "上述自动化规则可通过现成的[自动化方案](ais_bramka_automation_blueprint)快速创建。"
+      }
+    },
+    {
+      "segment_id": "883231d4",
+      "source_content": "Wystarczy, że:",
+      "source_content_hash": "61d6b0597f4d039c154924ea1f066f804ca95233dc54008178d34eb1a7fa31cd",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "只需："
+      }
+    },
+    {
+      "segment_id": "aa0bd54f",
+      "source_content": "1. Wybierzemy predefiniowany schemat **Oświetlenie po zachodzie słońca**",
+      "source_content_hash": "459d4081cdfd616b70b6771dc9f564d4f33150686a9ff97396d5a9548e84148a",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "1. 选择预设方案**日落照明**"
+      }
+    },
+    {
+      "segment_id": "afa378f7",
+      "source_content": "![Dodanie nowej automatyzacji](/img/en/bramka/blueprint_light_0.png)",
+      "source_content_hash": "f7357469bf7ffd6cfa1263b76f47a1566a474b766b02b17290d789dea7737aca",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Dodanie nowej automatyzacji](/img/en/bramka/blueprint_light_0.png)"
+      }
+    },
+    {
+      "segment_id": "1316cb90",
+      "source_content": "2. Uzupełnimy i zapiszemy zdefiniowany szablon:",
+      "source_content_hash": "fdeac924c06a482294d315f54920c69ba75ff51f8a14bba508ab3336b51f0a8b",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "2. 完善并保存定义好的模板："
+      }
+    },
+    {
+      "segment_id": "463ed165",
+      "source_content": "![Dodanie nowej automatyzacji](/img/en/bramka/blueprint_light.png)",
+      "source_content_hash": "fa3a7fb405e2e69cbd929fa35c407973ae17c75338978623eae929f28fba08eb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Dodanie nowej automatyzacji](/img/en/bramka/blueprint_light.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_automation.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.125554+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "5c359199a54287faa9e44a2d98c9a72ddb98a54c9df891bffca300a65104190b"
+  }
+}

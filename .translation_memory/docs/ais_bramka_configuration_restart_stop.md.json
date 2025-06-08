@@ -1,0 +1,42 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_configuration_restart_stop.md",
+  "source_file_content_hash": "67ee3ea118e3bd66d3b3b5aa07e78967acfde98015de4b0e3cbcd6da291437b3",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Konfiguracja bramki - Zatrzymanie bramki\"\nsidebar_label: Zatrzymanie bramki\n---",
+      "source_content_hash": "f7b8840601f9dfac329f62465b62bc57df889a336110aec68dd781be0f357cca",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "W tej sekcji możesz zrestartować lub całkowicie wyłączyć bramkę",
+      "source_content_hash": "c4dba2652713eff51a64c938b69804588bde790956d8daf2b2e7d064ed3b92b5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在本节中，您可以重启或完全关闭网关设备"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "![Zatrzymanie bramki](/img/en/bramka/config_ais_dom_section7.png)",
+      "source_content_hash": "43ecab0c389fc2e112a14c282ed8e0e233b8affa8dd92b179296a5899c83a2fc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![停止网关运行](/img/en/bramka/config_ais_dom_section7.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_configuration_restart_stop.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.090464+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "67ee3ea118e3bd66d3b3b5aa07e78967acfde98015de4b0e3cbcd6da291437b3"
+  }
+}

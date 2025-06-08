@@ -1,0 +1,702 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2020-09-09-release-notes.md",
+  "source_file_content_hash": "8ae39cefee125ce566afe4d775045d0d17199485b4badee09fe8f31bcf6d655e",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Jola AI-Speaker\nauthorURL: https://github.com/sviete\nauthor_title: Asystentka\nauthorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4\ntitle: Wersja systemu 0.114.5\ntags: [\"sync\", \"demo\", \"home assistant\", \"zigbee2mqtt\", \"nfc\", \"wearos\", \"tasmota\"]\n---",
+      "source_content_hash": "fc1dbfcb98c40e99b760af7c77ba326c8a0308aff18c14160351f1c67fb126d9",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "1cc03ec8",
+      "source_content": "# 0.114.5 NFC+",
+      "source_content_hash": "3f3aeea1162b8d8bb970d0ee55b1e8961af0eed57557031717e3db69f526878e",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# 0.114.5 NFC+"
+      }
+    },
+    {
+      "segment_id": "143e51c1",
+      "source_content": "- ![AIS MOB NFC+](/img/en/blog/202009/tag.png) **Skanowanie tagów NFC**\n- ![AIS Wear OS](/img/en/blog/202009/watch.png) Integracja AIS Wear OS\n- ![Synchronizacja](/img/en/blog/202009/sync.png) Synchronizacja z bramką\n- ![Poprawki](/img/en/blog/202009/fixes.png) Poprawki i ułatwienia\n- ![Demo](/img/en/blog/202009/demo.png) DEMO Aplikacji\n- ![Tasmota](/img/en/blog/202005/tasmota_small.png) Tasmota 8.5.0 Hannah\n- ![Zigbee](/img/en/blog/202007/zigbee.png) Zigbee2Mqtt 1.14.4 \n- ![Home Assistant](/img/en/blog/202007/hass.png) Home Assistant 0.114.4",
+      "source_content_hash": "3e5bf6b394f73b5de21596736efd387f8dd9483c8edfd994e703e78b23545a24",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- ![AIS MOB NFC+](/img/en/blog/202009/tag.png) **NFC标签扫描**\n- ![AIS Wear OS](/img/en/blog/202009/watch.png) AIS Wear OS集成\n- ![Synchronizacja](/img/en/blog/202009/sync.png) 与网关同步\n- ![Poprawki](/img/en/blog/202009/fixes.png) 修复与优化\n- ![Demo](/img/en/blog/202009/demo.png) 应用演示\n- ![Tasmota](/img/en/blog/202005/tasmota_small.png) Tasmota 8.5.0 Hannah\n- ![Zigbee](/img/en/blog/202007/zigbee.png) Zigbee2Mqtt 1.14.4 \n- ![Home Assistant](/img/en/blog/202007/hass.png) Home Assistant 0.114.4"
+      }
+    },
+    {
+      "segment_id": "ea978e4d",
+      "source_content": "<!--truncate-->",
+      "source_content_hash": "f5cded2aa7e288e395fe4f67f9dabda2281904b2f5358d07302b3aa8be0acdfa",
+      "node_type": "comment",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_ea978e4d"
+      }
+    },
+    {
+      "segment_id": "95b38f97",
+      "source_content": "## ABC bezproblemowej aktualizacji",
+      "source_content_hash": "c90f3410f68be4e7ee6017947af078313ab12a12edc09598ec43646aef83e69a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 无忧升级指南"
+      }
+    },
+    {
+      "segment_id": "a2f1eaea",
+      "source_content": ":::tip[Kopia zapasowa.]\nKopia zapasow![A](/img/en/blog/202009/alpha-a-circle.png).\n\nUWAGA Przed aktualizacją zalecamy wykonać [kopię zapasową konfiguracji](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji). W ten sposób sprawdzisz poprawność swojej konfiguracji przed rozpoczęciem aktualizacji i zwiększysz prawdopodobieństwo bezproblemowej aktualizacji.\n:::",
+      "source_content_hash": "4fe3228d28bd9f1a6950be13f57b11920ffeeda916e9df38bbc21c44079c9f14",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::tip[备份]\n备份![A](/img/en/blog/202009/alpha-a-circle.png)\n\n注意：升级前建议先进行[配置备份](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji)。这样可以提前验证配置正确性，提高升级成功率。\n:::"
+      }
+    },
+    {
+      "segment_id": "0d170438",
+      "source_content": ":::important[Bramka, konsola i logi.]\n![A](/img/en/blog/202009/alpha-b-circle.png)ramka, konsola i logi.\n\nW razie problemów z aktualizacją, sprawdź procedurę [Aktualizacja z konsoli](/docs/ais_bramka_update_manual) lub [Wykonanie pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step).\nTo może dotyczyć szczególnie osób, które instalują na bramce dodatkowe niestandardowe komponenty.\n:::",
+      "source_content_hash": "fcd1b0e612a7b9cca93c4dfe0c9dd1655a54a15b335e126ae7cad58cc3f6d60e",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::important[网关、控制台与日志]\n![A](/img/en/blog/202009/alpha-b-circle.png)网关、控制台与日志\n\n若升级遇到问题，请参考[控制台升级指南](/docs/ais_bramka_update_manual)或[完全重置应用步骤](/docs/ais_bramka_reset_ais_step_by_step)。特别适用于安装了非标准组件的用户。\n:::"
+      }
+    },
+    {
+      "segment_id": "84650edb",
+      "source_content": ":::caution[Poczekaj cierpliwie.]\nPoczekaj ![A](/img/en/blog/202009/alpha-c-circle.png)ierpliwie. Pierwsze uruchomienie po aktualizacji trwa dłużej.\n\n **Po aktualizacji pierwsze uruchomienie może trwać nawet 20 minut.**\n W tym czasie aktualizowane są biblioteki do integracji dodanych na bramce i baza danych jest migrowana do nowego formatu.\n **Poczekaj cierpliwie na zakończenie aktualizacji.**\n:::",
+      "source_content_hash": "f0f857e55b57498cc1658f0a4f0b03e0f4358eff16c12b55bcf31962bc734cec",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[耐心等待]\n耐心![A](/img/en/blog/202009/alpha-c-circle.png)等待。升级后首次启动耗时较长。\n\n**升级后首次启动可能长达20分钟**  \n此时系统正在更新集成库并将数据库迁移至新格式。  \n**请耐心等待升级完成**\n:::"
+      }
+    },
+    {
+      "segment_id": "c674e260",
+      "source_content": "## ![](/img/en/blog/202009/tag.png) Skanowanie tagów NFC",
+      "source_content_hash": "d4188c2714920c5137fcbee38f387c0ac3954ea39bb77fa8b61aafa54e65bac8",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202009/tag.png) NFC标签扫描"
+      }
+    },
+    {
+      "segment_id": "c504c207",
+      "source_content": "W dokumentacji naszej mobilnej aplikacji opisujemy jej nową funkcjonalność - skanowanie tagów NFC\nJako część opisu działania automatyzacji na bramce dodaliśmy [przykłady automatyzacji wyzwalanych tagiem NFC](/docs/ais_bramka_tag_automation)",
+      "source_content_hash": "e8df5cb5f6b9ae347cb549c52e0007d152a9fb923184e9ab13da7a91395c2c6d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们在移动应用文档中新增了NFC标签扫描功能说明，并针对网关自动化场景添加了[NFC标签触发自动化示例](/docs/ais_bramka_tag_automation)"
+      }
+    },
+    {
+      "segment_id": "b36c6338",
+      "source_content": "Jak to działa prezentujemy na filmie poniżej:",
+      "source_content_hash": "773d712c252d159b92f5dc568fe67f96f9c62d9bf357f01740df5d97784efe2b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "下方视频演示具体操作："
+      }
+    },
+    {
+      "segment_id": "bc38848e",
+      "source_content": "<iframe width=\"560\" height=\"315\"  src=\"https://www.youtube.com/embed/nzRBeRZZX7Q\" frameBorder=\"0\" allowFullScreen></iframe>",
+      "source_content_hash": "dd868e7ed2ec1763f196771d442018bbed0313b9356955c278b46b415e2d6b12",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_bc38848e"
+      }
+    },
+    {
+      "segment_id": "ab5fc5b5",
+      "source_content": "## ![](/img/en/blog/202009/watch.png) Integracja AIS Wear OS",
+      "source_content_hash": "cb514130b757af052f9079fa789c3fbcaa0570ddc159f8592aaea8fc44c9cde2",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202009/watch.png) AIS Wear OS集成"
+      }
+    },
+    {
+      "segment_id": "6ea4c715",
+      "source_content": "Zakup zegarka z Wear OS przez naszego programistę ;) zaowocował wieloma usprawnieniami w aplikacji Wear OS.",
+      "source_content_hash": "7d8f5875993a666daee38dfa1c9dc75cd5187d46258331750b257008ee728ba6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "开发人员自购Wear OS手表后，我们对该应用进行了多项优化。"
+      }
+    },
+    {
+      "segment_id": "79ad944d",
+      "source_content": "![Wear OS](/img/en/blog/202009/wear_os_1.jpeg)",
+      "source_content_hash": "ef0bf56df62e3aebd59c6e2c014ec8cfd0f8f7baefd77382c0cd1c8952ea2cad",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Wear OS](/img/en/blog/202009/wear_os_1.jpeg)"
+      }
+    },
+    {
+      "segment_id": "0bb95128",
+      "source_content": "Integrację [AIS Wear OS](/docs/ais_app_android_dom_wear) możemy teraz dodać za pomocą prostego kreatora z poziomu integracji:",
+      "source_content_hash": "004867f55fe7f802f6aeb679d7b463be98ab421a26fd371e41649ce3f0c33e66",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "现在可通过集成页面的向导快速添加[AIS Wear OS](/docs/ais_app_android_dom_wear)集成："
+      }
+    },
+    {
+      "segment_id": "657c2b20",
+      "source_content": "![Wear OS](/img/en/frontend/wear_os_wiz_2.png)",
+      "source_content_hash": "5a666aeaac281e20fadf14612a4a40bd6827c55a7aeeaf97a293c47f52bd1b0c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Wear OS](/img/en/frontend/wear_os_wiz_2.png)"
+      }
+    },
+    {
+      "segment_id": "d422fb13",
+      "source_content": "## ![](/img/en/blog/202009/sync.png) Synchronizacja z bramką",
+      "source_content_hash": "c585a18f214bc63d9926873d509596bc62cd6e9107cd39347b2310801ed467b7",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202009/sync.png) 与网关同步"
+      }
+    },
+    {
+      "segment_id": "f01228d3",
+      "source_content": "W nowej wersji aplikacji mobilnej możemy włączyć opcję raportowania do bramki, spowoduje to uruchomienie serwisu, który okresowo (**nie częściej niż co 15 minut**) będzie przesyłał do bramki lokalizację urządzenia oraz informacje o stanie czujników w telefonie. Na początek okresowo raportujemy 3 rzeczy: Lokalizację, adres oraz status baterii.",
+      "source_content_hash": "e301065027c3e58ffed21491232a9b4584ce8410105570bd1fd6e7c08849b402",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在新版移动应用中，我们可以启用\"向网关报告\"功能，这将启动一个定期服务（**间隔不短于15分钟**），向网关发送设备位置信息及手机传感器状态。初始阶段我们定期报告三项数据：定位坐标、详细地址及电池状态。"
+      }
+    },
+    {
+      "segment_id": "afa378f7",
+      "source_content": "![GPS](/img/en/frontend/apk_report_gps2.png)",
+      "source_content_hash": "9141fc10b622175dfe5bd57a5cf0443a09deff9a77cfc37e063b86ff60ad0d0e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![GPS](/img/en/frontend/apk_report_gps2.png)"
+      }
+    },
+    {
+      "segment_id": "e8e162a9",
+      "source_content": "Podobną funkcjonalność szykujemy na [Wear OS](/docs/ais_app_android_dom_wear#synchronizacja-z-bramką) przy czym tu chodzi nam o okresowe raportowanie aktywności:",
+      "source_content_hash": "0bebf0707fb83577ac4dfeb7029b797507e21dda83f9bc2f9250879a7ddb68ae",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们正在为[Wear OS](/docs/ais_app_android_dom_wear#synchronizacja-z-bramką)开发类似功能，重点在于定期报告活动状态："
+      }
+    },
+    {
+      "segment_id": "463ed165",
+      "source_content": "![Wear OS](/img/en/blog/202009/wear_os_2.png)",
+      "source_content_hash": "7737e656cdaa2c79c936ca40f60ca9ba5edecc5c7ea7df39cc90960f1f5847b2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Wear OS](/img/en/blog/202009/wear_os_2.png)"
+      }
+    },
+    {
+      "segment_id": "a4bf4268",
+      "source_content": "## ![](/img/en/blog/202009/fixes.png) Poprawki i ułatwienia",
+      "source_content_hash": "b5f3b127e2b1ed39c2c951b3437e0fb32a086318e1433487893e59e72ad43b51",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202009/fixes.png) 修复与优化"
+      }
+    },
+    {
+      "segment_id": "ec619944",
+      "source_content": "Klika poparwek, które dodaliśmy i które da się zauważyć:",
+      "source_content_hash": "108146c6c45c2245089db5c5c5f8fca02442aa32b389159248f4181f535a120e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们实施了若干显著改进："
+      }
+    },
+    {
+      "segment_id": "887c863e",
+      "source_content": "1. Gdzie jest Jolka, ciąg dalszy...",
+      "source_content_hash": "3824a958a66413434830563ab13f3d8c91ce1007bece36740be504ec4e260bee",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "1. \"Jolka在哪\"功能增强"
+      }
+    },
+    {
+      "segment_id": "0750bfa1",
+      "source_content": "Dodaliśmy sensor z adresem lokalizacji wysyłanym z aplikacji mobilnej AIS dom i z aplikacji AIS dom Wear OS",
+      "source_content_hash": "250bf9d67fa924b2464f4d11bc8ff6cba228299b30c6a1aa632b14c46924125b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "新增了从AIS dom移动应用和AIS dom Wear OS应用发送的定位地址传感器"
+      }
+    },
+    {
+      "segment_id": "86348f98",
+      "source_content": "![FIX](/img/en/blog/202009/fix_1.png)",
+      "source_content_hash": "5801e09d5c67428ea38ed8f66d835a3829c72f978de6e4e3f0271e02744caaa2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![FIX](/img/en/blog/202009/fix_1.png)"
+      }
+    },
+    {
+      "segment_id": "6b77b644",
+      "source_content": "Pytanie ``Gdzie jest Osoba`` działa teraz tak:",
+      "source_content_hash": "f40c594a61944f76e559fbfb710fb6bfb7e0334c3a999e1152ac6912b4580e95",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "``某人在哪``查询现在的工作逻辑："
+      }
+    },
+    {
+      "segment_id": "e0019b35",
+      "source_content": "- jeżeli osoba jest w zdefiniowanej strefie (Dom, Praca, Szkoła …), to mówimy nazwę strefy\n![FIX](/img/en/blog/202009/fix_2.png)\n\n- jeżeli osoba jest poza strefą dom, to sprawdzamy ostatni zaraportowany adres (z ostatniego urządzenia które zaraportowało) i go mówimy:\n![FIX](/img/en/blog/202009/fix_3.png)",
+      "source_content_hash": "d1447fbe105a3e825711294ad66f31277a334e2590cc778b330ef896e7c6f0ae",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 若人员在预定义区域（家、公司、学校等），则播报区域名称\n![FIX](/img/en/blog/202009/fix_2.png)\n\n- 若人员不在家庭区域，则查询最近上报设备的地址信息并播报：\n![FIX](/img/en/blog/202009/fix_3.png)"
+      }
+    },
+    {
+      "segment_id": "2d15468d",
+      "source_content": "2. Możliwość podania adresu, na który chcemy przejść po kliknięciu w powiadomienie push",
+      "source_content_hash": "fa3617d3a8fd010e9a923f437bb44f5c8b67863ddf5ec3e616f065b16162783c",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "2. 新增点击推送通知跳转地址设置"
+      }
+    },
+    {
+      "segment_id": "a2c0166e",
+      "source_content": "Nowy parametr nazywa się ``click_action``",
+      "source_content_hash": "2ae394ea9dbe59a73b7fa5fde85360506acaa4fcee56c750fe36bc01b23e7ba1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "新参数名为``click_action``"
+      }
+    },
+    {
+      "segment_id": "c1eaf30b",
+      "source_content": "![FIX](/img/en/blog/202009/fix_4.png)",
+      "source_content_hash": "f79c161f0aeeb6af6469cfe1b1a06c2c260a5583a61a83287ec85d369fa27622",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![FIX](/img/en/blog/202009/fix_4.png)"
+      }
+    },
+    {
+      "segment_id": "0e80209e",
+      "source_content": "Czyli jeżeli np. mamy widok z kamerą o takim adresie ``/lovelace/cam``\n![FIX](/img/en/blog/202009/fix_6.png)",
+      "source_content_hash": "29ead25efaf251a79c51ff6ab80b0f5c19429b769c8dceb444791353bfbd096a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "例如当存在地址为``/lovelace/cam``的摄像头视图时：\n![FIX](/img/en/blog/202009/fix_6.png)"
+      }
+    },
+    {
+      "segment_id": "0801d969",
+      "source_content": "To po wywołaniu usługi powiadomienia z bramki do aplikacji mobilnej (za pomocą automatyzacji):\n![FIX](/img/en/blog/202009/fix_5.png)",
+      "source_content_hash": "13c019446d775e8069d12806b0480e97aa9e79f4e6cf9b32a530a0cdfe252a21",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过自动化从网关向移动应用发送通知服务：\n![FIX](/img/en/blog/202009/fix_5.png)"
+      }
+    },
+    {
+      "segment_id": "e9313fef",
+      "source_content": "Otrzymamy powiadomienie:",
+      "source_content_hash": "cae9eded1954cf02535035f9e6f8ca8b98a430de6db11175310990f9d7a59904",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "用户将收到如下通知："
+      }
+    },
+    {
+      "segment_id": "1b4de6df",
+      "source_content": "![FIX](/img/en/blog/202009/fix_6.jpeg)",
+      "source_content_hash": "0cc1e26d2ba95ca5c3cda86847257de75e9ca2a6e8747ff7e41d6ad728df4ac2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![FIX](/img/en/blog/202009/fix_6.jpeg)"
+      }
+    },
+    {
+      "segment_id": "396efb28",
+      "source_content": "którego kliknięcie spowoduje przejście do podanego adresu w powiadomieniu:",
+      "source_content_hash": "8aeb331e126bd530e4deadb1b79435532ca007c632f8690603e835db4762fa61",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "点击后将跳转至通知中指定的地址："
+      }
+    },
+    {
+      "segment_id": "558df877",
+      "source_content": "![FIX](/img/en/blog/202009/fix_7.jpeg)",
+      "source_content_hash": "72ecbd8c9dd79b06d5e6897540fe8e8eb4f93478d4bb83cc9cdb9b2cc475c563",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![FIX](/img/en/blog/202009/fix_7.jpeg)"
+      }
+    },
+    {
+      "segment_id": "82abb0a4",
+      "source_content": "3. Sterujemy głośnością odtwarzacza na bramce za pomocą przycisków vol+ / vol- w aplikacji mobilnej",
+      "source_content_hash": "d256fe18e21ded15e4c6bf2907b81a59f142d2b7aac67a9ee39057478603acb9",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "3. 通过移动应用音量键控制网关播放器音量"
+      }
+    },
+    {
+      "segment_id": "b9331170",
+      "source_content": "Aż dziwne, że to wcześniej nie działało ;)",
+      "source_content_hash": "6d858b4ccb5bed60a9aa53aa1f14ea0158b9a93dbc6069f6e3e18cfe02d14cc9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "令人惊讶的是这个功能之前居然没实现 ;)"
+      }
+    },
+    {
+      "segment_id": "8fcdd6d4",
+      "source_content": "![FIX](/img/en/blog/202009/fix_8.png)",
+      "source_content_hash": "56ddfad1027e35734a82d9c9d2906d8506964f44d7ba7cb7a68ec4c4f6395c44",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![FIX](/img/en/blog/202009/fix_8.png)"
+      }
+    },
+    {
+      "segment_id": "47cd8dd6",
+      "source_content": "## ![](/img/en/blog/202009/demo.png) DEMO Aplikacji",
+      "source_content_hash": "47b11f4ea7a1bd5a0374f6f921fa8635dbd6198ee804d2dae94b826cbe145b76",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202009/demo.png) 应用演示版"
+      }
+    },
+    {
+      "segment_id": "692c6053",
+      "source_content": "Nasze demo udostępniliśmy początkowo na serwerze w chmurze. Założenie od początku było takie, żeby pokazać nie prezentację, ale prawdziwą aplikację, która działa z prawdziwymi urządzeniami (przełącznikami, światłami, roletami, kamerami...).",
+      "source_content_hash": "8f03efddb33222fef5d0001cff6930ade062b9d2e03f96f02316b06a1096adda",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们最初将演示版部署在云端服务器上。从一开始的设想就是展示一个真实的应用程序，而非简单的演示——它能实际控制真实设备（开关、灯具、窗帘、摄像头等）。"
+      }
+    },
+    {
+      "segment_id": "383fbdd2",
+      "source_content": "Zaczęliśmy przekierowywać porty, stawiać brokery i podłączać urządzenia do chmury... i tu się pojawiły schody, bo nasze urządzenia działają oczywiście lokalnie, sterowanie nimi przez chmurę wymagało dodatkowej konfiguracji... postawiliśmy broker mqtt w chmurze i to działa OK. Niestety w przypadku kamer, głośników cast oraz zigbee2mqtt nie jest tak łatwo... sprawę głównie komplikuje nasz biurowy internet z Orange i ich Fun Box2, który sam sobie zmienia porty i wszystko psuje.",
+      "source_content_hash": "c05e7d00afa9d0e6c60b8b92d0164e609821cd6962a48693448c961b60f0a1dd",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们开始进行端口转发、搭建消息代理服务器并将设备接入云端...但问题随之而来：由于我们的设备本就是以本地运行为核心设计，通过云端控制它们需要额外配置...我们在云端搭建了MQTT消息代理服务器，这部分运行良好。然而对于摄像头、Cast音箱和zigbee2mqtt设备来说就没那么简单了...主要障碍来自我们办公室使用的Orange运营商Fun Box2路由器，它会自动变更端口导致故障。"
+      }
+    },
+    {
+      "segment_id": "14bc6b75",
+      "source_content": "Ostatecznie zrozumieliśmy, że nie ma co walczyć z wiatrakami, mamy przecież lepsze rozwiązanie (szyfrowany tunel do bramki) i demo będzie działało na takiej samej zasadzie jak każda bramka dom, a dokładnie ``dom-demo``.",
+      "source_content_hash": "1269ea76399718034826dfeb6b4a2c4616cc9a2f634d772e8a7ebd6640136a0a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "最终我们意识到不必逆势而为——我们本就有更优解（加密网关隧道）。演示版将采用与任何家庭网关相同的运作机制，具体来说就是通过``dom-demo``网关实现。"
+      }
+    },
+    {
+      "segment_id": "e478ec2c",
+      "source_content": "Na obecną chwilę demo mamy na naszej ``deweloperskiej bramce`` (maszyna, na której budujemy paczki z aplikacją) , tunelujemy aplikację na adres https://dom-demo.paczka.pro\nTen adres i ta architektura w przypadku demo już zostanie - w najbliższym czasie dokończymy konfigurację demo i ją oficjalnie udostępnimy do zabawy dla zainteresowanych.",
+      "source_content_hash": "77e276c7c918bfdc159dc4f0ad21939bc07712e81d623c87b14259a02c11d358",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "当前演示版运行在我们的``开发网关``（用于构建应用程序安装包的机器）上，通过隧道技术将应用映射至https://dom-demo.paczka.pro地址。该地址和架构方案将作为演示版的固定配置——我们将在近期完成最终调试后正式开放体验。"
+      }
+    },
+    {
+      "segment_id": "8664ed0b",
+      "source_content": "![](/img/en/blog/202009/demo2.png)",
+      "source_content_hash": "79cceac047162405bab70794408dc66bf00afafd92e3a93f9950fb868e3c1cd0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202009/demo2.png)"
+      }
+    },
+    {
+      "segment_id": "9e90a9b3",
+      "source_content": "Postaramy się też, żeby demo było łatwe i ładne :) zaawansowane konfiguracje zostawimy dla konta admin ;)",
+      "source_content_hash": "fd09426fe5aed6d747dce748deb1dcfaac485ab23eb47c41e04f5faa53e3c67b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们会确保演示版界面简洁美观:) 高级配置功能将保留给管理员账户。"
+      }
+    },
+    {
+      "segment_id": "dd4905a4",
+      "source_content": "## ![](/img/en/blog/202005/tasmota_small.png) Tasmota 8.5.0 Hannah",
+      "source_content_hash": "e7b08244d2d6f0d9a5490e655cec3dd58ab39755143746831925f1c241d10866",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202005/tasmota_small.png) Tasmota 8.5.0 Hannah固件"
+      }
+    },
+    {
+      "segment_id": "17b50e81",
+      "source_content": "Tasmota w najnowszej wersji coraz lepiej wspiera ESP32. Sebastian uruchomił kamerę z czujnikiem ruchu i wyświetlaczem. \nESP32 V162 działa bardzo fajnie z Asystentem domowym (dodajemy do dom-demo), brakuje jeszcze tylko mikrofonu do pełni szczęścia :)",
+      "source_content_hash": "5f7940a765772c0292d91dc4c4cdb89a5de01bc133060679c32b40465e24174e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "新版Tasmota对ESP32的支持日趋完善。Sebastian成功驱动了带运动传感器和显示屏的摄像头。ESP32 V162与家庭助手（已集成到dom-demo）配合表现优异，现在只差麦克风模块就完美了:)"
+      }
+    },
+    {
+      "segment_id": "3e8f45da",
+      "source_content": "![](/img/en/blog/202009/tasmo_cam.jpg)",
+      "source_content_hash": "0f0948c4e9226f2739bb201433805c3f9856ef709efb702837aec653df4c4f95",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202009/tasmo_cam.jpg)"
+      }
+    },
+    {
+      "segment_id": "4c787c52",
+      "source_content": "Jest też kompilacja do bramki ESP32-BLE, monitorujemy nim roślinkę w biurze ;)",
+      "source_content_hash": "ec7a9206e8e17760a26901b97b58b22e36babd2c1ef79fe0bb6f62d16e82c632",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们还编译了ESP32-BLE网关专用版本，用来监控办公室的绿植;)"
+      }
+    },
+    {
+      "segment_id": "63565425",
+      "source_content": "![](/img/en/blog/202009/ble.png)",
+      "source_content_hash": "8e09b67fb10a6bc1b97acce2e5b292f9a187282e8610bd11a8564873347bd32c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202009/ble.png)"
+      }
+    },
+    {
+      "segment_id": "1496ef51",
+      "source_content": "![](/img/en/blog/202009/ble2.png)",
+      "source_content_hash": "bbb9ff4472e47ba0ba61e2313b02c721286897685f370df52f7225d89a04c7c6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202009/ble2.png)"
+      }
+    },
+    {
+      "segment_id": "dce16ab4",
+      "source_content": "Rozwiązanie będzie oczywiście opublikowane na forum z instrukcją dla tych, co lubią woń kalafonii z lutownicy o poranku ;)",
+      "source_content_hash": "5c25ecfbb71a6d00eaaa9664937c7fa1aabdac805adab4c36bc6519112b5cf2f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该方案当然会在论坛发布，并附上教程供那些\"享受清晨松香气味\"的硬件爱好者参考;)"
+      }
+    },
+    {
+      "segment_id": "d4eab4a6",
+      "source_content": "## ![](/img/en/blog/202007/zigbee.png) Zigbee2Mqtt 1.14.4",
+      "source_content_hash": "990d65d41d2952f061ef35b07367f744209bae1378b6969fb366f2ecac9a5bfd",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202007/zigbee.png) Zigbee2Mqtt 1.14.4"
+      }
+    },
+    {
+      "segment_id": "6b40e7a2",
+      "source_content": "zigbee2mqtt rozwija się w rekordowym tempie. Jest już 951 urządzeń obsługiwanych \"z automatu\", oczywiście każde urządzenie, które komunikuje się po zigbee, może zostać dodane.",
+      "source_content_hash": "074994be94ea59115121a22405c1279ffab973504fdf4d26955222c6af018a13",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "zigbee2mqtt正以创纪录的速度发展。目前已实现951种设备的\"开箱即用\"支持，实际上任何支持Zigbee通信的设备都可被添加。"
+      }
+    },
+    {
+      "segment_id": "39f476dc",
+      "source_content": "![](/img/en/blog/202009/zigbee.png)",
+      "source_content_hash": "54f42220355a98c41c0b380cfa6cdc63e73be1624095960e7664598a757cb1fc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202009/zigbee.png)"
+      }
+    },
+    {
+      "segment_id": "827eb9a3",
+      "source_content": "Więcej informacji na stronie projektu [zigbee2mqtt](https://www.zigbee2mqtt.io/information/supported_devices.html)",
+      "source_content_hash": "4f44e51881f704454bb42b164de49886eba8809e66933752a9b6ca0512792cd2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "更多项目信息请访问 [zigbee2mqtt](https://www.zigbee2mqtt.io/information/supported_devices.html) 官网"
+      }
+    },
+    {
+      "segment_id": "99840f13",
+      "source_content": "Pojawiły się też nowe informacje o projekcie ``Connected Home over IP`` realizowanym wspólnie przez Apple, Amazon, Goole i Zigbee Alliance (Ikea, Samsung, Philips Hue...).\nTen standard ma być otwarty i każde urządzenie ma się łatwo dać sterować każdym asystentem głosowym, szczegóły już w 2021 - zobaczymy :)",
+      "source_content_hash": "01a23bfd48d3e06482621e00a91ea6f87dcba65cfc06ed8a87d7c39c36c53fd5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "同时出现了关于``Connected Home over IP``项目的新动态——该项目由苹果、亚马逊、谷歌和Zigbee联盟（宜家、三星、飞利浦Hue等）共同推进。\n该标准将保持开放，任何设备都能轻松兼容各类语音助手，具体细节将于2021年公布，让我们拭目以待 :)"
+      }
+    },
+    {
+      "segment_id": "808b0414",
+      "source_content": "![](/img/en/blog/202009/zigbee2.png)",
+      "source_content_hash": "984aeacda4fb4f57d06ec012da95a9481359cb8dd6e0e53844fd3f7027ca62d6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202009/zigbee2.png)"
+      }
+    },
+    {
+      "segment_id": "61a78cbe",
+      "source_content": "To pozwala prognozować rozwój Zigbee, cieszy nas to bo Zigbee == sterowanie lokalne :)\nWięcej informacji o projekcie [Connected Home over IP](https://zigbeealliance.org/news_and_articles/project-development-to-reality/)",
+      "source_content_hash": "a215ea6899c29ea17237f73ad3a175d5ea48357b495309e6b1c15fa765f2fba3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "这预示着Zigbee技术的光明前景，我们倍感振奋，因为Zigbee意味着本地化控制 :)\n更多项目详情参见 [Connected Home over IP](https://zigbeealliance.org/news_and_articles/project-development-to-reality/)"
+      }
+    },
+    {
+      "segment_id": "8d279c43",
+      "source_content": "## ![](/img/en/blog/202007/hass.png) Home Assistant 0.114.4",
+      "source_content_hash": "54a738768ba6f311c880158dedf76acc9511de25029a529d42e7eab2f24de8a8",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202007/hass.png) Home Assistant 0.114.4"
+      }
+    },
+    {
+      "segment_id": "c8a6ab3e",
+      "source_content": "Najnowszy (stabilny) [Home Assistant 0.114.4](https://www.home-assistant.io/blog/2020/08/12/release-114/)",
+      "source_content_hash": "b7285ec76e6d297376df9dd0c3544aeb4fba747e46cb87f17eefee5c057e01e7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "最新稳定版 [Home Assistant 0.114.4](https://www.home-assistant.io/blog/2020/08/12/release-114/) 已发布"
+      }
+    },
+    {
+      "segment_id": "5cf1bce4",
+      "source_content": "Jak zwykle sporo ułatwień i fajnych nowości w największej na świecie otwartej platformie do automatyki domowej :heart_eyes_cat:",
+      "source_content_hash": "ae4341648c263f4636e31c058d6f6f5101827806864ec50dcc7806e66c026df0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "作为全球最大的开源智能家居平台，本次更新一如既往带来了大量便捷功能和亮眼特性 :heart_eyes_cat:"
+      }
+    },
+    {
+      "segment_id": "0427bb2b",
+      "source_content": "![Home Assistant](/img/en/blog/202009/ha0.14.4.png)",
+      "source_content_hash": "f855c513e39e9f3791b2c1bb395f1ef3638e11bc9563a0ade6106d95e1dac649",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Home Assistant](/img/en/blog/202009/ha0.14.4.png)"
+      }
+    },
+    {
+      "segment_id": "5fec6f0d",
+      "source_content": "----",
+      "source_content_hash": "bd64bb8efa5b3f27e6442f23600c3b516127ea17e23724b41e50da4c22883edd",
+      "node_type": "thematicBreak",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "----"
+      }
+    },
+    {
+      "segment_id": "6fad5db5",
+      "source_content": "Zapraszamy do aktualizacji i [komentowania na forum :)](https://ai-speaker.discourse.group/)",
+      "source_content_hash": "835468c85dd4ecaa2ca9086b3919d63a2f40f58acb16d2e9e802bc2c6fb6f6da",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "欢迎升级并[参与论坛讨论 :)](https://ai-speaker.discourse.group/)"
+      }
+    },
+    {
+      "segment_id": "dfa23ddf",
+      "source_content": "##### AI-Speaker 09/2020",
+      "source_content_hash": "1ee0b4d56dad393b9eb1b47a7cd5e8d09623480e11fbc86d4d17bb1fa3d6f935",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "##### AI-Speaker 2020年9月"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2020-09-09-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.126030+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "8ae39cefee125ce566afe4d775045d0d17199485b4badee09fe8f31bcf6d655e"
+  }
+}

@@ -1,0 +1,512 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2020-12-09-release-notes.md",
+  "source_file_content_hash": "41168024445c2db7c01c3bcc3674790f18969305cfb043affe1dd7b38b62a304",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Jola AI-Speaker\nauthorURL: https://github.com/sviete\nauthor_title: Asystentka\nauthorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4\ntitle: Wersja systemu Asia\ntags: [\"google calendars\", \"home assistant\", \"automatyzacje\", \"zigbee2mqtt\", \"tasmota\"]\n---",
+      "source_content_hash": "92a0844ae3064b268dbd1bb0e68da0312c86c2e416490fc7e9934d20cd76675e",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "1cc03ec8",
+      "source_content": "# Asia ![](/img/en/blog/202012/asia.png)",
+      "source_content_hash": "0f2c0345723e483750533ea3cfbf55c7d136e8d9ac85d9486d58cc1554d5d54b",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# 亚洲 ![](/img/en/blog/202012/asia.png)"
+      }
+    },
+    {
+      "segment_id": "143e51c1",
+      "source_content": "- ![AIS NBP](/img/en/blog/202012/nbp.png) AIS NBP\n- ![AIS LTS](/img/en/blog/202012/handshake.png) AIS LTS\n- ![AIS Kalendarze](/img/en/blog/202011/ais_calendar.png) Kalendarze AIS\n- ![Zigbee](/img/en/blog/202007/zigbee.png) Zigbee2Mqtt 1.16.2\n- ![Home Assistant](/img/en/blog/202007/hass.png) AIS HA 0.118.5 + Konferencja Home Assistant",
+      "source_content_hash": "4c28ca511a9a85561be394a28f4f65755d5a76b326c7429249fb1686b26f3b8d",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- ![AIS NBP](/img/en/blog/202012/nbp.png) AIS 波兰国家银行\n- ![AIS LTS](/img/en/blog/202012/handshake.png) AIS 长期支持版\n- ![AIS 日历](/img/en/blog/202011/ais_calendar.png) AIS 日历\n- ![Zigbee](/img/en/blog/202007/zigbee.png) Zigbee2Mqtt 1.16.2\n- ![Home Assistant](/img/en/blog/202007/hass.png) AIS HA 0.118.5 + Home Assistant 开发者大会"
+      }
+    },
+    {
+      "segment_id": "29ee8c7a",
+      "source_content": "<!--truncate-->",
+      "source_content_hash": "f5cded2aa7e288e395fe4f67f9dabda2281904b2f5358d07302b3aa8be0acdfa",
+      "node_type": "comment",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_29ee8c7a"
+      }
+    },
+    {
+      "segment_id": "418617bd",
+      "source_content": "## ABC bezproblemowej aktualizacji",
+      "source_content_hash": "c90f3410f68be4e7ee6017947af078313ab12a12edc09598ec43646aef83e69a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 无忧升级指南"
+      }
+    },
+    {
+      "segment_id": "9beb6e94",
+      "source_content": ":::tip[Kopia zapasowa.]\n### ![A](/img/en/blog/202009/alpha-a-circle.png) Kopia zapasowa.\n\nUWAGA Przed aktualizacją zalecamy wykonać [kopię zapasową konfiguracji](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji). W ten sposób sprawdzisz poprawność swojej konfiguracji przed rozpoczęciem aktualizacji i zwiększysz prawdopodobieństwo bezproblemowej aktualizacji.\n:::",
+      "source_content_hash": "1828218cdc126741a2ebe2de65e3dd6aff658b58cb960a102231a8a3be71ca74",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::tip[备份]\n### ![A](/img/en/blog/202009/alpha-a-circle.png) 备份\n\n注意 升级前建议先执行[配置备份](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji)。这能帮助您在升级前验证配置的正确性，大幅降低升级失败风险。\n:::"
+      }
+    },
+    {
+      "segment_id": "57971bfb",
+      "source_content": ":::important[Konsola i logi na bramce.]\n### ![B](/img/en/blog/202009/alpha-b-circle.png)Konsola i logi na bramce.\n\nW razie problemów z aktualizacją, sprawdź procedurę [Aktualizacja z konsoli](/docs/ais_bramka_update_manual) lub [Wykonanie pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step).\nTo może dotyczyć szczególnie osób, które instalują na bramce dodatkowe niestandardowe komponenty.\n:::",
+      "source_content_hash": "801d23fb7fc2431bbe434b4eda5e7c084e2507d287d3851fa318ec48da59ea9e",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::important[网关控制台与日志]\n### ![B](/img/en/blog/202009/alpha-b-circle.png)网关控制台与日志\n\n若升级遇到问题，请参考[通过控制台升级](/docs/ais_bramka_update_manual)或[执行应用完全重置](/docs/ais_bramka_reset_ais_step_by_step)流程。\n特别是安装了非标准组件的用户需重点关注此项。\n:::"
+      }
+    },
+    {
+      "segment_id": "cd591557",
+      "source_content": ":::caution[Poczekaj cierpliwie.]\n### ![C](/img/en/blog/202009/alpha-c-circle.png) Cierpliwość. Pierwsze uruchomienie po aktualizacji trwa dłużej - poczekaj cierpliwie.\n\n **Po aktualizacji pierwsze uruchomienie może trwać nawet 20 minut.**\n W tym czasie aktualizowane są biblioteki do integracji dodanych na bramce i baza danych jest migrowana do nowego formatu.\n **Poczekaj cierpliwie na zakończenie aktualizacji.**\n:::",
+      "source_content_hash": "ad8fdeaa6b3f40c9e947e0d0ca97c330a7c8844dae9594bb1d45ca083ea5ab38",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[耐心等待]\n### ![C](/img/en/blog/202009/alpha-c-circle.png) 耐心。升级后首次启动耗时较长 - 请保持耐心。\n\n **升级后的首次启动可能长达20分钟。**\n 在此期间会更新网关集成库并将数据库迁移至新格式。\n **请耐心等待升级完成。**\n:::"
+      }
+    },
+    {
+      "segment_id": "35a77014",
+      "source_content": "## ![](/img/en/blog/202012/asia.png) Asia",
+      "source_content_hash": "b425450efefe583e8e84168369710eff12349c8e4734a8a138f63139db8d42e0",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202012/asia.png) 亚洲"
+      }
+    },
+    {
+      "segment_id": "f44c1398",
+      "source_content": "#### Od tej wersji zmieniamy nazwy wersji systemu z numerów na imiona.",
+      "source_content_hash": "1e59f3c9e118100b82e139e6925bc8f5a95b003f3a8a97bc2c1506f3c62dca76",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "#### 从本版本起，系统版本号将改用名称命名。"
+      }
+    },
+    {
+      "segment_id": "29528c8d",
+      "source_content": "Nazywając naszą werję systemu **Asia** nie chodziło nam o brytyjską grupę muzyczną Asia, ani też o planetoidę o numerze katalogowym 67, czy prowincję rzymską, ani też Asię, która w mitologii greckiej była jedną z Nereid...",
+      "source_content_hash": "ce9216ebcb2bc9cf56d5fedbea2b597f0db0a9937034cbe204b0aa21364d55e8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们将系统版本命名为**Asia（亚洲）**，既非指代英国乐队Asia，也不是编号67的小行星，更不是古罗马的亚细亚行省，亦非希腊神话中的海洋女神..."
+      }
+    },
+    {
+      "segment_id": "c504c207",
+      "source_content": "**Asia**, wg nas, to zdrobnienie imienia Joanna. Wg [wikipedia.pl](https://pl.wikipedia.org/wiki/Joanna) Asia to zdrobnienie imienia żeńskiego, odpowiednika imienia Jan pochodzącego z języka hebrajskiego: Jo-hanan – „Jahwe jest łaskawy”.",
+      "source_content_hash": "a8b14836b8f32e203d37130550bc1ac626f3be815e0f433f10ec04290893317a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在我们看来，**Asia**是Joanna的昵称。根据[维基百科](https://pl.wikipedia.org/wiki/Joanna)，这个源自希伯来语Jo-hanan（意为\"上帝是仁慈的\"）的女性名字，对应英文名Jan的变体。"
+      }
+    },
+    {
+      "segment_id": "98d26038",
+      "source_content": "Cel zmiany nazw wersji, z numerów na imiona jest taki, żeby łatiwiej nam było zapamiętać, jaką mamy wersję systemu.\nTak samo jak łatwiej pamiętamy, że zaparkowaliśmy na parkingu **Jeżyk** a nie na pargingu o numerze **108/5**.",
+      "source_content_hash": "8bab2945934c0735fdd618035dde60cdc7f6e28f8b606e603e3b8d38ac556f68",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "改用名称命名的初衷，是让用户更容易记住系统版本。\n就像我们更容易记住把车停在\"刺猬停车场\"，而非\"108/5号停车场\"。"
+      }
+    },
+    {
+      "segment_id": "b9aaa519",
+      "source_content": "Witamy w systemie **Asia** i zapraszamy do aktualizacji :)",
+      "source_content_hash": "37b0fd4d9fcb45e457524ff43d1783e2cb1b9d9d8fd6a082021c057b3c84f9ab",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "欢迎使用**亚洲**系统，诚邀您立即升级 :)"
+      }
+    },
+    {
+      "segment_id": "ab5fc5b5",
+      "source_content": "### ![](/img/en/blog/202012/nbp.png) AIS - Narodowy Bank Polski",
+      "source_content_hash": "cbd127bc919f0d34c02fb6ab93832181a689b67e81fb05aab83d9ce6a15f0e8f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### ![](/img/en/blog/202012/nbp.png) AIS - 波兰国家银行"
+      }
+    },
+    {
+      "segment_id": "6ea4c715",
+      "source_content": "Dodaliśmy integrację AIS NBP, której opis działania dostępny jest w dokumentacji: [AIS Narodowy Bank Polski](/docs/ais_app_ai_integration_nbp)",
+      "source_content_hash": "23f84d73084203633b439a2152a99f25bcc80676ad638acca130ea3aac006ba7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们新增了AIS NBP集成功能，具体操作说明详见文档：[AIS 波兰国家银行](/docs/ais_app_ai_integration_nbp)"
+      }
+    },
+    {
+      "segment_id": "79ad944d",
+      "source_content": "![Konfiguracja AIS NBP](/img/en/frontend/ais_nbp6.png)",
+      "source_content_hash": "2ade7e3080352b4b1161962d8bf14d8732e730fc9649a1f0f49b671d689b82a1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS NBP配置界面](/img/en/frontend/ais_nbp6.png)"
+      }
+    },
+    {
+      "segment_id": "531437ca",
+      "source_content": "Co ważniejsze, proces powstawania tej integracji został ze szczegółami krok po kroku opisany na naszym forum w dziale [programowanie](https://ai-speaker.discourse.group/c/programowanie/15)\n![](/img/en/blog/202012/programowanie.png)",
+      "source_content_hash": "808004c379bffae0f1867cc76550dfe0f5ea5ee2cb056ec995d35e1f3da82811",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "更重要的是，该集成功能的开发过程已在论坛[编程专区](https://ai-speaker.discourse.group/c/programowanie/15)以分步教程形式详细记录\n![](/img/en/blog/202012/programowanie.png)"
+      }
+    },
+    {
+      "segment_id": "657c2b20",
+      "source_content": "Szablon integracji umieściliśmy w GitHub [AIS-hello](https://github.com/sviete/AIS-hello). \nJest to minimalna implementacja integracji czujnika / licznika, której można użyć jako wzór/szablon do własnej integracji.",
+      "source_content_hash": "8bc1ce1c362ba7ff9817aa20116351da8083ef7fbe1b92d29d2884a2d46523cd",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "集成模板已发布至GitHub仓库[AIS-hello](https://github.com/sviete/AIS-hello)。这是传感器/计数器的最小化实现方案，可作为自定义集成的开发模板。"
+      }
+    },
+    {
+      "segment_id": "147e8550",
+      "source_content": "![AIS Hello](/img/en/blog/202012/ais-hello.png)",
+      "source_content_hash": "02463390ae50c80cb3254e0654195c278aba876ccf50908785005c688ad45f50",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS Hello示例](/img/en/blog/202012/ais-hello.png)"
+      }
+    },
+    {
+      "segment_id": "b1cbdb65",
+      "source_content": "#### Dzięki temu każdy kto ma czas, pomysł i chęci do nauki nowych rzeczy, może dodać własną integrację.",
+      "source_content_hash": "9c76b6b093f1ce7ad984b6efb6fd3e822eb4f45572be349951a0d60b15836fa0",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "#### 这意味着任何有时间、有创意且愿意学习新技术的人，都可以添加自己的集成功能。"
+      }
+    },
+    {
+      "segment_id": "98355e36",
+      "source_content": "### ![](/img/en/blog/202012/handshake.png) AIS LTS",
+      "source_content_hash": "718837f6bbdf164f59f4da004e6c411260631194245128cd75a66f6408251fdc",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### ![](/img/en/blog/202012/handshake.png) AIS长期支持版"
+      }
+    },
+    {
+      "segment_id": "7736989b",
+      "source_content": "Jednym z elementów projektu, nad którym obecnie pracujemy, jest zapewnienie długoterminowego wsparcia. Chodzi o to, żeby dostarczyć urządzenie z zainstalowanymi binarkami w wersji, która będzie wspierana przez kilka nadchodzących lat.",
+      "source_content_hash": "b4fcbca52a347a171cba58b8d901120373e0095896fed94343ff73ea3a523a37",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们当前的重点项目之一是建立长期支持机制，旨在提供预装二进制文件的设备版本，该版本将获得未来数年的持续维护。"
+      }
+    },
+    {
+      "segment_id": "6270d577",
+      "source_content": "Największa zmiana to najnowszy Python 3.9, który będzie wspierany do 2025 roku:",
+      "source_content_hash": "518d0c085c63a2ad90d07bb630db6c636fb08fe7f2615f7b6c35c853d8ac6368",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "最重大的更新是支持至2025年的Python 3.9："
+      }
+    },
+    {
+      "segment_id": "a1fa5396",
+      "source_content": "![AIS LTS](/img/en/blog/202012/python.png)",
+      "source_content_hash": "ccbfd995154fa20c5c607e89ec594e03fe7f5f262f6ec90815aaa96d93113671",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS LTS版本Python支持](/img/en/blog/202012/python.png)"
+      }
+    },
+    {
+      "segment_id": "ec619944",
+      "source_content": "Na forum opisaliśmy całą [procedurę przejścia do wersji LTS](https://ai-speaker.discourse.group/t/ais-lts-long-time-support-dlugoterminowe-wsparcie/1013).",
+      "source_content_hash": "7e6833528e64eaec247a68b6e983b8e8e56c355b2c0f0a37f7d2fd2978848717",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "论坛已发布完整的[LTS迁移指南](https://ai-speaker.discourse.group/t/ais-lts-long-time-support-dlugoterminowe-wsparcie/1013)。"
+      }
+    },
+    {
+      "segment_id": "2547a6bb",
+      "source_content": "Ci, którzy wykonają [Pełny reset aplikacji](/docs/ais_bramka_reset_ais_step_by_step) dostaną nowe binarki bez potrzeby instalacji, bo dodaliśmy je do najnowszej paczki z kodami startowymi (bootstrap).",
+      "source_content_hash": "62e1515fbcf0fe3d67865cc47c7386893292b9d342e4320eba37a7b086780b7f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "执行[应用程序完全重置](/docs/ais_bramka_reset_ais_step_by_step)的用户将自动获取新版二进制文件，无需手动安装，因为我们已将其加入最新启动代码包(bootstrap)。"
+      }
+    },
+    {
+      "segment_id": "0750bfa1",
+      "source_content": "![AIS LTS](/img/en/blog/202012/bootstrap.png)",
+      "source_content_hash": "ec83175b9044c630afc0ae813b91887cc388e297496cf562446f02d3698703e3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS LTS启动包](/img/en/blog/202012/bootstrap.png)"
+      }
+    },
+    {
+      "segment_id": "86348f98",
+      "source_content": "Przejście na najnowszą wersję binarek jest oczywiście dobrowolne :) Jeżeli tego nie zrobimy, to też przez kilka najbliższych wydań wszystko będzie działać ok i się aktualizować.\nZa kilka miesięcy zakończymy wsparcie do Python 3.7 i wtedy system, który ma nadal Python 3.7, przestanie się aktualizować, ale o tym oczywiście poinformujemy.",
+      "source_content_hash": "94eb36d68b47b1e48dca3f3a1de8da81d79bc881be70ce39682afea8233f1600",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "升级至新版二进制文件完全自愿 :) 即便不升级，未来几个版本仍可正常使用和更新。数月后我们将终止对Python 3.7的支持，届时仍运行Python 3.7的系统将无法更新，我们会提前发布相关通知。"
+      }
+    },
+    {
+      "segment_id": "5baf88e2",
+      "source_content": "### ![](/img/en/blog/202011/ais_calendar.png) Kalendarze AIS",
+      "source_content_hash": "b9613c062c908d98397531a63f6fc8640ef26a0d258e177e66fa29efa80e960c",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### ![](/img/en/blog/202011/ais_calendar.png) AIS日历"
+      }
+    },
+    {
+      "segment_id": "eb51d107",
+      "source_content": "Dostaliśmy zgodę na używanie API kalendarza Google.",
+      "source_content_hash": "724d9dcfba39fb268cca2cda558b5bcda80184b64cfe5394545f718b245bf543",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们已获得Google日历API的使用授权。"
+      }
+    },
+    {
+      "segment_id": "1862c5fe",
+      "source_content": "![AIS LTS](/img/en/blog/202012/calendar.png)",
+      "source_content_hash": "0bd588f81a69c4938a0aaec1bdf6dbd56213c5dad4026034ac1b017a916f1629",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS日历功能](/img/en/blog/202012/calendar.png)"
+      }
+    },
+    {
+      "segment_id": "d79a4831",
+      "source_content": "Poprawiliśmy kilka rzeczy w integracji, w kolejnych wydaniach będziemy ją nadal upraszczali i poprawiali tak, żeby kalendarze stały się funkcjonalnym elementem systemu.",
+      "source_content_hash": "0becefecf02f9383c4408343bc0a7b3036ab421bb239f0028b8224125a64bebc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们改进了集成功能的多个细节，后续版本将继续简化和优化，使日历成为系统的核心功能组件。"
+      }
+    },
+    {
+      "segment_id": "c7c92a79",
+      "source_content": "### ![](/img/en/blog/202007/zigbee.png) Zigbee2Mqtt 1.16.2",
+      "source_content_hash": "8d63a5d6045ad409f1f892bf6a76cb7273d96cd2097d6c9ecbb171e8b2e16b14",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### ![](/img/en/blog/202007/zigbee.png) Zigbee2Mqtt 1.16.2"
+      }
+    },
+    {
+      "segment_id": "f0984c2a",
+      "source_content": "Poprawki i ulepszenia oraz oczywiście obsługa nowych urządzeń. Opis całego wydania dostępny na stronie projektu [Zigbee2Mqtt](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.16.2)",
+      "source_content_hash": "2c6c1db261c1be69f9ee798e100ce396b01ab45aca884f4e7e825c393377671d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "修复改进及新增设备支持。完整版本说明详见项目页面 [Zigbee2Mqtt](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.16.2)"
+      }
+    },
+    {
+      "segment_id": "a81544fd",
+      "source_content": "![](/img/en/blog/202012/z2m.png)",
+      "source_content_hash": "345f9fd285e6ba25ddad3987b1becbe3b97b248e89d56cae173113bd5e0cd77d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202012/z2m.png)"
+      }
+    },
+    {
+      "segment_id": "ab39e8a7",
+      "source_content": "### ![](/img/en/blog/202007/hass.png) AIS HA 0.118.5",
+      "source_content_hash": "7c0ff10b92ab8d80ca72fe05e3f63c37355cdee1f619fca7f8244996129573fc",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### ![](/img/en/blog/202007/hass.png) AIS HA 0.118.5"
+      }
+    },
+    {
+      "segment_id": "1b4de6df",
+      "source_content": "AIS HA to najnowszy (stabilny) Home Assistant 0.118.5, oczywiście jak zwykle otrzymujemy sporo poprawek i nowych rzeczy. \nCała lista nowości dostępna jest na stronie projektu: [Home Assistant 0.118.5](https://www.home-assistant.io/blog/2020/11/18/release-118/)",
+      "source_content_hash": "68e1b7262d5b63701f575745ce2d5ad04ed7d2f27cb216d7ec39007a211fc23e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "AIS HA已升级至最新稳定版Home Assistant 0.118.5，包含大量功能改进与新增特性。完整更新清单请访问项目主页：[Home Assistant 0.118.5](https://www.home-assistant.io/blog/2020/11/18/release-118/)"
+      }
+    },
+    {
+      "segment_id": "558df877",
+      "source_content": "![Home Assistant](/img/en/blog/202012/ha-social.png)",
+      "source_content_hash": "8d82f473732c8969386d22303f5e3d58ead810fbc5f58f2f42ce23ca8f7ec948",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Home Assistant](/img/en/blog/202012/ha-social.png)"
+      }
+    },
+    {
+      "segment_id": "ed644f52",
+      "source_content": "## ![](/img/en/blog/202007/hass.png) Konferencja Home Assistant",
+      "source_content_hash": "76419bfd654d8f4bab5f4c7d466a33f68bd6e07c1262d0c8be46e9e171042798",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202007/hass.png) Home Assistant开发者大会"
+      }
+    },
+    {
+      "segment_id": "b9331170",
+      "source_content": "13 Grudnia, czyli w najbliższą niedzielę, zapowiedziana jest konferencja Home Assistant - największej otwartej platformy do automatyki domowej.",
+      "source_content_hash": "fc60637bdec4d26a13e4e47d2b61ccb78fc7d91d16139b4d9212ebc9cc161ff1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "12月13日（本周日）将举办全球最大的开源家庭自动化平台Home Assistant开发者大会。"
+      }
+    },
+    {
+      "segment_id": "8fcdd6d4",
+      "source_content": "![Home Assistant](/img/en/blog/202012/conference-header.png)",
+      "source_content_hash": "8bde0a90d470da871892f81f5aa310d6cbdc38136963a7ec9c3c80811341ec33",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Home Assistant](/img/en/blog/202012/conference-header.png)"
+      }
+    },
+    {
+      "segment_id": "53aa2b95",
+      "source_content": "Będzie kilka ciekawych tematów - cały harmonogram konferencji dostępny jest na stronie [Home Assistant Conference](https://hopin.com/events/home-assistant-conference#schedule)",
+      "source_content_hash": "42869ab24d055dc00aca96985887f983fe9a0ce1789dfdb4731201f01928be2c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "大会将呈现多个精彩议题，完整议程请查看[Home Assistant Conference](https://hopin.com/events/home-assistant-conference#schedule)"
+      }
+    },
+    {
+      "segment_id": "c766290e",
+      "source_content": "### Home Assistant Core 1.0! :)",
+      "source_content_hash": "bb19fc2569d22d78c187ddd3c5a1ed058f072ad764fc50a343c9e7dd2fd7e9d3",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### Home Assistant Core 1.0正式发布！ :)"
+      }
+    },
+    {
+      "segment_id": "5c7d994c",
+      "source_content": "Wiemy, że na konferencji zostanie ogłoszone wydanie Home Assistant Core 1.0. Oznacza to zakończenie 7-letniego okresu bety, co bardzo nas cieszy.",
+      "source_content_hash": "41b5101b1d294ad0bb9f1d9007ce946033cba0c870b02ec8377f26151b82793c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "本次大会将宣布Home Assistant Core 1.0版本发布，标志着历时7年的Beta阶段圆满结束，我们对此深感振奋。"
+      }
+    },
+    {
+      "segment_id": "a461a67b",
+      "source_content": "### Nasze plany i zapowiedzi na 2021 rok.",
+      "source_content_hash": "37330fa1a01842539a3be52e0aab3ed201c5f351b53a63777936c38b92bb3184",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 2021年度计划与展望"
+      }
+    },
+    {
+      "segment_id": "e77cf7c6",
+      "source_content": "W przyszłym tygodniu podsumujemy zapowiedzi HA, które będą miały wpływ na nasz system - być może zmieni się cykl wydawniczy.\n**Opublikujemy też nasze plany i zapowiedzi na 2021 rok.**",
+      "source_content_hash": "3f7609927d167d9164e1664448559fc8435486dbafdaa0fe9fd632250a75b9e4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "下周我们将解读HA大会的重要公告（可能影响系统发布周期），并同步发布**2021年度发展规划与路线图**。"
+      }
+    },
+    {
+      "segment_id": "c63467a3",
+      "source_content": "----",
+      "source_content_hash": "bd64bb8efa5b3f27e6442f23600c3b516127ea17e23724b41e50da4c22883edd",
+      "node_type": "thematicBreak",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "----"
+      }
+    },
+    {
+      "segment_id": "9e90a9b3",
+      "source_content": "Zapraszamy do aktualizacji i [komentowania na forum :)](https://ai-speaker.discourse.group/)",
+      "source_content_hash": "835468c85dd4ecaa2ca9086b3919d63a2f40f58acb16d2e9e802bc2c6fb6f6da",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "欢迎升级系统并[参与论坛讨论 :)](https://ai-speaker.discourse.group/)"
+      }
+    },
+    {
+      "segment_id": "a0d0e29e",
+      "source_content": "##### AI-Speaker 12/2020",
+      "source_content_hash": "8527312cb877a79816d6f750e05f62acb5cb5e76b3d66ea31e060b386ca06a65",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "##### AI-Speaker 2020年12月"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2020-12-09-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.127205+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "41168024445c2db7c01c3bcc3674790f18969305cfb043affe1dd7b38b62a304"
+  }
+}

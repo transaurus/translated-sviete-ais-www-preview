@@ -1,0 +1,362 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_key_event_automation.md",
+  "source_file_content_hash": "70056d4218051f796cc0c6582409ec381eb41e0876207652fffa5d234e54df1a",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Automatyzacja wyzwalana przyciskiem\"\nsidebar_label: Automatyzacja wyzwalana przyciskiem\n---",
+      "source_content_hash": "720527de6753c8f708989f77c28ddc039e9c16f1234dbfbf8e3471b011032521",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Wprowadzenie",
+      "source_content_hash": "138964b3f05ef631ae55efd030ca96538eb5d783961ef7b978515da6c937d13f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 简介"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Bramka obsługuje urządzenia USB klasy HID (Human Interface Device), które służą głównie do interakcji z użytkownikiem.\nNaciśnięcie przycisku na klawiaturze czy innym kontrolerze USB HID podłączonym do bramki, przesyłane jest do Asystenta domowego jako zdarzenie.\nTakie zdarzenia mogą wyzwalać automatyzacje. Opiszemy to na przykładzie poniżej.",
+      "source_content_hash": "70c54f7df346127e44c512010feb0d4f4283ddf8e14e2554a3cd962b166a99b4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "网关支持USB HID类设备（人机交互设备），主要用于与用户进行交互。当键盘或其它USB HID控制器接入网关时，按键动作会作为事件传递给家庭助理系统。这类事件可触发自动化场景，下文将通过实例进行说明。"
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "![AIS button](/img/en/bramka/ais_remote_key_events.jpg)",
+      "source_content_hash": "7f5f9e0a5ca66f6be24f9009a6c1cddadc919d5385209062210d241d56619b57",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS按钮](/img/en/bramka/ais_remote_key_events.jpg)"
+      }
+    },
+    {
+      "segment_id": "70153c6e",
+      "source_content": "### Rozpoznawanie zdarzeń typu 'naciśnięcie przycisku'",
+      "source_content_hash": "dfec5e43d6658b7f20f78f6590a89335388a5f0b2c4334dab947ba9ff1a2cd68",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 识别\"按键按下\"事件"
+      }
+    },
+    {
+      "segment_id": "86b54d44",
+      "source_content": "Po podłączeniu do USB kontrolera i jego poprawnym rozpoznaniu przez system, asystent powie \"Dodano urządzenie ....\".",
+      "source_content_hash": "7e2ae3122756b809427f4e49fe3d15b21b54d4819d18f774d18bcc7c393cc322",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "当USB控制器正确连接并被系统识别后，家庭助理会播报\"已添加设备...\"提示音。"
+      }
+    },
+    {
+      "segment_id": "39b3772c",
+      "source_content": "W [trybie sterowania bez monitora](ais_bramka_first_run#sterowanie-bez-monitora), kody przycisków z kontrolerów wysyłane są tylko do Asystenta domowego jako zdarzenia typu **ais_key_event** i nie są obsługiwane przez system.\nW [trybie sterowania na monitorze](ais_bramka_first_run#sterowanie-na-monitorze), kody przycisków z kontrolerów wysyłane są do Asystenta domowego jako zdarzenia typu **ais_key_event** oraz są obsługiwane przez system.",
+      "source_content_hash": "d054a76869da2b893d960b6a9f1e106c19af50635d216b973704e48d01489c63",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在[无显示器控制模式](ais_bramka_first_run#sterowanie-bez-monitora)下，控制器按键代码仅作为**ais_key_event**类型事件发送至家庭助理，系统不会处理这些信号。而在[显示器控制模式](ais_bramka_first_run#sterowanie-na-monitorze)下，控制器按键代码既会作为**ais_key_event**事件发送至家庭助理，也会被系统处理。"
+      }
+    },
+    {
+      "segment_id": "f5f6d2ce",
+      "source_content": "Żeby dowiedzieć się, jaki kod ma przycisk, który naciskamy, wystarczy sprawdzić stan encji: **binary_sensor.ais_remote_button** - to jest kod ostatnio naciśniętego przycisku.",
+      "source_content_hash": "4fbb03b247fe81c4e5d3cd637dbca4d9ca51653e38526af872a24ebc708dd4e2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "要查询当前按键的对应代码，只需检查实体状态：**binary_sensor.ais_remote_button**会显示最近触发的按键代码。"
+      }
+    },
+    {
+      "segment_id": "2fdadb08",
+      "source_content": "![AIS button](/img/en/bramka/ais_remote_key_events_1.png)",
+      "source_content_hash": "e489e13b0af9d39a52513524f0c4f0fa9951587b93ba07289c055d0c9ef5fbc0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS按钮](/img/en/bramka/ais_remote_key_events_1.png)"
+      }
+    },
+    {
+      "segment_id": "f2c2bdd0",
+      "source_content": "Oczywiście dla wygody można dodać tę encję jako kartę w aplikacji:",
+      "source_content_hash": "27baf939cc63a323e34f7abf4fd70017f52014ad802c76431b89290fbe0188eb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "为方便使用，可将该实体添加为应用卡片："
+      }
+    },
+    {
+      "segment_id": "a76548f8",
+      "source_content": "![AIS button](/img/en/bramka/ais_remote_key_events_2.png)",
+      "source_content_hash": "701eba014c560713c436d881300d65fda07bc615fdd77684b915af94b810c81b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS按钮](/img/en/bramka/ais_remote_key_events_2.png)"
+      }
+    },
+    {
+      "segment_id": "4b1d2d7d",
+      "source_content": "Kod tej karty:",
+      "source_content_hash": "dd6964866208e3e67de6b0824bad7e2860c24e04779b8ad92bae7bc46a416cc4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "卡片代码如下："
+      }
+    },
+    {
+      "segment_id": "cb57d798",
+      "source_content": "``` yaml\ntype: button\ntap_action:\n  action: none\nentity: binary_sensor.ais_remote_button\nshow_state: true\nhold_action:\n  action: none\nshow_name: true\nicon: 'hass:keyboard-settings'\nname: Kod przycisku kontrolera HID\n\n```",
+      "source_content_hash": "3a94ac6f944b5cb2019e9e2283d9555add40096b11fb4346461f01f380e52a75",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_cb57d798"
+      }
+    },
+    {
+      "segment_id": "95e9ba12",
+      "source_content": "Dzięki tej karcie możemy zobaczyć w aplikacji, jakie kody kryją się pod przyciskami w naszych kontrolerach HID.",
+      "source_content_hash": "c915b274dd3c7655c0c85d93942733cf5d72e595f3d7eb8816fc354e6422ecd0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过该卡片可直观查看HID控制器各按键对应的代码。"
+      }
+    },
+    {
+      "segment_id": "8af76f3d",
+      "source_content": "![AIS button](/img/en/bramka/ais_remote_key_events_0.png)",
+      "source_content_hash": "4ca0d6866429b38364434b0c9c3da5b9c9bbe3c9ef6d417428a73da5cfa983c4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS按钮](/img/en/bramka/ais_remote_key_events_0.png)"
+      }
+    },
+    {
+      "segment_id": "a9d49f92",
+      "source_content": "Gdy już wiemy, jaki kod ma przycisk, którym chcemy wyzwalać automatyzacje, to przechodzimy do jej definiowania.",
+      "source_content_hash": "396cd77deaa267a47c933e27afc136eecc5bbab67484ecb0197830a7a3ff3713",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "确定触发自动化所需的按键代码后，即可开始配置自动化场景。"
+      }
+    },
+    {
+      "segment_id": "11c76fcc",
+      "source_content": "### Dodnie automatyzacji",
+      "source_content_hash": "b230440b9d3b3f3000ea431673fa0fe7cec11f1df9203ed632f72649d92310e1",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 添加自动化规则"
+      }
+    },
+    {
+      "segment_id": "310e47b7",
+      "source_content": "1. Nazwa automatyzacji, np. włączenie radia po naciśnięciu przycisku na kontrolerze",
+      "source_content_hash": "7c74cf43f86791c4979983f6fe215fe77ce3be97b01647a20c3fe42e963dbc4f",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "1. 命名自动化规则（例如\"控制器按键启动收音机\"）"
+      }
+    },
+    {
+      "segment_id": "d3649a1e",
+      "source_content": "![AIS button](/img/en/bramka/ais_remote_key_events_3.png)",
+      "source_content_hash": "0495602977b1e1b6aab3f12937b6b7789cb0a94c118a43a07391dceedde21cf4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS按钮](/img/en/bramka/ais_remote_key_events_3.png)"
+      }
+    },
+    {
+      "segment_id": "30193704",
+      "source_content": "2. Wyzwalacz automatyzacji - ais_key_event",
+      "source_content_hash": "25064cea95685b9428c602d459bd455ccbef23abb53dade1c9f2b12e97eaf814",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "2. 设置触发器 - ais_key_event事件"
+      }
+    },
+    {
+      "segment_id": "1131ef75",
+      "source_content": "![AIS button](/img/en/bramka/ais_remote_key_events_4.png)",
+      "source_content_hash": "7a1d11b5d2f925944b3bdf771bf73ef8741d712c00e937f5c9a197778895798c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS按钮](/img/en/bramka/ais_remote_key_events_4.png)"
+      }
+    },
+    {
+      "segment_id": "158e1f5d",
+      "source_content": "3. Akcja do wykonania",
+      "source_content_hash": "a90fc0afb95cd5ae8efa602e5f5901d0f404e6189ef3245752caf726aede9e7d",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "3. 定义执行动作"
+      }
+    },
+    {
+      "segment_id": "531437ca",
+      "source_content": "![AIS button](/img/en/bramka/ais_remote_key_events_5.png)",
+      "source_content_hash": "df7b2b22e60cde45888219627423ee8f37e3aba35128dcb87d18fe873c97dcdf",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS按钮](/img/en/bramka/ais_remote_key_events_5.png)"
+      }
+    },
+    {
+      "segment_id": "3ef18741",
+      "source_content": "### Kod automatyzacji",
+      "source_content_hash": "9ed1678156004816d22e630fe07b38c7c45cb4930233b603e329e78e15117304",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 自动化规则代码"
+      }
+    },
+    {
+      "segment_id": "e7772088",
+      "source_content": "Kod automatyzacji w formacie YAML:",
+      "source_content_hash": "89f61ca8bea75f2f0f72e832189e873fd83cceb3225e3d41e142306d883ded66",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "YAML格式的自动化规则代码："
+      }
+    },
+    {
+      "segment_id": "bc137a19",
+      "source_content": "``` yaml\nalias: Włączenie radia Zet po naciśnięciu przycisku  z kodem 15 na kontrolerze\ndescription: ''\ntrigger:\n  - platform: event\n    event_type: ais_key_event\n    event_data:\n      code: '15'\ncondition: []\naction:\n  - service: ais_ai_service.process\n    data:\n      text: Włącz radio ZET\n  - device_id: ''\n    domain: ''\n    entity_id: ''\nmode: single\n```",
+      "source_content_hash": "25f16e8adf217751a3904b9755fb3014d6d3ea0c1d09aa186e83f91c98cbb4f0",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_bc137a19"
+      }
+    },
+    {
+      "segment_id": "86348f98",
+      "source_content": "Możemy w automatyzacji zmienić tryb edycji na YAML i łatwo przekleić kod do swojej automatyzacji",
+      "source_content_hash": "c2941e87ad9082633ce5f4f6672c3f49aaf8149bb2fc094fdb87ed84f92daf27",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在自动化编辑界面切换至YAML模式后，可直接粘贴该代码"
+      }
+    },
+    {
+      "segment_id": "6b77b644",
+      "source_content": "![AIS button](/img/en/bramka/ais_remote_key_events_6.png)",
+      "source_content_hash": "83b56fbb1c5d7877c231185d1dce5d85fc628faa8a6c59f88c6d814a9c2fdbbd",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS按钮](/img/en/bramka/ais_remote_key_events_6.png)"
+      }
+    },
+    {
+      "segment_id": "e06c002e",
+      "source_content": "## Schemat automatyzacji",
+      "source_content_hash": "f6e32c06e74c707ff40ad2ec27feb273cc7dd5f46f5441bcbc5ed35e8ee4b339",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 自动化方案模板"
+      }
+    },
+    {
+      "segment_id": "25212439",
+      "source_content": "Automatyzację wyzwalaną przez zdarzenie naciśnięcia przycisku możemy w łatwy sposób utworzyć na podstawie gotowego [schematu automatyzacji](ais_bramka_automation_blueprint).",
+      "source_content_hash": "f75c5dfb6f3ef64246a63ee08e6e6cbe4824995c2a604fb724a340f0c8994176",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过按钮按下事件触发的自动化，可以基于现成的[自动化方案模板](ais_bramka_automation_blueprint)轻松创建。"
+      }
+    },
+    {
+      "segment_id": "d79a4831",
+      "source_content": "Wystarczy, że:",
+      "source_content_hash": "61d6b0597f4d039c154924ea1f066f804ca95233dc54008178d34eb1a7fa31cd",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "只需："
+      }
+    },
+    {
+      "segment_id": "936011bd",
+      "source_content": "1. Wybierzemy predefiniowany schemat **Wykonanie komendy po naciśnięciu przycisku**",
+      "source_content_hash": "8c7ad49831530edd6ae94f09608e61dde6d1bb84f15e6d81489c02802e3689cc",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "1. 选择预定义的方案模板**按下按钮执行命令**"
+      }
+    },
+    {
+      "segment_id": "c1eaf30b",
+      "source_content": "![Dodanie nowej automatyzacji](/img/en/bramka/blueprint_button_0.png)",
+      "source_content_hash": "ec118e9bb82e8ecead8aa0cc3694db29aaea79df001c51ff49fc22d24acd36ed",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![添加新自动化](/img/en/bramka/blueprint_button_0.png)"
+      }
+    },
+    {
+      "segment_id": "7a3b7c62",
+      "source_content": "2. Uzupełnimy i zapiszemy zdefiniowany szablon:",
+      "source_content_hash": "fdeac924c06a482294d315f54920c69ba75ff51f8a14bba508ab3336b51f0a8b",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "2. 填写并保存定义好的模板："
+      }
+    },
+    {
+      "segment_id": "a81544fd",
+      "source_content": "![Dodanie nowej automatyzacji](/img/en/bramka/blueprint_button.png)",
+      "source_content_hash": "a0d4a593e29da4028f26d3763fa72bcda2eac29cf15c070f94e9d186ea7ddae1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![添加新自动化](/img/en/bramka/blueprint_button.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_key_event_automation.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.102720+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "70056d4218051f796cc0c6582409ec381eb41e0876207652fffa5d234e54df1a"
+  }
+}

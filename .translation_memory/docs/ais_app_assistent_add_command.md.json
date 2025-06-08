@@ -1,0 +1,262 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_app_assistent_add_command.md",
+  "source_file_content_hash": "e9161854d5afa5c3421dcccf329bfae9417e3634572e28aabb5ce7c81a9b4c8e",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Dodawanie komendy\"\nsidebar_label: Dodawanie komendy\n---",
+      "source_content_hash": "64ee13f350ccc3cef49cd33db180f200b0c744c579d9101f6102be55f429fe8b",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Komenda w automatyzacji",
+      "source_content_hash": "3646a39dfae25b968c3e5dc13a05db50f1480f17b5ae613510be016e2832e7e2",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 自动化中的语音指令"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Najprostszy sposób na dodanie własnej komendy głosowej to poprzedzenie nazwy automatyzacji zwrotem \"Jolka: [własna komenda]\".",
+      "source_content_hash": "5360b40ed359a288b87c00742e57b9775e3ef370ec392fc6466b65bb31501a17",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "添加自定义语音指令的最简单方式，是在自动化名称前添加前缀\"Jolka: [自定义指令]\"。"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "Np: \"Jolka: podlej trawnik\". **Tak dodane komendy nadpisują wbudowane komendy, dzięki czemu można całkowicie dostosować działanie asystenta do własnych potrzeb.**",
+      "source_content_hash": "48fd86cfaafb7dd44ad4d630cbdae5bdfaebe4bef3a755df295815a6e90f1168",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "例如：\"Jolka: 浇灌草坪\"。**通过这种方式添加的指令会覆盖内置指令，从而完全根据个人需求定制助手行为。**"
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "![Działanie komend](/img/en/frontend/jolka-assistant-automation.jpeg)",
+      "source_content_hash": "d418fa462dd63e6296cdd3a25e0c002f21c4e7d8259f62d1567f799ce28e4c4c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![指令运作示意图](/img/en/frontend/jolka-assistant-automation.jpeg)"
+      }
+    },
+    {
+      "segment_id": "ad8fd492",
+      "source_content": "Dodatkowo można dodać aliasy poleceń, dzięki czemu tę samą automatyzację można uruchomić wieloma komendami.",
+      "source_content_hash": "061c02b1827857a5c0826ab37ce8484334884ec06dfb0564c71c58d63d438399",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "还可为指令添加别名，实现通过多条不同指令触发同一自动化。"
+      }
+    },
+    {
+      "segment_id": "42ad8e83",
+      "source_content": "![Działanie komend](/img/en/frontend/jolka-assistant-automation-aliases.jpeg)",
+      "source_content_hash": "7ce688fe040971611289395a8fc26cc9735d062152d98b15077d7a517a92895a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![指令别名设置](/img/en/frontend/jolka-assistant-automation-aliases.jpeg)"
+      }
+    },
+    {
+      "segment_id": "bc633244",
+      "source_content": "## Odpowiedź asystenta",
+      "source_content_hash": "8ec31fa8f27c12c861bd30e61c0860a4a96cbed8b55682b81c04d28ee59964b7",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 助手响应"
+      }
+    },
+    {
+      "segment_id": "2df4f75f",
+      "source_content": "W zdefiniowanej automatyzacji można dodać szereg akcji, takich jak uruchomienia urządzeń oraz wywołanie usług.\nJedną z takich usług może być głosowa odpowiedź asystenta:",
+      "source_content_hash": "2ead366c9cc58383830eeb64a884c02ebb154f377e9239d921adcbd93f1dc2a0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在定义的自动化中可添加系列操作，包括设备控制和服务调用。其中可包含语音响应服务："
+      }
+    },
+    {
+      "segment_id": "f2c2bdd0",
+      "source_content": "![Akcja](/img/en/frontend/action_say_it.jpeg)",
+      "source_content_hash": "c9dec0d4cac043061caf6db72d19452acb1578e9105cc8a9206e12617fdf3732",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![语音响应操作](/img/en/frontend/action_say_it.jpeg)"
+      }
+    },
+    {
+      "segment_id": "3c36424c",
+      "source_content": "## Dialog",
+      "source_content_hash": "2668c1278cc9e1ba7f03b6bbdc7bbe9cd30643f35f303e8a6197e72ad3682d59",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 对话模式"
+      }
+    },
+    {
+      "segment_id": "26524352",
+      "source_content": "Nazywając automatyzację z prefiksem \"Jolka:\" możemy zbudować prosty dialog, w którym asystent po głosowej komendzie wykona zadanie; zapyta, czy coś jeszcze i włączy dołączony do bramki mikrofon, żeby przyjąć kolejną komendę:",
+      "source_content_hash": "651eeec9d588c7a7aefd22d77a6af5d0c62b9bab0e398733302a7244ddf3275e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过\"Jolka:\"前缀命名的自动化可构建简单对话流程：助手执行语音指令后，将询问是否需要其他操作并启用网关麦克风接收下条指令："
+      }
+    },
+    {
+      "segment_id": "73ab96a3",
+      "source_content": "![Akcja](/img/en/frontend/action_dialog.png)",
+      "source_content_hash": "ffa57a9297ddefe8305b9bf28d992fb9ad45cb7f8bf575ebc7f0432e33474611",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![对话操作设置](/img/en/frontend/action_dialog.png)"
+      }
+    },
+    {
+      "segment_id": "bdc231b1",
+      "source_content": "działanie takiego dialogu",
+      "source_content_hash": "ed29bfef4f4b19539132991096387659a6e162f975d9ee710e963db0289c7fae",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该对话模式的实际运作"
+      }
+    },
+    {
+      "segment_id": "97ae4a01",
+      "source_content": "![Akcja](/img/en/frontend/action_dialog_2.png)",
+      "source_content_hash": "30ed054cfd816b25470d5760f634658bee79d8b205e08a67f08904fbaee0e951",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![对话流程演示](/img/en/frontend/action_dialog_2.png)"
+      }
+    },
+    {
+      "segment_id": "782c902a",
+      "source_content": "## Opcje zaawansowane",
+      "source_content_hash": "e32ced9ff64712bc1da5f3edc77df21ef8d454bcc997cc69c28a7e94043f85d7",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 高级选项"
+      }
+    },
+    {
+      "segment_id": "1042b50d",
+      "source_content": "**ais_ai_service.say_it**\nTo usługa zamiany tekstu na mowę - czytanie tekstu przez asystenta.",
+      "source_content_hash": "7602b5eeb9f3987f9fb73df1c08737ed01d2ee07f60bcb81a24a613aba9e281a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "**ais_ai_service.say_it**\n文本转语音服务 - 通过助手朗读文本内容。"
+      }
+    },
+    {
+      "segment_id": "8af76f3d",
+      "source_content": "Usługi można testować/wywoływać z **Narzędzi deweloperskich**",
+      "source_content_hash": "bf3e996e044423d930e3644f3b36404c25a49e05e42755afba27199fa859a77f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "可通过开发者工具测试/调用服务"
+      }
+    },
+    {
+      "segment_id": "a9d49f92",
+      "source_content": "![Test nowej komendy](/img/en/frontend/conversation_dev_service.png)",
+      "source_content_hash": "02c3b8dcd26a9a4cae3f66302bbd2283a86124d30a5b27e96acfbd66866ca2d2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![新指令测试界面](/img/en/frontend/conversation_dev_service.png)"
+      }
+    },
+    {
+      "segment_id": "c504c207",
+      "source_content": "Możemy dynamicznie przekazywać informację do usługi za pomocą funkcjonalności szablonów  **data_template**. \nSzablony można tworzyć/sprawdzać w **Narzędziach deweloperskich**",
+      "source_content_hash": "59058404431bfa73646c5d072f640e33ddc5723ab955d06a43d507dd62700594",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "使用**data_template**模板功能可动态传递信息至服务。模板创建/验证需通过开发者工具"
+      }
+    },
+    {
+      "segment_id": "b36c6338",
+      "source_content": "![Test nowej komendy](/img/en/frontend/conversation_dev_template.png)",
+      "source_content_hash": "b6cdc32cae6fdc7436e01e25084959990c0b0e2ffcf8cf5c371ad0f4c7a13d51",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![模板测试界面](/img/en/frontend/conversation_dev_template.png)"
+      }
+    },
+    {
+      "segment_id": "e536ea0d",
+      "source_content": "Szablon ``data_template`` można dodać podczas edycji automatyzacji w formacie YAML:",
+      "source_content_hash": "df37baf49d4fe02b150cd73c574289f6469ecfec63426449b6d048e64f24b457",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "编辑自动化时可添加YAML格式的``data_template``模板："
+      }
+    },
+    {
+      "segment_id": "3c08ed05",
+      "source_content": "```yaml\nservice: ais_ai_service.say_it\ndata_template:\n  text: 'Jest godzina {{ states(''sensor.time'') }} uruchamiam podlewanie'\n```",
+      "source_content_hash": "91b8295aca394c99edd9053d0850068fdd842ec42c10e86d83a9590e240ca59e",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_3c08ed05"
+      }
+    },
+    {
+      "segment_id": "531437ca",
+      "source_content": "![Test nowej komendy](/img/en/frontend/conversation_template.jpeg)",
+      "source_content_hash": "83637ace16f54a772f4d679c143c49dd696fb4fd0f2e36bc36fa5cabb019fe11",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![模板配置示意图](/img/en/frontend/conversation_template.jpeg)"
+      }
+    },
+    {
+      "segment_id": "657c2b20",
+      "source_content": "szczegóły w [dokumentacji dla developerów Home Assistant](https://www.home-assistant.io/docs/configuration/templating/)",
+      "source_content_hash": "eb243524b9d94a19f9341a41f985aa240dc2809288aeff21c28b0be760bc0a02",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "详见[Home Assistant开发者文档](https://www.home-assistant.io/docs/configuration/templating/)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_app_assistent_add_command.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.146111+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "e9161854d5afa5c3421dcccf329bfae9417e3634572e28aabb5ce7c81a9b4c8e"
+  }
+}

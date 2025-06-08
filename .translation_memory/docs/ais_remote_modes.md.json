@@ -1,0 +1,72 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_remote_modes.md",
+  "source_file_content_hash": "fee1c1abd4e00ac4416ef269e493cc619a71e544a285595b4ebf99b2d67f2975",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Tryby działania\"\nsidebar_label: Tryby działania\n---",
+      "source_content_hash": "4e8d7757fc717618d1710aec9bed305603a8c73fe1f562100f36fd2ab11e961f",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Pilot może działać w 2 trybach w zależności od tego, w jaki sposób podłączysz swoją bramkę i w jaki sposób chcesz ją użytkować:",
+      "source_content_hash": "302f3f091561c2a7fc80e9f501397e8949b4e3d7cdd65a8d9ae7182569bceaaa",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "遥控器可根据网关连接方式和使用场景切换两种工作模式："
+      }
+    },
+    {
+      "segment_id": "df80d009",
+      "source_content": "- sterowanie na monitorze\n- sterowanie bez monitora",
+      "source_content_hash": "de5289654ef7b5e4ed498c8630b64510e4ea71caa7b5eb3b2b6792665a253726",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 屏幕控制模式\n- 无屏控制模式"
+      }
+    },
+    {
+      "segment_id": "8ac585fb",
+      "source_content": "Przełączanie pomiędzy trybami odbywa się za pomocą przycisku w lewym górnym rogu pilota.",
+      "source_content_hash": "0bf246e08612edbacda63f9b8765255411e21afd1a916c01823c66933e43f69c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过遥控器左上角按钮即可切换模式"
+      }
+    },
+    {
+      "segment_id": "180bddb1",
+      "source_content": "![Pilot do asystenta](/img/en/remote/remote_change_mode.png)",
+      "source_content_hash": "aa297657f7ba9c7c6a7d37efdb05b833152342756cbf6df1bdfa53c8917f10d7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![智能助手遥控器](/img/en/remote/remote_change_mode.png)"
+      }
+    },
+    {
+      "segment_id": "976d532b",
+      "source_content": ":::tip[Wskazówka]\nSterowanie komendami głosowymi (przy użyciu przycisku mikrofonu) działa niezależnie od wybranego trybu działania pilota.\n:::",
+      "source_content_hash": "9c393464046ffbb457aabdcc6b90cf3029c469d498a3f2f8cd5eb7fbbf74e2e6",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::tip[提示]\n语音指令控制（通过麦克风按键触发）不受遥控器当前模式的限制，始终可用\n:::"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_remote_modes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.115513+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "fee1c1abd4e00ac4416ef269e493cc619a71e544a285595b4ebf99b2d67f2975"
+  }
+}

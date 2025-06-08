@@ -1,0 +1,472 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2021-02-24-release-notes.md",
+  "source_file_content_hash": "0b127337753963980f9ee9cb8d5e8b3bfbf0d98bc5c0a50af0cfaed484f1349b",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Jola AI-Speaker\nauthorURL: https://github.com/sviete\nauthor_title: Asystentka\nauthorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4\ntitle: Wersja systemu Darek\ntags: [\"ais dom\", \"home assistant\", \"zigbee2mqtt\"]\n---",
+      "source_content_hash": "dff7b620ca1c0db44d54b4e33869c919fcf407ee902a786ad6673aaef7a24de1",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "775b7fa4",
+      "source_content": "<div class=\"IntroAisBlogMenu\" >\n<div>\n\n![AIS](/img/en/blog/202102/darek.png)\n\n</div>\n\n<h2>Darek LTS!</h2>\n\n</div>",
+      "source_content_hash": "94e2479d97cabd48a82ddb5c8db8346a6510f4d1ffc0cf3ffc68f38fc5ed1d73",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_775b7fa4"
+      }
+    },
+    {
+      "segment_id": "f5f6d2ce",
+      "source_content": "![AIS Supla MQTT](/img/en/blog/202102/bridge.png) SUPLA MQTT ![AIS DEV KIT](/img/en/blog/202102/speaker.png) DEV KIT ![AIS Python](/img/en/blog/202102/snake.png) Python3.9.1 ![AIS Zigbee2Mqtt](/img/en/blog/202102/honeybee.png) Zigbee2Mqtt",
+      "source_content_hash": "4341f2d96896696835388f4c872a50ee9a751908416c3e16961b180e614ad4da",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS Supla MQTT](/img/en/blog/202102/bridge.png) SUPLA MQTT桥接 ![AIS DEV KIT](/img/en/blog/202102/speaker.png) 开发套件 ![AIS Python](/img/en/blog/202102/snake.png) Python3.9.1 ![AIS Zigbee2Mqtt](/img/en/blog/202102/honeybee.png) Zigbee2Mqtt"
+      }
+    },
+    {
+      "segment_id": "29e01ec2",
+      "source_content": "<!--truncate-->",
+      "source_content_hash": "f5cded2aa7e288e395fe4f67f9dabda2281904b2f5358d07302b3aa8be0acdfa",
+      "node_type": "comment",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_29e01ec2"
+      }
+    },
+    {
+      "segment_id": "79b2d0b9",
+      "source_content": "## ABC bezproblemowej aktualizacji",
+      "source_content_hash": "c90f3410f68be4e7ee6017947af078313ab12a12edc09598ec43646aef83e69a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 无忧升级指南"
+      }
+    },
+    {
+      "segment_id": "d2808037",
+      "source_content": ":::tip[Kopia zapasowa.]\n### ![A](/img/en/blog/202009/alpha-a-circle.png) Kopia zapasowa.\n\nUWAGA Przed aktualizacją zalecamy wykonać [kopię zapasową konfiguracji](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji). W ten sposób sprawdzisz poprawność swojej konfiguracji przed rozpoczęciem aktualizacji i zwiększysz prawdopodobieństwo bezproblemowej aktualizacji.\n:::",
+      "source_content_hash": "1828218cdc126741a2ebe2de65e3dd6aff658b58cb960a102231a8a3be71ca74",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::tip[数据备份]\n### ![A](/img/en/blog/202009/alpha-a-circle.png) 数据备份\n\n重要提示：升级前建议先执行[配置备份](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji)。通过预先验证配置完整性可显著提升升级成功率。\n:::"
+      }
+    },
+    {
+      "segment_id": "b56ef571",
+      "source_content": ":::important[Konsola i logi na bramce.]\n### ![B](/img/en/blog/202009/alpha-b-circle.png)Konsola i logi na bramce.\n\nW razie problemów z aktualizacją, sprawdź procedurę [Aktualizacja z konsoli](/docs/ais_bramka_update_manual) lub [Wykonanie pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step).\nTo może dotyczyć szczególnie osób, które instalują na bramce dodatkowe niestandardowe komponenty.\n:::",
+      "source_content_hash": "801d23fb7fc2431bbe434b4eda5e7c084e2507d287d3851fa318ec48da59ea9e",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::important[控制台与日志]\n### ![B](/img/en/blog/202009/alpha-b-circle.png)控制台与日志\n\n若遇升级问题，请参考[控制台升级指南](/docs/ais_bramka_update_manual)或[应用完全重置教程](/docs/ais_bramka_reset_ais_step_by_step)。\n特别提醒：安装非标准组件的用户需重点关注此步骤。\n:::"
+      }
+    },
+    {
+      "segment_id": "688f7369",
+      "source_content": ":::caution[Poczekaj cierpliwie.]\n### ![C](/img/en/blog/202009/alpha-c-circle.png) Cierpliwość. Pierwsze uruchomienie po aktualizacji trwa dłużej - poczekaj cierpliwie.\n\n **Po aktualizacji pierwsze uruchomienie może trwać nawet 20 minut.**\n W tym czasie aktualizowane są biblioteki do integracji dodanych na bramce i baza danych jest migrowana do nowego formatu.\n **Poczekaj cierpliwie na zakończenie aktualizacji.**\n:::",
+      "source_content_hash": "ad8fdeaa6b3f40c9e947e0d0ca97c330a7c8844dae9594bb1d45ca083ea5ab38",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[耐心等待]\n### ![C](/img/en/blog/202009/alpha-c-circle.png) 保持耐心。升级后首次启动耗时较长——请耐心等待。\n\n**升级后首次启动可能长达20分钟**\n此时系统正在更新集成库并将数据库迁移至新格式。\n**请耐心等待升级完成**\n:::"
+      }
+    },
+    {
+      "segment_id": "6f930b2f",
+      "source_content": "## ![](/img/en/blog/202102/darek.png) Darek LTS!",
+      "source_content_hash": "fb21da75caabb0239166dc8acfbc403b21c3bbf8b594eae87e34b7168cd209d4",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202102/darek.png) Darek长期支持版！"
+      }
+    },
+    {
+      "segment_id": "f7ef78f9",
+      "source_content": "Uwaga ta wersja wymaga Python w wersji nowszej niż 3.7, spowodowane jest to przejściem Home Assistant na nowszą wersję Python.",
+      "source_content_hash": "389d88eb48a3fb10d77d5ddac6d683626879da3d7e6d7ffefe7587cc8a9f2255",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "注意：本版本要求Python版本高于3.7，这是由于Home Assistant已升级至新版Python环境。"
+      }
+    },
+    {
+      "segment_id": "b36c6338",
+      "source_content": "![](/img/en/blog/202102/python_update_ha.png)",
+      "source_content_hash": "ed6d541d2e738ca5cc8f59dfe5cd6e8759581a0180d9df5e6aa6e3eb86677e7e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202102/python_update_ha.png)"
+      }
+    },
+    {
+      "segment_id": "4d52a261",
+      "source_content": "Jeżeli podczas pobieraniu informacji o wersji pojawi się taki komunikat **Masz Python w wersji 3.x.x Przejdz na wersję LTS**",
+      "source_content_hash": "242c18ecab1b1e4542f9b2d58a251e0da5509361bcddaf33e88a28709cac9d78",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "若版本检测时出现提示**当前Python版本为3.x.x 请升级至LTS版**"
+      }
+    },
+    {
+      "segment_id": "23dfb152",
+      "source_content": "![](/img/en/blog/202102/python_update.png)",
+      "source_content_hash": "7161fe03f32e25580458d905b8212edd0d64362b2a6bd065e9d1001867ea1e64",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202102/python_update.png)"
+      }
+    },
+    {
+      "segment_id": "6ea4c715",
+      "source_content": "To należy przed aktualizacją wykonać aktualizację pakietów binarnych na bramce (w tym języka Python). Nie robimy tego automatycznie, można to zrobić ręcznie na 2 sposoby:",
+      "source_content_hash": "c263be46f11cc495998437f7965b257e70195d7a89018879a02553356cb54990",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "则需在升级前手动更新网关二进制包（含Python语言环境）。我们未设置自动更新，您可通过两种方式操作："
+      }
+    },
+    {
+      "segment_id": "35f6931b",
+      "source_content": "1. Sposób - pełen reset aplikacji:\n\n    a) Wykonanie [kopii zapasowej konfiguracji](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji),\n \n    b) Uruchomienie [pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step),\n\n    c) Przywrócenie konfiguracji z kopii [podczas pierwszego uruchomenia aplikacji](/docs/ais_bramka_first_run_step_account)",
+      "source_content_hash": "b47743e7b055265acda48da8ec59dd4c02bf28dd56d462526a45251132c7e53e",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "1. 方式一 - 完全重置应用：\n\n    a) 执行[配置备份](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji)\n    \n    b) 进行[应用完全重置](/docs/ais_bramka_reset_ais_step_by_step)\n    \n    c) 在[首次启动应用时](/docs/ais_bramka_first_run_step_account)恢复配置"
+      }
+    },
+    {
+      "segment_id": "eab056be",
+      "source_content": "lub",
+      "source_content_hash": "d0afe5ed2bd67151d4dd103cbc58f94c43e56d5ebb122e9538f2718ee6d48c4c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "或"
+      }
+    },
+    {
+      "segment_id": "aa0bd54f",
+      "source_content": "2. Sposób - uruchomienie skryptu i cierpliwe poczekanie na jego zakończenie:\n\n    Cała procedura opisana jest na forum: [AIS LTS long time support / długoterminowe wsparcie](https://ai-speaker.discourse.group/t/ais-lts-long-time-support-dlugoterminowe-wsparcie/1013)",
+      "source_content_hash": "0103faee38fe167e8466cb932b3d77d7261f63281fe785f4c46b129c5516378c",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "2. 方法二 - 运行脚本并耐心等待其完成：\n\n    完整操作流程详见论坛帖子：[AIS LTS长期支持版本](https://ai-speaker.discourse.group/t/ais-lts-long-time-support-dlugoterminowe-wsparcie/1013)"
+      }
+    },
+    {
+      "segment_id": "7736989b",
+      "source_content": "Po aktualizacji dostępna będzie na bramce najnowsza wersja języka Python:",
+      "source_content_hash": "76603614e835de7c3ede61e8596e03eb4032faec37451ff7786d86350449dbea",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "更新完成后，网关将运行最新版Python语言环境："
+      }
+    },
+    {
+      "segment_id": "a5c5772a",
+      "source_content": "![](/img/en/blog/202102/python.png)",
+      "source_content_hash": "3309bb2de05b5e63d897c7f14f65fd67bd10a1513702ab067f27da2ded66145a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202102/python.png)"
+      }
+    },
+    {
+      "segment_id": "ec619944",
+      "source_content": "Kolejne aktualizacje będą wykonywane automatycznie. Testujemy już wersję Python 3.9.2. Tylko przejście na wersję 4 będzie znowu bardziej skomplikowane, ale to za kilka lat :) i pewnie do tego czasu AIS będzie jeszcze prostszy w aktualizacji.",
+      "source_content_hash": "a37b74fa140daff2a995816a6fa3ccaad30761ab0e7f1830d77443ff83613670",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "后续更新将自动执行。我们已开始测试Python 3.9.2版本。只有升级到第4版时会再次复杂化，但那将是几年后的事了 :) 而且届时AIS的升级流程肯定会更加简便。"
+      }
+    },
+    {
+      "segment_id": "233bb60e",
+      "source_content": "------------------------------",
+      "source_content_hash": "a4eee14e7db41f90d7d6f56d46d767128f81315fd921052a574348e203cb8ece",
+      "node_type": "thematicBreak",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "------------------------------"
+      }
+    },
+    {
+      "segment_id": "5803caac",
+      "source_content": "Oczywiście nie ma obowiązku aktualizacji bramki, ale zachęcamy do tego, bo z każdą wersją bramka działa lepiej. Życzymy cierpliwości, wtedy na pewno wszystko będzie dobrze.",
+      "source_content_hash": "668c60597279ee00c12b76bbf6bfd0544604ac5eb01ddb414f3616e701940e2a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "当然您可以选择不升级网关，但我们强烈建议进行更新，因为每个新版本都会带来更好的性能。请保持耐心，一切都会顺利进行。"
+      }
+    },
+    {
+      "segment_id": "51867d16",
+      "source_content": "Gdyby coś komuś się nie udało to nie martwcie się - Celina wprowadziła “Usługę programowania urządzeń w AI-Speaker”, koszt jest symboliczny i macie urządzenie zaprogramowane w AI-Spekaer :)\nNa forum dostępne są szczegóły: [Usługa programowania urządzeń w AI-Speaker](https://ai-speaker.discourse.group/t/usluga-programowania-urzadzen-w-ai-speaker/1368)",
+      "source_content_hash": "2fab52d4da55b614f6da8cd00910a2c1aac41a48af0d01088034832504ba13d1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "如果遇到任何问题也无需担心——Celina已推出\"AI-Speaker设备编程服务\"，费用仅为象征性金额即可获得专业设备配置服务。\n论坛详情请见：[AI-Speaker设备编程服务](https://ai-speaker.discourse.group/t/usluga-programowania-urzadzen-w-ai-speaker/1368)"
+      }
+    },
+    {
+      "segment_id": "f8edb6d2",
+      "source_content": "## ![](/img/en/blog/202102/bridge.png) SUPLA MQTT bridge",
+      "source_content_hash": "d2612775ab1068df672f59b81213d0352a263a899e308e754be2bdbbbf825c49",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202102/bridge.png) SUPLA MQTT桥接"
+      }
+    },
+    {
+      "segment_id": "1862c5fe",
+      "source_content": "Oferujemy w systemie Asystent domowy oficjalną integrację z SUPLA MQTT. Ta integracja skierowana jest do osób, które chcą sterować swoimi urządzeniami SUPLA głosowo z Asystenta domowego oraz automatyzować sterowanie tymi urządzeniami na bramce AIS dom.",
+      "source_content_hash": "d34e3f4516af258c480178751fcefbe1c8e704b3fa2922411d45ae0c63c6f542",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们在家庭助理系统中提供官方SUPLA MQTT集成。该集成面向希望通过语音控制SUPLA设备，并在AIS dom网关上实现自动化操作的用户。"
+      }
+    },
+    {
+      "segment_id": "d79a4831",
+      "source_content": "![Integracja SUPLA](/img/en/frontend/integration_supla_2.png)",
+      "source_content_hash": "f75dcbd903ab856fff7915d27a5e814ec9f6d9d1b6daa6607d9784e7b3ce7fd5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![SUPLA集成](/img/en/frontend/integration_supla_2.png)"
+      }
+    },
+    {
+      "segment_id": "2838eb68",
+      "source_content": "Nawiązaliśmy współpracę z zespołem SUPLA, o której napiszemy niebawem więcej.\nCała integracja sprowadza się do kilku kliknięć w aplikacji zgodnie z opisem [AIS SUPLA MQTT](/docs/ais_app_supla)",
+      "source_content_hash": "a64ae1854c6acea3278e1a77ed7c2828be27d19353058c7f31a436ba3002524a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们已与SUPLA团队建立合作，后续将公布更多细节。\n整个集成过程仅需在应用中点击几下即可完成，具体操作参见[AIS SUPLA MQTT](/docs/ais_app_supla)文档"
+      }
+    },
+    {
+      "segment_id": "f947c8e4",
+      "source_content": "## ![](/img/en/blog/202102/speaker.png) AI-Speaker DEV KIT",
+      "source_content_hash": "3d95b63b339dd2b5f286ad1d0aa57e9f8848da0cfccdb2065774a4cf7c6fc39f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202102/speaker.png) AI-Speaker开发套件"
+      }
+    },
+    {
+      "segment_id": "7bc8bb24",
+      "source_content": "Tak jak zapowiadaliśmy, publikujemy szczegółową instrukcję tak, żeby każdy mógł sam kupić potrzebne elementy w celu przerobienia bramki w głośnik.",
+      "source_content_hash": "04ef83a201d7a0453d54bcd1bb8849dfdf423ebc60a4ac1eea31985fde205384",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "如先前预告，我们现发布详细指南，让每位用户都能自行采购所需组件将网关改装为智能音箱。"
+      }
+    },
+    {
+      "segment_id": "3c19e221",
+      "source_content": "![DEV KIT 1](/img/en/iot/dev_kit_1.jpeg)",
+      "source_content_hash": "b39807f37b58c7ae473779446ce9a4713376de9ed35e7eea0e5cff86c00a5699",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![开发套件1](/img/en/iot/dev_kit_1.jpeg)"
+      }
+    },
+    {
+      "segment_id": "1b4de6df",
+      "source_content": "Instrukcja dostępna jest w dokumentacji: [AI-Speaker DEV KIT 1](/docs/ais_dev_kit_1_index)\nJutro (25 lutego 2021) uzupełnimy instrukcję o zdjęcia z montażu i wystawimy kilka egzemplarzy na Allegro.",
+      "source_content_hash": "eb289940cabbba294af91d761124e805d0680e8c1dcac786421cbae13234a8c6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "指南文档详见：[AI-Speaker开发套件1](/docs/ais_dev_kit_1_index)\n明日（2021年2月25日）我们将补充组装过程照片，并在Allegro平台上线部分现货。"
+      }
+    },
+    {
+      "segment_id": "c7fa1e8d",
+      "source_content": "## ![](/img/en/blog/202102/honeybee.png) Zigbee2Mqtt",
+      "source_content_hash": "69ef58c06d25f97a1c22bd07add21c4ffcaab11aae68168d9650d05ccd50ddf9",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202102/honeybee.png) Zigbee2Mqtt"
+      }
+    },
+    {
+      "segment_id": "f38d1cb0",
+      "source_content": "Aktualizacja Zigbee2Mqtt do najnowszej wersji 1.7.1\nSporo poprawek, wsparcie dla nowych urządzeń i nowe oprogramowanie do adapterów zigbee, wszystkie szczegóły tu [1.17.1](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.17.1)",
+      "source_content_hash": "85e434ce9adef50a872d1ee8c779bc3f72872be751edc40310b541761287ee65",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Zigbee2Mqtt已更新至1.7.1最新版本\n包含大量修复、新增设备支持及新版zigbee适配器固件，完整更新日志参见[1.17.1](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.17.1)"
+      }
+    },
+    {
+      "segment_id": "b9331170",
+      "source_content": "![](/img/en/blog/202102/z2m.png)",
+      "source_content_hash": "e6c1ebc0e24abea9b9ae428a3c18fb371f3b62d118b528092d481d237b054635",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202102/z2m.png)"
+      }
+    },
+    {
+      "segment_id": "c364340c",
+      "source_content": "Gdyby ktoś miał problem ze swoim adapterem Zigbee to tak jak już wspominaliśmy - dodaliśmy usługę programania urządzeń - szczegóły na forum:",
+      "source_content_hash": "a64a07817ce2c4d7cc0814623ead98773b459318082b3ef31a083269effb5c17",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "若您的Zigbee适配器遇到问题，正如我们此前所述——我们已新增设备编程服务，详情请查阅论坛："
+      }
+    },
+    {
+      "segment_id": "f45239ba",
+      "source_content": "[![](/img/en/blog/202102/ais_devices_suport.png)](https://ai-speaker.discourse.group/t/usluga-programowania-urzadzen-w-ai-speaker/1368)",
+      "source_content_hash": "436f436df61fa7cec7ef34d508193d51511d7b469e583387723ed2a3873b155a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "[![](/img/en/blog/202102/ais_devices_suport.png)](https://ai-speaker.discourse.group/t/usluga-programowania-urzadzen-w-ai-speaker/1368)"
+      }
+    },
+    {
+      "segment_id": "d53c8ed4",
+      "source_content": "## ![](/img/en/blog/202101/hass.png) AIS Tasmota",
+      "source_content_hash": "28eb1798a13f70a9f62e2a484626d9d4d42450525b1a21e52a79ca780a30d1c6",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202101/hass.png) AIS Tasmota"
+      }
+    },
+    {
+      "segment_id": "1ecf0882",
+      "source_content": "Najnowsze wersje kodów i binarek, jak zwykle dostępne w naszym repoztyrorium: [AIS Tasmota v9.3.1 Kenneth](https://github.com/sviete/AIS-Tasmota/tree/firmware/firmware)",
+      "source_content_hash": "5719b99972c3a1c164d5dc238ffb33ff912961576cdc28e0ef221bdbf66f9617",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "最新版本的代码和固件一如既往可在我们的代码库获取：[AIS Tasmota v9.3.1 Kenneth](https://github.com/sviete/AIS-Tasmota/tree/firmware/firmware)"
+      }
+    },
+    {
+      "segment_id": "e77cf7c6",
+      "source_content": "Pełny opis zmian na strone [Tasmota](https://github.com/arendst/Tasmota/releases/tag/v9.3.1):",
+      "source_content_hash": "783fcda879a5112d81ed39629652d63be411be40b7cfb08867b3f844dbb3151d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "完整更新说明详见[Tasmota发布页](https://github.com/arendst/Tasmota/releases/tag/v9.3.1)："
+      }
+    },
+    {
+      "segment_id": "bb1346b6",
+      "source_content": "[![](/img/en/blog/202102/tasmota.png)](https://github.com/arendst/Tasmota/releases/tag/v9.3.1)",
+      "source_content_hash": "b694d3ba9d0fcdb6f275795bfb985c0cfdb67c7161bccb3f56f765bc7f4ecb61",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "[![](/img/en/blog/202102/tasmota.png)](https://github.com/arendst/Tasmota/releases/tag/v9.3.1)"
+      }
+    },
+    {
+      "segment_id": "af843cee",
+      "source_content": "## ![](/img/en/blog/202101/hass.png) Asystent domowy",
+      "source_content_hash": "d2abacfd8c155e4276e2b9e70fb69aea101d205f95027a171074d0f4d2661cbe",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202101/hass.png) 家庭助手"
+      }
+    },
+    {
+      "segment_id": "681ef526",
+      "source_content": "Najnowsza wersja Asystenta domowego, czyli naszego pakietu ``ais-dom`` bazującego na najnowszym stabilnym Home Assistant Core.",
+      "source_content_hash": "4f36ed4bd7e6fdbae4e71f7081f263804cfb8884b40cb03ecec164f202f07f42",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "家庭助手的最新版本，即我们的``ais-dom``软件包，基于最新稳定版Home Assistant Core构建。"
+      }
+    },
+    {
+      "segment_id": "be17ccc3",
+      "source_content": "![Asystent domowy](/img/en/blog/202102/hasocial.png)",
+      "source_content_hash": "f8e3915486fb223e5beb76f0dc39f073fcf00cc4a84016809865003b04d6ef3e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![家庭助手](/img/en/blog/202102/hasocial.png)"
+      }
+    },
+    {
+      "segment_id": "ad3e22c6",
+      "source_content": "Szczegółowy opis zmian w Home Assistant dostępny na blogu projektu Home Assistant: [2021.2: Z-Wave... JS!](https://www.home-assistant.io/blog/2021/02/03/release-20212/)",
+      "source_content_hash": "b477d5084927957c13a442e46ce595d23d921794722cd381083f597ccd3ba5d0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Home Assistant的详细更新内容可查阅其官方博客：[2021.2版本：Z-Wave... JS!](https://www.home-assistant.io/blog/2021/02/03/release-20212/)"
+      }
+    },
+    {
+      "segment_id": "c6c98a21",
+      "source_content": "-------",
+      "source_content_hash": "11d925ecde7d1b6aa2c2881df15ce7b8553e7f48b782e061b658f050a673013f",
+      "node_type": "thematicBreak",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "-------"
+      }
+    },
+    {
+      "segment_id": "b50cf7ff",
+      "source_content": "##### AI-Speaker 02/2021",
+      "source_content_hash": "8dab5f7950cfc9f28008c24b89f33b23052364c9253c031b1b3c639e475a2113",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "##### AI-Speaker 2021年2月版"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2021-02-24-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.124333+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "0b127337753963980f9ee9cb8d5e8b3bfbf0d98bc5c0a50af0cfaed484f1349b"
+  }
+}

@@ -1,0 +1,512 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_remote_adb.md",
+  "source_file_content_hash": "8f79cbd42b1d19ad7a444748928ff8a454f4c555312ff583d2f44e84930960d6",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Dostęp do konsoli bramki po ADB\"\nsidebar_label: ADB\n---",
+      "source_content_hash": "71316f8d4f7004b444b2732ee1e86a76cfe1b140ac78358965cad4e2333f753b",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Android Debug Bridge (ADB) to kolejne narzędzie działające w konsoli, które umożliwia komunikację z urządzeniem.",
+      "source_content_hash": "69fb68f83e1c4d162bf94a7217fa298e254e1d4e3d84728dac807bb0d13b8f48",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Android调试桥(ADB)是另一个运行在控制台的实用工具，可实现与设备的通信。"
+      }
+    },
+    {
+      "segment_id": "a239c14b",
+      "source_content": ":::tip[Wskazówka]\nTa metoda komunikacji jest przydatna szczególnie w sytuacji, gdy nie mamy możliwości łączenia się z Asystentem domowym po SSH, bo go np odinstalowaliśmy z bramki.\n:::",
+      "source_content_hash": "097642fcca6beec687df35995ba5febb994789dad74090040417c99d57aa1bfa",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::tip[提示]\n当无法通过SSH连接家庭助手时（例如因从网关卸载了该应用），这种通信方式尤为实用。\n:::"
+      }
+    },
+    {
+      "segment_id": "9fcbdce9",
+      "source_content": "## Instalacja ADB na komputerze",
+      "source_content_hash": "d18ec732b0b4ae09316fb4f3b8d64d4c2e94f8b93ea65a1b7e834b147342e140",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 在计算机上安装ADB"
+      }
+    },
+    {
+      "segment_id": "ad8fd492",
+      "source_content": "ADB jest częścią Android SDK, instalacja dla 3 systemów (Windows, Mac, Linux) opisana jest pod tym linkiem:",
+      "source_content_hash": "8472332979b8a15a8a13c7a29a93bf37196fa60028d16db56227577fdf943bb2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "ADB是Android SDK的组成部分，三大操作系统(Windows/Mac/Linux)的安装指南详见："
+      }
+    },
+    {
+      "segment_id": "86b54d44",
+      "source_content": "https://developer.android.com/studio/releases/platform-tools.html",
+      "source_content_hash": "183851ffcbab201a30dd1184ac43dd6d001bb4e357b43a26395b5e0c8cd07c9b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "https://developer.android.com/studio/releases/platform-tools.html"
+      }
+    },
+    {
+      "segment_id": "aee0e40d",
+      "source_content": "## Włączenie debugowania ADB na bramce",
+      "source_content_hash": "aa34ef8deab9cd7e01935652adccdc2a728ae7330f9d1b92aaef3ffb80bade95",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 在网关上启用ADB调试"
+      }
+    },
+    {
+      "segment_id": "0787cf7f",
+      "source_content": "1. Podłącz bramkę do telewizora lub monitora\n\n2. Wyjdź z aplikacji Asystent domowy,\n[Wyjście z aplikacji](/docs/ais_bramka_settings#ustawienia-aplikacji-asystent-domowy)\n\n3. Przejdź do ustawień Android\n[Ustawienia systemu Android](/docs/ais_bramka_settings#ustawienia-systemu-android)\n\n4. W ustawieniach Android przejdź do **Informacje**",
+      "source_content_hash": "25ded32c8e89a678e971cff45c14d4f4eb337608e3bd8c7c0398b17776e82e44",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "1. 将网关连接至电视或显示器\n\n2. 退出家庭助手应用\n[退出应用](/docs/ais_bramka_settings#ustawienia-aplikacji-asystent-domowy)\n\n3. 进入Android设置\n[Android系统设置](/docs/ais_bramka_settings#ustawienia-systemu-android)\n\n4. 在Android设置中进入**关于设备**"
+      }
+    },
+    {
+      "segment_id": "dfe931a2",
+      "source_content": "![Ustawienia - Informacje](/img/en/bramka/adb_settings_1.png)",
+      "source_content_hash": "77398bf2accde2327375151d17ad3b2ec781d092c88ec95f202592d9888a4b27",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![设置-关于设备](/img/en/bramka/adb_settings_1.png)"
+      }
+    },
+    {
+      "segment_id": "cd471e4e",
+      "source_content": "5. Kliknij 5 razy w opcję **Kompilacja** aż pojawi się komunikat, że jesteś już programistą",
+      "source_content_hash": "1aebf17f5df6827fed38b2324c2dd0089f25e1efcab1c2f7b6e4455e79ce1cba",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "5. 连续点击**版本号**5次，直至出现\"您已处于开发者模式\"提示"
+      }
+    },
+    {
+      "segment_id": "bdc231b1",
+      "source_content": "![Ustawienia - Kompilacja](/img/en/bramka/adb_settings_2.png)",
+      "source_content_hash": "7c34ef3a33d30fb434f93ff3436384abb6c86bc9f6b379642943115a42320dcf",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![设置-版本号](/img/en/bramka/adb_settings_2.png)"
+      }
+    },
+    {
+      "segment_id": "5d66c9dc",
+      "source_content": "6. Wróć do ustawień (strzałka na pilocie) i wybierz nową opcję **Opcje programistyczne**",
+      "source_content_hash": "ca7d7d0d823a0861ae2c357dd7ddd86fb1f84ce588240ec0c114bd432f7c6cf7",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "6. 返回设置界面（使用遥控器返回键），选择新增的**开发者选项**"
+      }
+    },
+    {
+      "segment_id": "c3a738de",
+      "source_content": "![Ustawienia - Opcje programistyczne](/img/en/bramka/adb_settings_3.png)",
+      "source_content_hash": "e3e28b3631c3339363ceba6f279610d186307b060f81df4cd430e8e2ca8f90cc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![设置-开发者选项](/img/en/bramka/adb_settings_3.png)"
+      }
+    },
+    {
+      "segment_id": "8a01ee7b",
+      "source_content": "7. W opcjach programistycznych włącz **Debugowanie USB**",
+      "source_content_hash": "4204fb8ef0b1935d17409c1c9fa1d4ddf3402849e50ea54b058f94fe795babfb",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "7. 在开发者选项中启用**USB调试**"
+      }
+    },
+    {
+      "segment_id": "1042b50d",
+      "source_content": "![Ustawienia - Debugowanie USB](/img/en/bramka/adb_settings_4.png)",
+      "source_content_hash": "ea87940f8b8bda4bd2dfe37d6c9d32378122d75cc40bdf0db67a764f9053aa46",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![设置-USB调试](/img/en/bramka/adb_settings_4.png)"
+      }
+    },
+    {
+      "segment_id": "8bddee80",
+      "source_content": "## Połączenie z bramką w lokalnej sieci",
+      "source_content_hash": "9774f23dccef7e596224f9fa30a71e8e16abc64a691aa32d4424315b4997b3cb",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 在局域网内连接网关"
+      }
+    },
+    {
+      "segment_id": "cef3cb03",
+      "source_content": "1. Uruchom serwer ADB wpisując w konsoli na swoim komputerze",
+      "source_content_hash": "8bd8e8d5802a5b9a6b49b0275e6bacf60f2cd0d6b2feec80580f469a80a6a990",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "1. 在计算机终端启动ADB服务"
+      }
+    },
+    {
+      "segment_id": "95318d95",
+      "source_content": "```bash\n$ adb start-server\n```",
+      "source_content_hash": "119e1e90a3533addb0c090ed5df97ef87f9ce977f64e5db81cff747964e74a73",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_95318d95"
+      }
+    },
+    {
+      "segment_id": "157c9741",
+      "source_content": "2. Podłącz się do bramki wpisując w konsoli na swoim komputerze",
+      "source_content_hash": "3ee672d6ffbd06a6ee108536b202de93629e2c1ce92c0b79294de867dc71f07f",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "2. 在计算机终端输入以下命令连接网关"
+      }
+    },
+    {
+      "segment_id": "eb80afe1",
+      "source_content": "```bash\n$ adb connect <ip-bramki-w-lokalnej-sieci>\n```",
+      "source_content_hash": "1ccf51cc08ac03d0784d4f9d1a3b2fbd5d0a0296cb801fdd4739a345edcc5ad4",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_eb80afe1"
+      }
+    },
+    {
+      "segment_id": "a0e887c2",
+      "source_content": "3. Zaakceptuj na bramce połączenie z komputera",
+      "source_content_hash": "4f515d594adbae5f8b0a41875eef84abd67e0dbc3400d9107b0c195db8901c82",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "3. 在网关上授权来自计算机的连接请求"
+      }
+    },
+    {
+      "segment_id": "6ea4c715",
+      "source_content": "![Ustawienia - Kompilacja](/img/en/bramka/adb_settings_5.png)",
+      "source_content_hash": "9d3682fd97f10d3932f54903a3927337df5740882a58c12063e5893c50e36d77",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![设置-版本号](/img/en/bramka/adb_settings_5.png)"
+      }
+    },
+    {
+      "segment_id": "158e1f5d",
+      "source_content": "4. Połącz się z konsolą bramki wpisując w konsoli na swoim komputerze",
+      "source_content_hash": "bab29625f0ddb97b53218ca573082e44ae15a2cb0261dcb7f9d0f6d34ed444f7",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "4. 在计算机终端输入以下命令连接网关控制台"
+      }
+    },
+    {
+      "segment_id": "5d4925eb",
+      "source_content": "```bash\n$ adb shell\n```",
+      "source_content_hash": "50042434842595691f117517ad11958d9dc3977a4ed21a47848a162eaf5510f0",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_5d4925eb"
+      }
+    },
+    {
+      "segment_id": "81f451c9",
+      "source_content": "> Mając połączenie po ADB możesz instalować aplikacje na bramce, przeglądać logi i wykonywać inne zadania serwisowe",
+      "source_content_hash": "d8a3e5906201e283eeec7b22312aa6a32f28dd86efa47f76c556eed04ac9e2ff",
+      "node_type": "blockquote",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "> 通过ADB连接后，您可执行网关应用安装、日志查看等维护操作"
+      }
+    },
+    {
+      "segment_id": "d422fb13",
+      "source_content": "## Przykładowe przydatne operacje serwisowe dostępne z adb",
+      "source_content_hash": "ada318d6fde9892abb0228171d73db0ba250a63a29634306b7f038a3f3a04102",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 通过ADB执行的常用维护操作示例"
+      }
+    },
+    {
+      "segment_id": "b1cbdb65",
+      "source_content": "###  Przełączenie na użytkownika root",
+      "source_content_hash": "28bb25c613e710bfa6c2c6cd32ca9ca149fc9eb2c149afece316f96ba007921f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 切换至root用户"
+      }
+    },
+    {
+      "segment_id": "afa378f7",
+      "source_content": "Połączmy się z bramką po ADB wykonując następujące komendy w naszej konsoli:",
+      "source_content_hash": "7b07175abe07ec73cab78be891cc89648026c6dacafa59ed956430ba71022e8c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在终端执行以下命令连接网关："
+      }
+    },
+    {
+      "segment_id": "a89f84e1",
+      "source_content": "```bash\nadb connect <ip-bramki-w-lokalnej-sieci>\nadb shell\n```",
+      "source_content_hash": "477e21a9fadfc2d1e0b45b69a68d6a1c4e15a2a144f1073239033b8f6232abfe",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_a89f84e1"
+      }
+    },
+    {
+      "segment_id": "a5c5772a",
+      "source_content": "to powinno dać następujący efekt:",
+      "source_content_hash": "f1e99152a6792c68631bc7a33fcdf760f1ebd5e4b0dab28fae3b3b16abb65c81",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "执行后应显示如下状态："
+      }
+    },
+    {
+      "segment_id": "65400624",
+      "source_content": "```bash\np281:/ $\n```",
+      "source_content_hash": "814184ff858176a978ef3d7a33829c5143661a575962aedc5c69b6f18ba0229f",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_65400624"
+      }
+    },
+    {
+      "segment_id": "2547a6bb",
+      "source_content": "**$** oznacza, że jesteśmy zalogowani na konsoli urządzenia jako zwykły użytkownik.\nŻeby mieć pełny dostęp przełączmy się na urzytkownika root poleceniem su, efekt powinine być następujący:",
+      "source_content_hash": "d8967f5338c4cfb9879d99a1f78abb9b90229620423e574212fade05e9fdb3b5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "**$** 符号表示我们当前以普通用户身份登录设备控制台。要获取完整权限，需使用`su`命令切换至root用户，预期效果如下："
+      }
+    },
+    {
+      "segment_id": "5dd0e3a7",
+      "source_content": "```bash\np281:/ $ su\np281:/ #\n```",
+      "source_content_hash": "78bee222f829729ff0729eb57618c1d49688a5f2a86cf73717f7c902cb39eb52",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_5dd0e3a7"
+      }
+    },
+    {
+      "segment_id": "a311e967",
+      "source_content": "możemy to potwierdzić poleceniem whoami",
+      "source_content_hash": "a4730494b476a5e174d27b2dba1374a630907f412703a31a7405e4fc6da1faea",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "可通过`whoami`命令验证当前用户身份"
+      }
+    },
+    {
+      "segment_id": "7fa46732",
+      "source_content": "```bash\np281:/ # whoami\np281:/ root\n```",
+      "source_content_hash": "47d1741da72f937316f23ea23e08d5c5915434b3b925cb09bc5cb9776a1a37af",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_7fa46732"
+      }
+    },
+    {
+      "segment_id": "94145a94",
+      "source_content": "###  Kopia ustawnień aplikacji",
+      "source_content_hash": "ee7041ac816dc4107e3d565786f829d0d2f5ee17f626fe8213d7929ca8802e84",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 应用程序设置备份"
+      }
+    },
+    {
+      "segment_id": "2838eb68",
+      "source_content": "Wszystkie ustawienia Asystenta domowego dostępne są w folderze /data/data/pcom.termux/files/home/AIS. Skopiujmy jego zawartość do lokalizacji /sdcard wykonując komendę:",
+      "source_content_hash": "29b0393dca8fe963fefb37b48cf28ebdd7fa185b69e26534c09fc5c8b69bf3b8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "家庭助手的所有设置均存储在`/data/data/pcom.termux/files/home/AIS`目录下。执行以下命令将其内容复制到`/sdcard`位置："
+      }
+    },
+    {
+      "segment_id": "4be28ed1",
+      "source_content": "**cp -r /data/data/com.termux/files/home/AIS /sdcard/AIS**",
+      "source_content_hash": "ee618eaf31910fc055c427d68c9bbefdf692b968e6b148f0747acc1291de2fcf",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "**cp -r /data/data/com.termux/files/home/AIS /sdcard/AIS**"
+      }
+    },
+    {
+      "segment_id": "c9873cf8",
+      "source_content": "```bash\np281:/ # cp -r /data/data/com.termux/files/home/AIS /sdcard/AIS\n```",
+      "source_content_hash": "cc03a70d8d27a713e324cd92443af324ff25500eeb455b87e5541fd0339c849b",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_c9873cf8"
+      }
+    },
+    {
+      "segment_id": "8574d51c",
+      "source_content": "###  Pobranie aplikacji android serwera OTA Asystent domowy",
+      "source_content_hash": "78777a1f15058ce4e914767611411d8b95e9135a2f83d690607e0ba457064916",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 下载家庭助手OTA安卓服务器应用"
+      }
+    },
+    {
+      "segment_id": "e9313fef",
+      "source_content": "Aplikacje dostępne są w naszym serwisie OTA https://www.ai-speaker.com/ota, pobieramy je najpierw na swój kopmuter wklejając w przeglądarce pełny adres aplikacji\nhttps://www.ai-speaker.com/ota/android/AisPanelApp.apk lub przechodząc na stronę https://www.ai-speaker.com/ota/ i wybierając aplikację z tabeli.",
+      "source_content_hash": "c19fd87d2acb2d4134b9ee9912e92b34701a22aab6247f21a36b7fb483eb90f4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "应用程序可通过我们的OTA服务获取 https://www.ai-speaker.com/ota ，先在电脑浏览器地址栏输入完整应用地址下载：\nhttps://www.ai-speaker.com/ota/android/AisPanelApp.apk 或访问 https://www.ai-speaker.com/ota/ 从表格中选择应用。"
+      }
+    },
+    {
+      "segment_id": "44aaa880",
+      "source_content": "Na urządzeniu działa aplikacja serwer i to ją w tym przykładzie pobierzemy i zainstalujemy:",
+      "source_content_hash": "1693d5dd2dfce114e61da4346a44beedbc1fab16a0ce041dee65f475ecb333e6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "本示例将下载并安装设备上运行的服务器应用："
+      }
+    },
+    {
+      "segment_id": "396efb28",
+      "source_content": "![OTA download](/img/en/bramka/adb_download_apk_from_ota.png)",
+      "source_content_hash": "fdc99be8d1fa4bc328b5940e0641f046e64d9214dd1a549fc0ac87822c464d61",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![OTA下载](/img/en/bramka/adb_download_apk_from_ota.png)"
+      }
+    },
+    {
+      "segment_id": "cbd60296",
+      "source_content": "###  Instalacj aplikacji android z adb",
+      "source_content_hash": "8a2ecdf7aba1e4fc764013f154964613d963be236ff1fe7cc51bc2ecf7b9b7c7",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 通过ADB安装安卓应用"
+      }
+    },
+    {
+      "segment_id": "f38d1cb0",
+      "source_content": "Gdy mamy aplikację pobraną na nasz komputer to możemy ją zainstalować na urządzeniu za pomocą komendy **adb install** a dokładnie w naszym przypadku użyjemy komendy:",
+      "source_content_hash": "16f982c5ede12909d670cbe4c2d06a10baa6446a29d3008e335215a9fec4f60c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "当应用下载至电脑后，可通过**adb install**命令安装至设备，具体命令如下："
+      }
+    },
+    {
+      "segment_id": "e2c67c87",
+      "source_content": "```bash\nadb install -r -d AisPanelApp.apk\n```",
+      "source_content_hash": "54dc9017361b74054998d3bb3257ab7a90f7231e39a7948a7cbad2a57a0aa0e8",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_e2c67c87"
+      }
+    },
+    {
+      "segment_id": "c364340c",
+      "source_content": "Gdzie flaga **-r** oznacza re-instalacje z zachowaniem plików a flaga **-d** to umożliwienie instalacji do starszej wersji (downgrade). Oczywiście AisPanelApp.apk to nazwa pobranej aplikacji i jeżeli wykonujemy komendę z innej lokalizacji niż lokalizacja pobranej aplikacji, to należy podać pełną lokalizację do pliku z aplikacją.",
+      "source_content_hash": "14b632fe3c8f16a3626c23f04eb5959469b35d379ec24e4d371821c86c723fe9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "其中**-r**参数表示保留文件重新安装，**-d**参数允许降级安装。AisPanelApp.apk为下载的应用文件名，若执行命令时不在应用所在目录，需指定完整的文件路径。"
+      }
+    },
+    {
+      "segment_id": "c766290e",
+      "source_content": "###  Uruchomienie aplikacji android z adb",
+      "source_content_hash": "e1ba7a77377279b8b597e2a85f0e8f4639339677db36a17163bf29c04b10d4a3",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 通过ADB启动安卓应用"
+      }
+    },
+    {
+      "segment_id": "5c7d994c",
+      "source_content": "Żeby uruchomić aplikację na urządzeniu po adb wystarczy wpisać polecenie:",
+      "source_content_hash": "6cccd443c104d426c57724a2b60604accad34222a3666087d78eabd83c2556f4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在设备上通过ADB启动应用只需输入命令："
+      }
+    },
+    {
+      "segment_id": "f2f9d525",
+      "source_content": "```bash\nadb shell am start -n pl.sviete.dom/pl.sviete.dom.WelcomeActivity\n```",
+      "source_content_hash": "5aa41f0dfb0e7a5004b96ceb937cd6a3c4c98281eb86034a0a842522698cc87d",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_f2f9d525"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_remote_adb.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.129259+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "8f79cbd42b1d19ad7a444748928ff8a454f4c555312ff583d2f44e84930960d6"
+  }
+}

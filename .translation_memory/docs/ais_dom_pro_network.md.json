@@ -1,0 +1,122 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_dom_pro_network.md",
+  "source_file_content_hash": "2efe87e1281eb0f8945d24bc8d599e2a57c7996dc15a744c030cd1d911edc14b",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Oferta PRO\"\nsidebar_label: Infrastruktura sieciowa \n---",
+      "source_content_hash": "b521143b04cd0f955e012529ea74bd4c172d89123ab7ef16355dc038e09458e4",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "### <span class=\"mdi mdi-professional-hexagon\"></span> Infrastruktura sieciowa",
+      "source_content_hash": "baab7ddf622d825c9b39abdc3c80cd9502702f2791145d879fc9ff4192b8ea4c",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### <span class=\"mdi mdi-professional-hexagon\"></span> 网络基础设施"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Oferujemy integracje warstwy sieciowej - dostarczenie rozwiązania sieciowego pod potrzeby projektu klienta.",
+      "source_content_hash": "b1b61f1e19a8400be1173cc56856c68969721a8c6010ac92d96e833363eb221c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们提供网络层集成服务——根据客户项目需求定制网络解决方案。"
+      }
+    },
+    {
+      "segment_id": "8a5f6a7b",
+      "source_content": "### Zdalne zarządzanie siecią",
+      "source_content_hash": "358900d5c6bc0fcd6ff1ff99a8b795c7e0ee182096dbda1f8963bb26a5c687fb",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 远程网络管理"
+      }
+    },
+    {
+      "segment_id": "180bddb1",
+      "source_content": "Zapewniamy możliwość zdalnego zarządzania infrastrukturą sieciową w wielu lokalizacjach za pomocą [UISP Ubiquiti®](https://ai-speaker.uisp.com/nms/login)",
+      "source_content_hash": "4ba2cdee723ee6a5871c5c5a51c59ba50244edcd2651b099774e6b71e1364a1b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过[UISP Ubiquiti®](https://ai-speaker.uisp.com/nms/login)实现多地点网络基础设施的远程管理"
+      }
+    },
+    {
+      "segment_id": "cf898102",
+      "source_content": "![AIS UISP](/img/en/pro/uisp.png)",
+      "source_content_hash": "019d17c3495314e4d17fe871b0a740048fb400ee3bc13f60cfbd8dfb0b9f3bed",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS UISP](/img/en/pro/uisp.png)"
+      }
+    },
+    {
+      "segment_id": "d350c018",
+      "source_content": "### Dostęp VPN",
+      "source_content_hash": "e76d859c4435c7e32fa6f99e3d038095fdfcda355892d4fe1f42a2d85234bbdf",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### VPN接入"
+      }
+    },
+    {
+      "segment_id": "1acb9a05",
+      "source_content": "Zapewniamy możliwość zdalnego serwisowego dostępu do lokalizacji za pomocą [WireGuard VPN](https://www.wireguard.com/).",
+      "source_content_hash": "6124138455b79ea21b25acf64859ef348ff61b4a546a9443473be0ee7785738c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "提供基于[WireGuard VPN](https://www.wireguard.com/)的远程运维接入服务"
+      }
+    },
+    {
+      "segment_id": "2df4f75f",
+      "source_content": "![AIS UISP](/img/en/pro/uisp_map.png)",
+      "source_content_hash": "829fbfcc60afaf1a5ececb73b8dc79f75cb1f1698970f9455a48e8b2e73a1ec5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS UISP](/img/en/pro/uisp_map.png)"
+      }
+    },
+    {
+      "segment_id": "f2c2bdd0",
+      "source_content": "![AIS UISP](/img/en/pro/uisp_console.png)",
+      "source_content_hash": "e234d3b32f8faaca8d2b0abb7bd04fef487cb0f114c435f4bdc461a9d11bf005",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS UISP](/img/en/pro/uisp_console.png)"
+      }
+    },
+    {
+      "segment_id": "d2808037",
+      "source_content": ":::info\nMożliwe jest też wykonanie lub dostosowanie funkcjonalności pod zamówienie klienta. Zapraszamy do kontaktu info@ai-speaker.com\n\n:::",
+      "source_content_hash": "1c63b9591a9697da5561c2177e1c8cf1664e2df0d4248e904a9a19d8fed66f13",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::info\n支持按客户需求定制开发功能模块，欢迎联系info@ai-speaker.com\n\n:::"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_dom_pro_network.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.117301+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "2efe87e1281eb0f8945d24bc8d599e2a57c7996dc15a744c030cd1d911edc14b"
+  }
+}

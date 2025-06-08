@@ -1,0 +1,42 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_dom_cloud_update_chanel.md",
+  "source_file_content_hash": "87ca101b60cef0bb9425db1e550fb93eaadec4e73d1409878adb498c94cc44af",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Kanał aktualizacji w portalu integratora\"\nsidebar_label: Kanał aktualizacji\n---",
+      "source_content_hash": "0856feea6f76370f0afdcd5b96919a0a3c289279d8f038c8fbe6c9e77feccfd6",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "W portalu integratora możesz byrać kanał aktualizacji dla swoich bramek",
+      "source_content_hash": "9bcd714b9ac13b14ea1ff4e9039fa0638db44f866e9833f7d47550a45502947f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在集成商门户中，您可为网关设备选择更新通道"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "![Kanał aktualizacji](/img/en/bramka/dom_cloud_gate_chanel.png)",
+      "source_content_hash": "ed0801d3c7c0e5a6413a8257d276e45b86d68c8326701ae8ca5dc30008745c4b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![更新通道](/img/en/bramka/dom_cloud_gate_chanel.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_dom_cloud_update_chanel.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.090981+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "87ca101b60cef0bb9425db1e550fb93eaadec4e73d1409878adb498c94cc44af"
+  }
+}

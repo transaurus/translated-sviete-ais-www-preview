@@ -1,0 +1,52 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_remote_http.md",
+  "source_file_content_hash": "4d704e7a94aa252f11e8dc6719c26fa6dcba536aa2a7dcf28b3169bd6065213a",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Dostęp do bramki po HTTP\"\nsidebar_label: HTTP\n---",
+      "source_content_hash": "4ffecd3e558ed68417741640d56f0ba4965f7b8bd8ccb2d32a011c5eb23e3e60",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "f1ef2f7d",
+      "source_content": "> UWAGA: **sprawdź, czy bramka jest widoczna w Twojej lokalnej sieci DNS po nazwie hosta (domyślnie ais-dom.local), czy tylko po adresie IP.** W przypadku, gdy bramka jest widoczna tylko po adresie IP, przed połączeniem [sprawdz adres IP bramki](/docs/ais_bramka_remote_index#sprawdzenie-adresu-ip-w-aplikacji)",
+      "source_content_hash": "cd94ecc18fbf96a884c502200786d69a76cde83c8fce09833f1b7471b9e29670",
+      "node_type": "blockquote",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "> 注意：**请确认网关在本地DNS网络中是否通过主机名（默认为ais-dom.local）可见，或仅能通过IP地址访问。** 若网关仅能通过IP访问，在连接前请先[检查网关IP地址](/docs/ais_bramka_remote_index#sprawdzenie-adresu-ip-w-aplikacji)"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Możliwe jest używanie aplikacji zainstalowanej na bramce z przeglądarki internetowej w Twojej lokalnej sieci, apliacja dostępna jest pod adresem http://ais-dom.local lub http://** ip-bramki-w-lokalnej-sieci**",
+      "source_content_hash": "c9ab86115756cf843af233737ddf1f08261a919cda460f671ca93c6f1c4e8902",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "您可以在本地网络通过浏览器使用安装在网关上的应用程序，访问地址为 http://ais-dom.local 或 http://**网关在本地网络中的IP地址**"
+      }
+    },
+    {
+      "segment_id": "8ac585fb",
+      "source_content": "![Uruchomienie aplikacji w przeglądarce](/img/en/bramka/http_connection_new.png)",
+      "source_content_hash": "89b62d424ebfb928172638275c60d0287e9e93c59e5e4bac8813726f3beffb9a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![在浏览器中启动应用程序](/img/en/bramka/http_connection_new.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_remote_http.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.105780+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "4d704e7a94aa252f11e8dc6719c26fa6dcba536aa2a7dcf28b3169bd6065213a"
+  }
+}

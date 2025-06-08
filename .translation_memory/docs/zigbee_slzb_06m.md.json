@@ -1,0 +1,132 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/zigbee_slzb_06m.md",
+  "source_file_content_hash": "87260d604bc78eaa647923d997b3f99da70621b6c48f8384a3589b53b3f5cc3f",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"SLZB-06M\"\nsidebar_label: Opis produktu SLZB-06M\n---",
+      "source_content_hash": "4dc7712b492c37de8ada2910bd41375e3feaa96108e9aadae25b7df4a5d6121b",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "![SLZB-06M](/img/AIS-ADAPTER-1/slzb_06m_1.png)",
+      "source_content_hash": "af80bbd81d3175b362e122256cf130993aee3e98af51ae3755b39210eb603692",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![SLZB-06M](/img/AIS-ADAPTER-1/slzb_06m_1.png)"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Wprowadzenie",
+      "source_content_hash": "138964b3f05ef631ae55efd030ca96538eb5d783961ef7b978515da6c937d13f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 简介"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "Urządzenie SLZB-06M adapter daje możliwość łatwego korzystania z urządzeń Zigbee bez potrzeby stosowania bramek producentów.",
+      "source_content_hash": "77eb8e6282f9b0f830d1630b32bd2844c6993a17ca0b0e0b8952131861e10463",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "SLZB-06M适配器设备让您无需使用制造商网关即可轻松接入Zigbee设备。"
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "![SLZB-06M](/img/AIS-ADAPTER-1/slzb_06m_2.png)",
+      "source_content_hash": "013c828dd453ae7f9f35f9be329f1c0106f4ddfb1c7d7e67e72a13ab822690b9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![SLZB-06M](/img/AIS-ADAPTER-1/slzb_06m_2.png)"
+      }
+    },
+    {
+      "segment_id": "ad8fd492",
+      "source_content": "![SLZB-06M](/img/AIS-ADAPTER-1/slzb_06m_3.png)",
+      "source_content_hash": "6adb712d65cf43679399671bb0cb8a9803eaf1265ee62657ff56be58641ace36",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![SLZB-06M](/img/AIS-ADAPTER-1/slzb_06m_3.png)"
+      }
+    },
+    {
+      "segment_id": "86b54d44",
+      "source_content": "![SLZB-06M](/img/AIS-ADAPTER-1/slzb_06m_4.png)",
+      "source_content_hash": "8ce8980265e85f0e5bfb51237f7f03acf0233c149423917af893123ab01222b3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![SLZB-06M](/img/AIS-ADAPTER-1/slzb_06m_4.png)"
+      }
+    },
+    {
+      "segment_id": "d350c018",
+      "source_content": "## Strona producenta",
+      "source_content_hash": "9320010df79c99dd233fff0866d17871846cb5426fa148f0c8cdab48d0dec26f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 制造商官网"
+      }
+    },
+    {
+      "segment_id": "1acb9a05",
+      "source_content": "Więcej informacji dostępne jest na stronie producenta urządzenie: [SMLIGHT SLZB-06M](https://smlight.tech/product/slzb-06m/)",
+      "source_content_hash": "c89ad264b352b1dd7b68db37f24ce2b9abe1f54272567e2a5fe44713316292e6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "更多设备信息请访问制造商页面：[SMLIGHT SLZB-06M](https://smlight.tech/product/slzb-06m/)"
+      }
+    },
+    {
+      "segment_id": "63622bf0",
+      "source_content": "## Dostępność i cena",
+      "source_content_hash": "8c8b0d24dfa40d6ef28d3caf96c499605e3ba03d4f196ccba735d26d431bf4a4",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 供货与价格"
+      }
+    },
+    {
+      "segment_id": "98cfbd53",
+      "source_content": "Jesteśmy oficjalnym bezpośrednim importerem i sprzedawcą urządzeń od producenta [SMLIGHT Ukraina](https://smlight.tech/).",
+      "source_content_hash": "ff267460d3d49b8a9fff88e4b6f8c3974f20b8a5939d266fd83b1f0ddfb692db",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们是乌克兰[SMLIGHT](https://smlight.tech/)制造商的官方直接进口商和经销商。"
+      }
+    },
+    {
+      "segment_id": "a2f1eaea",
+      "source_content": ":::warning[Sklep]\n<center>\n[Urządzenie jest dostępne na naszych aukcjach na platformie allegro.pl](https://allegro.pl/uzytkownik/AI-Speaker)\n<br/>\n[<img src=\"/img/allegro.png\" alt=\"drawing\" width=\"200\"/>](https://allegro.pl/uzytkownik/AI-Speaker)\n</center>\n:::info[W świetle trwającej wojny Rosji z Ukrainą uprzejmie prosimy o wsparcie narodu ukraińskiego poprzez kupowanie ukraińskich produktów. Takich jak SLZB_06M. **Cały zysk ze sprzedaży tego produktu przeznaczony jest dla jego Ukraińskiego producenta - firmy [SMLIGHT](https://smlight.tech/).**]\n![SLZB-06M](/img/AIS-ADAPTER-1/slzb_06m_5.png)\n:::",
+      "source_content_hash": "95043f0d66abd66361d93f56dcae612f087ee251401adb334614ac09b2598e42",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::warning[商店]\n<center>\n[该设备可在我们allegro.pl平台的商品页面购买](https://allegro.pl/uzytkownik/AI-Speaker)\n<br/>\n[<img src=\"/img/allegro.png\" alt=\"drawing\" width=\"200\"/>](https://allegro.pl/uzytkownik/AI-Speaker)\n</center>\n:::info[鉴于俄罗斯与乌克兰持续战争，我们恳请您通过购买乌克兰产品（如SLZB_06M）来支持乌克兰人民。**该产品全部销售利润将捐赠给其乌克兰制造商——[SMLIGHT](https://smlight.tech/)公司。**]\n![SLZB-06M](/img/AIS-ADAPTER-1/slzb_06m_5.png)\n:::"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/zigbee_slzb_06m.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.144722+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "87260d604bc78eaa647923d997b3f99da70621b6c48f8384a3589b53b3f5cc3f"
+  }
+}

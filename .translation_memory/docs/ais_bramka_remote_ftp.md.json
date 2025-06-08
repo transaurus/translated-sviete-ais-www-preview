@@ -1,0 +1,272 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_remote_ftp.md",
+  "source_file_content_hash": "66831eac72289c784e5a0b915071dfceb572209a8b7ba759a3db5e9f2171999b",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Dostęp do bramki po FTP\"\nsidebar_label: FTP\n---",
+      "source_content_hash": "08f7b3b95225807e7ad2016577aed2d8961d91b7b0beae16ececd82a0c192f26",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Asystent domowy ma domyślnie uruchomiony serwer FTP, dzięki czemu możesz zdalnie zarządzać plikami na bramce.",
+      "source_content_hash": "c40bd5b9215dc6dd01392637f6fd5dd1d3a9d3d1b43d3a19b1abfba416f610a0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "家庭助手默认启用了FTP服务器，使您可以远程管理网关上的文件。"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Usługa FTP działa na standardowym porcie **21** i na porcie **1024**",
+      "source_content_hash": "4243d1b77ec1c1db9cb8b619fa050b7a003c0d394df6dfb375e49e0949d21c0d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "FTP服务运行在标准端口**21**和端口**1024**上"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "[ftp://ais-dom.local](ftp://ais-dom.local)",
+      "source_content_hash": "9557eeaf7b0d3ec399faee36a3979c2010f17dadce689b0640810b068ac7c9ca",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "[ftp://ais-dom.local](ftp://ais-dom.local)"
+      }
+    },
+    {
+      "segment_id": "ba4f48ff",
+      "source_content": "## logowanie z systemu Windows",
+      "source_content_hash": "7196afc4e76f67ba07bde99b14f6d97c29946d25c117501c0ecd93fdc375a6c1",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 从Windows系统登录"
+      }
+    },
+    {
+      "segment_id": "cf898102",
+      "source_content": "System Windows \"fabrycznie\" nie wspiera mDNS, więc żeby połaczyć się z bramką będziemy musieli znać jej adres IP [sprawdź adres IP bramki](/docs/ais_bramka_remote_index#sprawdzenie-adresu-ip-w-aplikacji)",
+      "source_content_hash": "10d56e1deccfc943db9d7132f148a81385a6cdf4315a19ba5ef59fc89982b39c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Windows系统\"出厂\"不支持mDNS，因此要连接到网关需要知道其IP地址[查看网关IP地址](/docs/ais_bramka_remote_index#sprawdzenie-adresu-ip-w-aplikacji)"
+      }
+    },
+    {
+      "segment_id": "39b3772c",
+      "source_content": "Zalecamy użycie pełnowartościowego klienta FTP, ponieważ klient FTP wbudowany w menedżer plików Windowsa ma ograniczone możliwości.\nPrzetestowany przez nas darmowy klient, którego możemy polecić to [WinScp](https://winscp.net/eng/download.php)",
+      "source_content_hash": "2044d6f3cd39b890a1a8d135dc316b582b2fb87393df3421379aef3630113d3c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们推荐使用功能完整的FTP客户端，因为Windows文件管理器内置的FTP客户端功能有限。\n我们测试过可以推荐的免费客户端是[WinScp](https://winscp.net/eng/download.php)"
+      }
+    },
+    {
+      "segment_id": "f5f6d2ce",
+      "source_content": "Po zainstalowaniu WinScp tworzymy nową sesję i ustawiamy:",
+      "source_content_hash": "02c9fe3156593109af570e8076c142f79c795d2e68728f1de48e8de6c40ae229",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "安装WinScp后创建新会话并设置："
+      }
+    },
+    {
+      "segment_id": "da23c906",
+      "source_content": "- Protokół pliku: FTP\n- Nazwa hosta: IP bramki\n- Numer portu: 21 lub 1024\n- Logowanie anonimowe: zaznaczone",
+      "source_content_hash": "81ac34b8b4db660512bb7a75ece12def2276d98f4c3e75b420644636742e6030",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 文件协议：FTP\n- 主机名：网关IP\n- 端口号：21或1024\n- 匿名登录：勾选"
+      }
+    },
+    {
+      "segment_id": "a76548f8",
+      "source_content": "Ustawienia można zapisać lub od razu połączyć się przyciskiem Logowanie:",
+      "source_content_hash": "7c1e7eb66166e70663c91bca9124fb2e96c145aee425640bc5885455a6bf0002",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "可以保存设置或直接点击登录按钮连接："
+      }
+    },
+    {
+      "segment_id": "4b1d2d7d",
+      "source_content": "![Uruchomienie klienta ftp](/img/en/bramka/ftp_windows_1.png)",
+      "source_content_hash": "2d669c5fd9d667bbbf99f6fbac510af4fa0fc8715ad10ccb4cbecbe8e00cb8d6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![启动FTP客户端](/img/en/bramka/ftp_windows_1.png)"
+      }
+    },
+    {
+      "segment_id": "dfe931a2",
+      "source_content": "W celu przejścia do edycji konfiguracji bramki, po połączeniu się z bramką za pomocą WinScp, w prawym oknie pojawi się nowa sesja połączenia z bramką - domyślnie katalog: /storage/emulated/0\nKlikamy dwukrotnie obok nazwy ścieżki aby zmienić katalog i wpisujemy:\n/data/data/com.termux/files/home/AIS",
+      "source_content_hash": "d9b7379d44dfbb3d0aa77558456055436b34b812ce5a5cb293dddb68a841ce86",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "要进入网关配置编辑，使用WinScp连接网关后，右侧窗口会出现新的网关连接会话 - 默认目录：/storage/emulated/0\n双击路径名称旁更改目录并输入：\n/data/data/com.termux/files/home/AIS"
+      }
+    },
+    {
+      "segment_id": "bdc231b1",
+      "source_content": "![Uruchomienie klienta ftp](/img/en/bramka/ftp_windows_2.png)",
+      "source_content_hash": "1ef4f6904c7d86fdc0bfec5fdbdfebd3f15894cd915870c18b1e90c329facf4c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![启动FTP客户端](/img/en/bramka/ftp_windows_2.png)"
+      }
+    },
+    {
+      "segment_id": "97ae4a01",
+      "source_content": "Teraz można edytować konfigurację w domyślnym edytorze:",
+      "source_content_hash": "cbb6018787b9d989970a1c617b74f4f8f545d68be5126f09becb0a4d12e0cf84",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "现在可以在默认编辑器中编辑配置："
+      }
+    },
+    {
+      "segment_id": "c3a738de",
+      "source_content": "![Uruchomienie klienta ftp](/img/en/bramka/ftp_windows_3.png)",
+      "source_content_hash": "eb32d137eac50c74a63f6f78f905d283ab0c8e0e2a98a4fe07ab2d729f7319f6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![启动FTP客户端](/img/en/bramka/ftp_windows_3.png)"
+      }
+    },
+    {
+      "segment_id": "8d04259b",
+      "source_content": "## logowanie z systemu Linux i z systemów firmy Apple",
+      "source_content_hash": "2233eb96280aa7f3edf9f3e61c583eebee0850e971d09fffe36ca3f6e6204c18",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 从Linux系统和Apple系统登录"
+      }
+    },
+    {
+      "segment_id": "95e9ba12",
+      "source_content": "bramka powinna się automatycznie pojawić w systemowym menedżerze plików w network:///",
+      "source_content_hash": "28932ec6d264b3fe11deb446bdb72dae17da1fc2605975b2b1f71fb3489de713",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "网关应自动出现在系统文件管理器的network:///中"
+      }
+    },
+    {
+      "segment_id": "13d9cd70",
+      "source_content": "![Uruchomienie klienta ftp](/img/en/bramka/ftp_connection_1.png)",
+      "source_content_hash": "7e97c2085bbe143a22a86f6ef20d4d503bdf3ab0afc546a68902db6dd87b94d5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![启动FTP客户端](/img/en/bramka/ftp_connection_1.png)"
+      }
+    },
+    {
+      "segment_id": "29528c8d",
+      "source_content": "Oczywiście możesz też użyć dowolnego klienta FTP aby połączyć się z serwerem FTP bramki anonimowo po jej adresie IP na porcie **1024**",
+      "source_content_hash": "81415d520ddb6e5d0edd549ed3e0707a761842082f36ce6c813cb8cffcfdf246",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "当然您也可以使用任何FTP客户端通过网关IP在端口**1024**上匿名连接网关FTP服务器"
+      }
+    },
+    {
+      "segment_id": "c504c207",
+      "source_content": "![Uruchomienie klienta ftp](/img/en/bramka/ftp_connection_2.png)",
+      "source_content_hash": "55f5b04bec0d6a01e030a780557e93d7602a353e0ca1a15990caf35bbf08ab19",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![启动FTP客户端](/img/en/bramka/ftp_connection_2.png)"
+      }
+    },
+    {
+      "segment_id": "60410af6",
+      "source_content": "## przeglądanie plików",
+      "source_content_hash": "3ebbdaceae622150a2405923c33f94652a4a2d31dd492100e22d32fd69c6433b",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 浏览文件"
+      }
+    },
+    {
+      "segment_id": "b9aaa519",
+      "source_content": "w lokalizacji [ftp://ais-dom.local:1024/sdcard/dom](ftp://ais-dom.local:1024/sdcard/dom) możesz dodawać audio, które następnie będzie widoczne do odtwarzania w systemie Asystent domowy w lokalizacji \"Dysk wewnętrzny\"",
+      "source_content_hash": "a89a82e8543c8a4d524f2ff12bc62c0fd44ed7060f10cbd0d0c84f86818757b0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在[ftp://ais-dom.local:1024/sdcard/dom](ftp://ais-dom.local:1024/sdcard/dom)位置您可以添加音频文件，这些文件随后会在家庭助手系统的\"内部存储\"位置可见并可供播放"
+      }
+    },
+    {
+      "segment_id": "e536ea0d",
+      "source_content": "![Uruchomienie klienta ftp](/img/en/bramka/ftp_connection_3.png)",
+      "source_content_hash": "ce8be6520de776a728a38384d0440dd3907e52a47e64a1bb0fe4e3a84b3b4c9d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![启动FTP客户端](/img/en/bramka/ftp_connection_3.png)"
+      }
+    },
+    {
+      "segment_id": "e912d935",
+      "source_content": "## konfiguracja systemu Asystent domowy",
+      "source_content_hash": "53d4eca67b47e83b51faf19876ae4a38e83d404f4f41f00047d040e9cf1f80ab",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 家庭助手系统配置"
+      }
+    },
+    {
+      "segment_id": "6ea4c715",
+      "source_content": "w lokalizacji [ftp://ais-dom.local:1024/data/data/com.termux/files/home/AIS](ftp://ais-dom.local:1024/data/data/pcom.termux/files/home/AIS) znajduje się konfiguracja systemu Asystent domowy",
+      "source_content_hash": "be7a9101438896deefe885e366590395e02a9632c36faf5804a4a2e28c1ffa62",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在路径 [ftp://ais-dom.local:1024/data/data/com.termux/files/home/AIS](ftp://ais-dom.local:1024/data/data/pcom.termux/files/home/AIS) 下存放着家庭助理系统的配置文件"
+      }
+    },
+    {
+      "segment_id": "79ad944d",
+      "source_content": "![Uruchomienie klienta ftp](/img/en/bramka/ftp_connection_4.png)",
+      "source_content_hash": "44cafec1aad37478a3e56e626cc436536838a2287a0b14c2f670388ac3e31c22",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![启动FTP客户端](/img/en/bramka/ftp_connection_4.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_remote_ftp.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.091960+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "66831eac72289c784e5a0b915071dfceb572209a8b7ba759a3db5e9f2171999b"
+  }
+}

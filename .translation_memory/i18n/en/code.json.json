@@ -1,0 +1,1884 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "i18n/en/code.json",
+  "source_file_content_hash": "56faff24aa890bb192a9c2dab188ca895326c5cf24124edd38046c6db3edfcfc",
+  "segments": [
+    {
+      "segment_id": "homepage.ais_features.wifi.title",
+      "source_content": "Over {devices} WiFi devices",
+      "source_content_hash": "5992633de3938890c6444403d5c0d73115f5c3323a40ea3cadf48dc72e46da5a",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "超过{devices}个WiFi设备"
+      },
+      "metadata": {
+        "json_description": "Wifi number devices title"
+      }
+    },
+    {
+      "segment_id": "homepage.ais_features.wifi.description",
+      "source_content": "{aisSocket} is the easiest way to control devices around your house. {aizWifiImg} This smart plug runs on free and open-source software. Now you can choose from over {moreWiFiDevices} devices which you can connect to the gate in the same simple way as our Smart Plug.",
+      "source_content_hash": "a7713e8b53ae895455fd3b68bf0a9f9e68d002a9c0af37ce3935717a321c1218",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "{aisSocket}是控制家中设备的最简单方式。{aizWifiImg}这款智能插座运行在自由开源软件上。现在您可以从超过{moreWiFiDevices}个设备中选择，这些设备可以像我们的智能插座一样简单地连接到网关。"
+      },
+      "metadata": {
+        "json_description": "Wifi number devices description"
+      }
+    },
+    {
+      "segment_id": "theme.NotFound.title",
+      "source_content": "Page Not Found",
+      "source_content_hash": "cb2f00d1e554baf96001ddb5e22ee63a8053fd3f8b6cad8acd74504af0dadb52",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "页面未找到"
+      },
+      "metadata": {
+        "json_description": "The title of the 404 page"
+      }
+    },
+    {
+      "segment_id": "theme.NotFound.p1",
+      "source_content": "We could not find what you were looking for.",
+      "source_content_hash": "887e4838ffa96692b36cf413d531e20c92958b4a45fb3cc2448f913e8301b8e7",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们找不到您要查找的内容。"
+      },
+      "metadata": {
+        "json_description": "The first paragraph of the 404 page"
+      }
+    },
+    {
+      "segment_id": "theme.NotFound.p2",
+      "source_content": "Please contact the owner of the site that linked you to the original URL and let them know their link is broken.",
+      "source_content_hash": "0cf882ed2315a80023d3a3f5d4621ae38d0d2f9a3e2ebf12e364c515c41ff175",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "请联系链接到原始URL的网站所有者，告知他们链接已失效。"
+      },
+      "metadata": {
+        "json_description": "The 2nd paragraph of the 404 page"
+      }
+    },
+    {
+      "segment_id": "theme.AnnouncementBar.closeButtonAriaLabel",
+      "source_content": "Close",
+      "source_content_hash": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "关闭"
+      },
+      "metadata": {
+        "json_description": "The ARIA label for close button of announcement bar"
+      }
+    },
+    {
+      "segment_id": "theme.blog.paginator.navAriaLabel",
+      "source_content": "Blog list page navigation",
+      "source_content_hash": "b61fc99000ea4a88f4d7fdbf30df4c1075697699bc7fa932093fb8e1681e0821",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "博客列表页面导航"
+      },
+      "metadata": {
+        "json_description": "The ARIA label for the blog pagination"
+      }
+    },
+    {
+      "segment_id": "theme.blog.paginator.newerEntries",
+      "source_content": "Newer Entries",
+      "source_content_hash": "f14acddce6cd6e419e43ecd7b90b3693cf920d205cae07d7c8732ca569ce3011",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "较新条目"
+      },
+      "metadata": {
+        "json_description": "The label used to navigate to the newer blog posts page (previous page)"
+      }
+    },
+    {
+      "segment_id": "theme.blog.paginator.olderEntries",
+      "source_content": "Older Entries",
+      "source_content_hash": "c3e32e104a9556d2de50b7d7e081a5c7acbb35a4b77203a21817727380d6f265",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "较旧条目"
+      },
+      "metadata": {
+        "json_description": "The label used to navigate to the older blog posts page (next page)"
+      }
+    },
+    {
+      "segment_id": "theme.blog.post.readingTime.plurals",
+      "source_content": "One min read|{readingTime} min read",
+      "source_content_hash": "7c21f68b3dc6cbcba3288d06578945132ca07ec8ec0dc2c97d428c124f997bbe",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "1分钟阅读|{readingTime}分钟阅读"
+      },
+      "metadata": {
+        "json_description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+      }
+    },
+    {
+      "segment_id": "theme.tags.tagsListLabel",
+      "source_content": "Tags:",
+      "source_content_hash": "865658f888f2c50229acf31c7f4f412dfe4412ada982c4591a67b0774d45bd02",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "标签："
+      },
+      "metadata": {
+        "json_description": "The label alongside a tag list"
+      }
+    },
+    {
+      "segment_id": "theme.blog.post.readMore",
+      "source_content": "Read More",
+      "source_content_hash": "c29602f4775797f9b2b0de2468274674c6f6c1bc850399284bb3d1f9afaa7fda",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "阅读更多"
+      },
+      "metadata": {
+        "json_description": "The label used in blog post item excerpts to link to full blog posts"
+      }
+    },
+    {
+      "segment_id": "theme.blog.post.paginator.navAriaLabel",
+      "source_content": "Blog post page navigation",
+      "source_content_hash": "57501fdeec3bc10bd5384d5d73e680e9b6965f394d6c394cc3fca1d867c81c7b",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "博客文章页面导航"
+      },
+      "metadata": {
+        "json_description": "The ARIA label for the blog posts pagination"
+      }
+    },
+    {
+      "segment_id": "theme.blog.post.paginator.newerPost",
+      "source_content": "Newer Post",
+      "source_content_hash": "cdfb6252c4aec1b63894f3b8d832ea68cdfb000d1710fd931a13ce509ba9e96c",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "较新文章"
+      },
+      "metadata": {
+        "json_description": "The blog post button label to navigate to the newer/previous post"
+      }
+    },
+    {
+      "segment_id": "theme.blog.post.paginator.olderPost",
+      "source_content": "Older Post",
+      "source_content_hash": "1f47dbb5cb0f9593cde483ce0d5b0ded77103f21f7915ea899fe230dcb56005a",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "较旧文章"
+      },
+      "metadata": {
+        "json_description": "The blog post button label to navigate to the older/next post"
+      }
+    },
+    {
+      "segment_id": "theme.tags.tagsPageTitle",
+      "source_content": "Tags",
+      "source_content_hash": "1331275bc537b4c2bf1e46f7275677967515342e30b572e6852fa6f51b831fe8",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "标签"
+      },
+      "metadata": {
+        "json_description": "The title of the tag list page"
+      }
+    },
+    {
+      "segment_id": "theme.blog.post.plurals",
+      "source_content": "One post|{count} posts",
+      "source_content_hash": "9c1684210f2697c7676fc3e5b67cb83cbd2eb89f0f18014a785fa27afeaba5e2",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "1篇文章|{count}篇文章"
+      },
+      "metadata": {
+        "json_description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+      }
+    },
+    {
+      "segment_id": "theme.blog.tagTitle",
+      "source_content": "{nPosts} tagged with \"{tagName}\"",
+      "source_content_hash": "4b684216376becf33ff139e258b4650835aa502cc55cbcf444611782b8a6da1b",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "{nPosts}篇标记为\"{tagName}\"的文章"
+      },
+      "metadata": {
+        "json_description": "The title of the page for a blog tag"
+      }
+    },
+    {
+      "segment_id": "theme.tags.tagsPageLink",
+      "source_content": "View All Tags",
+      "source_content_hash": "088ead4c42a96dd8fcf9b5e9ca747c5171551aad786cf1634eeb665849961a29",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "查看所有标签"
+      },
+      "metadata": {
+        "json_description": "The label of the link targeting the tag list page"
+      }
+    },
+    {
+      "segment_id": "theme.CodeBlock.copyButtonAriaLabel",
+      "source_content": "Copy code to clipboard",
+      "source_content_hash": "f0437b8953e1d58a2d791ebdea9a92985b7afe296ffd50bf936e4372cb1ed900",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "复制代码到剪贴板"
+      },
+      "metadata": {
+        "json_description": "The ARIA label for copy code blocks button"
+      }
+    },
+    {
+      "segment_id": "theme.CodeBlock.copied",
+      "source_content": "Copied",
+      "source_content_hash": "8d525e5f158b9afe05f3122af363ac67763bdc4e1395b46597b320c289766ce3",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "已复制"
+      },
+      "metadata": {
+        "json_description": "The copied button label on code blocks"
+      }
+    },
+    {
+      "segment_id": "theme.CodeBlock.copy",
+      "source_content": "Copy",
+      "source_content_hash": "e21f935f11d7e966dbbae78da9daa378fe8142a14e7c0cd7434183005faa6c5c",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "复制"
+      },
+      "metadata": {
+        "json_description": "The copy button label on code blocks"
+      }
+    },
+    {
+      "segment_id": "theme.docs.paginator.navAriaLabel",
+      "source_content": "Docs pages navigation",
+      "source_content_hash": "6133c269af5860d402065c51cc2bc8459347c13bc4d7ef913c1cefcefbf94c20",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "文档页面导航"
+      },
+      "metadata": {
+        "json_description": "The ARIA label for the docs pagination"
+      }
+    },
+    {
+      "segment_id": "theme.docs.paginator.previous",
+      "source_content": "Previous",
+      "source_content_hash": "a57b08a480b822a0a572b993391c292ede593bf8000b406675b180bbb16260fa",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "上一页"
+      },
+      "metadata": {
+        "json_description": "The label used to navigate to the previous doc"
+      }
+    },
+    {
+      "segment_id": "theme.docs.paginator.next",
+      "source_content": "Next",
+      "source_content_hash": "1ff57a29d7c9d11bdf61c1b80f2b289b44c1ea844824d4b94a0d52b6ba5fc858",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "下一页"
+      },
+      "metadata": {
+        "json_description": "The label used to navigate to the next doc"
+      }
+    },
+    {
+      "segment_id": "theme.docs.sidebar.expandButtonTitle",
+      "source_content": "Expand sidebar",
+      "source_content_hash": "37a5d6485e109bf695382308d0e2cd33913c3e5f7e9ab990e8f1a5f4287b2c6a",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "展开侧边栏"
+      },
+      "metadata": {
+        "json_description": "The ARIA label and title attribute for expand button of doc sidebar"
+      }
+    },
+    {
+      "segment_id": "theme.docs.sidebar.expandButtonAriaLabel",
+      "source_content": "Expand sidebar",
+      "source_content_hash": "37a5d6485e109bf695382308d0e2cd33913c3e5f7e9ab990e8f1a5f4287b2c6a",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "展开侧边栏"
+      },
+      "metadata": {
+        "json_description": "The ARIA label and title attribute for expand button of doc sidebar"
+      }
+    },
+    {
+      "segment_id": "theme.docs.sidebar.responsiveCloseButtonLabel",
+      "source_content": "Close menu",
+      "source_content_hash": "6ccd5c7856042d36476ffd35a41b54518be95621cc741ac3ed55b8108ea41586",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "关闭菜单"
+      },
+      "metadata": {
+        "json_description": "The ARIA label for close button of mobile doc sidebar"
+      }
+    },
+    {
+      "segment_id": "theme.docs.sidebar.responsiveOpenButtonLabel",
+      "source_content": "Open menu",
+      "source_content_hash": "b40b3713b43dc702682dc967ea5c2dbe20ae414c30baf100d162a8250a928065",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "打开菜单"
+      },
+      "metadata": {
+        "json_description": "The ARIA label for open button of mobile doc sidebar"
+      }
+    },
+    {
+      "segment_id": "theme.docs.sidebar.collapseButtonTitle",
+      "source_content": "Collapse sidebar",
+      "source_content_hash": "aab31cde23ba9783050a754575b80c05e0e799b1542990b24b4b4bde2327e37e",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "折叠侧边栏"
+      },
+      "metadata": {
+        "json_description": "The title attribute for collapse button of doc sidebar"
+      }
+    },
+    {
+      "segment_id": "theme.docs.sidebar.collapseButtonAriaLabel",
+      "source_content": "Collapse sidebar",
+      "source_content_hash": "aab31cde23ba9783050a754575b80c05e0e799b1542990b24b4b4bde2327e37e",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "折叠侧边栏"
+      },
+      "metadata": {
+        "json_description": "The title attribute for collapse button of doc sidebar"
+      }
+    },
+    {
+      "segment_id": "theme.docs.versions.unreleasedVersionLabel",
+      "source_content": "This is unreleased documentation for {siteTitle} {versionLabel} version.",
+      "source_content_hash": "b48f344a3282972ccb109fe37d7ecb9eb7e44ffeca3e8615210b2790609d7478",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "这是{siteTitle} {versionLabel}版本的未发布文档。"
+      },
+      "metadata": {
+        "json_description": "The label used to tell the user that he's browsing an unreleased doc version"
+      }
+    },
+    {
+      "segment_id": "theme.docs.versions.unmaintainedVersionLabel",
+      "source_content": "This is documentation for {siteTitle} {versionLabel}, which is no longer actively maintained.",
+      "source_content_hash": "6d35df058a3b2344b5638b5d58fa820ddc8ac1952138c3bb7c18d66869f968f2",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "这是{siteTitle} {versionLabel}版本的文档，已不再积极维护。"
+      },
+      "metadata": {
+        "json_description": "The label used to tell the user that he's browsing an unmaintained doc version"
+      }
+    },
+    {
+      "segment_id": "theme.docs.versions.latestVersionSuggestionLabel",
+      "source_content": "For up-to-date documentation, see the {latestVersionLink} ({versionLabel}).",
+      "source_content_hash": "63e9c46b1e49202c69eb4dd5703dc8a6977806591c4cdc9041c23ee797c475a6",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "要查看最新文档，请访问{latestVersionLink}（{versionLabel}）。"
+      },
+      "metadata": {
+        "json_description": "The label userd to tell the user that he's browsing an unmaintained doc version"
+      }
+    },
+    {
+      "segment_id": "theme.docs.versions.latestVersionLinkLabel",
+      "source_content": "latest version",
+      "source_content_hash": "5fe87164c1923b3c7cd59758a7e03610c6a95b3c9ad8cb45ab86911fd463962d",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "最新版本"
+      },
+      "metadata": {
+        "json_description": "The label used for the latest version suggestion link label"
+      }
+    },
+    {
+      "segment_id": "theme.common.editThisPage",
+      "source_content": "Edit this page",
+      "source_content_hash": "a9029e19d5b3d36d8ede9c51ff2e147eddf9c6fa41a8cdfd5dbf6ceb7eb72a8f",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "编辑此页"
+      },
+      "metadata": {
+        "json_description": "The link label to edit the current page"
+      }
+    },
+    {
+      "segment_id": "theme.common.headingLinkTitle",
+      "source_content": "Direct link to heading",
+      "source_content_hash": "40a460ae749c789782d654fb385cc6e4aaff2695e4509bca30d5407b442c7ecb",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "跳转到标题"
+      },
+      "metadata": {
+        "json_description": "Title for link to heading"
+      }
+    },
+    {
+      "segment_id": "theme.lastUpdated.atDate",
+      "source_content": " on {date}",
+      "source_content_hash": "e8a6241baffbcb8293b3bfc1f8dd635d84a548cf70e443f761721186a189fcbc",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "于{date}"
+      },
+      "metadata": {
+        "json_description": "The words used to describe on which date a page has been last updated"
+      }
+    },
+    {
+      "segment_id": "theme.lastUpdated.byUser",
+      "source_content": " by {user}",
+      "source_content_hash": "75f117172ea53ec05b9920645ff22d75fdefd058f6a796ffb3e36d9ae5bb1d9b",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "由{user}"
+      },
+      "metadata": {
+        "json_description": "The words used to describe by who the page has been last updated"
+      }
+    },
+    {
+      "segment_id": "theme.lastUpdated.lastUpdatedAtBy",
+      "source_content": "Last updated{atDate}{byUser}",
+      "source_content_hash": "2c6781f3ea27ef3fa439d05bfa217a586a6651f5e4f76659dd8d8417685d12a2",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "最后更新{atDate}{byUser}"
+      },
+      "metadata": {
+        "json_description": "The sentence used to display when a page has been last updated, and by who"
+      }
+    },
+    {
+      "segment_id": "theme.common.skipToMainContent",
+      "source_content": "Skip to main content",
+      "source_content_hash": "c887f134c26ea8310e1fb4bd6fbab7b640393bd1b556e62691c7a442be92ec2a",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "跳转到主内容"
+      },
+      "metadata": {
+        "json_description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+      }
+    },
+    {
+      "segment_id": "theme.SearchPage.documentsFound.plurals",
+      "source_content": "One document found|{count} documents found",
+      "source_content_hash": "6d44a43c22210405b2d7b7271809278ab97ffa0ea1110f24aa2ad9bd161a517c",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "找到1个文档|找到{count}个文档"
+      },
+      "metadata": {
+        "json_description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+      }
+    },
+    {
+      "segment_id": "theme.SearchPage.existingResultsTitle",
+      "source_content": "Search results for \"{query}\"",
+      "source_content_hash": "43947f3cdcf1186ae158fdecaf543b18fd0b1188c875b8cadb116d8d32790ba1",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "“{query}”的搜索结果"
+      },
+      "metadata": {
+        "json_description": "The search page title for non-empty query"
+      }
+    },
+    {
+      "segment_id": "theme.SearchPage.emptyResultsTitle",
+      "source_content": "Search the documentation",
+      "source_content_hash": "2bdb6b49bb2c69b550828f75df7d54d6f44318022fc735d7ecd82207e6885b88",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "搜索文档"
+      },
+      "metadata": {
+        "json_description": "The search page title for empty query"
+      }
+    },
+    {
+      "segment_id": "theme.SearchPage.inputPlaceholder",
+      "source_content": "Type your search here",
+      "source_content_hash": "8ace0cba09aa578e47bf84032e3968616ee75e4d09a611db6bb060d5817750cb",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在此输入搜索内容"
+      },
+      "metadata": {
+        "json_description": "The placeholder for search page input"
+      }
+    },
+    {
+      "segment_id": "theme.SearchPage.inputLabel",
+      "source_content": "Search",
+      "source_content_hash": "49c266baaaa70981ea188fa714d5c40cf13830d786a861c9943ae0d26a7f3fe9",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "搜索"
+      },
+      "metadata": {
+        "json_description": "The ARIA label for search page input"
+      }
+    },
+    {
+      "segment_id": "theme.SearchPage.algoliaLabel",
+      "source_content": "Search by Algolia",
+      "source_content_hash": "1f4f568cec4f3d4bae359fe5649894190d7a94cebac999148eb897cd7365da40",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "由Algolia提供搜索"
+      },
+      "metadata": {
+        "json_description": "The ARIA label for Algolia mention"
+      }
+    },
+    {
+      "segment_id": "theme.SearchPage.noResultsText",
+      "source_content": "No results were found",
+      "source_content_hash": "8fb7e1ee6a3ad73b4676d7578e23b7585cbef054e52934c78b091eb30ab53f67",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "未找到结果"
+      },
+      "metadata": {
+        "json_description": "The paragraph for empty search result"
+      }
+    },
+    {
+      "segment_id": "theme.SearchPage.fetchingNewResults",
+      "source_content": "Fetching new results...",
+      "source_content_hash": "8b5f3b89021efe16afdb08e83d522b13fa94a426930f2795a0023a72bfce42a4",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "正在获取新结果..."
+      },
+      "metadata": {
+        "json_description": "The paragraph for fetching new search results"
+      }
+    },
+    {
+      "segment_id": "theme.SearchBar.label",
+      "source_content": "Search",
+      "source_content_hash": "49c266baaaa70981ea188fa714d5c40cf13830d786a861c9943ae0d26a7f3fe9",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "搜索"
+      },
+      "metadata": {
+        "json_description": "The ARIA label and placeholder for search button"
+      }
+    },
+    {
+      "segment_id": "theme.PwaReloadPopup.info",
+      "source_content": "New version available",
+      "source_content_hash": "5f2c8067cc3f3b28f606c13dc62ffc48b5a5db77ee95b8bf739a7c2f705fa2b7",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "有新版本可用"
+      },
+      "metadata": {
+        "json_description": "The text for PWA reload popup"
+      }
+    },
+    {
+      "segment_id": "theme.PwaReloadPopup.refreshButtonText",
+      "source_content": "Refresh",
+      "source_content_hash": "0e91610117029a62a478b7fa7df0b8598bebe3ab1e192d4b1882e310719c9671",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "刷新"
+      },
+      "metadata": {
+        "json_description": "The text for PWA reload button"
+      }
+    },
+    {
+      "segment_id": "theme.PwaReloadPopup.closeButtonAriaLabel",
+      "source_content": "Close",
+      "source_content_hash": "7d9eb7acb13e24625c404401d8e88b2350e32162455885f18276cf802f7701ed",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "关闭"
+      },
+      "metadata": {
+        "json_description": "The ARIA label for close button of PWA reload popup"
+      }
+    },
+    {
+      "segment_id": "Dokumentacja AIS",
+      "source_content": "AIS Documentation",
+      "source_content_hash": "afe24cea2a62a396d3254708d534a382df5fbcc5cf50cacb1b30386a999e171b",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "AIS文档"
+      },
+      "metadata": {
+        "json_description": "The homepage title"
+      }
+    },
+    {
+      "segment_id": "Automatyzujemy Twój dom lokalnie.",
+      "source_content": "Automate your home locally.",
+      "source_content_hash": "759215c8aa1cc485ece8ad63753b08f4969d9bea51b5514660d31060b5b09375",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "本地自动化您的家居。"
+      },
+      "metadata": {
+        "json_description": "The homepage description"
+      }
+    },
+    {
+      "segment_id": "homepage.hero_title",
+      "source_content": "Assistant at home",
+      "source_content_hash": "7685efdcc9166001385d8a8f375f094a95cc413de57090b15410707169609224",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "家庭助手"
+      },
+      "metadata": {
+        "json_description": "The homepage hero title"
+      }
+    },
+    {
+      "segment_id": "homepage.hero_subtitle",
+      "source_content": "Home automation that is",
+      "source_content_hash": "627a503b3816da78118cfad203e1c2b7209653886df78011c3eb20149241f72d",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "智能家居自动化"
+      },
+      "metadata": {
+        "json_description": "The homepage hero subtitle"
+      }
+    },
+    {
+      "segment_id": "homepage.demo_ask_to_try",
+      "source_content": "Would you like to see how it works?",
+      "source_content_hash": "0e758fbd5df332fe8ebf99efac4cde4f99c496a4d8736fb0c6bd7839930b2ede",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "想看看它是如何工作的吗？"
+      },
+      "metadata": {
+        "json_description": "The homepage ask to try demo"
+      }
+    },
+    {
+      "segment_id": "homepage.demo_tip",
+      "source_content": "Click here 👆 to check out our live demo.",
+      "source_content_hash": "fca9fbaa0daa340e3ca8f8855292013f8841ebeeac799b1831fbe18f2b505725",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "点击这里👆查看我们的实时演示。"
+      },
+      "metadata": {
+        "json_description": "The homepage tip to try demo"
+      }
+    },
+    {
+      "segment_id": "homepage.allegro_ask_to_try",
+      "source_content": "Buy our devices!",
+      "source_content_hash": "b2aeac8733b863943e37ba1946fd7d41db7cc568364cbe06a9ebd272c2249395",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "购买我们的设备！"
+      },
+      "metadata": {
+        "json_description": "The homepage ask to try demo"
+      }
+    },
+    {
+      "segment_id": "homepage.allegro_tip",
+      "source_content": "Click here 👆 to go to our store.",
+      "source_content_hash": "85a3620d5d18d68c60bd729d87ae77bce71fe7eda9ede37fe0621f58edf8d723",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "点击这里👆前往我们的商店。"
+      },
+      "metadata": {
+        "json_description": "The homepage tip to try demo"
+      }
+    },
+    {
+      "segment_id": "homepage.scroll_tip",
+      "source_content": "scroll",
+      "source_content_hash": "e16a9d4d1cf9ead81f53e096a680d278908d60574a8d036eda70baede61287b4",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "滚动"
+      },
+      "metadata": {
+        "json_description": "The homepage tip to scroll"
+      }
+    },
+    {
+      "segment_id": "Zainstaluj z Google Play.",
+      "source_content": "Install from Google Play.",
+      "source_content_hash": "7aa4e24a74819d4da1b44ea8c615e89d3dad72b4d545d211c6e2408fd6239890",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "从Google Play安装。"
+      },
+      "metadata": {
+        "json_description": "Install from Google Play label"
+      }
+    },
+    {
+      "segment_id": "homepage.ais_announcement_line_one",
+      "source_content": "We automate your home by combining the advantages of local control",
+      "source_content_hash": "eab90e290b4526c96688b6b7a79089473734d9004c86052031119bc2cb840979",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们通过结合本地控制的优势实现家居自动化"
+      },
+      "metadata": {
+        "json_description": "Announcement line one"
+      }
+    },
+    {
+      "segment_id": "homepage.ais_announcement_line_two",
+      "source_content": "and IoT cloud services.",
+      "source_content_hash": "de6ef12ce247d4d83332b9cce83f8961df20f07096602b5b37605bad63f1dc15",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "和物联网云服务。"
+      },
+      "metadata": {
+        "json_description": "Announcement line two"
+      }
+    },
+    {
+      "segment_id": "homepage.ais_announcement_line_three",
+      "source_content": "We integrate the world of cool and intelligent things that you can control and automate. A world where you can be independent and also be a part of community-based open projects with so many possibilities and tutorials. And we want this world to be available and more accessible to everyone.",
+      "source_content_hash": "eabe306981069ca7944eeac1d2d86e5294ba01438f7b10b31ecced364ff4d4a4",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们整合了各种酷炫智能设备的世界，您可以控制和实现自动化。在这个世界里，您既能保持独立性，又能参与社区开源项目，享受无限可能和丰富教程。我们希望这个世界对所有人开放且更易触达。"
+      },
+      "metadata": {
+        "json_description": "Announcement line three"
+      }
+    },
+    {
+      "segment_id": "homepage.ais_one_gate_for_all_text",
+      "source_content": "Many intelligent solutions. A great fit for everyone!",
+      "source_content_hash": "b1fcb1066329de834b80d5830d3c98eabf3de6fe29a716da0a6cbf3833c3ee68",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "多元智能解决方案，满足每个人的需求！"
+      },
+      "metadata": {
+        "json_description": "One gate to rule them all text"
+      }
+    },
+    {
+      "segment_id": "homepage.ais_project_people_info",
+      "source_content": "Project created and sponsored by people - thank you!",
+      "source_content_hash": "bf80e77ef9cb093d103266b1601446bf813c4cc4283cec2a7cd6f5d5e57975c3",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "由人们创建并赞助的项目——感谢支持！"
+      },
+      "metadata": {
+        "json_description": "This project is sponsored by people info"
+      }
+    },
+    {
+      "segment_id": "homepage.ais_project_join_button_line_4",
+      "source_content": "Join us!",
+      "source_content_hash": "8af1890e2bbc8c144b42ea17a977a06592b49e428fd88e9aed9a61076480fd32",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "加入我们！"
+      },
+      "metadata": {
+        "json_description": "Join button line 4"
+      }
+    },
+    {
+      "segment_id": "homepage.ais_project_join_button_line_1",
+      "source_content": "BECOME A HERO.",
+      "source_content_hash": "8f5fa8e9886861132dbaaa4ccb4d8423efac796b300ef85f6ed857e934cbc53a",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "成为英雄。"
+      },
+      "metadata": {
+        "json_description": "Join button line 1"
+      }
+    },
+    {
+      "segment_id": "homepage.ais_project_join_button_line_2",
+      "source_content": "Buy our device to",
+      "source_content_hash": "cb3ec8ae71443aaec8ff83a5557c4631a25763581c60ad5d4757ceda6a67237c",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "购买我们的设备"
+      },
+      "metadata": {
+        "json_description": "Join button line 2"
+      }
+    },
+    {
+      "segment_id": "homepage.ais_project_join_button_line_3",
+      "source_content": "support our project.",
+      "source_content_hash": "442d62cac455a8682c5a1257d014cf807b01d37a46959062f6e6f2a860ac9d11",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "支持项目发展。"
+      },
+      "metadata": {
+        "json_description": "Join button line 3"
+      }
+    },
+    {
+      "segment_id": "homepage.ais_features.zigbee.title",
+      "source_content": "Over {devices} Zigbee devices",
+      "source_content_hash": "a1d49ce6badc27e5e33fa99670de4d839fee14bb679609fb213bac811b141cdb",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "支持{devices}款Zigbee设备"
+      },
+      "metadata": {
+        "json_description": "Zigbee number devices title"
+      }
+    },
+    {
+      "segment_id": "homepage.ais_features.zigbee.description",
+      "source_content": "With {aisZigbee} you can easily attach Zigbee devices to the gateway. {aizZigbeeConnbee2Img} More than {moreZigbeeDevices} devices are supported by the Zigbee2Mqtt software which we provide on our gateway.",
+      "source_content_hash": "dca554d72f0ebbe6312fe8d3960d1fb7d6aa413c75d732d3fd65386caa0cf2e4",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过{aisZigbee}可轻松将Zigbee设备接入网关。{aizZigbeeConnbee2Img} 我们网关预装的Zigbee2Mqtt软件兼容{moreZigbeeDevices}余款设备。"
+      },
+      "metadata": {
+        "json_description": "Zigbee number devices description"
+      }
+    },
+    {
+      "segment_id": "homepage.ais_features.zwave.description",
+      "source_content": "With {aisZwave} you can easily attach Zwave devices to the gateway. {aizZigbeeConnbee2Img}  You can use all Zwave devices supported by the ZwaveJs2Mqtt software which we provide on the gateway.",
+      "source_content_hash": "745c7c541821b1db90ee02d84fe11906e72fb93a8ef86cbc690d96e252a6b14b",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过{aisZwave}可便捷连接Zwave设备。{aizZigbeeConnbee2Img} 网关搭载的ZwaveJs2Mqtt软件支持所有Zwave认证设备。"
+      },
+      "metadata": {
+        "json_description": "Zwave in AIS description"
+      }
+    },
+    {
+      "segment_id": "homepage.ais_features.ha.title",
+      "source_content": "Over 🏠 {devices} Integrations",
+      "source_content_hash": "404fa90ac80ea784f6ca61729926e6100ce2b62659bf0ec7c16ea108c401fa84",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "🏠 超过{devices}种集成方案"
+      },
+      "metadata": {
+        "json_description": "HA number of integrations title"
+      }
+    },
+    {
+      "segment_id": "homepage.ais_features.ha.description",
+      "source_content": "One of the components of the software delivered on the gateway is the AIS home automation platform. AIS is a fork of {aisHomeAssistant}. {aisHomeAssistantImg} With preinstalled and ready-to-use {aisHomeAssistantIntegrations} integrations and the possibility of adding more than {moreHomeAssistantMoreIntegrations} that are supported and developed by the Home Assistant community.",
+      "source_content_hash": "edef7228a607eaaeedd02a62cc92a9a1fad97ee0b65930eb6fe0a627661b224e",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "网关预装软件包含AIS家庭自动化平台，该平台基于{aisHomeAssistant}分支开发。{aisHomeAssistantImg} 已预装{aisHomeAssistantIntegrations}种即用型集成，并可扩展支持Home Assistant社区开发的{moreHomeAssistantMoreIntegrations}余种集成方案。"
+      },
+      "metadata": {
+        "json_description": "HA number of integrations description"
+      }
+    },
+    {
+      "segment_id": "homepage.ais_features.voice.title",
+      "source_content": "Voice control {aisTtsStt}",
+      "source_content_hash": "b5e5aa2868f6341de74500ce9689a0604c16582073e15180b697763181eef021",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "语音控制{aisTtsStt}"
+      },
+      "metadata": {
+        "json_description": "Voice commands in AIS title"
+      }
+    },
+    {
+      "segment_id": "homepage.ais_features.voice.description",
+      "source_content": "We provide {aisVoiceCommands} Speech-to-text and text-to-speech, together with built-in commands, so you can control devices using voice commands. . {aisTtsSttImg} Commands can be sent from the {aisVoiceCommandsWeb} browser application, the {aisVoiceCommandsMob} mobile application or the {aisVoiceCommandsRemote} remote control. You can also send commands from other systems / applications using {aisVoiceCommandsApi} or even define your own {aisVoiceCommandsCreate} commands.",
+      "source_content_hash": "ef3be00dfb5e210028594348a097ef7fa91946a210240206207fe6eb9c6e383c",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们提供{aisVoiceCommands}语音转文本和文本转语音功能，结合内置指令实现语音控制设备。{aisTtsSttImg} 可通过{aisVoiceCommandsWeb}网页应用、{aisVoiceCommandsMob}移动应用或{aisVoiceCommandsRemote}遥控器发送指令，还支持通过{aisVoiceCommandsApi}接口或其他系统调用，甚至自定义{aisVoiceCommandsCreate}语音指令。"
+      },
+      "metadata": {
+        "json_description": "Voice commands in AIS description"
+      }
+    },
+    {
+      "segment_id": "homepage.ais_features.audio.description",
+      "source_content": "We provide a built-in {aisAudioPlayer} on the gateway which allows you to choose from hundreds of radio stations, podcasts, free audiobooks and free content from {aisAudioYouTube} and {aisAudioSpotify}.  {aisAudioImg} It is also possible to define your own additional audio content in {aisAudioPortal}.",
+      "source_content_hash": "0aee4b20ab716de8e717e541e62c6f2a0dfaddd74ecdb880dc99f97c813b28ef",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "网关内置{aisAudioPlayer}音频系统，支持数百个广播电台、播客、免费有声书及{aisAudioYouTube}和{aisAudioSpotify}内容。{aisAudioImg} 您还可通过{aisAudioPortal}自定义添加音频资源。"
+      },
+      "metadata": {
+        "json_description": "Audio in AIS description"
+      }
+    },
+    {
+      "segment_id": "Lokalnie.",
+      "source_content": "Local.",
+      "source_content_hash": "c946276dd2d84a0f1af15d814456943b6124726794df7396cd42a5997cb90ebb",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "本地化。"
+      },
+      "metadata": {
+        "json_description": "The typewriter item Lokalnie"
+      }
+    },
+    {
+      "segment_id": "Niezawodnie.",
+      "source_content": "Reliable.",
+      "source_content_hash": "02c32b69fa182c53410842bbbcb005512c063872037e427c9c54ee3e1f1993c7",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "高可靠。"
+      },
+      "metadata": {
+        "json_description": "The typewriter item Niezawodnie"
+      }
+    },
+    {
+      "segment_id": "Szybko.",
+      "source_content": "Fast.",
+      "source_content_hash": "f227b5be59fac652287a97d83f37f40152789fa2df0815cb99830f301369d785",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "极速。"
+      },
+      "metadata": {
+        "json_description": "The typewriter item Szybko"
+      }
+    },
+    {
+      "segment_id": "Prywatnie.",
+      "source_content": "Private.",
+      "source_content_hash": "75ad0d5448d0144c652052726140922c9eba4bc51f8282d3d36f8316c1c8533e",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "私密性。"
+      },
+      "metadata": {
+        "json_description": "The typewriter item Prywatnie"
+      }
+    },
+    {
+      "segment_id": "Prosto.",
+      "source_content": "Simple.",
+      "source_content_hash": "d7cc9881f701aa98e59c1b1ddf78989e87ce09f6690c251a470825b6e080248d",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "简约。"
+      },
+      "metadata": {
+        "json_description": "The typewriter item Prosto"
+      }
+    },
+    {
+      "segment_id": "homepage.ais_features.zwave.title",
+      "source_content": "{aisTtsStt}",
+      "source_content_hash": "23a2676269e3c620bcbd4b15a4608f58bc73f68eccc53a3d74b03a3da9f5f5de",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "{aisTtsStt}"
+      },
+      "metadata": {
+        "json_description": "Voice commands in AIS title"
+      }
+    },
+    {
+      "segment_id": "homepage.ais_features.open.description",
+      "source_content": " Source code for most of the components of our system are free and available in the repository {aisGithub}.",
+      "source_content_hash": "c7b1f36cb27d1a808c927f90f66032b5e06c225d2f271cf6e9ffc434afe74965",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "系统大部分组件的源代码已在{aisGithub}仓库开源。"
+      },
+      "metadata": {
+        "json_description": "OpenSource in AIS description"
+      }
+    },
+    {
+      "segment_id": "homepage.ais_features.open.description1",
+      "source_content": " {aizOpenSourceImg} We believe in openness and freedom of choice. Thanks to this, you can use our design and build your own smart speaker {aisDevKit1}.",
+      "source_content_hash": "e6fcfb25606597bd2086007ec27a7f35fdd54e35ab56aa7f7c8f1e379c55d615",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "{aizOpenSourceImg} 我们秉持开放理念，您可基于我们的设计{aisDevKit1}构建专属智能音箱。"
+      },
+      "metadata": {
+        "json_description": "OpenSource in AIS description2"
+      }
+    },
+    {
+      "segment_id": "homepage.ais_features.services.title",
+      "source_content": "🆓 Free cloud services ☁️",
+      "source_content_hash": "8415d060764f78b9708792d2909ac42136699cb1ee7fe34cfad69d9928b442f6",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "🆓 免费云服务 ☁️"
+      },
+      "metadata": {
+        "json_description": "Free services title"
+      }
+    },
+    {
+      "segment_id": "homepage.ais_features.pro_services.title",
+      "source_content": "🏢 PRO services",
+      "source_content_hash": "512df13fefb66c35f36ac1d6e02c14103199510624e4866e98e1471726b2314d",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "🏢 专业服务"
+      },
+      "metadata": {
+        "json_description": "Pro services title"
+      }
+    },
+    {
+      "segment_id": "theme.blog.sidebar.navAriaLabel",
+      "source_content": "Blog recent posts navigation",
+      "source_content_hash": "d031de661e73af4296b4caae3412af713493579e09ad5098bfc6ccbbd242570f",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "博客最新文章导航"
+      },
+      "metadata": {
+        "json_description": "The ARIA label for recent posts in the blog sidebar"
+      }
+    },
+    {
+      "segment_id": "theme.docs.sidebar.navAriaLabel",
+      "source_content": "Sidebar navigation",
+      "source_content_hash": "8856b2a2e6f5c2ff2a5d42fc9421fbe7d64e22cb4f689093669670a98b5c2f78",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "侧边栏导航"
+      },
+      "metadata": {
+        "json_description": "The ARIA label for documentation menu"
+      }
+    },
+    {
+      "segment_id": "homepage.ais_features.pro_services.description",
+      "source_content": "We offer AIoT gateways in the AIS PRO product line where it is possible to purchase services with commercial servers and a guarantee of operation. {aisProImg}",
+      "source_content_hash": "4f34d6efc34c211bb373b92f5841e35b14d62724e84e0778d9be8fc9a7b2b136",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们提供AIS PRO产品线的AIoT网关，可选购商业服务器服务并享有运行保障。{aisProImg}"
+      },
+      "metadata": {
+        "json_description": "Services number devices description"
+      }
+    },
+    {
+      "segment_id": "homepage.ais_features.services.description",
+      "source_content": "Our cloud services on DEV gateways are hosted by the organization {aisFosshost}. {aisFosshostImg} Fosshost is a non-profit organization focused on supporting OpenSource projects. ",
+      "source_content_hash": "4b3be7f93c10ea394dad7d0f139caa43b7e220f605debc14d9a8f56639b7fe93",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "DEV网关上的云服务由非营利组织{aisFosshost}托管。{aisFosshostImg} Fosshost专注于支持开源项目。"
+      },
+      "metadata": {
+        "json_description": "Services number devices description"
+      }
+    },
+    {
+      "segment_id": "homepage.ais_features.pro_services.description2",
+      "source_content": "We are open for proposals of using our AIS gateway in commercial products. You can contact us here info@ai-speaker.com in order to establish the terms of cooperation.",
+      "source_content_hash": "a996b5a3b75a087dd38cc80d2a1603f12d3a1390759f955654bbf33fd509da8c",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们开放AIS网关在商业产品中的应用提案。请联系info@ai-speaker.com洽谈合作条款。"
+      },
+      "metadata": {
+        "json_description": "Services number devices description"
+      }
+    },
+    {
+      "segment_id": "homepage.ais_features.services.description2",
+      "source_content": "Find out more about free AIS services {aisFosshostFree}",
+      "source_content_hash": "7e01f79fbe863a197a3f661771d129904920772a5670314f440dcd89637bc040",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "了解更多免费AIS服务{aisFosshostFree}"
+      },
+      "metadata": {
+        "json_description": "Services number devices description"
+      }
+    },
+    {
+      "segment_id": "homepage.ais_features.tunnel_service.title",
+      "source_content": "🛡️ Cloudflare Tunnel",
+      "source_content_hash": "fd2abcd149b41aa37df7fe0f70bfa98491245b90c8ab1c3ab57d6f9567d1bb27",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "🛡️ Cloudflare隧道"
+      },
+      "metadata": {
+        "json_description": "Tunnel services title"
+      }
+    },
+    {
+      "segment_id": "homepage.ais_features.tunnel_service.description",
+      "source_content": "Encrypted remote gateway access from the Internet.",
+      "source_content_hash": "d4cabeb5c87fe8e8890b757ec14109c763050c19295fbea3394085259df66d83",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过互联网加密远程访问网关。"
+      },
+      "metadata": {
+        "json_description": "Tunnel services description"
+      }
+    },
+    {
+      "segment_id": "homepage.ais_features.tunnel_service.description2",
+      "source_content": "Both our cloud services and the gateway tunnel are protected against direct attacks by {aisCloudFlare} services. Your gateway is secure no matter how you access it: from your local network, from a mobile app, or from the Internet.",
+      "source_content_hash": "f5e2611812bd55e22db4a9d6711732ea38664b46bcfb4408b2a7c5d4086ce50a",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们的云服务和网关隧道都受到{aisCloudFlare}服务保护，可防御直接攻击。无论通过局域网、移动应用还是互联网访问，您的网关都安全无忧。"
+      },
+      "metadata": {
+        "json_description": "Tunnel services description2"
+      }
+    },
+    {
+      "segment_id": "home.featureList.dev3.title",
+      "source_content": "AIS DEV3",
+      "source_content_hash": "f93be178aa25468b8e98c2ef24a77796e042ffc8a1199d8b3a1191d4ee8d5589",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "AIS DEV3控制器"
+      },
+      "metadata": {
+        "json_description": "AIS DEV3 Controller title"
+      }
+    },
+    {
+      "segment_id": "home.featureList.dev3.description",
+      "source_content": "AIS DEV3 controller operate on {soc}, have a built-in disk, as well as LAN/Ethernet, USB and HDMI ports. Has a Home Assistant platform installed.",
+      "source_content_hash": "faed5677591d4336ace6dce8af09e97acd144e811daf7c7d71f381729c0e8bf3",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "AIS DEV3控制器基于{soc}运行，内置存储，配备LAN/以太网、USB和HDMI接口。预装Home Assistant平台。"
+      },
+      "metadata": {
+        "json_description": "Automation Controllers description"
+      }
+    },
+    {
+      "segment_id": "home.featureList.dev3.description.soc",
+      "source_content": "efficient components",
+      "source_content_hash": "5d064440ab8dba86650fd53d4d86699f932542507d29589dee5193070e783a2e",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "高效组件"
+      },
+      "metadata": {
+        "json_description": "Automation Controllers soc"
+      }
+    },
+    {
+      "segment_id": "home.featureList.pro1.title",
+      "source_content": "AIS PRO1",
+      "source_content_hash": "f86e602665f214a590e34d3babb3e94df28abbcb2bd870fdc10f4a7f7149b2e6",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "AIS PRO1控制器"
+      },
+      "metadata": {
+        "json_description": "PRO Controller"
+      }
+    },
+    {
+      "segment_id": "home.featureList.pro1.description",
+      "source_content": "AIS PRO1 operates on an efficient {soc} system, has built-in WiFi and disk, as well as LAN/Ethernet, USB, SPDIF, Aux, HDMI ports. Has a Home Assistant platform installed.",
+      "source_content_hash": "3ede3c904551daeaed6f597580096ddff4dd801c099aa20a59bafaa74830902d",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "AIS PRO1采用高效的{soc}系统，内置WiFi和存储，配备LAN/以太网、USB、SPDIF、Aux、HDMI接口。预装Home Assistant平台。"
+      },
+      "metadata": {
+        "json_description": "Amlogic SoC s922x-H"
+      }
+    },
+    {
+      "segment_id": "home.featureList.pro1.description.soc",
+      "source_content": "Amlogic SoC s922x-H",
+      "source_content_hash": "58fd2b06b4c2e820a336e17118f1bfe4b59c75aecb4e506840ad2e832318a531",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "晶晨SoC s922x-H"
+      },
+      "metadata": {
+        "json_description": "Amlogic SoC s922x-H"
+      }
+    },
+    {
+      "segment_id": "home.featureList.adapter1.title",
+      "source_content": "AIS Adapter 1",
+      "source_content_hash": "4d32a56de6882ff7e8aa2ac75050f9298d123cf9e6e2e3c60d0424e011bd0d67",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "AIS适配器1"
+      },
+      "metadata": {
+        "json_description": "AIS Adapter 1 title"
+      }
+    },
+    {
+      "segment_id": "home.featureList.adapter1.description",
+      "source_content": "Zigbee 3.0 Adapter {info} zigbee devices (all online at the same time), has a range of 200 meters and works in a LAN! It is compatible with the Zigbee Home Automation and Zigbee2mqtt.",
+      "source_content_hash": "f69f80a6424f72f6a9512b28c0be05230f16fc4c4c16f5a91ab0e2147c83e6c5",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Zigbee 3.0适配器{info}支持128+个Zigbee设备（同时在线），覆盖范围200米，支持局域网工作！兼容Zigbee家庭自动化及Zigbee2mqtt。"
+      },
+      "metadata": {
+        "json_description": "Automation Controllers description"
+      }
+    },
+    {
+      "segment_id": "home.featureList.adapter1.description.info",
+      "source_content": "supports 128+",
+      "source_content_hash": "bdcc7c8c1220e12efa12452c6924828698c5cc5b2ede7c8e1edc7dfce79a6795",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "支持128+"
+      },
+      "metadata": {
+        "json_description": "Automation Controllers soc"
+      }
+    },
+    {
+      "segment_id": "home.featureList.addToBasket",
+      "source_content": "Buy now",
+      "source_content_hash": "9c0e74e6c04b89e878f54ee908a8f8797e3c97219ff1b550b8939585abfd104f",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "立即购买"
+      },
+      "metadata": {
+        "json_description": "Add to basket"
+      }
+    },
+    {
+      "segment_id": "home.featureList.goToDoc",
+      "source_content": "Documentation",
+      "source_content_hash": "c205924de0fe636ccdde4ed616fef66f75b78e98b03620637965c033fd161141",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "文档中心"
+      },
+      "metadata": {
+        "json_description": "Go to documentation"
+      }
+    }
+  ],
+  "original_json_structure": {
+    "homepage.ais_features.wifi.title": {
+      "message": "Over {devices} WiFi devices",
+      "description": "Wifi number devices title"
+    },
+    "homepage.ais_features.wifi.description": {
+      "message": "{aisSocket} is the easiest way to control devices around your house. {aizWifiImg} This smart plug runs on free and open-source software. Now you can choose from over {moreWiFiDevices} devices which you can connect to the gate in the same simple way as our Smart Plug.",
+      "description": "Wifi number devices description"
+    },
+    "theme.NotFound.title": {
+      "message": "Page Not Found",
+      "description": "The title of the 404 page"
+    },
+    "theme.NotFound.p1": {
+      "message": "We could not find what you were looking for.",
+      "description": "The first paragraph of the 404 page"
+    },
+    "theme.NotFound.p2": {
+      "message": "Please contact the owner of the site that linked you to the original URL and let them know their link is broken.",
+      "description": "The 2nd paragraph of the 404 page"
+    },
+    "theme.AnnouncementBar.closeButtonAriaLabel": {
+      "message": "Close",
+      "description": "The ARIA label for close button of announcement bar"
+    },
+    "theme.blog.paginator.navAriaLabel": {
+      "message": "Blog list page navigation",
+      "description": "The ARIA label for the blog pagination"
+    },
+    "theme.blog.paginator.newerEntries": {
+      "message": "Newer Entries",
+      "description": "The label used to navigate to the newer blog posts page (previous page)"
+    },
+    "theme.blog.paginator.olderEntries": {
+      "message": "Older Entries",
+      "description": "The label used to navigate to the older blog posts page (next page)"
+    },
+    "theme.blog.post.readingTime.plurals": {
+      "message": "One min read|{readingTime} min read",
+      "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+    },
+    "theme.tags.tagsListLabel": {
+      "message": "Tags:",
+      "description": "The label alongside a tag list"
+    },
+    "theme.blog.post.readMore": {
+      "message": "Read More",
+      "description": "The label used in blog post item excerpts to link to full blog posts"
+    },
+    "theme.blog.post.paginator.navAriaLabel": {
+      "message": "Blog post page navigation",
+      "description": "The ARIA label for the blog posts pagination"
+    },
+    "theme.blog.post.paginator.newerPost": {
+      "message": "Newer Post",
+      "description": "The blog post button label to navigate to the newer/previous post"
+    },
+    "theme.blog.post.paginator.olderPost": {
+      "message": "Older Post",
+      "description": "The blog post button label to navigate to the older/next post"
+    },
+    "theme.tags.tagsPageTitle": {
+      "message": "Tags",
+      "description": "The title of the tag list page"
+    },
+    "theme.blog.post.plurals": {
+      "message": "One post|{count} posts",
+      "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+    },
+    "theme.blog.tagTitle": {
+      "message": "{nPosts} tagged with \"{tagName}\"",
+      "description": "The title of the page for a blog tag"
+    },
+    "theme.tags.tagsPageLink": {
+      "message": "View All Tags",
+      "description": "The label of the link targeting the tag list page"
+    },
+    "theme.CodeBlock.copyButtonAriaLabel": {
+      "message": "Copy code to clipboard",
+      "description": "The ARIA label for copy code blocks button"
+    },
+    "theme.CodeBlock.copied": {
+      "message": "Copied",
+      "description": "The copied button label on code blocks"
+    },
+    "theme.CodeBlock.copy": {
+      "message": "Copy",
+      "description": "The copy button label on code blocks"
+    },
+    "theme.docs.paginator.navAriaLabel": {
+      "message": "Docs pages navigation",
+      "description": "The ARIA label for the docs pagination"
+    },
+    "theme.docs.paginator.previous": {
+      "message": "Previous",
+      "description": "The label used to navigate to the previous doc"
+    },
+    "theme.docs.paginator.next": {
+      "message": "Next",
+      "description": "The label used to navigate to the next doc"
+    },
+    "theme.docs.sidebar.expandButtonTitle": {
+      "message": "Expand sidebar",
+      "description": "The ARIA label and title attribute for expand button of doc sidebar"
+    },
+    "theme.docs.sidebar.expandButtonAriaLabel": {
+      "message": "Expand sidebar",
+      "description": "The ARIA label and title attribute for expand button of doc sidebar"
+    },
+    "theme.docs.sidebar.responsiveCloseButtonLabel": {
+      "message": "Close menu",
+      "description": "The ARIA label for close button of mobile doc sidebar"
+    },
+    "theme.docs.sidebar.responsiveOpenButtonLabel": {
+      "message": "Open menu",
+      "description": "The ARIA label for open button of mobile doc sidebar"
+    },
+    "theme.docs.sidebar.collapseButtonTitle": {
+      "message": "Collapse sidebar",
+      "description": "The title attribute for collapse button of doc sidebar"
+    },
+    "theme.docs.sidebar.collapseButtonAriaLabel": {
+      "message": "Collapse sidebar",
+      "description": "The title attribute for collapse button of doc sidebar"
+    },
+    "theme.docs.versions.unreleasedVersionLabel": {
+      "message": "This is unreleased documentation for {siteTitle} {versionLabel} version.",
+      "description": "The label used to tell the user that he's browsing an unreleased doc version"
+    },
+    "theme.docs.versions.unmaintainedVersionLabel": {
+      "message": "This is documentation for {siteTitle} {versionLabel}, which is no longer actively maintained.",
+      "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+    },
+    "theme.docs.versions.latestVersionSuggestionLabel": {
+      "message": "For up-to-date documentation, see the {latestVersionLink} ({versionLabel}).",
+      "description": "The label userd to tell the user that he's browsing an unmaintained doc version"
+    },
+    "theme.docs.versions.latestVersionLinkLabel": {
+      "message": "latest version",
+      "description": "The label used for the latest version suggestion link label"
+    },
+    "theme.common.editThisPage": {
+      "message": "Edit this page",
+      "description": "The link label to edit the current page"
+    },
+    "theme.common.headingLinkTitle": {
+      "message": "Direct link to heading",
+      "description": "Title for link to heading"
+    },
+    "theme.lastUpdated.atDate": {
+      "message": " on {date}",
+      "description": "The words used to describe on which date a page has been last updated"
+    },
+    "theme.lastUpdated.byUser": {
+      "message": " by {user}",
+      "description": "The words used to describe by who the page has been last updated"
+    },
+    "theme.lastUpdated.lastUpdatedAtBy": {
+      "message": "Last updated{atDate}{byUser}",
+      "description": "The sentence used to display when a page has been last updated, and by who"
+    },
+    "theme.common.skipToMainContent": {
+      "message": "Skip to main content",
+      "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+    },
+    "theme.SearchPage.documentsFound.plurals": {
+      "message": "One document found|{count} documents found",
+      "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+    },
+    "theme.SearchPage.existingResultsTitle": {
+      "message": "Search results for \"{query}\"",
+      "description": "The search page title for non-empty query"
+    },
+    "theme.SearchPage.emptyResultsTitle": {
+      "message": "Search the documentation",
+      "description": "The search page title for empty query"
+    },
+    "theme.SearchPage.inputPlaceholder": {
+      "message": "Type your search here",
+      "description": "The placeholder for search page input"
+    },
+    "theme.SearchPage.inputLabel": {
+      "message": "Search",
+      "description": "The ARIA label for search page input"
+    },
+    "theme.SearchPage.algoliaLabel": {
+      "message": "Search by Algolia",
+      "description": "The ARIA label for Algolia mention"
+    },
+    "theme.SearchPage.noResultsText": {
+      "message": "No results were found",
+      "description": "The paragraph for empty search result"
+    },
+    "theme.SearchPage.fetchingNewResults": {
+      "message": "Fetching new results...",
+      "description": "The paragraph for fetching new search results"
+    },
+    "theme.SearchBar.label": {
+      "message": "Search",
+      "description": "The ARIA label and placeholder for search button"
+    },
+    "theme.PwaReloadPopup.info": {
+      "message": "New version available",
+      "description": "The text for PWA reload popup"
+    },
+    "theme.PwaReloadPopup.refreshButtonText": {
+      "message": "Refresh",
+      "description": "The text for PWA reload button"
+    },
+    "theme.PwaReloadPopup.closeButtonAriaLabel": {
+      "message": "Close",
+      "description": "The ARIA label for close button of PWA reload popup"
+    },
+    "Dokumentacja AIS": {
+      "message": "AIS Documentation",
+      "description": "The homepage title"
+    },
+    "Automatyzujemy Twój dom lokalnie.": {
+      "message": "Automate your home locally.",
+      "description": "The homepage description"
+    },
+    "homepage.hero_title": {
+      "message": "Assistant at home",
+      "description": "The homepage hero title"
+    },
+    "homepage.hero_subtitle": {
+      "message": "Home automation that is",
+      "description": "The homepage hero subtitle"
+    },
+    "homepage.demo_ask_to_try": {
+      "message": "Would you like to see how it works?",
+      "description": "The homepage ask to try demo"
+    },
+    "homepage.demo_tip": {
+      "message": "Click here 👆 to check out our live demo.",
+      "description": "The homepage tip to try demo"
+    },
+    "homepage.allegro_ask_to_try": {
+      "message": "Buy our devices!",
+      "description": "The homepage ask to try demo"
+    },
+    "homepage.allegro_tip": {
+      "message": "Click here 👆 to go to our store.",
+      "description": "The homepage tip to try demo"
+    },
+    "homepage.scroll_tip": {
+      "message": "scroll",
+      "description": "The homepage tip to scroll"
+    },
+    "Zainstaluj z Google Play.": {
+      "message": "Install from Google Play.",
+      "description": "Install from Google Play label"
+    },
+    "homepage.ais_announcement_line_one": {
+      "message": "We automate your home by combining the advantages of local control",
+      "description": "Announcement line one"
+    },
+    "homepage.ais_announcement_line_two": {
+      "message": "and IoT cloud services.",
+      "description": "Announcement line two"
+    },
+    "homepage.ais_announcement_line_three": {
+      "message": "We integrate the world of cool and intelligent things that you can control and automate. A world where you can be independent and also be a part of community-based open projects with so many possibilities and tutorials. And we want this world to be available and more accessible to everyone.",
+      "description": "Announcement line three"
+    },
+    "homepage.ais_one_gate_for_all_text": {
+      "message": "Many intelligent solutions. A great fit for everyone!",
+      "description": "One gate to rule them all text"
+    },
+    "homepage.ais_project_people_info": {
+      "message": "Project created and sponsored by people - thank you!",
+      "description": "This project is sponsored by people info"
+    },
+    "homepage.ais_project_join_button_line_4": {
+      "message": "Join us!",
+      "description": "Join button line 4"
+    },
+    "homepage.ais_project_join_button_line_1": {
+      "message": "BECOME A HERO.",
+      "description": "Join button line 1"
+    },
+    "homepage.ais_project_join_button_line_2": {
+      "message": "Buy our device to",
+      "description": "Join button line 2"
+    },
+    "homepage.ais_project_join_button_line_3": {
+      "message": "support our project.",
+      "description": "Join button line 3"
+    },
+    "homepage.ais_features.zigbee.title": {
+      "message": "Over {devices} Zigbee devices",
+      "description": "Zigbee number devices title"
+    },
+    "homepage.ais_features.zigbee.description": {
+      "message": "With {aisZigbee} you can easily attach Zigbee devices to the gateway. {aizZigbeeConnbee2Img} More than {moreZigbeeDevices} devices are supported by the Zigbee2Mqtt software which we provide on our gateway.",
+      "description": "Zigbee number devices description"
+    },
+    "homepage.ais_features.zwave.description": {
+      "message": "With {aisZwave} you can easily attach Zwave devices to the gateway. {aizZigbeeConnbee2Img}  You can use all Zwave devices supported by the ZwaveJs2Mqtt software which we provide on the gateway.",
+      "description": "Zwave in AIS description"
+    },
+    "homepage.ais_features.ha.title": {
+      "message": "Over 🏠 {devices} Integrations",
+      "description": "HA number of integrations title"
+    },
+    "homepage.ais_features.ha.description": {
+      "message": "One of the components of the software delivered on the gateway is the AIS home automation platform. AIS is a fork of {aisHomeAssistant}. {aisHomeAssistantImg} With preinstalled and ready-to-use {aisHomeAssistantIntegrations} integrations and the possibility of adding more than {moreHomeAssistantMoreIntegrations} that are supported and developed by the Home Assistant community.",
+      "description": "HA number of integrations description"
+    },
+    "homepage.ais_features.voice.title": {
+      "message": "Voice control {aisTtsStt}",
+      "description": "Voice commands in AIS title"
+    },
+    "homepage.ais_features.voice.description": {
+      "message": "We provide {aisVoiceCommands} Speech-to-text and text-to-speech, together with built-in commands, so you can control devices using voice commands. . {aisTtsSttImg} Commands can be sent from the {aisVoiceCommandsWeb} browser application, the {aisVoiceCommandsMob} mobile application or the {aisVoiceCommandsRemote} remote control. You can also send commands from other systems / applications using {aisVoiceCommandsApi} or even define your own {aisVoiceCommandsCreate} commands.",
+      "description": "Voice commands in AIS description"
+    },
+    "homepage.ais_features.audio.description": {
+      "message": "We provide a built-in {aisAudioPlayer} on the gateway which allows you to choose from hundreds of radio stations, podcasts, free audiobooks and free content from {aisAudioYouTube} and {aisAudioSpotify}.  {aisAudioImg} It is also possible to define your own additional audio content in {aisAudioPortal}.",
+      "description": "Audio in AIS description"
+    },
+    "Lokalnie.": {
+      "message": "Local.",
+      "description": "The typewriter item Lokalnie"
+    },
+    "Niezawodnie.": {
+      "message": "Reliable.",
+      "description": "The typewriter item Niezawodnie"
+    },
+    "Szybko.": {
+      "message": "Fast.",
+      "description": "The typewriter item Szybko"
+    },
+    "Prywatnie.": {
+      "message": "Private.",
+      "description": "The typewriter item Prywatnie"
+    },
+    "Prosto.": {
+      "message": "Simple.",
+      "description": "The typewriter item Prosto"
+    },
+    "homepage.ais_features.zwave.title": {
+      "message": "{aisTtsStt}",
+      "description": "Voice commands in AIS title"
+    },
+    "homepage.ais_features.open.description": {
+      "message": " Source code for most of the components of our system are free and available in the repository {aisGithub}.",
+      "description": "OpenSource in AIS description"
+    },
+    "homepage.ais_features.open.description1": {
+      "message": " {aizOpenSourceImg} We believe in openness and freedom of choice. Thanks to this, you can use our design and build your own smart speaker {aisDevKit1}.",
+      "description": "OpenSource in AIS description2"
+    },
+    "homepage.ais_features.services.title": {
+      "message": "🆓 Free cloud services ☁️",
+      "description": "Free services title"
+    },
+    "homepage.ais_features.pro_services.title": {
+      "message": "🏢 PRO services",
+      "description": "Pro services title"
+    },
+    "theme.blog.sidebar.navAriaLabel": {
+      "message": "Blog recent posts navigation",
+      "description": "The ARIA label for recent posts in the blog sidebar"
+    },
+    "theme.docs.sidebar.navAriaLabel": {
+      "message": "Sidebar navigation",
+      "description": "The ARIA label for documentation menu"
+    },
+    "homepage.ais_features.pro_services.description": {
+      "message": "We offer AIoT gateways in the AIS PRO product line where it is possible to purchase services with commercial servers and a guarantee of operation. {aisProImg}",
+      "description": "Services number devices description"
+    },
+    "homepage.ais_features.services.description": {
+      "message": "Our cloud services on DEV gateways are hosted by the organization {aisFosshost}. {aisFosshostImg} Fosshost is a non-profit organization focused on supporting OpenSource projects. ",
+      "description": "Services number devices description"
+    },
+    "homepage.ais_features.pro_services.description2": {
+      "message": "We are open for proposals of using our AIS gateway in commercial products. You can contact us here info@ai-speaker.com in order to establish the terms of cooperation.",
+      "description": "Services number devices description"
+    },
+    "homepage.ais_features.services.description2": {
+      "message": "Find out more about free AIS services {aisFosshostFree}",
+      "description": "Services number devices description"
+    },
+    "homepage.ais_features.tunnel_service.title": {
+      "message": "🛡️ Cloudflare Tunnel",
+      "description": "Tunnel services title"
+    },
+    "homepage.ais_features.tunnel_service.description": {
+      "message": "Encrypted remote gateway access from the Internet.",
+      "description": "Tunnel services description"
+    },
+    "homepage.ais_features.tunnel_service.description2": {
+      "message": "Both our cloud services and the gateway tunnel are protected against direct attacks by {aisCloudFlare} services. Your gateway is secure no matter how you access it: from your local network, from a mobile app, or from the Internet.",
+      "description": "Tunnel services description2"
+    },
+    "home.featureList.dev3.title": {
+      "message": "AIS DEV3",
+      "description": "AIS DEV3 Controller title"
+    },
+    "home.featureList.dev3.description": {
+      "message": "AIS DEV3 controller operate on {soc}, have a built-in disk, as well as LAN/Ethernet, USB and HDMI ports. Has a Home Assistant platform installed.",
+      "description": "Automation Controllers description"
+    },
+    "home.featureList.dev3.description.soc": {
+      "message": "efficient components",
+      "description": "Automation Controllers soc"
+    },
+    "home.featureList.pro1.title": {
+      "message": "AIS PRO1",
+      "description": "PRO Controller"
+    },
+    "home.featureList.pro1.description": {
+      "message": "AIS PRO1 operates on an efficient {soc} system, has built-in WiFi and disk, as well as LAN/Ethernet, USB, SPDIF, Aux, HDMI ports. Has a Home Assistant platform installed.",
+      "description": "Amlogic SoC s922x-H"
+    },
+    "home.featureList.pro1.description.soc": {
+      "message": "Amlogic SoC s922x-H",
+      "description": "Amlogic SoC s922x-H"
+    },
+    "home.featureList.adapter1.title": {
+      "message": "AIS Adapter 1",
+      "description": "AIS Adapter 1 title"
+    },
+    "home.featureList.adapter1.description": {
+      "message": "Zigbee 3.0 Adapter {info} zigbee devices (all online at the same time), has a range of 200 meters and works in a LAN! It is compatible with the Zigbee Home Automation and Zigbee2mqtt.",
+      "description": "Automation Controllers description"
+    },
+    "home.featureList.adapter1.description.info": {
+      "message": "supports 128+",
+      "description": "Automation Controllers soc"
+    },
+    "home.featureList.addToBasket": {
+      "message": "Buy now",
+      "description": "Add to basket"
+    },
+    "home.featureList.goToDoc": {
+      "message": "Documentation",
+      "description": "Go to documentation"
+    }
+  },
+  "target_i18n_subpath": "code.json",
+  "last_updated_timestamp": "2025-06-08T18:42:08.148308+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "56faff24aa890bb192a9c2dab188ca895326c5cf24124edd38046c6db3edfcfc"
+  }
+}

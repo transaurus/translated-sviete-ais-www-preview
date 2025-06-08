@@ -1,0 +1,192 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_app_ui_config.md",
+  "source_file_content_hash": "189d3e51c4c2609fdef2cc79e8831a33161402ce42a3ff549895447a543bbaeb",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Konfiguracja wybranego pulpitu\"\nsidebar_label: Konfiguracja pulpitu\n---",
+      "source_content_hash": "a786d952e1529ef68bcf45a046fe35b7c41a1e1c9a924485b072e779004806e7",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Włączenie trybu konfiguracji",
+      "source_content_hash": "2bf4ca43f71018186b794dad9bcf7cbb744481a8507accddb1fda106375da1e4",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 启用配置模式"
+      }
+    },
+    {
+      "segment_id": "6ef78e84",
+      "source_content": "Włączenie konfiguracji wybranego pulpitu następuje poprzez wybranie w aplikacji opcji **\"Konfiguracja interfejsu użytkownika\"** dostępnej w prawym górnym rogu każdego pulpitu.",
+      "source_content_hash": "e015ce9f5d6fdd14394db0cccfcd0c20b1c9650f1f753386d166350b48f85802",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "要启用选定主屏幕的配置，需在应用界面右上角选择**\"用户界面配置\"**选项。"
+      }
+    },
+    {
+      "segment_id": "53eaf0e1",
+      "source_content": "![Konfiguracja interfejsu użytkownika](/img/en/frontend/lovelace-ui-conf1.png)",
+      "source_content_hash": "2a6cc33d3f5db1f2d21a5e582514acbc2146a5e550fa9b97d0d48f212ffa2953",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![用户界面配置](/img/en/frontend/lovelace-ui-conf1.png)"
+      }
+    },
+    {
+      "segment_id": "70153c6e",
+      "source_content": "### Dodanie nowego widoku",
+      "source_content_hash": "befedef648a292de41d30d1aae85cc4c720aa2bc7e91c516c21eff80a198779d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 添加新视图"
+      }
+    },
+    {
+      "segment_id": "86b54d44",
+      "source_content": "Możesz sam tworzyć i zmieniać widoki (zakładki w aplikacji), np. możesz dodać widoki **\"Salon\"**, **\"Łazienka\"**, **\"Sypialnia\"** i umieścić w nich na [kartach](/docs/ais_app_cards) urządzenia znajdujące się w tych pomieszczeniach.",
+      "source_content_hash": "645b1cbe9e9735db65a6a6908ab0005c3452670681c98e043d18ce465261d429",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "您可以自行创建和修改视图（应用中的标签页），例如添加**\"客厅\"**、**\"浴室\"**、**\"卧室\"**等视图，并在其中通过[卡片](/docs/ais_app_cards)放置对应房间的设备。"
+      }
+    },
+    {
+      "segment_id": "f6168993",
+      "source_content": "![Konfiguracja interfejsu użytkownika](/img/en/frontend/lovelace-ui-conf2.png)",
+      "source_content_hash": "858303af8a374b4c28285ee3310ae2da47578c6e6aa9f24e85dddcd7238112a9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![用户界面配置](/img/en/frontend/lovelace-ui-conf2.png)"
+      }
+    },
+    {
+      "segment_id": "40f9552a",
+      "source_content": "## Informacje techniczne",
+      "source_content_hash": "3dfe84774725c9ca724b9d3eab0440e4139e6b15e87494c029c9dae93ac448e7",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 技术信息"
+      }
+    },
+    {
+      "segment_id": "98cfbd53",
+      "source_content": "Więcej informacji technicznych oraz demo interfejsu można znaleźć na stronie projektu platformy Home Assistant [Lovelace UI](https://www.home-assistant.io/lovelace/) https://www.home-assistant.io/lovelace/",
+      "source_content_hash": "8d22a56714ea0c8bb5b9e18348ac93918d39ee56853cc77a5e38db00fd11ee67",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "更多技术细节及界面演示可访问Home Assistant平台项目页面[Lovelace UI](https://www.home-assistant.io/lovelace/) https://www.home-assistant.io/lovelace/"
+      }
+    },
+    {
+      "segment_id": "fa430ad4",
+      "source_content": "### Kopia konfiguracji interfejsu użytkownika",
+      "source_content_hash": "e1c09a88a55d39eafd463de15a9118f06f1b2aae7e4313e3928cde4a043a3717",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 用户界面配置备份"
+      }
+    },
+    {
+      "segment_id": "4b1d2d7d",
+      "source_content": "Gdy jesteś w trybie konfiguracji intefrejsu użytkownika, możesz wybrać opcję **\"Manualny edytor konfiguracji\"** dostępną w prawym górnym rogu każdej strony w aplikacji będącej w trybie konfiguracji.",
+      "source_content_hash": "7a8e4b2015ed5a57b68832dccb92458ee22707ae50fc7a7912e02d01fa9a268a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在用户界面配置模式下，可选择每页右上角的**\"手动配置编辑器\"**选项。"
+      }
+    },
+    {
+      "segment_id": "dfe931a2",
+      "source_content": "![Konfiguracja interfejsu użytkownika kopia](/img/en/frontend/lovelace-ui-conf-raw.png)",
+      "source_content_hash": "5d503f12313f3297421f914845052a4e2542cae6621d3d5f47268469077c13d4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![用户界面配置备份](/img/en/frontend/lovelace-ui-conf-raw.png)"
+      }
+    },
+    {
+      "segment_id": "7499a4e7",
+      "source_content": "To spowoduje wyświetlenie tekstowej wersji konfiguracji interfejsu",
+      "source_content_hash": "ed88474a33a94faf8b0069e64ac740262b52d1782d28da99879db215d53e3b34",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "这将显示配置的文本版本"
+      }
+    },
+    {
+      "segment_id": "517051a7",
+      "source_content": "![Konfiguracja interfejsu użytkownika kopia](/img/en/frontend/lovelace-ui-conf-raw-save.png)",
+      "source_content_hash": "3d8df23cbc20b4a3b4f16b2e97d11eca225a6fcd137b8ab60a277a264500a205",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![用户界面配置备份](/img/en/frontend/lovelace-ui-conf-raw-save.png)"
+      }
+    },
+    {
+      "segment_id": "135468ee",
+      "source_content": "Wersję tekstową możesz zapisać do pliku jako kopię zapasową, następnie można eksperymentować z własnymi ustwieniami. Gdyby coś poszło nie tak, to zawsze można wrócić do wersji pierwotnej poprzez wklejenie tekstowej wersji konfiguracji w tym miejscu.",
+      "source_content_hash": "98ada94065011596194d33f338922ea2ef0c96722b5a846b7a089bbba2ac19f8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "可将文本版本保存为备份文件进行实验性修改。若出现异常，始终可通过在此处粘贴原始配置文本来恢复。"
+      }
+    },
+    {
+      "segment_id": "9f9e64f5",
+      "source_content": "### Reset pulpitu",
+      "source_content_hash": "7667291f30a8d281d8b1fcb34e1e45aa05af0c1720152f8e18d759e6ed93759d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 重置主屏幕"
+      }
+    },
+    {
+      "segment_id": "1042b50d",
+      "source_content": "Jeżeli coś poszło nie tak z naszą konfiguracją pulpitu, to zawsze możemy go całkowicie wyczyścić i zacząć konfigurację od nowa. Wystarczy, będąc w trybie \"Ręcznej konfiguracji\" usunąć całą definicję pulpitu, a następnie zapisać zmiany.",
+      "source_content_hash": "d3513fcd53279e062a33aa93bd09f431656cb42ad6a2b2b546f6ad498f578c4d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "若主屏幕配置出现异常，可在\"手动配置\"模式下删除整个主屏幕定义后保存更改以完全重置。"
+      }
+    },
+    {
+      "segment_id": "aa1e7006",
+      "source_content": "![Konfiguracja interfejsu użytkownika reset](/img/en/frontend/lovelace_reset_dashboard.png)",
+      "source_content_hash": "ceff4ac90c76820b5e6991436bfef087986e59453d4645ed2e32717ce85bb65a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![用户界面重置](/img/en/frontend/lovelace_reset_dashboard.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_app_ui_config.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.133096+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "189d3e51c4c2609fdef2cc79e8831a33161402ce42a3ff549895447a543bbaeb"
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_dev_kit_1_project.md",
+  "source_file_content_hash": "038fd2f68f484f3b488b3af06ce761749aa7759c5ee34866d469cbdc8f46c709",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Projekt Głośnika\"\nsidebar_label: Projekt Głośnika\n---",
+      "source_content_hash": "eb9ed07737a1ae047ebd2ff05bc450bdb08034a81cf4c32428109f439ba2b18f",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Wskazówki dotyczące projektu głośnika i drukowania obudowy",
+      "source_content_hash": "7f8d4307ea49aa49d1652a24fce916f1db38513c6367a880f31f5ae47ed0dc53",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 音箱项目与外壳3D打印指南"
+      }
+    },
+    {
+      "segment_id": "53eaf0e1",
+      "source_content": "Projekt został wykonany w programie SketchUp.",
+      "source_content_hash": "5a1fd558b2887a973d9189874b27f8993372e33f29d68cfcb05a9b877d8c759d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该项目使用SketchUp软件设计完成。"
+      }
+    },
+    {
+      "segment_id": "8ac585fb",
+      "source_content": "![|624x437](https://lh5.googleusercontent.com/ef2tWUcCXa5hftw2koothhTHsmV9hlpPt4J1Gziy2wErEkLSEG5KRQ2Xs6QCnvsMiakukwCmQn5Y6hNU6wbxMzPDA3bZcGxd03PsfH0NfRKqe7TZNzgCH8Ekg28A5KeOLn9qQ3vE)",
+      "source_content_hash": "175242b6b8b70989c3abd0165a8e938d95cbc78e410c2b47a1bb6870ad00bc9e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![|624x437](https://lh5.googleusercontent.com/ef2tWUcCXa5hftw2koothhTHsmV9hlpPt4J1Gziy2wErEkLSEG5KRQ2Xs6QCnvsMiakukwCmQn5Y6hNU6wbxMzPDA3bZcGxd03PsfH0NfRKqe7TZNzgCH8Ekg28A5KeOLn9qQ3vE)"
+      }
+    },
+    {
+      "segment_id": "180bddb1",
+      "source_content": "W podstawowej wersji dostęp aplikacji sketchup jest za darmo z przeglądarki: https://app.sketchup.com/",
+      "source_content_hash": "6da27e6725196f4674bb7450ed1539a9b17f10be4ec22cc43647c8445d2cd33b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "基础版SketchUp可通过浏览器免费使用：https://app.sketchup.com/"
+      }
+    },
+    {
+      "segment_id": "cf898102",
+      "source_content": "Pliki w repozytorium z rozszerzeniem skp to właśnie format programu sketchup.",
+      "source_content_hash": "4e74e191b762a78f879ac7905b23e99d51d36a6978a954acc6e8d85c0c1cca5e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "仓库中扩展名为skp的文件即为SketchUp格式。"
+      }
+    },
+    {
+      "segment_id": "42ad8e83",
+      "source_content": "![|624x500](https://lh6.googleusercontent.com/-GdRQQrqLLewOXkA3xg1aP4tV3DgSMxx85J4LiWxlKsduCcfojl244wGP2vis53LShMp19UcPo9lu00oadYxRmDCprf2oRJNDyslcIwNG2rW5-gil9BlsODMtgcKmbOpeeIhNDtd)",
+      "source_content_hash": "d580e0131b990df625181cfb0287a581048a414559f0f32d0a901d78ce5336e1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![|624x500](https://lh6.googleusercontent.com/-GdRQQrqLLewOXkA3xg1aP4tV3DgSMxx85J4LiWxlKsduCcfojl244wGP2vis53LShMp19UcPo9lu00oadYxRmDCprf2oRJNDyslcIwNG2rW5-gil9BlsODMtgcKmbOpeeIhNDtd)"
+      }
+    },
+    {
+      "segment_id": "f6168993",
+      "source_content": "Jeżeli ktoś chce zmienić wygląd obudowy to może to zrobić w aplikacji SketchUp lub wyeksportować pliki z aplikacji SketchUp do innego formatu i zmieniać projekt w innym formacie.",
+      "source_content_hash": "66b657afdacfe24b5da0befeefedef8ba90879c16d3789fe8f2932501b0e7bd7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "如需修改外壳外观，可在SketchUp中直接编辑，或导出为其他格式后使用其他软件修改。"
+      }
+    },
+    {
+      "segment_id": "f5f6d2ce",
+      "source_content": "![|624x500](https://lh6.googleusercontent.com/xHFuK2n25Kge2Tw8u98gx6S932it3sHNPFO_FSVntEfFcY4eqfV2_a4U0NCSsvELYG227alHjs5zBVKu1Ca47q3tHGR4gZXSZ3kjzB-2FZDRgFeaSgOjgRLmSjnMDXbcGLVkf3Km)",
+      "source_content_hash": "318b684c955f0e8a6d4ebf42e44412e1fa382fc41e04d0b02da9bac0d25d61bd",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![|624x500](https://lh6.googleusercontent.com/xHFuK2n25Kge2Tw8u98gx6S932it3sHNPFO_FSVntEfFcY4eqfV2_a4U0NCSsvELYG227alHjs5zBVKu1Ca47q3tHGR4gZXSZ3kjzB-2FZDRgFeaSgOjgRLmSjnMDXbcGLVkf3Km)"
+      }
+    },
+    {
+      "segment_id": "2fdadb08",
+      "source_content": "Sketchup umożliwia też eksport do formatu STL (Standard Tessellation Language) - to jest format, który rozumie większość programów do modelowania oraz programów do tłumaczenia modelu na komendy dla maszyny cnc czy drukarki 3d.",
+      "source_content_hash": "bf5b9b2735a411853370bc11cea116f3f77d331f960dec290f966b7e0e7c0780",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "SketchUp支持导出STL格式（标准三角网格语言），该格式兼容多数建模软件及CNC/3D打印机的指令转换程序。"
+      }
+    },
+    {
+      "segment_id": "f2c2bdd0",
+      "source_content": "Pliki z rozszerzeniem stl można zaimportować do darmowego narzędzia PrusaSlicer https://github.com/prusa3d/PrusaSlicer/releases w celu podzielenia modelu na warstwy i wyeksportowaniu do formatu G-code. \nG-code to jest format, który rozumieją maszyny cnc i drukarki 3D.",
+      "source_content_hash": "7bbfb99c6e2c2046f8d05d2fc848d85e5d1f6d130f2d7764b4a61845dfa7143d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "STL格式文件可导入免费工具PrusaSlicer（https://github.com/prusa3d/PrusaSlicer/releases）进行分层处理并导出G-code格式，该格式为CNC设备和3D打印机通用指令格式。"
+      }
+    },
+    {
+      "segment_id": "d9172fa4",
+      "source_content": "Żeby dało się wydrukować obudowę głośnika na drukarce Prusa MK3, podzieliliśmy ją na 2 części. Drukowanie tyłu obudowy (bass reflex) w dobrej jakości trwa około 15 godzin. Zużycie filamentu to około 160g.",
+      "source_content_hash": "4181a2d9f72d3b8f1e27ff4f1ad7355f1b294cf9ceb8443ac13085f72e394c8e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "为适配Prusa MK3打印机，我们将音箱外壳分为两部分打印。后壳（低音反射管）高质量打印耗时约15小时，耗材约160克。"
+      }
+    },
+    {
+      "segment_id": "26524352",
+      "source_content": "![|624x476](https://lh6.googleusercontent.com/cgNVFYY3TzOs_3rNbu8JvToySMEmRO14hftcK46KRXbkZJ13aEDDMVNQAkuADsliQCmTrx7M0PEJSzLMhHgkBplOqU5Ks83kH7TGRx8RHWhr-0DWwOvQJzrLE6EOQXHCg-jEuqOr)",
+      "source_content_hash": "d54feb26570a4fc3b72774a13f37840908b37913721ab3c46cb968a68825ca16",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![|624x476](https://lh6.googleusercontent.com/cgNVFYY3TzOs_3rNbu8JvToySMEmRO14hftcK46KRXbkZJ13aEDDMVNQAkuADsliQCmTrx7M0PEJSzLMhHgkBplOqU5Ks83kH7TGRx8RHWhr-0DWwOvQJzrLE6EOQXHCg-jEuqOr)"
+      }
+    },
+    {
+      "segment_id": "73ab96a3",
+      "source_content": "Wydruk przedniej części w dobrej jakości to niecałe 27 godzin dla Prusa MK3. Zużycie filamentu to około 300g.",
+      "source_content_hash": "46b172e349bddd3ce74ac01a8e124fde87473841c90ae48667d7ff38de211c8a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "前壳高质量打印在Prusa MK3上耗时近27小时，耗材约300克。"
+      }
+    },
+    {
+      "segment_id": "7499a4e7",
+      "source_content": "![|624x469](https://lh6.googleusercontent.com/7vWGIJNcohlwc9dwY9-5DJ44MFseynKC_Vg3w9gBAaZ1fpX7pvmiAxjfVmk-qnvSZlK1ZuY1wv-3vc0a0XfS4KMBdYMogaDdoFTzbfQPtvrPjebwgBWZdvtovvRzYjHyyx1eOl6E)",
+      "source_content_hash": "2ab07e20d07f5487bdeb68c73b901ca5e34ac91f1cb5a3e1ff7904b7f403539e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![|624x469](https://lh6.googleusercontent.com/7vWGIJNcohlwc9dwY9-5DJ44MFseynKC_Vg3w9gBAaZ1fpX7pvmiAxjfVmk-qnvSZlK1ZuY1wv-3vc0a0XfS4KMBdYMogaDdoFTzbfQPtvrPjebwgBWZdvtovvRzYjHyyx1eOl6E)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_dev_kit_1_project.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.094929+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "038fd2f68f484f3b488b3af06ce761749aa7759c5ee34866d469cbdc8f46c709"
+  }
+}

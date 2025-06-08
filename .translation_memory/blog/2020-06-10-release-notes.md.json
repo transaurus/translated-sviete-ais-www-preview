@@ -1,0 +1,332 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2020-06-10-release-notes.md",
+  "source_file_content_hash": "39447f63a137ebac56e746745951687b204fd467183edc7795ac898410509791",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Jola AI-Speaker\nauthorURL: https://github.com/sviete\nauthor_title: Asystentka\nauthorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4\ntitle: Wersja systemu 0.110.7\ntags: [\"armbian\", \"zigbee\", \"home assistant\", \"stress tests\"]\n---",
+      "source_content_hash": "c8e72147513534ca040a8fb89015e02ec4ad70a9d80951858d808917167099ab",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "1cc03ec8",
+      "source_content": "# 0.110.7 Home Assistant, Armbian, Stress testy bramki, Zigbee",
+      "source_content_hash": "ac6c0125006ad890ea3c5c4d72f1b099c816528caf4414a6f13f9b045df9e3b2",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# 0.110.7版Home Assistant、Armbian、网关压力测试、Zigbee"
+      }
+    },
+    {
+      "segment_id": "143e51c1",
+      "source_content": "- ![Home Assistant](/img/en/blog/202006/hass.png) Nowy Home Assistant - jedno z największych wydań :)\n- ![Armbian](/img/en/blog/202006/armbian.png) Armbian - uruchomienie Linuxa z najnowszym jądrem 5.x na bramce AIS dom\n- ![Stress](/img/en/blog/202006/tuning.png) Stres testy bramki i poprawki\n- ![Zigbee](/img/en/blog/202006/zigbee.png) Kolejna aktualizacja Zigbee2Mqtt, już [785 urządzeń od 140 różnych producentów](https://www.zigbee2mqtt.io/information/supported_devices.html)",
+      "source_content_hash": "73e6f38d516a82c98967113e1240fbcf2600145fab950b91455ebc4acc2cf216",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- ![Home Assistant](/img/en/blog/202006/hass.png) 新版Home Assistant——堪称最大规模版本更新 :)\n- ![Armbian](/img/en/blog/202006/armbian.png) Armbian——在AIS dom网关上运行搭载最新5.x内核的Linux系统\n- ![Stress](/img/en/blog/202006/tuning.png) 网关压力测试及优化改进\n- ![Zigbee](/img/en/blog/202006/zigbee.png) Zigbee2Mqtt再次更新，现已支持[140个厂商的785种设备](https://www.zigbee2mqtt.io/information/supported_devices.html)"
+      }
+    },
+    {
+      "segment_id": "29ee8c7a",
+      "source_content": "<!--truncate-->",
+      "source_content_hash": "f5cded2aa7e288e395fe4f67f9dabda2281904b2f5358d07302b3aa8be0acdfa",
+      "node_type": "comment",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_29ee8c7a"
+      }
+    },
+    {
+      "segment_id": "cac45343",
+      "source_content": ":::tip[Wskazówka]\nUWAGA Przed aktualizacją zalecamy wykonać [kopię zapasową konfiguracji](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji). W ten sposób sprawdzisz poprawność swojej konfiguracji przed rozpoczęciem aktualizacji i zwiększysz prawdopodobieństwo bezproblemowej aktualizacji.\n:::",
+      "source_content_hash": "8037a28333f24321b7f0ca3b0ff5dadb46488124d52cf37fa284e31f781ef145",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::tip[温馨提示]\n注意：更新前建议先进行[配置备份](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji)。通过预先验证配置完整性可显著提升更新成功率。\n:::"
+      }
+    },
+    {
+      "segment_id": "64f5e8db",
+      "source_content": ":::important[informacja]\nW razie problemów po aktualizacji sprawdź procedurę [Aktualizacja z konsoli](/docs/ais_bramka_update_manual) lub [Wykonanie pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step)- to może dotyczyć szczególnie osób, które instalują na bramce dodatkowe niestandardowe komponenty.\n:::",
+      "source_content_hash": "3cec0bb82063176fa13cef39765f9b987deaab39151bf29d8edb2af0bf5c6672",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::important[重要通知]\n若更新后遇到问题，请参考[控制台更新指南](/docs/ais_bramka_update_manual)或[执行应用完全重置](/docs/ais_bramka_reset_ais_step_by_step)——特别是安装了非标准组件的用户需特别注意此流程。\n:::"
+      }
+    },
+    {
+      "segment_id": "57971bfb",
+      "source_content": ":::caution[Uwaga]\n **Po aktualizacji pierwsze uruchomienie może trwać nawet 20 minut.**\n\n ![wait](/img/en/blog/202006/wait.png) w tym czasie aktualizowane są biblioteki do integracji dodanych na bramce...\n\n **Poczekaj cierpliwie na zakończenie aktualizacji.**\n:::",
+      "source_content_hash": "49a4d7e81230a117dd7d1bd7c14f59e1a64b39c370f2b57a2191f47b0cdfe52d",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[注意事项]\n **更新后首次启动可能耗时长达20分钟**\n\n ![wait](/img/en/blog/202006/wait.png) 在此期间系统将更新网关集成的所有依赖库...\n\n **请耐心等待更新完成**\n:::"
+      }
+    },
+    {
+      "segment_id": "80d9e13c",
+      "source_content": "## ![Home Assistant](/img/en/blog/202006/hass.png) Nowy Home Assistant - jedno z największych wydań :)",
+      "source_content_hash": "22f4c8996b8ee69a5e43f74e5fb904db26f2d0d8a3547594892c5f6e9730a816",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![Home Assistant](/img/en/blog/202006/hass.png) 新版Home Assistant——重大版本更新 :)"
+      }
+    },
+    {
+      "segment_id": "3cfe6286",
+      "source_content": "Najnowszy (stabilny) [Home Assistant 0.110.7](https://www.home-assistant.io/blog/2020/05/20/release-110/)\nTym razem oprócz nowości i kolejnych integracji, pojawiło się też sporo poprawek zmniejszających rozmiar i przyśpieszających działanie aplikacji!",
+      "source_content_hash": "14759cbc75968f390087d70a9fbef4ec51a325aa2a1285a8265b0ba6b75e0377",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "最新稳定版[Home Assistant 0.110.7](https://www.home-assistant.io/blog/2020/05/20/release-110/)\n本次更新除新增功能与集成组件外，还包含大量优化代码体积和运行速度的改进！"
+      }
+    },
+    {
+      "segment_id": "95e9ba12",
+      "source_content": "![Home Assistant](/img/en/blog/202006/ha_integrations.png)",
+      "source_content_hash": "e8a313f342dfdf64f8c3b61c8fab2d351c7bb594652c06e568ff52db0a636b75",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Home Assistant](/img/en/blog/202006/ha_integrations.png)"
+      }
+    },
+    {
+      "segment_id": "f44c1398",
+      "source_content": "## ![Armbian](/img/en/blog/202006/armbian.png) Armbian - uruchomienie Linuxa z najnowszym jądrem 5.x na bramce AIS dom",
+      "source_content_hash": "b859eb28c7752fe9674a1706394430024cb3b93eead9e223c94812a01965c7f6",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![Armbian](/img/en/blog/202006/armbian.png) Armbian——在AIS dom网关上运行最新5.x内核Linux"
+      }
+    },
+    {
+      "segment_id": "a44047a5",
+      "source_content": "Armbian to system operacyjny na bazie Linux dla wielu komputerów jednopłytkowych (SBC).\nCzym jest Armbian i co potrafi opisane jest w oficjalnej dokumentacji Armbian: https://docs.armbian.com/ i na jego forum: https://forum.armbian.com/\nArmbian to bardzo dojrzały projekt i jeżeli ktoś szuka “czystego Linuxa” z najnowszym jądrem 5.5.x do serwerowych zastosowań, to będzie to dobry wybór (3 lata temu robiliśmy naszą platformę do głośnika na Armbian i serwerze muzycznym Mopidy, niestety multimedia to nie jest mocna strona czystego Linuxa, dlatego mamy teraz Android).",
+      "source_content_hash": "9ed43f901dd5e715e4bffcc11342620728e622bd1cdd898f295551b20dde44c6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Armbian是面向多种单板计算机(SBC)的Linux操作系统。其功能特性详见官方文档：https://docs.armbian.com/ 及社区论坛：https://forum.armbian.com/\n作为成熟度极高的项目，若您需要搭载最新5.5.x内核的\"纯净Linux\"用于服务器场景，Armbian将是理想选择（三年前我们曾基于Armbian和Mopidy音乐服务器构建音箱平台，但多媒体处理始终是原生Linux的弱项，因此当前方案转向Android系统）。"
+      }
+    },
+    {
+      "segment_id": "b36c6338",
+      "source_content": "![Armbian](/img/en/blog/202006/armbian.jpeg)",
+      "source_content_hash": "353e29275e19ccdfad2bcdc8f34bc997453b12178175319c87e3e35257e1fe99",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Armbian](/img/en/blog/202006/armbian.jpeg)"
+      }
+    },
+    {
+      "segment_id": "b9aaa519",
+      "source_content": "Na forum pokazujemy krok po kroku jak:",
+      "source_content_hash": "a0263179e5daa55296c32375aca8d99d52cf0f3a2c8d676c1a575b74f8221a37",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在论坛上我们逐步展示了如何："
+      }
+    },
+    {
+      "segment_id": "e3321a43",
+      "source_content": "1. Uruchomić Armbian na bramce ais dom -> [opis na forum](https://ai-speaker.discourse.group/t/armbian-ubuntu-na-bramce-ais-dom/500)",
+      "source_content_hash": "425a8c809f1a035d9708c42c4ee1ec2e2fa016ef6c217bcd4443b7ea3588b8a5",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "1. 在ais dom网关上运行Armbian -> [论坛说明](https://ai-speaker.discourse.group/t/armbian-ubuntu-na-bramce-ais-dom/500)"
+      }
+    },
+    {
+      "segment_id": "40158b4b",
+      "source_content": "![Armbian](/img/en/blog/202006/armbian_1.png)",
+      "source_content_hash": "da20df2d3f600db313a92304f55ff487722394a28d06022880e9d91cd3c22153",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Armbian](/img/en/blog/202006/armbian_1.png)"
+      }
+    },
+    {
+      "segment_id": "24c174ca",
+      "source_content": "2. Wykonać testy porównawcze na Armbian -> [opis na forum](https://ai-speaker.discourse.group/t/benchmarking-na-armbian/501)",
+      "source_content_hash": "e3e77d2c59e6c44b11ed56e5d51b71723e7d2d1ba56c9d79aa033d53e1f5e953",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "2. 在Armbian上进行基准测试 -> [论坛说明](https://ai-speaker.discourse.group/t/benchmarking-na-armbian/501)"
+      }
+    },
+    {
+      "segment_id": "79ad944d",
+      "source_content": "![Armbian](/img/en/blog/202006/animated.gif)",
+      "source_content_hash": "02c6d688962d7486dbb62bc9565e08c2c04103b8f2c0df4d4da6b1cb4f977571",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Armbian](/img/en/blog/202006/animated.gif)"
+      }
+    },
+    {
+      "segment_id": "2eb5ba30",
+      "source_content": "3. Zainstalować Supervised Home Assistant na Armbian i/lub wiele innych gotowych aplikacji -> [opis na forum](https://ai-speaker.discourse.group/t/armbian-supervised-home-assistant-na-bramce-ais-dom/511)",
+      "source_content_hash": "9bc4a6d09a3ab55f185bea21a737ab2a0bb7d6bb0837eba1fbb74c3cc8d6dfe8",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "3. 在Armbian上安装Supervised Home Assistant及/或其他多种现成应用 -> [论坛说明](https://ai-speaker.discourse.group/t/armbian-supervised-home-assistant-na-bramce-ais-dom/511)"
+      }
+    },
+    {
+      "segment_id": "06e24cc0",
+      "source_content": "![Armbian](/img/en/blog/202006/armbian_softy.png)",
+      "source_content_hash": "420c6f0f2f3347eb6edbbf66303c8e9c4a5f66421c1cf1d7127db34792aa2615",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Armbian](/img/en/blog/202006/armbian_softy.png)"
+      }
+    },
+    {
+      "segment_id": "d422fb13",
+      "source_content": "## ![Stress](/img/en/blog/202006/tuning.png) Stres testy bramki i poprawki",
+      "source_content_hash": "437d4662b65322707ee24657364c59e549bd9d125487915e0580c96ab2969be3",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![Stress](/img/en/blog/202006/tuning.png) 网关压力测试与优化"
+      }
+    },
+    {
+      "segment_id": "f01228d3",
+      "source_content": "Podczas prac nad wersją 0.110 wykonaliśmy szereg stres testów.  Efektem tych testów jest zmiana trybu zarządzania wejściem i wyjściem na bramce (io scheduler w Linux).",
+      "source_content_hash": "e11aa83199697df74f8d2f4ce9df8b2e72d43ed1c4a13b9d4f3fe7f70f7f748b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在开发0.110版本期间，我们进行了系列压力测试。测试成果包括更改了网关的输入输出管理模式（Linux中的io调度器）。"
+      }
+    },
+    {
+      "segment_id": "afa378f7",
+      "source_content": "Na forum dodaliśmy opis -> [wprowadzenie do tematu stres testów](https://ai-speaker.discourse.group/t/armbian-stres-testy-na-bramce/512)",
+      "source_content_hash": "8c6345b579d03bc2e0fcd442c0cf703a54c4455b7ec411923a8c11184a538b5b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "论坛新增说明 -> [压力测试主题导引](https://ai-speaker.discourse.group/t/armbian-stres-testy-na-bramce/512)"
+      }
+    },
+    {
+      "segment_id": "e8e162a9",
+      "source_content": "![Stress](/img/en/blog/202006/stress.png)",
+      "source_content_hash": "7b2dd3165d982835664b1fd303a780617b7190e1541952f31324159fde2b3ae7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Stress](/img/en/blog/202006/stress.png)"
+      }
+    },
+    {
+      "segment_id": "463ed165",
+      "source_content": "Nasz faworyt to test za pomocą aplikacji monkey :monkey_face:\nTu też nie ma wielkiej filozofii… ale jest wielka ilość (setki tysięcy) bardzo losowych zdarzeń, co daje dość ciekawy efekt :wink:",
+      "source_content_hash": "755c9bbafb912c4e1551e303d0d18f1e65c061bfab6a502a67afb26492a99e39",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们最推荐使用monkey应用进行测试 :monkey_face:\n虽然原理简单...但通过生成数十万次高度随机事件，能产生相当有趣的效果 :wink:"
+      }
+    },
+    {
+      "segment_id": "3e8b4b41",
+      "source_content": "<iframe width=\"720\" height=\"460\"  src=\"https://www.youtube.com/embed/-1uBMCmMaHg\" frameBorder=\"0\" allowFullScreen></iframe>",
+      "source_content_hash": "a2235d749573ce1566949bd96219712e3e50eeb7bbe51afd5a908df90c44754c",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_3e8b4b41"
+      }
+    },
+    {
+      "segment_id": "1c598ecd",
+      "source_content": "## ![Zigbee](/img/en/blog/202004/honeybee.png) Aktualizacja Zigbee2Mqtt do wersji 1.13.1",
+      "source_content_hash": "4ca4be9677ec6be9dcb65f3206088dfbdbc64211cc1fb86a4fb57b2aa1665a89",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![Zigbee](/img/en/blog/202004/honeybee.png) Zigbee2Mqtt更新至1.13.1版本"
+      }
+    },
+    {
+      "segment_id": "2e771fd0",
+      "source_content": "### [785 urządzeń od 140 różnych producentów](https://www.zigbee2mqtt.io/information/supported_devices.html)",
+      "source_content_hash": "738bd295e3162d0950f7f07531a271bb9743913f315c291b1c60a01e2aee3e88",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### [支持140个厂商的785种设备](https://www.zigbee2mqtt.io/information/supported_devices.html)"
+      }
+    },
+    {
+      "segment_id": "5803caac",
+      "source_content": "Aktualizacja Zigbee, tak samo jak aktualizacja innych składowych, wykona się automatycznie.",
+      "source_content_hash": "c000643e221deb0a14e6e5eebf818e90914ce63e8f4e75a0d2d019c6c4993a12",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Zigbee更新将与其他组件更新一样自动执行。"
+      }
+    },
+    {
+      "segment_id": "51867d16",
+      "source_content": "![Oprogramowanie bramki](/img/en/blog/202006/update.png)",
+      "source_content_hash": "2408181734b712f27c5769a1f42c67820eebef5986cf28e51bf2a2a7b5478e37",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![网关软件](/img/en/blog/202006/update.png)"
+      }
+    },
+    {
+      "segment_id": "ab3df6e6",
+      "source_content": "----",
+      "source_content_hash": "bd64bb8efa5b3f27e6442f23600c3b516127ea17e23724b41e50da4c22883edd",
+      "node_type": "thematicBreak",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "----"
+      }
+    },
+    {
+      "segment_id": "e06c002e",
+      "source_content": "Zapraszamy do aktualizacji i [komentowania na forum :)](https://ai-speaker.discourse.group/)\nAI-Speaker 06/2020\n----",
+      "source_content_hash": "f4391ffa12844c0acf4c32fd68b1069380ecf3cb5f66f7e5eb54d1f6f0c16bb9",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "欢迎参与更新并[在论坛讨论 :)](https://ai-speaker.discourse.group/)\nAI-Speaker 2020年6月\n----"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2020-06-10-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.141769+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "39447f63a137ebac56e746745951687b204fd467183edc7795ac898410509791"
+  }
+}

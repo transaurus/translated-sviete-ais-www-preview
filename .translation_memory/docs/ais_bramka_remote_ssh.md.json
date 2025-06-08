@@ -1,0 +1,512 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_remote_ssh.md",
+  "source_file_content_hash": "b9fe1aac66ea08372846a11257ee437b9426527c7582ccc6e27238fa2c8a2282",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Dostęp do konsoli bramki po SSH\"\nsidebar_label: SSH\n---",
+      "source_content_hash": "55a91bc4ff79f7dda0f49754a0b7ed745fb5d8b73265a98d85a4d721059a75cf",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Asystent domowy dostarcza połączenie SSH za pośrednictwem bardzo popularnego pakietu openssh.",
+      "source_content_hash": "024d3fc2af70fe8fa0996cdb30832d1c02942963386533276d1ae8dbbd5378eb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "家庭助理通过广受欢迎的openssh软件包提供SSH连接功能。"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Środowisko Linux dostępne na bramce jest systemem dla pojedynczego użytkownika, dlatego niezależnie od podanej nazwy użytkownika zalogujesz się jako jedyny dostępny użytkownik systemu Asystent domowy.",
+      "source_content_hash": "17f45b6d46ec22e5c50dedf21ffc70e2cf7cc55a462179547d2b9c6fc96e6751",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "由于网关上的Linux环境是单用户系统，因此无论输入何种用户名，您都将以家庭助理系统中唯一的可用用户身份登录。"
+      }
+    },
+    {
+      "segment_id": "1cc03ec8",
+      "source_content": "## Dostęp do konsoli z klienta ssh",
+      "source_content_hash": "0a3845f178c2b377295431fd0f62edef2648eeee7a4f9b088fd7b7d7b5748962",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 通过SSH客户端访问控制台"
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "W celu połączenia się przez SSH ze zdalnym serwerem SHH działającym na bramce, należy otworzyć konsolę (na swoim komputerze) i wpisać polecenie \"ssh adres_ip_bramki\", gdzie adres_ip_bramki to adres IP naszej bramki (np. 192.168.1.5).",
+      "source_content_hash": "72cd7d44cb4f879529057ad58f452a661664b3778177a2f316d583ae48d3f957",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "要通过SSH连接到运行在网关上的远程SSH服务器，需在本地计算机打开终端并输入命令\"ssh 网关IP地址\"，其中网关IP地址替换为您网关的实际IP（例如192.168.1.5）。"
+      }
+    },
+    {
+      "segment_id": "5564d81d",
+      "source_content": "```bash\n$ ssh <IP-BRAMKI>\n```",
+      "source_content_hash": "2e8626d96276e504dfe59685d0a2cadbe7652104df67e268f6765a0a08ab8549",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_5564d81d"
+      }
+    },
+    {
+      "segment_id": "39b3772c",
+      "source_content": "Po zatwierdzeniu powyższego polecenia klawiszem Enter, jeśli łączymy się z serwerm po raz pierwszy, to zostaniemy poproszeni o dodanie hosta do znanych hostów - należy wpisać \"yes\", nacisnąć Enter, a następnie wpisać hasło użytkownika.",
+      "source_content_hash": "f9a6e341218bfbaa535fb5f574186f4156ab39bf00c3737dff880c483e3190da",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "首次连接时，系统会提示将主机加入已知主机列表——输入\"yes\"并按回车，随后输入用户密码即可。"
+      }
+    },
+    {
+      "segment_id": "80e6256a",
+      "source_content": ":::tip[Wskazówka]\nDomyślne hasło to `dom`, można je zmienić komendą passwd (tak jak we wszystkich systemach Linux).\n:::",
+      "source_content_hash": "6ea89cec5453b5ed703a55677162b7c93257f5b0193af56a6bfd80d90dc9f42d",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::tip[提示]\n默认密码为`dom`，可通过passwd命令修改（与所有Linux系统操作相同）。\n:::"
+      }
+    },
+    {
+      "segment_id": "ed7dde9c",
+      "source_content": "## Dostęp do konsoli z zewnętrznych klientów",
+      "source_content_hash": "ae222c45d80a4dd02dc5ed249ef6319683cc05cf468f964f314b4641cac2e8a2",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 通过外部客户端访问控制台"
+      }
+    },
+    {
+      "segment_id": "3c36424c",
+      "source_content": "### Autentykacja za pomocą hasła",
+      "source_content_hash": "4f39e78c49aa4f2adeda69604bac9f219b493501055e2a9bc1a30bad582aa2fe",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 密码认证方式"
+      }
+    },
+    {
+      "segment_id": "26524352",
+      "source_content": "Jeśli chcesz, możesz łączyć się za pomocą hasła, w tym celu należy ustalić hasło komendą passwd (tak jak we wszystkich systemach Linux)",
+      "source_content_hash": "1f86fe9c020d2c0a649705f8e7fdce795559ca1b007dbefbaa0c70a386fa5ed0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "如需使用密码连接，需先通过passwd命令设置密码（与所有Linux系统操作相同）"
+      }
+    },
+    {
+      "segment_id": "b017063d",
+      "source_content": "```bash\n$ passwd\n```",
+      "source_content_hash": "ccd909e82a319825164e037c9b4433c6048a6f00029cf6714de66109f5edea80",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_b017063d"
+      }
+    },
+    {
+      "segment_id": "517051a7",
+      "source_content": "![Pobranie klucza SSH](/img/en/bramka/ssh_passwd.png)",
+      "source_content_hash": "b9448f4bd08df8e29ea29150dbcbcfdb8d0df0b8ec8e9be8e6acd789d2f0e363",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![SSH密钥下载](/img/en/bramka/ssh_passwd.png)"
+      }
+    },
+    {
+      "segment_id": "782c902a",
+      "source_content": "### Autentykacja za pomocą autoryzowanego klucza",
+      "source_content_hash": "4b8d53371bb9fa806f4b6432388b487b964041a28ed94f1749af0a104b5a611c",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 授权密钥认证方式"
+      }
+    },
+    {
+      "segment_id": "3a248751",
+      "source_content": "> W Asystencie domowym obsługujemy logowanie po SSH za pomocą autoryzowanego klucza. Wygenerowany i autoryzowany klucz dostępny jest w lokalnej instancji systemu Asystent domowy pod adresem: [http://ais-dom.local/local/id_rsa_ais](https://ais-dom.local/local/id_rsa_ais)",
+      "source_content_hash": "fbded6b7cfd17f2d55364bab4a975c8c5fb0fae8beaaba39ce1da88958405cde",
+      "node_type": "blockquote",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "> 家庭助理系统支持通过授权密钥进行SSH登录。已生成并授权的密钥可通过本地实例访问：[http://ais-dom.local/local/id_rsa_ais](https://ais-dom.local/local/id_rsa_ais)"
+      }
+    },
+    {
+      "segment_id": "95e9ba12",
+      "source_content": "Można też go pobrać wybierając z menu **Przydatne linki**",
+      "source_content_hash": "5ddac883406b0616c89899646cea17008476c9934477243f2c82af25e23080ac",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "也可通过**实用链接**菜单下载"
+      }
+    },
+    {
+      "segment_id": "8af76f3d",
+      "source_content": "![Pobranie klucza SSH](/img/en/bramka/ssh_download_key.png)",
+      "source_content_hash": "d87d318f5615d14756a8eee4794c0e26fd9f047af8c3943751701ba61af6762c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![SSH密钥下载](/img/en/bramka/ssh_download_key.png)"
+      }
+    },
+    {
+      "segment_id": "6f930b2f",
+      "source_content": "### Połączenie z konsolą bramki za pomocą hasła",
+      "source_content_hash": "10336541ec8fc0e5fe7faa0663d6981c0398f4d210ffca3b82adbd610d3325e2",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 通过密码连接网关控制台"
+      }
+    },
+    {
+      "segment_id": "c504c207",
+      "source_content": "Wystarczy uruchomić klienta ssh, podając nazwę hosta bramki (lub IP)",
+      "source_content_hash": "baace8a9c66ae955315927853ac78eb74232311243df31c6b57b01e0691a6267",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "只需启动ssh客户端并输入网关主机名（或IP地址）"
+      }
+    },
+    {
+      "segment_id": "ac961110",
+      "source_content": "```bash\n$ ssh ais-dom.local\n```",
+      "source_content_hash": "adb43fd6ba12cc799863681987d24c7275d83874dbde575dfb6922dcd67e434c",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_ac961110"
+      }
+    },
+    {
+      "segment_id": "4d52a261",
+      "source_content": "następnie podajemy hasło, które wcześniej ustaliliśmy komendą passwd.",
+      "source_content_hash": "5f32f7e6a2c11c8abf804bb779616b4e453911620fd9eeac3d7b782c845f0965",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "随后输入先前通过passwd命令设置的密码。"
+      }
+    },
+    {
+      "segment_id": "ab5fc5b5",
+      "source_content": "### Połączenie z konsolą bramki za pomocą autoryzowanego klucza",
+      "source_content_hash": "4a56bb322231cd968cb3db0ad6601642f323276a5069934afe0c692ec4e7f154",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 通过授权密钥连接网关控制台"
+      }
+    },
+    {
+      "segment_id": "c431704b",
+      "source_content": "#### połączenie z konsolą bramki z systemu Linux i Apple",
+      "source_content_hash": "65ba55ed36a346acae82f5fb65730481f2bf6c2e9275185a76292bb38d0f5df0",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "#### 从Linux和Apple系统连接"
+      }
+    },
+    {
+      "segment_id": "79ad944d",
+      "source_content": "Po pobraniu autoryzowanego klucza ssh możemy połączyć się z konsolą bramki, w tym celu w swojej konsoli wystarczy:",
+      "source_content_hash": "76b214224aeb8e041895309a5c54dc05881f5ee994f0d4c0e5de75380e6b8edc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "获取授权SSH密钥后，可通过以下步骤连接网关控制台："
+      }
+    },
+    {
+      "segment_id": "2eb5ba30",
+      "source_content": "- zmienić uprawnienia dla pobranego klucza",
+      "source_content_hash": "05e49d07076e23f68afba80dda140aef4f7b1746ce540895f66c5475297a602a",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 修改密钥文件权限"
+      }
+    },
+    {
+      "segment_id": "67b24fc5",
+      "source_content": "```bash\n$ chmod 400 id_rsa_ais\n```",
+      "source_content_hash": "639dadf3f3f25a96acc9794819959b0b011f45929d9c234520c1359f599153f7",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_67b24fc5"
+      }
+    },
+    {
+      "segment_id": "76dbcc76",
+      "source_content": "- uruchomić ssh z odpowiednim portem i ścieżką do klucza ssh",
+      "source_content_hash": "b183f29ee2510fba29eb865105cf72675abd8a3dde1048dd7677d4aa33f8d338",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 使用指定端口和密钥路径启动ssh连接"
+      }
+    },
+    {
+      "segment_id": "af983f82",
+      "source_content": "```bash\n$ ssh ais-dom.local -i id_rsa_ais\n```",
+      "source_content_hash": "665cb8409652d31fb3a902501145bba383b398f66f8436e62059fe0261699152",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_af983f82"
+      }
+    },
+    {
+      "segment_id": "d0dd855b",
+      "source_content": "![Połączenie SSH](/img/en/bramka/ssh_console.png)",
+      "source_content_hash": "bd7577fd4bf764edf02948db1b4bd22cedbe804e8a71c91c7f1e9813e6398fd8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![SSH连接](/img/en/bramka/ssh_console.png)"
+      }
+    },
+    {
+      "segment_id": "b936dd6a",
+      "source_content": "#### połączenie z konsolą bramki z systemu Windows",
+      "source_content_hash": "73709032a46f8d5afe630f512ab0467f4196731e2ec692cc2c2b80a542206dd0",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "#### 从Windows系统连接网关控制台"
+      }
+    },
+    {
+      "segment_id": "a5c5772a",
+      "source_content": "Zalecamy użycie darmowego programu [PuTTY](https://www.putty.org/)",
+      "source_content_hash": "60f800dd7e318001cdfa76764bb1a05470295ed9758cc5feb1faae3873879642",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们推荐使用免费程序[PuTTY](https://www.putty.org/)"
+      }
+    },
+    {
+      "segment_id": "ec619944",
+      "source_content": "Po zainstalowaniu programu należy:",
+      "source_content_hash": "f7a830b343d72280b46f57e2d95607002bc98b3ee77ac28244cb84f8f432e598",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "安装程序后需要："
+      }
+    },
+    {
+      "segment_id": "2e771fd0",
+      "source_content": "##### Przegenerować klucz dostępu pobrany z bramki do formatu PuTTY",
+      "source_content_hash": "7cc46f6b8c6648cbe365e52f7bc1447d23c00b17c6f7bd5e9b3a075a8c9e9259",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "##### 将网关下载的访问密钥转换为PuTTY格式"
+      }
+    },
+    {
+      "segment_id": "0750bfa1",
+      "source_content": "PuTTY używa własnego formatu do przechowywania kluczy. W celu skonwertowania klucza na format PuTTY zastosujemy program PuTTY Key Generator instalowany domyślnie razem z PuTTY.\nW  PuTTY Key Generator naciskamy przycisk \"Load\":",
+      "source_content_hash": "b51233c1edfd72479a800c11251794ecd40107aa6b53651bdda412470c7663b6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "PuTTY使用自有格式存储密钥。要转换密钥为PuTTY格式，我们将使用默认随PuTTY安装的PuTTY Key Generator程序。\n在PuTTY Key Generator中点击\"Load\"按钮："
+      }
+    },
+    {
+      "segment_id": "51867d16",
+      "source_content": "![Połączenie SSH](/img/en/bramka/ssh_putty_1.png)",
+      "source_content_hash": "14a69b15ba7f625c1b3e1fdc706132910001c8766bb277c21e1f0a392b220dbb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![SSH连接](/img/en/bramka/ssh_putty_1.png)"
+      }
+    },
+    {
+      "segment_id": "785750ac",
+      "source_content": "wczytujemy/importujemy pobrany z bramki klucz dostępu, plik: **id_rsa_ais**",
+      "source_content_hash": "e6d4e586b0502c98105853493a9e7f739c1392a44e39abaa03ed7ef6a44906f4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "加载/导入从网关下载的访问密钥文件：**id_rsa_ais**"
+      }
+    },
+    {
+      "segment_id": "82e90254",
+      "source_content": "![Połączenie SSH](/img/en/bramka/ssh_putty_2.png)",
+      "source_content_hash": "e6aadda280e663bc730e1dff3ee3fa92ab3835a35aa1823a49dc005328c12c1e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![SSH连接](/img/en/bramka/ssh_putty_2.png)"
+      }
+    },
+    {
+      "segment_id": "2822251a",
+      "source_content": "po udanym imporcie",
+      "source_content_hash": "cf92431c418626f72b4e15e40e4fdd901addc6c3125e78a1c3fde43589b7cf07",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "成功导入后"
+      }
+    },
+    {
+      "segment_id": "25212439",
+      "source_content": "![Połączenie SSH](/img/en/bramka/ssh_putty_3.png)",
+      "source_content_hash": "0cc84ea9ab5a2f51bdba45e5c8002383691cea5133324b0103e53bb95a92bea5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![SSH连接](/img/en/bramka/ssh_putty_3.png)"
+      }
+    },
+    {
+      "segment_id": "d79a4831",
+      "source_content": "zapisujemy plik jako prywaais_bramka_remote_sshtny klucz w formacie PuTTY jako prywatny klucz **id_rsa_ais.ppk**",
+      "source_content_hash": "32d391123fb75ea198ca0c65f88a72bfa23d20939a29eb9043ad6c1fff254b0f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "将文件另存为PuTTY格式的私钥**id_rsa_ais.ppk**"
+      }
+    },
+    {
+      "segment_id": "2838eb68",
+      "source_content": "![Połączenie SSH](/img/en/bramka/ssh_putty_4.png)",
+      "source_content_hash": "0f5208d1d66c8cdf6e00c070240367b446cbdd2fab244c8cdacf248ae0040eb1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![SSH连接](/img/en/bramka/ssh_putty_4.png)"
+      }
+    },
+    {
+      "segment_id": "4be28ed1",
+      "source_content": "![Połączenie SSH](/img/en/bramka/ssh_putty_5.png)",
+      "source_content_hash": "ad3f07620753c898483da9ef8f2c4cff7e69ec4206c169ee814ab3a32d3a06dc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![SSH连接](/img/en/bramka/ssh_putty_5.png)"
+      }
+    },
+    {
+      "segment_id": "0e80209e",
+      "source_content": "![Połączenie SSH](/img/en/bramka/ssh_putty_6.png)",
+      "source_content_hash": "2bcb18c3b0e21d285c055ff065aeff492fb4f082159f628e64a3876592f1eddb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![SSH连接](/img/en/bramka/ssh_putty_6.png)"
+      }
+    },
+    {
+      "segment_id": "722e4930",
+      "source_content": "##### Łaczenie po SSH z bramką z programu PuTTY",
+      "source_content_hash": "cc15a8b2ab6d719d701282abd2b5fa19c89f4cecd5f14b14cd510f7263b884ef",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "##### 通过PuTTY程序SSH连接网关"
+      }
+    },
+    {
+      "segment_id": "3c19e221",
+      "source_content": "Uruchamiamy program PuTTY i definiujemy nowe połączenie SSH z bramką:",
+      "source_content_hash": "44bcb2906625292d9f6101637713eff3b63d2f08c25b34cca513b6c3443b4a04",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "运行PuTTY程序并定义与网关的新SSH连接："
+      }
+    },
+    {
+      "segment_id": "8d56fc0d",
+      "source_content": "- podajemy IP naszej bramki\n- podajemy port **8022**\n- wybieramy typ połączenia **SSH**",
+      "source_content_hash": "35d599b41a13e7701905ae66cc9a201f7eb055971ee77841506c564cf2fd2dcb",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 输入网关IP地址\n- 输入端口**8022**\n- 选择连接类型为**SSH**"
+      }
+    },
+    {
+      "segment_id": "396efb28",
+      "source_content": "![Połączenie SSH](/img/en/bramka/ssh_putty_7.png)",
+      "source_content_hash": "50cb4ce41340da8fc3d84d2ed613fb6c9d4f2f9f73dd44b27a92aed743b56deb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![SSH连接](/img/en/bramka/ssh_putty_7.png)"
+      }
+    },
+    {
+      "segment_id": "558df877",
+      "source_content": "Następnie podajemy ścieżkę do prywatnego klucza **id_rsa_ais.ppk**, który skonwertowaliśmy programem PuTTY Key Generator",
+      "source_content_hash": "19591e22b5701110476ec76b28439a35e748a4fa48bbde7c452a66c47f1e0a4c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "然后指定通过PuTTY Key Generator转换的私钥**id_rsa_ais.ppk**的路径"
+      }
+    },
+    {
+      "segment_id": "f38d1cb0",
+      "source_content": "![Połączenie SSH](/img/en/bramka/ssh_putty_8.png)",
+      "source_content_hash": "fd3f9c6863bdaeebd06fccbe67b90987680bdda9ff68f2f49a7970deb01c89f8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![SSH连接](/img/en/bramka/ssh_putty_8.png)"
+      }
+    },
+    {
+      "segment_id": "5f82a1e9",
+      "source_content": "Nadajemy nazwę dla połączenia i zapisujemy ją, żeby kolejnym razem można było łączyć się bez konieczności przeprowadzania powyższej konfiguracji.",
+      "source_content_hash": "ad77849c6c2dd6e621ed6343ab98f8c2892499e45125cff81f225f9e03ab1613",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "为连接命名并保存，以便下次连接时无需重复上述配置。"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_remote_ssh.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.133794+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "b9fe1aac66ea08372846a11257ee437b9426527c7582ccc6e27238fa2c8a2282"
+  }
+}

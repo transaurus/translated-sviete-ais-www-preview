@@ -1,0 +1,133 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "i18n/en/docusaurus-theme-classic/navbar.json",
+  "source_file_content_hash": "85b8816be6be7f183bd30cda2926d98c8d83ef0924b4991d0bfb7c1db3d698b7",
+  "segments": [
+    {
+      "segment_id": "title",
+      "source_content": "Assistant at home",
+      "source_content_hash": "7685efdcc9166001385d8a8f375f094a95cc413de57090b15410707169609224",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "家庭智能助手"
+      },
+      "metadata": {
+        "json_description": "The title in the navbar"
+      }
+    },
+    {
+      "segment_id": "item.label.Kontrolery",
+      "source_content": "Controlers",
+      "source_content_hash": "bb93e4d608912d50129edd062c13e52f6e922a80f319fc3846a0d642d177b997",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "控制器"
+      },
+      "metadata": {
+        "json_description": "Navbar item with label Bramka"
+      }
+    },
+    {
+      "segment_id": "item.label.Urządzenia",
+      "source_content": "Devices",
+      "source_content_hash": "4ba5121d4d1be174a80a063a823df8b496c83ed05ee60af962a9f65d686533bc",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "设备"
+      },
+      "metadata": {
+        "json_description": "Navbar item with label Urządzenia"
+      }
+    },
+    {
+      "segment_id": "item.label.Asystent",
+      "source_content": "Assistent",
+      "source_content_hash": "f49464f500c688ce8c13aea743f3057ff5e5ebe249c8c816dfac78f7206641fd",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "助手"
+      },
+      "metadata": {
+        "json_description": "Navbar item with label Aplikacja"
+      }
+    },
+    {
+      "segment_id": "item.label.Dodatki",
+      "source_content": "Addons",
+      "source_content_hash": "af3185c7197e24bff32fb71e305b3b74be6bd4619df7bba34e9abecefced0844",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "插件"
+      },
+      "metadata": {
+        "json_description": "Navbar item with label Integracje"
+      }
+    },
+    {
+      "segment_id": "item.label.Blog",
+      "source_content": "Blog",
+      "source_content_hash": "8c6bc099534a0251b576f6b88bd2db124ae9497c64bd9242e92a6aec23e6a73a",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "博客"
+      },
+      "metadata": {
+        "json_description": "Navbar item with label Blog"
+      }
+    },
+    {
+      "segment_id": "item.label.Forum",
+      "source_content": "Forum",
+      "source_content_hash": "4da7bd42ab804fd5c1f7b6069a068f0df72084b8f799c935bf4ee393aebae218",
+      "node_type": "json_message",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "论坛"
+      },
+      "metadata": {
+        "json_description": "Navbar item with label Forum"
+      }
+    }
+  ],
+  "original_json_structure": {
+    "title": {
+      "message": "Assistant at home",
+      "description": "The title in the navbar"
+    },
+    "item.label.Kontrolery": {
+      "message": "Controlers",
+      "description": "Navbar item with label Bramka"
+    },
+    "item.label.Urządzenia": {
+      "message": "Devices",
+      "description": "Navbar item with label Urządzenia"
+    },
+    "item.label.Asystent": {
+      "message": "Assistent",
+      "description": "Navbar item with label Aplikacja"
+    },
+    "item.label.Dodatki": {
+      "message": "Addons",
+      "description": "Navbar item with label Integracje"
+    },
+    "item.label.Blog": {
+      "message": "Blog",
+      "description": "Navbar item with label Blog"
+    },
+    "item.label.Forum": {
+      "message": "Forum",
+      "description": "Navbar item with label Forum"
+    }
+  },
+  "target_i18n_subpath": "docusaurus-theme-classic/navbar.json",
+  "last_updated_timestamp": "2025-06-08T18:42:08.117888+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "85b8816be6be7f183bd30cda2926d98c8d83ef0924b4991d0bfb7c1db3d698b7"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_app_views.md",
+  "source_file_content_hash": "1b5b41e9db2961650eb28b0fe4d19b94b23378485813ebe9be84c2471df773a6",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Widoki\"\nsidebar_label: Widoki\n---",
+      "source_content_hash": "c371f428f5acd76558380985f17fee2cd6651022debf90105d47a2c4a535b1a6",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Widoki na pulpicie",
+      "source_content_hash": "803bba72fa04871c64e753c371dbb7002c519a737bd8613db69a03c86ac470a9",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 桌面视图"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Aby ułatwić nawigowanie po aplikacji, każdy pulpit może zawierać wiele widoków na każdym widoku można umieszczać karty (grupy elementów).",
+      "source_content_hash": "d4374d70d6e50f3d202672defacbb420d3b96588f3fc48cb781d9bdbc23defe8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "为简化应用导航，每个桌面可包含多个视图，每个视图上可放置卡片（元素组）。"
+      }
+    },
+    {
+      "segment_id": "8ac585fb",
+      "source_content": "![Asystent domowy](/img/en/frontend/lovelace_view.png)",
+      "source_content_hash": "a2d83a9b02fa05f033bcc7cba9d39efd0659a591924901468e1b96ebfb6bbd59",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![智能家居助手](/img/en/frontend/lovelace_view.png)"
+      }
+    },
+    {
+      "segment_id": "e14c9928",
+      "source_content": "## Tworzenie własnych widoków",
+      "source_content_hash": "b530ca6b1b46c585f80fea4d385e84c26c37e07e74ddef5118335d402eac409e",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 创建自定义视图"
+      }
+    },
+    {
+      "segment_id": "42ad8e83",
+      "source_content": "Możesz sam tworzyć i zmieniać widoki (zakładki w aplikacji), np. możesz dodać widoki **\"Salon\"**, **\"Łazienka\"**, **\"Sypialnia\"** i umieścić w nich na [kartach](/docs/ais_app_cards) urządzenia znajdujące się w tych pomieszczeniach.",
+      "source_content_hash": "645b1cbe9e9735db65a6a6908ab0005c3452670681c98e043d18ce465261d429",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "您可以自行创建和修改视图（应用中的标签页），例如添加**\"客厅\"**、**\"浴室\"**、**\"卧室\"**等视图，并通过[卡片](/docs/ais_app_cards)将对应房间的设备放置其中。"
+      }
+    },
+    {
+      "segment_id": "1acb9a05",
+      "source_content": "![Konfiguracja interfejsu użytkownika](/img/en/frontend/lovelace-ui-conf2.png)",
+      "source_content_hash": "858303af8a374b4c28285ee3310ae2da47578c6e6aa9f24e85dddcd7238112a9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![用户界面配置](/img/en/frontend/lovelace-ui-conf2.png)"
+      }
+    },
+    {
+      "segment_id": "40f9552a",
+      "source_content": "## Włączenie konfiguracji wybranego pulpitu",
+      "source_content_hash": "7c7a4eaa8d28e39b35af07c08a8e0266e4a45c62894be5f608db1e7709f1150c",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 启用选定桌面的配置"
+      }
+    },
+    {
+      "segment_id": "f2c2bdd0",
+      "source_content": "Włączenie konfiguracji opisane jest tu [Konfiguracja interfejsu użytkownika](/docs/ais_app_ui_config)",
+      "source_content_hash": "03391e9b515c1f36ef3fce53f4dcecf0c0bc547a147b8435f7f6e9a9ef5efe78",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "配置启用方法详见[用户界面配置](/docs/ais_app_ui_config)文档"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_app_views.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.105969+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "1b5b41e9db2961650eb28b0fe4d19b94b23378485813ebe9be84c2471df773a6"
+  }
+}

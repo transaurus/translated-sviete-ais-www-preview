@@ -1,0 +1,912 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_app_assistent_commands.md",
+  "source_file_content_hash": "eb52bfc61b885face9e5cc2589d13230c635c50b9a177e07831f17e96a030afc",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: Wbudowane komendy\nsidebar_label: Wbudowane komendy\n---",
+      "source_content_hash": "69e3a3ccbf70a4c684e32b5138bf7d80690d5642f6283c4ed3ff4bfcbf99a1ee",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "6ef78e84",
+      "source_content": "Asystent domowy posiada wbudowany komponent konwersacji, który obsługuje polecenia głosowe.\nDzieje się to za pomocą konwertowania zarejestrowanych sentencji/zdań na intencje. W zdaniach mogą występować zmienne \"umieszczone w cudzysłowiu\" oraz opcjonalne słowa [umieszczone w nawiasach kwadratowych]. Takie zdania przetwarzane są przez system z uwzględnieniem kontekstu wcześniejszych działań, w celu jak najlepszego określenia intencji użytkownika i wykonania powiązanej z nią czynności.",
+      "source_content_hash": "ce977a85ed28070df199a004c3a0872f36f1b73f0880246a69b10e54d3c662bb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "家庭助手内置了对话组件，用于处理语音指令。该系统通过将记录的语句/句子转换为意图来实现这一功能。语句中可包含\"引号内的变量\"及[方括号内的可选词]。这些语句会结合用户先前操作的上下文进行处理，以精准识别用户意图并执行关联操作。"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "Domyślnie asystent obsługuje:",
+      "source_content_hash": "466cfbea62d8b4d7ce643282e5a89918e5745c683a55f30a5f3a02e2e2fba259",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "默认支持的语音控制功能包括："
+      }
+    },
+    {
+      "segment_id": "9fcbdce9",
+      "source_content": "## Sterowanie urządzeniami",
+      "source_content_hash": "c06683af683abeece856cf17186598897f53fa9fc71bf5dca878ee18e047b2ef",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 设备控制"
+      }
+    },
+    {
+      "segment_id": "9e760345",
+      "source_content": "* **Włączanie i wyłączanie urządzeń**:",
+      "source_content_hash": "de85daf04c5454f522f6114e3fe4b1c10d7995d21ad8e6c2a6b80f8b14d9209a",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "* **设备开关控制**："
+      }
+    },
+    {
+      "segment_id": "86b54d44",
+      "source_content": "Możesz powiedzieć \"włącz oświetlenie w kuchni\", \"wyłącz światło w salonie\", \"włącz lampy zewnętrzne\", \"wyłącz podlewanie trawnika\" lub \"włącz wentylator poziom dwa\". W ten sposób możesz sterować oświetleniem i przełącznikami.",
+      "source_content_hash": "3f2561194fb9b6829e599caa23aceb58cfe9e2b0fe9bc71a6b055e678a897b3a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "您可以说\"打开厨房灯\"、\"关闭客厅灯光\"、\"开启外部照明\"、\"停止草坪灌溉\"或\"将风扇调至二档\"。通过这类指令可控制照明设备与开关装置。"
+      }
+    },
+    {
+      "segment_id": "6e5ba8fb",
+      "source_content": "```text\n'Włącz \"szukana-fraza\"'; 'Zapal światło w \"szukana-fraza\"'\n'Wyłącz \"szukana-fraza\"'; 'Zgaś Światło w \"szukana-fraza\"'\n```",
+      "source_content_hash": "c8bb0132498d92ffb8e7143459df8269a4e66b5cdda893581c074d43bc8589ee",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_6e5ba8fb"
+      }
+    },
+    {
+      "segment_id": "1b8c1887",
+      "source_content": "* **Przełączanie urządzeń**:",
+      "source_content_hash": "fa9e2b5f3ebe09e5039d5557452ef5a71e74d66fa11d91adb165bd349ffd2c8d",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "* **设备状态切换**："
+      }
+    },
+    {
+      "segment_id": "f2c2bdd0",
+      "source_content": "Możesz powiedzieć \"przełącz wentylator\" itd. żeby przełączyć urządzenie z włączone na wyłączone lub odwrotnie. Jest to szczególnie przydatne, gdy sterujesz urządzeniem za pomocą komendy w tagu NFC - w ten sposób możesz jedną komendą \"przełącz\" zapisaną w tagu wykonywać dwie akcje \"włącz\" i \"wyłącz\".",
+      "source_content_hash": "a7778b67b103fa88bc625e17fe228c85ba82e43e821cca1d082cb15533247aee",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "使用\"切换风扇\"等指令可实现设备开关状态反转。该功能特别适用于NFC标签控制场景——通过单个\"切换\"指令标签即可交替执行\"开启\"与\"关闭\"操作。"
+      }
+    },
+    {
+      "segment_id": "08021a08",
+      "source_content": "```text\n'Przełącz \"szukana-fraza\"'\n```",
+      "source_content_hash": "502e89b9ea5d0223d0b87df0da79f2d7aaecc8a2ab4567bf48f3ecf9dcd89053",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_08021a08"
+      }
+    },
+    {
+      "segment_id": "c6dea11f",
+      "source_content": "* **Otwieranie i zamykanie**",
+      "source_content_hash": "25c453e399b7d2b6216661a6ea97c35593b1b4232f080128aa7c6694495c68ac",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "* **开启与闭合控制**"
+      }
+    },
+    {
+      "segment_id": "4daf5cdd",
+      "source_content": "Możesz powiedzieć \"otwórz bramę w garażu\", \"odsłoń rolety w salonie\" lub \"zasłoń wszystkie rolety\". W ten sposób możesz sterować roletami i bramami.",
+      "source_content_hash": "9fb4d7c70d2aeb4e361be2ccb8f7217e62076544494ae2a4733b4dfec5377f32",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "支持\"打开车库门\"、\"升起客厅窗帘\"或\"降下所有遮阳帘\"等指令，用于控制电动窗帘与门禁系统。"
+      }
+    },
+    {
+      "segment_id": "ef6eebef",
+      "source_content": "```text\n'Otwórz \"szukana-fraza\"'; 'Odsłoń \"szukana-fraza\"'\n'Zamknij \"szukana-fraza\"'; 'Zasłoń \"szukana-fraza\"'\n```",
+      "source_content_hash": "cc480f3d9dc586b34667b0ae433e155e2df9bf55efe0ef2381bdf843b0c760ad",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_ef6eebef"
+      }
+    },
+    {
+      "segment_id": "782c902a",
+      "source_content": "## Odtwarzanie audio",
+      "source_content_hash": "a2e755ea15253cb168750a5c01c06b0b8e13d840ef9dc9cf1b778a845f76e096",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 音频播放"
+      }
+    },
+    {
+      "segment_id": "8612da05",
+      "source_content": "* **Włączanie stacji radiowych**",
+      "source_content_hash": "087df8962630ab45963c324e4c985d4a79060488d9284f9c572b11464f001b97",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "* **电台播放**"
+      }
+    },
+    {
+      "segment_id": "95e9ba12",
+      "source_content": "Wystarczy, że powiesz \"Włącz RMF\", \"Graj radio Zet\" lub po prostu \"Radio trójka\"",
+      "source_content_hash": "a37be08988535cc9df92b72ca5bfdf9a5807bf119bf00ec1a831d5dfa2fe0f68",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "只需说出\"播放RMF电台\"、\"打开Zet广播\"或直接说\"三台\"即可"
+      }
+    },
+    {
+      "segment_id": "4ec2920d",
+      "source_content": "```text\n'Włącz [radio] \"szukana-fraza\"'; 'Graj \"szukana-fraza\" radio'\n```",
+      "source_content_hash": "d2e0b0041366f1709ccb1bee2ef2fbd324f80ff0c7090c18098328210bd4c5b5",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_4ec2920d"
+      }
+    },
+    {
+      "segment_id": "40251870",
+      "source_content": "* **Słuchanie podcastów**",
+      "source_content_hash": "bf3cf60ea4d0c63405b24ec0e31c35e3ace7ec3e5cfc5cc2c07a26a99a935c72",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "* **播客收听**"
+      }
+    },
+    {
+      "segment_id": "f7ef78f9",
+      "source_content": "Żeby pobrać najnowsze odcinki podcasta i włączyć ostatni z nich, wystarczy powiedzieć \"Podcast Niebezpiecznik\" lub \"Włącz podcast jak oszczędzać pieniądze\"",
+      "source_content_hash": "ea6135f0c9cd1737e3dc2baf22c1e3005d230d448440a73b33beaa44aca101cf",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过\"播放Niebezpiecznik播客\"或\"打开省钱技巧播客\"等指令，系统将自动获取最新期节目并播放"
+      }
+    },
+    {
+      "segment_id": "3ce8f045",
+      "source_content": "```text\n'Podcast \"szukana-fraza\"'; 'Włącz [podcast] \"szukana-fraza\"'\n```",
+      "source_content_hash": "a0e1c7483561a39cf5b43a13459d6549145fe92dc54868f603c8951662dc7502",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_3ce8f045"
+      }
+    },
+    {
+      "segment_id": "e3321a43",
+      "source_content": "* **Słuchanie muzyki z YouTube**",
+      "source_content_hash": "bb345c4858d258d2d0ae481c0f1c43425f83f00fcaa7b0921dc225a1b8821a3c",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "* **YouTube音乐播放**"
+      }
+    },
+    {
+      "segment_id": "40158b4b",
+      "source_content": "Żeby wyszukać na YouTube interesującą Cię muzykę i ją odtwarzać, wystarczy powiedzieć \"Muzyka Maria Peszek\" lub \"YouTube Brodka\"",
+      "source_content_hash": "7b306dbbb038a995f797c016c7adcd1a740a7a5326da42b3fb77225f5d507303",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "使用\"播放Maria Peszek的音乐\"或\"YouTube Brodka\"等指令，可自动搜索并播放YouTube平台音乐内容"
+      }
+    },
+    {
+      "segment_id": "3adc0ceb",
+      "source_content": "```text\nWłącz [z] [na] YouTube \"szukana-fraza\"'; 'YouTube \"szukana-fraza\"'\n```",
+      "source_content_hash": "22b24eb5e97eeb0600fab3a65fb46774003884a0358b48381687a1daadef44f3",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_3adc0ceb"
+      }
+    },
+    {
+      "segment_id": "8c6d7ee7",
+      "source_content": "## Sterowanie odtwarzaczem",
+      "source_content_hash": "16be7632d664adc48b62779e67090ec4a4f0a3604fdf4dc43e167fe3c1a84784",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 播放器控制"
+      }
+    },
+    {
+      "segment_id": "645e08e3",
+      "source_content": "* **Pauza**",
+      "source_content_hash": "be57930b67ddbe258cba15621c78bad7e2f85e53f4d66c3ea1c1a3d2a983a91e",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "* **暂停播放**"
+      }
+    },
+    {
+      "segment_id": "7f71ff2a",
+      "source_content": "Komendy: \"Stop\", \"Zatrzymaj\", \"Koniec\", \"Pauza\", \"Zaniechaj\", \"Stój\"",
+      "source_content_hash": "5abbe064e10d42cbf088654af78b00e9ad6a16445d20d5f8fccccf2acf5a4a75",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "支持指令：\"停止\"、\"暂停\"、\"结束\"、\"取消\"、\"驻停\""
+      }
+    },
+    {
+      "segment_id": "4fb3ded8",
+      "source_content": "```text\nStop\n```",
+      "source_content_hash": "5d80c460b8fe46bba3ddbdd171f25d1fe562794863e80df5c73dfdba6a0787d0",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_4fb3ded8"
+      }
+    },
+    {
+      "segment_id": "4fe53981",
+      "source_content": "* **Wznowienie odtwarzania**\nKomendy: \"Start\", \"Graj\", \"Odtwarzaj\"",
+      "source_content_hash": "f36b5f657c6b7e1b819bc0ca2f49f5f45af687c163a3724366133046f7d1ac52",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "* **恢复播放**\n指令：\"开始\"、\"播放\"、\"继续播放\""
+      }
+    },
+    {
+      "segment_id": "a89f84e1",
+      "source_content": "```text\nGraj\n```",
+      "source_content_hash": "c08fdae0528cbb5104f7c3bc21e21d19d6df5b6b8232298ee5a36c4d4a81c74e",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_a89f84e1"
+      }
+    },
+    {
+      "segment_id": "536b7b6b",
+      "source_content": "* **Następny**\nKomendy: \"[włącz] następny\", \"[włącz] kolejny\", \"[graj] następny\", \"[graj] kolejny\"",
+      "source_content_hash": "3ee624c38d7a131799f5118289cad138a7c63b88b471838875f54ce895d02372",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "* **下一首**\n指令：\"[播放] 下一首\"、\"[播放] 下一曲\"、\"[开始] 下一首\"、\"[开始] 下一曲\""
+      }
+    },
+    {
+      "segment_id": "8c3563d3",
+      "source_content": "```text\nNastępny\n```",
+      "source_content_hash": "5200156a938274c5891b0f00b08f5e5d4bc8d21fb483da1159b4496c0fff3eee",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_8c3563d3"
+      }
+    },
+    {
+      "segment_id": "4d429946",
+      "source_content": "* **Poprzedni**\nKomendy: \"[włącz] poprzedni\", \"[włącz] wcześniejszy\", \"[graj] poprzedni\", \"[graj] wcześniejszy\"",
+      "source_content_hash": "2ccb94aab53499d2b2d2924e08ef7e5fcf05a09ff39a2c675fa6300645409257",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "* **上一首**\n指令：\"[播放] 上一首\"、\"[播放] 上一曲\"、\"[开始] 上一首\"、\"[开始] 上一曲\""
+      }
+    },
+    {
+      "segment_id": "5782e280",
+      "source_content": "```text\nPoprzedni\n```",
+      "source_content_hash": "df789a426da9eff5794cd14a8cfedeab21a000b61a901641c2e93d8e6c16b5ad",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_5782e280"
+      }
+    },
+    {
+      "segment_id": "b10963d7",
+      "source_content": "## Status czujników",
+      "source_content_hash": "18952655473a2038e1a3aa7ec679c1b964fbad254605b74b22b58b16192fd94c",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 传感器状态"
+      }
+    },
+    {
+      "segment_id": "2822251a",
+      "source_content": "Możesz też zapytać Asystenta o status każdego elementu systemu",
+      "source_content_hash": "738439f49a109ad74832947598ddaaf2d7c27541b5df192ff12f210f90eb5151",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "您还可以向助手查询系统中任何元素的状态"
+      }
+    },
+    {
+      "segment_id": "9f974d3d",
+      "source_content": "* **Sprawdzanie wartości czujników**",
+      "source_content_hash": "ed68118f12f155ad9a5385ba9dc54a359d63005ac409a65da1c16132fbc6d070",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "* **检查传感器数值**"
+      }
+    },
+    {
+      "segment_id": "d79a4831",
+      "source_content": "Wystarczy, że zapytasz \"Jaka jest temperatura w salonie\" lub \"Jaka jest wilgotność w łazience\", możesz też pytać o czujniki zewnętrzne raportujące dane z serwisów, np. \"jaki jest poziom UV\" czy \"jaka jest pozycja słońca\"",
+      "source_content_hash": "9bde8e0759749b25d9194f925b17f636c9444b891f5a00185fecc4f7d4b85bcd",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "只需询问\"客厅温度是多少\"或\"浴室湿度是多少\"，您也可以查询报告外部服务数据的传感器，例如\"紫外线指数是多少\"或\"太阳位置如何\""
+      }
+    },
+    {
+      "segment_id": "64071bcc",
+      "source_content": "```text\n'[Jaki] [ma] status \"szukana-fraza\"'\n```",
+      "source_content_hash": "d501d0fdb977b61e0f6bc6c1d530af197a4dbc08eea26d3d73f5eadaef5ce01b",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_64071bcc"
+      }
+    },
+    {
+      "segment_id": "664ad8b1",
+      "source_content": "* **Sprawdzanie wartości innych dowolnych elementów systemu**",
+      "source_content_hash": "c1a3eca3808fc7614fa8be1d947a2aa10cf19aebccef6ec6c718c8eef909756e",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "* **检查系统中其他任意元素的值**"
+      }
+    },
+    {
+      "segment_id": "7bc8bb24",
+      "source_content": "Zapytaj \"jaki jest adres IP\" by otrzymać informację o IP urządzenia, lub \"jaki jest status światła w kuchni\" by dowiedzieć się, czy światło jest włączone, lub \"jaki jest głos\" by otrzymać informację o ustawionym głosie asystenta",
+      "source_content_hash": "f4473af930b0b8948467bd5b27a14c369ea62b8cda71cd9c4008e9f35a2b0ae5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "询问\"IP地址是什么\"可获取设备IP信息，或\"厨房灯状态如何\"了解灯光是否开启，或\"当前语音是什么\"获取助手设置的语音信息"
+      }
+    },
+    {
+      "segment_id": "f39e109c",
+      "source_content": "```text\n'Jaki jest \"szukana-fraza\"'; 'Jaka jest \"szukana-fraza\"''\n```",
+      "source_content_hash": "d8af101ee2c31be5c0d94ce97a2d277e00e6dd556b0f1b717dbdf7184116c83a",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_f39e109c"
+      }
+    },
+    {
+      "segment_id": "f8614e13",
+      "source_content": "## Wyszukiwanie informacji",
+      "source_content_hash": "a0e0137778d4ade04326f0cf8fc85e88d978e28f15d0fa838c6e5ff6673f980b",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 信息查询"
+      }
+    },
+    {
+      "segment_id": "396efb28",
+      "source_content": "Zapytaj \"Co to jest ONZ\" lub \"Kto to jest Andrzej Wajda\", by otrzymać zwięzłą informację z bazy wiedzy",
+      "source_content_hash": "58a9f9ef39b1a5238c9c4e17e094b51ed5a639cde26c358225aa566df3dfd5dc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "询问\"什么是联合国\"或\"安杰伊·瓦伊达是谁\"，即可从知识库获取简明信息"
+      }
+    },
+    {
+      "segment_id": "b27056c4",
+      "source_content": "```text\n'Wyszukaj \"szukana-fraza\"'; 'Znajdź informację o \"szukana-fraza\"'\n```",
+      "source_content_hash": "99024d246d08fcd899a28ef1b8430051ba39049287c71d7c594866d5d73bec5c",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_b27056c4"
+      }
+    },
+    {
+      "segment_id": "5f82a1e9",
+      "source_content": "Powiedz \"Wikipedia Wielkanoc\" lub \"Wikipedia Polska\" by otrzymać pełny artykuł z Wikipedii",
+      "source_content_hash": "23e9cd215c83148dbdd2d53f84ed400eb9312b667810b9dd53a6398a81b634c8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "说出\"维基百科 复活节\"或\"维基百科 波兰\"可获取完整的维基百科文章"
+      }
+    },
+    {
+      "segment_id": "1ae0b80d",
+      "source_content": "```text\n'Wikipedia \"szukana-fraza\"'\n```",
+      "source_content_hash": "8b59f5803a570fd3266a3ac8c34c54d15df4df848f5725ff588beb3394c014d1",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_1ae0b80d"
+      }
+    },
+    {
+      "segment_id": "47cd8dd6",
+      "source_content": "## Godzina i data",
+      "source_content_hash": "f9e06b8cf9146fbb9b9bf1912594b0f2a032156a4563419eb262d10b3889ae12",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 时间和日期"
+      }
+    },
+    {
+      "segment_id": "692c6053",
+      "source_content": "Tu oczywiście działają komendy typu \"Która godzina\" i \"Jaki jest dzisiaj dzień\"",
+      "source_content_hash": "b599c4918e124b9bcda5ac2b5e0244ce81328dce819b8d56a36858fc5f427df4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "当然支持\"现在几点\"和\"今天星期几\"这类基础指令"
+      }
+    },
+    {
+      "segment_id": "601bdf38",
+      "source_content": "```text\n'Godzina'; '[jaka] [jest] data'\n```",
+      "source_content_hash": "65df124528fdc1f477d5cfaaa102ba8116e2d9833a6af7b57a86ad8dc1a569e6",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_601bdf38"
+      }
+    },
+    {
+      "segment_id": "5dba1427",
+      "source_content": "## Aktywowanie sceny",
+      "source_content_hash": "737d51960d553341de3064572fe410fb52aed26a2f078daa9f5c2da63a9c2485",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 场景激活"
+      }
+    },
+    {
+      "segment_id": "534ac82e",
+      "source_content": "Zdefiniowaną scenę można aktywować komendą \"Scena romantyczna\" lub \"Aktywuj scenę oglądanie filmu\"",
+      "source_content_hash": "eec6c64b5b590f7e42151369d3cb8fe105f36d28da81bcdec61cfca310d90a39",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "可通过\"浪漫场景\"或\"激活观影场景\"指令触发预定义场景"
+      }
+    },
+    {
+      "segment_id": "01a167f4",
+      "source_content": "```text\n'Scena \"szukana-fraza\"'; 'Aktywuj [scenę] \"szukana-fraza\"'\n```",
+      "source_content_hash": "a3944c453bd0119b46e8650e8134c7945e62f51442cae7fbb980758d0009512d",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_01a167f4"
+      }
+    },
+    {
+      "segment_id": "dd4905a4",
+      "source_content": "## Sterowanie ogrzewaniem",
+      "source_content_hash": "bc17f8c95ace47ec48f778dc1eef7e653f4c2118b9dfcb57c10c0d89bf6b7a0f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 暖气控制"
+      }
+    },
+    {
+      "segment_id": "d4615819",
+      "source_content": "* **Ustawianie temperatury ogrzewania**",
+      "source_content_hash": "820dcf9f8483b357a5d7268c5b88f92635cf4364b6cb0dadbb8e7813ca43fe4b",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "* **设置暖气温度**"
+      }
+    },
+    {
+      "segment_id": "719d3997",
+      "source_content": "Powiedz \"Ogrzewanie kuchnia 21 stopni[e]\"",
+      "source_content_hash": "76b37a129fd290fc5a27265b7f8b87c081cedb4b2f2b0ed1fdfa5b6257a35118",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "说出\"厨房暖气21度\""
+      }
+    },
+    {
+      "segment_id": "5d30fd9b",
+      "source_content": "```text\n'Ogrzewanie [w] \"pomieszczenie\" \"stopni\" stopni[e]'\n```",
+      "source_content_hash": "67a3b07dcbdbb7376e2ba58c5c0d8e605ff301c789768ec5e05073bf809c8854",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_5d30fd9b"
+      }
+    },
+    {
+      "segment_id": "9fbd2efb",
+      "source_content": "* **Zmiana trybu ogrzewania**",
+      "source_content_hash": "adab8264d59a523dfb35562a2504d3a2817c1f0a27f16cd55cba1e40ae0fa50b",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "* **切换暖气模式**"
+      }
+    },
+    {
+      "segment_id": "a8f09c71",
+      "source_content": "Powiedz \"Ogrzewanie tryb poza domem\" lub Powiedz \"Ogrzewanie tryb w domu\"",
+      "source_content_hash": "a37431382de405b758651d391abb0e91bb2cd94af682286c2928dbfb8c5d4db9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "说出\"暖气切换离家模式\"或\"暖气切换居家模式\""
+      }
+    },
+    {
+      "segment_id": "25a51782",
+      "source_content": "```text\n'Ogrzewanie tryb \"nazwa trybu\"'\n```",
+      "source_content_hash": "6df5e46b702432a99b9fbf772406890cae74c2675d0fec5505df048545e5f523",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_25a51782"
+      }
+    },
+    {
+      "segment_id": "0ddaa835",
+      "source_content": "Inne możliwe tryby (pod warunkiem, że obsługuje je Twoja konfiguracja ogrzewania) to:",
+      "source_content_hash": "52fb92b8b72a054eba8a3a530b7cf0a9e49fb6dfb2ac8fabb4afb9dcb2dbf655",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "其他可选模式（取决于您的暖气配置是否支持）包括："
+      }
+    },
+    {
+      "segment_id": "5df815de",
+      "source_content": "- \"eco\" - eko, oszczędzanie, oszczędny\n- \"boost\" - podgrzanie, podgrzewanie\n- \"comfort\" - komfort, wygoda\n- \"sleep\" - spanie, noc\n- \"activity\" - aktywność, ruch",
+      "source_content_hash": "13768d3432575afbd99a57f7fbabaa91beb9c0ba16070157bc91fb21ee35afba",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- \"eco\" - 节能模式\n- \"boost\" - 快速加热\n- \"comfort\" - 舒适模式  \n- \"sleep\" - 睡眠模式\n- \"activity\" - 活动模式"
+      }
+    },
+    {
+      "segment_id": "35b64b93",
+      "source_content": "* **Wyłączenie ogrzewania**",
+      "source_content_hash": "dd1567fe9077ea54959a3b5e97eeecca8fbd330b0d506f01801a05c99654f7c0",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "* **关闭暖气系统**"
+      }
+    },
+    {
+      "segment_id": "7eccd6ba",
+      "source_content": "```text\nWyłącz całe ogrzewnie\n```",
+      "source_content_hash": "446d81d51f45a4ba4b4ba68b4918be63090cc6d508314b6467f71068bf40812a",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_7eccd6ba"
+      }
+    },
+    {
+      "segment_id": "5b1ccdc9",
+      "source_content": "* **Włączenie ogrzewania**",
+      "source_content_hash": "f86899feeaf6fb5fccc89f53e45f3cd123403ab388cf7bfe8c5811652d2b0a12",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "* **开启暖气系统**"
+      }
+    },
+    {
+      "segment_id": "904df6eb",
+      "source_content": "```text\nWłącz całe ogrzewnie\n```",
+      "source_content_hash": "4b163fc77752bf91dfc214127305ae1924c6e413fb720c763683a1263d213853",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_904df6eb"
+      }
+    },
+    {
+      "segment_id": "61282bab",
+      "source_content": "## Rozgłaszanie tekstu",
+      "source_content_hash": "4484f8f624be884da888ee37cafa8531fb4302eb8443de2e97610b8ee3d2d5b2",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 文本广播"
+      }
+    },
+    {
+      "segment_id": "4e2e17c5",
+      "source_content": "Żeby asystentka powiedziała przez głośnik np. \"Obiad gotowy\", wystarczy jej powiedzieć \"Powiedz obiad gotowy\"\n(docelowo będziemy jeszcze wskazywali na jaki odtwarzacz/głośnik ma być przesyłany tekst)",
+      "source_content_hash": "84bc1c687718a6162753877ac87dce72c73d9ad0716474e7cebe9a7d788db17f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "如需通过扬声器播报\"晚餐已准备好\"，只需对助手说：\"播报 晚餐已准备好\"\n（后续版本将支持指定播放设备）"
+      }
+    },
+    {
+      "segment_id": "d7c0a6db",
+      "source_content": "```text\nPowiedz \"szukana-fraza\"'; 'Mów \"szukana-fraza\"'; 'Echo \"szukana-fraza\"\n```",
+      "source_content_hash": "b7001e219203cc615777177b9b57426fa79c11be9174db74eaa166d63fd2b5de",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_d7c0a6db"
+      }
+    },
+    {
+      "segment_id": "c6d75762",
+      "source_content": "## Spotify",
+      "source_content_hash": "8c7b273af5311dfba798eb8804a75dae70a7189c9ceaab4cab2657acdc71381c",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## Spotify控制"
+      }
+    },
+    {
+      "segment_id": "c5e0bb3d",
+      "source_content": "Żeby asystentka wyszukała na Spotify i odtworzyła utwory Dawida Podsiadło, wystarczy powiedzieć: \"Spotify Dawid Podsiadło\"\nW podobny sposób możemy szukać albumu lub listy utworów.",
+      "source_content_hash": "b812c647c68c5e43050268fac2f5518ab61ea43078b0b26dd0f00e348fab992e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "若要助手在Spotify搜索并播放Dawid Podsiadło的歌曲，只需说：\"Spotify Dawid Podsiadło\"\n同样方式可搜索专辑或播放列表"
+      }
+    },
+    {
+      "segment_id": "03af811a",
+      "source_content": "```text\nSpotify \"wykonawca/album/playlista\"\n```",
+      "source_content_hash": "0e637a0501a83ac7feae0921a206ccc1318049e3d1fd9b1f0c843907ed93cfab",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_03af811a"
+      }
+    },
+    {
+      "segment_id": "6ac93c98",
+      "source_content": "## Literowanie",
+      "source_content_hash": "58589f54c0f9405cd2222f3247696071b281d199cbf01fae8a7a49765871565d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 拼读功能"
+      }
+    },
+    {
+      "segment_id": "b4204c03",
+      "source_content": "Możemy kazać przeliterować asystentce status dowolnego elementu systemu. Wystarczy powiedzieć \"Przeliteruj \" i dodać nazwę elementu:",
+      "source_content_hash": "584765ef7988e5de9b68120879d89423f97a48f250e8a84dd02ba3784d425908",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "可要求助手拼读系统内任意元素状态，指令格式为：\"拼读 \" + 元素名称："
+      }
+    },
+    {
+      "segment_id": "d9ca18af",
+      "source_content": "```text\nPrzeliteruj \"nazwa elementu\"\n```",
+      "source_content_hash": "686b47487ab74460ed028e24573353f90b2b044fe3109f3c9ceafe7c59945ff0",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_d9ca18af"
+      }
+    },
+    {
+      "segment_id": "4e8f71c1",
+      "source_content": "## Uruchamianie automatyzacji",
+      "source_content_hash": "1f9961a295a9617d9643fce97eda5a9e88366bdd0a29c42a29b22bc729ee42be",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 触发自动化流程"
+      }
+    },
+    {
+      "segment_id": "09512450",
+      "source_content": "Możemy uruchomić dowolną zdefiniowaną w systemie automatyzację za pomocą komendy:",
+      "source_content_hash": "6ad572af8bc084220a9248129d7b7cb7992914042fd8d59348eef71c9c5af9db",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "可通过以下指令触发预定义的自动化流程："
+      }
+    },
+    {
+      "segment_id": "af7c5c4e",
+      "source_content": "```text\nJolka \"nazwa automatyzacji\"\n```",
+      "source_content_hash": "bcc2ce8864eec0a5d88903d78a86035090402b034b7919707a1ab71b1356d2d7",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_af7c5c4e"
+      }
+    },
+    {
+      "segment_id": "d8c366cc",
+      "source_content": "lub",
+      "source_content_hash": "d0afe5ed2bd67151d4dd103cbc58f94c43e56d5ebb122e9538f2718ee6d48c4c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "或"
+      }
+    },
+    {
+      "segment_id": "daad2e28",
+      "source_content": "```text\nUruchom \"nazwa automatyzacji\"\n```",
+      "source_content_hash": "01759f8232f3f921de628bf10a74131dc27e529686c7e13b2003297ad1e07755",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_daad2e28"
+      }
+    },
+    {
+      "segment_id": "61e5dad6",
+      "source_content": "lub",
+      "source_content_hash": "d0afe5ed2bd67151d4dd103cbc58f94c43e56d5ebb122e9538f2718ee6d48c4c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "或"
+      }
+    },
+    {
+      "segment_id": "18e3e63d",
+      "source_content": "```text\nAutomatyzacja \"nazwa automatyzacji\"\n```",
+      "source_content_hash": "79341bc3df1fd92025104296cbda16004afe74ee72eaf91a43c9a13d46648e2f",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_18e3e63d"
+      }
+    },
+    {
+      "segment_id": "228d01d5",
+      "source_content": "Możemy też dodać do nazwy automatyzacji prefiks \"Jolka: \", dzięki temu Asystent zrozumie, że nazwa po prefiksie to komenda i po jej wypowiedzeniu uruchomi automatyzację.\nCzyli jeżeli nazwiemy automatyzację \"Jolka: podlej trawnik\", to wystarczy, że uruchomimy w systemie komendę \"Podlej trawnik\" żeby wykonać automatyzację o nzawie **\"Jolka: podlej trawnik\"**.\nWięcej informacji na stronie [Komenda w automatyzacji](/docs/ais_app_assistent_add_command/#komenda-w-automatyzacji).",
+      "source_content_hash": "c097be4925dff7eaf3f3e79266f4a190672843d48cba4362821cd60c419b59dd",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "也可为自动化流程名称添加\"Jolka: \"前缀，助手将识别前缀后的内容为指令。例如命名自动化流程为\"Jolka: 浇灌草坪\"，当系统收到\"浇灌草坪\"指令时即会触发该流程。\n更多细节参见[自动化中的指令配置](/docs/ais_app_assistent_add_command/#komenda-w-automatyzacji)"
+      }
+    },
+    {
+      "segment_id": "f210f942",
+      "source_content": "## Google  Home",
+      "source_content_hash": "06e295768f49959ec89d2be437ea1361179be51e8fa1e14e0869f5f1173f7dbb",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## Google Home集成"
+      }
+    },
+    {
+      "segment_id": "d119b75c",
+      "source_content": "Możemy dodać [integrację z Google Home](/docs/ais_app_ai_integration_google_home) i przesyłać komendy głosowe do Google:",
+      "source_content_hash": "1eda479ea26bdb9c333f8a9d7fab762ab22cd29392217e2127530b6434369175",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "可配置[Google Home集成](/docs/ais_app_ai_integration_google_home)实现语音指令中转："
+      }
+    },
+    {
+      "segment_id": "bce471ae",
+      "source_content": "```text\nGoogle \"komenda/polecenie\"\n```",
+      "source_content_hash": "011d09fa267bae34134162c9989300a80a3e80954168e705b37c350150345078",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_bce471ae"
+      }
+    },
+    {
+      "segment_id": "4147aea6",
+      "source_content": "## Sprawdzenie lokalizacji osoby",
+      "source_content_hash": "be91340ad9afa1b73e3885535d2bd88b8709a6eb1cd6c76407f4004319bcab41",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 人员定位查询"
+      }
+    },
+    {
+      "segment_id": "43287462",
+      "source_content": "Możemy sprawdzić lokalizację osoby za pomocą komendy:",
+      "source_content_hash": "8fe2f9776e94bab52e83cc5bca5b43d96933e53824f9680b97ced603f93eadbe",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "可通过指令查询人员位置："
+      }
+    },
+    {
+      "segment_id": "fa8763ec",
+      "source_content": "```text\nGdzie jest \"osoba\"\n```",
+      "source_content_hash": "3ae4735ec05d76d42349301a9ab6af0591044abddb667768ca6e99b9f7f92245",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_fa8763ec"
+      }
+    },
+    {
+      "segment_id": "b0c30ab4",
+      "source_content": "lub",
+      "source_content_hash": "d0afe5ed2bd67151d4dd103cbc58f94c43e56d5ebb122e9538f2718ee6d48c4c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "或"
+      }
+    },
+    {
+      "segment_id": "fc50cfb2",
+      "source_content": "```text\nLokalizacja \"osoba\"\n```",
+      "source_content_hash": "708ac85d480eb31ccf0925843a46586a1c1591e8cd213e9b2507c886da997c8f",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_fc50cfb2"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_app_assistent_commands.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.138260+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "eb52bfc61b885face9e5cc2589d13230c635c50b9a177e07831f17e96a030afc"
+  }
+}

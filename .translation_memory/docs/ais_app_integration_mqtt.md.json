@@ -1,0 +1,322 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_app_integration_mqtt.md",
+  "source_file_content_hash": "f3c3ee9c23afee954d1d772bbce0f35f7cb0b2593323f031df097c2f9cf9d8ae",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Broker MQTT\"\nsidebar_label: Broker MQTT\n---",
+      "source_content_hash": "03fbf481f92019357582159f6a9722d6d92a167351ef88c4cb7936dde654bc48",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Wprowadzenie",
+      "source_content_hash": "138964b3f05ef631ae55efd030ca96538eb5d783961ef7b978515da6c937d13f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 简介"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Na bramce dostarczamy wbudowany broker MQTT oraz usługę zapewniającą jego działanie \"z pudełka\" po starcie bramki.",
+      "source_content_hash": "7be8c117ea27f2957bdbd0620519b01eb82c7aad3e5aab1e287839f36392d55d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们在网关上内置了MQTT代理服务，开箱即用，设备启动后即可自动运行。"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "MQTT (MQ Telemetry Transport), to protokół łączności maszyna-maszyna lub „Internet rzeczy” będący uzupełnieniem protokołu TCP/IP. Pozwala na niezwykle lekki transport komunikatów publikowania/subskrypcji.\nUrządzenia z naszym oprograwmowaniem komunikują się z bramką w sieci lokalnej za pomocą MQTT. Dzięki czemu są automatycznie wykrywane przez bramkę bez potrzeby konfiguracji po stronie użytkownika.",
+      "source_content_hash": "ca2a37abb3e19c72e508861549ae352faea6dc19e81caef563daab663a2d4564",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "MQTT（MQ遥测传输协议）是一种机器对机器通信协议，属于物联网TCP/IP协议的补充。它采用极轻量级的发布/订阅消息传输模式。搭载我们软件的设备通过MQTT协议与本地网络中的网关通信，因此无需用户配置即可被网关自动识别。"
+      }
+    },
+    {
+      "segment_id": "180bddb1",
+      "source_content": "![WEB console](/img/en/bramka/mqtt_broker.png)",
+      "source_content_hash": "6be2e45c8f648d67fd85cfff18be301e7b5d43df766fb881fe46ae919f9f1d32",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![WEB控制台](/img/en/bramka/mqtt_broker.png)"
+      }
+    },
+    {
+      "segment_id": "e14c9928",
+      "source_content": "## Połączenie z brokerem MQTT z systemu Asystent domowy",
+      "source_content_hash": "7d6e70dfbf665d9550fdd88d49ecc46489e5cfdbfca95e636c6d5eaabc9b6a3a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 从家庭助理系统连接MQTT代理"
+      }
+    },
+    {
+      "segment_id": "42ad8e83",
+      "source_content": "Aplikacja Asystent domowy (serwer) działająca na bramce łączy się domyślnie z brokerem MQTT działającym również na bramce.\nIntegracja z brokerem MQTT polega na podaniu lokalnego adresu IP brokera/bramki w konfiguratorze:",
+      "source_content_hash": "610364699c109bdf41b8e82feb8d33330d5d6e3a9ebf1222b706eb733ad9511b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "运行在网关上的家庭助理（服务端）应用默认会连接同网关上的MQTT代理服务。在配置器中指定代理服务器/网关的本地IP地址即可完成MQTT集成："
+      }
+    },
+    {
+      "segment_id": "1acb9a05",
+      "source_content": "![Dodanie usług](/img/en/bramka/mqtt_integration_1.png)",
+      "source_content_hash": "f1339ea9e988e62726bb6f1b36731e342183bc9b0f9ad30348dce6a6d9650c74",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![添加服务](/img/en/bramka/mqtt_integration_1.png)"
+      }
+    },
+    {
+      "segment_id": "2fdadb08",
+      "source_content": "![Dodanie usług](/img/en/bramka/mqtt_integration_2.png)",
+      "source_content_hash": "32153ad47c99be45eb695f944802746d6cd283eaccb6f2c9801bb53110f71969",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![添加服务](/img/en/bramka/mqtt_integration_2.png)"
+      }
+    },
+    {
+      "segment_id": "f2c2bdd0",
+      "source_content": "Zaawansowani użytkownicy mogą w razie potrzeby połączyć aplikację Asystent domowy z dowolnym innym brokerem MQTT.",
+      "source_content_hash": "df1989382c53ab82375fd667ce7cbdc578a49d07e1090ed0076e31eb2085aab1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "高级用户可根据需要将家庭助理应用连接至其他MQTT代理服务器。"
+      }
+    },
+    {
+      "segment_id": "d3af2df1",
+      "source_content": "-----------------------------------------------------",
+      "source_content_hash": "4b2565bde18586a3df94f1a47659f4632cd797b455b5dc416ee2a6886aef3fa9",
+      "node_type": "thematicBreak",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "-----------------------------------------------------"
+      }
+    },
+    {
+      "segment_id": "3c36424c",
+      "source_content": "## Informacje techniczne",
+      "source_content_hash": "3dfe84774725c9ca724b9d3eab0440e4139e6b15e87494c029c9dae93ac448e7",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 技术信息"
+      }
+    },
+    {
+      "segment_id": "d06306f7",
+      "source_content": "### Proces mqtt",
+      "source_content_hash": "e8407c0f5a54c60358de0d1efee52b39ae5dfcb3db2532a9790599e3d8679a08",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### MQTT进程"
+      }
+    },
+    {
+      "segment_id": "73ab96a3",
+      "source_content": "Procesami na bramce steruje [Menedżer procesów PM2](http://pm2.keymetrics.io/).\nPM2 odpowiedzialny jest też za uruchomienie brokera MQTT po starcie systemu, a następnie czuwa nad jego ciągłym działaniem.",
+      "source_content_hash": "7d7109770ebbe597fde33244a6b19170c3246f1e693060e8edbff80819d80e06",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "网关进程由[PM2进程管理器](http://pm2.keymetrics.io/)控制。PM2负责在系统启动时运行MQTT代理服务，并持续监控其运行状态。"
+      }
+    },
+    {
+      "segment_id": "bdc231b1",
+      "source_content": "Żeby zobaczyć status procesu mqtt w konsoli wpisujemy:",
+      "source_content_hash": "2e248bd9aca6d91256dfb8b05a4830355d1ad85ac3bf622333649a1374d05183",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "查看MQTT进程状态需在控制台输入："
+      }
+    },
+    {
+      "segment_id": "be2d5397",
+      "source_content": "```\npm2 show mqtt\n```",
+      "source_content_hash": "bbf847d330fc2b87f2188a46f7039302ed54937bb309d0c90a8b55efdb5994d8",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_be2d5397"
+      }
+    },
+    {
+      "segment_id": "3cfe6286",
+      "source_content": "![MQTT broker](/img/en/bramka/pm2_mqtt.png)",
+      "source_content_hash": "209191ec5b92ee825611d288c14725a3d68553b895b7b4336f9c9c8f90298109",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![MQTT代理](/img/en/bramka/pm2_mqtt.png)"
+      }
+    },
+    {
+      "segment_id": "06c0f776",
+      "source_content": "### Konfiguracja brokera mqtt",
+      "source_content_hash": "aecbd1bde3ce95370cceec0ca99af25e32f49fc7ffd6b62caa67cbff061099ed",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### MQTT代理配置"
+      }
+    },
+    {
+      "segment_id": "6b421e57",
+      "source_content": ":::caution[Uwaga]\n**Uwaga!** W przypadku podstawowej konfiguracji ustawienia domyślne są dobre i nie trzeba nic zmieniać.\nPotrzeba zmiany konfiguracji brokera MQTT może dotyczyć tylko programistów i technicznie zaawansowanych użytkowników, którzy np. chcą dodać połączenie mostkowe, autentykację itp.\nW przypadku wystąpienia problemów po zmianie konfiguracji brokeram Mqtt zalecamy [Wykonanie pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step)\n:::",
+      "source_content_hash": "2fc772fcf3dac396e8e79eecb091572fe40c23eafaaa2f9b2b903cb4717b7d4c",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[注意]\n**注意！** 基础配置采用默认设置即可，无需修改。仅当开发者或高级用户需要添加桥接、认证等功能时才需调整MQTT代理配置。若配置更改后出现问题，建议[执行应用完全重置](/docs/ais_bramka_reset_ais_step_by_step)\n:::"
+      }
+    },
+    {
+      "segment_id": "f7ef78f9",
+      "source_content": "Broker, który dostarczamy na bramce, to [mosquitto](https://mosquitto.org/). Jego konfiguracja znajduje się w standardowym pliku **mosquitto.conf** w lokalizacji\n``/data/data/com.termux/files/usr/etc/mosquitto/mosquitto.conf``",
+      "source_content_hash": "d37b0ce6ee6d534ac9b7eb40375d08259dcc0638ff4d15ec1e27206d6a422f10",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "网关搭载的MQTT代理服务采用[mosquitto](https://mosquitto.org/)，其配置文件位于标准路径：\n``/data/data/com.termux/files/usr/etc/mosquitto/mosquitto.conf``"
+      }
+    },
+    {
+      "segment_id": "d3649a1e",
+      "source_content": "![MQTT](/img/en/integrations/mqtt_edit_mosquito_config.png)",
+      "source_content_hash": "0ecdea722ad9005f7dae367c76b30f6cb17a205f3444183c791b0f4364fe2d97",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![MQTT](/img/en/integrations/mqtt_edit_mosquito_config.png)"
+      }
+    },
+    {
+      "segment_id": "4d52a261",
+      "source_content": "Edycja pliku konfiguracji brokera MQTT możliwa jest z aplikacji.  W tym celu wystarczy w konfiguracji integracji MQTT w prawym górnym rogu wybrać opcję **Edit mosquitto.conf**",
+      "source_content_hash": "7ed03f1a249b5e697fbc9c249dee2f885b9599df3186415de73ece8d0a7f468c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "可通过应用直接编辑MQTT代理配置文件。在MQTT集成配置界面右上角选择**编辑mosquitto.conf**选项即可。"
+      }
+    },
+    {
+      "segment_id": "23dfb152",
+      "source_content": "![Integracja SUPLA](/img/en/frontend/integration_supla_6.png)",
+      "source_content_hash": "a54b1c94e23f0af7478d2a33e4c21974d58fd44f90651448b3021b36278ef104",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Integracja SUPLA](/img/en/frontend/integration_supla_6.png)"
+      }
+    },
+    {
+      "segment_id": "1131ef75",
+      "source_content": "W ten sposób możemy łatwo dodawać np. mostkowe połączenia z innymi brokerami MQTT.",
+      "source_content_hash": "da96c6c9f615445b847e976030cab20f41082e162095378a119ab551b36b028f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过这种方式，我们可以轻松添加与其他MQTT代理的桥接连接。"
+      }
+    },
+    {
+      "segment_id": "9e95fc4a",
+      "source_content": "### Standardowe ustawienia",
+      "source_content_hash": "944d880cc66fcb6c1697d876617898502a5e1e4601055b1c6d7bbcff4fae721b",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 标准设置"
+      }
+    },
+    {
+      "segment_id": "5dae11e3",
+      "source_content": "Fabrycznie mamy takie ustawiania brokera MQTT działającego na bramce:",
+      "source_content_hash": "18e1d586f53268824dba515b7e40747c151d53d01440fc392e13c4f708c9f1f4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "设备出厂时，网关内置的MQTT代理默认配置如下："
+      }
+    },
+    {
+      "segment_id": "1d510af2",
+      "source_content": "``` text\n# AIS Config file for mosquitto on gate\nlistener 1883 0.0.0.0\nallow_anonymous true\n\n```",
+      "source_content_hash": "7c4f0fcd478203724b5c93de53c74b4e1fa772560f1cc89bb0fc52179a0786fd",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_1d510af2"
+      }
+    },
+    {
+      "segment_id": "883231d4",
+      "source_content": "Po dodaniu integracji SUPLA MQTT ustawienia są automatycznie zmieniane na takie:",
+      "source_content_hash": "78c9261aa4797549dec2e0e4ccbe43e926e77e254878fdf9a8126011656a0dce",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "添加SUPLA MQTT集成后，设置会自动更改为："
+      }
+    },
+    {
+      "segment_id": "468b36ba",
+      "source_content": "``` text\n# AIS Config file for mosquitto on gate\nlistener 1883 0.0.0.0\nallow_anonymous true\n\n# SUPLA MQTT bridge connection\nconnection bridge-dom-unikalny-identyfilator-bramki*\naddress host-i-port-od-supla*\ntopic supla/# in\ntopic homeassistant/# in\ntopic supla/+/devices/+/channels/+/execute_action out\ntopic supla/+/devices/+/channels/+/set/+ out\nremote_username nazwa-użytkownika-z-supla*\nremote_password hasło-z-supla*\nbridge_cafile /data/data/pl.sviete.dom/files/usr/etc/tls/cert.pem\n\n```",
+      "source_content_hash": "d49524e4e45369b7ba28d5ce40199f9d49409c9433ec95cacb21b2d0b93dd6cc",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_468b36ba"
+      }
+    },
+    {
+      "segment_id": "e33a2404",
+      "source_content": "### Dostęp tylko lokalny",
+      "source_content_hash": "8515cb926ba1aa70c2d132d1354e58120acb56b2e990c9ade676334fd5433d9d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 仅限本地访问"
+      }
+    },
+    {
+      "segment_id": "82e90254",
+      "source_content": "Broker MQTT pozwala na dostęp bez uwierzytelniania. Dlatego dostęp do brokera MQTT na bramce możliwy jest tylko z sieci lokalnej.",
+      "source_content_hash": "48dd789673110f9fb06e5c0dc3bb32f57b47a3e828ed856e20fb9b97c2e7ce06",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "MQTT代理允许无认证访问。因此网关上的MQTT代理仅限局域网内访问。"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_app_integration_mqtt.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.106792+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "f3c3ee9c23afee954d1d772bbce0f35f7cb0b2593323f031df097c2f9cf9d8ae"
+  }
+}

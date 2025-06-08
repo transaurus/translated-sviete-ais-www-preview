@@ -1,0 +1,172 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_reset_ais_step_by_step.md",
+  "source_file_content_hash": "9c6a9c08fee9129c7b9386ff359b7b1da3d2d2d7c64eb70b2a2c973b485fd9c5",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Pełny reset aplikacji\"\nsidebar_label: Wykonanie pełnego resetu aplikacji\n---",
+      "source_content_hash": "943cea3d5cc3abf0fac8df4a1044b4571bbaad7691fcf66635db38f79ccb51e7",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Wykonanie pełnego resetu aplikacji",
+      "source_content_hash": "84489cd729517e6de946d0656bdaf5f11ecca9244d0108fbba2f52c4cd85278e",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 执行应用程序完全重置"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Pełny reset aplikacji polega na usunięciu wszystkich ustawień i kodów aplikacji **Asystent domowy** na bramce i nadpisaniu ich domyślnymi, najnowszymi kodami i ustawieniami.\n **Pełny reset aplikacji to bezpieczny i prosty sposób na rozwiązywanie problemów z urządzeniem**",
+      "source_content_hash": "a9650bf0dfb07f735e274fb3a8e55090d17107f576bed0e3f4b7fb314c87df92",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "应用程序完全重置是指删除网关上**家庭助理**应用的所有设置和代码，并用默认的最新代码和设置覆盖它们。\n**应用程序完全重置是解决设备问题的安全简便方法**"
+      }
+    },
+    {
+      "segment_id": "bb849aa9",
+      "source_content": ":::tip[Wskazówka]\nJeśli eksperymentujesz z ustawieniami systemu, tworzysz własne integracje, zmieniasz kody na bramce, nadpisujesz konfigurację i coś działa nie tak, to\nopisany tu **Pełny reset aplikacji** jest zalecanym bezpiecznym sposobem na rozwiązywanie problemów z systemem.\n:::",
+      "source_content_hash": "4e77f54b1741c5c3ef9fe41443a75356d14eba64f8c6f5830f18b2ddc6b90f01",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::tip[提示]\n如果您正在尝试修改系统设置、创建自定义集成、更改网关代码、覆盖配置时遇到问题，\n此处描述的**应用程序完全重置**是推荐的安全解决方案。\n:::"
+      }
+    },
+    {
+      "segment_id": "39b3772c",
+      "source_content": "Jeżeli nie definiowałeś własnych integracji i konfiguracji, to ten sposób może być najwygodniejszy do szybkiej aktualizacji systemu.",
+      "source_content_hash": "0bbb6718aeb76178e41ddd2282545430ec304573660fb227fab9aee8f76d125b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "若您未定义过自定义集成和配置，此方法可能是快速更新系统的最便捷途径。"
+      }
+    },
+    {
+      "segment_id": "1acb9a05",
+      "source_content": "Od strony użytkownika wykonanie tego kroku jest bardzo proste i sprowadza się do przejścia do ustawień `serwisu Asystent domowy` na bramce i wybrania opcji z menu aplikacji - tak jak to pokazano na wideo poniżej.\nCały proces jest szybki, restart zajmuje około 4 minuty (jeśli mamy łącze internetowe z transferem na poziomie 10 Mbps).\nTrwa to tak szybko, ponieważ nie musimy analizować, pobierać i aktualizować wszystkich zainstalowanych pakietów systemu, jak to ma miejsce podczas normalnej aktualizacji.",
+      "source_content_hash": "2a6f93c1bc67b86fc211ff6e63391c8a96f5c2b85f8a2cbfc4f5b9452bfbfb3c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "从用户角度而言，该操作非常简单：只需进入网关上的`家庭助理服务`设置，选择应用菜单中的选项（如下方视频所示）。\n整个过程快速高效，重启约耗时4分钟（需10 Mbps网络带宽）。\n由于无需像常规更新那样分析、下载和更新所有系统安装包，因此速度显著提升。"
+      }
+    },
+    {
+      "segment_id": "98cfbd53",
+      "source_content": "![Ustawienia serwisu Asystent domowy](/img/en/bramka/settings_ais_service.png)",
+      "source_content_hash": "e9529e3b72e67347e6a732bef88774a608b84c5fa54daca3acb44a8d367aa018",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![家庭助理服务设置](/img/en/bramka/settings_ais_service.png)"
+      }
+    },
+    {
+      "segment_id": "a76548f8",
+      "source_content": "![Ustawienia serwisu Asystent domowy](/img/en/bramka/settings_ais_service_app_reset.png)",
+      "source_content_hash": "ab5cbe15b279f22ee04183ca69789b513a6c2d99d45a1d043ab30d2bb63148ad",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![家庭助理服务设置](/img/en/bramka/settings_ais_service_app_reset.png)"
+      }
+    },
+    {
+      "segment_id": "57971bfb",
+      "source_content": ":::caution[Uwaga]\n**Uwaga!** po takim resecie / takiej aktualizacji mamy kompletnie nowy system Asystent domowy z domyślnymi ustawieniami i część urządzeń może wymagać ponownej integracji z bramką.\n\nJeśli wykonałeś wcześniej działającą kopię konfiguracji, to po wykonaniu resetu możesz ją przywrócić korzystając z opcji [kopia zapasowa konfiguracji](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji)\n:::",
+      "source_content_hash": "837b78fae7df13bd869558ffeae68bf2b4e2c9eab9291b0a86c2e0019be66fa3",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[注意]\n**注意！** 此类重置/更新后将获得一个全新的家庭助理系统（含默认设置），部分设备可能需要重新与网关集成。\n\n若您事先备份过有效配置，重置后可通过[配置备份](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji)功能恢复。\n:::"
+      }
+    },
+    {
+      "segment_id": "f422383e",
+      "source_content": "## Co się dzieje podczas resetu ustawień Asystenta domowego do domyślnych",
+      "source_content_hash": "7a06c8f50d1b6e83cc6ce5c14a995b7d77f7673ca26349c4ece2fdc6b0167490",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 家庭助理重置为默认设置时的内部过程"
+      }
+    },
+    {
+      "segment_id": "97ae4a01",
+      "source_content": "Technicznie procedura polega na wykonaniu dwóch kroków:",
+      "source_content_hash": "05e9b171053a81c6eb3f19a209eb8e247b5c048a16b60bbd11ba1b34609b1e31",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "技术层面该流程包含两个步骤："
+      }
+    },
+    {
+      "segment_id": "157151e9",
+      "source_content": "1. Skasowaniu wszystkich bieżących kodów i konfiguracji użytkownika.\n2. Pobraniu spakowanej paczki startowej z najnowszą wersją kodów i konfiguracji Asystenta domowego.",
+      "source_content_hash": "3062ec73ae5223da2259d9ad9c8a31e0cf7e334547f8b430debd52bb1e0a72ed",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "1. 清除所有当前用户代码和配置\n2. 下载包含家庭助理最新代码和配置的启动包"
+      }
+    },
+    {
+      "segment_id": "3cfe6286",
+      "source_content": "Pierwszy krok nie różni się niczym od wyczyszczenia danych w aplikacji Android. Dlatego zamiennie zamiast uruchamiać reset z ustawień Asystenta domowego można, wyczyścić dane w aplikacji i po ponownym uruchomieniu system sam zainstaluje najnowsze kody.",
+      "source_content_hash": "9e3446102c792d6ddee9a6931ee83a55ff8b6f5fb24e8b3d3c381976dc592d6b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "第一步与清除Android应用数据无异。因此除了通过家庭助理设置启动重置外，您也可以直接清除应用数据，重启后系统将自动安装最新代码。"
+      }
+    },
+    {
+      "segment_id": "1042b50d",
+      "source_content": "![Pierwszy krok](/img/en/bramka/settings_ais_service_app_reset_1.jpeg)",
+      "source_content_hash": "6300a10a163a9adbdc4ad58f5589ba8ce919595de5493f875c64e9ead8a7b6a3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![第一步](/img/en/bramka/settings_ais_service_app_reset_1.jpeg)"
+      }
+    },
+    {
+      "segment_id": "8bddee80",
+      "source_content": "## Przebieg pełnego resetu na wideo",
+      "source_content_hash": "5458feb96fcf4ded08e58192d6766f65ae28a20bacf1b89e17b8593bacd07724",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 完整重置操作视频演示"
+      }
+    },
+    {
+      "segment_id": "2f83a0f4",
+      "source_content": "<iframe width=\"560\" height=\"315\"  src=\"https://www.youtube.com/embed/3FO9hBl1V90\" frameBorder=\"0\" allowFullScreen></iframe>",
+      "source_content_hash": "55acac6b48907876ec4a6c860ca56d8b1ade7d79eb052cdb5668c4ab95bef4ac",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_2f83a0f4"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_reset_ais_step_by_step.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.142214+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "9c6a9c08fee9129c7b9386ff359b7b1da3d2d2d7c64eb70b2a2c973b485fd9c5"
+  }
+}

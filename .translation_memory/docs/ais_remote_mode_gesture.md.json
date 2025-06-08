@@ -1,0 +1,42 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_remote_mode_gesture.md",
+  "source_file_content_hash": "fe6dcf150544a06101119e02e2875ba6a6e50be5f88cff05cc9da13eef2f4e4c",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Sterowanie gestami\"\nsidebar_label: Sterowanie gestami\n---",
+      "source_content_hash": "2e24e25b6c9cf3a5609f93c123454b4a115b89d18be3e34a1dcfa0453e879965",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Pilot radiowy ma wbudowany 3-osiowy żyroskop. Dzięki temu w trybie sterowania gestami system rozpoznaje ruchy wykonane pilotem i dopasowuje je do zdefiniowanych gestów oraz przypisanych im funkcji. Dla przykładu, po wciśnięciu przycisku wyboru, czyli środkowego przycisku OK, ruch pilotem w prawo włącza kolejny utwór a w lewo poprzedni utwór.",
+      "source_content_hash": "f7d5d3934797cd040ba1b11516b195396e15015f44d40d2d4574921b24797c16",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该遥控器内置三轴陀螺仪。在体感控制模式下，系统能识别遥控器的运动轨迹，将其匹配至预定义手势及对应功能。例如按下中央OK选择键后，向右摆动遥控器可切换下一曲目，向左摆动则返回上一曲目。"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Podobny efekt uzyskujemy w aplikacji mobinej rysując gest palcem na ekranie.",
+      "source_content_hash": "844734c0cf5058e2e96cf364f2b40b5b6fa719cd3ef77100833f39e0b2570d85",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在移动应用中通过手指在屏幕上划动手势也可实现相同效果。"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_remote_mode_gesture.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.113534+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "fe6dcf150544a06101119e02e2875ba6a6e50be5f88cff05cc9da13eef2f4e4c"
+  }
+}

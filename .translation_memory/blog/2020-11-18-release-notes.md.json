@@ -1,0 +1,572 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2020-11-18-release-notes.md",
+  "source_file_content_hash": "dfb2a90e4958a962f8fa65e6fe2d53b464887f4c9d6c2bbb8c56da259fa84d75",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Jola AI-Speaker\nauthorURL: https://github.com/sviete\nauthor_title: Asystentka\nauthorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4\ntitle: Wersja systemu 0.117.7\ntags: [\"google calendars\", \"home assistant\", \"automatyzacje\", \"zigbee2mqtt\", \"tasmota\"]\n---",
+      "source_content_hash": "414bb1584fe6875be5b4943ab17a86c974cf0aaaa84731c0a971eceeeaa8a82b",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "1cc03ec8",
+      "source_content": "# 0.117.7 Automatyzujemy",
+      "source_content_hash": "981c854748ec0cab26479bd8699b5daa135d59335a31fc5a874035804aec077c",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# 0.117.7 自动化升级"
+      }
+    },
+    {
+      "segment_id": "143e51c1",
+      "source_content": "- ![AIS](/img/en/blog/202010/mechanical-arm.png) **Automatyzujemy**\n- ![AIS Kalendarze](/img/en/blog/202011/ais_calendar.png) Kalendarze AIS\n- ![Zigbee](/img/en/blog/202007/zigbee.png) Zigbee2Mqtt 1.16.1\n- ![Tasmota](/img/en/blog/202005/tasmota_small.png) Tasmota v9.1.0 Imogen\n- ![Home Assistant](/img/en/blog/202007/hass.png) Home Assistant 0.117.6",
+      "source_content_hash": "e92ac122b5fbd083912d113cb16982d297bc48df513d102f8a8fd75977f425b4",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- ![AIS](/img/en/blog/202010/mechanical-arm.png) **自动化功能**\n- ![AIS Kalendarze](/img/en/blog/202011/ais_calendar.png) AIS日历系统\n- ![Zigbee](/img/en/blog/202007/zigbee.png) Zigbee2Mqtt 1.16.1\n- ![Tasmota](/img/en/blog/202005/tasmota_small.png) Tasmota v9.1.0 Imogen\n- ![Home Assistant](/img/en/blog/202007/hass.png) Home Assistant 0.117.6"
+      }
+    },
+    {
+      "segment_id": "29ee8c7a",
+      "source_content": "<!--truncate-->",
+      "source_content_hash": "f5cded2aa7e288e395fe4f67f9dabda2281904b2f5358d07302b3aa8be0acdfa",
+      "node_type": "comment",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_29ee8c7a"
+      }
+    },
+    {
+      "segment_id": "418617bd",
+      "source_content": "## ABC bezproblemowej aktualizacji",
+      "source_content_hash": "c90f3410f68be4e7ee6017947af078313ab12a12edc09598ec43646aef83e69a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 无忧升级指南"
+      }
+    },
+    {
+      "segment_id": "9beb6e94",
+      "source_content": ":::tip[Kopia zapasowa.]\n### ![A](/img/en/blog/202009/alpha-a-circle.png) Kopia zapasowa.\n\nUWAGA Przed aktualizacją zalecamy wykonać [kopię zapasową konfiguracji](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji). W ten sposób sprawdzisz poprawność swojej konfiguracji przed rozpoczęciem aktualizacji i zwiększysz prawdopodobieństwo bezproblemowej aktualizacji.\n:::",
+      "source_content_hash": "1828218cdc126741a2ebe2de65e3dd6aff658b58cb960a102231a8a3be71ca74",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::tip[备份须知]\n### ![A](/img/en/blog/202009/alpha-a-circle.png) 配置备份\n\n重要提示：升级前建议先执行[配置备份](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji)。这能帮助您在升级前验证配置完整性，大幅降低升级风险。\n:::"
+      }
+    },
+    {
+      "segment_id": "57971bfb",
+      "source_content": ":::important[Konsola i logi na bramce.]\n### ![B](/img/en/blog/202009/alpha-b-circle.png)Konsola i logi na bramce.\n\nW razie problemów z aktualizacją, sprawdź procedurę [Aktualizacja z konsoli](/docs/ais_bramka_update_manual) lub [Wykonanie pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step).\nTo może dotyczyć szczególnie osób, które instalują na bramce dodatkowe niestandardowe komponenty.\n:::",
+      "source_content_hash": "801d23fb7fc2431bbe434b4eda5e7c084e2507d287d3851fa318ec48da59ea9e",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::important[控制台与日志]\n### ![B](/img/en/blog/202009/alpha-b-circle.png)网关控制台与日志\n\n若遇升级问题，请参考[控制台手动升级指南](/docs/ais_bramka_update_manual)或[应用完全重置步骤](/docs/ais_bramka_reset_ais_step_by_step)。\n特别提醒：安装非标准组件的用户需重点关注此步骤。\n:::"
+      }
+    },
+    {
+      "segment_id": "cd591557",
+      "source_content": ":::caution[Poczekaj cierpliwie.]\n### ![C](/img/en/blog/202009/alpha-c-circle.png) Cierpliwość. Pierwsze uruchomienie po aktualizacji trwa dłużej - poczekaj cierpliwie.\n\n **Po aktualizacji pierwsze uruchomienie może trwać nawet 20 minut.**\n W tym czasie aktualizowane są biblioteki do integracji dodanych na bramce i baza danych jest migrowana do nowego formatu.\n **Poczekaj cierpliwie na zakończenie aktualizacji.**\n:::",
+      "source_content_hash": "ad8fdeaa6b3f40c9e947e0d0ca97c330a7c8844dae9594bb1d45ca083ea5ab38",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[耐心等待]\n### ![C](/img/en/blog/202009/alpha-c-circle.png) 首次启动耗时较长，请保持耐心\n\n**升级后首次启动可能耗时长达20分钟**\n此时系统正在更新集成库并将数据库迁移至新格式\n**请耐心等待升级完成**\n:::"
+      }
+    },
+    {
+      "segment_id": "35a77014",
+      "source_content": "## Uwaga! Dwuetapowa aktualizacja",
+      "source_content_hash": "7fdc326bab9cc3f54836eb90681f8a4bbe7e976428e0001b0380dfdc18b4aeb6",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 注意！两阶段升级流程"
+      }
+    },
+    {
+      "segment_id": "13d9cd70",
+      "source_content": "Tym razem wyjątkowo aktualizacja będzie 2-etapowa:",
+      "source_content_hash": "49c930a6a86d6c896910bba3d9ee7e6a5215fa2163ce88520f9663d692867693",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "本次升级将分两个阶段进行："
+      }
+    },
+    {
+      "segment_id": "6f930b2f",
+      "source_content": "### 1. Etap. Aktualizacja składowych AIS HA i Android",
+      "source_content_hash": "dd78e41b0c8782dca463cecc8dd23d2761165343ae1b4a3d141c8e6a814c208a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 第一阶段：AIS HA组件与Android更新"
+      }
+    },
+    {
+      "segment_id": "c504c207",
+      "source_content": "a) pobranie\n![](/img/en/blog/202011/update1.png)",
+      "source_content_hash": "433ec67d008c82a8d7d120489431c4561ee3ec34eb0f6321a717e1b5a6d5baa9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "a) 下载更新包\n![](/img/en/blog/202011/update1.png)"
+      }
+    },
+    {
+      "segment_id": "b36c6338",
+      "source_content": "b) instalacja\n![](/img/en/blog/202011/update2.png)",
+      "source_content_hash": "d90a91cfe8af689235290c16929f4ff9096b5809e97e1a3cf998e56bdb4b4957",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "b) 安装更新\n![](/img/en/blog/202011/update2.png)"
+      }
+    },
+    {
+      "segment_id": "4d52a261",
+      "source_content": "c) restart\n![](/img/en/blog/202011/update3.png)",
+      "source_content_hash": "c87991858263576cbd38e30f31547180b4219dc3553694ebfb73fcebb2d66927",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "c) 重启设备\n![](/img/en/blog/202011/update3.png)"
+      }
+    },
+    {
+      "segment_id": "40158b4b",
+      "source_content": "Po ponownym uruchominiu bramki, składowa AIS HA będzie w wersji > 0.117 i dopiero wtedy pojawi się możliwość 2 etapu aktualizacji -> Zigbee.",
+      "source_content_hash": "8d93cba36d82ed7dbef6d13baf4ef02f3a8d338953f6ba5fef02ef82aa635f05",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "网关重启后，AIS HA组件版本将升级至>0.117，此时才会显示第二阶段升级选项→Zigbee更新。"
+      }
+    },
+    {
+      "segment_id": "6ea4c715",
+      "source_content": "![](/img/en/blog/202011/update4.png)",
+      "source_content_hash": "7537f3aa2e254d4dae8da111bda704d81e41be89fae0a925ace9455627220327",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202011/update4.png)"
+      }
+    },
+    {
+      "segment_id": "c315c636",
+      "source_content": "### 2. Etap. Aktualizacja Zigbee",
+      "source_content_hash": "ddde6e5e1f8da4d962dc3dce59978e34177bbc9b8d36e2b2a9a66fba00e43bcd",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 第二阶段：Zigbee组件更新"
+      }
+    },
+    {
+      "segment_id": "531437ca",
+      "source_content": "Ten etap będzie już bardzo szybki, po 1-2 minutach (pobranie 20 MB i rozpakowanie) urządzenie sie zrestartuje i pokaże aktualny status:",
+      "source_content_hash": "c54e0704299de316ad2ce0885c7d764c5feb855095b0c660ba6307de9e8e2073",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "此阶段非常快速，约1-2分钟（下载20MB并解压）后设备将自动重启并显示当前状态："
+      }
+    },
+    {
+      "segment_id": "06e24cc0",
+      "source_content": "![](/img/en/blog/202011/update5.png)",
+      "source_content_hash": "75b64a7e91740dce01a13c894bdadd80f3569e494b3c769428720c2a1c770a7a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202011/update5.png)"
+      }
+    },
+    {
+      "segment_id": "b051b70c",
+      "source_content": "## ![](/img/en/blog/202010/mechanical-arm.png) Automatyzujemy zdarzeniami",
+      "source_content_hash": "fff82a33e37ff3b37ee1f081719417f3a235e040fff7d9f61f96315f7030ea47",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202010/mechanical-arm.png) 通过事件实现自动化"
+      }
+    },
+    {
+      "segment_id": "e8e162a9",
+      "source_content": "W tej wersji opisujemy nowe możliwości wyzwalania automatyzacji. Dodaliśmy trzy przykłady wyzwalaczy automatyzacji:",
+      "source_content_hash": "7a6efc598da820db305136f23ee0801d3ea784f4fa2a3928ecf84c3c1feb1ea7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "此版本我们介绍了触发自动化的新方式，新增了三种自动化触发示例："
+      }
+    },
+    {
+      "segment_id": "ca1573da",
+      "source_content": "- zdarzenia z kalendarza, \n- skan QR kod z aplikacji mobilnej, \n- naciśnięcie przycisku kontrolera podłączonego do bramki.",
+      "source_content_hash": "7356c7ddb1effea3cc4176b1066c20de83e6fac4c98270261e55ea199f5ac2b8",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 日历事件触发\n- 移动应用扫描二维码触发  \n- 网关连接控制器按钮触发"
+      }
+    },
+    {
+      "segment_id": "0a103a02",
+      "source_content": "### Automatyzacja wyzwalana zdarzeniem z kalendarza",
+      "source_content_hash": "9cc3c489b47ca4dd3f368fb4ed477852c318cc8bbaccc830114a5acd8be06a0b",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 日历事件触发自动化"
+      }
+    },
+    {
+      "segment_id": "8126f763",
+      "source_content": "Kalendarza można używać jako zewnętrznego harmonogramu zdarzeń / komend do wykonania w systemie zamiast kodowania ich na stałe w automatyzacjach.",
+      "source_content_hash": "b0c355004275a5bdf2c81a90dedb7274e997106869dac44a137afa493e72f932",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "您可以将日历作为外部事件调度器/指令源，替代在自动化中硬编码的方式。"
+      }
+    },
+    {
+      "segment_id": "74dd7937",
+      "source_content": "![AIS scan](/img/en/frontend/ais_calendars_10.png)",
+      "source_content_hash": "978ae78bfbec9bd3f090deb2f32e89ab490e76a8f422d54fa018069d05e2c055",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS scan](/img/en/frontend/ais_calendars_10.png)"
+      }
+    },
+    {
+      "segment_id": "51867d16",
+      "source_content": "Na przykładzie pokazujemy jak wykonać automatyzację, która przychodzące zdarzenia z kalendarza wykonuje tak jak komendy: [Automatyzacja wyzwalana zdarzeniem z kalendarza](/docs/ais_bramka_calendar_event_automation)",
+      "source_content_hash": "f77cfd2072019b24046f1a6f49b3b7ac8ca6a5afe0f1032322ce779391529e34",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们通过示例演示如何创建自动化，将日历传入事件作为指令执行：[日历事件触发自动化](/docs/ais_bramka_calendar_event_automation)"
+      }
+    },
+    {
+      "segment_id": "b10963d7",
+      "source_content": "### Automatyzacja wyzwalana skanem",
+      "source_content_hash": "1481d8eda16fb834dae7261f3609ed2e170541cda1f2c5284ad521cf3fb6897e",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 扫码触发自动化"
+      }
+    },
+    {
+      "segment_id": "2822251a",
+      "source_content": "Możemy zeskanować aparatem w telefonie QR kod i wysłać go do bramki w celu uruchomienia automatyzacji. Podobnie jak w przypadku taga NFC:",
+      "source_content_hash": "c012bfbd92d6d14612a79de559125c88f50ba7e16f06d1b59c1eab86f5a660be",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过手机摄像头扫描二维码并发送至网关来触发自动化，其原理类似于NFC标签："
+      }
+    },
+    {
+      "segment_id": "25212439",
+      "source_content": "![AIS scan](/img/en/bramka/ais_scan_tags.png)",
+      "source_content_hash": "ee02f3fb341c5f3a6a2654f5a140d120d032f4d88c4a2497c182884bdf954a5d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS scan](/img/en/bramka/ais_scan_tags.png)"
+      }
+    },
+    {
+      "segment_id": "a2c0166e",
+      "source_content": "szczegóły w dokumentacji: [Automatyzacja wyzwalana skanem](/docs/ais_bramka_tag_automation)",
+      "source_content_hash": "9bb4149ff71dd653ae5b027d5d7f358263e9c380f8036900a59a9c42caf44a37",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "详见文档：[扫码触发自动化](/docs/ais_bramka_tag_automation)"
+      }
+    },
+    {
+      "segment_id": "42a5832e",
+      "source_content": "### Automatyzacja wyzwalana przyciskiem",
+      "source_content_hash": "92f7953c0ebaa7ded4fa75d4066222a31cf46e6588aba2dc04397649230c0483",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 按钮触发自动化"
+      }
+    },
+    {
+      "segment_id": "0e80209e",
+      "source_content": "Podczas sterowania w trybie bez monitora, naciśnięcie przycisku na pilocie, klawiaturze czy innym kontrolerze podłączonym do bramki, przesyłane jest do Asystenta domowego jako zdarzenie. Takie zdarzenia mogą wyzwalać automatyzację. Opisujemy to na przykładzie: [Automatyzacja wyzwalana przyciskiem](/docs/ais_bramka_key_event_automation)",
+      "source_content_hash": "34e2c780360960410debdf0bc276ea1ca2a2f9db1e308c35881643210a0c0f60",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在无显示器控制模式下，遥控器/键盘等网关连接控制器的按键事件会作为触发信号传递给家庭助理系统。具体实现参见示例：[按钮触发自动化](/docs/ais_bramka_key_event_automation)"
+      }
+    },
+    {
+      "segment_id": "7bc8bb24",
+      "source_content": "![AIS button](/img/en/bramka/ais_remote_key_events.jpg)",
+      "source_content_hash": "7f5f9e0a5ca66f6be24f9009a6c1cddadc919d5385209062210d241d56619b57",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS button](/img/en/bramka/ais_remote_key_events.jpg)"
+      }
+    },
+    {
+      "segment_id": "8574d51c",
+      "source_content": "## ![](/img/en/blog/202011/ais_calendar.png) Integracja Kalendarze AIS",
+      "source_content_hash": "16e7a771d004cbe337a0d378c667cea2bd7a8608c16b839f49db58d049705081",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202011/ais_calendar.png) AIS日历集成"
+      }
+    },
+    {
+      "segment_id": "e9313fef",
+      "source_content": "Dodaliśmy nową integrację - Kalendarze AIS.",
+      "source_content_hash": "f30c16631c530d1ddd14f1b61b26fa37e21301ded8f2c117aebd0939db4dc7bf",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们新增了AIS日历集成功能。"
+      }
+    },
+    {
+      "segment_id": "1b4de6df",
+      "source_content": "Obecnie źródłem danych do kalendarza Asystent domowy są Kalendarze Google. Integracja działa poprzez oficjalne Google Calendar API i pozwala na wymianę zdarzeń pomiędzy Asystentem domowym a Kalendarzami Google.",
+      "source_content_hash": "b62029e0efac8331375b939f1c2272c8dfb263839bcb8dc43df3badaf548b677",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "当前系统通过官方Google Calendar API实现与Google日历的数据同步，支持家庭助理与Google日历间的事件交互。"
+      }
+    },
+    {
+      "segment_id": "a7a2b727",
+      "source_content": ":::caution[UWAGA]\n**Integracja jest w trakcie weryfikacji po stronie Google.** Dostarczyliśmy wszystkie wymagane rzeczy, ale to czy i kiedy Google zatwierdzi naszą integrację, nie jest jeszcze ustalone. \nJesteśmy w kontakcie z Google Cloud Trust & Safety Team i na bieżąco wyjaśniamy, jak działa nasza integracja i do czego ma służyć użytkownikom.\n:::",
+      "source_content_hash": "414d2ce85ec69b0bb3e267850b911b6c5af1911a0f1204878b1878ce91d21d52",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[注意]\n**该集成正在接受Google方面的审核**。我们已提交全部所需材料，但Google审核通过的时间尚未确定。\n我们正与Google云信任与安全团队保持沟通，持续说明该集成的运行机制及用户价值。\n:::"
+      }
+    },
+    {
+      "segment_id": "f38d1cb0",
+      "source_content": "Nie znaczy to jednak, że przyszłość integracji Kalendarze AIS nie jest jeszcze pewna i może zniknąć z Asystenta domowego.\nKalendarz jako sposób wyzwalania automatyzacji ma szanse być prostszym sposobem na harmonogramowanie zadań w Asystencie domowym (sterowanie ogrzewaniem itp.). Dlatego jeżeli nie dostaniemy autoryzacji od Google lub integracja nie będzie działać prawidłowo, to uruchomimy kalendarz CalDAV w portalu integratora.",
+      "source_content_hash": "4bb987669ca7041044ae9f83dbba4a1365a60241199e9c1d26232c206b342720",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "但这并不意味着AIS日历集成的未来尚不确定，可能会从家庭助理中消失。\n日历作为触发自动化的方式，有望成为家庭助理中更简单的任务调度方法（如控制供暖等）。因此，如果我们未获得Google授权或集成无法正常运行，我们将在集成商门户中启用CalDAV日历。"
+      }
+    },
+    {
+      "segment_id": "b9331170",
+      "source_content": "**Podsumowując - Kalendarze AIS to integracja, która będzie w systemie Asystent domowy i będzie działać z każdą wersją coraz łatwiej i lepiej.**",
+      "source_content_hash": "d10f107e8974ac4e13e74257314a17ad5c85fb2ccd31d43b9be6380843954c54",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "**总结而言——AIS日历集成将始终存在于家庭助理系统中，并会随着每个版本迭代变得越来越易用和强大。**"
+      }
+    },
+    {
+      "segment_id": "c364340c",
+      "source_content": "![AIS scan](/img/en/frontend/ais_calendars_3.png)",
+      "source_content_hash": "2e79ff24ed7afbee4031bb1c1120ffbf583321f7ad45bfc01f7b2122c29618c6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS scan](/img/en/frontend/ais_calendars_3.png)"
+      }
+    },
+    {
+      "segment_id": "8f1c1cd6",
+      "source_content": "## ![](/img/en/blog/202007/zigbee.png) Zigbee2Mqtt 1.16.1",
+      "source_content_hash": "3260d2b67aa5b6a402f17b30e0b702c5514e35b8ce18f144516c0d4f303f73c1",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202007/zigbee.png) Zigbee2Mqtt 1.16.1"
+      }
+    },
+    {
+      "segment_id": "383fbdd2",
+      "source_content": "Poprawki i ulepszenia, oraz oczywiście obsługa nowych urządzeń. Opis całego wydania dostępny na stronie projektu [Zigbee2Mqtt](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.16.0)",
+      "source_content_hash": "b277e6163ad449109878ff7c9bfcdf6b3a0289fc79c7f8cbfcfb3e832d724a84",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "包含错误修复、功能改进以及对新设备的支持。完整版本说明详见项目页面 [Zigbee2Mqtt](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.16.0)"
+      }
+    },
+    {
+      "segment_id": "14bc6b75",
+      "source_content": "![](/img/en/blog/202011/z2m.png)",
+      "source_content_hash": "d55ec2fab9b4e16dd09805b1e552721fe51083daaab7d73149d59d32555b49a8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202011/z2m.png)"
+      }
+    },
+    {
+      "segment_id": "9c2ab4c8",
+      "source_content": "## ![](/img/en/blog/202005/tasmota_small.png) Tasmota v9.1.0 Imogen",
+      "source_content_hash": "52680004e723331832038304c1d2dfcc2567f47a218cb9ced458e276517334d8",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202005/tasmota_small.png) Tasmota v9.1.0 Imogen"
+      }
+    },
+    {
+      "segment_id": "a9c2a503",
+      "source_content": "Cała lista zmian, nowości i poprawek dostępna jest na stronie projektu [Tasmota](https://github.com/arendst/Tasmota/releases/tag/v9.1.0)",
+      "source_content_hash": "74a61ddd96f588bf740f18967e4fba62fe599ccb3a40acc7e5f0971d63f3f000",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "完整的变更列表、新特性与修复详见项目页面 [Tasmota](https://github.com/arendst/Tasmota/releases/tag/v9.1.0)"
+      }
+    },
+    {
+      "segment_id": "cfeb9eb1",
+      "source_content": "Nasze kompilacje udostępniamy tutaj [AIS-Tasmota](https://github.com/sviete/AIS-Tasmota/tree/firmware)",
+      "source_content_hash": "0f6981082d07d54538942103710f916d8f388e6852999dbb8b4f39a7d68b472a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们的编译版本发布于此 [AIS-Tasmota](https://github.com/sviete/AIS-Tasmota/tree/firmware)"
+      }
+    },
+    {
+      "segment_id": "f7e6e884",
+      "source_content": "Pracujemy nad tym, żeby dołączenie nowego urządzenia z oprogramowaniem AIS Tasmota było jeszcze łatwiejsze, podobnie jak jego aktualizacja. \nW portalu integratora można zobaczyć przypisane do bramki urządzenia z naszą kompilacją oprogramowania Tasmota:",
+      "source_content_hash": "4466f7290a8052b4a82ceb710cacb60ed23b032f6802275ab850021382258074",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们正致力于简化搭载AIS Tasmota固件的新设备接入流程，使其如同固件升级一样便捷。\n在集成商门户中可查看已关联至网关的、运行我们定制Tasmota固件的设备："
+      }
+    },
+    {
+      "segment_id": "ad3e22c6",
+      "source_content": "![Home Assistant](/img/en/blog/202011/iot.png)",
+      "source_content_hash": "88f70356c83ffb79ebe561ea9b5f4f6e61cdc425ce67fc8b05b5c6a71851715f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Home Assistant](/img/en/blog/202011/iot.png)"
+      }
+    },
+    {
+      "segment_id": "3e8f45da",
+      "source_content": "Szczegóły jak to działa będziemy opisywać przy kolejnych aktualizacjach aplikacji i dokumentacji.\nObecny proces dodawania urządzeń IoT działa bez zmian. Nowy proces dodania urządzenia IoT wygląda na diagramie teraz tak:",
+      "source_content_hash": "1e30761c76861165c21d64a19a03529ea709f9d210387d6cfd6d3055c4ba9972",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "具体实现细节将随应用程序和文档的后续更新逐步说明。\n当前IoT设备添加流程保持不变。新的IoT设备接入流程目前如下图所示："
+      }
+    },
+    {
+      "segment_id": "619c3209",
+      "source_content": "![diagram](https://www.websequencediagrams.com/cgi-bin/cdraw?lz=dGl0bGUgUHJ6ZXDFgnl3IGF1dG9yeXphY2ppIHByenkgZG9kYXdhbml1IG5vd2VnbyB1cnrEhWR6ZW5pYSBJT1QgZG8gYnJva2VyYSB3IEFJUwoKVXNlciAtPiBNb2I6IERvZGFqADcFAC8LZQpNb2IgLT4gSU9UOiBQYXJhbWV0cnkgcG_FgsSFYwBXBldpRmkgaSBNUVRUCklPVCAtPiBBSVM6IE1hbSB0YWtpZSBwADAJY3p5IGplc3QgT0s_CkFJUwBTCcWBxIVjeiBzacSZIHoARwUgegA5BW1pADYJYW1pCm5vdGUgcmlnaHQgb2YAgTQGQ3pla2FtIMW8ZWJ5IHphcHl0YcSHIEFJUwBpBUlPVABQBgCBLAh5xYJvAIFPCACBIwVDAA4YAIEZCQCCHAVUYWsAgW8Jb24AOglVc2VyOiBTdWtjZXMgbWFzegCCMhIK&s=default)",
+      "source_content_hash": "ecb7505d58a66f3d0ca352e69146516941803f06f62e99393db5f6afe5faaaf5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![流程图](https://www.websequencediagrams.com/cgi-bin/cdraw?lz=dGl0bGUgUHJ6ZXDFgnl3IGF1dG9yeXphY2ppIHByenkgZG9kYXdhbml1IG5vd2VnbyB1cnrEhWR6ZW5pYSBJT1QgZG8gYnJva2VyYSB3IEFJUwoKVXNlciAtPiBNb2I6IERvZGFqADcFAC8LZQpNb2IgLT4gSU9UOiBQYXJhbWV0cnkgcG_FgsSFYwBXBldpRmkgaSBNUVRUCklPVCAtPiBBSVM6IE1hbSB0YWtpZSBwADAJY3p5IGplc3QgT0s_CkFJUwBTCcWBxIVjeiBzacSZIHoARwUgegA5BW1pADYJYW1pCm5vdGUgcmlnaHQgb2YAgTQGQ3pla2FtIMW8ZWJ5IHphcHl0YcSHIEFJUwBpBUlPVABQBgCBLAh5xYJvAIFPCACBIwVDAA4YAIEZCQCCHAVUYWsAgW8Jb24AOglVc2VyOiBTdWtjZXMgbWFsegCCMhIK&s=default)"
+      }
+    },
+    {
+      "segment_id": "c6b2ca77",
+      "source_content": "## ![](/img/en/blog/202007/hass.png) Home Assistant 0.117.6",
+      "source_content_hash": "05895b13eff635ea39b9a6b202b09dc630b7a7c209e32045eeab20c76b7705a0",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202007/hass.png) Home Assistant 0.117.6"
+      }
+    },
+    {
+      "segment_id": "d2a3d4c7",
+      "source_content": "Najnowszy (stabilny) Home Assistant 0.117.6, oczywiście jak zwykle jest ogromna liczba poprawek i nowych rzeczy. \nCała lista nowości dostępna jest na stronie projektu: [Home Assistant 0.117.6](https://www.home-assistant.io/blog/2020/10/28/release-117/)",
+      "source_content_hash": "069c2de21b5dcc8d365011873d98c7c99ed0109f97191f7ce47676c18d313501",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "最新稳定版Home Assistant 0.117.6如约而至，本次更新包含大量修复和新功能。\n完整更新内容请查阅项目发布页：[Home Assistant 0.117.6](https://www.home-assistant.io/blog/2020/10/28/release-117/)"
+      }
+    },
+    {
+      "segment_id": "6b40e7a2",
+      "source_content": "![Home Assistant](/img/en/blog/202011/ha_social.png)",
+      "source_content_hash": "6a1960e28685c125d881958421519989da618d0662ca756419006a876576579c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Home Assistant](/img/en/blog/202011/ha_social.png)"
+      }
+    },
+    {
+      "segment_id": "d619fa73",
+      "source_content": "----",
+      "source_content_hash": "bd64bb8efa5b3f27e6442f23600c3b516127ea17e23724b41e50da4c22883edd",
+      "node_type": "thematicBreak",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "----"
+      }
+    },
+    {
+      "segment_id": "d636abf8",
+      "source_content": "Zapraszamy do aktualizacji i [komentowania na forum :)](https://ai-speaker.discourse.group/)",
+      "source_content_hash": "835468c85dd4ecaa2ca9086b3919d63a2f40f58acb16d2e9e802bc2c6fb6f6da",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "欢迎升级并[参与论坛讨论 :)](https://ai-speaker.discourse.group/)"
+      }
+    },
+    {
+      "segment_id": "191265da",
+      "source_content": "##### AI-Speaker 09/2020",
+      "source_content_hash": "1ee0b4d56dad393b9eb1b47a7cd5e8d09623480e11fbc86d4d17bb1fa3d6f935",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "##### AI-Speaker 2020年9月"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2020-11-18-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.127481+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "dfb2a90e4958a962f8fa65e6fe2d53b464887f4c9d6c2bbb8c56da259fa84d75"
+  }
+}

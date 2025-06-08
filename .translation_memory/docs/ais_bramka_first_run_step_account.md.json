@@ -1,0 +1,102 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_first_run_step_account.md",
+  "source_file_content_hash": "23508ace3470f94ba429b5894187cd7c5e6053e1b6746b5ecd9d2eb6f6cd392c",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Pierwsze uruchomienie - Konto właściciela\"\nsidebar_label: Konto właściciela\n---",
+      "source_content_hash": "bab4fcd93c4250efb43552015da590f0cee0a949aeff08906b980080e4cbef64",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Przy pierwszym uruchomieniu **Asystenta domowego** wykonujemy początkową prostą konfigurację. Pierwszym krokiem konfiguracji jest utworzenie konta właściciela - to konto będzie miało uprawniania administratora z pełnym dostępem do wszystkich elementów systemu i możliwością dodawania innych kont.",
+      "source_content_hash": "dc8ca4ea165b41a2d83a739887e8548cf18cc5b088b2b5eb88f47ca979c8ed1a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "首次启动**家庭助手**时，我们会进行初始简易配置。配置的第一步是创建所有者账户——该账户将拥有管理员权限，可访问系统所有功能并具备添加其他账户的能力。"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Nowe konto",
+      "source_content_hash": "1f56ece09c59e507acf1e51554e528d87749498a56c619cb847f5ac07a06371d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 新建账户"
+      }
+    },
+    {
+      "segment_id": "73ddcfdf",
+      "source_content": "import BrowserWindow from '@site/src/components/BrowserWindow';",
+      "source_content_hash": "c30f3ec38b8fe46ed14acfdf630f27b5f382afaea44d9df375ff4baf3311b08e",
+      "node_type": "mdxjsEsm",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_73ddcfdf"
+      }
+    },
+    {
+      "segment_id": "321c5251",
+      "source_content": "<BrowserWindow url=\"http://ais-dom.local\">\n<center>\n![Konto właściciela](/img/en/bramka/onboarding_step_1.png)\n</center>\n</BrowserWindow>",
+      "source_content_hash": "6eff19572617c119279c683eb746ce74cdcbbb6e73d66a6ed6842db20e5e09e7",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_321c5251"
+      }
+    },
+    {
+      "segment_id": "21c93b79",
+      "source_content": "<BrowserWindow url=\"http://ais-dom.local\">\n<center>\n![Konto właściciela](/img/en/bramka/onboarding_step_1_0.png)\n</center>\n</BrowserWindow>",
+      "source_content_hash": "bfce665f00392a0862a02e0b76d2df1c9dbe0955f5094ccbd844b2c1bd1dda94",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_21c93b79"
+      }
+    },
+    {
+      "segment_id": "95b38f97",
+      "source_content": "## Kopia konfiguracji",
+      "source_content_hash": "0b7a7ffc47f793cb695b6c1ccf7fff6da6db848167cc1fef32e85a080339f461",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 配置备份"
+      }
+    },
+    {
+      "segment_id": "ccc88b4c",
+      "source_content": "Jeżeli kopiujesz swoją konfigurację na inną bramkę lub przywracasz system na bramce z wcześniej wykonanej [kopii zapasowej konfiguracji](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji), to zamiast przechodzić ponownie cały proces konfiguracji początkowej, możesz pobrać konfigurację systemu z serwisu AI-Speaker.",
+      "source_content_hash": "b98ebcabd2650e545bfdcc4471af81cec44fd7cd18f6ba73c7dab3c9c718409f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "若需将配置迁移至其他网关，或从先前创建的[配置备份](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji)恢复系统，您可直接从AI-Speaker服务端下载系统配置，无需重复初始配置流程。"
+      }
+    },
+    {
+      "segment_id": "2a3434e4",
+      "source_content": "<BrowserWindow url=\"http://ais-dom.local\">\n<center>\n![Konto właściciela](/img/en/bramka/onboarding_step_1_1.png)\n</center>\n</BrowserWindow>",
+      "source_content_hash": "1c722d19e37188a5e16fba8023ff79127d89ed5702206f8ce9419342fe3f06a4",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_2a3434e4"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_first_run_step_account.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.102391+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "23508ace3470f94ba429b5894187cd7c5e6053e1b6746b5ecd9d2eb6f6cd392c"
+  }
+}

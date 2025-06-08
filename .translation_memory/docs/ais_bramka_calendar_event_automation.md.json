@@ -1,0 +1,412 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_calendar_event_automation.md",
+  "source_file_content_hash": "4db68ba57b3e6bbf85cf9b83df7c1e35e7737d8a4af20dbd2bc5e5ed44abcc32",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Automatyzacja wyzwalana zdarzeniem z kalendarza\"\nsidebar_label: Automatyzacja wyzwalana zdarzeniem z kalendarza\n---",
+      "source_content_hash": "acf1451319d5038db9f888680ac113068d8c20a29596e904417c12536e78377a",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Wprowadzenie",
+      "source_content_hash": "138964b3f05ef631ae55efd030ca96538eb5d783961ef7b978515da6c937d13f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 简介"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Kalendarza można używać jako zewnętrznego harmonogramu zdarzeń / komend do wykonania w sytemie zamiast kodowania ich na stałe w automatyzacjach.",
+      "source_content_hash": "db316f9180bb863782d5ad6dd3410f0f3a5b86b17859e3d87b471c90fae65a50",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "日历可作为外部事件/命令调度器使用，无需将这些命令硬编码到自动化中。"
+      }
+    },
+    {
+      "segment_id": "8ac585fb",
+      "source_content": "![AIS scan](/img/en/frontend/ais_calendars_10.png)",
+      "source_content_hash": "978ae78bfbec9bd3f090deb2f32e89ab490e76a8f422d54fa018069d05e2c055",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS scan](/img/en/frontend/ais_calendars_10.png)"
+      }
+    },
+    {
+      "segment_id": "180bddb1",
+      "source_content": "Poniżej na przykładzie pokażemy jak wykonać automatyzację, która przychodzące zdarzenia z kalendarza będzie wykonywała tak jak komendy.\nW ten sposób można sterować urządzeniami, włączać automatyzacje, wysyłać powiadomienia, uruchamiać muzykę itd.",
+      "source_content_hash": "37ec7387ff7456514472d9ccc9a1fdd7270c3b7b04988b4dbbc995c18ecdd9d1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "以下示例将展示如何创建自动化，将日历事件当作命令执行。通过这种方式可控制设备、触发自动化、发送通知或播放音乐等。"
+      }
+    },
+    {
+      "segment_id": "3daf1b88",
+      "source_content": "### Kalendarze",
+      "source_content_hash": "6b943e014e904c8128187c94819275b40b98645db66a5c25350a8e301e82e52a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 日历功能"
+      }
+    },
+    {
+      "segment_id": "f6168993",
+      "source_content": "Kalendarze dostępne są w encjach systemu jako czujniki binarne z atrybutami. Możemy je zobaczyć, jeśli klikniemy w **Narzędzia deweloperskie** na pasku bocznym i przejdziemy do zakładki **STANY**, a następnie wyszukamy encje ``calendar.``",
+      "source_content_hash": "7fcf97d5ba9b473c5f1fcea01df247bab542ebd5bc4e70072bd690e76b6c860a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "日历在系统中以带属性的二进制传感器实体形式存在。点击侧边栏**开发者工具**进入**状态**选项卡，搜索`calendar.`前缀实体即可查看。"
+      }
+    },
+    {
+      "segment_id": "f5f6d2ce",
+      "source_content": "![AIS scan](/img/en/frontend/ais_calendars_8.png)",
+      "source_content_hash": "51e18f5439b96e171a9612d293a6a7317c82e45cff926cc575e393c6b23cbce7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS scan](/img/en/frontend/ais_calendars_8.png)"
+      }
+    },
+    {
+      "segment_id": "2fdadb08",
+      "source_content": "Gdy zdarzenie z kalendarza jest aktywne, to status czujnika ma wartość **on** a w jego atrybutach widzimy opis aktywnego zdarzenia.",
+      "source_content_hash": "e332969f00b80894d2f7e07d46c75a17ad63856e9527ef53852624b7f026d12f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "当日历事件激活时，传感器状态值为**on**，其属性中会显示活跃事件的详细信息。"
+      }
+    },
+    {
+      "segment_id": "fa430ad4",
+      "source_content": "## Przykład - Automatyzacja wykonująca wydarzenie z kalendarza jako komendę",
+      "source_content_hash": "43e0e97249e49fd542bbef6e112fa45d71f0e086d741aca68e19a9edb5ac4fd6",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 示例 - 将日历事件作为命令执行的自动化"
+      }
+    },
+    {
+      "segment_id": "d06306f7",
+      "source_content": "### Nazwa automatyzacji",
+      "source_content_hash": "0b427b8150c4f2d388ee9ed5ebaedc693f4a7483d3523e20ab3b76a6a2954f1c",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 自动化命名"
+      }
+    },
+    {
+      "segment_id": "73ab96a3",
+      "source_content": "Dodajemy automatyzację o nazwie np. ``Wydarzenie z kalendarza``:",
+      "source_content_hash": "798393810c13a8e8ea80e4ab1e363a705099f988443b7eee76dd1545f6388764",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "添加名为`日历事件`的自动化："
+      }
+    },
+    {
+      "segment_id": "7499a4e7",
+      "source_content": "![Calendar](/img/en/frontend/calendar_automation_1.png)",
+      "source_content_hash": "359f68ec23eb1d9c06ac1ac1b19cc4135ef321ce4625e57bb31ca3ded21d0cc8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Calendar](/img/en/frontend/calendar_automation_1.png)"
+      }
+    },
+    {
+      "segment_id": "109ace10",
+      "source_content": "### Wyzwalacz",
+      "source_content_hash": "b3e619ad06706a6d49237f3dd39ba32bfc0df94a3bd14239655478cc3e75637c",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 触发器设置"
+      }
+    },
+    {
+      "segment_id": "135468ee",
+      "source_content": "Jako wyzwalacz tej automatyzacji wybieramy zmianę stanu na `on` naszego czujnika z wydarzeniami z kalendarza:",
+      "source_content_hash": "90ebce4fc2dda0c931f0b694686627571eb8ad8a1cbb413ff218dff4b6ee67f7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "选择日历事件传感器的状态变为`on`作为触发条件："
+      }
+    },
+    {
+      "segment_id": "33331f27",
+      "source_content": "![Calendar](/img/en/frontend/calendar_automation_2.png)",
+      "source_content_hash": "86cff72f1520bf9fd3b8a1d71eaad8570188b8b4f7df2696e3638644d66a4f48",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Calendar](/img/en/frontend/calendar_automation_2.png)"
+      }
+    },
+    {
+      "segment_id": "06c0f776",
+      "source_content": "### Akcja do wykonania",
+      "source_content_hash": "40274fa855a5d9b376175058198a2d09407b294a9057b26399967caf894210a6",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 执行动作"
+      }
+    },
+    {
+      "segment_id": "aa1e7006",
+      "source_content": "Akcja do wykonania to uruchomienie serwisu wykonującego komendę. Komendą jest wiadomość z kalendarza:",
+      "source_content_hash": "49d2a6b10a35b1cb5ef5755de08fd5752d37ee322310a084ddcc03a3a8ffa711",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "动作为调用执行命令的服务，命令内容即日历事件消息："
+      }
+    },
+    {
+      "segment_id": "b75ddc12",
+      "source_content": "``` yaml\nservice: ais_ai_service.process\ndata_template:\n  text: '{{ state_attr(''calendar.tomek_sviete_pl'', ''message'') }}'\n\n```",
+      "source_content_hash": "42030c3d106f4211edb0ad1d7bc730d34141b315f030ec734e3d829a2a9a525f",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_b75ddc12"
+      }
+    },
+    {
+      "segment_id": "b36c6338",
+      "source_content": "![Calendar](/img/en/frontend/calendar_automation_3.png)",
+      "source_content_hash": "58e8d2241b6f167074f37a85ca42ccc522048238f440045696a29da3d56057f8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Calendar](/img/en/frontend/calendar_automation_3.png)"
+      }
+    },
+    {
+      "segment_id": "e50bebbf",
+      "source_content": "### Kod automatyzacji",
+      "source_content_hash": "9ed1678156004816d22e630fe07b38c7c45cb4930233b603e329e78e15117304",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 自动化代码"
+      }
+    },
+    {
+      "segment_id": "23dfb152",
+      "source_content": "Gotowy do przeklejenia (oczywiście należy zmienić nazwę kalendarza na własną) kod automatyzacji w formacie YAML:",
+      "source_content_hash": "7500803a4b798fcea12b763af231ea8c4b42b2cb0a82d579055332196341962f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "可直接复用的YAML格式自动化代码（需将日历名称替换为您自己的）："
+      }
+    },
+    {
+      "segment_id": "c05ad55e",
+      "source_content": "``` yaml\nalias: Wydarzenie z kalendarza\ndescription: wykonuje wiadomość z kalendarza jako komendę\ntrigger:\n  - platform: state\n    entity_id: calendar.tomek_sviete_pl\n    to: 'on'\ncondition: []\naction:\n  - service: ais_ai_service.process\n    data_template:\n      text: '{{ state_attr(''calendar.tomek_sviete_pl'', ''message'') }}'\nmode: single\n\n```",
+      "source_content_hash": "6ba2d756dc37031bd74d9922a035e4413e04dbcbc52dd3c1d2816e3f23658f7a",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_c05ad55e"
+      }
+    },
+    {
+      "segment_id": "d0dd855b",
+      "source_content": "![Calendar](/img/en/frontend/calendar_automation_4.png)",
+      "source_content_hash": "65c98b0a2bc02fb21c5b41c50f1823f37e0fadfafabd8131ebbb2eeb5e487b0d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Calendar](/img/en/frontend/calendar_automation_4.png)"
+      }
+    },
+    {
+      "segment_id": "66819c78",
+      "source_content": "### Działanie automatyzacji",
+      "source_content_hash": "38122a72bd97a22a5e89cf3b6494789696da727de08e89e5a36bf5de78a5c66f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 自动化运行机制"
+      }
+    },
+    {
+      "segment_id": "fbc2db85",
+      "source_content": "Zdarzenia, które dodaliśmy w kalendarzu Google:",
+      "source_content_hash": "0bb5e1714134e88f7293595b39b5f23528ecb614dc1eefe691483a6b2e95a875",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Google日历中添加的事件："
+      }
+    },
+    {
+      "segment_id": "8126f763",
+      "source_content": "![Calendar](/img/en/frontend/calendar_automation_5.png)",
+      "source_content_hash": "265a69b44051f81fe54d14168abf9b4af67d29da196b48ad336583a9ebc5a99b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Calendar](/img/en/frontend/calendar_automation_5.png)"
+      }
+    },
+    {
+      "segment_id": "0750bfa1",
+      "source_content": "są wyświetlane w kalendarzu Asystenta domowego:",
+      "source_content_hash": "493e2dabf1d80bd1ebfa4ae573dc75da47bf5a3fe557a88351da258f5ed43a3d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "会显示在家庭助理日历中："
+      }
+    },
+    {
+      "segment_id": "86348f98",
+      "source_content": "![Calendar](/img/en/frontend/calendar_automation_6.png)",
+      "source_content_hash": "2823b9534d11e38dbc37e4979ec263dbb1aae15d56b8cfd6e06ca6d049fabc12",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Calendar](/img/en/frontend/calendar_automation_6.png)"
+      }
+    },
+    {
+      "segment_id": "785750ac",
+      "source_content": "ostatnie zdarzenie pokazywane jest w stanach, w encji kalendarza:",
+      "source_content_hash": "7f233b73e965a2ea8580d98ce583dec1f0cf858976cd39be9012e727546af787",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "最新事件会体现在日历实体的状态中："
+      }
+    },
+    {
+      "segment_id": "82e90254",
+      "source_content": "![Calendar](/img/en/frontend/calendar_automation_7.png)",
+      "source_content_hash": "87c4408c09604ff81d29688544d324fcb966c5c665b9c139214cbe2a04ae6cea",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Calendar](/img/en/frontend/calendar_automation_7.png)"
+      }
+    },
+    {
+      "segment_id": "1862c5fe",
+      "source_content": "Gdy encja kalendarza ma status ``on``, to wiadomość z kalendarza wysyłana jest do wykonania jako komenda (tak samo, jak komenda głosowa czy komenda wpisywana w pole czatu z Jolką).\nW efekcie Jolka wykonuje komendę - czyli w naszym przykładzie mówi/czyta tekst:",
+      "source_content_hash": "ffece9b4743809cc147469e06e0a42568dd4955a4b9e351ef6f92d7791ffbe1e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "当日历实体的状态为``on``时，日历中的消息会作为命令被执行（与语音命令或在Jolka聊天框中输入的命令执行方式相同）。\n最终Jolka会执行该命令——在本例中即朗读指定文本："
+      }
+    },
+    {
+      "segment_id": "d79a4831",
+      "source_content": "![Calendar](/img/en/frontend/calendar_automation_8.png)",
+      "source_content_hash": "3bc91ce9b1f64d67c9d67f9791c4e906903dc499b7b01395ae54d16b279a3b34",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Calendar](/img/en/frontend/calendar_automation_8.png)"
+      }
+    },
+    {
+      "segment_id": "1f4b3b94",
+      "source_content": "## Schemat automatyzacji",
+      "source_content_hash": "f6e32c06e74c707ff40ad2ec27feb273cc7dd5f46f5441bcbc5ed35e8ee4b339",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 自动化方案模板"
+      }
+    },
+    {
+      "segment_id": "a81544fd",
+      "source_content": "Automatyzację wyzwalaną przez wydarzenie z kalendarza możemy w łatwy sposób utworzyć na podstawie gotowego [schematu automatyzacji](ais_bramka_automation_blueprint).",
+      "source_content_hash": "8a89f3229275430c2fc9ba64bd43e172fb282ff76d5500d79aea7d9a366778c7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们可以基于现成的[自动化方案模板](ais_bramka_automation_blueprint)轻松创建由日历事件触发的自动化流程。"
+      }
+    },
+    {
+      "segment_id": "0801d969",
+      "source_content": "Wystarczy, że:",
+      "source_content_hash": "61d6b0597f4d039c154924ea1f066f804ca95233dc54008178d34eb1a7fa31cd",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "只需完成以下步骤："
+      }
+    },
+    {
+      "segment_id": "b0465fca",
+      "source_content": "1. Wybierzemy predefiniowany schemat **Wykonanie wydarzenie z kalendarza jako komendy**",
+      "source_content_hash": "5c2c121728a269a096027b7fb3ea7735fca7afc122aaebbf629e5ff26c9f4ccc",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "1. 选择预定义的**将日历事件作为命令执行**模板"
+      }
+    },
+    {
+      "segment_id": "e9313fef",
+      "source_content": "![Dodanie nowej automatyzacji](/img/en/bramka/blueprint_calendar_0.png)",
+      "source_content_hash": "a1fefee6d5ce393851334d599e40fa528b68d61d8e70633647827e7381af38ce",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![添加新自动化流程](/img/en/bramka/blueprint_calendar_0.png)"
+      }
+    },
+    {
+      "segment_id": "2890f5b2",
+      "source_content": "2. Uzupełnimy i zapiszemy zdefiniowany szablon:",
+      "source_content_hash": "fdeac924c06a482294d315f54920c69ba75ff51f8a14bba508ab3336b51f0a8b",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "2. 填写并保存定义好的模板："
+      }
+    },
+    {
+      "segment_id": "1958bc43",
+      "source_content": "![Dodanie nowej automatyzacji](/img/en/bramka/blueprint_calendar.png)",
+      "source_content_hash": "d44d0b8e8f003503659657f0dc69cf5bdabd4e00936b444ccf9c9cb5c25b88af",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![添加新自动化流程](/img/en/bramka/blueprint_calendar.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_calendar_event_automation.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.116139+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "4db68ba57b3e6bbf85cf9b83df7c1e35e7737d8a4af20dbd2bc5e5ed44abcc32"
+  }
+}

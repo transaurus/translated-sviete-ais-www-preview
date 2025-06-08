@@ -1,0 +1,182 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_app_integration_ftp.md",
+  "source_file_content_hash": "fd9ef6ae2df3a4968f7bfb7535c98df07ea578ba317ed7975d8116ef5566323b",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Serwer FTP\"\nsidebar_label: Serwer FTP\n---",
+      "source_content_hash": "fdea0caf29b925c4dc3ee59cb2902bae05561f7a1301ba10605c7ee9535d43d9",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Wprowadzenie",
+      "source_content_hash": "138964b3f05ef631ae55efd030ca96538eb5d783961ef7b978515da6c937d13f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 简介"
+      }
+    },
+    {
+      "segment_id": "53eaf0e1",
+      "source_content": "Na bramce dostarczamy serwer FTP umożliwiający łatwą wymianę  plików pomiędzy bramką a innymi komputerami w sieci lokalnej, za pomocą protokołu komunikacyjnego FTP.",
+      "source_content_hash": "d133e6fcbf9f72ff4f6a3f70011c22351da4760c6a55fe7ebc55cb460272763e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们在网关上提供FTP服务器，通过FTP通信协议实现网关与局域网内其他计算机之间的便捷文件传输。"
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "![FTP server](/img/en/bramka/ftp_server.png)",
+      "source_content_hash": "a6fade9604f0181299ac837326600dce87342d32ea3c7840871c0672159a576d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![FTP服务器](/img/en/bramka/ftp_server.png)"
+      }
+    },
+    {
+      "segment_id": "21b8e507",
+      "source_content": "-----------------------------------------------------",
+      "source_content_hash": "4b2565bde18586a3df94f1a47659f4632cd797b455b5dc416ee2a6886aef3fa9",
+      "node_type": "thematicBreak",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "-----------------------------------------------------"
+      }
+    },
+    {
+      "segment_id": "cbe57f9d",
+      "source_content": "## Informacje techniczne",
+      "source_content_hash": "3dfe84774725c9ca724b9d3eab0440e4139e6b15e87494c029c9dae93ac448e7",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 技术信息"
+      }
+    },
+    {
+      "segment_id": "d350c018",
+      "source_content": "### Proces ftp",
+      "source_content_hash": "e0df557feae95cf8e0f18e951d2a1b6ab4b842e59736f0ec3d2a5e86dd228051",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### FTP进程"
+      }
+    },
+    {
+      "segment_id": "1acb9a05",
+      "source_content": "Procesami na bramce steruje [Menedżer procesów PM2](http://pm2.keymetrics.io/).\nPM2 odpowiedzialny jest też za uruchomienie serwera ftp po starcie systemu, a następnie czuwa nad jego ciągłym działaniem.",
+      "source_content_hash": "e43034b368a7c798bbc4b1c888eae1cd9c0723de5069cb3d4ce22f4e773dd067",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "网关进程由[PM2进程管理器](http://pm2.keymetrics.io/)控制。\nPM2还负责在系统启动时运行FTP服务器，并持续监控其运行状态。"
+      }
+    },
+    {
+      "segment_id": "2fdadb08",
+      "source_content": "Żeby zobaczyć status procesu ftp w konsoli wpisujemy:",
+      "source_content_hash": "cc0640cf4ceaf9002ee4b76352772f438980de5fd5e06a5bcf103f0caa1beffb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "查看FTP进程状态需在控制台输入："
+      }
+    },
+    {
+      "segment_id": "3569d545",
+      "source_content": "```\npm2 show ftp\n```",
+      "source_content_hash": "60dcbd7621ed459a7ad02095daf31cec31cce6715114d196f53877bf2bdcf8c8",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_3569d545"
+      }
+    },
+    {
+      "segment_id": "4b1d2d7d",
+      "source_content": "![webssh](/img/en/bramka/pm2_ftp.png)",
+      "source_content_hash": "5ca4cddc55443bb56dcc0601aff7a6686ab53d8268722e8194199c7fbb2a28eb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![webssh](/img/en/bramka/pm2_ftp.png)"
+      }
+    },
+    {
+      "segment_id": "b25f21be",
+      "source_content": "### Binarka",
+      "source_content_hash": "c92873af7772c9c2222c56441c974c895057f73314f3c0dc8dade48b97ce68d9",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 二进制文件"
+      }
+    },
+    {
+      "segment_id": "7499a4e7",
+      "source_content": "Serwer FTP oparty jest na [busybox](https://busybox.net/)",
+      "source_content_hash": "1691b77a62032df722d8f43687e83598cd6e75de1f5f312fd40c87388271a8a8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "FTP服务器基于[busybox](https://busybox.net/)构建"
+      }
+    },
+    {
+      "segment_id": "517051a7",
+      "source_content": "Naszą kompilację busybox udostępniamy w naszym repozytorium pakietów binarnych [bintray](https://bintray.com/sviete/ais/ttyd)",
+      "source_content_hash": "0a3dbe5b2739e31da344c6682a02210a83fcdeeeb62d3d91ed63cc551199b0e4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们将编译好的busybox二进制包存放在[bintray仓库](https://bintray.com/sviete/ais/ttyd)"
+      }
+    },
+    {
+      "segment_id": "135468ee",
+      "source_content": "![MQTT broker](/img/en/bramka/busybox_binary.png)",
+      "source_content_hash": "cdaac324f822befcc76cfb2206948e88f2c3423e0a491df03d634e687f4ccb91",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![MQTT代理](/img/en/bramka/busybox_binary.png)"
+      }
+    },
+    {
+      "segment_id": "782c902a",
+      "source_content": "### Dostęp tylko lokalny",
+      "source_content_hash": "8515cb926ba1aa70c2d132d1354e58120acb56b2e990c9ade676334fd5433d9d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 仅限本地访问"
+      }
+    },
+    {
+      "segment_id": "50746522",
+      "source_content": "Serwer FTP obsługuje tylko anonimowe logowanie - nie ma żadnego uwierzytelniania. Dlatego dostęp do bramki po FTP możliwy jest tylko z sieci lokalnej.",
+      "source_content_hash": "dcf3e9ffdcbb77317ceb1237a19d580e08ac8762c58173d27427c44e9dbe56ec",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该FTP服务器仅支持匿名登录——不进行任何身份验证。因此FTP访问仅限于局域网内。"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_app_integration_ftp.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.120453+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "fd9ef6ae2df3a4968f7bfb7535c98df07ea578ba317ed7975d8116ef5566323b"
+  }
+}

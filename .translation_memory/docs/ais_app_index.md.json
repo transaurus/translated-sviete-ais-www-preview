@@ -1,0 +1,92 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_app_index.md",
+  "source_file_content_hash": "d74fd22512e541e04cb9ce29d3ebe0700e6437510aaf8ba3ff37eac9e908b655",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Aplikacja internetowa\"\nsidebar_label: Wprowadzenie\n---",
+      "source_content_hash": "5aa0d6cdcdd0e454a28236442884859efc7213d797f4290d726e3707f8792172",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "![Aplikacja asystent domowy](/img/en/frontend/frontend-hero.png)",
+      "source_content_hash": "eae0344bf60158b61ea1a97b49e2eb5d3eb8cc91f847d89c07a977021dba4e31",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Aplikacja asystent domowy](/img/en/frontend/frontend-hero.png)"
+      }
+    },
+    {
+      "segment_id": "776da23d",
+      "source_content": "import DocCardList from '@theme/DocCardList';",
+      "source_content_hash": "1f260d6e36f000dced0cbc1c9af370da2977fd6aedf8e610c2df031522c8d32e",
+      "node_type": "mdxjsEsm",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_776da23d"
+      }
+    },
+    {
+      "segment_id": "899bc9b4",
+      "source_content": "<DocCardList />",
+      "source_content_hash": "14e3077db6e34a7ede797ac90e735654854537adefea128ed427d084d3efccf2",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_899bc9b4"
+      }
+    },
+    {
+      "segment_id": "3daf1b88",
+      "source_content": "## Wprowadzenie",
+      "source_content_hash": "138964b3f05ef631ae55efd030ca96538eb5d783961ef7b978515da6c937d13f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 简介"
+      }
+    },
+    {
+      "segment_id": "f6168993",
+      "source_content": "Aplikacja internetowa (web application) działa na serwerze na bramce i pozwala użytkownikom przeglądać i kontrolować status urządzeń w domu, zarządzać automatyzacjami oraz konfigurować integracje z urządzeniami i serwisami.",
+      "source_content_hash": "655962fe7ff375635e593ec2b1b532f5b57b9670c316bf8dccf1bdbb5ebdb6ed",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该网络应用程序（web application）运行在网关服务器上，允许用户查看和控制家庭设备状态、管理自动化规则以及配置与设备及服务的集成。"
+      }
+    },
+    {
+      "segment_id": "f5f6d2ce",
+      "source_content": "Aplikacja napisana jest z wykorzystaniem najnowszych technologii dla aplikacji działających w przeglądarkach internetowych, dzięki czemu może być uruchamiana na dowolnym urządzeniu posiadającym nowoczesną przeglądarkę internetową.",
+      "source_content_hash": "48d9a9b5c0b3165c80aae7e78e822c1de19fa8044d08ee133ec5e2dea1106f36",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "应用程序采用最新的浏览器应用技术开发，可在任何配备现代浏览器的设备上运行。"
+      }
+    },
+    {
+      "segment_id": "2fdadb08",
+      "source_content": "Ponieważ nie da się zdefiniować jednego interfejsu użytkownika, który będzie działał dobrze na każdym urządzeniu (telefonie, telewizorze, tablecie, przeglądarce na desktopie itd.). Tworzenie osobnej (natywnej) aplikacji na każdą platformę wymaga ogromnych nakładów.\nDlatego właśnie powstało rozwiązanie z dostosowaniem pulpitu do preferencji użytkownika oraz do możliwości urządzenia, na którym ten pulpit jest prezentowany.",
+      "source_content_hash": "fbf461e3644fd628e2dabdd5fb4d3c56259227186383a7fcec1800635a3021a4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "由于无法定义一套适用于所有设备（手机、电视、平板、桌面浏览器等）的统一用户界面，为每个平台单独开发原生应用需要巨大投入。\n因此我们提供了可根据用户偏好及设备特性自适应调整的界面解决方案。"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_app_index.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.111593+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "d74fd22512e541e04cb9ce29d3ebe0700e6437510aaf8ba3ff37eac9e908b655"
+  }
+}

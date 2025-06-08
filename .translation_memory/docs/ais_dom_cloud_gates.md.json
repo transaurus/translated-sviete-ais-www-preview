@@ -1,0 +1,102 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_dom_cloud_gates.md",
+  "source_file_content_hash": "d2d8e4102609d32f6a923e6a3f5a3d81a48357d33fa29a2af65f7219d38c20f1",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Moje bramki\"\nsidebar_label: Moje bramki\n---",
+      "source_content_hash": "de2e28f3c3fc7e9e387034b4889d79154314f1be6f1a4895e48db405edd84b08",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Unikalny identyfikator urządzenia",
+      "source_content_hash": "ce65c2e6e272aff6ccedf953c7566b5a7e47e4b4186b000caa41c0e18f22a94b",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 设备唯一标识符"
+      }
+    },
+    {
+      "segment_id": "6ef78e84",
+      "source_content": "Każde urządzenie posiada swój unikalny identyfikator, jest on losowo generowany przy pierwszym uruchomieniu i pozostaje stały przez cały okres użytkowania urządzenia.\nIdentyfikator można sprawdzić w aplikacji, przechodząc z menu do opcji **Przydatne linki**.",
+      "source_content_hash": "a10c485e55f6f5a75709546068cc94a24d4a9d5564aa16f2144e2900d889a726",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "每台设备都拥有唯一的标识符，该标识符在设备首次启动时随机生成，并在整个使用周期内保持不变。\n您可以通过应用程序菜单进入**实用链接**选项查看该标识符。"
+      }
+    },
+    {
+      "segment_id": "8ac585fb",
+      "source_content": "![Portal integratora identyfikator bramki](/img/en/bramka/dom_cloud_gate_id.png)",
+      "source_content_hash": "bd6409044bc9bc7748eabdcbb1ada1c301cac8f12b3933123df9d942e6e58b84",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![集成商门户网关标识符](/img/en/bramka/dom_cloud_gate_id.png)"
+      }
+    },
+    {
+      "segment_id": "70153c6e",
+      "source_content": "## Zarządzanie bramkami",
+      "source_content_hash": "eee40da7629b81efa96fac5228e70fec3ff0ba60fd1cc01e68ed6a2cf8e52b84",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 网关管理"
+      }
+    },
+    {
+      "segment_id": "cf898102",
+      "source_content": "W portalu integratora możemy w łatwy sposób dodawać, modyfikować i usuwać bramki, którymi administrujemy.",
+      "source_content_hash": "213edabe4caf3b72bcfea5618d7d4881a31c4782e7d88510ad034f6d1bf4245c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在集成商门户中，我们可以轻松添加、修改和删除所管理的网关设备。"
+      }
+    },
+    {
+      "segment_id": "42ad8e83",
+      "source_content": "![Portal integratora bramki](/img/en/bramka/dom_cloud_gates.png)",
+      "source_content_hash": "1906aabfb07282f2ddd43cec5d6e7960daf5c168f9fb0a81ae47d67215ddcfe5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![集成商门户网关列表](/img/en/bramka/dom_cloud_gates.png)"
+      }
+    },
+    {
+      "segment_id": "f6168993",
+      "source_content": "Dodawanie i edycja wykonywane są w formularzach posiadających kontekstową pomoc oraz walidację.",
+      "source_content_hash": "463eabefb12c4c0c6244807b095cd42f86b09d11391ef6729c19dccd6cd88594",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "添加和编辑操作通过具有上下文帮助和验证功能的表单完成。"
+      }
+    },
+    {
+      "segment_id": "f5f6d2ce",
+      "source_content": "![Portal integratora bramki](/img/en/bramka/dom_cloud_gate.png)",
+      "source_content_hash": "b69b738c858425a93c67ecb63e56f59ddb70d1502645a28952d7346c34021c49",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![集成商门户网关管理](/img/en/bramka/dom_cloud_gate.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_dom_cloud_gates.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.113948+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "d2d8e4102609d32f6a923e6a3f5a3d81a48357d33fa29a2af65f7219d38c20f1"
+  }
+}

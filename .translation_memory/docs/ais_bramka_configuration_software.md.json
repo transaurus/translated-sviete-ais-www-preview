@@ -1,0 +1,132 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_configuration_software.md",
+  "source_file_content_hash": "f60560b8bbb86d5fb6c7af411681102b6567054529f683cef4683e180c255e9e",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Konfiguracja bramki - Oprogramowanie\"\nsidebar_label: Oprogramowanie\n---",
+      "source_content_hash": "f4f7ac30d122a6dd41b3f38c623719e510e60d0d522097fdae20790e2e69ef5a",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "W tej sekcji możesz zaktualizować system do najnowszej wersji, wykonać kopię zapasową ustawień i zsynchronizować bramkę z Portalem Integratora",
+      "source_content_hash": "3a79261bca1e63a1f2e10503da89bb743e41b1f91765f174b41e4dddef58056c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在本节中，您可以更新系统至最新版本、备份配置设置并与集成商门户同步网关"
+      }
+    },
+    {
+      "segment_id": "d912d376",
+      "source_content": "## Wersja systemu i aktualizacje",
+      "source_content_hash": "3058f64fab933215ebe6f89835626f8ac518a2d299c945be080d3a02fbdb70c1",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 系统版本与更新"
+      }
+    },
+    {
+      "segment_id": "8ac585fb",
+      "source_content": "W tej sekcji możemy:",
+      "source_content_hash": "ed1f8377e8878cea985eeaacf92b90a17a90670470cc5b54a6f86aae29813b6b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "本节提供以下功能："
+      }
+    },
+    {
+      "segment_id": "730c423c",
+      "source_content": "* Włączyć automatyczne aktualizacje systemu. Jeśli ta opcja jest aktywna, to codziennie sprawdzimy i automatycznie zainstalujemy dostępne aktualizacje składowych systemu Asystent domowy.\n* Uruchomić sprawdzenie dostępności aktualizacji.\n* Uruchomić ręczną instalację. Tu pojawi się informacja o dostępności nowej wersji składowych systemu oraz możliwość natychmiastowego uruchomienia aktualizacji (przydatne szczególnie w przypadku, gdy automatyczne aktualizacje nie są aktywowane).",
+      "source_content_hash": "2782308d9441329bb4867775e31c405c1d598258939b6fb125944961d21fbc66",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "* 启用系统自动更新。激活该选项后，系统将每日检查并自动安装家庭助理组件的可用更新\n* 手动检查更新可用性\n* 执行手动安装。此处会显示系统组件新版本可用信息，并提供立即更新选项（特别适用于未启用自动更新的场景）"
+      }
+    },
+    {
+      "segment_id": "42ad8e83",
+      "source_content": "![Oprogramowanie bramki](/img/en/bramka/config_ais_dom_section1.png)",
+      "source_content_hash": "21cdf6d39e24cb77fbabac568aabf57be411c01c11dfba6bdb26750cb5e00512",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Oprogramowanie bramki](/img/en/bramka/config_ais_dom_section1.png)"
+      }
+    },
+    {
+      "segment_id": "bc633244",
+      "source_content": "## Kopia zapasowa konfiguracji",
+      "source_content_hash": "5a2c43f525553655d0819e6b90b0181f60e217b34bc05163ff0ce74975e256c7",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 配置备份"
+      }
+    },
+    {
+      "segment_id": "2df4f75f",
+      "source_content": "W tym miejscu możesz, sprawdzić poprawność ustawień bramki, wykonać jej kopię i przesłać ją do portalu integratora.Ponieważ konfiguracja może zawierać hasła i tokeny dostępu do usług, zalecamy zaszyfrować ją hasłem, Gdy kopia jest zabezpieczona hasłem, to można ją otworzyć/przywrócić tylko po podaniu hasła.",
+      "source_content_hash": "32f8c3e2b97bb7eab47129ed5b2f4c482d465babcff2452523e2ebc552cae2b6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在此可验证网关设置的正确性，执行备份并上传至集成商门户。由于配置可能包含服务访问密码和令牌，建议设置加密密码。密码保护的备份文件需输入正确密码才能打开/恢复"
+      }
+    },
+    {
+      "segment_id": "98cfbd53",
+      "source_content": "![Oprogramowanie bramki](/img/en/bramka/config_ais_dom_section1_2.png)",
+      "source_content_hash": "f859a653ebf87b63d91025b78631528c390a7e6ddb57f8772e047da07b424a3d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Oprogramowanie bramki](/img/en/bramka/config_ais_dom_section1_2.png)"
+      }
+    },
+    {
+      "segment_id": "fa430ad4",
+      "source_content": "## Synchronizacja z **Portalem Integratora**",
+      "source_content_hash": "70a55bb0705249c8a7dba8f9a9a2af211ffde5d9e8f8dc31a0c2b84e16ad730d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 与**集成商门户**同步"
+      }
+    },
+    {
+      "segment_id": "4b1d2d7d",
+      "source_content": "Jeśli ostatnio wprowadzałeś zmiany w Portalu Integratora, takie jak dodanie nowych typów audio czy też dostęp do zewnętrznych serwisów, to w tej sekcji możesz uruchomić natychmiastowe pobranie tych zmian na bramkę bez konieczności restartu bramki czy czekania na automatyczną synchronizację.",
+      "source_content_hash": "e363be184c275f2e70cefe8ec99594ee1e247357db6c3438b21d31d90d483a39",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "若您最近在集成商门户进行了修改（如新增音频类型或外部服务访问权限），本节支持立即将变更拉取至网关，无需重启设备或等待自动同步"
+      }
+    },
+    {
+      "segment_id": "dfe931a2",
+      "source_content": "![Oprogramowanie bramki](/img/en/bramka/config_ais_dom_section1_3.png)",
+      "source_content_hash": "4599cb1f1d0a2ed8f9246b8a5236c951b3478bda467c6c3e9f0b0e97fd5033ea",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Oprogramowanie bramki](/img/en/bramka/config_ais_dom_section1_3.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_configuration_software.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.123568+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "f60560b8bbb86d5fb6c7af411681102b6567054529f683cef4683e180c255e9e"
+  }
+}

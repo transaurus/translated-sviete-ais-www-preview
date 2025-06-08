@@ -1,0 +1,682 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_app_integration_zigbee.md",
+  "source_file_content_hash": "f776b0ee611eb67fa3d75bfb6d61c23fe5ccaa6894850a6c25b241623f9fae54",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Zigbee2MQTT\"\nsidebar_label: Zigbee\n---",
+      "source_content_hash": "29a1933b4d936a9fe1c37102344872371784dc985902cb4f7ecd9e5406693550",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Wprowadzenie",
+      "source_content_hash": "138964b3f05ef631ae55efd030ca96538eb5d783961ef7b978515da6c937d13f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 简介"
+      }
+    },
+    {
+      "segment_id": "53eaf0e1",
+      "source_content": "Integracja Zigbee w Asystencie domowym daje możliwość łatwego korzystania z urządzeń Zigbee bez potrzeby stosowania bramek producentów. Rozwiązanie oparte jest na projekcie [Zigbee2MQTT](https://www.zigbee2mqtt.io/). I jest całkowicie zintegrowane z naszym oprogramowaniem, dzięki czemu możesz łatwo dodać swoje urządzenia Zigbee do całej infrastruktury inteligentnego domu działającej na systemie Asystent domowy.",
+      "source_content_hash": "79990ab87f7245bc415641bb624ca0a1f3d8eceaf8b16ca528e6799865ba1f87",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "家庭助理中的Zigbee集成功能让您无需使用厂商网关即可便捷使用Zigbee设备。该解决方案基于[Zigbee2MQTT](https://www.zigbee2mqtt.io/)项目开发，并与我们的软件深度集成，使您能轻松将Zigbee设备接入家庭助理智能家居生态系统。"
+      }
+    },
+    {
+      "segment_id": "8ac585fb",
+      "source_content": "![CC2531](/img/en/frontend/ais_zigbee_web_app2.png)",
+      "source_content_hash": "58200cc711170acce7d367c1e4af8404aabd90808decaa985efd2f810ad54d3c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![CC2531](/img/en/frontend/ais_zigbee_web_app2.png)"
+      }
+    },
+    {
+      "segment_id": "ba4f48ff",
+      "source_content": "## Integracja",
+      "source_content_hash": "f5e469c7c23f3e22654c827f0a4cb6e2e56f4d50ad319f8a3f4b0dd2ae107506",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 集成方式"
+      }
+    },
+    {
+      "segment_id": "cf898102",
+      "source_content": "Integracja sprowadza się do włożenia do portu USB  [odpowiednio zaprogramowanego adaptera](/docs/ais_zigbee_index). Asystent domowy sam rozpozna to urządzenie USB, poinformuje głosowo, że uruchamia serwis Zigbee i automatycznie w konfiguracji pojawi się możliwość dodawania urządzeń zigbee.",
+      "source_content_hash": "81109abdbc8d5a71bd65410ed0f2fd4558df8e78c6df161630c0667585737f3f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "只需将[预先刷写好的适配器](/docs/ais_zigbee_index)插入USB端口，家庭助理将自动识别该USB设备，语音提示Zigbee服务启动，并在配置界面自动显示添加Zigbee设备的选项。"
+      }
+    },
+    {
+      "segment_id": "3daf1b88",
+      "source_content": "## Obsługiwane urządzenia",
+      "source_content_hash": "a2e78577cfd6cc78ab4e41dfd396989bd1aa07f861ec682f5166d0d027f880fb",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 支持设备"
+      }
+    },
+    {
+      "segment_id": "f6168993",
+      "source_content": "Obsługujemy to, co obsługuje Zigbee2MQTT, wg informacji na stronie projektu Zigbee2MQTT -> [obecnie 06/2021 obsługiwanych jest ponad 1490 urządzeń od 230 różnych dostawców](https://www.zigbee2mqtt.io/information/supported_devices.html). Projekt rozwija się bardzo intensywnie i nowe urządzenia są stale dodawane.",
+      "source_content_hash": "582cfddaf58b7f630b5184107c3b60addbdb48c13e9a63a8d73dbe513b69e28c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们支持Zigbee2MQTT项目列出的所有设备，根据Zigbee2MQTT官网信息[截至2021年6月已支持230个厂商的1490余款设备](https://www.zigbee2mqtt.io/information/supported_devices.html)。该项目发展迅速，新设备正在持续增加中。"
+      }
+    },
+    {
+      "segment_id": "418617bd",
+      "source_content": "## Dodanie nowego urządzenia Zigbee",
+      "source_content_hash": "a5d851aea74f84020e2b720183b0cb204ca27ca48981195df8700f288f15ad61",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 添加新Zigbee设备"
+      }
+    },
+    {
+      "segment_id": "40f9552a",
+      "source_content": "### Zezwalanie urządzeniom na dołączenie do sieci",
+      "source_content_hash": "f643fe81ca881a300dc5756e4bcaac8f872a7e2f1e16e6a8ac07672a4e26cf0f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 允许设备入网"
+      }
+    },
+    {
+      "segment_id": "f2c2bdd0",
+      "source_content": "Aby zapewnić bezpieczeństwo sieci Zigbee i uniknąć przypadkowego dołączenia innych urządzeń Zigbee, domyślnie w konfiugracji mamy ustawiony parametr **enable_join: false**.",
+      "source_content_hash": "171d61b5bba0672bfb6ae3368733e2e7923ad0327c15aabd8aecc90f60cee5b3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "为确保Zigbee网络安全并避免其他设备误接入，默认配置中**enable_join**参数设为false。"
+      }
+    },
+    {
+      "segment_id": "a76548f8",
+      "source_content": "Przed rozpoczęciem parowania nowego urządzenia należy włączyć w aplikacji możliwość czasowego parowania z bramką. W przeciwnym razie nowe urządzenia nie będą mogły dołączyć do sieci!\nMożliwość czasowego parowania z bramką włączamy po przejściu do konfiguracji zigbee2mqtt, w menu wybieramy **Konfiguracja** -> **Konfiguracja urządzeń zigbee**",
+      "source_content_hash": "8af8e70f51f4fc0996e66b9203467c596ba2989c52b682213303da0bf9511ba7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "添加新设备前需在应用中临时开启配对模式，否则新设备将无法加入网络！进入zigbee2mqtt配置界面后，选择**配置**->**Zigbee设备配置**开启临时配对功能。"
+      }
+    },
+    {
+      "segment_id": "26524352",
+      "source_content": "![Zigbee integracja](/img/en/frontend/zigbee2mqtt_ais_dom_1.png)",
+      "source_content_hash": "4aa400651940187a8ea8920143a489896d254296c2860fc7858ddb217273d1f5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Zigbee集成](/img/en/frontend/zigbee2mqtt_ais_dom_1.png)"
+      }
+    },
+    {
+      "segment_id": "73ab96a3",
+      "source_content": "następnie naciskamy przycisk **permit join** - zezwolenie na dołączenie nowych urządzeń",
+      "source_content_hash": "9c46f637e15e66b517fd72b8dbd48369cbc1d8edbfb819bb5364de9755533bf7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "随后点击**permit join**按钮授权新设备接入"
+      }
+    },
+    {
+      "segment_id": "bdc231b1",
+      "source_content": "![Zigbee integracja](/img/en/bramka/zigbee_integration_enable_join.png)",
+      "source_content_hash": "f65739911889c30fc70082a0504765b06bfbf0ffccd67f6c30ae209b11d698e6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Zigbee集成](/img/en/bramka/zigbee_integration_enable_join.png)"
+      }
+    },
+    {
+      "segment_id": "3b7478ea",
+      "source_content": "### Parowanie",
+      "source_content_hash": "856968dca9a50a970f96acfba647f1eae1a8be756d08addd2ffbc4e3c9efd18f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 配对操作"
+      }
+    },
+    {
+      "segment_id": "c3a738de",
+      "source_content": "Najpierw sprawdź na stronie Zigbee2MQTT w obsługiwanych urządzeniach [instrukcję dotyczącą parowania urządzenia](https://www.zigbee2mqtt.io/information/supported_devices.html) po wybraniu modelu urządzenia.",
+      "source_content_hash": "d22513d8738d2eae73257d3f9833f53a212d166d8c9817167fac1516f63ba522",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "首先在Zigbee2MQTT官网的[支持设备列表](https://www.zigbee2mqtt.io/information/supported_devices.html)中查询选定型号的具体配对说明。"
+      }
+    },
+    {
+      "segment_id": "3cfe6286",
+      "source_content": "![Zigbee integracja](/img/en/bramka/zigbee_integration_pair.png)",
+      "source_content_hash": "92222c03a6fa37032b5210bc45a019a36850ddea27ce754db0db6aabd818c5df",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Zigbee集成](/img/en/bramka/zigbee_integration_pair.png)"
+      }
+    },
+    {
+      "segment_id": "1042b50d",
+      "source_content": "![Zigbee integracja](/img/en/bramka/zigbee_integration_pair2.png)",
+      "source_content_hash": "6d08b64a5dbc9df254debd6021eade90c6d5680a004dc0ee92944acd1d2c9053",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Zigbee集成](/img/en/bramka/zigbee_integration_pair2.png)"
+      }
+    },
+    {
+      "segment_id": "aa1e7006",
+      "source_content": "Jeśli nie są dostępne żadne instrukcje, urządzenie można prawdopodobnie sparować przywracając ustawienia fabryczne",
+      "source_content_hash": "2d94ec7be384a7dda0472460d361178c83351494e767bd3b861a291b1de1b859",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "若无相关说明，通常可通过恢复出厂设置完成配对"
+      }
+    },
+    {
+      "segment_id": "f44c1398",
+      "source_content": "### Mapa sieci",
+      "source_content_hash": "26e261b4f346a0d26fdc898dd9b9db86b056c6018f870affe6a59b112bb78424",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 网络拓扑图"
+      }
+    },
+    {
+      "segment_id": "29528c8d",
+      "source_content": "Po sparowaniu urządzenia możemy odświeżyć kartę z mapą sieci Zigbee, by zobaczyć nasze nowe urządzenie podłączone do bramki",
+      "source_content_hash": "2d40705bb390413b42aae4bbb2eaa1169518bc9532b795693983d72ae23a2880",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "设备配对完成后，我们可以刷新Zigbee网络拓扑图页面，查看新设备已接入网关的状态"
+      }
+    },
+    {
+      "segment_id": "c504c207",
+      "source_content": "![Zigbee integracja](/img/en/bramka/zigbee_integration_pair_device_map.png)",
+      "source_content_hash": "1c649f1ea3f427d2e40c393c98db6f2406644305dee5f69c679de4cec0e72cff",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Zigbee集成](/img/en/bramka/zigbee_integration_pair_device_map.png)"
+      }
+    },
+    {
+      "segment_id": "60410af6",
+      "source_content": "### Zmiana nazwy urządzenia",
+      "source_content_hash": "74b573a3fcf46860c85439e0f5f8f9a2a873782ca835c5a63abd5cacc1bedfbe",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 修改设备名称"
+      }
+    },
+    {
+      "segment_id": "b9aaa519",
+      "source_content": "![Zigbee integracja](/img/en/bramka/zigbee_integration_change_name.png)",
+      "source_content_hash": "337d2bb604c616be25790fcc06683924cc79b31658bfb2c667f9b516e5dc75f0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Zigbee集成](/img/en/bramka/zigbee_integration_change_name.png)"
+      }
+    },
+    {
+      "segment_id": "7283cdac",
+      "source_content": "### Sterowanie",
+      "source_content_hash": "8f912d17ac7e6e2c161f20dfeca00e86b461f0b97fe82bbf683c4f7ef465aab5",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 设备控制"
+      }
+    },
+    {
+      "segment_id": "1131ef75",
+      "source_content": "Nasze nowe urządzenie autmatycznie dostępne jest w urządzeniach",
+      "source_content_hash": "4adac06ce52bcfa45bb4403e96e78d60dafd00fe53ffe3e17c52c39899f9d0d4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "新设备将自动出现在设备列表中"
+      }
+    },
+    {
+      "segment_id": "8b2a52b1",
+      "source_content": "![Zigbee integracja](/img/en/bramka/zigbee_integration_new_device.png)",
+      "source_content_hash": "ca13d92bd454c4f5f74504a9fe0613b7a0714b470029798720d1b1bf29b7db14",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Zigbee集成](/img/en/bramka/zigbee_integration_new_device.png)"
+      }
+    },
+    {
+      "segment_id": "5dae11e3",
+      "source_content": "Po wybraniu urządzenia możemy zobaczyć jego szczegóły i przejść do dodania automatyzacji",
+      "source_content_hash": "73579b24f92a9ca0c103e217fb5202e1f133a61e2a5af713d3d8df30f82dd923",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "选择设备后可查看详细信息并配置自动化规则"
+      }
+    },
+    {
+      "segment_id": "0bb95128",
+      "source_content": "![Zigbee integracja](/img/en/bramka/zigbee_integration_new_device_info.png)",
+      "source_content_hash": "5dbb5f94c9b555da7f8477614ef718c78b0873ae9bb61cfd5a9d4cf1af209ee0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Zigbee集成](/img/en/bramka/zigbee_integration_new_device_info.png)"
+      }
+    },
+    {
+      "segment_id": "7f71ff2a",
+      "source_content": "Oczywiście nowe encje możemy umieszczać na karcie i wykorzystywać w automatyzacjach, przykłady gotowych rozwiązań zostaną dodane [na forum](https://ai-speaker.discourse.group/).",
+      "source_content_hash": "79fa024a6e7b311bd772bde29ff64ee050ddc29a0cf0d16b790fd3d70eae1c10",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "新实体可添加至控制面板并用于自动化场景，具体案例将发布在[社区论坛](https://ai-speaker.discourse.group/)"
+      }
+    },
+    {
+      "segment_id": "3fa01396",
+      "source_content": "-----------------------------------------------------",
+      "source_content_hash": "4b2565bde18586a3df94f1a47659f4632cd797b455b5dc416ee2a6886aef3fa9",
+      "node_type": "thematicBreak",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "-----------------------------------------------------"
+      }
+    },
+    {
+      "segment_id": "daed5acb",
+      "source_content": "## Informacje techniczne",
+      "source_content_hash": "3dfe84774725c9ca724b9d3eab0440e4139e6b15e87494c029c9dae93ac448e7",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 技术信息"
+      }
+    },
+    {
+      "segment_id": "b051b70c",
+      "source_content": "### Proces zigbee",
+      "source_content_hash": "e84f1cb5593165791e5085763f637b25b22bd4699154312dfdc5c68b6b0ebc95",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### Zigbee进程"
+      }
+    },
+    {
+      "segment_id": "d0dd855b",
+      "source_content": "Procesami na bramce steruje [Menedżer procesów PM2](http://pm2.keymetrics.io/).\nPM2 odpowiedzialny jest też za uruchomienie procesu zigbee po wykryciu urządzenia CC2531, a następnie czuwa nad jego ciągłym działaniem.",
+      "source_content_hash": "854908b5555f837970008c1c14567663b4ee51a38341c94d76e2c9c18d12308e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "网关进程由[PM2进程管理器](http://pm2.keymetrics.io/)管控。PM2在检测到CC2531设备后会自动启动zigbee进程，并持续监控其运行状态。"
+      }
+    },
+    {
+      "segment_id": "463ed165",
+      "source_content": "Żeby zobaczyć status procesu zigbee w konsoli wpisujemy:",
+      "source_content_hash": "be06a83bd65f135c01c00f23ed9fd26e32fd035d4d737352f5974985f87a177a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "查看zigbee进程状态需在终端输入："
+      }
+    },
+    {
+      "segment_id": "092b29bb",
+      "source_content": "```\npm2 show zigbee\n```",
+      "source_content_hash": "230ab3c39f50f0d196cfce2721ccaced1080bfd2444335fb03061e0d814093fc",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_092b29bb"
+      }
+    },
+    {
+      "segment_id": "8126f763",
+      "source_content": "![zigbee](/img/en/bramka/pm2_zigbee.png)",
+      "source_content_hash": "ac9916b9f26168e16285a652f80f8aea1ce9a2cae15a161f32f8ad3ed801a529",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![zigbee](/img/en/bramka/pm2_zigbee.png)"
+      }
+    },
+    {
+      "segment_id": "90d35b51",
+      "source_content": "### Aplikacja i binarka",
+      "source_content_hash": "14e39defdd6918aa3424942a5a708adba697a7764b4ccee66b3b617de7b6f509",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 应用与二进制文件"
+      }
+    },
+    {
+      "segment_id": "86348f98",
+      "source_content": "Proces zigbee oparty jest na aplikacji [zigbee2mqtt](https://www.zigbee2mqtt.io/) która działa na binarce [nodejs-lts](https://nodejs.org/en/)",
+      "source_content_hash": "f9ea47e0fe169387cffd19fb3ee9a9659b08c942fb190bc2017ed4730bcbe3e6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "zigbee进程基于[zigbee2mqtt](https://www.zigbee2mqtt.io/)应用运行，该应用依赖[nodejs-lts](https://nodejs.org/en/)环境"
+      }
+    },
+    {
+      "segment_id": "6b77b644",
+      "source_content": "Naszą kompilację nodejs udostępniamy w naszym repozytorium pakietów binarnych [bintray](https://bintray.com/sviete/ais/nodejs-lts)",
+      "source_content_hash": "89569b94e3a49e3a74924d403413e7435f67bcd96a3163db61be8c9a11d50b88",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们编译的nodejs二进制包托管在[bintray仓库](https://bintray.com/sviete/ais/nodejs-lts)"
+      }
+    },
+    {
+      "segment_id": "a311e967",
+      "source_content": "![zigbee](/img/en/bramka/nodejs_binary.png)",
+      "source_content_hash": "b6eca2d5d424c1c7fe37e19626a200e9ff6d569b87c9bc20edc9573da73759a3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![zigbee](/img/en/bramka/nodejs_binary.png)"
+      }
+    },
+    {
+      "segment_id": "f8edb6d2",
+      "source_content": "### Dostęp lokalny",
+      "source_content_hash": "16086bf273964d6a5e3af2c990cbe73d70cf7c3dd611adf296bcebf34d3b6e6a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 本地访问"
+      }
+    },
+    {
+      "segment_id": "1862c5fe",
+      "source_content": "Aplikacja 8099 działa na porcie **8099** w lokalnej sieciu można połączyć się z ją bezpośrednio, wpisując w przeglądarce ``http://<ip-bramki>:8099``",
+      "source_content_hash": "c718832800a3712dcba663bdaaddfbe3a9851bda1b3e6b39d558e7fd29ca6b6b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该应用运行在**8099**端口，局域网内可通过浏览器访问``http://<网关IP>:8099``"
+      }
+    },
+    {
+      "segment_id": "6ca4479f",
+      "source_content": "![zigbee](/img/en/bramka/app_zigbee2mqtt.png)",
+      "source_content_hash": "0937f67069f5098f789ed0efd29e54683266867ffc4a2a737b70eb4fa1523213",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![zigbee](/img/en/bramka/app_zigbee2mqtt.png)"
+      }
+    },
+    {
+      "segment_id": "71169a2d",
+      "source_content": "### Dostęp zdalny",
+      "source_content_hash": "fe0c208806c6256c6102ba11e199927d33d0d72025452f385bf6c8c748bd8cd8",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 远程访问"
+      }
+    },
+    {
+      "segment_id": "c1eaf30b",
+      "source_content": "Umożliwiamy też na zdalny dostęp do aplikacji webowej zigbee2mqtt. Dostęp ten jest możliwy tylko po zalogowaniu do Asystenta domowego i jest realizowany z pomocą naszego dodatku ais_proxy - mechnizmu typu [ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/)",
+      "source_content_hash": "e1124f043ffa1ec0f92fc3cd2146befc0297144ae82720c4a318977a5f362fd9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们通过ais_proxy组件实现zigbee2mqtt网页端的远程访问，该功能需先登录家庭助理系统，采用[ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/)机制实现"
+      }
+    },
+    {
+      "segment_id": "f0984c2a",
+      "source_content": "![zigbee](/img/en/bramka/app_zigbee2mqtt_proxy.png)",
+      "source_content_hash": "a75f0edafa737b31650e0bfe2de2d3fd5ead7634a86b929aa8ca44c7d3870c18",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![zigbee](/img/en/bramka/app_zigbee2mqtt_proxy.png)"
+      }
+    },
+    {
+      "segment_id": "56bc971f",
+      "source_content": "### Aktualizacja automatyczna",
+      "source_content_hash": "35f9b68f674d05caee350d00bb2484aab0c47b8656b57c0c575e18eda9fba394",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 自动更新"
+      }
+    },
+    {
+      "segment_id": "0801d969",
+      "source_content": "Zigbee2Mqtt jest dostarczane jako składowa systemu Asystent domowy. Aktualizacja **Zigbee2Mqtt do najnowszej stabilnej wersji** jest wykonywana automatycznie z interfejsu użytkownika i polega na pobraniu i rozpakowaniu na bramkę gotowej paczki Zigbee2Mqtt z naszego serwisu OTA.",
+      "source_content_hash": "8d27396f3d7c6646f1720ace85a280250df209ff43043538a3772153f1a4ae3d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Zigbee2Mqtt作为家庭助理系统的组件提供。**升级至最新稳定版Zigbee2Mqtt**可通过用户界面自动完成，该过程会从我们的OTA服务下载并解压预编译的Zigbee2Mqtt软件包到网关上。"
+      }
+    },
+    {
+      "segment_id": "3c19e221",
+      "source_content": "![zigbee](/img/en/bramka/zigbee2mqtt_upgrade.png)",
+      "source_content_hash": "a89dbbb2bc275b1446be89d5e9a181a8c12fa2d5a141099ce12e556db9edfb95",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![zigbee](/img/en/bramka/zigbee2mqtt_upgrade.png)"
+      }
+    },
+    {
+      "segment_id": "7974af84",
+      "source_content": "### Aktualizacja/instalacja ręczna",
+      "source_content_hash": "0249080707ac7c35d960e7e934824e894bc4abbd30e86d3b44fbc2a0b9c16b65",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 手动更新/安装"
+      }
+    },
+    {
+      "segment_id": "9fe460fc",
+      "source_content": ":::caution[Uwaga]\n**Uwaga!** Ręczna aktualizacja jest skomplikowanym procesem dostępnym dla programistów i technicznie zaawansowanych użytkowników.\nW przypadku wystąpienia problemów po ręcznej aktualizacji zalecamy [Wykonanie pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step)\n:::",
+      "source_content_hash": "ba81f1089b1b0412653700d3dc08004d4b9b3f64adb118149d96427298d0de10",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[注意]\n**警告！** 手动更新是面向开发者和高级技术用户的复杂流程。若手动更新后出现问题，建议[执行应用完全重置](/docs/ais_bramka_reset_ais_step_by_step)\n:::"
+      }
+    },
+    {
+      "segment_id": "a6c928a1",
+      "source_content": "Jeżeli chcemy zainstalować wersję dev Zigbee2Mqtt, żeby dodać obsługę nowego urządzenia lub przetestować nowe funkcje, to możemy to zrobić ręcznie z konsoli.\nInstalacja ręczna polega na pobraniu kodów Zigbee2Mqtt z repozytorium GIT, a następnie uruchomieniu na bramce instalacji zależności (dependencies) aplikacji zigbee2mqtt.\nPoniżej skrypt bash (do uruchomienia w konsoli) z wyjaśnieniem kroków instalacji ręcznej.",
+      "source_content_hash": "f1b6ff5f22b8ccc168229bc670810b45f27e46c0d07dd238f4e95ef23262d651",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "如需安装Zigbee2Mqtt开发版以支持新设备或测试新功能，可通过控制台手动操作。手动安装需从GIT仓库拉取Zigbee2Mqtt代码，随后在网关上运行应用程序依赖项的安装流程。下方提供带步骤说明的bash脚本（需在控制台执行）。"
+      }
+    },
+    {
+      "segment_id": "4e583d18",
+      "source_content": "``` bash\necho \"Zatrzymanie serwisu zigbee...\"\npm2 stop zigbee\n\necho \"kopia konfiguracji zigbee...\"\ncp -R ~/zigbee2mqtt/data/configuration.yaml ~/configuration.yaml\n\necho \"Usuwamy bieżącą wersję zigbee2mqtt...\"\nrm -rf ~/zigbee2mqtt\n\necho \"Kolonujemy kody najnowszej wersji...\"\ngit clone --depth=1 https://github.com/Koenkk/zigbee2mqtt.git\n\necho \"Przechodzimy do folderu z kodami zigbee2mqtt...\"\ncd ~/zigbee2mqtt\n\necho \"Przełączamy się na wersję kodu zigbee2mqtt który chcemy uruchomić...\"\ngit checkout HEAD -- npm-shrinkwrap.json\ngit pull\n\necho \"Instalujemy zależności...\"\nnpm ci --unsafe-perm\n\necho \"Przywracamy konfigurację zigbee2mqtt...\"\ncp ~/configuration.yaml ~/zigbee2mqtt/data/configuration.yaml\nrm ~/configuration.yaml\n\necho \"Uruchomienie serwisu zigbee2mqtt...\"\npm2 start zigbee\n\n```",
+      "source_content_hash": "452d30013f8f6156de96613cc5413ea57d8d74c25da4d61c68020cca10fe3a0a",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_4e583d18"
+      }
+    },
+    {
+      "segment_id": "c6b2ca77",
+      "source_content": "### Konfiguracja",
+      "source_content_hash": "2558007e0f5bcff921e4799995536b5aace2764eab108d5bfba01ada17e4e9c9",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 配置"
+      }
+    },
+    {
+      "segment_id": "dce16ab4",
+      "source_content": "Konfiguracja Zigbee2Mqtt znajduje się na bramce w pliku ``~/zigbee2mqtt/data/configuration.yaml``",
+      "source_content_hash": "d9bdeb24c6aeee78b770b7a19faa17fb841a5d93cf4f53c1b712f03064ae5e85",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Zigbee2Mqtt配置文件位于网关的``~/zigbee2mqtt/data/configuration.yaml``路径下"
+      }
+    },
+    {
+      "segment_id": "50e02753",
+      "source_content": ":::caution[Uwaga]\n**Uwaga!** W przypadku podstawowej konfiguracji ustawienia domyślne są dobre i nie trzeba nic zmieniać.\n\nPotrzeba zmiany konfiguracji może dotyczyć tylko programistów i technicznie zaawansowanych użytkowników którzy np. chcą zmienić parametry połączenia z brkerem MQTT (dodać autentykację itp.).\nW przypadku wystąpienia problemów po zmianie konfiguracji Zigbee2Mqtt zalecamy [Wykonanie pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step)\n:::",
+      "source_content_hash": "90b77575e0462b39abc165571411c51f2fe31af6d359ab53c9bc4eb512013583",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[注意]\n**警告！** 基础配置中默认参数已优化，通常无需修改。仅建议需要调整MQTT broker连接参数（如添加认证等）的开发者或高级用户更改配置。若配置变更后出现问题，建议[执行应用完全重置](/docs/ais_bramka_reset_ais_step_by_step)\n:::"
+      }
+    },
+    {
+      "segment_id": "b08ad0b4",
+      "source_content": "Plik z konfiguracją dostępny jest do edycji z aplikacji. Wystarczy przejść do konfiguracji i wybrać konfigurację urządzeń zigbee:",
+      "source_content_hash": "4b948fc81ee0f5ba5ee33be4b0f2b073be711742e049667f8a544e72688375f1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "配置文件可通过应用界面编辑：进入设备配置后选择Zigbee设备配置项："
+      }
+    },
+    {
+      "segment_id": "d636abf8",
+      "source_content": "![zigbee](/img/en/integrations/zigbee2mqtt_go_to_configuration_yaml.png)",
+      "source_content_hash": "1f1dd7e9cdac0deba068daf93ca101d8a2b48a1b4fc417276a86ceb481951194",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![zigbee](/img/en/integrations/zigbee2mqtt_go_to_configuration_yaml.png)"
+      }
+    },
+    {
+      "segment_id": "99840f13",
+      "source_content": "Następnie w prawym górnym rogu z rozwijalnego menu wybrać opcję \"Edit Zigbee2Mqtt configuraton.yaml\"\n![zigbee](/img/en/integrations/zigbee2mqtt_configuration_yaml.png)",
+      "source_content_hash": "5b3cbd101b44056108a451a172e901b2471d7f14d695b3198b415dd1dbb31c5b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "随后在右上角下拉菜单中选择\"编辑Zigbee2Mqtt configuration.yaml\"\n![zigbee](/img/en/integrations/zigbee2mqtt_configuration_yaml.png)"
+      }
+    },
+    {
+      "segment_id": "808b0414",
+      "source_content": "![zigbee](/img/en/integrations/zigbee2mqtt_configuration_file.png)",
+      "source_content_hash": "6f18238d42abab55583e9bb2cdf740c4be0fd9e813f0a741bc748ef149d7804c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![zigbee](/img/en/integrations/zigbee2mqtt_configuration_file.png)"
+      }
+    },
+    {
+      "segment_id": "61a78cbe",
+      "source_content": "Standardowa konfiguracja znajduje się w pliku ``~/zigbee2mqtt/data/configuration.yaml``.\nKonfiugracja różni się w zależności od zastosowanego adaptera i jest następująca:",
+      "source_content_hash": "833fdb104a1f27f3e62e4795751edbdabca08fb4f9cc062b16cdeacc26fc0083",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "标准配置文件路径为``~/zigbee2mqtt/data/configuration.yaml``。根据使用的适配器类型，配置存在差异："
+      }
+    },
+    {
+      "segment_id": "4568158b",
+      "source_content": "- Adapter PRO Zigbee ConBee2",
+      "source_content_hash": "d4c24e88e424fb3b915f3702f3a3f4c0d66294832915fbdcd33b26681d03cb32",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- PRO版Zigbee适配器ConBee2"
+      }
+    },
+    {
+      "segment_id": "b26685f5",
+      "source_content": "``` yaml\n# configuration.yaml Zigbee2MQTT v 1.19.1   \nhomeassistant: true\npermit_join: false\nmqtt:\n  base_topic: zigbee2mqtt\n  server: 'mqtt://localhost'\nserial:\n  adapter: deconz\n  port: /dev/ttyACM0\nfrontend:\n  port: 8099\nadvanced:\n  log_level: info\n  log_output:\n    - console\n  channel: 11\n```",
+      "source_content_hash": "e83917e24aa4754b398f4a7f6d4d2a514dd6fb62126db1e40158fe72c3457b5c",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_b26685f5"
+      }
+    },
+    {
+      "segment_id": "412352a8",
+      "source_content": "- Adapter DEV Zigbee USB CC2531",
+      "source_content_hash": "04e2602edf9d8dae4734a89cfb056ec61c9000a8ef3af2edbb030f7bf76bf874",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- DEV版Zigbee适配器USB CC2531"
+      }
+    },
+    {
+      "segment_id": "3c6be27a",
+      "source_content": "``` yaml\n# configuration.yaml Zigbee2MQTT v 1.19.1   \nhomeassistant: true\npermit_join: false\nmqtt:\n  base_topic: zigbee2mqtt\n  server: 'mqtt://localhost'\nserial:\n  adapter: zstack\n  port: /dev/ttyACM0\nfrontend:\n  port: 8099\nadvanced:\n  log_level: info\n  log_output:\n    - console\n  channel: 11\n```",
+      "source_content_hash": "39b258c91d42479e988318a382b6b0055a141e192d4e77769beb6925e9231b96",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_3c6be27a"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_app_integration_zigbee.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.142913+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "f776b0ee611eb67fa3d75bfb6d61c23fe5ccaa6894850a6c25b241623f9fae54"
+  }
+}

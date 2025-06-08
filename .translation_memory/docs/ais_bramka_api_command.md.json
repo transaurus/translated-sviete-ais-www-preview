@@ -1,0 +1,62 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_api_command.md",
+  "source_file_content_hash": "ec2a2ad3b3fa98a4a078ef15d69418e9c0dfa70c95eab48673df46c3ce70dd72",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Wykonywanie komendy\"\nsidebar_label: Wykonywanie komendy\n---",
+      "source_content_hash": "a3fd27a541135b3d03a2686fa5ae32faf7ce8632b83ddf93e36bb0aa9470e714",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Usługa **ais_ai_service.process** pozwala na wykonanie komendy tekstowej na bramce.\nWymagany jest jeden parametr **text**, tekst pytania/komendy. Przykładowe wartości parametru to:",
+      "source_content_hash": "d448e4e3b377a70a733dc3e56c05dfc0c42ad00ca82c53699d3fb3ee4983284a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "服务 **ais_ai_service.process** 允许在网关上执行文本命令。\n必须参数为 **text**，即问题/指令的文本内容。示例参数值包括："
+      }
+    },
+    {
+      "segment_id": "df80d009",
+      "source_content": "- Włącz radio RMF\n- Która godzina\n- Jaka jest pogoda\n- Włącz światło w kuchni\n- Znajdz informacje o NATO",
+      "source_content_hash": "fea49ff6dc548858361984c40f71b088bc2eb4e088dbc1c6aba0228f9e0bbcc0",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 播放RMF电台\n- 现在几点\n- 天气如何\n- 打开厨房灯\n- 查找关于北约的信息"
+      }
+    },
+    {
+      "segment_id": "cf898102",
+      "source_content": "Przykład komedny `curl` wywołującej odtwarzanie muzyki z YouTube:",
+      "source_content_hash": "1cfbe4b14dd5049553a89568037be61e9da8c935049d6a1c692698ec1b790ea2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "调用YouTube音乐播放的`curl`命令示例："
+      }
+    },
+    {
+      "segment_id": "93be3c14",
+      "source_content": "```bash\n$ curl -X POST -H \"Authorization: Bearer ABCDEFGH\" \\\n       -H \"Content-Type: application/json\" \\\n       -d '{\"text\": \"YouTube Pink Floyd the wall\"}' \\\n       http://ais-dom.local:8180/api/services/ais_ai_service/process\n```",
+      "source_content_hash": "ea7759af3b37d9d22130a8770105afd3db92333c0fbff45b9d483319df8687b1",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_93be3c14"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_api_command.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.094200+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "ec2a2ad3b3fa98a4a078ef15d69418e9c0dfa70c95eab48673df46c3ce70dd72"
+  }
+}

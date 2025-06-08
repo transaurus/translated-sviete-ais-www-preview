@@ -1,0 +1,172 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_remote_faq.md",
+  "source_file_content_hash": "85660ae474cd989f7a1038bb1ffc5c0f86620fd27d7fa4321071de4ee8c84f55",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Pilot rozwiązywanie problemów\"\nsidebar_label: Pilot rozwiązywanie problemów\n---",
+      "source_content_hash": "a5b48123c6c6f7a88c527cb61f74c53748c1a7a766e8b345452a8a5a2c2548f1",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "6ef78e84",
+      "source_content": "W przypadku problemów z działaniem pilota proszę zapoznać się instrukcją poniżej jak rozwiązać najczęstsze problemy.",
+      "source_content_hash": "a1e8d9cc752267692a0beeafd49bcee8944713d82dad81910bb447be4d8ed09b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "若遥控器出现故障，请参照以下指南解决常见问题。"
+      }
+    },
+    {
+      "segment_id": "1cc03ec8",
+      "source_content": "## Sprawdź baterie",
+      "source_content_hash": "69ec75eeba2aea98d6c0fe90426309648dbe2efa962df9867b8a0b89c7739d4d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 检查电池"
+      }
+    },
+    {
+      "segment_id": "180bddb1",
+      "source_content": "Pilot do działania potrzebuje 2 baterii AAA. Upewnij się, że baterie są poprawnie zamontowane oraz sprawdź, czy po naciśnięciu przycisku w pilocie świeci się czerwona dioda (w górnej części pilota)- czy jest poprawne zasilanie z baterii.",
+      "source_content_hash": "743602f828026413fc78532e6090685a11d5a17b2df5a32201d94be9ad4a09fc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "遥控器需使用2节AAA电池。请确认电池安装正确，并检查按下按键时遥控器顶部的红色指示灯是否亮起——这表示电池供电正常。"
+      }
+    },
+    {
+      "segment_id": "5085dd17",
+      "source_content": ">Pilot podczas używania pobiera mniej niż 10mA prądu z baterii. Gdy nie jest używany, żużywa mikroamper (czyli prawie nie pobiera żadnego prądu). Jest to zgodne z Europejskim standardem \"Energy Star\".",
+      "source_content_hash": "d26c238955d51d1bc53f6e148343d4561cbdd372bb7d5e68cd108b9aaeec0215",
+      "node_type": "blockquote",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ">遥控器在使用时耗电量低于10mA，闲置时仅消耗微安级电流（几乎不耗电）。这符合欧洲\"能源之星\"标准。"
+      }
+    },
+    {
+      "segment_id": "d350c018",
+      "source_content": "## Sprawdź czy klucz sprzętowy USB jest włożony poprawnie do portu USB",
+      "source_content_hash": "626174c918a99d263ab8fb6d7abb8f501378e0952584e0fdc1cbf1be4a927021",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 检查USB硬件密钥是否正确插入USB端口"
+      }
+    },
+    {
+      "segment_id": "f5f6d2ce",
+      "source_content": "Pilot komunikuje się z urządzeniem za pomocą adaptera/klucza sprzętowego USB (z angielskiego dongle). Upewnij się, że klucz jest poprawnie włożony do portu USB, dla pewności przełóż go do innego portu i spróbuj ponownie.",
+      "source_content_hash": "1bde30c4934601a934040eedf2fdcd9a7d6fdcf98adec9ff41933fa49056ee0a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "遥控器通过USB适配器/硬件密钥（英文称dongle）与设备通信。请确认密钥已正确插入USB端口，为确保可靠性可尝试更换其他USB端口重试。"
+      }
+    },
+    {
+      "segment_id": "ed7dde9c",
+      "source_content": "## Sprawdź czy klucz sprzętowy USB jest sparowany z pilotem",
+      "source_content_hash": "cb16c5cf0c6753cee8bf8a9ee6afef7bd6c3876c0261fff6bd5811e56d223fdc",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 检查USB硬件密钥是否与遥控器配对"
+      }
+    },
+    {
+      "segment_id": "d9172fa4",
+      "source_content": "Klucze USB są parowane fabrycznie z pilotami, możesz też wykonać samodzielne parowanie w tym celu wykonaj poniższą instrukcję:",
+      "source_content_hash": "9c63a4f1f018dfe6e782c796e04f91181c8186c8cd1666d88393862af881f98c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "USB密钥出厂时已与遥控器完成配对，您也可手动执行配对操作，具体步骤如下："
+      }
+    },
+    {
+      "segment_id": "22ae2175",
+      "source_content": ">Naciśnij przycisk **PG-** i jednocześnie przycisk **V-** (dwa przyciski na samym dole pilota), gdy górna dioda zacznie szybko migać na czerwono włóż klucz USB do urządzenia. Dioda powinna się po chwili wyłączyć co oznacza, że urządzenia są sparowane.",
+      "source_content_hash": "e59fbc10b8decdc0c4079b1d05f71e05b46125d120a218917a3f943560cea0a4",
+      "node_type": "blockquote",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ">同时长按**PG-**键和**V-**键（遥控器底部最下方的两个按键），当顶部红色指示灯开始快速闪烁时，将USB密钥插入设备。指示灯稍后熄灭即表示配对成功。"
+      }
+    },
+    {
+      "segment_id": "0037ff70",
+      "source_content": "## Sprawdź czy pilot działa w poprawnym trybie",
+      "source_content_hash": "101600670bd409dc9987b8e330eccd720366e7a228c45f43f3f71e4f45210120",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 检查遥控器是否处于正确模式"
+      }
+    },
+    {
+      "segment_id": "bdc231b1",
+      "source_content": "Gdy masz podłączony monitor do urządzenia  i chcesz sterować pilotem jak myszką - włącz tryb sterowania na monitorze.\nGdy masz podłączone do urządzenia tylko głośniki i chcesz sterować urządzeniem bez monitora - włącz tryb sterowania bez monitora.",
+      "source_content_hash": "f4ab61fc04ca4590bc5e0ac4b6ab0ee076f685579afc194d72b2ee766f506de3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "当设备连接显示器且需将遥控器作为鼠标使用时——请启用显示器控制模式。\n当设备仅连接扬声器且需无显示器操作时——请启用无显示器控制模式。"
+      }
+    },
+    {
+      "segment_id": "135468ee",
+      "source_content": "![Pilot do asystenta](/img/en/remote/remote_change_mode.png)",
+      "source_content_hash": "aa297657f7ba9c7c6a7d37efdb05b833152342756cbf6df1bdfa53c8917f10d7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![助理遥控器](/img/en/remote/remote_change_mode.png)"
+      }
+    },
+    {
+      "segment_id": "9f9e64f5",
+      "source_content": "## Mikrofon nie działa poprawnie",
+      "source_content_hash": "f49ee627f18a0acedee66effe7df974d20da997c9737ec30a952fc6d558ceacb",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 麦克风无法正常工作"
+      }
+    },
+    {
+      "segment_id": "1042b50d",
+      "source_content": "Mikrofon na pilocie jest włączony tylko wtedy, gdy trzymasz przycisk mikrofonu wciśnięty. Gdy go puścisz to mikrofon jest automatycznie wyłączany.\nŻeby powiedzieć komendę wciśnij i przytrzymaj przycisk mikrofonu, poczekaj na sygnał \"biip\" oznaczający, że mikrofon jest włączony, a następnie powiedz komendę i zwolnij przycisk mikrofonu.",
+      "source_content_hash": "74c231f3c24ff853819eac475362225ae6d596ca85f6c16581211b6027f971ab",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "遥控器麦克风仅在按住麦克风按键时启用，松开按键将自动关闭。\n使用语音指令时：长按麦克风键，听到\"滴\"声提示表示麦克风已激活，此时说出指令后松开按键。"
+      }
+    },
+    {
+      "segment_id": "8af76f3d",
+      "source_content": "Jeżeli robisz to poprawnie i nadal nie działa, to sprawdź czy klucz sprzętowy USB jest włożony poprawnie do portu USB.",
+      "source_content_hash": "f8eb95b5f7e58a9ffac18f5af2a6b34f07a842922f36f9e6443e7a0711845b01",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "若操作无误仍无法使用，请检查USB硬件密钥是否正确插入USB端口。"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_remote_faq.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.142678+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "85660ae474cd989f7a1038bb1ffc5c0f86620fd27d7fa4321071de4ee8c84f55"
+  }
+}

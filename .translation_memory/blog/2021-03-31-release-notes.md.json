@@ -1,0 +1,512 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2021-03-31-release-notes.md",
+  "source_file_content_hash": "e29dc0223e6dde8b052d3b8bd2e487182a343b62b08947c925d3468d219fc88d",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Jola AI-Speaker\nauthorURL: https://github.com/sviete\nauthor_title: Asystentka\nauthorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4\ntitle: Wersja systemu Ewa\ntags: [\"ais dom\", \"home assistant\", \"zigbee2mqtt\"]\n---",
+      "source_content_hash": "4ce3b47efd9f167c72b7e051d2bb50f4f5f5b33390c04af7fdc3c2dfaed4b0e1",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "775b7fa4",
+      "source_content": "<div class=\"IntroAisBlogMenu\" >\n<div>\n\n![AIS](/img/en/blog/202103/eva.png)\n\n</div>\n\n<h2>Ewa</h2>\n\n</div>",
+      "source_content_hash": "ab1180b76be314651664d0ef1c60e944476b8853597f5c50f85e7af961de9c13",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_775b7fa4"
+      }
+    },
+    {
+      "segment_id": "f5f6d2ce",
+      "source_content": "![DEV3](/img/en/blog/202103/dev3.png) DEV3 ![AIS Python](/img/en/blog/202102/snake.png) Python3.9.2 ![AIS Zigbee2Mqtt](/img/en/blog/202102/honeybee.png) Zigbee2Mqtt ![AIS Radio](/img/en/blog/202103/radio.png) AIS audio",
+      "source_content_hash": "8496315fc5767fe10da42e87a9625d01ee23a8ac253917c9b586d34fdc32557b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![DEV3](/img/en/blog/202103/dev3.png) DEV3 ![AIS Python](/img/en/blog/202102/snake.png) Python3.9.2 ![AIS Zigbee2Mqtt](/img/en/blog/202102/honeybee.png) Zigbee2Mqtt ![AIS Radio](/img/en/blog/202103/radio.png) AIS音频"
+      }
+    },
+    {
+      "segment_id": "29e01ec2",
+      "source_content": "<!--truncate-->",
+      "source_content_hash": "f5cded2aa7e288e395fe4f67f9dabda2281904b2f5358d07302b3aa8be0acdfa",
+      "node_type": "comment",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_29e01ec2"
+      }
+    },
+    {
+      "segment_id": "79b2d0b9",
+      "source_content": "## ABC bezproblemowej aktualizacji",
+      "source_content_hash": "c90f3410f68be4e7ee6017947af078313ab12a12edc09598ec43646aef83e69a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 无忧升级指南"
+      }
+    },
+    {
+      "segment_id": "d2808037",
+      "source_content": ":::tip[Kopia zapasowa.]\n### ![A](/img/en/blog/202009/alpha-a-circle.png) Kopia zapasowa.\n\nUWAGA Przed aktualizacją zalecamy wykonać [kopię zapasową konfiguracji](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji). W ten sposób sprawdzisz poprawność swojej konfiguracji przed rozpoczęciem aktualizacji i zwiększysz prawdopodobieństwo bezproblemowej aktualizacji.\n:::",
+      "source_content_hash": "1828218cdc126741a2ebe2de65e3dd6aff658b58cb960a102231a8a3be71ca74",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::tip[备份。]\n### ![A](/img/en/blog/202009/alpha-a-circle.png) 备份配置\n\n注意：升级前建议先执行[配置备份](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji)。这能帮助您在升级前验证配置的正确性，大幅提高顺利升级的概率。\n:::"
+      }
+    },
+    {
+      "segment_id": "b56ef571",
+      "source_content": ":::important[Konsola i logi na bramce.]\n### ![B](/img/en/blog/202009/alpha-b-circle.png)Konsola i logi na bramce.\n\nW razie problemów z aktualizacją, sprawdź procedurę [Aktualizacja z konsoli](/docs/ais_bramka_update_manual) lub [Wykonanie pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step).\nTo może dotyczyć szczególnie osób, które instalują na bramce dodatkowe niestandardowe komponenty.\n:::",
+      "source_content_hash": "801d23fb7fc2431bbe434b4eda5e7c084e2507d287d3851fa318ec48da59ea9e",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::important[网关控制台与日志。]\n### ![B](/img/en/blog/202009/alpha-b-circle.png)网关控制台与日志\n\n若升级遇到问题，请参照[通过控制台升级](/docs/ais_bramka_update_manual)或[执行应用完全重置](/docs/ais_bramka_reset_ais_step_by_step)流程处理。\n此情况尤其可能发生在安装了非标准组件的网关设备上。\n:::"
+      }
+    },
+    {
+      "segment_id": "688f7369",
+      "source_content": ":::caution[Poczekaj cierpliwie.]\n### ![C](/img/en/blog/202009/alpha-c-circle.png) Cierpliwość. Pierwsze uruchomienie po aktualizacji trwa dłużej - poczekaj cierpliwie.\n\n **Po aktualizacji pierwsze uruchomienie może trwać nawet 20 minut.**\n W tym czasie aktualizowane są biblioteki do integracji dodanych na bramce i baza danych jest migrowana do nowego formatu.\n **Poczekaj cierpliwie na zakończenie aktualizacji.**\n:::",
+      "source_content_hash": "ad8fdeaa6b3f40c9e947e0d0ca97c330a7c8844dae9594bb1d45ca083ea5ab38",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[耐心等待。]\n### ![C](/img/en/blog/202009/alpha-c-circle.png) 保持耐心。升级后首次启动耗时较长——请耐心等待。\n\n **升级后的首次启动可能长达20分钟。**\n 在此期间，网关会更新所有集成组件的依赖库，并将数据库迁移至新格式。\n **请耐心等待升级完成。**\n:::"
+      }
+    },
+    {
+      "segment_id": "11c76fcc",
+      "source_content": "## ![](/img/en/blog/202103/eva.png) Ewa",
+      "source_content_hash": "89195178d50c01563d9f9c715e2541c1c0c8d9b798f3df51d5e94bcf482544aa",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202103/eva.png) 艾娃"
+      }
+    },
+    {
+      "segment_id": "b36c6338",
+      "source_content": "W tej wersji aktualizujemy wiele pakietów, w tym Python do wersji 3.9.2 i mosquitto do wersji 2.0.7.\nO szczegółach pisaliśmy na blogu: [Python 3.9.2](https://ai-speaker.discourse.group/t/nowe-wersje-pakietow-binarnych-w-repozytorium-apt/1492) i [mosquitto  2.0.7](https://ai-speaker.discourse.group/t/broker-mqtt-nowe-mosquitto-2-0-7/1493)",
+      "source_content_hash": "2ad8b7f335f50a6e590dadbe89cf3a033880c1051740d5ff05c2495a62716b85",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "本次版本更新了多个软件包，包括升级Python至3.9.2版本、mosquitto至2.0.7版本。\n技术细节已发布在博客：[Python 3.9.2](https://ai-speaker.discourse.group/t/nowe-wersje-pakietow-binarnych-w-repozytorium-apt/1492) 与 [mosquitto 2.0.7](https://ai-speaker.discourse.group/t/broker-mqtt-nowe-mosquitto-2-0-7/1493)"
+      }
+    },
+    {
+      "segment_id": "4d52a261",
+      "source_content": "Aktualizujemy też aplikację Android, dzięki czemu cały system jest teraz ładniejszy i przechodzenie pomiędzy ekranami jest bardziej przejrzyste. O tym, jak to działa pisaliśmy na blogu [Ułatwienia na starcie](https://ai-speaker.discourse.group/t/aktualizacja-aplikacji-android-na-bramce-ulatwienia-na-starcie/1477)",
+      "source_content_hash": "15dbc59a6b0e47c24b5f1b35534cfaa321ab4a9e921c819e2615a04235645b5a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "同时更新了Android应用，使整个系统界面更美观，屏幕切换操作更直观。相关功能改进详见博客文章[启动优化](https://ai-speaker.discourse.group/t/aktualizacja-aplikacji-android-na-bramce-ulatwienia-na-starcie/1477)"
+      }
+    },
+    {
+      "segment_id": "40158b4b",
+      "source_content": "Zdajemy sobie sprawę, że te wszystkie \"rewolucyjne zmiany\", które wprowadzamy w oprogramowaniu, wymagają cierpliwości podczas instalacji.\nPrzy niektórych konfiguracjach może nawet podczas instalacji zdarzyć się jakiś wyjątek i komuś może pójść coś nie tak... jesteśmy na to przygotowani. Jeżeli ktoś ma problem z aktualizacją automatyczną, to zawsze może wykonać pełny reset aplikacji - pobrać startową paczkę z naszymi aktualnymi domyślnymi kodami.",
+      "source_content_hash": "a244a56fc5af10b6c0eb2b7b8fd4f43bd30801769aaa44d978b8d2f165bdae26",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们深知这些软件中的\"革命性变更\"在安装过程中需要耐心。某些配置下甚至可能在安装时出现异常情况...对此我们已做好准备。若用户遇到自动更新问题，始终可通过执行完整应用重置——下载包含我们最新默认代码的初始安装包来解决。"
+      }
+    },
+    {
+      "segment_id": "8b2a52b1",
+      "source_content": "Cała procedura opisna jest krok po kroku tu: [Pełny reset aplikacji](/docs/ais_bramka_reset_ais_step_by_step)\nTen groźnie brzmiący \"Pełny reset aplikacji\" to coś bardzo podobnego do wyczyszczenia danych w aplikacji Android i... tak naprawdę to nie jest takie straszne :)",
+      "source_content_hash": "77d13893ee785b5ce42b8fe97a47f8f0b811d864db0be3c96807267c30a09a11",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "完整操作步骤详见：[完整应用重置指南](/docs/ais_bramka_reset_ais_step_by_step)\n这个听似严重的\"完整应用重置\"实际上类似于安卓应用的清除数据功能...真的没有想象中那么可怕 :)"
+      }
+    },
+    {
+      "segment_id": "531437ca",
+      "source_content": "![Reset](/img/en/bramka/settings_ais_service_app_reset_1.jpeg)",
+      "source_content_hash": "65a68a3d3ef54fff79caf5f555a121dd9169c2f3769263821ef9323082e1859c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![重置](/img/en/bramka/settings_ais_service_app_reset_1.jpeg)"
+      }
+    },
+    {
+      "segment_id": "657c2b20",
+      "source_content": "Oczywiście rozumiemy, że nie każdemu ta procedura może się udać, bo TV/monitor nie działa, bo Internetu nie ma, bo zabrakło prądu... bo niech to Jolka zrobi! ;)",
+      "source_content_hash": "76156999b2aac18e5f088d3592adde6b4142a1067da2a23b511abcc345554ccc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "当然我们理解并非所有人都能顺利完成——可能电视/显示器故障、网络中断、突然断电...或是干脆想让Jolka代劳！;)"
+      }
+    },
+    {
+      "segment_id": "e7772088",
+      "source_content": "Dobra wiadomość jest taka, że **Jolka lubi programować urządzenia i chętnie to zrobi :) !**",
+      "source_content_hash": "b284a5c522bb47077979771f7daa6897e4ffc0fbedb52e6984556ca4ba2d5851",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "好消息是：**Jolka热衷设备编程且乐意效劳 :) !**"
+      }
+    },
+    {
+      "segment_id": "32ef4bd1",
+      "source_content": ":::caution[Macie pełne wsparcie!]\nGdyby coś się komuś nie udało, to nie martwcie się, już nie trzeba pisać na forum \"nie działa mi\" i czekać aż ktoś, krok po kroku będzie tłumaczył jak sprawdzić logi i wykonać procedurę opisaną x razy w dokumentacji i na forum ...\n\nJeżeli mamy problem z aktualizacją, to wystarczy odezwać się do Celiny, która wprowadziła [Usługę programowania urządzeń w AI-Speaker](https://ai-speaker.discourse.group/t/usluga-programowania-urzadzen-w-ai-speaker/1368), koszt jest symboliczny (na pakowanie i kawę w żabce dla Jolki).\n\n**Dzięki temu macie urządzenie zaprogramowane (osobiście przez Jolkę) najnowszym oprogramowaniem w AI-Speaker!**\n\nNa forum dostępne są szczegóły: [Usługa programowania urządzeń w AI-Speaker](https://ai-speaker.discourse.group/t/usluga-programowania-urzadzen-w-ai-speaker/1368)\n:::",
+      "source_content_hash": "912b8357d037962d68883ba6f02f1ab60669733065706446c2c3fe8ab85ca608",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[获得全面支持！]\n若遇到任何问题请勿担忧，现在无需在论坛发帖求助\"我的设备故障了\"，也无需等待他人逐步指导如何查看日志或重复执行文档/论坛中已说明多次的流程...\n\n遇到更新问题时，只需联系Celina启用[AI-Speaker设备编程服务](https://ai-speaker.discourse.group/t/usluga-programowania-urzadzen-w-ai-speaker/1368)，费用仅为象征性收取（用于包装和Jolka在便利店买咖啡）。\n\n**您将获得由Jolka亲自编程、搭载AI-Speaker最新固件的设备！**\n\n论坛详情：[AI-Speaker设备编程服务](https://ai-speaker.discourse.group/t/usluga-programowania-urzadzen-w-ai-speaker/1368)\n:::"
+      }
+    },
+    {
+      "segment_id": "a4bf4268",
+      "source_content": "### Automatyzacje uruchamiane głosowo",
+      "source_content_hash": "9a05b2c4db9589d78cc699b0ecfdd90b5128a1389640cdc216bc0e6575e67264",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 语音触发自动化"
+      }
+    },
+    {
+      "segment_id": "ec619944",
+      "source_content": "Z tematu na forum [Co powiedziała Jolka](https://ai-speaker.discourse.group/t/co-powiedziala-jolka/1544/14) zrodził się pomysł na ciekawą funkcjonalność.\nOto najprostszy sposób na dodanie własnej komendy głosowej - poprzedzenie nazwy automatyzacji zwrotem \"Jolka: [własna komenda]\".",
+      "source_content_hash": "1cbf27056beb7df769dbb14f1fcee03f242e6bf93802b5cfb89b8a199f1966d6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "来自论坛话题[Jolka说了什么](https://ai-speaker.discourse.group/t/co-powiedziala-jolka/1544/14)的灵感催生了这项有趣功能。\n现在添加自定义语音指令的最简方式——在自动化名称前添加\"Jolka: [自定义指令]\"前缀即可。"
+      }
+    },
+    {
+      "segment_id": "74dd7937",
+      "source_content": "![Działanie komend](/img/en/frontend/jolka-assistant-automation.jpeg)",
+      "source_content_hash": "d418fa462dd63e6296cdd3a25e0c002f21c4e7d8259f62d1567f799ce28e4c4c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![指令操作示意](/img/en/frontend/jolka-assistant-automation.jpeg)"
+      }
+    },
+    {
+      "segment_id": "5803caac",
+      "source_content": "Szczegóły [Dodawanie komendy](/docs/ais_app_assistent_add_command/)",
+      "source_content_hash": "537ec391fc078e33d5ae5b268bb9b183cad8d98e9a791add89ea51a28d2f66ec",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "详情参见[添加语音指令](/docs/ais_app_assistent_add_command/)"
+      }
+    },
+    {
+      "segment_id": "f6b04a59",
+      "source_content": "### Dodawanie mediów",
+      "source_content_hash": "3d015e33cb12cd536e988aba45063a704879e096b237f9897bf53b18650c477e",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 媒体资源添加"
+      }
+    },
+    {
+      "segment_id": "a311e967",
+      "source_content": "W łatwy sposób możesz dodać nowe radio internetowe - wystarczy wypełnić prosty formularz.\nNowo dodawane media możesz też udostępnić dla innych użytkowników:",
+      "source_content_hash": "81562e2ed22ce6e33ff17dfd03bcd83c13c624891e9dd4a2a04fcbf72df8b0f6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "现在可通过简易表单轻松添加网络电台，新增的媒体资源还可共享给其他用户："
+      }
+    },
+    {
+      "segment_id": "2822251a",
+      "source_content": "![Dodaj radio](/img/en/frontend/ais_add_media_3.png)",
+      "source_content_hash": "82a1b411b84ba3d7b3e8656bd29ac6bf1ef36db2b4447aa5265bf21509cffb0b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![添加电台](/img/en/frontend/ais_add_media_3.png)"
+      }
+    },
+    {
+      "segment_id": "25212439",
+      "source_content": "Szczegóły [Dodawanie mediów](/docs/ais_app_add_media)",
+      "source_content_hash": "b97725767afa335064a42e9007d506fef14082befdd1da3135cba17a0b86f9b8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "详情请见[添加媒体](/docs/ais_app_add_media)"
+      }
+    },
+    {
+      "segment_id": "94145a94",
+      "source_content": "### Selektory",
+      "source_content_hash": "6518dafc3d88307eec590468abe16f0e20c385f8e96572821bbc780d0a542ae4",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 选择器"
+      }
+    },
+    {
+      "segment_id": "2838eb68",
+      "source_content": "Nie trzeba wpisywać już identyfikatorów w YAML, żeby wywołać usługę. Wystarczy wypełnić formularz wpisując lub wybierając wartości z list.\nTo wyeliminuje sporo problemów i przypadkowych błędów :+1:\nTen sam mechanizm będzie nie tylko w narzędziach deweloperskich, ale też w szablonach automatyzacji, skryptach i automatyzacjach.",
+      "source_content_hash": "4393ff68535f39f0ee5b53cbf579af87213d6cfb84fc9414467922e90e0c181f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "现在无需在YAML中手动输入标识符来调用服务，只需在表单中填写或从列表选择数值即可。这将大幅减少错误发生率 👍  \n该机制不仅适用于开发者工具，还将应用于自动化模板、脚本和场景配置。"
+      }
+    },
+    {
+      "segment_id": "0e80209e",
+      "source_content": "![](/img/en/blog/202103/selektory.png)",
+      "source_content_hash": "5bd76a4afe3452639ee488aca527db99e1716b139d867c9543d43c545e5de4ad",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202103/selektory.png)"
+      }
+    },
+    {
+      "segment_id": "8574d51c",
+      "source_content": "### ![](/img/en/blog/202102/honeybee.png) Zigbee2Mqtt",
+      "source_content_hash": "66a9914e72acab290690746f63dbd2e2db4834db52483737dfde28177b71768b",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### ![](/img/en/blog/202102/honeybee.png) Zigbee2Mqtt"
+      }
+    },
+    {
+      "segment_id": "d21af28f",
+      "source_content": "Aktualizacja Zigbee2Mqtt do najnowszej wersji 1.8.1\nNowy Dashboard, sporo poprawek, wsparcie dla nowych urządzeń, wszystkie szczegóły tu [1.18.1](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.18.1)",
+      "source_content_hash": "d0ebd19fbc572dada5362dc1e259bd22a535200dbd34594edae9a0ee186d194b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "已升级至Zigbee2Mqtt 1.8.1最新版本  \n新增控制面板、多项修复、支持新设备，完整更新日志详见[1.18.1](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.18.1)"
+      }
+    },
+    {
+      "segment_id": "1958bc43",
+      "source_content": "![z2m](/img/en/blog/202103/z2m.png)",
+      "source_content_hash": "3e70d93a8fb28569f5acf7697abaf34306b236a6bc4433a1eddfe509cf3a2f03",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![z2m](/img/en/blog/202103/z2m.png)"
+      }
+    },
+    {
+      "segment_id": "558df877",
+      "source_content": "Gdyby ktoś miał problem ze swoim adapterem Zigbee to tak jak już wspominaliśmy - dodaliśmy usługę programania urządzeń - szczegóły na forum:",
+      "source_content_hash": "a64a07817ce2c4d7cc0814623ead98773b459318082b3ef31a083269effb5c17",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "若您的Zigbee适配器遇到问题，我们已提供设备编程服务（详情见论坛）："
+      }
+    },
+    {
+      "segment_id": "f38d1cb0",
+      "source_content": "[![](/img/en/blog/202102/ais_devices_suport.png)](https://ai-speaker.discourse.group/t/usluga-programowania-urzadzen-w-ai-speaker/1368)",
+      "source_content_hash": "436f436df61fa7cec7ef34d508193d51511d7b469e583387723ed2a3873b155a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "[![](/img/en/blog/202102/ais_devices_suport.png)](https://ai-speaker.discourse.group/t/usluga-programowania-urzadzen-w-ai-speaker/1368)"
+      }
+    },
+    {
+      "segment_id": "36d6c3de",
+      "source_content": "### ![](/img/en/blog/202101/hass.png) Asystent domowy",
+      "source_content_hash": "c88eb95cf5f4ecbf0bf89865b0f4583cce01d1d6c074e8bb9bc40d03ddba2dcd",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### ![](/img/en/blog/202101/hass.png) 家庭助理"
+      }
+    },
+    {
+      "segment_id": "c364340c",
+      "source_content": "Najnowsza wersja Asystenta domowego, czyli naszego pakietu ``ais-dom`` bazującego na najnowszym stabilnym Home Assistant Core.",
+      "source_content_hash": "4f36ed4bd7e6fdbae4e71f7081f263804cfb8884b40cb03ecec164f202f07f42",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "最新版家庭助理「ais-dom」套件基于当前最稳定的Home Assistant Core构建。"
+      }
+    },
+    {
+      "segment_id": "f45239ba",
+      "source_content": "![Asystent domowy](/img/en/blog/202103/social.png)",
+      "source_content_hash": "80d7aa92e0b6546281c079fc44a85b6d91d988c631d18065bf9b1836e0189377",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![家庭助理](/img/en/blog/202103/social.png)"
+      }
+    },
+    {
+      "segment_id": "692c6053",
+      "source_content": "Szczegółowy opis zmian w Home Assistant dostępny na blogu projektu Home Assistant: [2021.3: My Oh My](https://www.home-assistant.io/blog/2021/03/03/release-20213/)",
+      "source_content_hash": "e736b7ce15ce9ac584cdccac76fc577058f609015220d8bbd63193d582ae90ae",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Home Assistant的详细更新内容请参阅官方博客：[2021.3: My Oh My](https://www.home-assistant.io/blog/2021/03/03/release-20213/)"
+      }
+    },
+    {
+      "segment_id": "c6868a9f",
+      "source_content": "## ![](/img/en/blog/202103/dev3.png) DEV3",
+      "source_content_hash": "61a4f03bb711ae9b2c36b5c377248828635a0363a0b7cbbab87371078818ed59",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202103/dev3.png) DEV3"
+      }
+    },
+    {
+      "segment_id": "bb1346b6",
+      "source_content": "Wprowadzamy nową bramkę DEV3 - najnowszą i (jak dotychczas) najszybszą i najprostszą w konfiguracji i obsłudze bramkę AIS.",
+      "source_content_hash": "d6ae4c0456f77689c5df41e4d691a51059d5a9e6340538f8f496441aaf40108c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们推出全新DEV3网关——这是目前配置最简单、运行最快速的AIS网关设备。"
+      }
+    },
+    {
+      "segment_id": "8664ed0b",
+      "source_content": "Bramka miała swoją premierę na forum [DEV3 - nowa bramka AIoT już jest](https://ai-speaker.discourse.group/t/dev3-nowa-bramka-aiot-juz-jest/1496) i zaliczyła \"lekki falstart\", bo okazało się, że da się wgnieść jej dekielek... co nie wyglądało za dobrze.",
+      "source_content_hash": "a55688d0c0c24415ee4969c6654d7ce0728505bda0e13015a2e36e5f65a5e8f9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该设备在论坛首发[DEV3 - 全新AIoT网关现已上市](https://ai-speaker.discourse.group/t/dev3-nowa-bramka-aiot-juz-jest/1496)时遭遇\"小插曲\"，其顶盖被发现存在易凹陷问题。"
+      }
+    },
+    {
+      "segment_id": "9e90a9b3",
+      "source_content": "![](/img/en/blog/202103/dev3_dekielek.png)",
+      "source_content_hash": "64767e6ed14c5a72fb722d96498cb7a61e2d2d27f79051086266a4e51597e2ac",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202103/dev3_dekielek.png)"
+      }
+    },
+    {
+      "segment_id": "681ef526",
+      "source_content": "Zdecydowaliśmy się na wstrzymanie sprzedaży i zmianę dekielka na twardszy. Nowe dekielki już do nas jadą:",
+      "source_content_hash": "3d530fa82b703c5e1a4b258e8465c7e1c2c68c5139f801c9b889442f45f350d5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们已暂停销售并更换为更坚固的新顶盖，目前新部件正在运输途中："
+      }
+    },
+    {
+      "segment_id": "be17ccc3",
+      "source_content": "![](/img/en/blog/202103/dekielek1.png)",
+      "source_content_hash": "89ba2910909685aa991cdf34063c61d9267fc819668ec0b75887b68430472860",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202103/dekielek1.png)"
+      }
+    },
+    {
+      "segment_id": "719d3997",
+      "source_content": "Wznowienie sprzedaży i możliwość \"wymiany dekielków\" zaoferujemy na spokojnie po Świętach.",
+      "source_content_hash": "f18af3be06291506a6c4c1472552d55743d5b78fbfabd88b24a6f66659a6d2f4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "复活节假期结束后，我们将有序恢复销售并提供\"顶盖更换\"服务。"
+      }
+    },
+    {
+      "segment_id": "42d9ca67",
+      "source_content": "Parametry nowej bramki są opisane tu: [Bramka AIoT](/docs/ais_bramka_index), dodaliśmy też nowy konfigurator, który ma ułatwić [Pierwsze uruchomienie](/docs/ais_bramka_first_run_the_gate).",
+      "source_content_hash": "38c829a9c6f46837115e29d2e4847d35d5adc6bcc74f94466aad193c9b105428",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "新网关的参数在此处描述：[AIoT网关](/docs/ais_bramka_index)，我们还新增了一个配置工具以简化[首次启动](/docs/ais_bramka_first_run_the_gate)流程。"
+      }
+    },
+    {
+      "segment_id": "c66a3543",
+      "source_content": "-------",
+      "source_content_hash": "11d925ecde7d1b6aa2c2881df15ce7b8553e7f48b782e061b658f050a673013f",
+      "node_type": "thematicBreak",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "-------"
+      }
+    },
+    {
+      "segment_id": "44285072",
+      "source_content": "**Z okazji zbliżających się Świąt Wielkanocnych pragniemy złożyć najserdeczniejsze życzenia zdrowych, pogodnych, wypełnionych miłością Świąt. **",
+      "source_content_hash": "1d3f329b06d826cabd258580923500a5ff0a297cd7b74e7552b09cbd9c438890",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "**值此复活节来临之际，我们衷心祝愿您度过一个健康、祥和、充满爱的节日。**"
+      }
+    },
+    {
+      "segment_id": "a8f09c71",
+      "source_content": "![AIS](/img/en/blog/202103/eva.png)",
+      "source_content_hash": "3d9f3cb974fd51881eff1aef12553e7df303e47059b76ae6f81a95ee21fb8b69",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS](/img/en/blog/202103/eva.png)"
+      }
+    },
+    {
+      "segment_id": "d2a3d4c7",
+      "source_content": "**Spokojnych i Wesołych Świąt.**",
+      "source_content_hash": "f0e23415f3ad0c8b5f74592c6b48b366af1a9a6d0276e37356eed137aa72fa2a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "**复活节平安喜乐。**"
+      }
+    },
+    {
+      "segment_id": "d4eab4a6",
+      "source_content": "##### AI-Speaker 03/2021",
+      "source_content_hash": "ffafc3d01fd0c49a4ceb7e001ad38034defc5b0b87426c1d6d8c0aee8c775899",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "##### AI-Speaker 2021年3月版"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2021-03-31-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.101297+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "e29dc0223e6dde8b052d3b8bd2e487182a343b62b08947c925d3468d219fc88d"
+  }
+}

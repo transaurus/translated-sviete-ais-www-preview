@@ -1,0 +1,72 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2018-10-08-release-notes.md",
+  "source_file_content_hash": "fed5e8099557168921901eeebcb455373d01306ea3cbca86eb07365b97c297fa",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Andrzej Raczkowski\nauthorURL: https://github.com/sviete\nauthorFBID: 1546384510\ntitle: Wersja systemu 0.79.5  \n---",
+      "source_content_hash": "93273a5fb19912666844d22c8c89896a7797fb66c47f1583db7d8b493b837ce2",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Wersja systemu 0.79.5 z dnia 10 października 2018 roku,",
+      "source_content_hash": "4242fff751a0bca37829cb7d651461adb731021788ac09b70916bae49b751557",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 2018年10月10日发布的系统版本0.79.5，"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "w tej wersji dodano:",
+      "source_content_hash": "3872a90319800ef209dc86e7768257437634efb2d0bd4158297f09cf8d4b1322",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该版本新增功能："
+      }
+    },
+    {
+      "segment_id": "be33979e",
+      "source_content": "- sterowanie oświetleniem z pilota radiowego\n- poprawiono zakładki do audio na dyskach\n- dodano automatyczne przechodzenie do sterowania odtwarzaczem przy uruchomieniu audio w trybie sterowania bez monitora",
+      "source_content_hash": "16e8ebccd1c92a10928b54cc72ff65ad62cffad1ee373ba39220c05412fa5a2b",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 通过射频遥控器控制照明\n- 优化了磁盘音频书签功能\n- 新增无显示器控制模式下启动音频时自动切换至播放器控制界面"
+      }
+    },
+    {
+      "segment_id": "cf898102",
+      "source_content": "nowe komendy:",
+      "source_content_hash": "7e1aa5673551cbe09ff059b6dff38f93a8b9ca899dd426d6a000af77f007d9ce",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "新增语音指令："
+      }
+    },
+    {
+      "segment_id": "4ddf6ae7",
+      "source_content": "- aby dodać do ulubionych aktualne audio: \"Dodaj do ulubionych\", \"Lubię to\"\n- aby sprawdzić 5 ostatnich zakładek: \"Jakie mam zakładki\", \"Jakie są zakładki\"\n- aby odtworzać ostatnią zakładkę: \"Włącz ostatnią zakładkę\", \"Włącz zakładkę\", \"Ostatnia zakładka\"",
+      "source_content_hash": "55ad56ada03e0d85be513b827848b6d319cc60c2d29b85c5bec8e3db915f5e6d",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 收藏当前音频：\"添加到收藏\"、\"我喜欢这个\"\n- 查询最近5个书签：\"我的书签有哪些\"、\"有哪些书签\"\n- 播放最近书签：\"播放最后一个书签\"、\"播放书签\"、\"最后一个书签\""
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2018-10-08-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.095590+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "fed5e8099557168921901eeebcb455373d01306ea3cbca86eb07365b97c297fa"
+  }
+}

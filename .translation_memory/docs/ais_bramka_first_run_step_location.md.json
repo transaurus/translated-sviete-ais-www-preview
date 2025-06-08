@@ -1,0 +1,62 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_first_run_step_location.md",
+  "source_file_content_hash": "ef97db654f3c7bb7774b37dfc5cf6307a90dbce4646d53741b659ee2071aa22d",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Pierwsze uruchomienie - Lokalizacja\"\nsidebar_label: Lokalizacja\n---",
+      "source_content_hash": "472ff30829cd4729b9a8caffcdcf663efedcc9521cbc36564ea73d8b3fbcae7b",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "4d1292be",
+      "source_content": "import BrowserWindow from '@site/src/components/BrowserWindow';",
+      "source_content_hash": "c30f3ec38b8fe46ed14acfdf630f27b5f382afaea44d9df375ff4baf3311b08e",
+      "node_type": "mdxjsEsm",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_4d1292be"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Asystent domowy chciałby wiedzieć gdzie mieszkasz. Pomoże to w wyświetlaniu informacji i konfigurowaniu automatyki opartej na położeniu Słońca.",
+      "source_content_hash": "5953894de0d3b18bfe36122aee770024c11fb6ef3e7eedbc40c09345c70e5e66",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "家庭助手需要了解您的居住位置。这将有助于显示基于太阳位置的信息和自动化配置。"
+      }
+    },
+    {
+      "segment_id": "775b7fa4",
+      "source_content": "<BrowserWindow url=\"http://ais-dom.local\">\n<center>\n![Lokalizacja](/img/en/bramka/onboarding_step_3.png)\n</center>\n</BrowserWindow>",
+      "source_content_hash": "031a8e4a14f78246c74b7b7f29bbb3d157580e383ff569642d8ca58491cb07af",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_775b7fa4"
+      }
+    },
+    {
+      "segment_id": "86b54d44",
+      "source_content": "W tym kroku możemy pomóc Ci wprowadzić informacje dotyczące Twojej lokalizacji i ustawień regionalnych, wysyłając jednorazowe zapytanie do serwisu https://ipapi.co",
+      "source_content_hash": "40e9ff898cbc5d571febdc6db621477ef15091989210e77bcb91091075ecc8c4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在此步骤中，我们可以通过向 https://ipapi.co 服务发送一次性请求，帮助您输入位置信息和区域设置。"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_first_run_step_location.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.093241+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "ef97db654f3c7bb7774b37dfc5cf6307a90dbce4646d53741b659ee2071aa22d"
+  }
+}

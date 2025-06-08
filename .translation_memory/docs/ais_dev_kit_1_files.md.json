@@ -1,0 +1,42 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_dev_kit_1_files.md",
+  "source_file_content_hash": "c36dd4c083be2a6e25d107caf33dd408ce937ba9f60fcf723c737f2c762566ee",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Dokumentacja w PDF\"\nsidebar_label: Dokumentacja w PDF\n---",
+      "source_content_hash": "90cc9f2ac81c211d9e73a0dc47468cd0b77c0a27fd11efaf8d0f9912acf4f633",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Pliki do pobrania",
+      "source_content_hash": "7d986ec95f59c154ff6b87c4760e74c109024d00c32dafb70b5d3f44889c2e71",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 下载文件"
+      }
+    },
+    {
+      "segment_id": "afe418c2",
+      "source_content": "||autor|plik|\n|--------|-----|----|\n|Instrukcja |AIS|[AI-SPEAKER DEV KIT 1.pdf](https://github.com/sviete/AIS-3D-MODELS/raw/master/AIS_DEV_KIT_1_Spherical_Speaker_Dayton_PS95-8/files/AI-SPEAKER%20DEV%20KIT%201.pdf)|\n|BK3266 Datasheet|Beken|[BK3266 Datasheet.pdf](https://github.com/sviete/BK3266/raw/master/doc/BK3266%20Datasheet.pdf)|\n|PS95-8 Specification Sheet |Dayton Audio|[PS95-8-spec-sheet.pdf](https://github.com/sviete/AIS-3D-MODELS/raw/master/AIS_DEV_KIT_1_Spherical_Speaker_Dayton_PS95-8/files/dayton-audio-ps95-8-spec-sheet.pdf)|\n|PS95-8 Data Files |Dayton Audio|[PS95-8_data.zip](https://github.com/sviete/AIS-3D-MODELS/raw/master/AIS_DEV_KIT_1_Spherical_Speaker_Dayton_PS95-8/files/PS95-8_data.zip)|",
+      "source_content_hash": "0e569b57e7173149bbc1ae2ca41d8f44f896dbe5b12aa9cd018ed97942c3aba1",
+      "node_type": "table",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_afe418c2"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_dev_kit_1_files.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.087063+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "c36dd4c083be2a6e25d107caf33dd408ce937ba9f60fcf723c737f2c762566ee"
+  }
+}

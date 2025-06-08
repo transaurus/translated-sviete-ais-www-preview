@@ -1,0 +1,312 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2023-01-02-release-notes.md",
+  "source_file_content_hash": "71b09b117cc26d310fb564490076a6b96a0d1c138978832636651ec5dc445c95",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Jola AI-Speaker\nauthorURL: https://github.com/sviete\nauthor_title: Asystentka\nauthorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4\ntitle: Wersja systemu Nikodem\ntags: [\"mqtt\", \"home assistant\", \"zigbee\"]\n---",
+      "source_content_hash": "53134a1aee32e1c3f4a05339cd2e5f62fb0e82ab7d1a65aa6456a250efbfd38f",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "775b7fa4",
+      "source_content": "<div class=\"IntroAisBlogMenu\" >\n\n![AIS](/img/en/blog/202212/ais_version.png)\n\n</div>",
+      "source_content_hash": "424738286ff2d8bdd4643ed3d6247139f1d989b27ec60429a4df55968be6a9ba",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_775b7fa4"
+      }
+    },
+    {
+      "segment_id": "cc2c29e1",
+      "source_content": "<!--truncate-->",
+      "source_content_hash": "f5cded2aa7e288e395fe4f67f9dabda2281904b2f5358d07302b3aa8be0acdfa",
+      "node_type": "comment",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_cc2c29e1"
+      }
+    },
+    {
+      "segment_id": "bc633244",
+      "source_content": "## ABC bezproblemowej aktualizacji",
+      "source_content_hash": "c90f3410f68be4e7ee6017947af078313ab12a12edc09598ec43646aef83e69a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 无忧升级指南"
+      }
+    },
+    {
+      "segment_id": "8a545039",
+      "source_content": ":::tip[Kopia ![A](/img/en/blog/202112/cloud-upload.png)]\n\nPrzed aktualizacją zalecamy wykonać [kopię zapasową konfiguracji](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji).\nW ten sposób sprawdzisz poprawność swojej konfiguracji przed rozpoczęciem aktualizacji i zwiększysz prawdopodobieństwo bezproblemowej aktualizacji.\n\n:::",
+      "source_content_hash": "5643a7151e9926b3a00b5ce4628381525d22239fc3f434c5b14f7c9f906f3ef1",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::tip[备份 ![A](/img/en/blog/202112/cloud-upload.png)]\n\n升级前建议先进行[配置备份](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji)。通过这种方式，您可以在升级前验证配置的正确性，并提高顺利升级的概率。\n\n:::"
+      }
+    },
+    {
+      "segment_id": "57971bfb",
+      "source_content": ":::important[Konsola ![B](/img/en/blog/202112/console.png)]\n\nW razie problemów z aktualizacją z aplikacji, uruchom [aktualizację z konsoli](/docs/ais_bramka_update_manual), w ten sposób będziesz miał na bieżąco wgląd w logi i postęp aktualizacji oraz będziesz mógł zdiagnozować przyczynę problemu.\n:::",
+      "source_content_hash": "4fed83a5ffc956e873f963ac62595f6ce5cd3aa02adbcbbd1353fb0c858f7ff4",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::important[控制台 ![B](/img/en/blog/202112/console.png)]\n\n若遇应用升级问题，请通过[控制台手动升级](/docs/ais_bramka_update_manual)，实时查看日志和升级进度，便于诊断问题根源。\n:::"
+      }
+    },
+    {
+      "segment_id": "b56ef571",
+      "source_content": ":::caution[Poczekaj ![C](/img/en/blog/202112/timer-sand.png)]\n\nAktualizacja i pierwsze uruchomienie po aktualizacji może trwać dłużej - poczekaj cierpliwie.\nW każdej chwili możesz sprawdzić status systemu (dowiedzieć się co robi bramka) w konsoli komendą ``htop`` i/lub ``pm2 logs``\n:::",
+      "source_content_hash": "6a90253a92f78c58d9aea94706b0e33c103e50d35b155765247fcc562194dbe1",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[耐心等待 ![C](/img/en/blog/202112/timer-sand.png)]\n\n升级过程及升级后的首次启动可能耗时较长——请保持耐心。您随时可通过控制台命令``htop``或``pm2 logs``查看系统状态（了解网关当前运行情况）。\n:::"
+      }
+    },
+    {
+      "segment_id": "782c902a",
+      "source_content": "## Potrzebujesz pomocy?",
+      "source_content_hash": "956b7e8ea86a9b9579143ca01a276903027a06d8c08bc7e5d4acb7b42fa6e748",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 需要帮助？"
+      }
+    },
+    {
+      "segment_id": "f331c5ef",
+      "source_content": ":::warning[Reset ![D](/img/en/blog/202112/broom.png)]\nJeżeli nie jesteś w stanie zdiagnozować problemu - nie przejmuj się, jesteśmy przygotowani, żeby Ci pomóc.\nStworzyliśmy specjalnie dla Ciebie prostą procedurę, która pomoże przywrócić domyślne kody i ustawienia systemu - zapoznaj się z opisem: [Wykonanie pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step).\n:::",
+      "source_content_hash": "93abd411ff6bfc7345ceb093925d8f11bd2258e1b2547e6f9328900d5aca12cb",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::warning[重置 ![D](/img/en/blog/202112/broom.png)]\n若无法自行诊断问题——无需担心，我们已做好协助准备。我们专门为您设计了简易流程来恢复默认代码和系统设置，详见：[执行完整应用重置](/docs/ais_bramka_reset_ais_step_by_step)。\n:::"
+      }
+    },
+    {
+      "segment_id": "fac21652",
+      "source_content": ":::important[Programowanie w serwisie ![D](/img/en/blog/202112/lifebuoy.png)]\nJeżeli nie jesteś w stanie wykonać procedury pełnego resetu i Twój system nadal nie działa, to możesz wysłać nam urządzenie do zaprogramowania.\nSzczegóły opisane na forum w wątku: [Programowanie w serwisie](https://ai-speaker.discourse.group/t/usluga-programowania-urzadzen-w-ai-speaker/1368)\n:::",
+      "source_content_hash": "3c76a03e6f8acceb87380ac776c02dcd5df627103682135b1bc85d6efccaf670",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::important[返厂编程 ![D](/img/en/blog/202112/lifebuoy.png)]\n若无法完成完整重置流程且系统仍无法运行，您可将设备寄回我们进行编程。论坛帖子详述：[返厂编程服务](https://ai-speaker.discourse.group/t/usluga-programowania-urzadzen-w-ai-speaker/1368)\n:::"
+      }
+    },
+    {
+      "segment_id": "c6cc90a0",
+      "source_content": "## ![](/img/en/blog/202212/ais_version.png) Nikodem",
+      "source_content_hash": "3d9c30e7847f9aae3f6a166856df27a0f841cab07a94b544e23ef1be4e5df840",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202212/ais_version.png) Nikodem版本"
+      }
+    },
+    {
+      "segment_id": "d3649a1e",
+      "source_content": "W tej wersji systemu przechodzimy na pakiety Termux. Termux to otwarty emulator terminala dla Androida, który pozwala na uruchomienie środowiska Linux na urządzeniu z Androidem. Ponadto za pomocą menedżera pakietów aplikacji można zainstalować dodatkowe oprogramowanie. Pakiety Linuxa w Termux są skompilowane z Android NDK i mają poprawki zgodności, aby działały na Androidzie.",
+      "source_content_hash": "fa265bd748f26de5e2b60dbaae36aa9a3503560290f8ee4ac5d9edd4a18c50cd",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "本次系统升级将迁移至Termux软件包。Termux是Android的开源终端模拟器，可在Android设备上运行Linux环境，并通过应用包管理器安装额外软件。Termux中的Linux软件包经Android NDK编译，并针对Android兼容性进行了优化。"
+      }
+    },
+    {
+      "segment_id": "4d52a261",
+      "source_content": "![](/img/en/blog/202212/termux.png)",
+      "source_content_hash": "539fbb3875045c4b71027fa435c80775dd93a69f26f6ce65082dc505c5599881",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202212/termux.png)"
+      }
+    },
+    {
+      "segment_id": "23dfb152",
+      "source_content": "W repozytoriach Termux znajduje się ponad 1000 pakietów. Dodatkowo możesz skompilować własne pakiety bo Termux dostarcza też różne narzędzia do budowania, w tym kompilatory dla języków takich jak C, C++, Go, Rust. Dostępne są również interpretery dla popularnych języków, takich jak NodeJS, Python, Ruby.",
+      "source_content_hash": "9b1d0c3bd59f9d0ac002e1a93d3ed543010e851e172c1ef520f0ead8e6989f17",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Termux仓库包含逾1000个软件包。您还可自行编译定制包，因Termux提供包括C、C++、Go、Rust等语言的编译器在内的多种构建工具，以及NodeJS、Python、Ruby等流行语言的解释器。"
+      }
+    },
+    {
+      "segment_id": "974ac4b5",
+      "source_content": ":::caution[**Przejście na binarki Termux zalecane jest tylko na nowych bramkach DEV-3 i PRO-1**,]\nosoby które mają starsze bramki zachęcemy do zakupu nowszej bramki w promocji opisanej na forum: [Na problemy - PROMOCJA](https://ai-speaker.discourse.group/t/na-problemy-promocja/3122)\n:::",
+      "source_content_hash": "8bf50919907d0f962cdc9bf20ebd54b19de4d25411d621452e63f089cbcaceab",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[**仅建议在新型号DEV-3和PRO-1网关上迁移至Termux二进制版本**，]\n对于使用旧款网关的用户，我们鼓励您参与论坛描述的促销活动购买新款设备：[疑难解答专属优惠](https://ai-speaker.discourse.group/t/na-problemy-promocja/3122)\n:::"
+      }
+    },
+    {
+      "segment_id": "531437ca",
+      "source_content": "[![](/img/en/blog/202301/promo.jpeg)](https://ai-speaker.discourse.group/t/na-problemy-promocja/3122)",
+      "source_content_hash": "1af705bba11cdf5fb0e17ee612b713dce423958c6b36688ea85bc0ad7a64aa0e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "[![](/img/en/blog/202301/promo.jpeg)](https://ai-speaker.discourse.group/t/na-problemy-promocja/3122)"
+      }
+    },
+    {
+      "segment_id": "06e24cc0",
+      "source_content": "Na poniższym diagramie zobrazowaliśmy jak uzyskać aktualizację w zależności od modelu bramki.",
+      "source_content_hash": "e0a79e51277256b43a04e55ddd696f31f3dc736e57056a85d2670f5086011709",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "下方流程图清晰展示了不同型号网关的升级路径。"
+      }
+    },
+    {
+      "segment_id": "29ad5b0e",
+      "source_content": "```mermaid\nsequenceDiagram\n    participant DEV-1 DEV-2 DEV-BT\n    loop Sprawdzenie wersji\n        DEV-1 DEV-2 DEV-BT->>DEV-1 DEV-2 DEV-BT: Twój system jest aktualny. Wersja AIS Serwer\n    end\n    Note right of DEV-1 DEV-2 DEV-BT: Starsza wersja bramki <br/>brak aktualizacji.\n    participant DEV-3 PRO-1\n    DEV-3 PRO-1->>DEV-3 PRO-1 na Termux: Aktualizacja do Termux\n    participant DEV-3 PRO-1 na Termux\n    DEV-1 DEV-2 DEV-BT-->>DEV-3 PRO-1 na Termux: Zakup bramki DEV-3 lub PRO-1\n    loop Sprawdzenie wersji\n        DEV-3 PRO-1 na Termux->>DEV-3 PRO-1 na Termux: Aktualizacja do najnowszej wersji\n    end\n    Note right of DEV-3 PRO-1 na Termux: Nowsza wersja bramki <br/>aktualizacja oprogrmowania!\n```",
+      "source_content_hash": "a655536d74928205be5730a7e3ae37e2176b549457e8fbd87bdf94fa2fbecaaa",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_29ad5b0e"
+      }
+    },
+    {
+      "segment_id": "8126f763",
+      "source_content": "Jak przejść na Termux opisaliśmy krok po kroku na forum: [Przejscie na binarki Termux](https://ai-speaker.discourse.group/t/przejscie-na-binarki-termux/2977)",
+      "source_content_hash": "b1c5ccdfbf8512b45d6aa95f02bcca5f3a7f411093714c6fa839bd722a38088f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们在论坛提供了Termux迁移的逐步指南：[迁移至Termux二进制指南](https://ai-speaker.discourse.group/t/przejscie-na-binarki-termux/2977)"
+      }
+    },
+    {
+      "segment_id": "74dd7937",
+      "source_content": "Co i jak można zrobić w Termux opisane jest na stronach: [Termux Wiki](https://wiki.termux.com/wiki/Getting_started)",
+      "source_content_hash": "b5f3b856524053080797c452bc5fda406d4602a18c6c8fef9d424c3e0ce795fa",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Termux功能及操作说明详见：[Termux维基百科](https://wiki.termux.com/wiki/Getting_started)"
+      }
+    },
+    {
+      "segment_id": "bd30d33e",
+      "source_content": "### ![](/img/en/blog/202102/honeybee.png) Zigbee2Mqtt",
+      "source_content_hash": "66a9914e72acab290690746f63dbd2e2db4834db52483737dfde28177b71768b",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### ![](/img/en/blog/202102/honeybee.png) Zigbee2Mqtt"
+      }
+    },
+    {
+      "segment_id": "6b77b644",
+      "source_content": "Aktualizacja Zigbee2Mqtt do najnowszej wersji.\nW najnowszej wersji jest obsługiwanych [ponad 2500 urządzeń od ponad 340 producentów](https://www.zigbee2mqtt.io/supported-devices/):",
+      "source_content_hash": "e777a165e7436bbadac3aac742ba64cb88e5ba3aea3b7939d5f161c987764c60",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Zigbee2Mqtt已更新至最新版本。\n新版本支持[来自340余家制造商的2500余款设备](https://www.zigbee2mqtt.io/supported-devices/)："
+      }
+    },
+    {
+      "segment_id": "eb51d107",
+      "source_content": "[![](/img/en/blog/202301/z2m.png)](https://www.zigbee2mqtt.io/supported-devices/)",
+      "source_content_hash": "de473e7822ff1bf510b2d9a5c969bb3fe46ea0afb77dc56915baba188cbee235",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "[![](/img/en/blog/202301/z2m.png)](https://www.zigbee2mqtt.io/supported-devices/)"
+      }
+    },
+    {
+      "segment_id": "1862c5fe",
+      "source_content": "Szczegóły w dokumentacji Zigbee2Mqtt: https://www.zigbee2mqtt.io/",
+      "source_content_hash": "088a8af47cce486d05729b0122a01617ee5b6d14bc31493150272caa5a55a9e7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "详见Zigbee2Mqtt官方文档：https://www.zigbee2mqtt.io/"
+      }
+    },
+    {
+      "segment_id": "94145a94",
+      "source_content": "### ![](/img/en/blog/202101/hass.png) Asystent domowy",
+      "source_content_hash": "c88eb95cf5f4ecbf0bf89865b0f4583cce01d1d6c074e8bb9bc40d03ddba2dcd",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### ![](/img/en/blog/202101/hass.png) 家庭助理"
+      }
+    },
+    {
+      "segment_id": "c1eaf30b",
+      "source_content": "Najnowsza wersja Asystenta domowego, czyli naszego pakietu ``ais-dom`` bazującego na Home Assistant Core.\nW najnowszej wersji [dostępne jest ponad 2480 integracji](https://www.home-assistant.io/integrations/):",
+      "source_content_hash": "bc5ee018fbc010e7eb7ee4366db8770eca573eaddf4dd0d130e3150df6917b38",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "家庭助理最新版本（即我们基于Home Assistant Core开发的``ais-dom``软件包）。\n新版本集成[超过2480种智能设备接入方案](https://www.home-assistant.io/integrations/)："
+      }
+    },
+    {
+      "segment_id": "0e80209e",
+      "source_content": "[![](/img/en/blog/202301/ha.png)](https://www.home-assistant.io/integrations/)",
+      "source_content_hash": "7a65806c435fe10523f4785b8907f9c7a09ca4fa3b14b2f879ce5a2f9d758ce5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "[![](/img/en/blog/202301/ha.png)](https://www.home-assistant.io/integrations/)"
+      }
+    },
+    {
+      "segment_id": "0801d969",
+      "source_content": "Szczegóły w dokumentacji Home Assistant: https://www.home-assistant.io/integrations/",
+      "source_content_hash": "0ae7511880ad743e6e43731f8d3c8b076eea542463210abe9f1ad44fe0593806",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "详见Home Assistant官方文档：https://www.home-assistant.io/integrations/"
+      }
+    },
+    {
+      "segment_id": "70cef2c1",
+      "source_content": "--------",
+      "source_content_hash": "370d9b71060be968d97de6de91fff200e4dd739e4e1fd7d6e983d9a7c60bdbb0",
+      "node_type": "thematicBreak",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "--------"
+      }
+    },
+    {
+      "segment_id": "7974af84",
+      "source_content": "##### AI-Speaker 01/2023",
+      "source_content_hash": "c3072c95695be0fab48c797dbd0a82e2c32f70cee0869d00659b60c5b18dcc7a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "##### AI-Speaker 2023年1月版"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2023-01-02-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.140454+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "71b09b117cc26d310fb564490076a6b96a0d1c138978832636651ec5dc445c95"
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2019-04-18-release-notes.md",
+  "source_file_content_hash": "35fae0691c5149f253028e118e1efba43a2cf62afadb43cd670bc487598fa6f5",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Celina AI-Speaker\nauthorURL: https://github.com/sviete\nauthorFBID: 1186570423\ntitle: Wersja systemu 0.91.4  Wikipedia, kamery i łatwe dodawnie urządzeń\n---",
+      "source_content_hash": "8126cca14cb9fe8624c9eb7a8e7e778a74676bd233a09e41e0a3d241b0bd4ae8",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Wersja systemu 0.91.4 z dnia 18 kwietnia 2019 roku,",
+      "source_content_hash": "3199a470fb7dd2df5d1dafc8db3cbc871f8557e5def7a613daa6b31f8a2d916b",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 2019年4月18日发布的系统版本0.91.4"
+      }
+    },
+    {
+      "segment_id": "1cc03ec8",
+      "source_content": "### Informacje z Wikipedii",
+      "source_content_hash": "736aba0d8fbf385c23e1b202e3b0d745755356990dc71542a71b30c3f6dddb94",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 维基百科信息查询"
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "**Asystent domowy** udzielając odpowiedzi na pytania typu \"kto to jest... \", \"kim jest... \", \"znajdź informację o...\" korzysta z zasobów bazy wiedzy \"Google Knowledge Graph\". Korzystanie z tego typu bazy wiedzy ma na celu selekcję możliwie najistotniejszych treści i udzielenia krótkiej odpowiedzi na pytanie.\nŹródłem informacji do Google Knowledge Graph jest głównie Wikipedia. Wraz z bieżącą aktualizacją dodajemy możliwość wyszukania i odsłuchania całego artykułu z Wikipedii.",
+      "source_content_hash": "c0fea6743da1d689e8d7a0c6e2593796ddc18eed64bcb19e63c283d0f31c9220",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "**家庭助手**在回答\"谁是...\",\"查找关于...的信息\"这类问题时，会调用\"Google知识图谱\"数据库。使用这类知识库的目的是筛选最相关的内容并给出简明回答。Google知识图谱的主要信息来源是维基百科。本次更新新增了搜索并朗读整篇维基百科文章的功能。"
+      }
+    },
+    {
+      "segment_id": "cf898102",
+      "source_content": "Nowa komenda w sekcji **Wyszukiwanie informacji**: [Komendy głosowe Wikipedia](/docs/ais_app_assistent_commands#wyszukiwanie-informacji)\nNa początek obsługujemy jedną komendę głosową: \"Wikipedia + szukana_fraza\", szukana_fraza - może być dowolną nazwą.",
+      "source_content_hash": "4fa4ab58e8b420f5db410ca62e86359340dcc0f62326a83fcb4576b67be12c5c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在**信息搜索**版块新增语音指令：[维基百科语音指令](/docs/ais_app_assistent_commands#wyszukiwanie-informacji)\n初始阶段我们支持一条语音指令：\"维基百科+搜索关键词\"，关键词可以是任意名称。"
+      }
+    },
+    {
+      "segment_id": "39b3772c",
+      "source_content": "![Konfiguracja interfejsu użytkownika](/img/en/frontend/wikipedia_1.png)",
+      "source_content_hash": "85e284f7f45610773ae0fb018ca09695f9040beec25c2a9e89d03e6e159029f9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![用户界面配置](/img/en/frontend/wikipedia_1.png)"
+      }
+    },
+    {
+      "segment_id": "c6da205d",
+      "source_content": "<!--truncate-->",
+      "source_content_hash": "f5cded2aa7e288e395fe4f67f9dabda2281904b2f5358d07302b3aa8be0acdfa",
+      "node_type": "comment",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_c6da205d"
+      }
+    },
+    {
+      "segment_id": "63622bf0",
+      "source_content": "### Obraz wideo z kamer",
+      "source_content_hash": "bf2f63d390df82ef2f8d7179122c8a7249a70ddec6e5ea1d10343f7b6f1ff580",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 摄像头视频流"
+      }
+    },
+    {
+      "segment_id": "98cfbd53",
+      "source_content": "Dzięki komponentowi [live stream z Home Assistant](https://www.home-assistant.io/components/generic/#live-stream) mamy możliwość podglądu obrazu wideo z kamer IP.\nOtwiera to szereg możliwości takich jak:",
+      "source_content_hash": "e00acbc85e214c4a2d5d34902c2700e5cab83d80bd74094352f746be2a29fdc3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过[Home Assistant的实时流组件](https://www.home-assistant.io/components/generic/#live-stream)，我们现在可以查看IP摄像头的实时画面。这开启了诸多可能性："
+      }
+    },
+    {
+      "segment_id": "0cc488ed",
+      "source_content": "- automatyczne przesyłanie obrazu z kamery umieszczonej na drzwiach wejściowych, na telewizor z chromecast, po tym gdy ktoś zadzwoni\n- możliwość zainstalowania kamery w pokoju dziecka i użycia swojej bramki jako elektronicznej niani\n- wykrywanie ruchu i analiza obiektów na zdjęciach w celu opisania tego co/kto znajduje się na kamerze i wykonania stosownej akcji - np. komunikat głosowy “Dzień dobry panie listonoszu, proszę zostawić list w skrzynce :)”",
+      "source_content_hash": "265c2ef6d9f3f039d7e09e65091bdd58bf69368e254b534f299e3bf9bc0b4cc3",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 当有人按门铃时，自动将门口摄像头的画面推送到Chromecast电视\n- 在儿童房安装摄像头，将网关设备用作电子婴儿监视器\n- 运动检测和图像物体分析，用于描述画面内容并触发相应动作——例如语音播报\"邮递员先生您好，请把信件放入信箱 :)\""
+      }
+    },
+    {
+      "segment_id": "26524352",
+      "source_content": "Tematem tym planujemy zająć się szerzej, niebawem opiszemy krok po kroku zastosowanie kamer w systemie.",
+      "source_content_hash": "94deded6d550c11d91f1030e90226ad23b49fb76d48ae5d6af531f81bb876cdc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们计划深入探讨这个主题，不久将逐步详细介绍系统中摄像头的应用方案。"
+      }
+    },
+    {
+      "segment_id": "73ab96a3",
+      "source_content": "![Kamery](/img/en/frontend/stream_cams.jpeg)",
+      "source_content_hash": "6e8458655193f0fbc3bb88e89c097cb06013057e45488a1e75e138d1cfbaa57d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![摄像头](/img/en/frontend/stream_cams.jpeg)"
+      }
+    },
+    {
+      "segment_id": "f422383e",
+      "source_content": "### Łatwe dodawanie urządzeń",
+      "source_content_hash": "9cdfbffafb282ca1fceb49d996146969643aeb3825b253ed24d7071e9f70f80d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 简易设备添加"
+      }
+    },
+    {
+      "segment_id": "97ae4a01",
+      "source_content": "W celu łatwiejszego dołączania urządzeń do systemu dodaliśmy kreator, który krok po kroku prowadzi przez proces dodawania nowych urządzeń.",
+      "source_content_hash": "8a6b10b2dd0cb9f03fcb330abc747fb8300f143e37575c5390c5b6045b37f2af",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "为简化设备接入流程，我们新增了分步引导的添加新设备向导。"
+      }
+    },
+    {
+      "segment_id": "c3a738de",
+      "source_content": "![Kreator dodawania urządzeń](/img/en/frontend/add_device.png)",
+      "source_content_hash": "e7cccc61af3b829e11fe4dc9feae053a123371cc109456f0a6bd7906c0cd6851",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![设备添加向导](/img/en/frontend/add_device.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2019-04-18-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.135490+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "35fae0691c5149f253028e118e1efba43a2cf62afadb43cd670bc487598fa6f5"
+  }
+}

@@ -1,0 +1,542 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2020-10-09-release-notes.md",
+  "source_file_content_hash": "055549ca65909e37e80b842fcb9c13edcc416240a28777c4e5966f3b243c8bc9",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Jola AI-Speaker\nauthorURL: https://github.com/sviete\nauthor_title: Asystentka\nauthorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4\ntitle: Wersja systemu 0.115.9\ntags: [\"media\", \"galeria\", \"zigbee2mqtt\", \"home assistant\", \"tasmota\"]\n---",
+      "source_content_hash": "6b0a0e106156942265e374120764a5c0887e8a468a2a520ade3b2f43b63023c7",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "1cc03ec8",
+      "source_content": "# 0.115.9 Media",
+      "source_content_hash": "bd6d6b5ac3f4842cbbcf401d8c76d33c8785ed5cdafd6636a18d259897c46c2b",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# 0.115.9 媒体功能"
+      }
+    },
+    {
+      "segment_id": "143e51c1",
+      "source_content": "- ![AIS Media](/img/en/blog/202010/folders.png) **Biblioteka multimediów**\n- ![AIS Galeria](/img/en/blog/202010/gallery.png) Galeria\n- ![Zgłoszenia audio](/img/en/blog/202010/ai.png) Wyszukiwanie źródła audio\n- ![Zigbee](/img/en/blog/202007/zigbee.png) Zigbee2Mqtt 1.5.0\n- ![Tasmota](/img/en/blog/202005/tasmota_small.png) Tasmota 8.5.1 Hannah\n- ![Home Assistant](/img/en/blog/202010/ha.png) Home Assistant 0.115.6 wydanie urodzinowe!",
+      "source_content_hash": "4def702f49d1b9464095d686ad5f48d53e5b3aace1742e74051dabf57dd65c0e",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- ![AIS Media](/img/en/blog/202010/folders.png) **多媒体库**\n- ![AIS Galeria](/img/en/blog/202010/gallery.png) 图库\n- ![Zgłoszenia audio](/img/en/blog/202010/ai.png) 音频源搜索\n- ![Zigbee](/img/en/blog/202007/zigbee.png) Zigbee2Mqtt 1.5.0\n- ![Tasmota](/img/en/blog/202005/tasmota_small.png) Tasmota 8.5.1 Hannah\n- ![Home Assistant](/img/en/blog/202010/ha.png) Home Assistant 0.115.6 生日特别版！"
+      }
+    },
+    {
+      "segment_id": "c6da205d",
+      "source_content": "<!--truncate-->",
+      "source_content_hash": "f5cded2aa7e288e395fe4f67f9dabda2281904b2f5358d07302b3aa8be0acdfa",
+      "node_type": "comment",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_c6da205d"
+      }
+    },
+    {
+      "segment_id": "63622bf0",
+      "source_content": "## ABC bezproblemowej aktualizacji",
+      "source_content_hash": "c90f3410f68be4e7ee6017947af078313ab12a12edc09598ec43646aef83e69a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 无忧升级指南"
+      }
+    },
+    {
+      "segment_id": "6604338b",
+      "source_content": ":::tip[Kopia zapasowa.]\n### ![A](/img/en/blog/202009/alpha-a-circle.png) Kopia zapasowa.\n\nUWAGA Przed aktualizacją zalecamy wykonać [kopię zapasową konfiguracji](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji). W ten sposób sprawdzisz poprawność swojej konfiguracji przed rozpoczęciem aktualizacji i zwiększysz prawdopodobieństwo bezproblemowej aktualizacji.\n:::",
+      "source_content_hash": "1828218cdc126741a2ebe2de65e3dd6aff658b58cb960a102231a8a3be71ca74",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::tip[备份]\n### ![A](/img/en/blog/202009/alpha-a-circle.png) 备份\n\n注意 升级前建议先进行[配置备份](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji)。通过这种方式可以在升级前验证配置的正确性，提高顺利升级的概率。\n:::"
+      }
+    },
+    {
+      "segment_id": "f79f5ed0",
+      "source_content": ":::important[Konsola i logi na bramce.]\n### ![B](/img/en/blog/202009/alpha-b-circle.png)Konsola i logi na bramce.\n\nW razie problemów z aktualizacją, sprawdź procedurę [Aktualizacja z konsoli](/docs/ais_bramka_update_manual) lub [Wykonanie pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step).\nTo może dotyczyć szczególnie osób, które instalują na bramce dodatkowe niestandardowe komponenty.\n:::",
+      "source_content_hash": "801d23fb7fc2431bbe434b4eda5e7c084e2507d287d3851fa318ec48da59ea9e",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::important[网关控制台与日志]\n### ![B](/img/en/blog/202009/alpha-b-circle.png)网关控制台与日志\n\n若升级遇到问题，请查阅[通过控制台升级](/docs/ais_bramka_update_manual)或[完全重置应用](/docs/ais_bramka_reset_ais_step_by_step)流程。\n特别是那些在网关上安装了额外非标准组件的用户需特别注意。\n:::"
+      }
+    },
+    {
+      "segment_id": "26794fc5",
+      "source_content": ":::caution[Poczekaj cierpliwie.]\n### ![C](/img/en/blog/202009/alpha-c-circle.png) Cierpliwość. Pierwsze uruchomienie po aktualizacji trwa dłużej - poczekaj cierpliwie.\n\n **Po aktualizacji pierwsze uruchomienie może trwać nawet 20 minut.**\n W tym czasie aktualizowane są biblioteki do integracji dodanych na bramce i baza danych jest migrowana do nowego formatu.\n **Poczekaj cierpliwie na zakończenie aktualizacji.**\n:::",
+      "source_content_hash": "ad8fdeaa6b3f40c9e947e0d0ca97c330a7c8844dae9594bb1d45ca083ea5ab38",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[耐心等待]\n### ![C](/img/en/blog/202009/alpha-c-circle.png) 耐心。升级后的首次启动耗时较长——请耐心等待。\n\n **升级后首次启动可能长达20分钟。**\n 在此期间会更新网关集成组件库，并将数据库迁移至新格式。\n **请耐心等待升级完成。**\n:::"
+      }
+    },
+    {
+      "segment_id": "8bddee80",
+      "source_content": "## UWAGA - zniknie karta z pogodą",
+      "source_content_hash": "bac5e91164d3ff6612c6648bed3b09fc83c5deb7062195632311da8356a9bd2f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 注意 - 天气卡片将消失"
+      }
+    },
+    {
+      "segment_id": "a9d49f92",
+      "source_content": "Pracujmy nad tym, żeby bramka uruchamiała się jak najszybciej. Przyczyną długiego uruchamiania może być brak dostępu do Internetu lub problem z siecią.\nNaszym założeniem jest działanie także bez dostępu Internetu. Dlatego, żeby uniknąć czekania, na usługi online na starcie przestajemy dostarczać “skonfigurowane z pudełka” integracje, które do działania wymagają połączenia z Internetem.",
+      "source_content_hash": "5439e5fb46cf9c8a47ef3217cc98d834a6928ceb05ac71cfc29883d8ce349ef8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们致力于提升网关启动速度。导致启动缓慢的原因可能是网络连接问题或互联网访问受限。\n我们的设计目标是确保系统在断网状态下仍可运行。因此为避免等待在线服务响应，我们将停止预装那些依赖网络连接的默认集成组件。"
+      }
+    },
+    {
+      "segment_id": "c504c207",
+      "source_content": "Objaw będzie taki, że po tej aktualizacji zniknie pogoda - bo pobranie danych o pogodzie wymagało połączenia z serwisem OpenWeatherMap i DarkSky.\nJeżeli ktoś nadal ma nasz domyślny widok w aplikacji to po aktualizacji będzie taki efekt:\n![](/img/en/blog/202010/pogoda.png)",
+      "source_content_hash": "695b75157e542a5127886a7ebfea4127da005b8399836c10018a64338b9681e8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "具体表现为本次升级后天气功能消失——因为获取天气数据需要连接OpenWeatherMap和DarkSky服务。\n如果用户仍使用默认应用界面，升级后将看到如下效果：\n![](/img/en/blog/202010/pogoda.png)"
+      }
+    },
+    {
+      "segment_id": "d3649a1e",
+      "source_content": "Żeby to naprawić wystarczy przejść do konfiguracji interfejsu:\n![](/img/en/blog/202010/pogoda2.png)",
+      "source_content_hash": "58e2e967f50dccce69b74e6c08c9d4e4d8345b71afc6942ce1c98a89cf9bfbf1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "修复方法：进入界面配置：\n![](/img/en/blog/202010/pogoda2.png)"
+      }
+    },
+    {
+      "segment_id": "e536ea0d",
+      "source_content": "i usunąć “osierocone encje”:",
+      "source_content_hash": "3e995185c6b2f6c5e2554ec277453a9519ba929bddc2aec0b5b514e738ba27a8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "并删除“孤立实体”："
+      }
+    },
+    {
+      "segment_id": "40158b4b",
+      "source_content": "![](/img/en/blog/202010/pogoda3.png)",
+      "source_content_hash": "0e44018ad7e44b2e12a81dc32e3bfa83ee7fa86c8a3a44f77d79b2af54a26c0e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202010/pogoda3.png)"
+      }
+    },
+    {
+      "segment_id": "6ea4c715",
+      "source_content": "Nowy “fabryczny wygląda aplikacji” będzie teraz taki:\n![](/img/en/blog/202010/pogoda4.png)",
+      "source_content_hash": "dd1ad0c946bfe6a19f2f41889c09721d4d7e5a00a2e34c5f2c0f9605844c928f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "新的“出厂默认界面”现在将如下所示：\n![](/img/en/blog/202010/pogoda4.png)"
+      }
+    },
+    {
+      "segment_id": "531437ca",
+      "source_content": "Oczywiście zachęcamy do skonfigurowania własnego interfejsu - o to chodzi w tym systemie :)",
+      "source_content_hash": "c15ef4789584164ab90213d0bf88cdeacbfc1d2d0a5c8598554de76ac69d1dc3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "当然，我们鼓励您配置自己的界面——这正是该系统的核心理念 :)"
+      }
+    },
+    {
+      "segment_id": "06e24cc0",
+      "source_content": "Tworzenie ładnego interfejsu jest teraz jeszcze prostsze z ulepszoną galerią i możliwością dodawania zdjęć swoich pomieszczeń, także bezpośrednio z aparatu w aplikacji mobilnej - co wyjaśniamy poniżej, w dokumentacji i na nowym wideo na YouTube.",
+      "source_content_hash": "efc6cfbc1b7feb8660632f0d70af354a991ff719f128d57db983899d3a27d357",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "现在通过增强的图库功能和直接从移动应用相机添加房间照片的能力（我们将在下方文档和YouTube新视频中说明），创建美观界面变得更加简单。"
+      }
+    },
+    {
+      "segment_id": "047c2395",
+      "source_content": "## ![AIS Media](/img/en/blog/202010/folders.png) Biblioteka multimediów",
+      "source_content_hash": "afb832149100b0edce31011c215e0914018dfd752be2a01cef3f5e8d6c3a91e2",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![AIS Media](/img/en/blog/202010/folders.png) 多媒体库"
+      }
+    },
+    {
+      "segment_id": "f01228d3",
+      "source_content": "W tej wersji dodaliśmy możliwość przeglądania biblioteki multimediów oraz wysyłania ich (Cast'owanie) do wybranego odtwarzacza.",
+      "source_content_hash": "b6e2c3a3580e51b244bffc4b6935d7cbdfe0564140510b007a526d72e8b4176d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "此版本新增了浏览多媒体库及将其投送（Cast）至选定播放器的功能。"
+      }
+    },
+    {
+      "segment_id": "afa378f7",
+      "source_content": "![AIS Galeria](/img/en/blog/202010/media_browser.png)",
+      "source_content_hash": "e6946deeb11269e7f1669e2548b0dd62adc43c78b5a483366080a628ee675dbc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS Galeria](/img/en/blog/202010/media_browser.png)"
+      }
+    },
+    {
+      "segment_id": "880add78",
+      "source_content": "> Asystent domowy jest jedynie kontrolerem, który wysyła link do mediów. Same media odtwarzane są bezpośrednio przez docelowy odtwarzacz (ten, do którego wysłaliśmy link).\nJeżeli odtwarzacz, do którego wysyłamy link do mediów, nie ma wbudowanej obsługi Spotify, czy nie jest w stanie odtwarzać wideo, to przesłana do niego treść nie zadziała.\n**Oczywiście media, które przeglądamy w bibliotece, możemy odtwarzać na wbudowanym odtwarzaczu na bramce i możemy przesyłać na inne bramki (docelowo głośniki).**",
+      "source_content_hash": "19fb3b9c7d14689641b1c817bc7120de16a912a7ef90bce903d262c822de58ea",
+      "node_type": "blockquote",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "> 家庭助手仅作为控制器发送媒体链接。实际媒体由目标播放器（接收链接的设备）直接解码播放。\n若目标播放器未内置Spotify支持或无法解码视频格式，则投送内容将无法播放。\n**当然，我们在库中浏览的媒体可通过网关内置播放器直接播放，也可投送至其他网关（最终实现多音箱播放）。**"
+      }
+    },
+    {
+      "segment_id": "a1fa5396",
+      "source_content": "Dodatkowo można odtwarzać multimedia bezpośrednio w przeglądarce.",
+      "source_content_hash": "3ebd185a5fed0bfa0264b62e1cb84e9194ab25cb3ebdcc795b838a4e8acb7ea7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "此外还支持直接在浏览器中播放媒体。"
+      }
+    },
+    {
+      "segment_id": "ec619944",
+      "source_content": "![AIS Galeria](/img/en/blog/202010/play_in_browser.png)",
+      "source_content_hash": "43329ece144c907a02f80c31a79c34182f79919fad45434f9603ba94a99de08d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS Galeria](/img/en/blog/202010/play_in_browser.png)"
+      }
+    },
+    {
+      "segment_id": "90d35b51",
+      "source_content": "## ![AIS Galeria](/img/en/blog/202010/gallery.png) Galeria",
+      "source_content_hash": "73dc8fca0a1065f445b67a74ead31a62157a38e51ff6f3e2704f30af612b6af0",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![AIS Galeria](/img/en/blog/202010/gallery.png) 图库"
+      }
+    },
+    {
+      "segment_id": "51867d16",
+      "source_content": "![AIS Galeria](/img/en/blog/202010/img1.png)",
+      "source_content_hash": "5696e02725b64407c3c2f869783af87e917091deeea862aa13d07975d085a87b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS Galeria](/img/en/blog/202010/img1.png)"
+      }
+    },
+    {
+      "segment_id": "a311e967",
+      "source_content": "Jak to działa prezentujemy na filmie poniżej:",
+      "source_content_hash": "773d712c252d159b92f5dc568fe67f96f9c62d9bf357f01740df5d97784efe2b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "具体操作演示请见下方视频："
+      }
+    },
+    {
+      "segment_id": "42626972",
+      "source_content": "<iframe width=\"560\" height=\"315\"  src=\"https://www.youtube.com/embed/iIJcAOnQ6HI\" frameBorder=\"0\" allowFullScreen></iframe>",
+      "source_content_hash": "632832ed807dbeb31f9418d5b0370d601e67bdc163d18279f3a5a30ee2dd1efa",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_42626972"
+      }
+    },
+    {
+      "segment_id": "c19de48a",
+      "source_content": "## ![Zgłoszenia audio](/img/en/blog/202010/ai.png) Wyszukiwanie lepszego źródła audio",
+      "source_content_hash": "093056879fa628904fa251761d0119ba196e95acdfb848c6b34d85a5056fad50",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![Zgłoszenia audio](/img/en/blog/202010/ai.png) 优化音频源搜索"
+      }
+    },
+    {
+      "segment_id": "6ca4479f",
+      "source_content": "Jeżeli jest problem z odtwarzaniem jakiegoś radia, to możesz automatycznie sprawdzić, czy jest dostępne bardziej aktualne źródło:\n![AIS Galeria](/img/en/blog/202010/audio_report_1.png)",
+      "source_content_hash": "0c34dc655f30daf3c65ee0a6ab7a05ed198440fc0f69042f4edd03b4d182e633",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "若某电台播放存在问题，可自动检测是否有更新源可用：\n![AIS Galeria](/img/en/blog/202010/audio_report_1.png)"
+      }
+    },
+    {
+      "segment_id": "2838eb68",
+      "source_content": "Jeżeli automatyczne sprawdzenie nie pomoże, to będzie można wysłać informację o tym problemie do AI-Speaker.",
+      "source_content_hash": "ab8b52e3e20264773783975020b471a9991f49e292c468ce2982a22bdfb162b3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "若自动检测未能解决，可将问题反馈至AI-Speaker平台。"
+      }
+    },
+    {
+      "segment_id": "4be28ed1",
+      "source_content": "![AIS Galeria](/img/en/blog/202010/audio_report_2.png)",
+      "source_content_hash": "1497a486df1d9a2ecee6ddc2faaec8f1a4bc00181fea0b8f7985d333e939218f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS Galeria](/img/en/blog/202010/audio_report_2.png)"
+      }
+    },
+    {
+      "segment_id": "0e80209e",
+      "source_content": "Gdy otrzymamy zgłosznie to postaramy się jak najszybciej naprawić ten problem.\nJeżeli zarejstrowałeś się w serwisie integratora, to zostaniesz poinformowany o rozwiązaniu zgłosznia - prześlemy Ci wiadomość na podany w panelu integratora adres email/login.",
+      "source_content_hash": "d0eb2d65f0dbc1f02fc51403af6c70de6732ec14f82896e66bd5780f65a3e177",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "收到反馈后我们将尽快修复问题。\n若您已在集成商平台注册，问题解决后我们将通过您预留的邮箱/账号发送通知。"
+      }
+    },
+    {
+      "segment_id": "8574d51c",
+      "source_content": "## ![Zigbee](/img/en/blog/202007/zigbee.png) Zigbee2Mqtt 1.5.0",
+      "source_content_hash": "d00cc5a2671a1a4e13a2d38875cf55588979c05ae5deacd28dd144e0621cbefb",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![Zigbee](/img/en/blog/202007/zigbee.png) Zigbee2Mqtt 1.5.0"
+      }
+    },
+    {
+      "segment_id": "e9313fef",
+      "source_content": "Aktualizacja zigbee to już nie tylko nowe urządzenia (a wspieranych urządzeń jest już 1015) :)\n![AIS Galeria](/img/en/blog/202010/zigbee1.png)",
+      "source_content_hash": "10c3e8a82917a02404db3ebc251939c1fa72c20aeadea3f37cc43bfad1bd0ad0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Zigbee更新不再只是新增设备支持（目前已支持1015种设备） :)\n![AIS Galeria](/img/en/blog/202010/zigbee1.png)"
+      }
+    },
+    {
+      "segment_id": "44aaa880",
+      "source_content": "Ale też nowa aplikacja, całkowicie zintegrowana z Asystentem domowym:\n![AIS Galeria](/img/en/blog/202010/zigbee2.png)",
+      "source_content_hash": "ff48a53b012dfb7dd12843c7c00fec68081b34a9b43273a523f9167b9fd9fdf4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "还包含全新应用，与家庭助手深度集成：\n![AIS Galeria](/img/en/blog/202010/zigbee2.png)"
+      }
+    },
+    {
+      "segment_id": "a8610918",
+      "source_content": "![AIS Galeria](/img/en/blog/202010/zigbee3.png)",
+      "source_content_hash": "dc9b0e10f0cd7536128820c12328bc2c2a7ec9432286357a936fc69375c08394",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS Galeria](/img/en/blog/202010/zigbee3.png)"
+      }
+    },
+    {
+      "segment_id": "a6c928a1",
+      "source_content": "![AIS Galeria](/img/en/blog/202010/zigbee4.png)",
+      "source_content_hash": "609184f0bcce605c1fbfd0d1cab4ee7040c414b16e8c134ea390d7766be5c97c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS Galeria](/img/en/blog/202010/zigbee4.png)"
+      }
+    },
+    {
+      "segment_id": "b6152880",
+      "source_content": "Oczywiście są to bardzo świeże funkcjonalności i nie wszystko jeszcze działa tak jakbyśmy chcieli, ale potencjał jest spory i jeszcze kilka aktualizacji i będziemy to mieli doszlifowane ;)\n**Zostawiamy jeszcze dotychczasowy interfejs do konfiguracji zigbee, ale w kolejnej wersji przejdziemy już tylko na ten nowy.**\nGdyby ktoś miał problem z działaniem czy zrozumieniem nowego interfesju, to na stronie projektu [Zigbee2Mqtt](https://github.com/koenkk/zigbee2mqtt) można zgłszać problemy i pomysły na usprawnienie działania.\nDziennik zmian w wersji 1.5.0 dostępny na stronie projektu [Zigbee2Mqtt](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.15.0)",
+      "source_content_hash": "17c417377d14c066f242889c284e1116bcbd77fc7cd70cf88cbc545e8011ba93",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "这些是最新开发的功能，部分细节仍在完善中，但其潜力巨大，预计经过几次迭代后将更加成熟 ;)\n**我们暂时保留旧版Zigbee配置界面，但下个版本将全面切换至新界面。**\n若遇到操作问题或功能建议，可在[Zigbee2Mqtt项目页](https://github.com/koenkk/zigbee2mqtt)提交反馈。版本1.5.0的更新日志详见[Zigbee2Mqtt发布页](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.15.0)"
+      }
+    },
+    {
+      "segment_id": "4dd6a631",
+      "source_content": "## ![](/img/en/blog/202005/tasmota_small.png) Tasmota 8.5.1 Hannah",
+      "source_content_hash": "7f67bae12801e7ecafe752f93f7f461c4c8cab98fa14855400dc8537d9f81539",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202005/tasmota_small.png) Tasmota 8.5.1 Hannah"
+      }
+    },
+    {
+      "segment_id": "f45239ba",
+      "source_content": "Udostępniliśmy też najnowszą kompilację Tasmota z numerem 8.5.1",
+      "source_content_hash": "692075484da5d78c827ca02f7658557fee8db31a2cb222ac8e0e174fb59f85ce",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们同步发布了Tasmota最新编译版本8.5.1"
+      }
+    },
+    {
+      "segment_id": "692c6053",
+      "source_content": "![Tasmota](/img/en/blog/202010/tasmota1.png)",
+      "source_content_hash": "063c12ed597801aa343f4ec48b3754325aa57dfb3f1997781def190aa30aa3ac",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Tasmota](/img/en/blog/202010/tasmota1.png)"
+      }
+    },
+    {
+      "segment_id": "383fbdd2",
+      "source_content": "Są to kompilacje, których używamy w urządzeniach przez nas sprzedawanych. **Każdy zaawansowany użytkownik może z nich korzystać za darmo** i wgrywać do swoich urządzeń.\nDo wyboru mamy ponad [1600 urządzeń](https://templates.blakadder.com/index.html):",
+      "source_content_hash": "14d0500f41b9596c2a18380464b0583fd78204a94569ad4eec1d1693e71276bd",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该固件用于我们销售的设备中。**高级用户可免费使用**并刷入自有设备。支持超过[1600种设备模板](https://templates.blakadder.com/index.html)："
+      }
+    },
+    {
+      "segment_id": "e77cf7c6",
+      "source_content": "![Tasmota](/img/en/blog/202010/tasmota2.png)",
+      "source_content_hash": "ed90936c6ad581d8e5d457d9407ccf101ed1ae47f341e0cf72001a49cd232245",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Tasmota](/img/en/blog/202010/tasmota2.png)"
+      }
+    },
+    {
+      "segment_id": "bb1346b6",
+      "source_content": "Na forum tłumaczymy jak to zrobić na przykładzie [zaworu do podlewania](https://ai-speaker.discourse.group/t/ponad-1540-urzadzen-wifi-co-to-znaczy/707)",
+      "source_content_hash": "94ea956fc061e09c524ab0d4fade43aae546625afd7a21d1f0cec31df2d04677",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "论坛中我们以[灌溉电磁阀](https://ai-speaker.discourse.group/t/ponad-1540-urzadzen-wifi-co-to-znaczy/707)为例详细说明了刷机方法"
+      }
+    },
+    {
+      "segment_id": "8664ed0b",
+      "source_content": "Dziennik zmian w wersji 8.5.1 jest dostępny na stronie projektu [Tasmota](https://github.com/arendst/Tasmota/releases/tag/v8.5.1)",
+      "source_content_hash": "f41eb15dc76daddf569c3c660513d13617501f2cceef30149a0c6687429ce170",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "版本8.5.1的更新日志详见[Tasmota项目发布页](https://github.com/arendst/Tasmota/releases/tag/v8.5.1)"
+      }
+    },
+    {
+      "segment_id": "a0d0e29e",
+      "source_content": "## ![](/img/en/blog/202007/hass.png) Home Assistant 0.115.6",
+      "source_content_hash": "ca0c8276d917c4772c6479cb8c73644f6de34fe595d7f2226557b63b1a92a136",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202007/hass.png) Home Assistant 0.115.6"
+      }
+    },
+    {
+      "segment_id": "17b50e81",
+      "source_content": "Najnowszy (stabilny) [Home Assistant 0.115.6](https://www.home-assistant.io/blog/2020/09/17/release-115/)",
+      "source_content_hash": "2ee70bc55887728889f77dc59b05fd10439e63392fbe633d4b2c135743504fe2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "最新稳定版[Home Assistant 0.115.6](https://www.home-assistant.io/blog/2020/09/17/release-115/)"
+      }
+    },
+    {
+      "segment_id": "719d3997",
+      "source_content": "Wydanie urodzinowe głównej składowej naszego systemu :)",
+      "source_content_hash": "9027fdc3cb1860a0248f596d496b1b0d6afd97ea950db7f1ed69abb7e9aa55fa",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "这是我们核心系统的周年纪念版本 :)"
+      }
+    },
+    {
+      "segment_id": "42d9ca67",
+      "source_content": "Kartka z życzeniemi wysłana ![](/img/en/blog/202010/love-letter.png) i dostarczona:",
+      "source_content_hash": "3e755f63582460a58ee5dad69a6aa62480894b57dd842084f9eee26dd8b1c4c2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "贺卡祝福已发送 ![](/img/en/blog/202010/love-letter.png) 并妥投："
+      }
+    },
+    {
+      "segment_id": "619c3209",
+      "source_content": "![Home Assistant](/img/en/blog/202010/kartka.png)",
+      "source_content_hash": "ccd45821a61a5f3943c63c699cab940708d103fcc4e14dfe3ea257d38baf0d1e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Home Assistant](/img/en/blog/202010/kartka.png)"
+      }
+    },
+    {
+      "segment_id": "b6796530",
+      "source_content": "----",
+      "source_content_hash": "bd64bb8efa5b3f27e6442f23600c3b516127ea17e23724b41e50da4c22883edd",
+      "node_type": "thematicBreak",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "----"
+      }
+    },
+    {
+      "segment_id": "dce16ab4",
+      "source_content": "Zapraszamy do aktualizacji i [komentowania na forum :)](https://ai-speaker.discourse.group/)",
+      "source_content_hash": "835468c85dd4ecaa2ca9086b3919d63a2f40f58acb16d2e9e802bc2c6fb6f6da",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "欢迎升级并[参与论坛讨论 :)](https://ai-speaker.discourse.group/)"
+      }
+    },
+    {
+      "segment_id": "7312e69e",
+      "source_content": "##### AI-Speaker 09/2020",
+      "source_content_hash": "1ee0b4d56dad393b9eb1b47a7cd5e8d09623480e11fbc86d4d17bb1fa3d6f935",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "##### AI-Speaker 2020年9月"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2020-10-09-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.144234+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "055549ca65909e37e80b842fcb9c13edcc416240a28777c4e5966f3b243c8bc9"
+  }
+}

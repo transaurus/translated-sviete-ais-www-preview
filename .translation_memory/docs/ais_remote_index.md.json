@@ -1,0 +1,72 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_remote_index.md",
+  "source_file_content_hash": "41488ea78d99aa1285210487772327ecab09219aa532d5051010bf6bc164abcd",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Pilot radiowy z mikrofonem\"\nsidebar_label: Wprowadzenie\n---",
+      "source_content_hash": "a07fba5b0c812c5b1a5211b987151eb62f39f7d0a72316c15f391ab8e2d10e08",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Opis",
+      "source_content_hash": "213089b969518edeaef89b69fec05f6aa90907037d8c093ae41737cc35ac7a23",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 产品描述"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Asystent domowy został od podstaw zbudowany w ten sposób, aby można go było używać w sposób wygodny dla każdego z nas. Jednym ze sposobów jest użycie dedykowanego pilota radiowego, którego fizyczne klawisze oraz wbudowany mikrofon pozwalają na szybki dostęp do każdej opcji systemu.",
+      "source_content_hash": "94d1a4523653363dcbb700438ce5bc83f8d916ca0d53efdb43342488343ff8ba",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "智能家居助手从底层设计之初就致力于为每位用户提供便捷的操作体验。其中一种方式是通过专用无线遥控器实现，其物理按键与内置麦克风可快速调用系统各项功能。"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "![Pilot do asystenta](/img/en/remote/remote.png)",
+      "source_content_hash": "aebec02a3a8546998610a55b84f6a323e9db6aed9021488d881644eb93e400a8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![智能助手遥控器](/img/en/remote/remote.png)"
+      }
+    },
+    {
+      "segment_id": "9fcbdce9",
+      "source_content": "## Dostępność i cena",
+      "source_content_hash": "8c8b0d24dfa40d6ef28d3caf96c499605e3ba03d4f196ccba735d26d431bf4a4",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 购买渠道与价格"
+      }
+    },
+    {
+      "segment_id": "2a852f16",
+      "source_content": ":::warning[Sklep]\n<center>\n<button className=\"snipcart-add-item button button--outline button--secondary button--lg\"\n              data-item-id=\"ais-remote-1\"\n              data-item-description=\"AIS Remote 1\"\n              data-item-image=\"/img/en/iot/iot_esp_8266.png\"\n              data-item-name=\"AIS REMOTE 1\"\n              data-item-price=\"{&quot;usd&quot;:15,&quot;eur&quot;:12, &quot;pln&quot;: 49}\"\n              data-item-custom1-name=\"Wiadomość\"\n              data-item-custom1-type=\"textarea\"\n              data-item-url = \"https://ai-speaker.com/snipcart/ais-remote-1.json\"\n              >\n                Dodaj do koszyka\n            </button>\n[Urządzenie jest dostępne na naszych aukcjach na platformie allegro.pl](https://allegro.pl/uzytkownik/AI-Speaker)\n<br/>\n[<img src=\"/img/allegro.png\" alt=\"drawing\" width=\"200\"/>](https://allegro.pl/uzytkownik/AI-Speaker)\n</center>\n:::",
+      "source_content_hash": "a98129ce5fcbc3e36b382420d6183656f12cd98eb5e0b6a0b090f9b15df2245b",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::warning[商城]\n<center>\n<button className=\"snipcart-add-item button button--outline button--secondary button--lg\"\n              data-item-id=\"ais-remote-1\"\n              data-item-description=\"AIS Remote 1\"\n              data-item-image=\"/img/en/iot/iot_esp_8266.png\"\n              data-item-name=\"AIS REMOTE 1\"\n              data-item-price=\"{&quot;usd&quot;:15,&quot;eur&quot;:12, &quot;pln&quot;: 49}\"\n              data-item-custom1-name=\"Wiadomość\"\n              data-item-custom1-type=\"textarea\"\n              data-item-url = \"https://ai-speaker.com/snipcart/ais-remote-1.json\"\n              >\n                加入购物车\n            </button>\n[设备可通过Allegro平台购买](https://allegro.pl/uzytkownik/AI-Speaker)\n<br/>\n[<img src=\"/img/allegro.png\" alt=\"drawing\" width=\"200\"/>](https://allegro.pl/uzytkownik/AI-Speaker)\n</center>\n:::"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_remote_index.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.135745+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "41488ea78d99aa1285210487772327ecab09219aa532d5051010bf6bc164abcd"
+  }
+}

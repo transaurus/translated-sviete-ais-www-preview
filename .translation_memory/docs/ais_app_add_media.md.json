@@ -1,0 +1,172 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_app_add_media.md",
+  "source_file_content_hash": "852ebe658b9463e1aaafc5fc98dfde1565991aa34c7e94ac3876f820d52e5c44",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Dodawanie mediów\"\nsidebar_label: Dodawanie mediów\n---",
+      "source_content_hash": "35156d04f60bdae127a35346b20d364be4f1b7a090be5330e5d8b4f13a42e71f",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Radia",
+      "source_content_hash": "ff6623f28d71db4cdf3ff4094354048e3d30187be0cb324553b29afdb2e950d1",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 网络电台"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "W łatwy sposób możesz dodać nowe radio internetowe do AI-Speaker. W tym celu wystarczy na stronie odtwarzacza audio sprawdzić działanie zasobu z mediami - wysyłając je do odtwarzacza.",
+      "source_content_hash": "7dd1896bdc28b4d9239d970dd316be3f207820b4cf75b3f2fdc2435d32cf9544",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "您可以轻松为AI-Speaker添加新的网络电台。只需在音频播放器页面验证媒体资源有效性——将其发送至播放器即可。"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "![Dodaj radio](/img/en/frontend/ais_add_media_1.png)",
+      "source_content_hash": "1c78a5b483a1ef6e18454cd195990b79e4f2cfb572ed0fec31d6765cbe446c9b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![添加电台](/img/en/frontend/ais_add_media_1.png)"
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "a następnie dodać je do biblioteki wypełniając formularz opisujący media.",
+      "source_content_hash": "a8796430612b00c45fa42deaaffd52374635e0af21faa595362732b36e25293f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "然后通过填写媒体描述表单将其添加至媒体库。"
+      }
+    },
+    {
+      "segment_id": "ad8fd492",
+      "source_content": "![Dodaj radio](/img/en/frontend/ais_add_media_2.png)",
+      "source_content_hash": "56e09e277becc845195b28885912e3a44e5ca9d427076449d7d43a981f3ab765",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![添加电台](/img/en/frontend/ais_add_media_2.png)"
+      }
+    },
+    {
+      "segment_id": "86b54d44",
+      "source_content": "Nowo dodawane media możesz też udostępnić dla innych użytkowników:",
+      "source_content_hash": "e7c9a8ef6b55d9d5c0cc514228e926fe8c274a7511ad17f207cc687c20aacaee",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "您还可以将新增媒体共享给其他用户："
+      }
+    },
+    {
+      "segment_id": "39b3772c",
+      "source_content": "![Dodaj radio](/img/en/frontend/ais_add_media_3.png)",
+      "source_content_hash": "82a1b411b84ba3d7b3e8656bd29ac6bf1ef36db2b4447aa5265bf21509cffb0b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![添加电台](/img/en/frontend/ais_add_media_3.png)"
+      }
+    },
+    {
+      "segment_id": "f5f6d2ce",
+      "source_content": "Gdy włączasz media komendą głosową, to szukamy ich w następującej kolejności: **Moje** -> **Publiczne** -> **Udostępnione**.",
+      "source_content_hash": "5127274b575a603599139ecf35fcf9ec09190b381fe93e2277136c14b26f3da8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "当通过语音指令播放媒体时，系统会按以下优先级搜索资源：**我的媒体** -> **公共媒体** -> **共享媒体**。"
+      }
+    },
+    {
+      "segment_id": "2fdadb08",
+      "source_content": "![Dodaj radio](/img/en/frontend/ais_add_media_4.png)",
+      "source_content_hash": "5a971a3f6f11bfdef5738923593aa080f9fa37b4404318634a6c18208d331427",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![添加电台](/img/en/frontend/ais_add_media_4.png)"
+      }
+    },
+    {
+      "segment_id": "fa430ad4",
+      "source_content": "## Inne media",
+      "source_content_hash": "2e6fde83bbc936531868b794478187a7aa9989685221d98ae4054eb5b82a2d9a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 其他媒体类型"
+      }
+    },
+    {
+      "segment_id": "f79f5ed0",
+      "source_content": ":::caution[Uwaga]\nW tej chwili z aplikacji Asystent domowy można dodawać radia internetowe. Inne media można definiować w [Portalu integratora](/docs/ais_dom_cloud_index). Pracujemy nad tym, żeby wszystkie media można było dodawać i edytować bezpośrednio z aplikacji Asystent domowy.\n\n:::",
+      "source_content_hash": "09f51489796f85746e5e63b161c333feec157de5bb7b87752e43a86cebba3dbb",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[注意]\n当前版本仅支持通过家庭助手应用添加网络电台。其他媒体类型需通过[集成门户](/docs/ais_dom_cloud_index)进行配置。我们正在开发实现所有媒体类型都能直接在家庭助手应用中添加编辑的功能。\n\n:::"
+      }
+    },
+    {
+      "segment_id": "bdc231b1",
+      "source_content": "![Dodaj radio](/img/en/frontend/ais_add_media_5.png)",
+      "source_content_hash": "696e0d59d564da8d454cfa248042c0a22052ef5979110c76817bc39ddce22732",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![添加电台](/img/en/frontend/ais_add_media_5.png)"
+      }
+    },
+    {
+      "segment_id": "80d9e13c",
+      "source_content": "## Sprawdzanie mediów",
+      "source_content_hash": "95a4d8f65e183fd2f532acdf3e441f801d86703d623c5331f179a1e35722d237",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 媒体资源检测"
+      }
+    },
+    {
+      "segment_id": "33331f27",
+      "source_content": "W przypadku problemu z odtwarzaniem mediów możesz sprawdzić, czy jest dostępne bardziej aktualne źródło dla zasobu. \nJeśli sprawdzenie nie przyniesie rezultatu, to będzie można wysłać informację do AI-Speaker. W przypadku problemu z udostępnianym zasobem automatycznie powiadomimy udostępniającego media o problemie.",
+      "source_content_hash": "a090914e6aa9f526aca4181ba9c400eef91a85df2e1b714b4a2db3670a76681b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "若遇到媒体播放问题，可检查是否存在更新的资源版本。\n若检测未果，您可向AI-Speaker提交问题报告。对于共享资源的异常情况，系统将自动通知资源提供者。"
+      }
+    },
+    {
+      "segment_id": "1042b50d",
+      "source_content": "![Dodaj radio](/img/en/frontend/ais_add_media_6.png)",
+      "source_content_hash": "618dbaeb0ba6a8fa89ef525829c34b1957cb48dea5f3d6c609989ae05bd8857a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![添加电台](/img/en/frontend/ais_add_media_6.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_app_add_media.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.126322+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "852ebe658b9463e1aaafc5fc98dfde1565991aa34c7e94ac3876f820d52e5c44"
+  }
+}

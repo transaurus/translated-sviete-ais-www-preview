@@ -1,0 +1,62 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_configuration_tts.md",
+  "source_file_content_hash": "7db754152022f67ee3f776b43ef5021ac20debfc147f69c5d441736cf7b0cd97",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Konfiguracja bramki - Głos asystenta\"\nsidebar_label: Głos asystenta\n---",
+      "source_content_hash": "fbdfcfdbe989de003e32a14b2120ddbe2b5a04060e8dfc4f78c0f1276fddf253",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Możesz zmienić głos asystenta i dostosować szybkość, ton mowy i komunikat powitalny.",
+      "source_content_hash": "7f11f3c495813f88b51a936a64d5d19b09ba8a9baaf0fbe4b90f1ab1769dc4c9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "您可以更改助手语音并调整语速、音调和欢迎消息。"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "![Oprogramowanie bramki](/img/en/bramka/config_ais_dom_section4.jpeg)",
+      "source_content_hash": "0fb141785b86da1d0f083d9a8335760e053c7223a8aebedbd6fc0f7ed1937d40",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![网关软件](/img/en/bramka/config_ais_dom_section4.jpeg)"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "Po kliknięciu wybranej opcji można dostosować ustawienia wybranego elementu",
+      "source_content_hash": "14cd465b3e4ea891a39ca15a641e5511b9839553886343d0c0c206a8110631c8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "点击选定选项后，可调整所选元素的设置"
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "![Oprogramowanie bramki](/img/en/bramka/config_ais_dom_section4_2.png)",
+      "source_content_hash": "a1f57e0639b48c18e09f4705c0dadfa6fcd07eeb734ea8002a8c561bc36afa34",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![网关软件](/img/en/bramka/config_ais_dom_section4_2.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_configuration_tts.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.093470+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "7db754152022f67ee3f776b43ef5021ac20debfc147f69c5d441736cf7b0cd97"
+  }
+}

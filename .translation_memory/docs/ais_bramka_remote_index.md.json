@@ -1,0 +1,152 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_remote_index.md",
+  "source_file_content_hash": "1e31542b22f4a7e503e3c45d9517fd89d6692123f422c023eb94c280cdf7f21b",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Dostęp do bramki w lokalnej sieci\"\nsidebar_label: Wprowadzenie\n---",
+      "source_content_hash": "712664cd320e0bbe9831c97dad06c3be846640175854fc95c8554d6152313e82",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Będąc w sieci lokalnej możesz połączyć się z bramką za pomocą popularnych narzędzi: http(s), ftp, ssh. Dzięki temu możliwe jest używanie aplikacji bramki w przeglądarce internetowej oraz kontrolowanie bramki jak zdalnego serwera.",
+      "source_content_hash": "59b16fd31390319693fc3736fe4103f557670af3a8a49438883181584c394b6a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在局域网中，您可以通过常用工具（http(s)、ftp、ssh）连接网关。这样即可在网页浏览器中使用网关应用程序，并将网关作为远程服务器进行控制。"
+      }
+    },
+    {
+      "segment_id": "0d5e1c45",
+      "source_content": ":::important[informacja]\n Żeby połączyć się z bramką kluczowe jest ustalenie, **czy bramka jest widoczna w Twojej sieci po lokalnej nazwie hosta z rozszerzeniem .local, czy tylko po adresie IP?** Lokalna nazwa hosta bramki ustawiona jest fabrycznie jako **ais-dom**. Z taką nazwą  hosta (**ais-dom**) bramka zgłasza się w lokalnej sieci. Następnie bramka rozgłasza swoje usługi (HTTP, FTP, SSH, MQTT) w sieci lokalnej za pomocą mechanizmu Multicast DNS (Zeroconf/Avahi/Bonjour). Jest to tak zwana usługa zero-config – nie wymaga żadnej konfiguracji, aby korzystać z połączenia pomiędzy urządzeniami w sieci lokalnej.\n:::",
+      "source_content_hash": "a98a8b91f863be822576f2e9c4a133e988e6a20bfface418732a69b54e991981",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::important[重要信息]\n 连接网关的关键在于确认**网关是通过.local后缀的本地主机名可见，还是仅通过IP地址可见？** 网关的本地主机名出厂设置为**ais-dom**。网关会以该主机名(**ais-dom**)在局域网中广播自身。随后网关通过多播DNS机制（Zeroconf/Avahi/Bonjour）在局域网中发布服务（HTTP、FTP、SSH、MQTT）。这是所谓的零配置服务——无需任何配置即可实现局域网设备间的连接。\n:::"
+      }
+    },
+    {
+      "segment_id": "180bddb1",
+      "source_content": "W przypadku systemów firmy Apple, mDNS jest wspierany “fabrycznie” przez usługę Bonjour, w przypadku Linuxa, obsługę zapewnia Avahi, które jest automatycznie zainstalowane we wszystkich popularnych dystrybucjach. Aby otrzymać tę samą funkcjonalność w Windows, musimy sobie zainstalować [Bonjour dla Windows](https://support.apple.com/kb/dl999?locale=pl_PL).",
+      "source_content_hash": "5f9d306d23ddb97d431770da8c2faf02dbd68e118ae801332c7a1dc6f540827d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "苹果公司的系统原生通过Bonjour服务支持mDNS，Linux系统则由Avahi提供支持（所有主流发行版均默认安装）。若要在Windows获得相同功能，需安装[Windows版Bonjour](https://support.apple.com/kb/dl999?locale=pl_PL)。"
+      }
+    },
+    {
+      "segment_id": "5085dd17",
+      "source_content": ">**We wszystkich przykładach w dokumentacji zakładamy, że bramka jest dostępna pod nazwą hosta ais-dom.local, jeżeli w twojej lokalnej sieci jest inaczej, to łącząc się z bramką za pomocą przykładów z dokumentacji zmień nazwę hosta ais-dom.local na lokalny adres IP**.",
+      "source_content_hash": "2540d199fd63e968b3c4d6e3e9fdc7ce46a6005b51bb20ca7f322cc44e4ebed1",
+      "node_type": "blockquote",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ">**本文档所有示例均假设网关可通过主机名ais-dom.local访问。若您的局域网环境不同，请将示例中的ais-dom.local替换为本地IP地址进行连接**。"
+      }
+    },
+    {
+      "segment_id": "3daf1b88",
+      "source_content": "## Sprawdzenie adresu IP w aplikacji",
+      "source_content_hash": "d1e6681c8df87829d9d3aadd1b995ff9e9dafb6aa07a856dc2065ac3332dab2d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 在应用程序中查看IP地址"
+      }
+    },
+    {
+      "segment_id": "f6168993",
+      "source_content": "W aplikacji \"Asystent domowy\" wybierz z menu pozycję **Konfiguracja**, nastepnie **Konfiguracja bramki AIS dom**. W sekcji **Sieć WiFi** możesz zobaczyć swój lokalny adres IP.",
+      "source_content_hash": "cf656d59de55ec2b02c3e5544afd3307b6c51ef4460b87264173911a7c17c0b3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在\"家庭助理\"应用中，选择菜单项**配置**→**AIS dom网关配置**。在**WiFi网络**章节可查看本地IP地址。"
+      }
+    },
+    {
+      "segment_id": "f5f6d2ce",
+      "source_content": "![Ustawienia sieci](/img/en/bramka/ais_bramka_ip_address.png)",
+      "source_content_hash": "3ddb5387e4e8cf0e6ba66b966c32c25cbe31fd59a41d4d72fa5e5dce2395d172",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![网络设置](/img/en/bramka/ais_bramka_ip_address.png)"
+      }
+    },
+    {
+      "segment_id": "2fdadb08",
+      "source_content": "Możesz też wybrać z menu pozycję [Przydatne linki](/docs/ais_bramka_services), by zobaczyć adresy usług w Twojej sieci.",
+      "source_content_hash": "d74eb777265444b2bf40b6dbb1cba1ca6f6ee2798d97b5069c7fdb009ca6b1e6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "您也可通过菜单选择[实用链接](/docs/ais_bramka_services)查看网络服务地址。"
+      }
+    },
+    {
+      "segment_id": "79b2d0b9",
+      "source_content": "## Zapytanie asystenta o adres IP",
+      "source_content_hash": "6396f91d68d2d040b5da77fe7af00c9e06f733d314f7a059a21837fc8f262ae6",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 向助手查询IP地址"
+      }
+    },
+    {
+      "segment_id": "d9172fa4",
+      "source_content": "O stan każdego komponentu w systemie możesz też zapytać Asystenta, w tym celu wystarczy, że powiesz:",
+      "source_content_hash": "088cc17909731c48c3463e01d4a101e7eb5179ed0dc6c64b0ba4159861c26c10",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "您还可以通过语音指令查询系统各组件的状态，例如说出："
+      }
+    },
+    {
+      "segment_id": "b7c3dbd1",
+      "source_content": "```text\nJaki jest adres IP\n```",
+      "source_content_hash": "9e13725cfc0d6118f7a6241fa4ba42787cd2a7e591b2e86c7f244e44948fd1d1",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_b7c3dbd1"
+      }
+    },
+    {
+      "segment_id": "7499a4e7",
+      "source_content": "lub",
+      "source_content_hash": "d0afe5ed2bd67151d4dd103cbc58f94c43e56d5ebb122e9538f2718ee6d48c4c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "或"
+      }
+    },
+    {
+      "segment_id": "076d64d1",
+      "source_content": "```text\nJaka jest lokalna nazwa hosta\n```",
+      "source_content_hash": "43b11a62f518c49625f1170d2cf9a2c2c39910b8cec60c4bcbb412efb4e9b46a",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_076d64d1"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_remote_index.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.136860+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "1e31542b22f4a7e503e3c45d9517fd89d6692123f422c023eb94c280cdf7f21b"
+  }
+}

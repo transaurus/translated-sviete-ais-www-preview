@@ -1,0 +1,102 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_first_run_step_integration.md",
+  "source_file_content_hash": "fa871bd52a39edc7d8d7bdde5691e995447b58847e8471b051b5fa20bda44674",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Pierwsze uruchomienie - Dodanie urządzeń i usług\"\nsidebar_label: Dodanie urządzeń i usług\n---",
+      "source_content_hash": "0714a4ca545f765360cdc784c69b6f3c007d0dabd99375df4fea9c29170935e0",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Dodawanie usług i urządzeń",
+      "source_content_hash": "b31fd3c18b0646fcf16609a8db1b9f52b8e80cfe170f32a4be6e3c9e28da22a9",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 添加服务与设备"
+      }
+    },
+    {
+      "segment_id": "50387553",
+      "source_content": "import BrowserWindow from '@site/src/components/BrowserWindow';",
+      "source_content_hash": "c30f3ec38b8fe46ed14acfdf630f27b5f382afaea44d9df375ff4baf3311b08e",
+      "node_type": "mdxjsEsm",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_50387553"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "Podczas pierwszego uruchomienia możesz skonfigurować integrację z inteligentnymi urządzeniami, którymi chcesz sterować przy pomocy Asystenta domowego. Możesz to też zrobić później w konfiguracji integracji.",
+      "source_content_hash": "dc394585a023407c2ab06b25bd60f151021f8a57dcf7df70671087f0def2de16",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "首次运行时，您可以配置与智能设备的集成，这些设备将通过家庭助手进行控制。您也可以稍后在集成配置中完成此操作。"
+      }
+    },
+    {
+      "segment_id": "321c5251",
+      "source_content": "<BrowserWindow url=\"http://ais-dom.local\">\n<center>\n![Dodanie usług](/img/en/frontend/onboarding_step_5.png)\n</center>\n</BrowserWindow>",
+      "source_content_hash": "eb49f08a24d8d37dcf40ec67c6056c49fd899ca4c920b5fb68bfaefff2771842",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_321c5251"
+      }
+    },
+    {
+      "segment_id": "d350c018",
+      "source_content": "## Integracja z brokerem MQTT",
+      "source_content_hash": "443d3949a403a8181485bd9dd57b32ff5f028b1ced02a2696b7b646dce48983c",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## MQTT代理集成"
+      }
+    },
+    {
+      "segment_id": "1acb9a05",
+      "source_content": "Na bramce dostarczamy broker MQTT. Integracja z brokerem polega na podaniu lokalnego adresu IP brokera w konfiguratorze:",
+      "source_content_hash": "2818f63e963413909137890376ee7529b9f56cddbd45a4fc6783086dd75246f6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们为网关提供了MQTT代理服务。与代理的集成需要在配置器中输入代理的本地IP地址："
+      }
+    },
+    {
+      "segment_id": "5dfba1c3",
+      "source_content": "<BrowserWindow url=\"http://ais-dom.local\">\n<center>\n![Dodanie usług](/img/en/bramka/mqtt_integration_1.png)\n</center>\n</BrowserWindow>",
+      "source_content_hash": "93ec37f6d6394d0403934cda5b78e19c7af6571a7412d16c0ca9e88e76a93201",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_5dfba1c3"
+      }
+    },
+    {
+      "segment_id": "2a3434e4",
+      "source_content": "<BrowserWindow url=\"http://ais-dom.local\">\n<center>\n![Dodanie usług](/img/en/bramka/mqtt_integration_2.png)\n</center>\n</BrowserWindow>",
+      "source_content_hash": "ec176f51d63db1a8c08b69b1cb3bf059bc35a1e458cd10c28d3eae0f3178f6b2",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_2a3434e4"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_first_run_step_integration.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.098837+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "fa871bd52a39edc7d8d7bdde5691e995447b58847e8471b051b5fa20bda44674"
+  }
+}

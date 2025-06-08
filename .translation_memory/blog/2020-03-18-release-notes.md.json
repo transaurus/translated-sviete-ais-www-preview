@@ -1,0 +1,262 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2020-03-18-release-notes.md",
+  "source_file_content_hash": "be0c3ac7b718ae7c0eb3d3f15302236146b4084c57ca77b2c701b8a334b40c9e",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Jola AI-Speaker\nauthorURL: https://github.com/sviete\nauthorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4\ntitle: Wersja systemu 0.106.7 Migracja serwera na bramce\n---",
+      "source_content_hash": "1db2b1936888372824d0166bec151c99cc93e0201ec3704b9eb7e63067cb3c51",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "#  0.106.7 Migracja serwera",
+      "source_content_hash": "08febf33a5adbf3985a2aea51ca190bd03fd672cfdfc1301bdff60148cd4e600",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# 0.106.7 服务器迁移"
+      }
+    },
+    {
+      "segment_id": "8ac585fb",
+      "source_content": "Po 1.5 roku testów zdecydowaliśmy się na większą zmianę w architekturze naszego systemu oraz zmianę w sposobie instalowania aktualizacji.",
+      "source_content_hash": "22a3d40738c8853b3620aec350336a8585ff9471df8aa0be318793dd7bde9268",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "经过一年半的测试，我们决定对系统架构进行重大调整，并改变更新安装方式。"
+      }
+    },
+    {
+      "segment_id": "180bddb1",
+      "source_content": "![Serwer](/img/en/blog/202003/new_server.png)",
+      "source_content_hash": "4775abe805df48eee069f58ce690d28b76e60b41a4dc327d8f3c0f3f31d2a7b7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![服务器](/img/en/blog/202003/new_server.png)"
+      }
+    },
+    {
+      "segment_id": "28a64196",
+      "source_content": "<!--truncate-->",
+      "source_content_hash": "f5cded2aa7e288e395fe4f67f9dabda2281904b2f5358d07302b3aa8be0acdfa",
+      "node_type": "comment",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_28a64196"
+      }
+    },
+    {
+      "segment_id": "42ad8e83",
+      "source_content": "Głównym powodem zmiany jest potrzeba uzyskania pełnej kontroli nad aktualizacjami oprogramowania na bramce. Nasze pierwotne założenie było takie, że wszystkie aplikacje podpisywaliśmy w Google Play i dystrybuowaliśmy przez Google Play. Niestety nie da się w żaden sposób zapewnić czasu instalacji przez Google Play — nikt nie zna algorytmu, kiedy instalacja zostanie wydana i trafi na urządzenie. Dlatego zdecydowaliśmy się na samodzielne podpisywanie i aktualizowanie aplikacji na bramce. Aktualizacje aplikacji na telefon/tablet/zegarek są mniej krytyczne i te oczywiście nadal będą wykonywane przez Google Play.",
+      "source_content_hash": "0e24989eaa3269507f1094e19de448f1939bf2c74eae749579661ef823d946be",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "此次变更的主要原因是需要完全掌控网关设备的软件更新。我们最初设想所有应用都通过Google Play签名并分发，但无法确保Google Play的更新时间——无人知晓其推送算法何时会将更新推送到设备。因此我们决定改为自主签名并直接更新网关应用。手机/平板/手表端的应用更新时效性要求较低，这些仍将通过Google Play进行更新。"
+      }
+    },
+    {
+      "segment_id": "80e6256a",
+      "source_content": ":::important[informacja]\nMigracja do nowej wersji będzie niestety bardziej skomplikowana niż normalna aktualizacja, ponieważ musimy odinstalować aplikację i zainstalować jej nową wersję (podpisaną naszym kluczem).\nDokładną procedurę \"krok po kroku\" opisujemy na forum. **Zaplanuj sobie migrację, gdy będziesz miał czas (około jednej godziny), żeby wykonać spokojnie całość krok po kroku wg instrukcji:**\n\n[Link do instrukcji na forum](https://ai-speaker.discourse.group/t/wip-reczna-akualizacja-serwsiu-ais-dom-na-bramce/299).\n:::",
+      "source_content_hash": "1ed92745d6847312586329502039bd49838fad556497253368520a775e527d1f",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::important[重要通知]\n本次迁移将比常规更新更复杂，因为需要卸载旧应用并安装新签名版本（使用我们的密钥签名）。我们在论坛上提供了详细的逐步操作指南。请预留约1小时时间，按指南从容完成整个迁移过程：\n\n[论坛操作指南链接](https://ai-speaker.discourse.group/t/wip-reczna-akualizacja-serwsiu-ais-dom-na-bramce/299)。\n:::"
+      }
+    },
+    {
+      "segment_id": "a76548f8",
+      "source_content": "![Serwer](/img/en/blog/202003/new_server.png)",
+      "source_content_hash": "4775abe805df48eee069f58ce690d28b76e60b41a4dc327d8f3c0f3f31d2a7b7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![服务器](/img/en/blog/202003/new_server.png)"
+      }
+    },
+    {
+      "segment_id": "4b1d2d7d",
+      "source_content": "**Jest to oczywiście \"jednorazowa akcja\", gdy będziemy już mieli zainstalowaną aplikację serwer, z wersją 2.x.x to kolejne jej aktualizacje serwera będą automatyczne tak jak dotychczas.**",
+      "source_content_hash": "06f8473cb78e9a8131416fa5930b7bb3606e001ebfad317b7e82a3a2c43a045e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "这显然是\"一次性操作\"，待2.x.x版本的服务器应用安装完成后，后续更新将如往常般自动进行。"
+      }
+    },
+    {
+      "segment_id": "0d170438",
+      "source_content": ":::tip[Wskazówka]\nNic się nie stanie, jeśli nie wykonasz migracji - nadal będziesz dostawał aktualizację aplikacji Asystent domowy.\nWszystko będzie działało tak jak dotychczas. Nie będziesz miał jedynie dostępu do najnowszych usług takich jak włączanie mikrofonu czy odtwarzanie wideo.\n\nJeśli coś pójdzie nie tak i nie uda Ci się wykonać migracji, to też nic się nie stanie. W takim przypadku napisz do nas na serwis: [info@ai-speaker.com](mailto:info@ai-speaker.com) i postaramy się pomóc - w najgorszym wypadku, wyślesz nam bramkę a my ją zaktualizujemy - oczywiście usługa bezpłatna, relax :)\n:::",
+      "source_content_hash": "821e28e8e7f15c168466c3ba36e46b32b375d241409c12f000f5fc84089629df",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::tip[温馨提示]\n暂不迁移也不会影响使用——您仍会收到家庭助理应用的常规更新，现有功能均保持正常，仅无法使用麦克风启用、视频播放等新服务。\n\n若迁移过程中遇到问题也无需担心，请通过[info@ai-speaker.com](mailto:info@ai-speaker.com)联系我们的客服，我们将全力协助——最坏情况下可寄回网关由我们代为更新（完全免费服务，请放心:)）。\n:::"
+      }
+    },
+    {
+      "segment_id": "62a6890b",
+      "source_content": "## Nowa strona dokumentacji",
+      "source_content_hash": "2b20e9f00def193027cd711f4685e19a38c2a0b94af3e0da58c7711e37329c86",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 新版文档站点"
+      }
+    },
+    {
+      "segment_id": "3cfe6286",
+      "source_content": "Skoro tu jesteś, to pewnie zauważyłeś, że mamy nową stronę dokumentacji. Doszliśmy do wniosku, że wersjonowanie dokumentacji jest zbyt skomplikowane i że trzeba to zrobić prościej, od tej pory dokumentacja dotyczy jednej wersji - aktualnej.",
+      "source_content_hash": "4476feed414dde0ebd4fe7a0d4a9988d208e1db18f939220788de1253ff9328c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "既然您看到这里，想必已注意到我们全新的文档站点。我们认为版本化文档体系过于复杂，决定从此采用更简洁的方案——文档仅维护当前最新版本。"
+      }
+    },
+    {
+      "segment_id": "1042b50d",
+      "source_content": "Stara strona działała na GitHub i zostawimy ją jeszcze, bo sporo linków do niej prowadzi, ale nie będziemy jej aktualizować.",
+      "source_content_hash": "69f767223af67419dfde4b9f14016fc0c66eaa2c74d7b875d884a7cf5965d854",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "基于GitHub的旧版站点仍会保留（因存在大量外部链接），但将不再更新。"
+      }
+    },
+    {
+      "segment_id": "aa1e7006",
+      "source_content": "**Kilka dni zajmie zindeksowanie dokumentacji przez wyszukiwarkę - wyszukiwanie na nowej stronie zacznie działać poprawnie z czasem.**",
+      "source_content_hash": "59d76d4920f83fead9806f7c3393e63970e7f1778670cc841eba00d5ebe92dd3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "**新站点的文档索引需要数日时间完成——搜索引擎将逐步恢复正常运作。**"
+      }
+    },
+    {
+      "segment_id": "f44c1398",
+      "source_content": "## API",
+      "source_content_hash": "40caf66c4de56e46b72485c47adff4916c4bc7e563ecd9f7278e9dcaf92d1cad",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## API接口"
+      }
+    },
+    {
+      "segment_id": "29528c8d",
+      "source_content": "Mamy coraz więcej użytkowników, którzy mają fajne pomysły na wykorzystanie bramki. Mamy nadzieję, że opis API ułatwi każdemu wykonanie zaawansowanych automatyzacji (włączenie mikrofonu po otwarciu drzwi itd.) i integracji z innymi systemami (np. bramką Fibaro).",
+      "source_content_hash": "bfc38728186cfb9ff4124a33d3a2cd6a195664c6d159a7511b55afea3356396c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们注意到越来越多用户对网关的创新应用场景。希望这份API文档能帮助开发者实现高级自动化（例如开门自动启动麦克风）以及与其他系统（如Fibaro网关）的集成。"
+      }
+    },
+    {
+      "segment_id": "f7ef78f9",
+      "source_content": "Tu jest [link do dokumentacji API](/docs/ais_bramka_api_index)",
+      "source_content_hash": "fd1a2ef599b50b420f1ebb8dbfc0fe13db13766e75b971f3bf1cbe681cd08c73",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "查阅[API文档](/docs/ais_bramka_api_index)"
+      }
+    },
+    {
+      "segment_id": "b36c6338",
+      "source_content": "![Usługi](/img/en/frontend/services_2.png)",
+      "source_content_hash": "f64d778f775babf2b50fd3584a075830f279d9ef88b4ee23ac6e6cde08228633",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![服务模块](/img/en/frontend/services_2.png)"
+      }
+    },
+    {
+      "segment_id": "e50bebbf",
+      "source_content": "## Przed aktualizacją",
+      "source_content_hash": "f2df40af1e759e410cd4314535f75ddabb0b20575be837aeea4ec31e5318d5ff",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 升级前须知"
+      }
+    },
+    {
+      "segment_id": "97388c5b",
+      "source_content": ":::tip[Wskazówka]\nUWAGA Przed aktualizacją zalecamy wykonać [kopię zapasową konfiguracji](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji). W ten sposób sprawdzisz poprawność swojej konfiguracji przed rozpoczęciem aktualizacji i zwiększysz prawdopodobieństwo bezproblemowej aktualizacji.\n:::",
+      "source_content_hash": "8037a28333f24321b7f0ca3b0ff5dadb46488124d52cf37fa284e31f781ef145",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::tip[重要提示]\n请注意：建议升级前先执行[配置备份](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji)。通过预检配置可确保升级流程顺利。\n:::"
+      }
+    },
+    {
+      "segment_id": "3a4225d7",
+      "source_content": ":::important[informacja]\nW razie problemów po aktualizacji sprawdź procedurę [Aktualizacja z konsoli](/docs/ais_bramka_update_manual) lub [Wykonanie pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step)- to może dotyczyć szczególnie osób, które instalują na bramce dodatkowe niestandardowe komponenty.\n:::",
+      "source_content_hash": "3cec0bb82063176fa13cef39765f9b987deaab39151bf29d8edb2af0bf5c6672",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::important[注意事项]\n若升级后出现异常，请参考[控制台升级指南](/docs/ais_bramka_update_manual)或[应用重置教程](/docs/ais_bramka_reset_ais_step_by_step)——尤其是安装了非标准组件的用户需特别注意。\n:::"
+      }
+    },
+    {
+      "segment_id": "bd92edfc",
+      "source_content": "## Home Assistant",
+      "source_content_hash": "740b285c99ee849f17b14b85885c2e802b66edeeea4f9c6045c0fff785d20a55",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## Home Assistant"
+      }
+    },
+    {
+      "segment_id": "7f71ff2a",
+      "source_content": "Najnowszy (stabilny) Home Assistant <a href=\"https://www.home-assistant.io/blog/2020/02/26/release-106/\" target=\"_blank\">0.106.6</a>",
+      "source_content_hash": "e499eff821d61384fed49cdf329626e00caa8dd0e39dbb485838dba1ddcc2532",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "最新稳定版Home Assistant <a href=\"https://www.home-assistant.io/blog/2020/02/26/release-106/\" target=\"_blank\">0.106.6</a>"
+      }
+    },
+    {
+      "segment_id": "3fa01396",
+      "source_content": "----",
+      "source_content_hash": "bd64bb8efa5b3f27e6442f23600c3b516127ea17e23724b41e50da4c22883edd",
+      "node_type": "thematicBreak",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "----"
+      }
+    },
+    {
+      "segment_id": "daed5acb",
+      "source_content": "Zapraszamy do aktualizacji i [komentowania na forum :)](https://ai-speaker.discourse.group/)\nAI-Speaker 03/2020\n----",
+      "source_content_hash": "54ae96c338469d4955072e43411f9c6c3f0bf0875ae7d608d74bce1c8dc77d2d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "欢迎参与升级讨论[前往论坛 :)](https://ai-speaker.discourse.group/)\nAI-Speaker 2020年3月\n----"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2020-03-18-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.119055+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "be0c3ac7b718ae7c0eb3d3f15302236146b4084c57ca77b2c701b8a334b40c9e"
+  }
+}

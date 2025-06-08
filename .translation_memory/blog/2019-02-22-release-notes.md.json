@@ -1,0 +1,92 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2019-02-22-release-notes.md",
+  "source_file_content_hash": "a72447597a4f6128a07bf8898257298e0f734fa24d66eca39316205c369f523a",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Jola AI-Speaker\nauthorURL: https://github.com/sviete\nauthorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4\ntitle: Wersja systemu 0.87.3  Konsola\n---",
+      "source_content_hash": "89e97d112e9ee8ec01125aadc995af84f4be4bb43fd4d20e16ab751d1e29cf15",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Wersja systemu 0.87.3 z dnia 22 lutego 2019 roku,",
+      "source_content_hash": "f930a6d4be9dd2c17482c4540cd76e37ab5ab7d1a7ee4c34555ccf8be27e9b90",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 系统版本 0.87.3 发布于2019年2月22日"
+      }
+    },
+    {
+      "segment_id": "1cc03ec8",
+      "source_content": "### W tej wersji skupiliśmy się na poprawie dostępności.",
+      "source_content_hash": "a8a0029b7d0cde0d61375a52f01599cc4676eb25dc08b97a7bbfd089f2019cad",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 本版本重点提升可访问性"
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "Podczas dostępu z Internetu dodaliśmy szyfrowanie komunikacji - HTTPS. Gdy dostęp z Internetu jest aktywny to dla zwiększenia bezpieczeństwa automatycznie wyłączamy możliwość łatwego logowania do aplikacji. Pamiętamy też o preferencjach i jeżeli przed restartem urządzenia dostęp był włączony to po restarcie automatycznie go odnawiamy.",
+      "source_content_hash": "963125681309b817c029c717008fc745d84109a562f45a70efad24dba48474ac",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们为互联网访问新增了HTTPS通信加密。当启用互联网访问时，为增强安全性将自动关闭简易登录功能。系统会记忆用户偏好——若设备重启前已开启远程访问，重启后将自动恢复该设置。"
+      }
+    },
+    {
+      "segment_id": "ad8fd492",
+      "source_content": "Dodaliśmy też dostęp z naszej aplikacji (działającej w dowolnej przeglądarce) do konsoli systemowej \"Asystenta domowego\" działającej na urządzeniu, wystarczy... kliknąć połącz :) i mamy połączenie SSH do Linux-a na urządzeniu! Już bez potrzeby pobierania prywatnych kluczy czy programów typu PuTTY. [Dostęp do konsoli bezpośrediono z aplikacji](/docs/ais_bramka_remote_ssh#dostęp-do-konsoli-z-aplikacji)",
+      "source_content_hash": "a0114984ab9faae06f9f55f76436c1df1f78e379be588fb7b35a8f1857063bd3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "新增浏览器端应用直达设备本地\"家庭助理\"系统控制台功能，只需点击连接即可建立SSH会话，无需下载私钥或PuTTY等工具。[从应用直接访问控制台](/docs/ais_bramka_remote_ssh#dostęp-do-konsoli-z-aplikacji)"
+      }
+    },
+    {
+      "segment_id": "86b54d44",
+      "source_content": "Dodatkowo w tej wersji dostarczamy kilka ulepszeń w interfejsie aplikacji, portalu integratora oraz oczywiście najnowszego Home Assistanta z wieloma fajnymi nowymi funkcjonalnościami.<a href=\"https://www.home-assistant.io/blog/2019/02/06/release-87/\" target=\"_blank\">0.87</a>",
+      "source_content_hash": "359e6a8b51b247381af64543e6c8f347f498d4e86d295db560feb09356d98f9a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "本次更新还包含应用界面优化、集成商门户改进，以及搭载众多新功能的Home Assistant最新版。<a href=\"https://www.home-assistant.io/blog/2019/02/06/release-87/\" target=\"_blank\">0.87</a>"
+      }
+    },
+    {
+      "segment_id": "e83bca52",
+      "source_content": ">***Ta aktualizacja wyjątkowo trwa długo*** - około 30 minut, w związku z czym dodaliśmy komunikaty głosowe o postępie instalacji :). Prosimy o uzbrojenie się w cierpliwość i zachęcamy do aktualizacji do najnowszej wersji.",
+      "source_content_hash": "9175e15c8ce0286da1a4e56e89c615f2280bcfbe07845dccee0d5c6c523e8694",
+      "node_type": "blockquote",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ">***本次更新耗时较长*** - 约30分钟，为此我们新增了语音进度提示。请耐心等待并建议升级至最新版本。"
+      }
+    },
+    {
+      "segment_id": "f5f6d2ce",
+      "source_content": "![Konfiguracja interfejsu użytkownika](/img/en/frontend/frontend-console.png)",
+      "source_content_hash": "1d027d62bcad5aa78ad17b7752f24b19d92be6029844188185d5703bfcff4615",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![用户界面配置](/img/en/frontend/frontend-console.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2019-02-22-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.114476+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "a72447597a4f6128a07bf8898257298e0f734fa24d66eca39316205c369f523a"
+  }
+}

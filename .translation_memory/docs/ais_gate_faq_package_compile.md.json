@@ -1,0 +1,112 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_gate_faq_package_compile.md",
+  "source_file_content_hash": "e3e10018c33994da27cf468212a84d2bbc5aa3eafa207aeb1ee185b141ce7c97",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Własny pakiet do systemu Linux\"\nsidebar_label: Własny pakiet do systemu Linux\n---",
+      "source_content_hash": "19ff4809365dfa43c31a465a7ff0620ac0468b0a5f13324bdbd0ac9ff5df60de",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Środowisko Linux-a, które mamy na urządzeniu",
+      "source_content_hash": "6eeca11f6841bde3e75df38b24fd52dc6bc990001fa6ab3d0c0c03ccf08b03a2",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 设备上的Linux运行环境"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Na urządzeniu dostarczamy emulator terminala i zestaw programów działających w konsoli (binarki skompilowane pod architekturę procesora na urządzeniu z uwzględnieniem prefiksu środowiska).\nNasz system współdzieli jądro Linuksa z systemem Android. Dzięki temu mamy multimedia z Androida oraz interfejs tekstowy do shell-a i repozytorium pakietów APT z dodatkowymi binarkami na jednym urządzeniu w tym samym czasie.\nJest to kompletne środowisko Linuxa, ale z jedną główną różnicą w stosunku do tradycyjnych dystrybucji — nasze środowisko jest z prefiksem.\nŚrodowisko z prefiksem (prefixed environment) oznacza, że struktura katalogów jest nieco inna niż w klasycznych dystrybucjach — np. w Ubuntu mamy /bin a w AIS-linux mamy $PREFIX /bin, gdzie $PREFIX w naszym przypadku odnosi się do /data/data/com.termux/files/usr.",
+      "source_content_hash": "c45c77c0774b83e8b933952ed85ef234ca54354cc49e494790bfa865589402dd",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们为设备提供了终端模拟器和一套可在控制台运行的程序（专为设备处理器架构编译的二进制文件，并考虑了环境前缀）。\n我们的系统与Android共享Linux内核。这使得我们能够同时在一台设备上享受Android的多媒体功能、文本shell接口以及带有额外二进制文件的APT软件仓库。\n这是一个完整的Linux环境，但与传统发行版有一个主要区别——我们的环境带有前缀。\n带前缀的环境（prefixed environment）意味着目录结构与经典发行版略有不同——例如Ubuntu使用/bin，而AIS-linux使用$PREFIX/bin，其中$PREFIX在我们的案例中指向/data/data/com.termux/files/usr。"
+      }
+    },
+    {
+      "segment_id": "180bddb1",
+      "source_content": "![](/img/en/bramka/faq_linux_package_compilation_1.png)",
+      "source_content_hash": "260bf38aca2b2ab9fbb8de838cd9de6b3ca9bcc3f105cb1089e68514295e1e80",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/bramka/faq_linux_package_compilation_1.png)"
+      }
+    },
+    {
+      "segment_id": "cbe57f9d",
+      "source_content": "## Kompilacja pakietu",
+      "source_content_hash": "b546916ebf20430515a171c0d438605861c676b9e09b5f6ce62d8978b09929bb",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 软件包编译"
+      }
+    },
+    {
+      "segment_id": "39b3772c",
+      "source_content": "Prefiks robi różnicę w instalacji i kompilacji pakietów. Tworząc naszą dystrybucję wzorowaliśmy się na Termux - którego jesteśmy forkiem.\nKompilacja pakietów jest taka sama jak w Termux https://wiki.termux.com/wiki/Main_Page wykonujemy ją w kontenerze Dokera https://github.com/sviete/AIS-linux-packages, a następnie umieszczamy pakiet w repozytorium https://github.com/sviete/DOM-APT-REPO",
+      "source_content_hash": "70b81f65b1113fb26a1d6b1f48df85b83762dd9dba3eafd55c15bece6a1ea1c3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "前缀会影响软件包的安装和编译过程。在创建我们的发行版时，我们参考了Termux——我们是其分支。\n软件包编译过程与Termux相同（参见https://wiki.termux.com/wiki/Main_Page），我们在Docker容器中完成编译（https://github.com/sviete/AIS-linux-packages），然后将软件包放入仓库https://github.com/sviete/DOM-APT-REPO"
+      }
+    },
+    {
+      "segment_id": "63622bf0",
+      "source_content": "### Dodanie skompilowanego pakietu do repozytorimu AIS-linux",
+      "source_content_hash": "256be79422e66152487607424ecf3609efdfc87feee45ab69f899307c65c9051",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 将编译好的软件包添加到AIS-linux仓库"
+      }
+    },
+    {
+      "segment_id": "98cfbd53",
+      "source_content": "Jeżeli chciałbyś, żeby Twoja binarka była dostępna w naszym repozytorium AIS-linux (by mogła być instalowana przy pomocy menadżera pakietów apt), to preferowana droga, to wykonanie **pull request do Termux**",
+      "source_content_hash": "06113b751d3d01b99d1a2a33fd614a9601d7d4aa79068201c8eda8a145daf86d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "如果您希望您的二进制文件能被纳入我们的AIS-linux仓库（以便通过apt包管理器安装），推荐的方式是向Termux提交pull request"
+      }
+    },
+    {
+      "segment_id": "ccc88b4c",
+      "source_content": "https://github.com/termux/termux-packages",
+      "source_content_hash": "06d0086faadcaac1fe689f1949fe986c7ac5a21b9f35c769198c407e45184cc1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "https://github.com/termux/termux-packages"
+      }
+    },
+    {
+      "segment_id": "d9172fa4",
+      "source_content": "w ten sposób Twój komponent zostanie sprawdzony i przetestowany przez setki programistów oraz tysiące użytkowników, a następnie trafi oficjalnie do Asystenta domowego wraz w najnowszą wersją pakietów z Termux.",
+      "source_content_hash": "8586562efbf823a2f986962fe7a415011052f628e20ab9edd56ef107f30a5c84",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过这种方式，您的组件将经过数百名开发者和数千名用户的审查测试，最终会随着Termux的最新软件包版本正式进入家庭助理系统。"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_gate_faq_package_compile.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.137090+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "e3e10018c33994da27cf468212a84d2bbc5aa3eafa207aeb1ee185b141ce7c97"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2018-10-24-release-notes.md",
+  "source_file_content_hash": "ac32d68be949d103001c6855ca0cd5b2b5249b6b37cc2d28265938264c4b3272",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Andrzej Raczkowski\nauthorURL: https://github.com/sviete\nauthorFBID: 1546384510\ntitle: Wersja systemu 0.80.4  \n---",
+      "source_content_hash": "d3c1ad25fab1002e070bc9849f32a4e312439c95229ce4d1b07148c21a73c695",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Wersja systemu 0.80.4  z dnia 24 października 2018 roku,",
+      "source_content_hash": "1e980fce387808803d4578d329dae7ebb3408e73b53b0a0b5f46dd8b5c4de42d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 2018年10月24日发布的系统版本0.80.4"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "w tej wersji dodano:",
+      "source_content_hash": "3872a90319800ef209dc86e7768257437634efb2d0bd4158297f09cf8d4b1322",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "此版本新增功能："
+      }
+    },
+    {
+      "segment_id": "be33979e",
+      "source_content": "- dostęp do pozycji udostępnionych w Google Drive, nowy folder \"Udostepnione dla mnie\"\n- udostępnienie aplikacji po HTTP na porcie **8180** (rozwiązanie problemów z certyfikatami w iOS) [HTTP](/docs/ais_bramka_remote_http)\n- poprawne wyświetlanie aplikacji na telewizorach 4K\n- najnowszy Home Assistant 0.80 [HA 0.80](https://www.home-assistant.io/blog/2018/10/12/release-80)",
+      "source_content_hash": "652c9c01220141a944ece1fc8842aa618a5dd90c688f40cb68b76ea67c624dad",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 支持访问Google Drive共享目录，新增\"与我共享\"文件夹\n- 通过HTTP协议在**8180**端口提供应用访问（解决iOS证书问题）[HTTP](/docs/ais_bramka_remote_http)\n- 优化4K电视上的应用显示效果\n- 集成最新版Home Assistant 0.80 [HA 0.80](https://www.home-assistant.io/blog/2018/10/12/release-80)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2018-10-24-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.099641+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "ac32d68be949d103001c6855ca0cd5b2b5249b6b37cc2d28265938264c4b3272"
+  }
+}

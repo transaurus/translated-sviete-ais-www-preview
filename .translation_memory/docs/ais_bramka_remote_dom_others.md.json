@@ -1,0 +1,852 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_remote_dom_others.md",
+  "source_file_content_hash": "776fd5df415565ca12c49409682e50b7d36da24672752fec665c894164b64bda",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Inne metody na dostęp zdalny\"\nsidebar_label: Inne metody na dostęp zdalny\n---",
+      "source_content_hash": "183c04a2d47967dc4f573a26108102001793a352ad13eb20c7ac55c728922a67",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "0eeea6cc",
+      "source_content": ":::caution[Uwaga]\nGdy dodajesz dostęp z Internetu do swojej bramki, to **pamiętaj o  bezpieczeństwie**. Należy odpowiednio skonfigurować logowanie do Asystenta domowego w celu zabezpieczenia dostępu, patrz opis: [Zabezpieczenie dostępu do aplikacji](#zabezpieczenie-dostępu-do-aplikacji).\n:::",
+      "source_content_hash": "0399995f28b77b1c729fc6b44490701be80854594db6ccbaba53c6af80842255",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[警告]\n当为您的网关添加互联网访问权限时，**请务必注意安全性**。需正确配置家庭助理的登录认证以保障访问安全，具体方法参见：[应用程序访问安全设置](#zabezpieczenie-dostępu-do-aplikacji)。\n:::"
+      }
+    },
+    {
+      "segment_id": "1cc03ec8",
+      "source_content": "## Przekierowanie portów na routerze",
+      "source_content_hash": "39768c8d37bc3846cf1d3a8adbd05d1a1fa585bba30b89ce6581b89b8a518500",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 路由器端口转发"
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "Jedną z metod na udostępnienie bramki z Internetu jest przekierowanie portów na routerze. W przypadku aplikacji sprowadza się to do przekierowania portu 8123 z bramki na wolny port na routerze. Router jest dostępny z Internetu, więc wywołując jego adres na udostępnionym porcie można uzyskać dostęp do aplikacji Asystent domowy. To, jak wykonać takie przekierowanie, zależy do modelu routera. Szczegółowy opis należy sprawdzić w instrukcji danego routera.",
+      "source_content_hash": "c5c6d488b369c83e8885ea1ae269fb7a76c4f16cef3b41189e46df89ef0f7baf",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过路由器端口转发是将网关暴露到互联网的方法之一。对于应用程序而言，需要将网关的8123端口转发至路由器的空闲端口。由于路由器本身可通过互联网访问，因此调用其公网地址及映射端口即可访问家庭助理应用。具体操作步骤因路由器型号而异，请参考对应设备的说明书进行配置。"
+      }
+    },
+    {
+      "segment_id": "e14c9928",
+      "source_content": "## TOR",
+      "source_content_hash": "9d8e24f33c37c2591c242f8bb63d66f56ecb6680bebcc1eba30218f5667bf25d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## TOR网络"
+      }
+    },
+    {
+      "segment_id": "42ad8e83",
+      "source_content": "Możliwe jest zdefiniowanie dostępu do bramki przez Internet w sieci Tor Onion.\nUsługa Tor Onion pozwala na zdalny dostęp do aplikacji Asystent domowy działającej na bramce w twojej sieci lokalnej za pośrednictwem standardowych portów.",
+      "source_content_hash": "fc83afc5d92b6adc163daf2c9567dd42289cc1eaf8be6627c7f01127696cfdfb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "可通过Tor Onion网络定义对网关的互联网访问。\nTor Onion服务允许通过标准端口远程访问运行在您本地网络中的家庭助理应用。"
+      }
+    },
+    {
+      "segment_id": "1acb9a05",
+      "source_content": "Dostęp do urządzenia za pośrednictwem Tora jest najbezpieczniejszą metodą ponieważ oferuje silne szyfrowanie, dodatkowo Twoja bramka nie jest widoczna w zwykłym Internecie. Niestety nie jest to zbyt efektywna moteda, ponieważ sieć TOR jest zwykle dość wolna.",
+      "source_content_hash": "9042469fe7234200fef153c16fec2530674f47b0c1b5f3b24784578191cf50b4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过Tor访问设备是最安全的方式，因其提供强加密且网关不会暴露在常规互联网中。但此方法效率较低，因Tor网络通常延迟较高。"
+      }
+    },
+    {
+      "segment_id": "40f9552a",
+      "source_content": "### Instalacja potrzebnych pakietów",
+      "source_content_hash": "0972483cfb183299d27e51c5acb3be3ecdc139f5aa340b643f953c633fd36e94",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 安装必要组件"
+      }
+    },
+    {
+      "segment_id": "f2c2bdd0",
+      "source_content": "Zainstaluj TOR wykonując w konsoli komendę:",
+      "source_content_hash": "65607e33b6e5845b8aa9f6b34c4d6dc0a80d1dbea221a47f3a8fc161ebc14197",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在控制台执行以下命令安装TOR："
+      }
+    },
+    {
+      "segment_id": "08021a08",
+      "source_content": "```bash\n$ apt install tor\n```",
+      "source_content_hash": "6cdac03d7a863fb1a4d041585290ceb28c2414f4dcf8646e81af0c65d1dc37d6",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_08021a08"
+      }
+    },
+    {
+      "segment_id": "48847fd4",
+      "source_content": "### Ustawienia serwisu Onion",
+      "source_content_hash": "b959cd986333213e7cdf84a00113e78801c687fe780ac2ffae81001b0a74110d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### Onion服务配置"
+      }
+    },
+    {
+      "segment_id": "4daf5cdd",
+      "source_content": "Należy zmodyfikować domyślny plik konfiguracyjny tor znajdujący się w lokalizacji $PREFIX/etc/tor/torrc\nWykonaj tą komendę, by udostępnić na bramce serwis SSH oraz HTTP w Onion:",
+      "source_content_hash": "687fe1ae9b8e3d703d84f1d689ffd22f2474ed215ed002187268267da3f2ebb0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "需修改TOR默认配置文件$PREFIX/etc/tor/torrc\n执行此命令以在网关上启用SSH和HTTP的Onion服务："
+      }
+    },
+    {
+      "segment_id": "076d64d1",
+      "source_content": "```bash\n$ echo \"SOCKSPort 127.0.0.1:9050\nHiddenServiceDir /data/data/com.termux/files/home/.tor/hidden_dom\nHiddenServicePort 22 127.0.0.1:8022\nHiddenServicePort 80 127.0.0.1:8180\" > $PREFIX/etc/tor/torrc\n```",
+      "source_content_hash": "c503095f9ad0ba7c4891a8ab44d4fc3e713e44c1689e6f005bc275edd92bf463",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_076d64d1"
+      }
+    },
+    {
+      "segment_id": "95e9ba12",
+      "source_content": "Następnie trzeba utworzyć katalog, w którym będą przechowywane informacje o ukrytych usługach:",
+      "source_content_hash": "f6da7db230e21eea9e3b7d82ee4d02adf06c798724f3bf91075b98f280718fa5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "随后创建用于存储隐藏服务信息的目录："
+      }
+    },
+    {
+      "segment_id": "4ec2920d",
+      "source_content": "```bash\n$ mkdir -p ~/.tor/hidden_dom\n```",
+      "source_content_hash": "cf99faf0256b4227fd6072aaf10c0386d04319c3f421a757d6e78da0f06eea5d",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_4ec2920d"
+      }
+    },
+    {
+      "segment_id": "a44047a5",
+      "source_content": "Uruchom usługę Tor wpisując w konsoli:",
+      "source_content_hash": "0d2957c1009547c86a2a92d828e3be19549550a7dba76b6151eb7bc8974b3ded",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在控制台输入以下命令启动Tor服务："
+      }
+    },
+    {
+      "segment_id": "64b6f348",
+      "source_content": "```bash\n$ tor\n```",
+      "source_content_hash": "5cee18adbfd82ef073bedd319506050d21ecb3d56ca0f71ee744cc3441530b95",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_64b6f348"
+      }
+    },
+    {
+      "segment_id": "b9aaa519",
+      "source_content": "poczekaj, aż serwis się uruchomi, pojawi się kilka logów aż na końcu będzie:",
+      "source_content_hash": "9fbf61dfdcee312009ae6b915c9f8311d9e25ce79558c8d8865e9d128e90613d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "等待服务启动完成，当出现以下日志时表示启动成功："
+      }
+    },
+    {
+      "segment_id": "6d254e09",
+      "source_content": "```bash\n Bootstrapped 100%: Done\n```",
+      "source_content_hash": "aa460d481f899c0adf806a0b78aa3d08d37d14ca2a31aa55889aef33e6878403",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_6d254e09"
+      }
+    },
+    {
+      "segment_id": "6ea4c715",
+      "source_content": "zamknij serwis kombinacją klawiszy: Ctrl+c",
+      "source_content_hash": "5f9a37b158cd299a16b27774091a5c18537ba461c06b65ba0b8fd1ead83ce8ec",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "使用Ctrl+c组合键关闭服务"
+      }
+    },
+    {
+      "segment_id": "126950d7",
+      "source_content": "### Nazwa hosta w Onion",
+      "source_content_hash": "01191fbdf9357f97e7a40bee0bb02d5c1088d970022b580992f02fa38cabfd2e",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### Onion主机名"
+      }
+    },
+    {
+      "segment_id": "0bb95128",
+      "source_content": "Żeby sprawdzić unikalną nazwę hosta bramki w Onion wykonaj w konsoli:",
+      "source_content_hash": "0cc9b0679a2db4facfe5b67654e5ed4698f27df076462e7b142f6210aa4ddab4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在控制台执行以下命令查看网关的Onion网络唯一主机名："
+      }
+    },
+    {
+      "segment_id": "29ad5b0e",
+      "source_content": "```bash\n$ cat ~/.tor/hidden_dom/hostname\n```",
+      "source_content_hash": "b16b896acbf4da7a1dd5a146e184445c02fae080fc6dbfe8f0f96d30f8b7a79a",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_29ad5b0e"
+      }
+    },
+    {
+      "segment_id": "eab056be",
+      "source_content": "wynik powinien być podobny do poniższego:",
+      "source_content_hash": "c5b57ea3eb6ad622cb9f59865e4e7bc7cd6e598c0d6529e146a32ac2ba58750d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "输出结果应类似如下格式："
+      }
+    },
+    {
+      "segment_id": "9f3b4022",
+      "source_content": "```bash\n$ ytdv3tvdeh8u6koz.onion\n```",
+      "source_content_hash": "ecc073ad991112e00987b541e06080df0e2f343e564b481a07689475c27312cb",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_9f3b4022"
+      }
+    },
+    {
+      "segment_id": "2fd0be2a",
+      "source_content": "### Łączenie z serwisem",
+      "source_content_hash": "b08216c5c365c04e354c263033c7e8ce0a171482e2f2987ea36d765441858b34",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 服务连接"
+      }
+    },
+    {
+      "segment_id": "c1945d24",
+      "source_content": "> Pamiętaj, że usługa `TOR` powinna działać na obu stronach (klient / serwer), w przeciwnym razie pojawią się błędy połączenia.",
+      "source_content_hash": "3d6470c4ee5b5fdbf8ec6a1617710566267613227d6b4a160ea479703bde19b6",
+      "node_type": "blockquote",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "> 请注意：`TOR`服务需在客户端/服务器两端同时运行，否则会出现连接错误。"
+      }
+    },
+    {
+      "segment_id": "5dbc17cf",
+      "source_content": "- SSH.\nProgramem do połączenia z serwisem SSH może być torsocks",
+      "source_content_hash": "bab1d86859ba9f64cbd58210ec35ca075ed4589c3db92c562115ecb34029fcff",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- SSH。\n连接SSH服务可以使用torsocks程序"
+      }
+    },
+    {
+      "segment_id": "2547a6bb",
+      "source_content": "Zainstaluj torsocks wykonując w konsoli komendę:",
+      "source_content_hash": "c3fc7769cc8104f7c191b3e9a986b8e6143712813e480a9fe1e5afae5cf4ca95",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在控制台执行以下命令安装torsocks："
+      }
+    },
+    {
+      "segment_id": "7d898a0e",
+      "source_content": "```bash\n$ apt install torsocks\n```",
+      "source_content_hash": "573d9cf6acbe262d4b63300a0ddcf7f3cf4a3670c6125ba6c3119725f82c5f9d",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_7d898a0e"
+      }
+    },
+    {
+      "segment_id": "6b77b644",
+      "source_content": "Żeby połączyć się ze konsolą bramki przez sieć TOR, w konsoli swojego klienta wpisz polecenie:",
+      "source_content_hash": "3cf494251912d7abb4c1a0a2f10353d7e0a20c85400712fd460523eec08f2be4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "要通过TOR网络连接到网关控制台，请在客户端控制台输入命令："
+      }
+    },
+    {
+      "segment_id": "19913a56",
+      "source_content": "```bash\n$ torsocks ssh ytdv3tvdeh8u6koz.onion -i id_rsa_ais\n```",
+      "source_content_hash": "3e9db2d8fa0677bf995614bcd8d6f65de851cc835621c887aefd5f8efbaa2522",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_19913a56"
+      }
+    },
+    {
+      "segment_id": "85aeef6c",
+      "source_content": "- HTTP.\nDo połączenia z aplikacją użyj specjalnej przeglądarki działającej w sieci Onion Tor, możesz ją pobrać z tego adresu: https://www.torproject.org/projects/torbrowser.html.en\nw adresie przeglądarki wpisz swoją unikalną nazwę hosta w sieci Onion",
+      "source_content_hash": "2af79df5a535b89f5d9d4c93745a6ef134a38afae1a8fa8442d6bb51275580a2",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- HTTP。\n使用支持Tor Onion网络的专用浏览器连接应用，可从以下地址下载：https://www.torproject.org/projects/torbrowser.html.en\n在浏览器地址栏输入您在Onion网络中的唯一主机名"
+      }
+    },
+    {
+      "segment_id": "54bafb10",
+      "source_content": "### Dodanie serwisu tor do menedżera procesów",
+      "source_content_hash": "09a46d93cdb9b75c49785518addba5b765ab91b3185ad1855777309c22e59ac2",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 将tor服务添加到进程管理器"
+      }
+    },
+    {
+      "segment_id": "4be28ed1",
+      "source_content": "Żeby TOR był uruchamiany automatycznie po każdym restarcie bramki, dodaj go do menedżera procesów PM2 wykonując następującą komendę w konsoli:",
+      "source_content_hash": "9a51b818cc040ffc10b9b21e6243896fd42107818b4a928498aa68c76aa3fd07",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "要使TOR在每次网关重启后自动运行，请在控制台执行以下命令将其添加到PM2进程管理器："
+      }
+    },
+    {
+      "segment_id": "c9873cf8",
+      "source_content": "```bash\n$ pm2 start tor --name tor && pm2 save\n```",
+      "source_content_hash": "d61fb523458ef0a47a07063d8604cba35e2ebc631fcce456fcef77e80e558b6e",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_c9873cf8"
+      }
+    },
+    {
+      "segment_id": "ab39e8a7",
+      "source_content": "## Serveo",
+      "source_content_hash": "7dbe6cf21b9068477b6e5cdd44c767cb7d48880653beb536732af08910cb5243",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## Serveo"
+      }
+    },
+    {
+      "segment_id": "e55f4c1f",
+      "source_content": "---",
+      "source_content_hash": "cb3f91d54eee30e53e35b2b99905f70f169ed549fd78909d3dac2defc9ed8d3b",
+      "node_type": "thematicBreak",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "---"
+      }
+    },
+    {
+      "segment_id": "1b4de6df",
+      "source_content": "Inny sposób na dostęp do bramki z Internetu, który nie wymaga konfiguracji routera oraz instalowania żadnych dodatkowych pakietów, to wykorzystanie **usługi zdalnego przekazywania portów SSH**. Ta metoda zostanie dokładnie opisana poniżej wraz z przykładami.",
+      "source_content_hash": "0b1a687e6feec737370d9c44cf88657f034664ada2717ffa11b783318a213fc1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "另一种无需配置路由器且无需安装额外软件包的互联网访问网关方案，是利用**SSH远程端口转发服务**。下文将通过具体示例详细说明该方法。"
+      }
+    },
+    {
+      "segment_id": "638efb88",
+      "source_content": "### Dostęp do aplikacji z sieci Internet",
+      "source_content_hash": "413709795e3d565d57d9b9179b260280fd555631a662133d635a250dfff578c4",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 从互联网访问应用"
+      }
+    },
+    {
+      "segment_id": "558df877",
+      "source_content": "żeby udostępnić aplikację w sieci Internet, w konsoli bramki wykonaj komendę:",
+      "source_content_hash": "352340348a86891f149569d114ab6d1a82949325b6208a60d02e43be203adfc1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "要在互联网上公开应用，请在网关控制台执行命令："
+      }
+    },
+    {
+      "segment_id": "6f605d92",
+      "source_content": "```bash\n$ ssh -R 80:localhost:8180 serveo.net\n```",
+      "source_content_hash": "d14ec0be944f36aa5f7d3c63067a3c698bce25781a50c76116b1866fb6dbd726",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_6f605d92"
+      }
+    },
+    {
+      "segment_id": "b9331170",
+      "source_content": "Opcja -R nakazuje klientowi SSH żądanie przekierowania portów z serwera i żądań proxy do określonego hosta i portu (Twojej bramki). Poddomena serwera serveo.net zostanie przypisana do przekazywania ruchu HTTP.",
+      "source_content_hash": "07eed160e382303c9e1b8ccb36e986a6c2de1e0eb025c7cfbb2e13dcf43c5fa1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "-R选项指示SSH客户端请求从服务器转发端口，并将代理请求发送到指定主机和端口（您的网关）。serveo.net的子域名将被分配用于HTTP流量转发。"
+      }
+    },
+    {
+      "segment_id": "8fcdd6d4",
+      "source_content": "W odpowiedzi w konsoli pojawi się informacja typu:",
+      "source_content_hash": "91e92e7e78caa432749bad68fef6285c3708d2f3f1caceb3cc295350b9eabbbf",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "控制台将返回类似以下响应信息："
+      }
+    },
+    {
+      "segment_id": "5be4f25e",
+      "source_content": "```bash\nHi there\nForwarding HTTP traffic from https://alias.serveo.net\nPress g to start a GUI session and ctrl-c to quit.\n```",
+      "source_content_hash": "9558401fa757a41dc114cc693bf76fdf5ce0d27582d0383d4dfa1104633e0493",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_5be4f25e"
+      }
+    },
+    {
+      "segment_id": "1ecf0882",
+      "source_content": "teraz w celu połączenia się ze swoją bramką z Internetu, wpisz w przeglądarce:",
+      "source_content_hash": "6bb83b339e947e84d1c0ace269a75d8016abd6778f83990c10fb08797dc345d1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "现在要通过互联网连接您的网关，在浏览器输入："
+      }
+    },
+    {
+      "segment_id": "e77cf7c6",
+      "source_content": "https://**alias**.serveo.net",
+      "source_content_hash": "50d36332040dcd33bd59a9b103f3dd23ee619faa1cab2d0e2fbac60b880c545c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "https://**别名**.serveo.net"
+      }
+    },
+    {
+      "segment_id": "d54fd161",
+      "source_content": "> W powyższym przypadku **alias** został wygenerowany/nadany automatycznie. Jest on unikalny dla każdej instancji i w Twoim przypadku będzie inny.",
+      "source_content_hash": "ab794f73def837f0dc384b155b2e81e53542d234b50b4c043936ad5e86b9efd8",
+      "node_type": "blockquote",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "> 上述案例中**别名**为自动生成/分配。每个实例具有唯一别名，您实际获得的将不同。"
+      }
+    },
+    {
+      "segment_id": "8664ed0b",
+      "source_content": "Możesz też podać własny alias który chciałbyś mieć w adresie i jeżeli będzie wolny to zostanie przypisany do Ciebie. W celu podania własnego aliasa np. **bramka** w konsoli wpisujemy następującą komendę:",
+      "source_content_hash": "d98e9b72d1bda2ed681e51e6c9216f3734908b1421c7002d8e837cc0271faf95",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "您也可以指定自定义别名（若可用将被分配）。例如要使用**bramka**别名，请在控制台输入："
+      }
+    },
+    {
+      "segment_id": "4fe849d4",
+      "source_content": "```bash\n$ ssh -R bramka:80:localhost:8180 serveo.net\n```",
+      "source_content_hash": "223cc56494a7de965a4358db2cef339a277b2ecdfed81be24a73b918c7195049",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_4fe849d4"
+      }
+    },
+    {
+      "segment_id": "3cd8185f",
+      "source_content": "### Dostęp do konsoli bramki z sieci Internet",
+      "source_content_hash": "8252a8b8c938d72c9523b22c20caba3682aff40fdf583ca44bba7c1f445383c1",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 从互联网访问网关控制台"
+      }
+    },
+    {
+      "segment_id": "3e8f45da",
+      "source_content": "w podobny sposób jak aplikację, możesz też przekierować połączenie ssh, w tym celu w konsoli wpisz:",
+      "source_content_hash": "eb32fb9911424a5cecd8521571c87530e66217f9a40070606b0f4e4271b34b4d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "参照应用转发方式，您也可以转发SSH连接，在控制台输入："
+      }
+    },
+    {
+      "segment_id": "d58c5dc0",
+      "source_content": "```bash\n$ ssh -R bramka:22:localhost:8022 serveo.net\n```",
+      "source_content_hash": "1177cf1a1460d7ff38f258f32adf94d57db6a5dfc8253350ca3b1bf20d95fde5",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_d58c5dc0"
+      }
+    },
+    {
+      "segment_id": "1496ef51",
+      "source_content": "W odpowiedzi w konsoli pojawi się informacja typu:",
+      "source_content_hash": "91e92e7e78caa432749bad68fef6285c3708d2f3f1caceb3cc295350b9eabbbf",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "控制台将返回类似以下响应信息："
+      }
+    },
+    {
+      "segment_id": "b68d496b",
+      "source_content": "```bash\nHi there\nForwarding SSH traffic from alias \"bramka\"\nPress g to start a GUI session and ctrl-c to quit.\n```",
+      "source_content_hash": "551de28f48df20981a9b2d00af9be0b1da72d3ac706215f220e9b334a999e7e2",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_b68d496b"
+      }
+    },
+    {
+      "segment_id": "6b40e7a2",
+      "source_content": "teraz w celu połączenia się ze swoją bramką po ssh będąc poza lokalną siecią wystarczy, że wpiszesz w konsoli:",
+      "source_content_hash": "b8970f680d3d84112009e1bdd0bdddbfc52533ca7492f0b3a35136985fbb9638",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "现在要在局域网外通过SSH连接网关，只需在控制台输入："
+      }
+    },
+    {
+      "segment_id": "71969be5",
+      "source_content": "```bash\n$ ssh -o ProxyCommand=\"ssh -W bramka:22 serveo.net\" bramka -i id_rsa_ais\n```",
+      "source_content_hash": "7e215c24bd909e9fe9f2e0a0657c12cf8a0f6269da9a8509a58eb1874ba528d3",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_71969be5"
+      }
+    },
+    {
+      "segment_id": "a49ac2ed",
+      "source_content": "### Zapisanie zdalnego przekazywania portów SSH",
+      "source_content_hash": "b6b1421f3c43edf386d9cdb1cf5363f8855b609f1e2232341b4265455f506c4f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 保存SSH远程端口转发配置"
+      }
+    },
+    {
+      "segment_id": "ebb827a7",
+      "source_content": "- autossh",
+      "source_content_hash": "eec753052895026faa1bce52ad7872ba944ff557f70e62bfec9c05a68857784d",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- autossh"
+      }
+    },
+    {
+      "segment_id": "61a78cbe",
+      "source_content": "W celu zapewnienia, że zdalne przekierowanie portów będzie automatycznie odnawiane, zamiast ssh zastosujemy autossh, w tym celu w konsoli instalujemy pakiet:",
+      "source_content_hash": "195d8f52554ade57845dcfa279e4c603ec11455d14a084fa17b01850cbbff343",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "为确保远程端口转发能自动重连，我们将使用autossh替代ssh。在终端中安装以下软件包："
+      }
+    },
+    {
+      "segment_id": "904df6eb",
+      "source_content": "```bash\n $ apt install autossh\n ```",
+      "source_content_hash": "aac771271d2b6fa76df3b4ab9af4203aeed48d26007c29bb8207b9ac506fbdda",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_904df6eb"
+      }
+    },
+    {
+      "segment_id": "e5821418",
+      "source_content": "W celu uruchamiania dostępu po każdym restarcie bramki, możemy posłużyć się menedżerem procesów PM2.",
+      "source_content_hash": "2b8d74a55b1f4067522afd4e8bb7f9baf246abb565868c9918ff075b299818af",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "若需网关每次重启后自动启用远程访问，可通过PM2进程管理器实现。"
+      }
+    },
+    {
+      "segment_id": "4c49c4c5",
+      "source_content": "> Należy zwrócić uwagę, że w poniższych przykładach **bramka**, to tylko przykładowy alias - definiując proces należy podać własny alias",
+      "source_content_hash": "148bea42f488b7a58c1c82be3b43a60ba571e920f47e6df1d6700b2d2fbf4c25",
+      "node_type": "blockquote",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "> 注意：下例中的**bramka**仅为示例别名，实际定义进程时需替换为您自定义的别名"
+      }
+    },
+    {
+      "segment_id": "fc7b5b3c",
+      "source_content": "- zdefiniowanie procesu dostępu do aplikacji w PM2",
+      "source_content_hash": "54c1d194438ba68fdcad588deeb6b4a12cc7340da4bd9fb23f12aabc2f65a0b4",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 在PM2中定义应用访问进程"
+      }
+    },
+    {
+      "segment_id": "768336f1",
+      "source_content": "```bash\n$ pm2 start autossh --name ext-http \\\n    -- -M 0 -o ServerAliveInterval=60 -R bramka:80:localhost:8180 serveo.net\n```",
+      "source_content_hash": "fd37f10ea946bbe765a1eb07e04019a446240413a6ae95b4372801b4f003711a",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_768336f1"
+      }
+    },
+    {
+      "segment_id": "e612e1d0",
+      "source_content": "- zdefiniowanie procesu dostępu do konsoli w PM2",
+      "source_content_hash": "75ef11205db02d69cb93517002635349a86742ab53360e6f23061865bdb08fc6",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 在PM2中定义终端访问进程"
+      }
+    },
+    {
+      "segment_id": "96831bda",
+      "source_content": "```bash\n$ pm2 start autossh --name ext-ssh \\\n    -- -M 0 -o ServerAliveInterval=60 -R bramka:22:localhost:8022 serveo.net\n```",
+      "source_content_hash": "cc7623a22d46bfd56d8e7ab301de2c83010cc25419ef8c8cddc7171a521ad8ed",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_96831bda"
+      }
+    },
+    {
+      "segment_id": "d796d443",
+      "source_content": "- zapisanie zdefiniowanych procesów",
+      "source_content_hash": "399396737486e63f4518c64987a869f1ec366271e254f0930f85d6b46dd0db22",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 保存已定义进程"
+      }
+    },
+    {
+      "segment_id": "117486ca",
+      "source_content": "```bash\n$ pm2 save\n```",
+      "source_content_hash": "4fdd2f64f44962424ac827a84250c6dbc50a417ec10186864ff0ca34c468bf1f",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_117486ca"
+      }
+    },
+    {
+      "segment_id": "bf3eb388",
+      "source_content": "## Zabezpieczenie dostępu do aplikacji",
+      "source_content_hash": "7183dff37e95bfa7bc44f0a4995a6f1010e1d209cba8ad495adbee1067656deb",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 应用访问安全加固"
+      }
+    },
+    {
+      "segment_id": "1f9058cd",
+      "source_content": "Gdy bramka działa tylko w sieci lokalnej, umożliwiamy trzy sposoby autentykacji:",
+      "source_content_hash": "788940c52a062bd06c85aa4b1b52865a00c05add912b39e9c742cea2451558ea",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "当网关仅在局域网运行时，我们提供三种认证方式："
+      }
+    },
+    {
+      "segment_id": "9f118c66",
+      "source_content": "- logowanie za pomocą nazwy użytkownika i hasła\n- łatwe logowanie w zaufanej sieci (wystarczy wybrać użytkownika z listy, żeby się zalogować bez podawania hasła)\n- logowanie za pomocą hasla API",
+      "source_content_hash": "35366c661aa0e21ef535bdb863e32285541c44a4cbb92d78aef1d0cdc95fd5de",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 用户名密码登录\n- 可信网络快捷登录（从用户列表选择即可免密登录）\n- API密钥登录"
+      }
+    },
+    {
+      "segment_id": "d75361e3",
+      "source_content": "konfiguracja autentykacji wygląda tak:",
+      "source_content_hash": "2dd34624e3c7952e1349908434013a4af15596fe1bc68f726b2d506bf87a5a76",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "认证配置界面如下："
+      }
+    },
+    {
+      "segment_id": "3ae81768",
+      "source_content": "```yaml\nhomeassistant:\n  auth_providers:\n    - type: trusted_networks\n    - type: homeassistant\n    - type: legacy_api_password\n```",
+      "source_content_hash": "40b5d8198a3e5b5bf8fbc15731aa4e9559853925f9515ebfd6c94280d411f39e",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_3ae81768"
+      }
+    },
+    {
+      "segment_id": "49be422b",
+      "source_content": "W aplikacji wygląda to tak:",
+      "source_content_hash": "878d8b5f680314954f9d9349b09bf5508e8c7c85cd3104a5f499206481486c7d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "应用中的实际显示效果："
+      }
+    },
+    {
+      "segment_id": "01902900",
+      "source_content": "![Logowanie w sieci lokalnej](/img/en/frontend/frontend_local_login.png)",
+      "source_content_hash": "cb0a0132bdc12a427f3a10ef2c6df4b9f8248a8fc20d52d86231c7c840fb5aae",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![局域网登录界面](/img/en/frontend/frontend_local_login.png)"
+      }
+    },
+    {
+      "segment_id": "79f90fe4",
+      "source_content": "### Wyłączenie łatwego logowania",
+      "source_content_hash": "fe561649212a3ff6f25580cd7bc9812e309a989af16784f8e6e7ef76066329b9",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 禁用快捷登录"
+      }
+    },
+    {
+      "segment_id": "85b17c36",
+      "source_content": "Tak łatwe metody autentykacji nie są odpowiednie w przypadku dostępu z Internetu, dlatego gdy dostęp z Internetu jest włączony to automatycznie zmieniamy konfigurację autentykacji na następującą:",
+      "source_content_hash": "25c9494e6a66c213db28bdd293fd8721cf8195f0ffc80810ed1ea489c6f6adca",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "此类简易认证方式不适用于互联网访问场景。当启用互联网访问时，系统会自动切换至以下认证配置："
+      }
+    },
+    {
+      "segment_id": "d1a6eaaa",
+      "source_content": "```yaml\nhomeassistant:\n  auth_providers:\n    - type: homeassistant\n```",
+      "source_content_hash": "28f97cc5867ad35adc66e502f17bf7549e2d2b62183a6dfba3152b9401e48798",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_d1a6eaaa"
+      }
+    },
+    {
+      "segment_id": "4033c370",
+      "source_content": "Przy włączonym dostępie z Internetu wymagane jest logowanie do aplikacji:",
+      "source_content_hash": "9cf72da404376561ddd3012e3ac7789914cb7afa86bcd1c69d2ed632ab6dfe0c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "启用互联网访问后，应用登录将强制要求凭证："
+      }
+    },
+    {
+      "segment_id": "dfb6fc67",
+      "source_content": "![Logowanie z Internetu](/img/en/frontend/frontend_internet_login.png)",
+      "source_content_hash": "946488ebaab9da94558190a3dcf6abee370dfe3b620ce7b98922ce16ef0d4e89",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![互联网登录界面](/img/en/frontend/frontend_internet_login.png)"
+      }
+    },
+    {
+      "segment_id": "936707a1",
+      "source_content": "###  Włączenie modułu uwierzytelniania wieloskładnikowego",
+      "source_content_hash": "e914c94613edcce8ce08cd24a50f37676bceeff22e03425e66bef450cfbd4460",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 启用多因素认证模块"
+      }
+    },
+    {
+      "segment_id": "6dc3e423",
+      "source_content": "Moduł uwierzytelniania wieloskładnikowego po podaniu hasła (czyli coś, co już wiemy) wymaga podania kolejnego jednorazowego hasła, które ma określony czas ważności i jest przesyłane na telefon (czyli coś, co tylko my dostaniemy). W celu włączenia tego zabezpieczenia należy przejść do 'ustawienia użytkownika' a następnie postępować zgodnie z instrukcją zamieszczoną w regionie **Moduły uwierzytelniania wieloskładnikowego**",
+      "source_content_hash": "18538aded545e3068162191d1c00089b8d11debea547b2e0f0488c6447652a32",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "多因素认证模块在输入密码（已知凭证）后，会要求输入通过手机接收的时效性一次性验证码（独有凭证）。启用该功能需进入\"用户设置\"，并按照**多因素认证模块**区域的指引操作："
+      }
+    },
+    {
+      "segment_id": "b0c30ab4",
+      "source_content": "![Hasło jednorazowe](/img/en/bramka/totp_settings.png)",
+      "source_content_hash": "5ff10071ef371aec12f14ca1ea59079e65295818559deae86fb99d7fa3256f02",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![一次性密码设置](/img/en/bramka/totp_settings.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_remote_dom_others.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.143187+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "776fd5df415565ca12c49409682e50b7d36da24672752fec665c894164b64bda"
+  }
+}

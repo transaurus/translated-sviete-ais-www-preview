@@ -1,0 +1,212 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_faq_automation_tts.md",
+  "source_file_content_hash": "c2ce05e150a3123846ba06af79fe034abf5286ca2536ba8894e71bba343ffa55",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Jak dodać Automatyzację z powiadomieniami głosowymi?\"\nsidebar_label: Automatyzacja z powiadomieniami głosowymi\n---",
+      "source_content_hash": "4c8fb5f1d4feb16c6e9ed492c0ac50097f8bd71f41478528c6c711d17ff16f06",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Wprowadzenie do automatyzacji",
+      "source_content_hash": "1332632d02853f3a96ea37fea756cdc2056ee74983b0977d5e0fd20003fac421",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 自动化功能简介"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Zapoznaj się z opisem [wprowadzenie do automatyzacji Asystenta domowego](/docs/ais_bramka_automation), żeby poznać podstawy dodawania automatyzacji w systemie.",
+      "source_content_hash": "8fa6844d0b94dac0283715c8f73c692e79aeac0fa189009c610f70f3b86d2f22",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "请参阅[家庭助手自动化入门指南](/docs/ais_bramka_automation)，了解在系统中添加自动化功能的基础知识。"
+      }
+    },
+    {
+      "segment_id": "8a5f6a7b",
+      "source_content": "## Przykład - Mówienie godziny",
+      "source_content_hash": "9ced55b67d94620bf142cef03e30e6fec9ca120bcb8cbdea87af4fbd60bbd0d9",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 示例 - 报时功能"
+      }
+    },
+    {
+      "segment_id": "180bddb1",
+      "source_content": "W tym przykładzie pokażemy, w jaki sposób dodać informowanie przez Asystenta o godzinie (konkretnie o pełnych godzinach, w przedziale czasu od 8 do 22).",
+      "source_content_hash": "1fb36a51c39f20a17a52dc345d8b73bf15b1cb87fe07af568a9198fea358f4a7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "本示例将演示如何设置家庭助手在特定时间段（早8点至晚22点整点）进行语音报时。"
+      }
+    },
+    {
+      "segment_id": "cf898102",
+      "source_content": "![Automatyzacja](/img/en/faq/tts_time_0.png)",
+      "source_content_hash": "7cf49bae67b4eff0807cd6e832edb85eb768a248f4f196af8a031d9e55ada49c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![自动化设置](/img/en/faq/tts_time_0.png)"
+      }
+    },
+    {
+      "segment_id": "d350c018",
+      "source_content": "### Wyzwalacz - szablon czasu",
+      "source_content_hash": "49e7d046535148251760622094a10338ea57bf6cbef02866189840cc0d4cdd6e",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 触发器 - 时间模板"
+      }
+    },
+    {
+      "segment_id": "1acb9a05",
+      "source_content": "Za pomocą wyzwalacza szablonu czasu można wywołać automatyzację, jeśli godzina, minuta lub sekunda bieżącego czasu odpowiada określonej przez nas wartości. Poprzedzenie watości znakiem \"/\" oznacza, że dopasowanie będzie prawidłowe ilekroć wartość jest podzielna przez tę liczbę.",
+      "source_content_hash": "69f47848d1c63900b0e4be322caf369bdd2e7f65726ebec08228a35328f8169c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过时间模板触发器，当系统时间的小时、分钟或秒数匹配设定值时即可触发自动化。在数值前添加\"/\"符号表示每当时间值能被该数整除时即触发。"
+      }
+    },
+    {
+      "segment_id": "2df4f75f",
+      "source_content": "Jeśli w pole godzina wpiszemy \"/2\" oznacza to, że chcemy wywołać automatyzację co 2 godziny.",
+      "source_content_hash": "8830bc8414e017caacc489e7d783a5c6404cdd8d5ddd67a8ea094dda8d8e41e7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "若在小时字段输入\"/2\"表示每2小时触发一次自动化。"
+      }
+    },
+    {
+      "segment_id": "98cfbd53",
+      "source_content": "W naszym przypadku chcemy mówić, która jest godzina co godzinę, dlatego dopasowanie będzie takie: /1",
+      "source_content_hash": "c559bdb6ce2157902bdc36add67d10b00b002729a80c4165d37643dc0951706b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "本例需要每小时报时，因此匹配模式应设置为：/1"
+      }
+    },
+    {
+      "segment_id": "ccc88b4c",
+      "source_content": "![Automatyzacja](/img/en/faq/tts_time_1.png)",
+      "source_content_hash": "7013244bac0de6eebd53ee1d78cc185de047947d5067038e1223050d35db38c4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![自动化设置](/img/en/faq/tts_time_1.png)"
+      }
+    },
+    {
+      "segment_id": "f2f30ae8",
+      "source_content": "### Warunek - przedział czasu",
+      "source_content_hash": "46ae49976131e335baeee36e2301001e82446486b156c9ed99eeb39ad80cd101",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 条件 - 时间范围限制"
+      }
+    },
+    {
+      "segment_id": "dfe931a2",
+      "source_content": "Warunki są opcjonalną częścią automatyzacji i można ich użyć, aby w niektórych warunkach zapobiec wykonania automatyzacji po jej uruchomieniu.\nW naszym przypadku chcemy zapobiec mówieniu godziny w nocy, dlatego dodamy warunek typu czas:",
+      "source_content_hash": "9203e9b13da3c2b37019166cb1b1640c648bf18f3bf367401093d4b418ccf0b3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "条件作为自动化中的可选组件，可用于在特定情况下阻止已触发的自动化执行。本例需要避免夜间报时，因此需添加时间类型条件："
+      }
+    },
+    {
+      "segment_id": "7499a4e7",
+      "source_content": "![Automatyzacja](/img/en/faq/tts_time_2.png)",
+      "source_content_hash": "d79120effc0de7a124c72780785a1e5b34255e90939207ec73864a2a511597f2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![自动化设置](/img/en/faq/tts_time_2.png)"
+      }
+    },
+    {
+      "segment_id": "3b7478ea",
+      "source_content": "### Akcja - wywołanie usługi",
+      "source_content_hash": "d3c124620950a6d0d9da0870dce89e5ee6f7a4577ff9cdf53d280a23a2be7f1e",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 动作 - 服务调用"
+      }
+    },
+    {
+      "segment_id": "c3a738de",
+      "source_content": "Akcje są wykonywane przez Asystenta domowego po uruchomieniu automatyzacji.\nWszystkie czynności jakie wykonuje Asystent domowy, takie jak włączenie światła, ustawienie temperatury, włączenie radia czy też sprawdzenie pogody, zdefiniowane są w formie usługi (serwisu). Jedną z podstawowych usług w Asystencie domowym jest usługa przetwarzania komendy i wykonania na jej podstawie akcji. Usługa ta nazywa się **ais_ai_service.process** i przyjmuje jeden parametr **text** komendę do wykonania. W naszym przypadku chcemy zapytać o godzinę, dlatego jako komendę napiszmy: **która godzina**",
+      "source_content_hash": "e2c01192bd0a9eef1ed596c3689afc7e7f7b60234f2135c73d5bde5aced86916",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "动作是家庭助手在自动化触发后执行的操作。所有家庭助手功能（如开关灯、调节温度、播放广播或查询天气）都以服务形式定义。其中基础服务**ais_ai_service.process**通过接收**text**参数执行对应指令。本例需要查询时间，因此指令内容应设为：**现在几点**"
+      }
+    },
+    {
+      "segment_id": "1042b50d",
+      "source_content": "![Automatyzacja](/img/en/faq/tts_time_3.png)",
+      "source_content_hash": "6cb0271c8bd760909fb91a1de06c6e39110f2b3baa33c36e28b432744b6bb739",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![自动化设置](/img/en/faq/tts_time_3.png)"
+      }
+    },
+    {
+      "segment_id": "8bddee80",
+      "source_content": "### Test działania",
+      "source_content_hash": "a0608b3240c1c89a255df1777e358fc50373c49d18e95a9b41fa87f535284f6a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 功能测试"
+      }
+    },
+    {
+      "segment_id": "a9d49f92",
+      "source_content": "Nowo dodaną akcję możemy przetestować, wybierając ją na ekranie gównym Asystenta domowego i naciskając uruchom, jeśli wszystko zrobiliśmy dobrze to asystent powinien nam powiedzieć która godzina.",
+      "source_content_hash": "ea7e0f28d733402e7d64b5973a37ba015be6403778ef3cb072abee2236cab9f8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "可在家庭助手主界面选择新建的自动化动作并点击\"运行\"进行测试，若配置正确，助手应准确播报当前时间。"
+      }
+    },
+    {
+      "segment_id": "a44047a5",
+      "source_content": "![Automatyzacja](/img/en/faq/tts_time_4.png)",
+      "source_content_hash": "8187be516c5eeac188f36b91123677b3300538f3efd6d3c2224c7875017f7be9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![自动化设置](/img/en/faq/tts_time_4.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_faq_automation_tts.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.139470+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "c2ce05e150a3123846ba06af79fe034abf5286ca2536ba8894e71bba343ffa55"
+  }
+}

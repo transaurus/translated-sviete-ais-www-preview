@@ -1,0 +1,222 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_app_groups.md",
+  "source_file_content_hash": "5f81fa8fb8bc0f31be70ccb22921b0c94a60489e726c33557d863529a505596e",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Grupy\"\nsidebar_label: Grupy\n---",
+      "source_content_hash": "1bfdd99c36f45989d1f1df2473ab2966adf78a3024ae29b5b8204c6e809ab545",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Widoki zawierają pogrupowane element systemu, które nazywamy grupami.",
+      "source_content_hash": "fc07ed30eab80c20a33f7c7bac5058abe9ae63333aac5b00ac37fded4a63efc1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "视图包含按系统元素分组的集合，我们称之为群组。"
+      }
+    },
+    {
+      "segment_id": "d912d376",
+      "source_content": "## Karty",
+      "source_content_hash": "bd1af05a81001f80372c6aa4502a02639a21ad40f0de635d0ba352852bb6d00f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 卡片视图"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "Grupy w aplikacji mogą być wyświetlane jako karty, na przykład grupa pogoda:",
+      "source_content_hash": "2ce7f5f985eea65fa0dff4d97d5fdc70c57341d110e9f05789890dbc9adb5715",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "应用中的群组可以以卡片形式展示，例如天气群组："
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "![Aplikacja asystent domowy](/img/en/frontend/frontend-group.png)",
+      "source_content_hash": "34713efc74a11cee382f062ec7d0ce0ba825d7b416732e3bcd4a4ad933228875",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![智能家居助手应用](/img/en/frontend/frontend-group.png)"
+      }
+    },
+    {
+      "segment_id": "e14c9928",
+      "source_content": "## Specjalne grupy",
+      "source_content_hash": "2a8199346c7acff7643d2fd5137abc1bf2bc04c49107a832e31f098f670828ff",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 特殊群组"
+      }
+    },
+    {
+      "segment_id": "42ad8e83",
+      "source_content": "Nasze komponenty automatycznie tworzą specjalne grupy, zawierające elementy składowe. W naszym systemie takie grupy to na przykład:",
+      "source_content_hash": "61d772dd57147674e186dda73aa95d2a7eded0977162f3e4e34dc61736c4d333",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们的组件会自动创建包含子元素的特殊群组。系统中这类群组包括："
+      }
+    },
+    {
+      "segment_id": "aee0e40d",
+      "source_content": "### Wszystkie przełączniki",
+      "source_content_hash": "527303b7bd481d62aea65805e3764276c5f131f1e9bd95332af89ce134e5bc2d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 所有开关"
+      }
+    },
+    {
+      "segment_id": "f5f6d2ce",
+      "source_content": "![Aplikacja asystent domowy](/img/en/frontend/frontend-group-all-switches.png)",
+      "source_content_hash": "1e6ef422e2950bfc86b9f2f6e255656f044595856f56c6d35f2cba96df908045",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![智能家居助手应用](/img/en/frontend/frontend-group-all-switches.png)"
+      }
+    },
+    {
+      "segment_id": "95b38f97",
+      "source_content": "### Wszystkie światła",
+      "source_content_hash": "d1f83c85c09c2a14d8c380340a241a63c94d7624db6b63a94265de89416762bb",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 所有灯光"
+      }
+    },
+    {
+      "segment_id": "ccc88b4c",
+      "source_content": "![Aplikacja asystent domowy](/img/en/frontend/frontend-group-all-lights.png)",
+      "source_content_hash": "096a5a809473be839057441964dfeec8461c587171bcbaaf0f7fe6f5fb99bc58",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![智能家居助手应用](/img/en/frontend/frontend-group-all-lights.png)"
+      }
+    },
+    {
+      "segment_id": "f2f30ae8",
+      "source_content": "### Wszystkie czujniki",
+      "source_content_hash": "f93905e48a7d51c9e148bfcf7982028498275003108da06ccab9e6447c3638f7",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 所有传感器"
+      }
+    },
+    {
+      "segment_id": "dfe931a2",
+      "source_content": "![Aplikacja asystent domowy](/img/en/frontend/frontend-group-all-sensors.png)",
+      "source_content_hash": "78065e3c4aa1437c981deba4e4e1c6649031f2c1c118ee6081a89c134edaf1a2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![智能家居助手应用](/img/en/frontend/frontend-group-all-sensors.png)"
+      }
+    },
+    {
+      "segment_id": "a1b3d8cb",
+      "source_content": "## Tworzenie własnych grup",
+      "source_content_hash": "95e24b93d13ae71a0d47539ea0e2cf35c05f7376fb81a505f9418f55bdffa57b",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 创建自定义群组"
+      }
+    },
+    {
+      "segment_id": "9e89e13c",
+      "source_content": ">**Jeśli chcesz możesz sam tworzyć własne grupy** w celu dopasowania interfejsu systemu do własnych potrzeb.",
+      "source_content_hash": "0ffd28fb0a81ddd552fbc18d22e2c22cca9ed8bcad0b1f8fd9a6513cf0234dc1",
+      "node_type": "blockquote",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ">**您可自主创建定制化群组** 以适配个性化系统界面需求。"
+      }
+    },
+    {
+      "segment_id": "33331f27",
+      "source_content": "Grupy definiuje się w pliku konfiguracyjnym systemu.",
+      "source_content_hash": "76519c8ccbc307449099426063431e23dc35300763011248ebf006f3f30184a1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "群组配置需在系统配置文件中定义。"
+      }
+    },
+    {
+      "segment_id": "50746522",
+      "source_content": "Więcej technicznych informacji dostępnych jest na stronie projektu platformy Home Assistant, w zakładce [Komponenty -> Grupy: ](https://www.home-assistant.io/components/group/) https://www.home-assistant.io/components/group/",
+      "source_content_hash": "09d86d46e0dcca569b2a976ae968c7eb8501ddd7ce97e620d08f81e7e4d6e548",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "更多技术细节可查阅Home Assistant平台项目文档的[组件 -> 群组章节](https://www.home-assistant.io/components/group/)：https://www.home-assistant.io/components/group/"
+      }
+    },
+    {
+      "segment_id": "aa1e7006",
+      "source_content": "Przykład konfiguracji grupy \"Radia Internetowe\" w systemie Asystent domowy:",
+      "source_content_hash": "095abecc687dac389fe6a08ae7b9e32760686e3ac1cf257d1128694f8844ef6b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "智能家居助手中\"网络电台\"群组的配置示例："
+      }
+    },
+    {
+      "segment_id": "13d9cd70",
+      "source_content": "`ais_radio_player.yaml`:",
+      "source_content_hash": "c654910625e20a6f1be9a0ff66a4c87909cd3d5c704044bb8d2b04b5d039dc60",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "`ais_radio_player.yaml`文件："
+      }
+    },
+    {
+      "segment_id": "229d6705",
+      "source_content": "```yaml\ngroup:\n  Radio Player:\n    control: hidden\n    name: Radia Internetowe\n    entities:\n      - input_select.radio_type\n      - input_select.radio_station_name\n      - input_select.radio_player\n```",
+      "source_content_hash": "27f3d5fd5658b2a91bd786243870ebde631a747da3dbcdbe527df2402cef0a5d",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_229d6705"
+      }
+    },
+    {
+      "segment_id": "1131ef75",
+      "source_content": "![Aplikacja asystent domowy](/img/en/frontend/frontend-group-radio.png)",
+      "source_content_hash": "84f9b01ed062356d606c81b2f0daa62e53525c424f5990bf54615be6487d2ba8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![智能家居助手应用](/img/en/frontend/frontend-group-radio.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_app_groups.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.132254+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "5f81fa8fb8bc0f31be70ccb22921b0c94a60489e726c33557d863529a505596e"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_app_radio.md",
+  "source_file_content_hash": "f01beb04decf0256094cbcf42fb11f5063d3f32b1f7345a87a025abc748dd14f",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Radia Internetowe\"\nsidebar_label: Radia Internetowe\n---",
+      "source_content_hash": "d48df48660bd2d0684e60d1d91a79a2b76be38644afc0c688030424835195c1f",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Radia internetowe",
+      "source_content_hash": "9510efef5b42e1004a998312b9585e247d6d92b5f2bbc8d04c990e34d2286da8",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 网络电台"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Jednym z serwisów audio są radia internetowe. Standardowo \"z pudełka\" dostępne są setki stacji pogrupowanych po typie. Po uruchomieniu urządzenia wystarczy powiedzieć ***\"Włącz radio nazwa_stacji\"*** aby słuchać ulubionej stacji radiowej.",
+      "source_content_hash": "be2f38e0e2ef26284acca298160bce22248dc15cfc10c4d9628fefb829eeafae",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "音频服务之一是在线网络电台。设备开箱即用即提供数百个按类型分类的电台频道。启动设备后，只需说出***\"播放电台 电台名称\"***即可收听喜爱的广播节目。"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "![AIS Radio](/img/en/frontend/ais_integration_radio.png)",
+      "source_content_hash": "af3a91df1b28c382152c6baad9a4aa110d2ec5685b077eee1023b9c6ad5320ff",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS Radio](/img/en/frontend/ais_integration_radio.png)"
+      }
+    },
+    {
+      "segment_id": "ba4f48ff",
+      "source_content": "## Sterowanie pilotem",
+      "source_content_hash": "2d0ec5cac96c143572334262d59e1dc49841b943a88c512cbd3bb20a66e07c1a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 遥控器操作"
+      }
+    },
+    {
+      "segment_id": "cf898102",
+      "source_content": "Radia można też przeglądać i uruchamiać za pomocą naszego dedykowanego [Pilota radiowego](/docs/ais_remote_index) (nie jest do tego potrzebna aplikacja z ekranem).",
+      "source_content_hash": "de933d156dd441c4652735460193162e8971f95a084b961bb6d0f46f565360fa",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "用户也可通过专用[网络电台遥控器](/docs/ais_remote_index)浏览并播放电台（无需使用带屏幕的应用程序）。"
+      }
+    },
+    {
+      "segment_id": "d350c018",
+      "source_content": "## Dodawanie stacji radiowych",
+      "source_content_hash": "5f4d05f1c98cc3cb3525adfdcb21d3f60ab9e7861c18bc1aacd213ca89ca2c51",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 添加电台频道"
+      }
+    },
+    {
+      "segment_id": "f6168993",
+      "source_content": "ais_app_podcast\nNowe stacje radiowe można dodawać w [Portalu integratora](/docs/ais_dom_cloud_index) - aplikacji pozwalającej na zdalną konfigurację treści oraz usług dostępnych na bramkach.",
+      "source_content_hash": "15afdbe92690dc346dd6b5f3fc97ce930552175664c6fbda56d136df93a9c9b3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "ais_app_podcast\n新电台可通过[集成商门户](/docs/ais_dom_cloud_index)添加——该应用程序支持远程配置网关上的内容与服务。"
+      }
+    },
+    {
+      "segment_id": "40f9552a",
+      "source_content": "## API",
+      "source_content_hash": "40caf66c4de56e46b72485c47adff4916c4bc7e563ecd9f7278e9dcaf92d1cad",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## API接口"
+      }
+    },
+    {
+      "segment_id": "f2c2bdd0",
+      "source_content": "Odtwarzacz audio, tak jak każda integracja, udostępnia swoje usługi, dzięki czemu można [automatyzować](/docs/ais_bramka_automation) sterowanie odtwarzaczem i np. uruchamiać stację radiową jako budzik, włączać wybraną audycję o wybranej porze dnia, itp.",
+      "source_content_hash": "9803e0ce87ccd0d361bb737702b9bca10554be883bd75040faa1f981f0bafbcd",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "与其他集成组件相同，音频播放器也开放了服务接口，支持通过[自动化功能](/docs/ais_bramka_automation)控制播放器，例如将电台设为闹钟、在指定时间自动播放特定节目等操作。"
+      }
+    },
+    {
+      "segment_id": "d9172fa4",
+      "source_content": "![AIS Radio](/img/en/frontend/ais_integration_radio_api.png)",
+      "source_content_hash": "29e26f82755f5faa9ce9a3994d5dc07aab27a8f89f7694bbe67442d27b31f77c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS Radio](/img/en/frontend/ais_integration_radio_api.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_app_radio.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.116747+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "f01beb04decf0256094cbcf42fb11f5063d3f32b1f7345a87a025abc748dd14f"
+  }
+}

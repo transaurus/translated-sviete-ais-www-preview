@@ -1,0 +1,92 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_dev_kit_1_codes.md",
+  "source_file_content_hash": "3a8015077bcfd8fba0c8941f8f878fda05c46864590a69f345c15a8949c3f42a",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Kody Projektu\"\nsidebar_label: Kody Projektu\n---",
+      "source_content_hash": "b62288033670ff7aefefcad49ec7f045598210769fbe375042b81b83097db7e3",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Kody projektu",
+      "source_content_hash": "728af5e08996fc527dc3374c6317d1a99f89929a2fe052fcdb65cc8b8f704136",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 项目代码"
+      }
+    },
+    {
+      "segment_id": "53eaf0e1",
+      "source_content": "Projekt w formacie skp, stl oraz g-code (dla drukarki Prusa3d) wraz z instrukcją drukowania dostępne są w repozytorium:\n[AIS-3D-MODELS](https://github.com/sviete/AIS-3D-MODELS/tree/master/AIS_DEV_KIT_1_Spherical_Speaker_Dayton_PS95-8)",
+      "source_content_hash": "a1da45245d195638d9fe8b74489c1c156be150160cfcfd9e366a5e35eb140440",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "SKP格式、STL格式及G-code格式（适用于Prusa3d打印机）的项目文件及打印说明已发布于仓库：\n[AIS-3D-MODELS](https://github.com/sviete/AIS-3D-MODELS/tree/master/AIS_DEV_KIT_1_Spherical_Speaker_Dayton_PS95-8)"
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "![AIS-3D-MODELS](/img/en/iot/dev_kit_code_1.png)",
+      "source_content_hash": "ba0f6f833677f5c1dd164564385e9e2282337eddc7ac8d5d586aef38b96c9d38",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS-3D-MODELS](/img/en/iot/dev_kit_code_1.png)"
+      }
+    },
+    {
+      "segment_id": "ad8fd492",
+      "source_content": "Kody integracji ais_amplifier_service dostępne są wraz z kodem projektu Asystent domowy w repozytorium:\n[AIS-home-assistant](https://github.com/sviete/AIS-home-assistant/tree/beta/homeassistant/components/ais_amplifier_service)",
+      "source_content_hash": "56fc1823675d28ea4763bb6c3b1d6fb17d92b9be8e788bd3164554ede2a08595",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "ais_amplifier_service集成代码随家庭助理项目代码发布于仓库：\n[AIS-home-assistant](https://github.com/sviete/AIS-home-assistant/tree/beta/homeassistant/components/ais_amplifier_service)"
+      }
+    },
+    {
+      "segment_id": "42ad8e83",
+      "source_content": "![AIS-home-assistant](/img/en/iot/dev_kit_code_2.png)",
+      "source_content_hash": "f97138793ca17a9aeb6c0fe3595bf4e1eb670510362fbbc45cf76c35aa5d7d04",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS-home-assistant](/img/en/iot/dev_kit_code_2.png)"
+      }
+    },
+    {
+      "segment_id": "f6168993",
+      "source_content": "Pełna lista komend oraz specyfikacja układu BK3266 dostęne są w repozytorium:\n[AIS-BK3266](https://github.com/sviete/BK3266)",
+      "source_content_hash": "9fa26cfe9ac00c793e1375abfbbdc2e86d2f85b2e3742ae01b62ca3d9b4d6646",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "完整指令列表及BK3266芯片规格书发布于仓库：\n[AIS-BK3266](https://github.com/sviete/BK3266)"
+      }
+    },
+    {
+      "segment_id": "2df4f75f",
+      "source_content": "![AIS-BK3266](/img/en/iot/dev_kit_code_3.png)",
+      "source_content_hash": "3d1e28576fcec60f51daba9b75e25f59062ff4f252c020e188098105fa2730cf",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS-BK3266](/img/en/iot/dev_kit_code_3.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_dev_kit_1_codes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.114218+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "3a8015077bcfd8fba0c8941f8f878fda05c46864590a69f345c15a8949c3f42a"
+  }
+}

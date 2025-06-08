@@ -1,0 +1,672 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_app_android_dom_tablet.md",
+  "source_file_content_hash": "8f48c579b0b49b7e3e781326e09d752fe460e7e9ae33450e3c6494264f03a7ce",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"AIS dom Panel\"\nsidebar_label: AIS dom Panel\n---",
+      "source_content_hash": "bdc840b0b89c1df85ac9b9467cf10ff97c70b742c1e0b50bc046eb3696cf5789",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "a703643c",
+      "source_content": "## Dotykowy panel sterowania",
+      "source_content_hash": "878c5debfb245fa664280da2a16eb56ad01ce4bed8bb1b40d3be210a33086ca6",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 触控面板"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "Aplikacja dostarcza funkcjonalność \"Dotykowego panelu / Smart panel\" do sterowania automatyką domową i multimediami.",
+      "source_content_hash": "b79f56007473ecc9cd2bb8487abc6e12d2e47ac1084bbcae7bb6c32cf46a3cc5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该应用提供\"触控面板/智能面板\"功能，用于控制家庭自动化系统和多媒体设备。"
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "![Smart glass ustawienia](/img/en/frontend/app_smart_glass_go_to_settings.png)",
+      "source_content_hash": "bd8d2b6c4f002794b39337c411a886e8ee629998f16222cce339a4b3665a6c30",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![智能玻璃设置](/img/en/frontend/app_smart_glass_go_to_settings.png)"
+      }
+    },
+    {
+      "segment_id": "cbe57f9d",
+      "source_content": "## Instalacja",
+      "source_content_hash": "d5728cafcae137963ed456a4537e40bec09fb40a28941778558e27c5ce6425eb",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 安装"
+      }
+    },
+    {
+      "segment_id": "440191a5",
+      "source_content": ":::info[Informacja]\nNa bramkach AIS dom aplikacja jest już zainstalowana, skonfigurowana i automatycznie aktualizowana. \n:::",
+      "source_content_hash": "a61573bd8ca83fe9817cbfc7905fa9b616bf4e0bd6505a51f5945032fb43b928",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::info[信息]\n在AIS dom网关上，该应用已预装、预配置并支持自动更新。\n:::"
+      }
+    },
+    {
+      "segment_id": "2fdadb08",
+      "source_content": "Dodatkowo, aplikację AIS dom można zainstalować na telefonie lub tablecie. Jest ona dostępna za darmo (bez reklam, mikropłatności itp) w sklepie [Google Play](https://play.google.com/store/apps/details?id=pl.sviete.dom) pod nazwą AIS dom. Możesz zeskanować telefonem poniższy kod, by przejść do instalacji aplikacji w Google Play:",
+      "source_content_hash": "4f2eb6921045c395bd833674dd84dc94d3456306fd5c920a265f82d6c906a592",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "此外，AIS dom应用可安装在手机或平板上。该应用免费（无广告、内购等）发布于[Google Play](https://play.google.com/store/apps/details?id=pl.sviete.dom)，名为AIS dom。您可扫描下方二维码跳转至Google Play安装："
+      }
+    },
+    {
+      "segment_id": "0dc46dba",
+      "source_content": "<center>\n\n![Google Play](/img/en/frontend/barcode_go_to_apk_in_google_play.png)\n\n![Google Play](/img/main/google-play-badge.png)\n\n</center>",
+      "source_content_hash": "5bbed5c5ff5c25c278b28871615a2c152dace53148a0edf6ece1df40b32ced06",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_0dc46dba"
+      }
+    },
+    {
+      "segment_id": "4daf5cdd",
+      "source_content": "Kod źródłowy aplikacji dostępny jest w naszym [publicznie dostępnym repozytorium](https://github.com/sviete/AIS-dom)\nPodpisane wersje publikujemy też na naszym [serwisie ze składowymi systemu](https://powiedz.co/ota/)",
+      "source_content_hash": "e81bf613a81491a756c32b23aa197f287958176a448aa96e9d3671382fd00795",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "应用源代码发布于我们的[公开代码仓库](https://github.com/sviete/AIS-dom)\n签名版本同时发布在[系统组件服务站点](https://powiedz.co/ota/)"
+      }
+    },
+    {
+      "segment_id": "3b7478ea",
+      "source_content": "## Konfiguracja za pomocą kreatora",
+      "source_content_hash": "3f054dd1c7c008ed26bd5ae159fe0edf60036a41faa0ed19465a0074b53932ba",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 向导配置"
+      }
+    },
+    {
+      "segment_id": "c3a738de",
+      "source_content": "Po pierwszym uruchomieniu aplikacji pojawi się kreator, który przeprowadzi nas krok po kroku przez prosty proces konfiguracji",
+      "source_content_hash": "782dbd98d94d20d2669c6e3cfb3f81dca5232e185fb49d0366f0fbf29a5ba4eb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "首次启动时将出现配置向导，逐步引导完成简易设置流程"
+      }
+    },
+    {
+      "segment_id": "50746522",
+      "source_content": "![Mob](/img/en/frontend/ais_dom_new_wizard_0_mob_apk.png)",
+      "source_content_hash": "337f0f36909066ddd74afc8d7e93b271efe8452a4ef52090742ee7470583ebf8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![移动端](/img/en/frontend/ais_dom_new_wizard_0_mob_apk.png)"
+      }
+    },
+    {
+      "segment_id": "aa1e7006",
+      "source_content": "Funkcje panelu sterowania można włączyć w ustawieniach aplikacji:",
+      "source_content_hash": "5ca5af70111e1ad2a970cf5157d4ad6475ea88ee3169985b3b753e628bdab2db",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "控制面板功能可在应用设置中启用："
+      }
+    },
+    {
+      "segment_id": "13d9cd70",
+      "source_content": "![Mob](/img/en/frontend/panel_special_functions.png)",
+      "source_content_hash": "2dff8190b57d5bcf1c0c690838294255938d788e55c8b40883021d66a8f5ca41",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![移动端](/img/en/frontend/panel_special_functions.png)"
+      }
+    },
+    {
+      "segment_id": "6d28a77c",
+      "source_content": "## Wideodomofon",
+      "source_content_hash": "1d23f181776a18b6f15cc60a8b40192b1b4044c61bbc11dc2ed8d8d036216e25",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 视频门禁"
+      }
+    },
+    {
+      "segment_id": "f7ef78f9",
+      "source_content": "Aplikacja posiada wbudowanego klienta SIP (VOIP), dzięki czemu może współpracować z wideodomofonami, które obsługują protokół SIP.",
+      "source_content_hash": "7a43d2cef95508b5d319b9a597c632a6dfb4f66c28e2e4dfdea1ffef9e777633",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "应用内置SIP(VOIP)客户端，可兼容支持SIP协议的视频门禁系统。"
+      }
+    },
+    {
+      "segment_id": "d3649a1e",
+      "source_content": "![Mob](/img/en/frontend/video_doorbell.png)",
+      "source_content_hash": "4913e4bfabaf17a46359e9f821125b43f2c9bfabb910cc94b3e03c019a632375",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![移动端](/img/en/frontend/video_doorbell.png)"
+      }
+    },
+    {
+      "segment_id": "4d52a261",
+      "source_content": "Z ekranu w aplikacji (aktywności) z obrazem z kamery wideodomofonu możemy przejść do ustawień połączenia SIP oraz obrazu kamery.",
+      "source_content_hash": "0968560f92c4f6241cb385cd36889278b8c046ffe4fd86e3e80501e1e0b509be",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "从应用内视频门禁画面界面，可进入SIP连接设置及摄像头图像设置。"
+      }
+    },
+    {
+      "segment_id": "7283cdac",
+      "source_content": "### Ustawienia połączenia SIP",
+      "source_content_hash": "7551134feb3e99418ce406c2229190edbdfffd330d44072ce73de4df171c5d8c",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### SIP连接设置"
+      }
+    },
+    {
+      "segment_id": "1131ef75",
+      "source_content": "W ustawieniach SIP można ustawić parametry połączenia, dostosować obraz wideo oraz parametry mikrofonu i głośnika.",
+      "source_content_hash": "65e3746109a8ff499578ac9168ddbcd705fc6860ac63ed6c2c76531e58097fae",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "SIP设置中可配置连接参数、调整视频画面及麦克风/扬声器参数。"
+      }
+    },
+    {
+      "segment_id": "8b2a52b1",
+      "source_content": "![Mob](/img/en/frontend/video_doorbell_settings.png)",
+      "source_content_hash": "b1c37cd4852681bd8a9e0c3348d8ad0399957c5b0de0e8760022765441d7b00d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![移动端](/img/en/frontend/video_doorbell_settings.png)"
+      }
+    },
+    {
+      "segment_id": "8c6d7ee7",
+      "source_content": "## Skanowanie tagów NFC",
+      "source_content_hash": "9b91e5044854426aefa1a1e512ff21f197cfa40ea0e88081bccf6d0abf02dbf7",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## NFC标签扫描"
+      }
+    },
+    {
+      "segment_id": "06e24cc0",
+      "source_content": "Jeżeli nasz tablet ma wbudowany czytnik kodów NFC, to możemy przesyłać do bramki komendy zapisane w kodach NFC lub identyfikatory zeskanowanych tagów NFC.",
+      "source_content_hash": "8cc61305df83761e48b4b0c4f52c8027e4ac11df49f6669c83ffabec5cbffbd5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "若您的平板内置NFC读卡器，可向网关传输存储在NFC标签中的指令或已扫描NFC标签的标识符。"
+      }
+    },
+    {
+      "segment_id": "ee8401db",
+      "source_content": "### Komenda w tagu NFC",
+      "source_content_hash": "7d49f8bd63bd8995f000d3b0ce153b0ced5db2e3613f6f9b03b447685cddbd01",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### NFC标签指令"
+      }
+    },
+    {
+      "segment_id": "147e8550",
+      "source_content": "Zamiast mówić komendę lub wpisywać ją w okienko czatu z Asystentem domowym możemy przyłożyć tag NFC do tabletu i przesłać do bramki komendę zapisaną tekstowo w tagu NFC.",
+      "source_content_hash": "98e07d268940c5ece1f6ecde074c9fe1e1ece4c72584de5ba9a488d69d9233bc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "无需语音输入或通过家庭助手聊天窗口输入指令，只需将存储了文本指令的NFC标签贴近平板，即可向网关发送指令。"
+      }
+    },
+    {
+      "segment_id": "883231d4",
+      "source_content": "Do zapisu tekstu do tagów NFC polecamy darmową aplikację [NFC Tools](https://play.google.com/store/apps/details?id=com.wakdev.wdnfc&hl=pl).\nAplikacja ta jest bardzo intuicyjna. Po jej uruchomieniu w pierwszej zakładce możemy odczytać tag NFC i sprawdzić, czy jest odblokowany do zapisu. Jeżeli tag jest zapisywalny, to przechodzimy do zakładki **ZAPIS** i wybieramy opcję **Dodaj pozycję**. Następnie wybieramy pozycję typu **Tekst** i wprowadzamy tekst polecenia/komendy, która ma być wykonana na bramce, np. ``Włącz radio Eska Rock`` i zatwierdzamy **OK**.",
+      "source_content_hash": "b1fa6b815a11156c1e44412e9701515e7c540f5e2a52c95939da5b95d001628f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "推荐使用免费应用[NFC Tools](https://play.google.com/store/apps/details?id=com.wakdev.wdnfc&hl=pl)来向NFC标签写入文本。该应用操作直观：启动后首先在\"读取\"标签页检查NFC标签是否解锁可写。若标签可写入，则切换至\"写入\"标签页，点击**添加记录**，选择**文本**类型后输入需要网关执行的指令文本（例如``打开Eska Rock电台``），最后点击**确认**完成写入。"
+      }
+    },
+    {
+      "segment_id": "afa378f7",
+      "source_content": "![AIS Dom](/img/en/frontend/nfc_tools_1.png)",
+      "source_content_hash": "761b2fb28f4998a4bf24740028bb651b1ca0edceb1c5e49b0336cb8cffc2b57e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS Dom](/img/en/frontend/nfc_tools_1.png)"
+      }
+    },
+    {
+      "segment_id": "e8e162a9",
+      "source_content": "Po zapisie tekstu komendy do naszego taga NFC wychodzimy z aplikacji NFC Tools.",
+      "source_content_hash": "37e5708e43aab255d6b1feb429d84bbd6fae18c4e6760d835f64dcd0c3219dd8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "完成指令文本写入后退出NFC Tools应用。"
+      }
+    },
+    {
+      "segment_id": "463ed165",
+      "source_content": "Teraz zeskanowanie tego taga NFC spowoduje przesłanie zapisanej w nim komedy bezpośrednio do naszej bramki.",
+      "source_content_hash": "45d1a301927183c6ba58e612046ac3365270e9745bc1c705d4ad6d5af34fbdec",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "此时扫描该NFC标签将直接把存储的指令文本发送至网关。"
+      }
+    },
+    {
+      "segment_id": "a5c5772a",
+      "source_content": "![AIS Dom](/img/en/frontend/nfc_ais_1.png)",
+      "source_content_hash": "5c18efd5fa2f8ae567c20934a31688524ab711a782b02e4edaf0993d95b012c4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS Dom](/img/en/frontend/nfc_ais_1.png)"
+      }
+    },
+    {
+      "segment_id": "fbc2db85",
+      "source_content": "Co spowoduje uruchomienie akcji powiązanej z komendą",
+      "source_content_hash": "268eea362c9920704b5e3a99c1ebb322c2545fb6a572031bb703d4852dff32b2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "这将触发与指令关联的自动化操作"
+      }
+    },
+    {
+      "segment_id": "8126f763",
+      "source_content": "![AIS Dom](/img/en/frontend/nfc_ais_2.png)",
+      "source_content_hash": "92c1dc4863c67b7b21cd8c3a0bc5b0cf244a95cf3e9c2674e60a50b950e845ee",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS Dom](/img/en/frontend/nfc_ais_2.png)"
+      }
+    },
+    {
+      "segment_id": "74dd7937",
+      "source_content": "W ten sposób możemy wykonywać dowolne rzeczy na bramce - uruchamiać automatyzację, sceny, sterować urządzeniami, pytać o status czujników, odtwarzać audio itd..",
+      "source_content_hash": "e1a46937847a72c41396a9832d30b75506333deb3f4f697ca8ffbfddba943b05",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过这种方式可执行任意网关操作——触发自动化场景、控制设备、查询传感器状态、播放音频等。"
+      }
+    },
+    {
+      "segment_id": "bd30d33e",
+      "source_content": "### Skan identyfikatora NFC",
+      "source_content_hash": "500fe2eef033be76fced588725a316c6d16e027f9383650ddcf29aa6dfe4dc10",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### NFC标识扫描"
+      }
+    },
+    {
+      "segment_id": "6b77b644",
+      "source_content": "Jeżeli w zeskanowanym tagu NFC nie ma rekordu typu text, to wysyłamy do bramki sam identyfikator zeskanowanego taga NFC.\nW ten sposób wyzwalamy na bramce zdarzenie (event) typu **tag_scanned** a w danych tego zdarzenia (w **event_data**) przekazujemy identyfikator taga **tag_id**.\nTa funkcjonalność pozwala na wykorzystanie tagów NFC, które mamy w domu, do wykonywania automatyzacji na bramce.",
+      "source_content_hash": "1a62b6de64aed7541ccac7aa17065395a88fdb13956772d6ea56891e65c13fe3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "若扫描的NFC标签不含文本记录，则仅向网关发送该标签的原始标识符。此时网关将生成**tag_scanned**类型事件，并在事件数据(**event_data**)中传递标签标识符**tag_id**。该功能可将现有NFC标签用于触发网关自动化流程。"
+      }
+    },
+    {
+      "segment_id": "eb51d107",
+      "source_content": "Przykład, w jaki sposób można skorzystać z tej funkcjonalności, opisany jest szczegółowo w [Automatyzacja wyzwalana tagiem NFC](ais_bramka_tag_automation).",
+      "source_content_hash": "0e3e39c71ae215d4ce6b12ebaf3b7613cd9eb53d890f64626ea99425d285f25d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "具体应用案例详见[NFC标签触发自动化](ais_bramka_tag_automation)说明文档。"
+      }
+    },
+    {
+      "segment_id": "99d0dd9b",
+      "source_content": "## Odtwarzacz audio",
+      "source_content_hash": "ded6c9a0460a9c5d862b859dd6af606b61e7e4558582f8a982d252280825f94a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 音频播放器"
+      }
+    },
+    {
+      "segment_id": "94145a94",
+      "source_content": "### Sterowanie odtwarzaczem na bramce",
+      "source_content_hash": "5068644da1ebe6cc8dfc145fc20bdc7747a9153b9e8a47589234a4b535b1f7a3",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 远程控制网关播放器"
+      }
+    },
+    {
+      "segment_id": "2838eb68",
+      "source_content": "Można zdalnie sterować odtwarzaczem na bramce z powiadomienia w aplikacji:\n![Mob](/img/en/frontend/panel_remote_controll_audio.png)",
+      "source_content_hash": "8da7a543ed107b5e190669039447f8f9173fd9d997bce6835c2c9a28329f0ed3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "可通过应用通知栏远程控制网关播放器：\n![Mob](/img/en/frontend/panel_remote_controll_audio.png)"
+      }
+    },
+    {
+      "segment_id": "f947c8e4",
+      "source_content": "### Przekierowanie mediów z bramki",
+      "source_content_hash": "72ac1631a00000fcb3401dd675d7f349772a3eb0da76e41295a102037015c204",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 媒体流重定向"
+      }
+    },
+    {
+      "segment_id": "7bc8bb24",
+      "source_content": "W aplikacji AIS dom wbudowany jest odtwarzacz multimediów który można [zintegrować z bramką](ais_app_player#dodatkowe-odtwarzacze-ais),\nDzięki czemu można przesyłać treści multimedialne z bramki do zdalnego klienta (Panelu sterowania):",
+      "source_content_hash": "52454c32fe3e83de2934b8fd028583d08fbdbd7eba7b5be0b084e6f0e0f600d1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "AIS dom应用内置多媒体播放器，可[与网关集成](ais_app_player#dodatkowe-odtwarzacze-ais)，实现将网关媒体内容流转发至远程客户端（控制面板）："
+      }
+    },
+    {
+      "segment_id": "3c19e221",
+      "source_content": "![Smart glass ustawienia](/img/en/frontend/redirect_media_to_client_gate.png)",
+      "source_content_hash": "37169ce17aa426872a688ee3c579252b2d980edff5b1252535ea87ee85613b4a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Smart glass ustawienia](/img/en/frontend/redirect_media_to_client_gate.png)"
+      }
+    },
+    {
+      "segment_id": "f8614e13",
+      "source_content": "## Sterowanie gestami",
+      "source_content_hash": "4e3e4fe3862c71a30e4f72de45a86abd1e1c00ce956e78dada7606a7bbf73b5e",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 手势控制"
+      }
+    },
+    {
+      "segment_id": "396efb28",
+      "source_content": "Ikona z prawej strony na dolnym pasku aplikacji, pozwala na przełączanie aplikacji w tryb sterowania gestami - by przełączyć w tryb sterowania gestami należy nacisnąć i przytrzymać tę ikonę.",
+      "source_content_hash": "b5a55a61859d0dc026af8459c9da4a0b9c8f57dbacfd8c29fae969e204ee5b47",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "长按应用底部工具栏右侧图标可切换至手势控制模式。"
+      }
+    },
+    {
+      "segment_id": "558df877",
+      "source_content": "![Sterowanie gestami](/img/en/frontend/remote_gesture_mode.png)",
+      "source_content_hash": "4b27a04e2d5743c349bc0e20a468be5711819354abafe2f876746e31fba6e9af",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![手势控制](/img/en/frontend/remote_gesture_mode.png)"
+      }
+    },
+    {
+      "segment_id": "ed644f52",
+      "source_content": "### Definiowanie gestów",
+      "source_content_hash": "b8b15307440c49f9dcd3c901cdac10bb1abb2d5125c61cf4ad32de9fbe55d3ee",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 定义手势"
+      }
+    },
+    {
+      "segment_id": "b9331170",
+      "source_content": "Gesty możemy definiować w ustawieniach aplikacji.",
+      "source_content_hash": "08e2e1268f6f00ca24f0afb3be80021b2e4fce0ec804b388b3e5260dc46abc3f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们可以在应用设置中定义手势。"
+      }
+    },
+    {
+      "segment_id": "8fcdd6d4",
+      "source_content": "Z menu dostępnego w ustawieniach wybieramy opcję \"Definiowanie gestów\"",
+      "source_content_hash": "09ea641d48df5ea2271e75e19b9e5db31c5b9c5bcba8e15c70c5afce306a0926",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "从设置菜单中选择\"定义手势\"选项"
+      }
+    },
+    {
+      "segment_id": "53aa2b95",
+      "source_content": "![Definiowanie gestów](/img/en/remote/remote_gesture_mode_2.png)",
+      "source_content_hash": "6a9afd2299138a0f3dd747a9f6549a940bde23069c1805e4d4c7b8dff1ae49ea",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![定义手势](/img/en/remote/remote_gesture_mode_2.png)"
+      }
+    },
+    {
+      "segment_id": "692c6053",
+      "source_content": "Klikamy przysisk \"Dodaj\" by przejść do definiowania nowego gestu",
+      "source_content_hash": "c6cd40d42b3699c676ae9709bcf4a71ef3c1b88bda8e15a7f7bfc90c24932c3d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "点击\"添加\"按钮进入新手势定义界面"
+      }
+    },
+    {
+      "segment_id": "383fbdd2",
+      "source_content": "![Definiowanie gestów](/img/en/remote/remote_gesture_mode_3.png)",
+      "source_content_hash": "5f728049beee6964fe1bb5cb502f33710bf84ac493dd93e26ab853e2976cc863",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![定义手势](/img/en/remote/remote_gesture_mode_3.png)"
+      }
+    },
+    {
+      "segment_id": "e77cf7c6",
+      "source_content": "Rysujemy na ekranie gest i zapisujemy go wraz z komendą",
+      "source_content_hash": "91885b9b0210723e916ace6f173d889aa189bb263c8ff57eb851477c2734f218",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在屏幕上绘制手势并保存手势与对应指令"
+      }
+    },
+    {
+      "segment_id": "bb1346b6",
+      "source_content": "![Definiowanie gestów](/img/en/remote/remote_gesture_mode_4.png)",
+      "source_content_hash": "9396d94803029c9344da628a409cb4aa09f52ece9774cf206460ec2a5460aa9d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![定义手势](/img/en/remote/remote_gesture_mode_4.png)"
+      }
+    },
+    {
+      "segment_id": "0d5321b7",
+      "source_content": "## Zmiana głosu asystenta",
+      "source_content_hash": "ab12241c106a647ad4b3b762b5e901c57925fc7ad6a4185bdb9f3cb192372f73",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 更改助手语音"
+      }
+    },
+    {
+      "segment_id": "cfeb9eb1",
+      "source_content": "W aplikacji korzystamy z wbudowanego w Android mechanizmu zamiany tekstu na mowę (TTS - Text To Speech). Zmiana głosu asystenta w aplikacji kliencie (w aplikacji dla panelu sterowania) możliwa jest w ustawieniach systemu Android.",
+      "source_content_hash": "030f20da6a63b464c3d85ca0affb1fb93d6edd3131fba8df7a5747ae682c57b9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "本应用使用Android系统内置的文本转语音(TTS)引擎。客户端应用(控制面板应用)中的助手语音可通过Android系统设置进行更改。"
+      }
+    },
+    {
+      "segment_id": "f7e6e884",
+      "source_content": "![Sterowanie gestami](/img/en/frontend/tts3.png)",
+      "source_content_hash": "5a13e8b66142a6ea0d7d25cf350731373fb32eeba89a32d376fcf25ee81eb6bc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![手势控制](/img/en/frontend/tts3.png)"
+      }
+    },
+    {
+      "segment_id": "ad3e22c6",
+      "source_content": "Żeby zmienić głos, należy wybrać systemowe **Ustawienia** > **Język i wprowadzanie** > **Zamiana tekstu na mowę**, a następnie ikonkę \"koła zębatego\" w celu dostosowania mechanizmu zamiany tekstu na mowę:",
+      "source_content_hash": "f20eaf0c1fcad793ca0f7c7357edb7908b0c409ac500bc1df9d572284d5859bc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "要更改语音，请选择系统**设置** > **语言与输入法** > **文字转语音(TTS)**，然后点击\"齿轮\"图标配置TTS引擎："
+      }
+    },
+    {
+      "segment_id": "3e8f45da",
+      "source_content": "![Sterowanie gestami](/img/en/frontend/tts1.png)",
+      "source_content_hash": "ea32f031b19e59f40cd3eb5b92aab9029ad7688d8aceb3f02fa7a2bb12412533",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![手势控制](/img/en/frontend/tts1.png)"
+      }
+    },
+    {
+      "segment_id": "619c3209",
+      "source_content": "następnie wybieramy opcję **Zainstaluj dane głosowe**. Wybieramy język i głos z dostępnych opcji:",
+      "source_content_hash": "0959a4fc8178e3307d6a3fcb7de558a4230039421bbbca39ffb0f08ff6815c52",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "接着选择**安装语音数据**。从可用选项中选择语言和语音："
+      }
+    },
+    {
+      "segment_id": "1496ef51",
+      "source_content": "![Sterowanie gestami](/img/en/frontend/tts2.png)",
+      "source_content_hash": "86c879d32b420d05508922682b2b9591f6aa5bad4347566e1761ae82e65408ae",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![手势控制](/img/en/frontend/tts2.png)"
+      }
+    },
+    {
+      "segment_id": "ee213c98",
+      "source_content": "## Nasłuchiwanie wyrażenia aktywującego",
+      "source_content_hash": "47be12e0a4d5f405a788f8b165844da69bf789f77d0815b745f7db1b76d4d148",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 激活词监听"
+      }
+    },
+    {
+      "segment_id": "008183b0",
+      "source_content": "![Smart glass ustawienia](/img/en/frontend/app_smart_glass_go_to_settings_5.png)",
+      "source_content_hash": "cac4bdd78408a8b65776a38c7bf08c3e09770460a373697aac03f3d582249447",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![智能眼镜设置](/img/en/frontend/app_smart_glass_go_to_settings_5.png)"
+      }
+    },
+    {
+      "segment_id": "c5c025c0",
+      "source_content": ":::caution[Uwaga.]\nTa opcja jest w fazie eksperymentalnej i może nie działać poprawnie - np. nie wykrywać poprawnie każdego wypowiedzianego słowa kluczowego lub mylić się i wykrywać podobne słowa jako słowa kluczowe.\n:::",
+      "source_content_hash": "cc301424c40c8316261d89bc443c6f0471ff82beafbfc2a2eab752dbbde7913c",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[注意]\n此功能处于实验阶段，可能无法正常工作 - 例如无法准确检测每个说出的关键词，或将相似词语误识别为关键词。\n:::"
+      }
+    },
+    {
+      "segment_id": "827eb9a3",
+      "source_content": "Jeśli włączysz tę opcję, to uruchomisz w \"Panelu sterowania\" usługę mikrofonu nasłuchującego wybranego wyrażenia. Jest to tak zwane wyrażenie aktywujące rejestrowanie i przetwarzanie komendy, zwane też \"key word\" lub \"trigger word\". Możesz też dostosować czułość nasłuchiwania wyrażenia aktywującego. Do wykrywania wyrażeń aktywujących używamy bardzo dokładnego i lekkiego silnika Porcupine.",
+      "source_content_hash": "38c943ee97ca112ca3761f31023d83407781a064f58fcdd5e17beebee94a9d4f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "启用此选项后，\"控制面板\"将启动监听指定激活词的麦克风服务。这个激活词用于触发命令录制和处理，也称为\"关键词\"或\"触发词\"。您还可以调整激活词监听灵敏度。我们使用高精度且轻量级的Porcupine引擎进行激活词检测。"
+      }
+    },
+    {
+      "segment_id": "04e608c7",
+      "source_content": ">  **Uwaga:** Parametr czułości nasłuchiwania. Wyższa wartość czułości obniża wskaźnik pominięć **ale kosztem wzrostu częstości fałszywych alarmów**. Aby uzyskać więcej informacji dotyczących tego jak to działa warto odwiedzić stronę firmy, która dostarcza to rozwiązanie: https://picovoice.ai/",
+      "source_content_hash": "3d7a7b90bcb89e963248ef8c0122f07d6cbf127b48be3b7e501b9bd66c7869de",
+      "node_type": "blockquote",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ">  **注意：** 监听灵敏度参数。较高的灵敏度值会降低漏检率**但会增加误报频率**。如需了解该功能的工作原理，建议访问解决方案提供商网站：https://picovoice.ai/"
+      }
+    },
+    {
+      "segment_id": "89cf7bac",
+      "source_content": "Zmodyfikowaliśmy zasadę działania Asystenta domowego- w przypadku, gdy komenda pochodzi z urządzenia z włączonym nasłuchiwaniem słowa aktywującego, to staramy się być bardziej dosłownym a \"mniej się domyślać\" o co chodziło użytkownikowi. Ma to na celu zminimalizowanie wykonywania niepotrzebnych komend w przypadku omyłkowego włączenia nasłuchiwania komendy. Jednak rozwiązanie jest jeszcze na bardzo wczesnym etapie, dlatego zalecamy stosować tę usługę pod kontrolą (i np. wyłączać ją na noc), żeby uniknąć niepotrzebnych wykonań komend i niespodziewanego uruchomienia odtwarzacza audio czy innych domowych urządzeń.",
+      "source_content_hash": "99c3232daddb5d77385f26281bcdac7c8aef1763f247bb7683c2965aed239c3f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们对家庭助理的运行逻辑进行了调整——当指令来自启用了激活词监听功能的设备时，系统会采取更字面化的解析策略，减少对用户意图的推测。这一改进旨在最大限度降低误触发监听时执行冗余指令的概率。不过该解决方案仍处于早期阶段，因此建议在可控环境下使用该服务（例如夜间关闭），以避免音频播放器等家居设备因误识别而意外启动。"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_app_android_dom_tablet.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.092385+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "8f48c579b0b49b7e3e781326e09d752fe460e7e9ae33450e3c6494264f03a7ce"
+  }
+}

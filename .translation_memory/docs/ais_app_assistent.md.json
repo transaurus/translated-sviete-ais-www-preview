@@ -1,0 +1,62 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_app_assistent.md",
+  "source_file_content_hash": "8f94d28d1ab9dc3f15462da02890729cd68166e6b57fb8d198e32fba84075def",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Asystent\"\nsidebar_label: Wprowadzenie\n---",
+      "source_content_hash": "9b748d0c655e955d8635be74dc6d644b5688cc5f3139336f7d6cc20e6bfd71bc",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "System posiada komponent umożliwiający wydawanie komend i przesyłanie zapytań do wbudowanego asystenta. Z asystentem możesz rozmawiać:",
+      "source_content_hash": "0c0f5524e700c63e2d8f6fde355ac9d85f644f8c943ca55c903074ec2ab74a6b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该系统内置支持向语音助手发送指令和查询的组件。您可通过以下方式与助手交互："
+      }
+    },
+    {
+      "segment_id": "57e757df",
+      "source_content": "- przez naciśnięcie mikrofonu w aplikacji webowej (tylko w przeglądarkach obsługujących wprowadzanie głosowe)\n- przez mikrofon w telefonie z systemem Android i z zainstalowaną naszą darmową aplikacją dostępną w [Google Play](https://play.google.com/store/apps/details?id=pl.sviete.dom)\n- przez wywołanie usługi rozmowy z naszego dedykowanego [pilota radiowego](/docs/ais_remote_index) z wbudowanym mikrofonem.",
+      "source_content_hash": "722f20c4484c55e71d8bd8222f298a5f0cddf58a69486a528a065002ae01b1e4",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 点击网页应用中的麦克风按钮（仅限支持语音输入的浏览器）\n- 通过安装了我们免费应用的Android手机麦克风（应用可在[Google Play](https://play.google.com/store/apps/details?id=pl.sviete.dom)获取）\n- 调用我们专用[射频遥控器](/docs/ais_remote_index)的内置麦克风进行语音对话服务"
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "Można też przesyłać komendy tekstowe do asystenta wpisując je w pole tekstowe w aplikacji.",
+      "source_content_hash": "54189fdcbe4e3f2fc07087418828fd87cb0cc1ff06a23f2cca134a7e826b4063",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "也可通过在应用文本框中输入指令来向助手发送文本命令"
+      }
+    },
+    {
+      "segment_id": "86b54d44",
+      "source_content": "![Komendy asystenta](/img/en/frontend/frontend-assistant.png)",
+      "source_content_hash": "c69939e333297414f6842846852a36e3bc5d251b8b1ae58c253ef37cd8195ce1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![助手指令界面](/img/en/frontend/frontend-assistant.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_app_assistent.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.101716+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "8f94d28d1ab9dc3f15462da02890729cd68166e6b57fb8d198e32fba84075def"
+  }
+}

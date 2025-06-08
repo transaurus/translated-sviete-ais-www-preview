@@ -1,0 +1,122 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_dev_kit_1_index.md",
+  "source_file_content_hash": "2384dbea8e397c5539124c22e8028464ebcf94f0e3d9bd69a70c6e3ba1ea4f24",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Głośnik AIS (DEV KIT)\"\nsidebar_label: Wprowadzenie\n---",
+      "source_content_hash": "344bf6ba48c37d83409ddd3b6f420ac912772a4e1aa1ca5bdd5addf018978118",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Opis",
+      "source_content_hash": "213089b969518edeaef89b69fec05f6aa90907037d8c093ae41737cc35ac7a23",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 产品描述"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Jest to głośnik aktywny, którego wzmacniacz jest zasilany z bramki AIS dom (5V dostępne na płycie bramki AIS dom) i którego płyta audio jest sterowana z systemu Asystent domowy.",
+      "source_content_hash": "b9ca42d9be670a2e5223081cad721b4a5c4491ae643f9615904ec22f34a980d8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "这是一款有源音箱，其功放由AIS dom网关供电（网关主板提供5V电源），音频板通过家庭助手系统进行控制。"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "![DEV KIT 1](/img/en/iot/dev_kit_1.jpeg)",
+      "source_content_hash": "b39807f37b58c7ae473779446ce9a4713376de9ed35e7eea0e5cff86c00a5699",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![DEV KIT 1](/img/en/iot/dev_kit_1.jpeg)"
+      }
+    },
+    {
+      "segment_id": "180bddb1",
+      "source_content": "Projekt został wykonany ze starannością, do wyliczenia pojemności głośnika użyto odpowiednich kalkulatorów. Obudowa głośnika została też profesjonalnie zaprojektowana - patrz: [Projekt głośnika i drukowanie obudowy](ais_dev_kit_1_project). Cały zestaw został też odsłuchany i odpowiednio zestrojony - patrz: [Odsłuchy głośnika](ais_dev_kit_1_audio).",
+      "source_content_hash": "d48fbd6dc44ab0de98c2fc70992b9e4d74e14554c681c4411292fa5640f4149c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "本项目经过精心设计，扬声器容积计算采用专业计算工具。箱体结构也经过专业设计——详见[音箱设计与3D打印](ais_dev_kit_1_project)。整套系统经过专业声学调试——详见[音箱听音测试](ais_dev_kit_1_audio)。"
+      }
+    },
+    {
+      "segment_id": "cf898102",
+      "source_content": "Wg nas głośnik brzmi dobrze i będzie ładnie grał na biurku. Mając na uwadze założenia projektu uważamy, że osiągnięty dźwięk jest optymalny.",
+      "source_content_hash": "e3f85bd4640ab8efa312022f8399cf95e1d6f9a420433757dbc794d1eeced9ac",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们认为该音箱音质出色，适合桌面环境使用。基于项目设计目标，我们认为其声音表现已达到最优水平。"
+      }
+    },
+    {
+      "segment_id": "42ad8e83",
+      "source_content": "Ponieważ głośniki i jakość dźwięku są ogólnie ważne dla wielu ludzi, chcemy tu zaznaczyć, że nie jest to zestaw dla audiofili ani do nagłaśniania masowych imprez. Jeżeli ktoś ma delikatne ucho i wyczuwa, że warstwa pozłacająca wtyki z przewodami audio jest cienka… to żeby oszczędzić rozczarowania oraz straty pieniędzy na części do zestawu (które nie są tanie), sugerujemy poszukać innego rozwiązania audio.",
+      "source_content_hash": "2a104ac0c25784ad05add119e51032e3b48d94054499301b4d371d7dc993c19d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "鉴于音质对多数用户的重要性，特此说明：本套件并非面向发烧友或大型活动扩声需求。若您对音频连接器镀层厚度等细节极为敏感...为避免失望及零件采购的经济损失（套件零件价格不菲），建议另行选择音频解决方案。"
+      }
+    },
+    {
+      "segment_id": "63622bf0",
+      "source_content": "## Dostępność i cena",
+      "source_content_hash": "8c8b0d24dfa40d6ef28d3caf96c499605e3ba03d4f196ccba735d26d431bf4a4",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 获取方式与价格"
+      }
+    },
+    {
+      "segment_id": "98cfbd53",
+      "source_content": "Głośnik można wykonać samemu wg opisu potrzebnych części: [Części zestawu](/docs/ais_dev_kit_1_parts), instrukcji montażu: [Montaż zestawu](/docs/ais_dev_kit_1_instruction), udostępniamy do tego wszystkie [Kody DEV KIT 1](/docs/ais_dev_kit_1_codes).",
+      "source_content_hash": "09f22acc5942d4da4e10dfad9015134479c6e7b7cdaedcac3f99cb06ea2252d2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "用户可根据[套件零件清单](/docs/ais_dev_kit_1_parts)自行采购组件，参照[组装指南](/docs/ais_dev_kit_1_instruction)进行组装，我们已公开全部[DEV KIT 1代码](/docs/ais_dev_kit_1_codes)。"
+      }
+    },
+    {
+      "segment_id": "a76548f8",
+      "source_content": "Można też kupić gotowy zestaw od nas.",
+      "source_content_hash": "72aa3a2f046d871f6419063f741ed5104205702ca5a3d40d597a846420aaff59",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "也可直接购买我们预组装的完整套件。"
+      }
+    },
+    {
+      "segment_id": "57971bfb",
+      "source_content": ":::info[SPRZEDAŻ INTELIGENTNYCH URZĄDZEŃ]\nProwadzimy sprzedaż inteligentnych urządzeń z naszym oprogramowaniem pod linią produktową AIS dom.\nSą to urządzenia, które spełniają wszystkie cechy, by były przez nas rekomendowane do zastosowania w Twoim domu.\n\nAktualna cena urządzeń jest dostępna:\n\n- u naszego oficjalnego dystrybutora [botland.com.pl](https://botland.com.pl/pl/227_prd_ai-speaker)\n\n[<img src=\"/img/en/icons/botland.png\" alt=\"drawing\" width=\"200\"/>](https://botland.com.pl/pl/227_prd_ai-speaker)\n\n- na naszych aukcjach na platformie [allegro.pl](https://allegro.pl/uzytkownik/AI-Speaker) \n\n[<img src=\"/img/en/icons/allegro.png\" alt=\"drawing\" width=\"200\"/>](https://allegro.pl/uzytkownik/AI-Speaker) \n:::",
+      "source_content_hash": "4741e2490d868209afa6e14cb9cfac6ce243fa1f9feb894efa98f4ecabff7868",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::info[智能设备销售]\n我们以AIS dom产品线销售预装自有软件的智能设备。这些设备均通过严格测试，确保可完美融入您的智能家居系统。\n\n当前售价可通过以下渠道查询：\n\n- 官方经销商[botland.com.pl](https://botland.com.pl/pl/227_prd_ai-speaker)\n\n[<img src=\"/img/en/icons/botland.png\" alt=\"drawing\" width=\"200\"/>](https://botland.com.pl/pl/227_prd_ai-speaker)\n\n- 我们在[allegro.pl](https://allegro.pl/uzytkownik/AI-Speaker)平台的店铺\n\n[<img src=\"/img/en/icons/allegro.png\" alt=\"drawing\" width=\"200\"/>](https://allegro.pl/uzytkownik/AI-Speaker) \n:::"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_dev_kit_1_index.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.143741+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "2384dbea8e397c5539124c22e8028464ebcf94f0e3d9bd69a70c6e3ba1ea4f24"
+  }
+}

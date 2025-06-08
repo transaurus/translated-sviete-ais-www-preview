@@ -1,0 +1,472 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2019-08-29-release-notes.md",
+  "source_file_content_hash": "dcde4bcf2f04217fb4d1672335b955f63fd704e610c0f643393d4a7b33466100",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Celina AI-Speaker\nauthorURL: https://github.com/sviete\nauthorFBID: 1186570423\ntitle: Wersja systemu 0.97.5 Obsługa wywołań zwrotnych HTTP, kolejne uproszczenia w aplikacji\n---",
+      "source_content_hash": "5a06f449a00e59e8ab7180d1468ac4e89fb8968d910f7b637120b38ee053314f",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Wersja systemu 0.97.5 z dnia 29 sierpnia 2019 roku,",
+      "source_content_hash": "54c6eb4a4b8ff101980d7d0f3d0e7cdc9fdafacc87d585fc6afbc19a8de2439d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 2019年8月29日发布的系统版本0.97.5"
+      }
+    },
+    {
+      "segment_id": "1cc03ec8",
+      "source_content": "### Poprawa dostępności aplikacji dla użytkowników niedowidzących",
+      "source_content_hash": "f91a0ab06b5904b36707d578e6e31c4269b9aca61fb545ce81fbe2bba226db80",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 提升视障用户应用可访问性"
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "W naszej aplikacji na system Android oznakowaliśmy przyciski etykietami w celu zapewnienia wsparcia dla mechanizmów typu TalkBack.\nPodobne wysiłki zostały poczynione w aplikacji webowej, celem tego procesu jest udostępnienie interfejsu użytkownika Asystenta domowego dla wszystkich.",
+      "source_content_hash": "2597ce49b566f5df1a6d0052c0f608c5269e43e751cd8b928c4cf0a0873c8a34",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们在Android应用中为按钮添加了标签，以支持TalkBack等辅助功能。网页端也进行了类似优化，旨在让家庭助理的用户界面实现全面无障碍化。"
+      }
+    },
+    {
+      "segment_id": "28a64196",
+      "source_content": "<!--truncate-->",
+      "source_content_hash": "f5cded2aa7e288e395fe4f67f9dabda2281904b2f5358d07302b3aa8be0acdfa",
+      "node_type": "comment",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_28a64196"
+      }
+    },
+    {
+      "segment_id": "3daf1b88",
+      "source_content": "### Uproszczenia w aplikacji",
+      "source_content_hash": "343a50b068ecd521b8dcc4cde6daa87ac5c6780b50964e306157ea59f403f42f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 应用界面简化"
+      }
+    },
+    {
+      "segment_id": "f6168993",
+      "source_content": "W ramach prac nad wersją 1.0 upraszczamy domyślny interfejs użytkownika aplikacji Asystent domowy.\nOd wersji 0.97 Konfiguracja bramki, Przydatne linki i Dokumentacją będą miały swoje osobne strony.",
+      "source_content_hash": "bf4620e036d275356864a18e4dcee01f708ce88293076cbec2fd8a3438802cbf",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "为迎接1.0版本，我们正在简化家庭助理应用的默认用户界面。从0.97版起，网关配置、实用链接和文档将拥有独立页面。"
+      }
+    },
+    {
+      "segment_id": "63622bf0",
+      "source_content": "#### Konfiguracja bramki",
+      "source_content_hash": "792e47ce7a920952b5dd3b870232b405861b3fb48bf3f57e3ff7266ddd0ff55d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "#### 网关配置"
+      }
+    },
+    {
+      "segment_id": "98cfbd53",
+      "source_content": "Konfiguracja bramki jest dostępna z menu z pozycji **Ustawienia bramki AIS dom**. Z tego miejsca można zarządzać swoją bramką IoT i Audio.\nKonfiguracja bramki ma 4 sekcje, są one opisane na nowej stronie dokumentacji [Konfiguracja bramki](/docs/ais_bramka_configuration)",
+      "source_content_hash": "5cd37214a0524ee2de5f7125e0f892b3241e254cff97fadd04b6faca7226726b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过**AIS dom网关设置**菜单项可访问网关配置界面，用于管理物联网音频网关。该配置包含4个功能模块，详见新文档页面[网关配置](/docs/ais_bramka_configuration)"
+      }
+    },
+    {
+      "segment_id": "a76548f8",
+      "source_content": "![AIS dom ustawienia bramki](/img/en/frontend/ais_dom_gate_settings_voice.png)",
+      "source_content_hash": "888ac5e10f56a00d26397a2c7637600f31fa1c8e384e9583b729d89f40c47425",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS dom网关设置](/img/en/frontend/ais_dom_gate_settings_voice.png)"
+      }
+    },
+    {
+      "segment_id": "d06306f7",
+      "source_content": "#### Przydatne linki",
+      "source_content_hash": "000e0820b24281a225d641ab46eb50424f2a582d7e0160456fae643aa1fa5b03",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "#### 实用链接"
+      }
+    },
+    {
+      "segment_id": "73ab96a3",
+      "source_content": "Linki do serwisów działających na bramce umieściliśmy jako nową opcję w menu w aplikacji [Przydatne linki](/docs/ais_bramka_services)",
+      "source_content_hash": "075fc750792e3856dd77651f948f6a0f4350a12d91fbb639d3710055ed8d964a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "网关运行的各项服务链接已整合为菜单新选项[实用链接](/docs/ais_bramka_services)"
+      }
+    },
+    {
+      "segment_id": "7499a4e7",
+      "source_content": "![AIS dom przydatne linki](/img/en/frontend/ais_dom_links.png)",
+      "source_content_hash": "3055cde3db4af33d9c072db124e841863610ee446638e21dbc11e19533cd25d3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS dom实用链接](/img/en/frontend/ais_dom_links.png)"
+      }
+    },
+    {
+      "segment_id": "3b7478ea",
+      "source_content": "#### Dokumentacja",
+      "source_content_hash": "d43b2408861094ed2782412b939c112d265cc7f8ee6f0a08575ffa81bbd746d2",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "#### 文档"
+      }
+    },
+    {
+      "segment_id": "c3a738de",
+      "source_content": "Kolejna nowa opcja w menu **Dokumentacja** to przejście do serwisu z naszą oficjalną dokumentacja użytkownika.",
+      "source_content_hash": "39885d49e69cb8aa5014db3cb8dea1603e395e03a71150ef9048df167ce22daf",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "菜单新增**文档**选项可直接跳转至官方用户文档站点。"
+      }
+    },
+    {
+      "segment_id": "3cfe6286",
+      "source_content": "![AIS dom dokumentacja](/img/en/frontend/ais_dom_docs.png)",
+      "source_content_hash": "30ce4260b94802d4651b2211a7edf6825728797e5cb1dce8d428a7dde5539c70",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS dom文档](/img/en/frontend/ais_dom_docs.png)"
+      }
+    },
+    {
+      "segment_id": "35a77014",
+      "source_content": "### Obsługa wywołań zwrotnych HTTP",
+      "source_content_hash": "8817e9220c0fabd2594a15c7e30a56982c749a70aa8a935f64f2045d01af2220",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### HTTP回调支持"
+      }
+    },
+    {
+      "segment_id": "13d9cd70",
+      "source_content": "Obsługa wywołań zwrotnych HTTP do powiadamiania asystenta o zdarzeniach z zewnątrz.\nWszystko, co jest skonfigurowane do uruchamiania przez wywołanie zwrotne, ma publicznie dostępny unikalny adres URL, aby umożliwić wysyłanie danych do Asystenta domowego z dowolnego miejsca.",
+      "source_content_hash": "b312c7a6d7ee0d1eb2742ec97e4dfa10bd2bef954db49949354d1ab36f9579f6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "新增HTTP回调功能，用于接收外部事件通知。所有配置为回调触发的服务都会生成唯一公开URL，支持从任意位置向家庭助理发送数据。"
+      }
+    },
+    {
+      "segment_id": "a44047a5",
+      "source_content": "Pozwala to na przesyłanie powiadomień do naszej bramki z Internetu.",
+      "source_content_hash": "ed48a3ec452fd94002307baf12190000a64ecdab3f5577e2dedeae74a32c4f60",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该功能支持从互联网向网关推送通知。"
+      }
+    },
+    {
+      "segment_id": "f7ef78f9",
+      "source_content": "W ten sposób możemy np. powiadamiać bramkę o naszej lokalizacji z aplikacji mobilnej - opcja opisana szerzej w [Wykrywanie obecności](/docs/ais_bramka_presence_detection)",
+      "source_content_hash": "82f9608ffd17d8a17a60662464ec6c9636fbc52f623faef45f546209ffd44d7f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "例如可通过移动应用向网关发送位置信息——详见[存在检测](/docs/ais_bramka_presence_detection)功能说明"
+      }
+    },
+    {
+      "segment_id": "b36c6338",
+      "source_content": "![AIS dom webhooks](/img/en/frontend/integration_owntracks.png)",
+      "source_content_hash": "53fa841371be0ca4de2110ba716893e7b7880c6b6f366308544cfc74cbb91c8e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS dom网页钩子](/img/en/frontend/integration_owntracks.png)"
+      }
+    },
+    {
+      "segment_id": "b9aaa519",
+      "source_content": "Otrzymywać powiadomienia z serwisu dialogflow",
+      "source_content_hash": "665eaa58c238ea8baa7b9f37a801acec4ae43066db9eaf06f50d69110ea08a5c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "接收dialogflow服务的通知"
+      }
+    },
+    {
+      "segment_id": "e536ea0d",
+      "source_content": "![AIS dom webhooks](/img/en/frontend/integration_dialogflow.png)",
+      "source_content_hash": "a82c36c2d4e622281b237d3dadbd53e3f41d2530c6d4c3f07765701bcfac015b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS dom网页钩子](/img/en/frontend/integration_dialogflow.png)"
+      }
+    },
+    {
+      "segment_id": "40158b4b",
+      "source_content": "i/lub z serwisu IFTTT",
+      "source_content_hash": "2e2423e1f403f3dcf578601907101f2bfe0ab30d29b4d8661d69eba792b0f2c0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "及/或IFTTT服务的通知"
+      }
+    },
+    {
+      "segment_id": "6ea4c715",
+      "source_content": "![AIS dom webhooks](/img/en/frontend/integration_ifttt.png)",
+      "source_content_hash": "041df4037816468989fefbcc80883e04d256686754c7b9421dda94dae35444b5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS dom网页钩子](/img/en/frontend/integration_ifttt.png)"
+      }
+    },
+    {
+      "segment_id": "79ad944d",
+      "source_content": "Zarządzanie powiadomieniami zwrotnymi dostępne jest w [konfiguracji zdalnego dostępu do bramki](/docs/ais_bramka_configuration#konfiguracja-zdalnego-dostępu-do-bramki)\n![AIS dom webhooks](/img/en/frontend/ais_dom_webhooks.png)",
+      "source_content_hash": "314d4bdf1f54157e3c0eff0ed3a328cc3461bb6bfd7e8871ca85a4d75ea607c6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "回调通知管理功能可在[网关远程访问配置](/docs/ais_bramka_configuration#konfiguracja-zdalnego-dostępu-do-bramki)中设置\n![AIS dom webhooks](/img/en/frontend/ais_dom_webhooks.png)"
+      }
+    },
+    {
+      "segment_id": "a5a4323e",
+      "source_content": "### Nowe repozytorium pakietów binarnych",
+      "source_content_hash": "332a0418b895760a65a6bc117eccfe0cb873ce29bd560c8814e146c133264505",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 新增二进制软件包仓库"
+      }
+    },
+    {
+      "segment_id": "657c2b20",
+      "source_content": "Mamy nowe repozytorium pakietów binarnych na własnym serwerze (nie instalujemy już binarek z serwisu Github). Wszystkie pakiety zostały zaktualizowane do najnowszych wersji i w ramach optymalizacji skompilowane dla minimalnego Android API 24 (wcześniej wspieraliśmy API 21 dostępne na Android 5).",
+      "source_content_hash": "84b0d023245f3b53340b8aa167978e4793b0e805907c3967c0f20f9dd21898c5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们已在自有服务器上建立新的二进制软件包仓库（不再从Github获取安装包）。所有软件包均已更新至最新版本，并针对最低Android API 24（此前支持Android 5的API 21）进行了编译优化。"
+      }
+    },
+    {
+      "segment_id": "ac426fbd",
+      "source_content": "> Nie przełączamy na nowe repozytorium automatycznie i nie dostarczamy tych nowych pakietów binarnych automatycznie podczas zwykłej instalacji. Wymaga to po standardowej aktualizacji wykonania dodatkowo procedury \"Pełnego resetu aplikacji\". **Zachęcamy do przełączenia się na nowe repozytorium w celu usprawnienia/przyśpieszenia działania procesów na urządzeniu.**",
+      "source_content_hash": "a42f2a432853531e79e59e885c6654cd2834aa76b29b6515ac7da5d28b761af8",
+      "node_type": "blockquote",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "> 我们不会自动切换至新仓库，常规安装过程中也不会自动推送这些新二进制包。标准更新后需额外执行\"应用完全重置\"流程。**建议您切换至新仓库以优化/加速设备运行流程。**"
+      }
+    },
+    {
+      "segment_id": "eab056be",
+      "source_content": "Przełączenie na nowe repozytorium pakietów binarnych:",
+      "source_content_hash": "e90c416f4c93b049af37cfe54346327db9f23838b6ae375d576c029d79b99e1d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "切换至新二进制软件包仓库步骤："
+      }
+    },
+    {
+      "segment_id": "c7436e69",
+      "source_content": "1. Wykonaj standardową aktualizację automatyczną\n2. Wykonaj \"Pełny reset aplikacji\" - przebieg tej procedury opisany jest w dokumentacji [Pełny reset aplikacji](/docs/ais_bramka_reset_ais_step_by_step), znajduje się tam też wideo prezentujące przebieg procesu pełnego resetu.",
+      "source_content_hash": "533e649aa005f1a088cb0ba4f1dec80e18bd4f0ed603740eea6a06b409482bd0",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "1. 执行标准自动更新\n2. 执行\"应用完全重置\" - 该流程说明详见文档[应用完全重置](/docs/ais_bramka_reset_ais_step_by_step)，内含完整重置过程的演示视频。"
+      }
+    },
+    {
+      "segment_id": "98355e36",
+      "source_content": "### Pozostałe istotne zmiany",
+      "source_content_hash": "d9fdc1d919787ef9b45ab06c1b00ed50caa14ddcfaf0962bf21c363ba7f902f7",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 其他重要变更"
+      }
+    },
+    {
+      "segment_id": "ca1573da",
+      "source_content": "- Możliwość włączenia dźwięku mono (połączenie kanałów podczas odtwarzania audio).\nOpcja dostępna jest z aplikacji oraz ze zdalnego pilota. Jest to przydatne gdy nasza bramka podłączona jest do jednego głośnika a audio ma więcej kanałów lub gdy słuchamy na słuchawkach i mamy lepszy słuch w jednym uchu niż w drugim.\n\n- Pokazywanie mikrofonu w przeglądarce, tylko gdy przeglądarka wspiera głosowe wprowadzanie (webkitSpeechRecognition) i gdy połączenie jest szyfrowane.",
+      "source_content_hash": "fdce537c3e2d2c1200c721435678875d90f0ea49c4952f71005ba8141fca7e9b",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 新增单声道音频切换功能（播放时合并音频通道）\n该选项可通过应用及遥控器启用。适用于以下场景：网关仅连接单个扬声器但音频含多声道；或使用耳机时用户单侧听力更佳。\n\n- 浏览器仅在其支持语音输入（webkitSpeechRecognition）且连接加密时显示麦克风图标"
+      }
+    },
+    {
+      "segment_id": "fbc2db85",
+      "source_content": "http:",
+      "source_content_hash": "1c31dda07cb1e09e89bd660a8d114936b44f728b73a3bc52c69a409ee1d44e67",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "http:"
+      }
+    },
+    {
+      "segment_id": "8126f763",
+      "source_content": "![AIS dom webhooks](/img/en/blog/no_mic_http.png)",
+      "source_content_hash": "b7d716438cb97cca2bf5a8d5273190100baac9347645c766e6056c737f20818b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS dom webhooks](/img/en/blog/no_mic_http.png)"
+      }
+    },
+    {
+      "segment_id": "74dd7937",
+      "source_content": "https:",
+      "source_content_hash": "08cf2045c958cd55b2a5b4a9f9548ab747d9304a796e26fc5ffad07eb3784929",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "https:"
+      }
+    },
+    {
+      "segment_id": "5803caac",
+      "source_content": "![AIS dom webhooks](/img/en/blog/yes_mic_https.png)",
+      "source_content_hash": "33316cdc971a953c5650b4562d6f8833888561fd5d4d848c1712bded4437870d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS dom webhooks](/img/en/blog/yes_mic_https.png)"
+      }
+    },
+    {
+      "segment_id": "d0b8a6db",
+      "source_content": "- Powiadomienia w aplikacji o nowej wersji.",
+      "source_content_hash": "f0b359b5b713db1fd2372167b8e7dc8753619367589af96fe8370a55676a78d7",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 应用内新增版本更新通知"
+      }
+    },
+    {
+      "segment_id": "785750ac",
+      "source_content": "![AIS dom update notification](/img/en/blog/update_notification.png)",
+      "source_content_hash": "954ac04e8533fb2c4ae68669d35938561dfb2e9926c8e37783379b0412df4f5f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS dom update notification](/img/en/blog/update_notification.png)"
+      }
+    },
+    {
+      "segment_id": "b264104e",
+      "source_content": "- Możliwość połączenia się z WiFi przy pierwszym uruchomieniu w 2 kroku kreatora (po założeniu konta, przed wykryciem lokalizacji domu).",
+      "source_content_hash": "3da14f3069864e28b748a9a28d03384b02e767b6628c48dbcecc7056cf01799f",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 首次启动时可在向导第二步（注册账户后，房屋位置检测前）连接WiFi"
+      }
+    },
+    {
+      "segment_id": "2822251a",
+      "source_content": "[Pierwsze uruchomienie -> Lokalizacja Twojego domu -> Konfiguracja WiFi](/docs/ais_bramka_first_run#lokalizacja-twojego-domu)",
+      "source_content_hash": "9673e7f44c1a7e3518bb5ace6af013a28f238a69978863451cebd0f13ce1d299",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "[首次启动 -> 房屋定位 -> WiFi配置](/docs/ais_bramka_first_run#lokalizacja-twojego-domu)"
+      }
+    },
+    {
+      "segment_id": "9f974d3d",
+      "source_content": "- Możliwość uwierzytelniania za pomocą hasła przy połączeniu ssh.",
+      "source_content_hash": "15df59fbfb784304e32fe52403e33a56a660f7a4fa70f0d3e58f2a2d0b103ac9",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 支持SSH密码认证登录"
+      }
+    },
+    {
+      "segment_id": "d79a4831",
+      "source_content": "[Dostęp w sieci lokalnej -> SSH](/docs/ais_bramka_remote_ssh)",
+      "source_content_hash": "b1556865a7397b4abd8275719ca635e7b3e4baf2e577fcc17fe27372db8b7844",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "[局域网访问 -> SSH](/docs/ais_bramka_remote_ssh)"
+      }
+    },
+    {
+      "segment_id": "dea0598f",
+      "source_content": "- Poprawione działanie mikrofonu. W przypadku zablokowania mikrofonu dodaliśmy automatyczny reset urządzenia USB, bez fizycznego rozłączania / podłączania.",
+      "source_content_hash": "733c0ff90afca17ba9b0e1e2ff7efdeb50499856fe08cafbed59cc3601a8c722",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 优化麦克风功能。当麦克风被锁定时，系统将自动重置USB设备，无需物理插拔。"
+      }
+    },
+    {
+      "segment_id": "4be28ed1",
+      "source_content": "![AIS dom webhooks](/img/en/blog/repo_update.png)",
+      "source_content_hash": "8c74068929863a4755d8c06880bb6f6fb3650272ed78e1d8b02968c3a49a0d96",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS dom webhooks](/img/en/blog/repo_update.png)"
+      }
+    },
+    {
+      "segment_id": "664ad8b1",
+      "source_content": "- Najnowszy (stabilny) Home Assistant <a href=\"https://www.home-assistant.io/blog/2019/08/07/release-97/\" target=\"_blank\">0.97</a>",
+      "source_content_hash": "c623aa476f17b01483028d7eb658c80c1956ec38648ec4280f4d9aa4ec2c15e0",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 最新稳定版 Home Assistant <a href=\"https://www.home-assistant.io/blog/2019/08/07/release-97/\" target=\"_blank\">0.97</a>"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2019-08-29-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.089854+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "dcde4bcf2f04217fb4d1672335b955f63fd704e610c0f643393d4a7b33466100"
+  }
+}

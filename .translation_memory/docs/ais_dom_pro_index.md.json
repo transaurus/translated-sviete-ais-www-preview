@@ -1,0 +1,52 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_dom_pro_index.md",
+  "source_file_content_hash": "c2fa26e53794998f4467b05bac67d8300f7f9d219223da10c1db6c134cf24b4f",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Oferta PRO\"\nsidebar_label: Wprowadzenie\n---",
+      "source_content_hash": "61fbaa15c5833c337cb954023fcfb47124d475cbbd76ffd02f0995c80c888871",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "### <span class=\"mdi mdi-professional-hexagon\"></span> Usługi PRO",
+      "source_content_hash": "21ce2cc089f3a94d3f2c015bd11fbfe818ccff25871d2d7b3a39c3240f354085",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### <span class=\"mdi mdi-professional-hexagon\"></span> 专业服务"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "![AIS SLA](/img/en/bramka/ais_sla.png)",
+      "source_content_hash": "6ed41231a405ff5b140fdb22a1faa7323dda3732e30adbf1bf16e9fab4dc5b54",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS SLA](/img/en/bramka/ais_sla.png)"
+      }
+    },
+    {
+      "segment_id": "8ac585fb",
+      "source_content": "Oferujemy możliwość wykupienia usług na serwerach komercyjnych z gwarancją działania. \nMożliwe jest też wykonanie lub dostosowanie funkcjonalności pod zamówienie klienta. Zapraszamy do kontaktu info@ai-speaker.com",
+      "source_content_hash": "e52e17977f9846dd14799b8d142333422e8f4617487e1f2a53cc3f80a297b7a4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们提供在商用服务器上购买服务的选项，并附带运行保障。同时支持根据客户需求定制功能模块，欢迎联系 info@ai-speaker.com"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_dom_pro_index.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.098047+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "c2fa26e53794998f4467b05bac67d8300f7f9d219223da10c1db6c134cf24b4f"
+  }
+}

@@ -1,0 +1,302 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_gate_faq_config_yaml.md",
+  "source_file_content_hash": "315364c4b4c715a87d163b378b7c1c2fee2f102acad714eab850106ecb5903d1",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Zaawansowana konfiguracja Asystenta domowego\"\nsidebar_label: configuration.yaml\n---",
+      "source_content_hash": "dd259ef633d8e63ea0310a1618d23bdb932361cf650db834e51df7900402b389",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Plik konfiguracyjny configuration.yaml",
+      "source_content_hash": "d8f9bd5c94c630cad9056a66c11dee4e1ed5c7f9fba81a75bb3341dc026590c3",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 配置文件configuration.yaml"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Dążymy do tego, żeby wszystkie podstawowe ustawienia i popularne integracje były dostępne z interfejsu użytkownika.",
+      "source_content_hash": "18ffae11a336ae720b11cf42fcd6db48f00734d4acb0096cbfb744e60a1f1ff2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们致力于让所有基础设置和常用集成都能通过用户界面进行配置。"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "Obecnie jednak nie wszystko jest jeszcze konfigurowalne za pośrednictwem interfejsu użytkownika i aby dodać integrację z niektórymi urządzeniami, wymagana jest ręczna edycja pliku konfiguracyjnego Asystenta domowego. Plik ten znajduje się na urządzeniu w folderze **/data/data//com.termux/files/home/AIS** i ma nazwę **configuration.yaml**.",
+      "source_content_hash": "32a576a3ced9c15887b9fbd41adc0540ff5f915565b851ed68416fe42af4ebfb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "但目前并非所有功能都支持界面化配置，某些设备集成仍需手动编辑Home Assistant的配置文件。该文件位于设备**/data/data//com.termux/files/home/AIS**目录下，名为**configuration.yaml**。"
+      }
+    },
+    {
+      "segment_id": "180bddb1",
+      "source_content": "Konfiguracja ręczna w pliku pozwala też zaawansowanym użytkownikom na dodawanie własnych dowolnych komponentów.",
+      "source_content_hash": "c74df14eae779c87f9e04192b3759696d8611da4046b93e17e0d747bcec24f1a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过文件手动配置也允许高级用户添加任意自定义组件。"
+      }
+    },
+    {
+      "segment_id": "cbe57f9d",
+      "source_content": "## Przykładowy czujnik",
+      "source_content_hash": "d2863daf5c82eeae86d11f200b78235b048b7cc64bb6c5d2862279941fced66e",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 传感器示例"
+      }
+    },
+    {
+      "segment_id": "39b3772c",
+      "source_content": "Poniżej opiszemy krok po kroku, w jaki sposób dodać czujnik wyświetlający temperaturę procesora bramki.\nOczywiście w analogiczny sposób można dodać inne elementy systemu, a następnie użyć ich przy tworzeniu automatyzacji.",
+      "source_content_hash": "2edd67c948f0653d53de828d76a753e2840815f05f33e2d7c23bcfcc70a29637",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "下面将逐步演示如何添加显示网关处理器温度的传感器。\n当然，您也可以用相同方式添加其他系统元素，并在创建自动化时使用它们。"
+      }
+    },
+    {
+      "segment_id": "418617bd",
+      "source_content": "### Temperatura procesora w systemie Linux",
+      "source_content_hash": "ff399a7b2d25bbea3c2e402484268fd4a90c5df5fe195e697933ce646b37ca94",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### Linux系统中的处理器温度"
+      }
+    },
+    {
+      "segment_id": "2fdadb08",
+      "source_content": "Znajdujemy komendę, która zwraca temperaturę CPU w systemie Linux (google.com) i testujemy ją w konsoli.",
+      "source_content_hash": "6b7b3677635c8bac0c25c46cf7758ada8c35cf7b06e9c7195ed8b9094897e0e7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过搜索引擎查找返回Linux系统CPU温度的命令（google.com），并在控制台进行测试。"
+      }
+    },
+    {
+      "segment_id": "3569d545",
+      "source_content": "```bash\ncat /sys/class/thermal/thermal_zone0/temp\n```",
+      "source_content_hash": "0ecb0d5a1b8d2bf9879c97fc279ce1e54cf897d6a1049b3ffbcc9de65e5d47b0",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_3569d545"
+      }
+    },
+    {
+      "segment_id": "d9172fa4",
+      "source_content": "![](/img/en/bramka/faq_sensor_1.png)",
+      "source_content_hash": "88e41e07f43ae68be730085ee19a58e45ea11bf34da9fe5d0354dd69a9b8c9ff",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/bramka/faq_sensor_1.png)"
+      }
+    },
+    {
+      "segment_id": "48847fd4",
+      "source_content": "### Edycja pliku configuration.yaml",
+      "source_content_hash": "6bad85467bdf250799bb7c799beb4636cc234a5f239ade9f40f182daa537e4e8",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 编辑configuration.yaml文件"
+      }
+    },
+    {
+      "segment_id": "4daf5cdd",
+      "source_content": "W konsoli przechodzimy do folderu z konfiguracją Asystenta domowego.",
+      "source_content_hash": "d72b025381ca15376bb2a6021f98054cb11bee0d287ea4cc265d4de90b8d6006",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在控制台中进入Home Assistant配置目录。"
+      }
+    },
+    {
+      "segment_id": "ef6eebef",
+      "source_content": "```bash\ncd ~/AIS\n```",
+      "source_content_hash": "6499ea5a8f191b96fcc63d4baeb7d11f63730c972dcd5e8effacc963ed67dbd0",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_ef6eebef"
+      }
+    },
+    {
+      "segment_id": "c3a738de",
+      "source_content": "Ulubionym edytorem tekstowym otwieramy plik configuration.yaml",
+      "source_content_hash": "c385068c7995f1b24c903395343f178831ab2802bff8eae24c457dd3f4ebc8d2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "用您喜欢的文本编辑器打开configuration.yaml文件"
+      }
+    },
+    {
+      "segment_id": "bca33820",
+      "source_content": "```bash\nnano configuration.yaml\n```",
+      "source_content_hash": "82070c1340df513d9a8644fdb851dd65331c050ab1cd3324715656ad9f500e03",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_bca33820"
+      }
+    },
+    {
+      "segment_id": "aa1e7006",
+      "source_content": "i dodajemy na końcu następująca konfigurację.",
+      "source_content_hash": "5b305992143326077465294157b28f155e9bcacb9cbcb21d22f6c8fa91fe33fc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "并在文件末尾添加以下配置。"
+      }
+    },
+    {
+      "segment_id": "48ec8149",
+      "source_content": "```bash\nsensor:\n - platform: command_line\n   name: Temperatura CPU\n   unit_of_measurement: \"°C\"\n   command: \"cat /sys/class/thermal/thermal_zone0/temp\"\n   value_template: '{{ value | multiply(0.001) | round(1) }}'\n```",
+      "source_content_hash": "a6476b8b230366b53a98bef02dae2357d4637bf3a29060cfe1e6a2c0d23a0e71",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_48ec8149"
+      }
+    },
+    {
+      "segment_id": "4d52a261",
+      "source_content": "![](/img/en/bramka/faq_sensor_2.png)",
+      "source_content_hash": "fe2b1c905200af2aadd6fdcf72a471e0e9082a697261d1dc9c5aca31713aabc6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/bramka/faq_sensor_2.png)"
+      }
+    },
+    {
+      "segment_id": "ab5fc5b5",
+      "source_content": "### Sprawdzenie konfiguracji i Restart serwera",
+      "source_content_hash": "07d6f9f43b0934764e3e207459c93541001a63318191da4fb3aef1a7371c5503",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 检查配置并重启服务"
+      }
+    },
+    {
+      "segment_id": "6ea4c715",
+      "source_content": "Upewnijmy się, że nasza konfiguracja jest poprawna — w tym celu kliknij przycisk **Sprawdź konfigurację** dostępny w opcjach ogólnych systemu. Następnie restartujemy serwer przyciskiem **Uruchom ponownie**",
+      "source_content_hash": "cf626326c92fef96b402cc0c578552aff911c2f0b16e25e6b6d4e7b5fe9f814f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "为确保配置正确，请点击系统通用选项中的**检查配置**按钮。然后通过**重新启动**按钮重启服务"
+      }
+    },
+    {
+      "segment_id": "79ad944d",
+      "source_content": "![](/img/en/bramka/faq_sensor_4.png)",
+      "source_content_hash": "e44d02973760855d239dcebbc46e9f513054c102734a703a84269abfa654788c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/bramka/faq_sensor_4.png)"
+      }
+    },
+    {
+      "segment_id": "a5a4323e",
+      "source_content": "### Nowa encja",
+      "source_content_hash": "c2a93acfb395b9c21d5945078602c8b6d527c9530bdfbffbef8a4df5544f1ade",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 新实体"
+      }
+    },
+    {
+      "segment_id": "657c2b20",
+      "source_content": "W informacji o stanie encji systemu możemy już odszukać nasz nowo dodany element systemu (czujnik) i zobaczyć jego status.",
+      "source_content_hash": "2d15cee7001a7a10d7142ff49c74a5595e239bc86f52bb818355c2b7866ca623",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "现在可以在系统实体状态信息中查找到新添加的系统元素（传感器）并查看其状态。"
+      }
+    },
+    {
+      "segment_id": "e7772088",
+      "source_content": "![](/img/en/bramka/faq_sensor_5.png)",
+      "source_content_hash": "a180edd1a03240f542059d825a60c2f28684bf6f3fe16bf5b96fc30afebcce45",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/bramka/faq_sensor_5.png)"
+      }
+    },
+    {
+      "segment_id": "d422fb13",
+      "source_content": "### Wyświetlanie w aplikacji",
+      "source_content_hash": "4ebfc068b36ada99679308f8a2a01732731cc64bac58fab48e900e15edfd2025",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 在应用中显示"
+      }
+    },
+    {
+      "segment_id": "f01228d3",
+      "source_content": "Każdy element możemy pokazać w aplikacji, wystarczy, że na wybranym widoku dodamy i skonfigurujemy kartę z naszym nowym komponentem.",
+      "source_content_hash": "4f3be6a8bd707ea74d69123d38727755eaa372dc874af0c76108a0f326d0c71e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "所有元素都可以在应用中展示，只需在选定视图上添加并配置包含新组件的卡片即可。"
+      }
+    },
+    {
+      "segment_id": "afa378f7",
+      "source_content": "![](/img/en/bramka/faq_sensor_7.png)",
+      "source_content_hash": "cfdedc8c98718edd9fde76b2ce893cbea9ac75425af4e22ba688944cd0e41f2b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/bramka/faq_sensor_7.png)"
+      }
+    },
+    {
+      "segment_id": "e8e162a9",
+      "source_content": "![](/img/en/bramka/faq_sensor_6.png)",
+      "source_content_hash": "b511683fc94c11df5e2615c316a23c32ba896709bb49e5ab092ed84136936190",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/bramka/faq_sensor_6.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_gate_faq_config_yaml.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.147913+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "315364c4b4c715a87d163b378b7c1c2fee2f102acad714eab850106ecb5903d1"
+  }
+}

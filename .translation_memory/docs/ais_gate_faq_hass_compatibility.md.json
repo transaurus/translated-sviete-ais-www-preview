@@ -1,0 +1,102 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_gate_faq_hass_compatibility.md",
+  "source_file_content_hash": "2a786e5541dbcee83c9487eb96a412d81ccb21d6231dd7d3213cd13a39fe6a00",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Kompatybilność z Home Assistant\"\nsidebar_label: Kompatybilność z Home Assistant\n---",
+      "source_content_hash": "8f06302556e2e105c1ee8984b0a1a50a33cf3b1b5ce192d5a7e3936300fc2ea5",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Home Assistant++",
+      "source_content_hash": "5bea96a128cbe8e0fcacd7be07e5d7862645fb4c0ea185d4acb291624ec7f706",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## Home Assistant++"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Jedną ze składowych systemu Asystent domowy jest platforma Home Assistant.\nDo tej platformy dodaliśmy oczywiście sporo naszego kodu, serwisów i konfiguracji, dzięki czemu możesz od razu sterować urządzeniem za pomocą komend głosowych oraz pilota radiowego.",
+      "source_content_hash": "049b96aecedd6496440447d02bfad94409ee66553c2fbf2b1d40be77fdf081cc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "家庭助理系统（Home Assistant）是该平台的核心组件之一。我们在此基础上开发了大量定制代码、服务和配置，使您能够直接通过语音指令和射频遥控器操控设备。"
+      }
+    },
+    {
+      "segment_id": "8ac585fb",
+      "source_content": "**Regularnie pobieramy najnowszą stabilną wersję Home Assistant, testujemy ją na urządzeniu i informujemy Cię (także głosowo poprzez Asystenta) o udostępnionej aktualizacji, którą możesz pobrać i zainstalować jednym kliknięciem (możesz też włączyć funkcję automatycznej aktualizacji), by mieć zawsze najnowsze funkcjonalności oraz poprawki zapewniające bezpieczeństwo i stabilność działania systemu.**",
+      "source_content_hash": "d1ec428f9a6fa6c16831f64ad8af1a7e953547fca473e447ee653b90589a93d5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "**我们会定期获取Home Assistant的最新稳定版本，在设备上进行测试，并通过语音助手通知您可用的更新。您只需一键点击即可下载安装（也可启用自动更新功能），确保始终获得最新功能和安全补丁，保障系统运行的稳定性和安全性。**"
+      }
+    },
+    {
+      "segment_id": "70153c6e",
+      "source_content": "## Harmonogram wydań Asystenta domowego",
+      "source_content_hash": "7698a9432bce4aaf7741a5fae5c0962b4ac5bc42a374f67a96412f5e87af22d9",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 家庭助理系统发布计划"
+      }
+    },
+    {
+      "segment_id": "86b54d44",
+      "source_content": "![Kalendarz wydań](/img/en/faq/release_calendar.png)",
+      "source_content_hash": "ffe3618c2cb45d8169ceca2853adb8887065b001ad96d23652fcfa73c411a996",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![发布日历](/img/en/faq/release_calendar.png)"
+      }
+    },
+    {
+      "segment_id": "39b3772c",
+      "source_content": "Harmonogram wydań naszego Asystenta domowego powiązany jest z harmonogramem wydań Home Assistant.\nGdy Home Assistant wydaje wersję, to łączymy nowy kod Home Assistant z naszym (merge) i wydajemy w kanale beta. W kanale tym wykonujemy testy systemu na naszych bramkach, dodajemy nasze kody i poprawki, a gdy wszystko stablinie działa przez kilka tygodni to taką wersję oficjalnie wydajemy. W tym czasie Home Assistant wydaje kolejną wersję, którą znowu łączymy do kanału beta itd.",
+      "source_content_hash": "388bf52f94df9ad11706f7d54a3bfaa5883944bd2a0869ddc74c7ad83536e676",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们的家庭助理系统发布计划与Home Assistant的发布周期同步。当Home Assistant发布新版本时，我们会将其代码与我们的定制代码合并（merge）并发布到beta测试通道。经过数周设备测试和代码优化后，稳定版本才会正式发布。在此期间Home Assistant又会推出新版，我们再次将其合并至beta通道，如此循环。"
+      }
+    },
+    {
+      "segment_id": "f5f6d2ce",
+      "source_content": "Jak widać z powyższego diagramu, takie podejście do wydań powoduje, że jesteśmy jedną wersję \"do tyłu\" w stosunku do Home Assistant. Jest to zamierzone, ponieważ naszym celem jest stworzenie bardzo stabilnej wersji produkcyjnej, która nie wymaga poprawek.",
+      "source_content_hash": "b55b82128b67aacdaac4302e6a67d5aaf952b8e9555d7f0e72bc3f26bf917662",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "如图所示，这种发布策略使我们始终比Home Assistant官方版本\"滞后一个版本\"。这是有意为之的设计——我们的目标是打造一个无需热修复的、高度稳定的生产环境版本。"
+      }
+    },
+    {
+      "segment_id": "2fdadb08",
+      "source_content": "Jeśli chcesz szybciej uzyskać dostęp do nowych funkcji, ale nie przejmujesz się ryzykiem wystąpienia okazjonalnego błędu, możesz w każdej chwili przełączyć się na kanał beta, w którym mamy zawsze najnowsze wydanie Home Assistant.",
+      "source_content_hash": "744d0fe69fcc6dfa2f961e4f1c2aec2cafd593452efe6b4372b8b589a7af0dbe",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "若您希望更快体验新功能，且不介意可能出现的偶发错误，可随时切换至beta通道获取最新的Home Assistant版本。"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_gate_faq_hass_compatibility.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.132507+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "2a786e5541dbcee83c9487eb96a412d81ccb21d6231dd7d3213cd13a39fe6a00"
+  }
+}

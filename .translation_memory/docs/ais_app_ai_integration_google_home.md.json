@@ -1,0 +1,782 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_app_ai_integration_google_home.md",
+  "source_file_content_hash": "59edecbf0a1310ca73c1bcae146a0680d479f0e2f1483d4cda29c059d6d54d80",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"AIS Google Home\"\nsidebar_label: AIS Google Home\n---",
+      "source_content_hash": "5f331535931e0024f75a60078e4fe50d16f94c168e78fb0d3d7946c2f5b4dde3",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Wprowadzenie",
+      "source_content_hash": "138964b3f05ef631ae55efd030ca96538eb5d783961ef7b978515da6c937d13f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 简介"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "AIS Google Home jest to integracja Asystenta domowego z platformą programistyczną dla Asystenta Google.\nIntegracja działa poprzez oficjalne [Google Assistant SDK](https://developers.google.com/assistant) i pozwala na konwersację z Asystentem Google z poziomu Asystenta domowego.",
+      "source_content_hash": "46a87f0b7d7b63129e0d452b1213b50bbab5ca2e74ab0840b3f5d7ed86923f38",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "AIS Google Home 是将家庭助手与Google助理开发者平台集成的解决方案。该集成通过官方 [Google Assistant SDK](https://developers.google.com/assistant) 实现，允许用户通过家庭助手与Google助理进行对话。"
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "![Konfiguracja AIS Google Home](/img/en/bramka/ais_google_home_1.png)",
+      "source_content_hash": "067f7eeffe613e4c7a3de26d78624f23ac74c8d3aa306c60a383b301f5c732c9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS Google Home配置](/img/en/bramka/ais_google_home_1.png)"
+      }
+    },
+    {
+      "segment_id": "e14c9928",
+      "source_content": "## Integracja",
+      "source_content_hash": "f5e469c7c23f3e22654c827f0a4cb6e2e56f4d50ad319f8a3f4b0dd2ae107506",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 集成配置"
+      }
+    },
+    {
+      "segment_id": "39b3772c",
+      "source_content": "Aby skonfigurować AIS Google Home, przejdź do konfiguracji a następnie do panelu integracji. Naciśnij pomarańczowy przycisk z ikonką \"plus\" w prawym dolnym rogu ekranu, żeby otworzyć listę dostępnych integracji. Wybierz z listy integrację **AIS Google Home**",
+      "source_content_hash": "eef01a834cd41fa6fd17ab2c45c94c2645b74f8c7e243420470dd6bcb2b589f8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "要配置AIS Google Home，请进入配置界面后打开集成面板。点击右下角带有\"+\"图标的橙色按钮，从可用集成列表中选择 **AIS Google Home**。"
+      }
+    },
+    {
+      "segment_id": "1acb9a05",
+      "source_content": "![Konfiguracja Google Home](/img/en/bramka/ais_google_home_0.png)",
+      "source_content_hash": "acbd65a169f6f98e3f4148435721382db9ba49108d8e10418ecf8ab4904e4d33",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Google Home配置](/img/en/bramka/ais_google_home_0.png)"
+      }
+    },
+    {
+      "segment_id": "40f9552a",
+      "source_content": "### JSON OAuth2 z Google",
+      "source_content_hash": "c6f91c6cb9a199fe0f340cdd97643c525173c0c5901ae22a9f94df1b7f91d752",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 从Google获取OAuth2 JSON文件"
+      }
+    },
+    {
+      "segment_id": "ccc88b4c",
+      "source_content": "Integracja AIS Google Home wymaga konfiguracji projektu w Google oraz rejestracji naszego urządzenia - aby Asystent Google reagował na polecenia odpowiednie dla naszego urządzenia.",
+      "source_content_hash": "917e9f5b3e481eecf3ba59cc8445750315428ee795afb380026c7136cf399b91",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "AIS Google Home集成需要在Google平台配置项目并注册设备，以使Google助理能响应特定设备的指令。"
+      }
+    },
+    {
+      "segment_id": "d9172fa4",
+      "source_content": "Poniżej pokażemy przykładowo jak wykonać rejestracje urządzenia w Google krok po kroku.",
+      "source_content_hash": "176875ab07b5fd678ae00ab776d82f6e4b447c47f20f3aa44d805b5853a3a7d6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "以下将逐步演示如何在Google平台完成设备注册。"
+      }
+    },
+    {
+      "segment_id": "f79f5ed0",
+      "source_content": ":::caution[uwaga]\n**Integracja po stronie Google**\n\nAPI do Asystenta Google jest intensywnie rozwijane przez Google, dlatego proces integracji po stronie Google może się zmieniać.\nJeżeli opis poniżej nie jest aktualny to należy postępować zgodnie z najnowszym opisem/przewodnikiem Google dostępnym na stronie [Integrate with the Google Assistant](https://developers.google.com/assistant/sdk/guides/service/python/embed/config-dev-project-and-account). \n:::",
+      "source_content_hash": "eea4f26bd22433a7f21577d491c2328be7547a27fc9ad29c766418824067038b",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[注意]\n**Google端集成说明**\n\nGoogle助理API正在持续更新中，因此Google端的集成流程可能会发生变化。如果当前描述已过时，请遵循Google官方最新文档：[Integrate with the Google Assistant](https://developers.google.com/assistant/sdk/guides/service/python/embed/config-dev-project-and-account)。\n:::"
+      }
+    },
+    {
+      "segment_id": "33808f76",
+      "source_content": "1. Zaloguj się do platformy umożliwiającej rozszerzenie funkcjonalności Asystenta Google https://console.actions.google.com/\n\n2. Utwórz nowy projekt",
+      "source_content_hash": "7145b3c73da8eedf2bd78150aad424abeaaf51d49d587c73f77c6da8e3e6a0b1",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "1. 登录Google助理扩展功能平台 https://console.actions.google.com/\n\n2. 创建新项目"
+      }
+    },
+    {
+      "segment_id": "1042b50d",
+      "source_content": "![Konfiguracja Google Home](/img/en/bramka/ais_google_home_3.png)",
+      "source_content_hash": "925321ae907c579fb68b22cdaa9d031f4b37f1f479121d99b70b13812f7f4748",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Google Home配置](/img/en/bramka/ais_google_home_3.png)"
+      }
+    },
+    {
+      "segment_id": "aa1e7006",
+      "source_content": "aby kontynuować należy zatwierdzić warunki serwisu",
+      "source_content_hash": "1e3299d72012f5910591d47b5a0de49231d8b0700d6647a869071ff9c3c8c6d7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "继续操作需接受服务条款"
+      }
+    },
+    {
+      "segment_id": "13d9cd70",
+      "source_content": "![Konfiguracja Google Home](/img/en/bramka/ais_google_home_3_1.png)",
+      "source_content_hash": "8137b13aa840211d150dd092743ea6db88ca9abb0738ae3986e56aede4b71fda",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Google Home配置](/img/en/bramka/ais_google_home_3_1.png)"
+      }
+    },
+    {
+      "segment_id": "40251870",
+      "source_content": "3. Podaj nazwę, zmień jezyk projektu na Polski oraz lokalizację na Polska. Następnie naciśnij **Create project**",
+      "source_content_hash": "48bac9149af6423d0e0accc3705f2a13d16832680f31bbbf34a837467b4dbf3d",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "3. 输入项目名称，将语言设置为波兰语，地区设为波兰，然后点击 **Create project**"
+      }
+    },
+    {
+      "segment_id": "f7ef78f9",
+      "source_content": "![Konfiguracja Google Home](/img/en/bramka/ais_google_home_4.png)",
+      "source_content_hash": "1b35e03b89bcf346a6493c0644ad00814ef28057916de30eac253a00e542a5ab",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Google Home配置](/img/en/bramka/ais_google_home_4.png)"
+      }
+    },
+    {
+      "segment_id": "157c9741",
+      "source_content": "4. Wybierz opcję **Device registration**",
+      "source_content_hash": "9ee51478632156052da57f4c6f910465382a071940eea8cfb6ef08fa1536d005",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "4. 选择 **Device registration** 选项"
+      }
+    },
+    {
+      "segment_id": "b9aaa519",
+      "source_content": "![Konfiguracja Google Home](/img/en/bramka/ais_google_home_5.png)",
+      "source_content_hash": "36e073e44fdfe733a1eed3dbae1d1ece4d1343fc183bd6e5f7a6eee54d64fd54",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Google Home配置](/img/en/bramka/ais_google_home_5.png)"
+      }
+    },
+    {
+      "segment_id": "e3321a43",
+      "source_content": "5. Naciśnij **REGISTER MODEL**",
+      "source_content_hash": "f6b2294ed718df32f4e5458941e3872ab96033745405ba9c1327cac621762ab7",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "5. 点击 **REGISTER MODEL**"
+      }
+    },
+    {
+      "segment_id": "40158b4b",
+      "source_content": "![Konfiguracja Google Home](/img/en/bramka/ais_google_home_6.png)",
+      "source_content_hash": "a0b69c88c155c195465754a233a69fb6d402f4241c7675c07fdb3bc5d6909d5f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Google Home配置](/img/en/bramka/ais_google_home_6.png)"
+      }
+    },
+    {
+      "segment_id": "24c174ca",
+      "source_content": "7. Podaj nazwę produktu, producenta oraz wybierz typ urządzenia **Speaker**",
+      "source_content_hash": "e4fbe45ce3ad68dd6d0c7464637e31af3a69292bcb20f87eca49f5ba5cafb0ff",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "7. 填写产品名称、制造商信息，并选择设备类型为 **Speaker**"
+      }
+    },
+    {
+      "segment_id": "79ad944d",
+      "source_content": "![Konfiguracja Google Home](/img/en/bramka/ais_google_home_7.png)",
+      "source_content_hash": "d681cd83d24ff2155f9e9f8434623ad249babbcfe64426029e17a184244858bc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Google Home配置](/img/en/bramka/ais_google_home_7.png)"
+      }
+    },
+    {
+      "segment_id": "2eb5ba30",
+      "source_content": "8. Pobierz plik oAuth2.0 i zapisz go na swoim dysku (będzie nam potrzebny w kolejnym kroku)",
+      "source_content_hash": "f178b083b3eea9f627c6936d5c966c6f5d6ac71004dc97f1f03efdcdbff84e94",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "8. 下载OAuth2.0凭证文件并保存到本地（后续步骤需要使用）"
+      }
+    },
+    {
+      "segment_id": "06e24cc0",
+      "source_content": "![Konfiguracja Google Home](/img/en/bramka/ais_google_home_8.png)",
+      "source_content_hash": "9b3e659f08b414867396abc310c0a5fa043ad471b16021cb25a3cbaf986f92a3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Google Home配置](/img/en/bramka/ais_google_home_8.png)"
+      }
+    },
+    {
+      "segment_id": "af7d8a35",
+      "source_content": "9. Zaznacz wszystkie cechy (All traits) i zapisz konfigurację",
+      "source_content_hash": "9c19cc5820fa1b32d3d7e211380e548376c6206b1adfe167cc2cc92f8cbc5ad9",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "9. 勾选所有特性（All traits）并保存配置"
+      }
+    },
+    {
+      "segment_id": "147e8550",
+      "source_content": "![Konfiguracja Google Home](/img/en/bramka/ais_google_home_9.png)",
+      "source_content_hash": "d71e08c708511828ffd614b15f31437bc957602351a7a33de649fe33919b786f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Google Home配置](/img/en/bramka/ais_google_home_9.png)"
+      }
+    },
+    {
+      "segment_id": "b1cbdb65",
+      "source_content": "### Włączenia API dla Asystenta Google",
+      "source_content_hash": "d8e348e33616315e9dc133000404c4c760cca3dcf29a4a893109128b75464fb0",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 启用Google助手API"
+      }
+    },
+    {
+      "segment_id": "afa378f7",
+      "source_content": "Kolejnym krokiem, który należy zrobić po stronie Google, jest włączenie API dla Asystenta. W tym celu należy:",
+      "source_content_hash": "043d44e538ddeae1461aea79f16f3bd94eff63c71cf6435b4c0749b08e620853",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "下一步需要在Google平台启用Google助手API，具体操作如下："
+      }
+    },
+    {
+      "segment_id": "1316cb90",
+      "source_content": "1. Przejść w nowej karcie przeglądarki do [Google API](https://console.developers.google.com/apis/api/embeddedassistant.googleapis.com/overview)",
+      "source_content_hash": "19ba148910992563c1f4eb3d6b6ad7d5c3baafcfd21ea2b2826fc2821470f42a",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "1. 在新浏览器标签页中访问[Google API控制台](https://console.developers.google.com/apis/api/embeddedassistant.googleapis.com/overview)"
+      }
+    },
+    {
+      "segment_id": "463ed165",
+      "source_content": "aby kontynuować należy zatwierdzić warunki serwisu",
+      "source_content_hash": "1e3299d72012f5910591d47b5a0de49231d8b0700d6647a869071ff9c3c8c6d7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "继续操作前需同意服务条款"
+      }
+    },
+    {
+      "segment_id": "a5c5772a",
+      "source_content": "![Konfiguracja Google Home](/img/en/bramka/ais_google_home_9_1.png)",
+      "source_content_hash": "4e6ce188db9f158efc1aa90ca0e3a41cad0cf3beb5cab9ded676175a29b53c90",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Google Home配置](/img/en/bramka/ais_google_home_9_1.png)"
+      }
+    },
+    {
+      "segment_id": "5dbc17cf",
+      "source_content": "2. Włączyć **Google Assistant API** dla naszego projektu",
+      "source_content_hash": "da29f59d1d0f96a3fc2c67216e0d8b52e67371c206efce40a2fda06f79c45a26",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "2. 为项目启用**Google Assistant API**"
+      }
+    },
+    {
+      "segment_id": "8126f763",
+      "source_content": "Wybierzmy (upewnijmy się, że mamy wybrany) nasz projekt **AI-Speaker**",
+      "source_content_hash": "09b1f13b2b92f56fc1731545f37312f29b26c379be74f28fc0206310cb85b30a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "确保已选择我们的**AI-Speaker**项目"
+      }
+    },
+    {
+      "segment_id": "74dd7937",
+      "source_content": "![Konfiguracja Google Home](/img/en/bramka/ais_google_home_9_2.png)",
+      "source_content_hash": "13beaf44c3b303f951888a89b0ba8118b47adaedb8b8c255928a977b2832abf7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Google Home配置](/img/en/bramka/ais_google_home_9_2.png)"
+      }
+    },
+    {
+      "segment_id": "5803caac",
+      "source_content": "wyszukajmy i włączmy **Google Assistant API**  dla projektu",
+      "source_content_hash": "2ce0bdbdfba82e3a50960cda6e5ecd2b001e70c9a79115bf497d09cdc52cf654",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "搜索并启用项目的**Google Assistant API**"
+      }
+    },
+    {
+      "segment_id": "51867d16",
+      "source_content": "![Konfiguracja Google Home](/img/en/bramka/ais_google_home_10.png)",
+      "source_content_hash": "288e4486055b538d2b06ad80c6c0184e1fff2e6d68e134739f137aeb9d8b2e7e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Google Home配置](/img/en/bramka/ais_google_home_10.png)"
+      }
+    },
+    {
+      "segment_id": "b0dbe2f3",
+      "source_content": "3. Przejść do **Dane logowania** i wybrać **SKONFIGURUJ EKRAN AKCEPTACJI**",
+      "source_content_hash": "2d1495c49699752f3c5e1d946a09219e8314d5dc37a73480f72f19c535da28e5",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "3. 进入**凭据**页面选择**配置同意屏幕**"
+      }
+    },
+    {
+      "segment_id": "82e90254",
+      "source_content": "![Konfiguracja Google Home](/img/en/bramka/ais_google_home_11.png)",
+      "source_content_hash": "0cb0be44a2351a4e95576b2d7a24adaabb21a5a22afd18b5b33252205c63f8f0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Google Home配置](/img/en/bramka/ais_google_home_11.png)"
+      }
+    },
+    {
+      "segment_id": "dee20070",
+      "source_content": "4. Wypełnić pole **Nazwa aplikacji** oraz wybrać **Adres e-mail pomocy** następnie nacisnąć przycisk **Zapisz** na dole",
+      "source_content_hash": "e8dbd3c16dce471033282170cb5887905174947c966eba44e3e3bf0568cfc46a",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "4. 填写**应用名称**，选择**帮助邮箱**，点击底部**保存**按钮"
+      }
+    },
+    {
+      "segment_id": "25212439",
+      "source_content": "![Konfiguracja Google Home](/img/en/bramka/ais_google_home_12.png)",
+      "source_content_hash": "a7d74d9cd6bbaf209689988edf3d04b4fe33d51b7facf1fd8bb82f43bd56816b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Google Home配置](/img/en/bramka/ais_google_home_12.png)"
+      }
+    },
+    {
+      "segment_id": "54bafb10",
+      "source_content": "### Poświadczenie oAuth2 dla urządzenia",
+      "source_content_hash": "7c67c07b7648e0ac73e262938547a36f2dcaca5ef8cf01534a8ec604d1f4ad8a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 设备OAuth2凭证配置"
+      }
+    },
+    {
+      "segment_id": "4be28ed1",
+      "source_content": "Wracamy do naszego ekranu integracji w Asystencie domowym i w pole **Poświadczenie oAuth2 dla urządzenia** wklejamy całą zawartość pliku **JSON OAuth2** pobranego z Google",
+      "source_content_hash": "626f28958b2846c44169d11210f4b102c15d9057fa7b129791658dd62a4048be",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "返回家庭助手集成界面，将Google下载的**JSON OAuth2**文件完整内容粘贴至**设备OAuth2凭证**字段"
+      }
+    },
+    {
+      "segment_id": "0e80209e",
+      "source_content": "![Konfiguracja Google Home](/img/en/bramka/ais_google_home_13.png)",
+      "source_content_hash": "aa86caa3a5219a08f396a4f99a9d9e47de426d64c8b1db94e4978c4bdc089832",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Google Home配置](/img/en/bramka/ais_google_home_13.png)"
+      }
+    },
+    {
+      "segment_id": "7bc8bb24",
+      "source_content": "następnie naciskamy **SUBMIT**, by przejść do kolejnego ekranu",
+      "source_content_hash": "f1df25f384cf9ac1abe1562ba755a59adf2f1aa5116a105c3d88853fe5f445ed",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "点击**SUBMIT**进入下一步"
+      }
+    },
+    {
+      "segment_id": "3c19e221",
+      "source_content": "Klikamy na **link uwierzytelniający** \n![Konfiguracja Google Home](/img/en/bramka/ais_google_home_14.png)",
+      "source_content_hash": "aaa8d46bf32e49e276e949ac42e0aa08476b8e3964f68158c10e14a70d95c860",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "点击**认证链接**\n![Google Home配置](/img/en/bramka/ais_google_home_14.png)"
+      }
+    },
+    {
+      "segment_id": "1b4de6df",
+      "source_content": "i logujemy się na konto w Google",
+      "source_content_hash": "3d30c22f631502fffa4afdcc973c0c9f6556725ec9243d77973ddb6530fc97ff",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "登录Google账户"
+      }
+    },
+    {
+      "segment_id": "1958bc43",
+      "source_content": "![Konfiguracja Google Home](/img/en/bramka/ais_google_home_15.png)",
+      "source_content_hash": "693d72c850ebc51ef2c4c407c3bd19b0f753baf67c8f64daf19fc4f2da7157ea",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Google Home配置](/img/en/bramka/ais_google_home_15.png)"
+      }
+    },
+    {
+      "segment_id": "a8610918",
+      "source_content": "Pozwalamy AI-Speaker na dostęp",
+      "source_content_hash": "5ddbacbd76770100fdab3b1779dbe8420bec6d227695464cdb4c08ab62355838",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "授予AI-Speaker访问权限"
+      }
+    },
+    {
+      "segment_id": "a6c928a1",
+      "source_content": "![Konfiguracja Google Home](/img/en/bramka/ais_google_home_16.png)",
+      "source_content_hash": "395c7babc0ffbf0df8b38d1b6c48256a1922f48050df108041843464fc5d454c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Google Home配置](/img/en/bramka/ais_google_home_16.png)"
+      }
+    },
+    {
+      "segment_id": "b6152880",
+      "source_content": "Skopiuj kod",
+      "source_content_hash": "4a5815923d1dd0c72d947b834a383a35fedca5bd9ede62aaaae4c0850585710f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "复制授权码"
+      }
+    },
+    {
+      "segment_id": "b9331170",
+      "source_content": "![Konfiguracja Google Home](/img/en/bramka/ais_google_home_17.png)",
+      "source_content_hash": "26de2204c0d556c4419b0721b49e6f95c74515c0245bd2ec2b013da81e303751",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Google Home配置](/img/en/bramka/ais_google_home_17.png)"
+      }
+    },
+    {
+      "segment_id": "8fcdd6d4",
+      "source_content": "Wracamy do aplikacji Asystent domowy i wklejamy go w pole **Kod**",
+      "source_content_hash": "815ba9c12ffcd9b9006233f54d8450afa425f2a933b988178bad33cdf35ddd50",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "返回家庭助手应用，将代码粘贴至**代码**字段"
+      }
+    },
+    {
+      "segment_id": "53aa2b95",
+      "source_content": "![Konfiguracja Google Home](/img/en/bramka/ais_google_home_18.png)",
+      "source_content_hash": "8c5ee668466d90a3f848cc3e9285f07a9be366f84dfe1f4a541812b001a18e79",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Google Home配置](/img/en/bramka/ais_google_home_18.png)"
+      }
+    },
+    {
+      "segment_id": "9c9e2b64",
+      "source_content": "Otrzymamy nową integrację\n![Konfiguracja Google Home](/img/en/bramka/ais_google_home_19.png)",
+      "source_content_hash": "1cefb6dfc1666fbf5bb9b8c48353adf9c92cf5439c3c9036b8bb3494fe0cbfd2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "成功添加新集成\n![Google Home配置](/img/en/bramka/ais_google_home_19.png)"
+      }
+    },
+    {
+      "segment_id": "a461a67b",
+      "source_content": "## Działanie Asystenta Google",
+      "source_content_hash": "fb5d4197057b0831eadd158951ae8dc78f032d24184f73a841caa263a94e1255",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## Google助手功能实现"
+      }
+    },
+    {
+      "segment_id": "c6868a9f",
+      "source_content": "### Wywołanie Asystenta Google z Asystenta domowego",
+      "source_content_hash": "32b0d59ed034e333c2edffc677db9278f7f99bfa85779e3ffd7fe897ad955b96",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 通过家庭助手调用Google助手"
+      }
+    },
+    {
+      "segment_id": "bb1346b6",
+      "source_content": "Żeby komenda była wysyłana bezpośrednio do Assystenta Google wystarczy ją poprzedzić słowem Google",
+      "source_content_hash": "0b7017897c4c025de1f98434e813bc9ee26e30b301cb9721a922a9bded414715",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "若需将指令直接发送至Google助手，只需在指令前添加\"Google\"关键词"
+      }
+    },
+    {
+      "segment_id": "8664ed0b",
+      "source_content": "![Konfiguracja Google Home](/img/en/bramka/ais_google_home_22.png)",
+      "source_content_hash": "f7a0b40e04b88477111d08f39c3428a3ac89bd409d928200c27f4b121cd9acf3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Google Home配置](/img/en/bramka/ais_google_home_22.png)"
+      }
+    },
+    {
+      "segment_id": "73776161",
+      "source_content": "### Wywołanie Asystenta Google z API Asystenta domowego",
+      "source_content_hash": "f0b9af030b1e02b4a2d630ad2ac578a4a12e85fbd3ade83d1080595ababbdc0a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 通过家庭助手API调用Google助手"
+      }
+    },
+    {
+      "segment_id": "f7e6e884",
+      "source_content": "AIS Google Home, podobnie jak inne integracje, udostępnia swoje usługi, dzięki czemu można automatyzować wysyłanie komendy do Asystenta Google z naszej bramki na podstawie statusu naszych urządzeń czy naszej obecności itp.",
+      "source_content_hash": "f5edbd3b0267906953558daba52df38cdb454bb29b6d507afa7c90b38b4e8dcc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "AIS Google Home与其他集成服务类似，可通过网关基于设备状态或用户位置等信息，实现向Google助手发送指令的自动化操作"
+      }
+    },
+    {
+      "segment_id": "17b50e81",
+      "source_content": "![Konfiguracja Google Home](/img/en/bramka/ais_google_home_23.png)",
+      "source_content_hash": "5d3adf14aca08d6050050aad689b50631ed224ad106d4491bd115fdb0d137a19",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Google Home配置](/img/en/bramka/ais_google_home_23.png)"
+      }
+    },
+    {
+      "segment_id": "b77e7669",
+      "source_content": "## Rozwiązywanie Problemów",
+      "source_content_hash": "d3dd55d4330259ea401f4a91a4832ba2ab6f16f754edead652e5cc8b77136f28",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 故障排查"
+      }
+    },
+    {
+      "segment_id": "0407439b",
+      "source_content": ":::caution[Uwaga]\nAPI do tworzenia urządzeń z Asystentem Google jest ciągle rozwijane. Programiści, którzy tworzą integrację z Google Home wiedzą, że nie wszytko jeszcze działa tak jak powinno. **Sprawdź poniższe dodatkowe kroki, jeżeli coś nie działa.**\n:::",
+      "source_content_hash": "b60aba90ed43e20dbf19ff4914cb92a6ee24b2879543ef547dbf096bf3c19e34",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[注意]\nGoogle助手设备开发接口仍处于持续演进阶段。开发Google Home集成的程序员清楚知道并非所有功能都已完善。**若遇到异常，请按以下补充步骤检查**\n:::"
+      }
+    },
+    {
+      "segment_id": "3c6dd548",
+      "source_content": "### Język w Google Home",
+      "source_content_hash": "72d6202008ab56278c09398e31cd2c9cf733b925a901e84159e5a8490e7a71a3",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### Google Home语言设置"
+      }
+    },
+    {
+      "segment_id": "6f08f877",
+      "source_content": "Jednym z częstych problemów jest język, w jakim Google Asystent komunikuje się z nami. Żeby był to język polski, to w tej chwili trzeba jeszcze w aplikacji mobilnej Google Home ustawić dwa języki polski i angielski - tak jak to pokazano poniżej:",
+      "source_content_hash": "14eb08aa98ecb526f13588a5eb268fc72507b6be7437ff6c734d58f6cef5217d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "常见问题之一是Google助手的交互语言。若需设置为波兰语，目前仍需在Google Home移动应用中同时设置波兰语和英语两种语言，如下图所示："
+      }
+    },
+    {
+      "segment_id": "2dbfc5f7",
+      "source_content": "![Konfiguracja Google Home](/img/en/bramka/ais_google_home_20.png)\n![Konfiguracja Google Home](/img/en/bramka/ais_google_home_21.png)",
+      "source_content_hash": "9a53108862bde1905e0ec281f1b39f3dff0180b6ef6f0c0234f16401e45c4940",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Google Home配置](/img/en/bramka/ais_google_home_20.png)\n![Google Home配置](/img/en/bramka/ais_google_home_21.png)"
+      }
+    },
+    {
+      "segment_id": "657bde08",
+      "source_content": "### Informacja typu \"Zaloguj się\"",
+      "source_content_hash": "190b426252df662c023a27050f2c231e963f4be1be57c8ca13fe7da7a551fe90",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### \"请登录\"类提示"
+      }
+    },
+    {
+      "segment_id": "827eb9a3",
+      "source_content": "Jeżeli otrzymujesz informację typu \"Zaloguj się na swoje konto\", to upewnij się, że na koncie, które dodałeś do integracji z Google Assistant masz możliwość korzystania z Asystenta Google. W tym celu uruchom Google Assistant na tablecie lub telefonie, wybierz konto, które autoryzowałeś w integracji na bramce z Asystentem domowym i upewnij się, że działa z telefonu.",
+      "source_content_hash": "79c34ed1307e4ee82f7d0303f2723cbdf24f4421edf62c97dfe53fd96ce2e6e3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "若收到\"请登录您的账户\"提示，请确认集成配置中使用的Google账户已启用Google助手功能。可通过手机/平板启动Google助手，选择网关集成时授权的同一账户进行验证"
+      }
+    },
+    {
+      "segment_id": "62d066b0",
+      "source_content": "Dzieje się tak dlatego, że na niektórych kontach (np. firmowych lub dla edukacji) dodanych w Google administrator kont może decydować o włączeniu dostępu do Asystenta Google.",
+      "source_content_hash": "676510c0c62dbb5a33b143a61f2346d950457e17e2a78a0e5cedfddcb7788731",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该问题通常发生在企业或教育类Google账户，因为这些账户的管理员可能限制了Google助手的使用权限"
+      }
+    },
+    {
+      "segment_id": "89cf7bac",
+      "source_content": "![Konfiguracja Google Home](/img/en/bramka/ais_google_home_24.png)",
+      "source_content_hash": "eec15d64e0bf707a5531b46eb5b40316435f83e2cfd7f70f0729ffef48053acc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Google Home配置](/img/en/bramka/ais_google_home_24.png)"
+      }
+    },
+    {
+      "segment_id": "808b0414",
+      "source_content": "Jeżeli Asystent Google działa z innych urządzeń (na koncie, które podaliśmy przy integracji z Asystentem domowym), tak jak pokazano na rysunku poniżej:",
+      "source_content_hash": "34d424ca649193f126bde69db768b4b16ea16fcefd7ce91bbbed5707d49bfa0d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "若Google助手在其他设备（使用集成配置的同一账户）上运行正常，如下图所示："
+      }
+    },
+    {
+      "segment_id": "61a78cbe",
+      "source_content": "![Konfiguracja Google Home](/img/en/bramka/ais_google_home_25.png)",
+      "source_content_hash": "b900ab849938abf4a37eea4dbd67bae968ae4fac74680e043fec2697da79466c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Google Home配置](/img/en/bramka/ais_google_home_25.png)"
+      }
+    },
+    {
+      "segment_id": "39c48ff7",
+      "source_content": "to można przejść do wywoływania Asystenta Google z Asystenta domowego.",
+      "source_content_hash": "32104549559d891221aa76a4a967d064a01a63999c874ac218bde4dc49ac0565",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "即可通过家庭助手调用Google助手功能"
+      }
+    },
+    {
+      "segment_id": "1297ec42",
+      "source_content": "### Brak odpowiedzi tekstowej",
+      "source_content_hash": "b4d536860c1c929b55909b236951b7218e0bc31ff62650611313a019cad974a2",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 无文本响应"
+      }
+    },
+    {
+      "segment_id": "c8a6ab3e",
+      "source_content": "API Google Home nie zapewnia odpowiedzi tekstowej na wszystkie żądania. Asystent Google jest oparty na odpowiedziach audio (czyli do głośnika zwracane jest audio do odtworzenia), a nie tekst do przeczytania przez syntezator mowy (tak jak w przypadku Asystenta domowego).",
+      "source_content_hash": "1ed87b220c138d35e1110dd80705657ae5d9bfa5cb89cde0006fced3deb7f656",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Google Home接口不保证对所有请求返回文本响应。Google助手基于音频反馈机制（即向扬声器输出音频），而非家庭助手采用的文本转语音（TTS）方案"
+      }
+    },
+    {
+      "segment_id": "5cf1bce4",
+      "source_content": "Wiecej informacji w przykładowym projekcie [Google SDK w Github](https://github.com/googlesamples/assistant-sdk-nodejs/issues/13)",
+      "source_content_hash": "8b6a910a4dcb7f50e792d0057a3e2aa80676b14a7b7083cf37eeccb562e151e5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "更多信息请参考示例项目 [Google SDK 在 Github 上的讨论](https://github.com/googlesamples/assistant-sdk-nodejs/issues/13)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_app_ai_integration_google_home.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.087598+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "59edecbf0a1310ca73c1bcae146a0680d479f0e2f1483d4cda29c059d6d54d80"
+  }
+}

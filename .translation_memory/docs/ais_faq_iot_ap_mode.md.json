@@ -1,0 +1,292 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_faq_iot_ap_mode.md",
+  "source_file_content_hash": "4ddab52bf4d98b92c5eb5b3b53bffc599a8a501db12b68097655274ceb64dab1",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Kompatybilność z Tasmota\"\nsidebar_label: Kompatybilność z Tasmota\n---",
+      "source_content_hash": "9a5c97dadcd4c03417f85b6177046cf093c5fbe0f7476fb5f94efdf8f4591c61",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "**Tasmota++**\nNasze oprogramowanie dla urządzeń automatyki domowej działa na bazie bardzo popularnego projektu [Tasmota](https://github.com/arendst/Tasmota).",
+      "source_content_hash": "2e1af0390416b4ec247e8e34f48e23b07ad10217ef6bed09d1ce1c83bbc1ade8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "**Tasmota++**\n我们的智能家居设备软件基于广受欢迎的开源项目[Tasmota](https://github.com/arendst/Tasmota)构建。"
+      }
+    },
+    {
+      "segment_id": "53eaf0e1",
+      "source_content": "Jak powstaje nasze oprogramowanie do urządzeń domowych:",
+      "source_content_hash": "2c3aeb7425daf7ae9d3586d3ef88eeb4b98f2816b161ddc9e267900d96ab6075",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们的设备软件开发流程如下："
+      }
+    },
+    {
+      "segment_id": "4a5b6a68",
+      "source_content": "- regularnie pobieramy najnowszą stabilną wersję Tasmota,\n- dodajemy ustawienia umożliwiające automatyczne wykrywania i **ułatwiające** działanie z Asystentem domowym,\n- kompilujemy wersję z naszymi kodami i ustawieniami,\n- testujemy na kilkudziesięciu urządzeniach,\n- udostępniamy nasze kody oraz skompilowaną wersję do pobrania,\n- instalujemy na naszych urządzeniach, które sprzedajemy.",
+      "source_content_hash": "e7212de31578e0ddf2d26825806336c949b6b7ed0b527dbe0d1cc22779d8fc1c",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 定期拉取Tasmota最新稳定版本\n- 添加支持自动发现功能及**简化**与家庭助理集成的配置项\n- 编译包含我们定制代码和设置的版本\n- 在数十台设备上进行测试\n- 开放源代码及编译版本下载\n- 预装在我们销售的设备中"
+      }
+    },
+    {
+      "segment_id": "42ad8e83",
+      "source_content": "Wszystkie nasze poprawki udostępniamy też społeczności Tasmota, dodatkowo rozwijamy aplikację na system Android, którą zaoferowaliśmy jako oficjalną aplikację ułatwiającą Konfigurację początkową dla urządzeń z oprogramowaniem Tasmota.",
+      "source_content_hash": "de264c9f8e38d20980ab83364351a3130205f9a6a972f46c251711e37fdae6bc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "所有改进代码均回馈至Tasmota社区，同时我们开发的Android应用已被采纳为Tasmota设备的官方配置工具，用于简化设备初始化设置。"
+      }
+    },
+    {
+      "segment_id": "bc633244",
+      "source_content": "## Jakie ułatwienia dostarczamy",
+      "source_content_hash": "43a83ad1ba64f04ad4d44364036ef3a80b7b9ca77690cd1a938bf76f7c8701c1",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 我们提供的便利功能"
+      }
+    },
+    {
+      "segment_id": "63622bf0",
+      "source_content": "### Tryb parowania",
+      "source_content_hash": "602a2bbd159dcc7c1e0ee388ad50ea2f22cb9bfd0dba670ebc767647ac6aa9ca",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 配对模式"
+      }
+    },
+    {
+      "segment_id": "98cfbd53",
+      "source_content": "Umożliwiamy łatwe wprowadzenie w tryb parowania **poprzez naciśnięcie i przytrzymanie przycisku na urządzeniu przez 4 sekundy** lub przez szybkie naciśnięcie przycisku na urządzeniu 6 razy (lub więcej).",
+      "source_content_hash": "dce88de826b8aeb857104ec725b4fbb8e1c64a87f9c22afa1ebbf352ec03d6c9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "支持两种简易进入配对模式的方式：**长按设备按键4秒**，或快速连按6次（或更多次）设备按键。"
+      }
+    },
+    {
+      "segment_id": "ccc88b4c",
+      "source_content": "Motywacją do tej zmiany było umożliwienie łatwego dodawania urządzeń do naszego systemu przez osoby starsze oraz mające problem ze wzrokiem (dla części osób szybkie wciśnięcie dokładnie cztery razy w krótkich odstępach czasu tak, żeby dioda odpowiednio migała... było \"troszkę\" problematyczne).",
+      "source_content_hash": "fd16cc781400570f102c9a19a1a9daf1ca09064e5c8402a104c55590e57c457b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "此项改进旨在方便老年用户及视障人士操作（原需在短时间内精准按压四次使指示灯闪烁的方案存在一定使用门槛）。"
+      }
+    },
+    {
+      "segment_id": "3c36424c",
+      "source_content": "### Wyszukiwanie bramki",
+      "source_content_hash": "a4be6a011007d48f4beb675834a7f610ca396924f5fc6c5e06adc23782e5499a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 网关发现"
+      }
+    },
+    {
+      "segment_id": "26524352",
+      "source_content": "Urządzenia do sterowania nie potrzebują Internetu (serwisu w chmurze producenta). To bardzo ułatwia dostępność i przyśpiesza działanie sterowania, ale niesie ze sobą też kilka wyzwań technologicznych.",
+      "source_content_hash": "6163c2e96869aca1355db73d20c02425b232d41a68351cc02af079b468b7bc98",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "控制设备无需依赖互联网（厂商云服务）。这显著提升了操作响应速度，但也带来技术挑战。"
+      }
+    },
+    {
+      "segment_id": "73ab96a3",
+      "source_content": "Główny problem to jak znaleźć bramkę w lokalnej sieci. Dla osób zaznajomionych z technologią ustawienie stałego IP dla bramki nie jest problemem, ale są też osoby, które nie wiedzą (i nie chcą wiedzieć) co to jest IP.",
+      "source_content_hash": "3f65b88f3a3e916abb1722a368ff17fd3e77da12b73fec487190e3847962bf96",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "核心难题是如何在局域网内定位网关。技术用户可通过设置静态IP解决，但普通用户不应为此困扰。"
+      }
+    },
+    {
+      "segment_id": "7499a4e7",
+      "source_content": "My ten problem rozwiązujemy i umożliwiamy urządzeniu wyszukanie bramki, czyli mając nasze oprogramowanie i bramkę możesz ją przełączać z Ethernet na WiFi, zmieniać jej adres IP a urządzenia i tak ją znajdą i się z nią połączą.",
+      "source_content_hash": "40b5f38c38871e5ffdb9c910d54ae37cf0d0fd95bfda9755e3bdaf12e127c3d4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们通过动态发现机制实现：无论网关切换有线/无线网络或变更IP地址，设备都能自动重连（需使用我们的定制固件）。"
+      }
+    },
+    {
+      "segment_id": "517051a7",
+      "source_content": "Tu ważne jest, żeby nazwa unikalnego klienta MQTT (którą ma każde urządzenie) zaczynała się od identyfikatora bramki. Przy takiej konfiguracji urządzenie samo będzie \"szukało bramki\" w sieci lokalnej. To oczywiście wysyłamy z bramki do urządzenia podczas \"parowania urządzenia z bramką\".",
+      "source_content_hash": "26d6b87bbf3910fff71d12c57ca5cc77747c67a06a0d391f63a58ce8bb88ca99",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "关键点在于每个设备的MQTT客户端名称需以网关ID开头。此配置会在设备与网关配对时自动下发，实现设备自主发现网关功能。"
+      }
+    },
+    {
+      "segment_id": "135468ee",
+      "source_content": "![MQTT klient](/img/en/faq/mqtt_client_dom.png)",
+      "source_content_hash": "89d0b94320a3875278fb12b798065a5c0c0fceae207c648368dd79b0bffcd34a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![MQTT客户端](/img/en/faq/mqtt_client_dom.png)"
+      }
+    },
+    {
+      "segment_id": "9f9e64f5",
+      "source_content": "### Współpraca z Asystentem domowym",
+      "source_content_hash": "cd84b9f991449828f65e057ddaada4ce4a29a27abaa121c4d72534127fa751ff",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 家庭助理集成"
+      }
+    },
+    {
+      "segment_id": "1042b50d",
+      "source_content": "W naszej kompilacji oprogramowania Tasmota automatycznie ustawiamy na urządzeniu, żeby przedstawiało się bramce (mqtt discovery). Wszystkie urządzenia dodane są też do grupy **dom**. Bramka po uruchomieniu publikuje na tę grupę prośbę o przedstawienie się do urządzeń i ustala komunikację z nowymi urządzeniami. Szczegółowo opisane jest to w dokumentacji w sekcji [MQTT](/docs/ais_bramka_mqtt)",
+      "source_content_hash": "607125c18f834fd923dd4823e5deaa3b8a94bc6425cd626c45809bc9b67eb2b2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在我们的Tasmota固件编译版本中，我们已预先设置设备自动向网关进行服务发现（mqtt discovery）。所有设备均被加入**dom**群组。网关启动时会向该群组发布设备发现请求，并与新设备建立通信。具体说明详见文档中的[MQTT章节](/docs/ais_bramka_mqtt)"
+      }
+    },
+    {
+      "segment_id": "35a77014",
+      "source_content": "### Ustawienia lokalne",
+      "source_content_hash": "079223efa2669b7993db95e91d82801c40bf0921bf60e418a17b81c0d910b7f8",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 本地化设置"
+      }
+    },
+    {
+      "segment_id": "13d9cd70",
+      "source_content": "W naszej kompilacji oprogramowania Tasmota ma lokalne polskie ustawienia:",
+      "source_content_hash": "d8a7ba16a0d734146715aafed5ffa9558883342b17164d791c062a8f094ba769",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们的Tasmota固件编译版本包含以下波兰本地化设置："
+      }
+    },
+    {
+      "segment_id": "cef3cb03",
+      "source_content": "- polskie menu,\n- regionalne serwery czasu NTP (pl.pool.ntp.org, 0.pl.pool.ntp.org),\n- strefę czasową dla Polski,\n- lokalizacja to środek polski (52.069528, 19.480300) do wykorzystania podczas ustawiania charmonogramu opartego na wschodzie i zachodzie słońca.",
+      "source_content_hash": "f2148d276dbf778c2865e1eb9fc4204d0bfc142448aa8be998a06267d64f227d",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 波兰语菜单界面\n- 区域性NTP时间服务器（pl.pool.ntp.org, 0.pl.pool.ntp.org）\n- 波兰时区配置\n- 地理位置设为波兰中部（52.069528, 19.480300），用于基于日出日落的自动化场景设置"
+      }
+    },
+    {
+      "segment_id": "af52d59d",
+      "source_content": "## Czy urządzenia z inną kompilacją Tasmota działają z bramką?",
+      "source_content_hash": "08de47e264907a36ec061de703088e50a6117092b9af34fce4984851fe87b0d6",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 其他编译版本的Tasmota设备能否与网关兼容？"
+      }
+    },
+    {
+      "segment_id": "4d52a261",
+      "source_content": "**Tak**. Na bramce jest broker MQTT dlatego każde urządzenie, które rozumie MQTT będzie działało z bramką.",
+      "source_content_hash": "47a3f827eac12255b5efd7914a8b5984cbb3d9eeb98c39a768a1d0955f2b801d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "**可以**。由于网关内置MQTT代理，任何支持MQTT协议的设备均可与网关协同工作。"
+      }
+    },
+    {
+      "segment_id": "23dfb152",
+      "source_content": "Może to jednak nie być tak proste, jak w przypadku naszych urządzeń, ponieważ nie wiemy, czy kompilacja, (którą masz wgraną na urządzeniu) ma włączoną współpracę z Asystentem domowym, mDNS i czy... została prawidłowo przygotowana i wgrana.",
+      "source_content_hash": "f0481be342018c93b0a369795146ac3bf47896e09aa26eda1283618d7e5d6cd6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "但操作可能不如我们的预装设备便捷，因为我们无法确认您设备刷入的固件是否已启用以下功能：\n- 家庭助理集成支持\n- mDNS服务发现\n- 以及固件是否经过正确编译和刷写"
+      }
+    },
+    {
+      "segment_id": "1131ef75",
+      "source_content": "Są trzy wyjścia, żeby działało:",
+      "source_content_hash": "8b35e39603f7f4b5a705841a7775aa9f8715a945827953c01e6c6c6ec413f738",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "有三种解决方案："
+      }
+    },
+    {
+      "segment_id": "ea0c7bae",
+      "source_content": "1. Zrozumieć jak działa MQTT i komunikacja z bramką - co [dokładnie opisujemy](/docs/ais_bramka_mqtt) i do czego zachęcamy.\n2. Wgrać nasze darmowe oprogramowanie do urządzenia.\n3. Kupić nasze gotowe urządzenie i cieszyć się z tego, że wsparło się nasz projekt i wszystko magicznie i fajnie działa - do czego też bardzo zachęcamy :)",
+      "source_content_hash": "7aba3d521643eba48cd9be4074a37720946fffdaffbd7e05b7b0cf6cc33cad10",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "1. 深入理解MQTT协议与网关通信机制——我们[详细文档](/docs/ais_bramka_mqtt)已作说明，推荐采用此方案\n2. 刷写我们提供的免费固件\n3. 直接购买我们的预装设备，既支持项目发展又能享受开箱即用的完美体验——我们强烈推荐此方案 :)"
+      }
+    },
+    {
+      "segment_id": "bd92edfc",
+      "source_content": "## Co wysyłamy do urządzenia podczas parowania z bramką?",
+      "source_content_hash": "2717183ab45b1e534cb7c97bcd819d2c440a2fa13d387121f49cfe186d44585b",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 设备与网关配对时传输哪些参数？"
+      }
+    },
+    {
+      "segment_id": "7f71ff2a",
+      "source_content": "Podczas parowania z bramką do urządzenia wysyłamy:",
+      "source_content_hash": "d05190785e09b67a5afd6b2dfeea975e71fa7b349bc0c26ba647047fdfcf36e7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "配对过程中网关向设备发送以下配置："
+      }
+    },
+    {
+      "segment_id": "af6ca965",
+      "source_content": "- FriendlyName1 - przyjazną nazwę urządzenia podaną w konfiguratorze\n- SSId1 - nazwę sieci WiFi\n- Password1 - hasło do WiFI\n- MqttClient - unikalną nazwę klienta MQTT (identyfikator bramki + 6 ostatnich znaków z adresu MAC urządzenia)\n- Topic - unikalny temat MQTT\n- GroupTopic -temat grupowy dla wszystkich urządzeń **dom**\n- MqttHost - adres IP bramki\n- SetOption3 - włączamy MQTT na urządzeniu\n- SetOption30 - przypisanie do grupy światła (jeśli tak zostało wybrane w konfiguratorze)",
+      "source_content_hash": "bf16c6d565191c8ca45878603c730891fa56b091511b6dc8c6a1cc13ac85e6be",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- FriendlyName1 - 配置器中设置的设备友好名称\n- SSId1 - WiFi网络名称\n- Password1 - WiFi密码\n- MqttClient - 唯一MQTT客户端ID（网关标识符+设备MAC地址后6位）\n- Topic - 唯一MQTT主题\n- GroupTopic - 所有设备的群组主题**dom**\n- MqttHost - 网关IP地址\n- SetOption3 - 启用设备MQTT功能\n- SetOption30 - 灯光群组分配（如在配置器中选择该选项）"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_faq_iot_ap_mode.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.139976+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "4ddab52bf4d98b92c5eb5b3b53bffc599a8a501db12b68097655274ceb64dab1"
+  }
+}

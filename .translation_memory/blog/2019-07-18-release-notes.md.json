@@ -1,0 +1,232 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2019-07-18-release-notes.md",
+  "source_file_content_hash": "625b9eb07458ea241dcb619da9d1f28a0f1965cec29d4bc6b1e5b8f6bb89922e",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Celina AI-Speaker\nauthorURL: https://github.com/sviete\nauthorFBID: 1186570423\ntitle: Wersja systemu 0.95.7  Wykrywanie obecności, mapa, automatyzacje i optymalizacja\n---",
+      "source_content_hash": "ba7f3710cfee19f7709cb42c947194d05a2e3bae0a6e154860c127ba6cd1fc2f",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Wersja systemu 0.95.7 z dnia 18 lipca 2019 roku,",
+      "source_content_hash": "9b1f03205eabb069bc20fca9ace336ab662189da16c6ed5bd3e61d93f94cbc31",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 系统版本 0.95.7（2019年7月18日发布）"
+      }
+    },
+    {
+      "segment_id": "1cc03ec8",
+      "source_content": "### Wykrywanie obecności",
+      "source_content_hash": "6715052618f05c4b061b88f4bb0a7778546214e64976abc35d4e977402225471",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 存在检测"
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "Wykrywanie obecności ma na celu ustalenie, czy i kto jest w domu (lub innej zdefiniowanej strefie), co jest bardzo cennym źródłem automatyzacji. Wiedza o tym, kto jest w domu lub gdzie jest, pozwala nam na całą gamę opcji automatyzacji, przykładowe użycie:",
+      "source_content_hash": "eee8444be9b17fe2d4eb5bdc6c2e2c71790971fde78f6a1055e06abfed415893",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "存在检测功能旨在判断家中（或其他定义区域）是否有人以及具体是谁，这是自动化规则的宝贵数据源。了解家庭成员的位置状态可开启丰富的自动化场景，例如："
+      }
+    },
+    {
+      "segment_id": "9e760345",
+      "source_content": "- Wyślij mi powiadomienie, gdy moje dziecko dotrze do szkoły\n- Włącz klimatyzację w domu, kiedy wychodzę z pracy\n- Otwórz bramę i włącz na 30 minut oświetlenie zewnętrzne, jeżeli jest noc i moje auto pojawia się w strefie przed bramą wjazdową",
+      "source_content_hash": "9c4650b55cea54e4ceb46f562091acd34ba24fdbd0a2396ed384e2573589fc26",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 当孩子到达学校时发送通知\n- 离开办公室时自动开启家中空调\n- 夜间检测到车辆进入大门区域时，自动开启大门并点亮30分钟户外照明"
+      }
+    },
+    {
+      "segment_id": "f6168993",
+      "source_content": "![Wykrywanie obecności](/img/en/bramka/presence_detection_14.png)",
+      "source_content_hash": "c49e321a875bbac0598e0f34a2b481dcc1fd665fd06b2207d212973a1316db65",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![存在检测](/img/en/bramka/presence_detection_14.png)"
+      }
+    },
+    {
+      "segment_id": "ea978e4d",
+      "source_content": "<!--truncate-->",
+      "source_content_hash": "f5cded2aa7e288e395fe4f67f9dabda2281904b2f5358d07302b3aa8be0acdfa",
+      "node_type": "comment",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_ea978e4d"
+      }
+    },
+    {
+      "segment_id": "95b38f97",
+      "source_content": "### Przewodnik podstaw automatyzacji",
+      "source_content_hash": "866c73ab78e5681c1089ec524d2a6ff3be35100f432c6e7176a16056e969e690",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 自动化基础指南"
+      }
+    },
+    {
+      "segment_id": "ccc88b4c",
+      "source_content": "Asystent domowy oferuje szeroki zakres konfiguracji automatyzacji.\nZanim zaczniesz tworzyć własne przydatne automatyzacje w swoim domu, ważne jest, aby zrozumieć podstawy.\nW przewodniku postaramy się poprowadzić Cię \"krok po kroku\" przez podstawowe możliwości i opcje podczas tworzenia prostej reguły automatyzacji, która włącza oświetlenie, gdy zachodzi słońce.",
+      "source_content_hash": "ca3b3f7ed23d0ef57fce75f60ff307126af72737e8ca52f7f1a5f2e9ce1a0494",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "家庭助理提供广泛的自动化配置选项。在开始创建实用家居自动化规则前，理解基础概念至关重要。本指南将通过\"日落自动开灯\"的简单案例，逐步讲解自动化规则的基本配置流程与核心功能。"
+      }
+    },
+    {
+      "segment_id": "dfe931a2",
+      "source_content": "![Wykrywanie obecności](/img/en/bramka/automation8.png)",
+      "source_content_hash": "e7e07df7b1dcfc75d85958fc342b5301f7f79a84d84b1eebb8896d6a130661fc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![存在检测](/img/en/bramka/automation8.png)"
+      }
+    },
+    {
+      "segment_id": "a1b3d8cb",
+      "source_content": "### Optymalizacja kodu",
+      "source_content_hash": "9c320d9df761362d607a2bcdd409c3eecfc9b5f9087f93cf02bf38b696b73fa8",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 代码优化"
+      }
+    },
+    {
+      "segment_id": "517051a7",
+      "source_content": "Wprowadziliśmy optymalizacje w kodzie, dotyczy to aktywności pokazującej postęp rozpoznawania mowy (RecognitionProgressView). Po tej optymalizacji odnotowaliśmy spory spadek obciążenia procesora na urządzeniu oraz związany z tym spadek temperatury procesora - dokładnie widać to na poniższym wykresie. W nowym dziale FAQ opisaliśmy jak dodać nowy czujnik do systemu właśnie na przykładzie czujnika temperatury CPU.",
+      "source_content_hash": "8832b127fe338f8402a1bfaff933770201753c79d9ac973d55e661da715d4f12",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们对语音识别进度显示界面(RecognitionProgressView)进行了代码优化。优化后设备CPU负载显著降低，处理器温度同步下降（具体数据参见下方图表）。在新增的FAQ章节中，我们以CPU温度传感器为例详细说明了如何为系统添加新传感器。"
+      }
+    },
+    {
+      "segment_id": "135468ee",
+      "source_content": "![Temperatura CPU](/img/en/blog/cpu_temp_after_optimalization.png)",
+      "source_content_hash": "e1bacadc617e08fa5cb680ce08637c6f555eb473d710daa2d8d2de640dd53403",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![CPU温度](/img/en/blog/cpu_temp_after_optimalization.png)"
+      }
+    },
+    {
+      "segment_id": "9f9e64f5",
+      "source_content": "### Ekran podczas sterowania pilotem",
+      "source_content_hash": "01e0b010e02008a2351c529efa56c887872654da3516aa7bfec66c2a18c93f50",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 遥控器操作界面"
+      }
+    },
+    {
+      "segment_id": "1042b50d",
+      "source_content": "Podczas gdy sterujemy pilotem (bez aplikacji), na urządzeniu wyświetlamy ekran pokazujący postępy rozpoznawania komendy głosowej (co zrozumiał asystent) oraz to co asystent zrobił/odpowiedział. Ekran ten jest widoczny gdy podłączysz bramkę do monitora lub TV za pomocą HDMI i sterujesz pilotem. Na tym ekranie pokazujemy aktualny adres aplikacji na bramce oraz typ połączenia jaki aktualnie ma bramka (WiFi lub Ethernet).\nOd wersji 0.95.6 na tym ekranie wyświetlamy też aktualną datę i godzinę. Poniżej zdjęcie projektu tego ekranu.",
+      "source_content_hash": "709a0a283f889dcbf449496b247824ab19a0b6189753be146f66a455af9665ce",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过遥控器操作时（不使用手机应用），设备会显示语音指令识别进度界面，实时反馈系统理解的指令内容及执行状态。该界面在通过HDMI连接显示器/TV时可见，会显示网关当前IP地址、连接类型(WiFi/以太网)。自0.95.6版本起，界面新增了实时日期时间显示。下方为界面设计示意图。"
+      }
+    },
+    {
+      "segment_id": "8af76f3d",
+      "source_content": "![Ekan w tle](/img/en/bramka/ais_dom_splash_screen.png)",
+      "source_content_hash": "64308b6943c2758c5faca18e599c532f236227fd17dd811739af7883eeb16930",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![后台界面](/img/en/bramka/ais_dom_splash_screen.png)"
+      }
+    },
+    {
+      "segment_id": "c674e260",
+      "source_content": "### Literowanie",
+      "source_content_hash": "49c35507a94bf50f05a2d8464c441d49b5f0cb193aa2d029e1e73c734c5de77a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 拼读功能"
+      }
+    },
+    {
+      "segment_id": "a44047a5",
+      "source_content": "Chcemy, żeby nasz produkt był łatwy w obsłudze również dla osób mających problemy ze wzrokiem oraz dla osób starszych. Kolejnym udogodnieniem w tym temacie jest funkcjonalność literowania - np. asystentka może przeliterować unikalny identyfikator urządzenia.\nTa opcja dostępna jest z pilota - po wybraniu pozycji identyfikatora urządzenia możemy wcisnąć przycisk \"OK\" by przeliterować nasz identyfikator.\nMożemy też kazać przeliterować asystentce status dowolnego elementu systemu - wystarczy powiedzieć \"Przeliteruj \" i dodać nazwę elementu, np.:",
+      "source_content_hash": "7a9119bf769157016a98ed41c9e2eff211ebeaf75b3e6021b1a1b6693ebd79d1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们希望产品对视力障碍用户和老年群体同样友好。为此我们新增了拼读功能——例如助手可以逐字母拼读设备唯一标识符。\n该功能可通过遥控器调用：选中设备ID项后按下\"OK\"键即可触发拼读。\n您还可以要求助手拼读系统内任意元素的状态，只需说出\"拼读\"加上元素名称，例如："
+      }
+    },
+    {
+      "segment_id": "3ce8f045",
+      "source_content": "```text\nPrzeliteruj unikalny identyfikator bramki\n```",
+      "source_content_hash": "97da366a7c77bb4002e78b1c099bebb9b15417691d95dc5fcffc28a94ff3987b",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_3ce8f045"
+      }
+    },
+    {
+      "segment_id": "e536ea0d",
+      "source_content": "W dokumentacji opisane są wszystkie [wbudowane komendy, które rozumie Asystent domowy](/docs/ais_app_assistent_commands)",
+      "source_content_hash": "153c78f13ad5cb95ff55e3287c3d6edf46239b7f846cdf9149d61d5c1bc0d5b8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "文档中完整列出了[家庭助手支持的内置语音指令](/docs/ais_app_assistent_commands)"
+      }
+    },
+    {
+      "segment_id": "e912d935",
+      "source_content": "### Pozostałe istotne zmiany",
+      "source_content_hash": "d9fdc1d919787ef9b45ab06c1b00ed50caa14ddcfaf0962bf21c363ba7f902f7",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 其他重要更新"
+      }
+    },
+    {
+      "segment_id": "ea0c7bae",
+      "source_content": "- Muzyka intro podczas uruchomienia urządzenia i komunikat głosowy informujący o uruchamianiu systemu, optymalizacja w trzech głównych aktywnościach aplikacji.\n- Stronicowanie wyników wyszukiwania z YouTube. Informacja o całkowitej liczbie wyników dla zapytania/wyszukiwania na YouTube (ograniczone do 1 000 000 - maksymalny limit na YouTube). Stronicowanie wyników - 10 na stronę, możliwość nawigowania po stronach wyszukania - przechodzenie pilotem i/lub w aplikacji do poprzedniej i kolejnej strony\n- Poprawione skanowanie sieci w poszukiwaniu urządzeń. Rozpoznawanie urządzeń po adresie MAC.\n- Najnowszy Home Assistant <a href=\"https://www.home-assistant.io/blog/2019/06/26/release-95/\" target=\"_blank\">0.95</a>",
+      "source_content_hash": "9709db0f09fc81153ac4516edb1bd850f449441a514663d82aea0d69b077a20d",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 设备启动时新增音乐前奏及语音播报系统状态，优化了三大核心应用模块\n- YouTube搜索结果分页显示，展示查询结果总数（上限100万条，YouTube限制），每页10条结果，支持通过遥控器/应用进行前后页导航\n- 改进网络设备扫描机制，支持通过MAC地址识别设备\n- 集成最新版Home Assistant <a href=\"https://www.home-assistant.io/blog/2019/06/26/release-95/\" target=\"_blank\">0.95</a>"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2019-07-18-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.112966+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "625b9eb07458ea241dcb619da9d1f28a0f1965cec29d4bc6b1e5b8f6bb89922e"
+  }
+}

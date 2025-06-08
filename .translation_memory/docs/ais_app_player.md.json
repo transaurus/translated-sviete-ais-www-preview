@@ -1,0 +1,332 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_app_player.md",
+  "source_file_content_hash": "d56aee752cac41a70330937051fbd59faf22da5848bc98562d1d8592d30688b1",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Odtwarzacze\"\nsidebar_label: Odtwarzacze\n---",
+      "source_content_hash": "8716fa46120cadcbfc215237499ec6f91fbc36665bd33a06a37a0e14bcbb24b1",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Wbudowany Odtwarzacz Mediów",
+      "source_content_hash": "2eaf13b093f299af8755bbeb23c4ab01418a42a748802b80af57ea89ee63ee12",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 内置媒体播放器"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Na urządzeniu dostarczamy wbudowany odtwarzacz oraz biblotekę mediów do odtwarzania.",
+      "source_content_hash": "a74c4d9719c73a803c7fb91245bcd96260e6533faf583dd9c7fde3ea6935a56e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "设备内置了媒体播放器及媒体资源库。"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "![AIS Radio](/img/en/frontend/ais_exo_player.png)",
+      "source_content_hash": "17fa81f880ae7001db5ce3f905ff8d43349098992b90f81a4fa4fab4e990cb59",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS Radio](/img/en/frontend/ais_exo_player.png)"
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "Media moga być odtwarzane na podłączonym do bramki głosniku i/lub na podłączonym do bramki po HDMI telewizorze lub monitorze.\nMożemy zdalnie (z przeglądarki internetowej lub aplikacji mobilnej) sterować aktywnościami (ekranami) na bramce podłączonej do TV. W ten sposób możemy odtwarzać treści wideo z serwisów lub kamer.",
+      "source_content_hash": "3b5f3376d1ca492b03e9b23f4902c216ffb62a5441f92e896c0dc270cd7307fe",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "媒体内容可通过网关连接的扬声器播放，和/或通过HDMI连接的电视/显示器播放。用户可通过网页浏览器或移动应用远程控制连接电视的网关活动界面，实现流媒体服务或监控摄像头画面的播放。"
+      }
+    },
+    {
+      "segment_id": "cf898102",
+      "source_content": "![AIS Video](/img/en/frontend/video_doorbell2.png)",
+      "source_content_hash": "bb9239c7e1aa978343bc093214b6331eec05fa32b84756142219b10db94c6972",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS Video](/img/en/frontend/video_doorbell2.png)"
+      }
+    },
+    {
+      "segment_id": "d350c018",
+      "source_content": "## Dodatkowe odtwarzacze AIS",
+      "source_content_hash": "56cd257773ee49e9b68d264bae5f6f376e5dc6990c052a62f06931173d3faa82",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## AIS附加播放器"
+      }
+    },
+    {
+      "segment_id": "1acb9a05",
+      "source_content": "Dodatkowym odtwarzaczem AIS w systemie Asystent domowy mogą być:",
+      "source_content_hash": "6ec601d328eb7c38610f7918e442c80b1a0a6ae1b796eeb0f6b410bd312be312",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "家庭助理系统中可添加的AIS附加播放设备包括："
+      }
+    },
+    {
+      "segment_id": "da23c906",
+      "source_content": "1. Inne bramki/głośnik z systemem Asystent domowy\n\n2. Urządzenia z systemem Android i zainstalowaną naszą darmową aplikacją mobilną AIS dom.",
+      "source_content_hash": "10ba91a571c419824a3be1facfb9008f3f43c0040489e2234bf7253575dcf755",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "1. 其他搭载家庭助理系统的网关/扬声器\n2. 安装免费应用AIS dom的安卓设备"
+      }
+    },
+    {
+      "segment_id": "a2f1eaea",
+      "source_content": ":::info[Informacja]\nPo zainstalowaniu na urządzeniu z systemem Android naszej darmowej aplikacji AIS-dom, żeby urządzenie mogło być dodane jako dodatkowy odtwarzacz do bramki AIS, należy:\n1. Być podłączonym do tej samej lokalnej sieci, co bramka\n1. W ustawiniach aplikacji włączyć specjalne funkcjonalności dotyczące panelu sterowania, tak jak to pokazano na rysunku poniżej\n:::",
+      "source_content_hash": "74b1c9af323d79a0ec9bfede23ad5216fe7d5f8b7c4c97558ea6739b04cf513a",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::info[说明]\n安卓设备安装AIS dom应用后，需满足以下条件才能作为附加播放器添加到AIS网关：\n1. 需与网关处于同一局域网\n2. 在应用设置中启用控制面板特殊功能（如下图所示）\n:::"
+      }
+    },
+    {
+      "segment_id": "dfe931a2",
+      "source_content": "![AIS Radio](/img/en/frontend/panel_special_functions.png)",
+      "source_content_hash": "c5d52428729035e6b02e3b0c700f1685f5b95da3ba26db39910891dd710dec44",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS Radio](/img/en/frontend/panel_special_functions.png)"
+      }
+    },
+    {
+      "segment_id": "a1b3d8cb",
+      "source_content": "### Dodanie odtwarzacza do bramki",
+      "source_content_hash": "663e11af0569573170f95d845ee013b0ccf341677f6e9f2008de7b4f81573d16",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 添加播放器至网关"
+      }
+    },
+    {
+      "segment_id": "517051a7",
+      "source_content": "W konfiguracji integracji wybieramy integrację **AI Speaker**",
+      "source_content_hash": "c7c9c1e8bd11617c7984db167edb6e7eb4466d00087e26f30ed89ccafd68b233",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在集成配置中选择**AI Speaker**集成"
+      }
+    },
+    {
+      "segment_id": "135468ee",
+      "source_content": "![AIS Radio](/img/en/frontend/ais_exo_player_add_new.png)",
+      "source_content_hash": "f86f6e469eb2729fe44a8f17d1dd1e890db18eb1991a5a070a8d884cf9d7014d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS Radio](/img/en/frontend/ais_exo_player_add_new.png)"
+      }
+    },
+    {
+      "segment_id": "3cfe6286",
+      "source_content": "następnie wypełniamy formatkę konfiguratora i zatwierdzamy",
+      "source_content_hash": "425ee6bae7e1bf809ceab1be792679ccc9e279d39ccd4dd8af2821486a62a569",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "随后填写配置表单并提交"
+      }
+    },
+    {
+      "segment_id": "18867dc1",
+      "source_content": ":::info[informacja]\nAdres IP odtwarzacza w lokalnej sieci łatwo znajdziemy w ustawieniach aplikacji AIS dom:\n:::",
+      "source_content_hash": "0c58e7834064855572686c63413ccd6ef7d42c78a47845b9fe0525d59aa35a8e",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::info[提示]\n播放器局域网IP地址可在AIS dom应用设置中查看：\n:::"
+      }
+    },
+    {
+      "segment_id": "13d9cd70",
+      "source_content": "![AIS Radio](/img/en/frontend/device_ip_in_local_network.png)",
+      "source_content_hash": "0ee1a5d5a950ce8fc75488a7b16273cab703e7142a6099d0c22be25a3cefbfa6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS Radio](/img/en/frontend/device_ip_in_local_network.png)"
+      }
+    },
+    {
+      "segment_id": "29528c8d",
+      "source_content": "![AIS Radio](/img/en/frontend/ais_exo_player_add_new2.png)",
+      "source_content_hash": "1967c128b438de92f1843837a5ba9d3657c244408065f6c527178d40e0b06c2b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS Radio](/img/en/frontend/ais_exo_player_add_new2.png)"
+      }
+    },
+    {
+      "segment_id": "c504c207",
+      "source_content": "w efekcie otrzymamy nowy odtwarzacz w systemie Asystent domowy",
+      "source_content_hash": "179635f294b127150239404a6fbde268be28aa70792103230fba88a11ee156f7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "配置完成后，家庭助理系统将新增播放器"
+      }
+    },
+    {
+      "segment_id": "98d26038",
+      "source_content": "![AIS Radio](/img/en/frontend/ais_exo_player_add_new3.png)",
+      "source_content_hash": "97350668edca7105a966c03523dff68274f5c95a3f4d22f60911d953c3e63d2c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS Radio](/img/en/frontend/ais_exo_player_add_new3.png)"
+      }
+    },
+    {
+      "segment_id": "d3649a1e",
+      "source_content": "Każdy dodatkowy odtwarzacz możemy dodać do interfejsu - umieścić na karcie w widoku i dostosować jego wyświetlanie.",
+      "source_content_hash": "f75842bdc3a03be656bd0aeb6d2aa3497279967616801fc7d1bc7e59e236f2b1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "每个附加播放器均可添加到界面——在视图卡片中布局并自定义显示样式。"
+      }
+    },
+    {
+      "segment_id": "4d52a261",
+      "source_content": "![AIS Radio](/img/en/frontend/ais_exo_player_add_new4.png)",
+      "source_content_hash": "33dce23ee19689b319196ca8b9a624346524dc450b74863fef76cb489a2323d9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS Radio](/img/en/frontend/ais_exo_player_add_new4.png)"
+      }
+    },
+    {
+      "segment_id": "ab5fc5b5",
+      "source_content": "## Dodatkowe funkcje odtwarzaczy AIS",
+      "source_content_hash": "5bb3fcf7937117f4b722443042a727264c66ef8ed62aa9dd015e59ed0c84221b",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## AIS播放器附加功能"
+      }
+    },
+    {
+      "segment_id": "9e95fc4a",
+      "source_content": "### Czytanie tekstu na głośniku",
+      "source_content_hash": "8f5201c96da0a75336ecade8ce2dc6cb8a1e21c8672d1b503c34479fd78a1b31",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 文本转语音播报"
+      }
+    },
+    {
+      "segment_id": "5dae11e3",
+      "source_content": "Odtwarzacz AIS może też zamieniać tekst na mowę:",
+      "source_content_hash": "2ef91a2385329728f4c4cb98f19695b6fa16883d07e12a5b8a1d7aee96df383c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "AIS播放器支持文本转语音功能："
+      }
+    },
+    {
+      "segment_id": "0bb95128",
+      "source_content": "![AIS Audio](/img/en/frontend/app_audio_player_tts.png)",
+      "source_content_hash": "4a2ce66625e97267c246e3babf05eac090ec0b6a27b3cfba39f50bdc6140def2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS Audio](/img/en/frontend/app_audio_player_tts.png)"
+      }
+    },
+    {
+      "segment_id": "ee8401db",
+      "source_content": "### Zdalne sterowanie",
+      "source_content_hash": "5f8b2832c87cc4b54529adfe86a6b0acc7f7a34e262faa9c6953ac474b8972a7",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 远程控制"
+      }
+    },
+    {
+      "segment_id": "147e8550",
+      "source_content": "Możemy zdalnie sterować odtwarzaczem na bramce z poziomu ekranu powiadomień na \"Panelu sterowania\", więcej informacji w dokumentacji Panel sterowania - Odtwarzacz audio.",
+      "source_content_hash": "b67823d6fdacd1c0cf5398bad057ed86548e1fa56d78539ce206964f1af969e7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们可以通过\"控制面板\"的通知屏幕远程控制网关上的媒体播放器，更多信息请参阅文档《控制面板 - 音频播放器》。"
+      }
+    },
+    {
+      "segment_id": "883231d4",
+      "source_content": "![AIS Radio](/img/en/frontend/ais_exo_mobile.png)",
+      "source_content_hash": "8c048ddf706ad430053a2e8b3217b0fd4d14ebf4e3ecd8b4b10052d2fe2dc6c4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS Radio](/img/en/frontend/ais_exo_mobile.png)"
+      }
+    },
+    {
+      "segment_id": "b051b70c",
+      "source_content": "## API",
+      "source_content_hash": "40caf66c4de56e46b72485c47adff4916c4bc7e563ecd9f7278e9dcaf92d1cad",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## API接口"
+      }
+    },
+    {
+      "segment_id": "d0dd855b",
+      "source_content": "Odtwarzacz, tak jak każda integracja, udostępnia swoje usługi, dzięki czemu można [automatyzować](/docs/ais_bramka_automation) sterowanie odtwarzaczem i np. uruchamiać stację radiową jako budzik, włączać wybraną audycję o wybranej porze dnia, itp.",
+      "source_content_hash": "23c658b443f5ad748a2e9ad30dccefa3c2d7f7a665460f27a6c71cbd54e9c2e9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "与其他集成组件一样，该播放器也开放了服务接口，支持通过[自动化脚本](/docs/ais_bramka_automation)实现播放控制，例如将电台设为闹钟、在指定时间播放特定节目等功能。"
+      }
+    },
+    {
+      "segment_id": "463ed165",
+      "source_content": "![AIS Radio](/img/en/frontend/app_audio_player_api.png)",
+      "source_content_hash": "9a6c7e72e2417f5ea5b63e6c11d80ed1b97d002f086a4589396cb44ee0d7fdcf",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS Radio](/img/en/frontend/app_audio_player_api.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_app_player.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.100984+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "d56aee752cac41a70330937051fbd59faf22da5848bc98562d1d8592d30688b1"
+  }
+}

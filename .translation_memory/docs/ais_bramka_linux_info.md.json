@@ -1,0 +1,212 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_linux_info.md",
+  "source_file_content_hash": "97a69087e3e0a7b6b18bba41b98160f03328ec6fd7cea79aa57c3978d1ca761c",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Bramka z systemem Linux\"\nsidebar_label: Bramka z systemem Linux\n---",
+      "source_content_hash": "8a20bc91adff015840c54e1e947f0fd7eeac1bc9ecde900a64de93785ca9498f",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "10c4cb47",
+      "source_content": "import BrowserWindow from '@site/src/components/BrowserWindow';",
+      "source_content_hash": "c30f3ec38b8fe46ed14acfdf630f27b5f382afaea44d9df375ff4baf3311b08e",
+      "node_type": "mdxjsEsm",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_10c4cb47"
+      }
+    },
+    {
+      "segment_id": "53eaf0e1",
+      "source_content": "W systemie Linux zainstalowany jest Home Assistant Supervised. Ta metoda instalacji zapewnia pełną funkcjonalność Home Assistant w systemie operacyjnym Linux. Oznacza to, że używane są wszystkie komponenty i dodatki Home Assistant. Supervisor to nie tylko aplikacja, to kompletne narzędzie zarządzające całym systemem.",
+      "source_content_hash": "ad05191497cea65eb07205be28b2cc9989a31d676b9c962fdff488bca8db095f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Linux系统中已安装Home Assistant Supervised。这种安装方式可在Linux操作系统中提供完整的Home Assistant功能，意味着可以使用所有Home Assistant组件和插件。Supervisor不仅是一个应用程序，更是管理整个系统的完整工具。"
+      }
+    },
+    {
+      "segment_id": "8a5f6a7b",
+      "source_content": "## Supervisor info",
+      "source_content_hash": "c932fc75676272ff5db4adc126b9268006f0aa5cb24c79a37f2fe13a7a850f83",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## Supervisor信息"
+      }
+    },
+    {
+      "segment_id": "5da3670c",
+      "source_content": "<BrowserWindow url=\"http://homeassistant.local:4357\">\n<center>\n![Supervisor](/img/en/linux/supervisor.png)\n</center>\n</BrowserWindow>",
+      "source_content_hash": "ba340c645b51a7d9b1648f5fde4027f1c45dc6f8025d1c5c5eb12c63b7e4abb6",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_5da3670c"
+      }
+    },
+    {
+      "segment_id": "aee0e40d",
+      "source_content": "## Połączenie z kontrolerem po ssh",
+      "source_content_hash": "4d52ba75740cd844fcb1a4109a4131700b927dcde3846203f7a457e3257db501",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 通过SSH连接控制器"
+      }
+    },
+    {
+      "segment_id": "f5f6d2ce",
+      "source_content": "Z systemem Linux możemy połączyć się po ssh, możemy to zrobić z konsoli maszego systemu, wpisując:",
+      "source_content_hash": "642b8fb31f71716f394da7413eacdb3c66fd771ecd52751e1babd0a677323725",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们可以通过系统控制台输入以下命令连接Linux系统："
+      }
+    },
+    {
+      "segment_id": "41a8ae85",
+      "source_content": "``` bash\nssh root@<IP-BRAMKI>\n```",
+      "source_content_hash": "e8d6d9e29f927e39f28ce402f569bbece550e11905ea62751ca4302a259c4d8d",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_41a8ae85"
+      }
+    },
+    {
+      "segment_id": "a76548f8",
+      "source_content": "lub z przeglądarki internetowej, wpisując w  terminalu Home Assistant na bramce komendę:",
+      "source_content_hash": "560611299c86bf97b96508392b7cebb15c7e7f46e34b082dda5a2ebf4437c195",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "或在网关的Home Assistant终端输入命令通过网页浏览器连接："
+      }
+    },
+    {
+      "segment_id": "0c911872",
+      "source_content": "``` bash\nssh root@172.17.0.1\n```",
+      "source_content_hash": "d51c72e4ed8bca9f6fe51069a9bfb6a710742be3d1a2ee255f7beca4df6f291f",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_0c911872"
+      }
+    },
+    {
+      "segment_id": "99d14dfd",
+      "source_content": "<BrowserWindow url=\"http://homeassistant.local:8123\">\n<center>\n![SSH](/img/en/linux/ssh_web.png)\n</center>\n</BrowserWindow>",
+      "source_content_hash": "86ef70fb101a344ed817e350f4a8641b5174cafda42516241ad99691a9c1a3d4",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_99d14dfd"
+      }
+    },
+    {
+      "segment_id": "135468ee",
+      "source_content": "w ten sposób nawiążemy połączenie SSH z kontenera Dockera (Home Assistant) do hosta Dockera (systemu Linux na bramce):",
+      "source_content_hash": "e110b94df794f1fe330247e75c2c68ac85bad79aa602166b13f01a89d29a2b44",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "这样就能建立从Docker容器（Home Assistant）到Docker宿主机（网关Linux系统）的SSH连接："
+      }
+    },
+    {
+      "segment_id": "1641af73",
+      "source_content": "<BrowserWindow url=\"http://homeassistant.local:8123\">\n<center>\n![SSH](/img/en/linux/ssh_web2.png)\n</center>\n</BrowserWindow>",
+      "source_content_hash": "4d20ad5285b053d80cb75a0a349da7e936821fd5eb5f68724b9b1a2924e96c61",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_1641af73"
+      }
+    },
+    {
+      "segment_id": "8bddee80",
+      "source_content": "## Dodatki",
+      "source_content_hash": "6cb575d2f0bd45326179c38ef592686f141f8364e05cdffebc7159f5c484f47e",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 插件"
+      }
+    },
+    {
+      "segment_id": "a9d49f92",
+      "source_content": "System ma preinstalowane następujące dodatki:",
+      "source_content_hash": "1b949a7e2c2a1f722863413e2af30f5edcbad88a41cde4d507b21577bdc46e8a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "系统预装了以下插件："
+      }
+    },
+    {
+      "segment_id": "40251870",
+      "source_content": "- AIS Cloudflared - zdalny dostęp do systemu Home Assistant\n- EMQX - broker MQTT\n- File editor - edytor plików\n- Terminal & SSH - konsola do systemu",
+      "source_content_hash": "8c8642b320a2f6481084d585e8bfda47385ee208a2d1b1c586e9d6c2aa7abc88",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- AIS Cloudflared - 远程访问Home Assistant系统\n- EMQX - MQTT代理\n- File editor - 文件编辑器  \n- Terminal & SSH - 系统终端"
+      }
+    },
+    {
+      "segment_id": "bc38848e",
+      "source_content": "<BrowserWindow url=\"http://homeassistant.local:8123\">\n<center>\n![SSH](/img/en/linux/ha_addons.png)\n</center>\n</BrowserWindow>",
+      "source_content_hash": "03cd91fbe9bc2f64b26506056ccd7a4b0b69375131c7fb6b8b2e6fba82293ee9",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_bc38848e"
+      }
+    },
+    {
+      "segment_id": "1131ef75",
+      "source_content": "Pozwala to na łatwe rozpoczęcie pracy gotowymi do pracy przydatnymi narzędziami.",
+      "source_content_hash": "8e7dae968cc2cba2cba50c0657ac145d65392c328c43abd5e93376c72eb7a98a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "这些开箱即用的实用工具可帮助您快速开始工作。"
+      }
+    },
+    {
+      "segment_id": "8b2a52b1",
+      "source_content": "Inne dodatki można instalować ze sklepu z dodatkami:",
+      "source_content_hash": "90e54734e171be343f4a3c3d7b893e1680922e9b60d91da025a138135dbad35a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "其他插件可通过插件商店安装："
+      }
+    },
+    {
+      "segment_id": "19418b89",
+      "source_content": "<BrowserWindow url=\"http://homeassistant.local:8123\">\n<center>\n![SSH](/img/en/linux/ha_addons_store.png)\n</center>\n</BrowserWindow>",
+      "source_content_hash": "21d0ac25467cce1448157a6f0c4892ddb2ba703e3e99ef080b6f0a12f741e221",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_19418b89"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_linux_info.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.120988+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "97a69087e3e0a7b6b18bba41b98160f03328ec6fd7cea79aa57c3978d1ca761c"
+  }
+}

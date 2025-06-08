@@ -1,0 +1,482 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2020-08-12-release-notes.md",
+  "source_file_content_hash": "4268e79f8cd46bbda2bca3c27e0345ca46efa39d5879e559bd5e626bf365adc1",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Jola AI-Speaker\nauthorURL: https://github.com/sviete\nauthor_title: Asystentka\nauthorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4\ntitle: Wersja systemu 0.113.4\ntags: [\"location\", \"gps\", \"demo\", \"home assistant\", \"zigbee2mqtt\", \"apk api\"]\n---",
+      "source_content_hash": "ec4e7736c27ae12fc1000d34c13a667236927eb3d6519bb4f816bdd586210586",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "1cc03ec8",
+      "source_content": "# 0.113.4 Gdzie jest Jolka?",
+      "source_content_hash": "8c646bcf73dc6023e0831244061b62654a75b88d7c4cb3e75d4e91dcea358f75",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# 0.113.4 小雅在哪里？"
+      }
+    },
+    {
+      "segment_id": "143e51c1",
+      "source_content": "- ![GPS](/img/en/blog/202008/spy.png) Raportowanie adresu [...](/blog/2020/08/12/release-notes#location-raportowanie-adresu)\n- ![Komendy](/img/en/blog/202007/mobile-request.png) Zdalne zapytania o aktualną lokalizację osoby [...](/blog/2020/08/12/release-notes#komendy-zdalne-zapytania-i-komendy) \n- ![Demo](/img/en/blog/202008/demo_icon.png) DEMO Aplikacji [...](/blog/2020/08/12/release-notes#demo-demo-aplikacji)\n- ![Tasmota](/img/en/blog/202005/tasmota_small.png) Tasmota 8.4.0 George [...](/blog/2020/08/12/release-notes#tasmota-tasmota-840-george)\n- ![Zigbee](/img/en/blog/202007/zigbee.png) Zigbee2Mqtt 1.14.2 [...](/blog/2020/08/12/release-notes#zigbee-zigbee2mqtt-1142)\n- ![EXTA LIFE](/img/en/blog/202007/exta_life.png) Najnowsza wersja integracji EXTA LIFE [...](/blog/2020/08/12/release-notes#exta-life-najnowsza-wersja-integracji-exta-life)\n- ![Home Assistant](/img/en/blog/202007/hass.png) Home Assistant 1.13.3 [...](/blog/2020/08/12/release-notes#home-assistant-nowy-home-assistant)",
+      "source_content_hash": "837bed611bd8e5aaacfc4b18030e4680ca67c077f99fee2ab1d13d36759b2af2",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- ![GPS](/img/en/blog/202008/spy.png) 地址上报功能 [...](/blog/2020/08/12/release-notes#location-raportowanie-adresu)\n- ![Komendy](/img/en/blog/202007/mobile-request.png) 远程查询人员实时位置 [...](/blog/2020/08/12/release-notes#komendy-zdalne-zapytania-i-komendy) \n- ![Demo](/img/en/blog/202008/demo_icon.png) 应用演示版 [...](/blog/2020/08/12/release-notes#demo-demo-aplikacji)\n- ![Tasmota](/img/en/blog/202005/tasmota_small.png) Tasmota 8.4.0 George固件 [...](/blog/2020/08/12/release-notes#tasmota-tasmota-840-george)\n- ![Zigbee](/img/en/blog/202007/zigbee.png) Zigbee2Mqtt 1.14.2 [...](/blog/2020/08/12/release-notes#zigbee-zigbee2mqtt-1142)\n- ![EXTA LIFE](/img/en/blog/202007/exta_life.png) EXTA LIFE集成最新版本 [...](/blog/2020/08/12/release-notes#exta-life-najnowsza-wersja-integracji-exta-life)\n- ![Home Assistant](/img/en/blog/202007/hass.png) Home Assistant 1.13.3 [...](/blog/2020/08/12/release-notes#home-assistant-nowy-home-assistant)"
+      }
+    },
+    {
+      "segment_id": "1ba7fe10",
+      "source_content": "<!--truncate-->",
+      "source_content_hash": "f5cded2aa7e288e395fe4f67f9dabda2281904b2f5358d07302b3aa8be0acdfa",
+      "node_type": "comment",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_1ba7fe10"
+      }
+    },
+    {
+      "segment_id": "40f9552a",
+      "source_content": "## ABC bezproblemowej aktualizacji",
+      "source_content_hash": "c90f3410f68be4e7ee6017947af078313ab12a12edc09598ec43646aef83e69a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 无忧升级指南"
+      }
+    },
+    {
+      "segment_id": "64f5e8db",
+      "source_content": ":::tip[A Kopia zapasowa.]\nUWAGA Przed aktualizacją zalecamy wykonać [kopię zapasową konfiguracji](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji). W ten sposób sprawdzisz poprawność swojej konfiguracji przed rozpoczęciem aktualizacji i zwiększysz prawdopodobieństwo bezproblemowej aktualizacji.\n:::",
+      "source_content_hash": "c69eec16b9c7db90d5c4d7a1d39350da4f7f6d16adca68de3f1ba46c5fb6271c",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::tip[A 备份配置]\n重要提示：升级前建议先执行[配置备份](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji)。通过此操作可在升级前验证配置的正确性，显著提高升级成功率。\n:::"
+      }
+    },
+    {
+      "segment_id": "57971bfb",
+      "source_content": ":::important[B Konsola i logi.]\nW razie problemów z aktualizacją, sprawdź procedurę [Aktualizacja z konsoli](/docs/ais_bramka_update_manual) lub [Wykonanie pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step).\nTo może dotyczyć szczególnie osób, które instalują na bramce dodatkowe niestandardowe komponenty.\n:::",
+      "source_content_hash": "87d99899b1b8b27c103a407a200a2efe93bec61340fa002e29a3799026d9edc1",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::important[B 控制台与日志]\n若升级遇到问题，请查阅[通过控制台升级](/docs/ais_bramka_update_manual)或[执行应用完全重置](/docs/ais_bramka_reset_ais_step_by_step)流程说明。\n特别是为网关安装了非标准组件的用户需特别注意此项。\n:::"
+      }
+    },
+    {
+      "segment_id": "b56ef571",
+      "source_content": ":::caution[C Pierwsze uruchomienie po aktualizacji]\n **Po aktualizacji pierwsze uruchomienie może trwać nawet 20 minut.**\n W tym czasie aktualizowane są biblioteki do integracji dodanych na bramce i baza danych jest migrowana do nowego formatu.\n **Poczekaj cierpliwie na zakończenie aktualizacji.**\n:::",
+      "source_content_hash": "054ae5b1717f71618a728a15e685a8fcb89bd66eee9317a5bf880712aafebf32",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[C 升级后首次启动]\n **升级后的首次启动过程可能持续长达20分钟。**\n 在此期间，网关将更新已安装集成所需的依赖库，并将数据库迁移至新格式。\n **请耐心等待升级完成。**\n:::"
+      }
+    },
+    {
+      "segment_id": "9f9e64f5",
+      "source_content": "## ![Location](/img/en/blog/202008/spy.png) Raportowanie adresu",
+      "source_content_hash": "684b6a84a5343dd2aa2b33e5c86dabf94f893261b03fe979c9ec5e64b284e731",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![Location](/img/en/blog/202008/spy.png) 地址上报功能"
+      }
+    },
+    {
+      "segment_id": "95e9ba12",
+      "source_content": "Istnieją różne sposoby wykrywania obecności w systemie Asystent domowy. Wiemy, że nie każdy jest w stanie zrozumieć webhooki, api... i inne techniczne zawiłości, dlatego dodaliśmy łatwe raportowanie lokalizacji z naszej aplikacji AIS dom bezpośrednio do bramki w domu.",
+      "source_content_hash": "dc85d34dc814d6e81f26ecdff60f7da0946dcced1116292bbb4707d3b7cd5e2b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "家庭助理系统提供多种存在检测方案。我们理解并非所有用户都能掌握webhook、API等技术细节，因此新增了通过AIS dom应用直接向家庭网关上报位置的简易方案。"
+      }
+    },
+    {
+      "segment_id": "8af76f3d",
+      "source_content": "![Location](/img/en/blog/202008/presence_detection_00.png)",
+      "source_content_hash": "443c467456694052414ae72c807f4a1e597b04d08ba8c2c3e3a14dc0df71b602",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Location](/img/en/blog/202008/presence_detection_00.png)"
+      }
+    },
+    {
+      "segment_id": "a9d49f92",
+      "source_content": "W dokumentacji wyjaśniamy jak skonfigurować [wykrywanie obecności i stowrzyć automatyzację opartą na strefach](/docs/ais_bramka_presence_detection).",
+      "source_content_hash": "ce929bfc11b0b638ea78f2e82de1214e7250b944bb99190f639a2369b5eeec44",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "文档中详细说明了如何配置[存在检测及创建基于地理围栏的自动化](/docs/ais_bramka_presence_detection)。"
+      }
+    },
+    {
+      "segment_id": "a44047a5",
+      "source_content": "Dodaliśmy też nową komendę [sprawdzenie lokalizacji osoby](/docs/ais_app_assistent_commands/#sprawdzenie-lokalizacji-osoby), czyli wystarczy zapytać",
+      "source_content_hash": "77b6b8874c457c67dcc1c828d3ed0b1a5c33bee7a1e94f6c9783b3e389487d0d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们还新增了[人员位置查询](/docs/ais_app_assistent_commands/#sprawdzenie-lokalizacji-osoby)指令，只需询问"
+      }
+    },
+    {
+      "segment_id": "64b6f348",
+      "source_content": "```text\nGdzie jest {osoba}\n```",
+      "source_content_hash": "cc96a771e628991e8330f916da205c04a4796630d87dfbffb78350b93d39aeb6",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_64b6f348"
+      }
+    },
+    {
+      "segment_id": "d3649a1e",
+      "source_content": "lub",
+      "source_content_hash": "d0afe5ed2bd67151d4dd103cbc58f94c43e56d5ebb122e9538f2718ee6d48c4c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "或"
+      }
+    },
+    {
+      "segment_id": "c3955998",
+      "source_content": "```text\nLokalizacja {osoba}\n```",
+      "source_content_hash": "c29d4aad8a7543bb29f38dfd744e675e3d5e642aa6d770a52afde50d36687005",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_c3955998"
+      }
+    },
+    {
+      "segment_id": "1131ef75",
+      "source_content": "żeby otrzymać informację o lokalizacji. Jest to najbardziej aktualna lokalizacja zaraportowana do bramki z powiązanych z osobą urządzeń śledzących.\nPrzesyłamy z aplikacji kilka danych dotyczących lokalizacji, także adres osoby (jeśli uda się go ustalić po współrzędnych). W ten sposób odpowiedź na pytanie \"Gdzie jest osoba x\" jest bardziej informacyjna.",
+      "source_content_hash": "c426df06da211bbf2fcf4ce999448f95d20be38ab23c535e85299144d5ab04cb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "即可获取实时位置信息。该数据来源于与该人员关联的追踪设备上报至网关的最新定位信息。\n系统会从应用程序传输包括人员地址（若可通过坐标解析）在内的多项定位数据，使得\"某人在哪里\"的应答更具信息量。"
+      }
+    },
+    {
+      "segment_id": "79ad944d",
+      "source_content": "![Location](/img/en/blog/202008/person_info.png)",
+      "source_content_hash": "42b562d014333674ab6ecc153fc055e47a68c3a159267142b9ab05bae081d535",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Location](/img/en/blog/202008/person_info.png)"
+      }
+    },
+    {
+      "segment_id": "cc486557",
+      "source_content": ":::info[Ta funkcjonalność wymaga aplikacji AIS dom w wersji 1.4.4 lub nowszej.]\nOczywiście to, czy dane o adresie będą wysyłane, zależy od tego, czy:\n\n1. Przyznasz uprawnienia do sprawdzania lokalizacji dla aplikacji AIS dom\n2. Włączysz serwis raportujący lokalizację\n3. Uda się ustalić adres dla wykrytych współrzędnych (jeżeli nie, to wysyłamy do bramki same współrzędne z GPS)\n:::",
+      "source_content_hash": "bd548d5981812d6866b36829576f205de24095b12d32f0d1e53864a52e351cfe",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::info[该功能需AIS dom应用1.4.4及以上版本]\n是否传输地址数据取决于以下条件：\n\n1. 是否授予AIS dom应用位置访问权限\n2. 是否启用位置上报服务\n3. 能否通过坐标解析出地址（若失败则仅传输GPS坐标数据）\n:::"
+      }
+    },
+    {
+      "segment_id": "93028a4e",
+      "source_content": "## ![Komendy](/img/en/blog/202007/mobile-request.png) Zdalne zapytania i komendy",
+      "source_content_hash": "2f74285c305575c01973fe71e14a483a7086c323e2b3e9614ae964a33222a488",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![Komendy](/img/en/blog/202007/mobile-request.png) 远程查询与指令"
+      }
+    },
+    {
+      "segment_id": "e8e162a9",
+      "source_content": "Możemy z bramki wysłać komendę do aplikacji mobilnej i np. zapytać o aktualną lokalizację osoby.",
+      "source_content_hash": "7144d7b3e6221324ede476f6c89f1bf289c2ac4b19dfeb69ae84ff8e6180f181",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "用户可通过网关向移动端发送指令，例如查询人员的实时位置。"
+      }
+    },
+    {
+      "segment_id": "463ed165",
+      "source_content": "Na bramce dostępna jest usługa ``ais_ai_service.mob_request``, która umożliwia wysłanie z bramki komendy (zapytania/żądania) do aplikacji mobilnej **AIS dom**.\nDzięki temu za pomocą automatyzacji możemy zdalnie z bramki zapytać o aktualną lokalizację urządzenia (włączyć zdalnie raportowanie lokalizacji).",
+      "source_content_hash": "03e07c61dd44d309fa273cd1b84123b75dc316d6796720dc13edfe42d210dfea",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "网关提供``ais_ai_service.mob_request``服务，支持向**AIS dom**移动应用发送指令（查询/请求）。\n通过自动化功能，用户可远程触发设备定位上报（开启临时位置追踪）。"
+      }
+    },
+    {
+      "segment_id": "a1fa5396",
+      "source_content": "Opis dostępnych komend znajduje się w dokumentacji Komendy wysyłane z bramki do aplikacji mobilnej",
+      "source_content_hash": "6ae8a142839e4cb6b4d9f014600347ee8825d57f6f8194aaec4625d04a26551b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "完整指令说明详见文档《从网关发送至移动应用的指令》"
+      }
+    },
+    {
+      "segment_id": "17f43a45",
+      "source_content": ":::caution[UWAGA]\nMożna z bramki (do której jesteśmy zalogowani) wysłać komendę do urządzenia mobilnego i zdalnie włączyć raportowanie lokalizacji lub mikrofon, **tylko jeśli włączony jest stosowny dostęp (do mikrofonu i/lub lokalizacji) na urządzeniu mobilnym**.\n\nPokazujemy w powiadomieniu, że taka zdalna komenda jest uruchomiona - żeby było to jasne dla właściciela urządzenia.\n:::",
+      "source_content_hash": "c7f2ac836aac4fdb6c0269115df20f348075e7cee7948df75949747f45ba316d",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[注意]\n仅当移动设备已启用相应权限（麦克风/定位）时，登录网关的用户才能远程触发定位上报或麦克风启用指令。\n\n系统会在通知栏明确显示远程指令的执行状态，确保设备所有者知情。\n:::"
+      }
+    },
+    {
+      "segment_id": "f6b04a59",
+      "source_content": "## ![Demo](/img/en/blog/202008/demo_icon.png) DEMO Aplikacji",
+      "source_content_hash": "a2a386074695fb9a136d59f5ad403d870b8154f43d6e6d078258627016192945",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![Demo](/img/en/blog/202008/demo_icon.png) 应用演示版"
+      }
+    },
+    {
+      "segment_id": "82e90254",
+      "source_content": "Trwają dalsze prace nad dodaniem [DEMO aplikacji Asystent domowy](https://demo.ai-speaker.com/), na którym prezentujemy podstawowe możliwości Asystenta domowego.\nChcemy zaprezentować na osobnych widokach podstawowe encje*, jakie są dostępne w Asystencie domowym.",
+      "source_content_hash": "a2c9717921d1be4d462f56eb4b46768f799bcd92707ea3d364a81b84c52e062b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们正在持续开发[家庭助理演示平台](https://demo.ai-speaker.com/)，用于展示系统核心功能。\n计划通过独立界面呈现家庭助理中的基础实体*类型，包括："
+      }
+    },
+    {
+      "segment_id": "1862c5fe",
+      "source_content": "*Encje to reprezentacje urządzeń (najczęściej), każda encja definiuje możliwości danego typu urządzenia.\nDzięki temu użytkownik, który sprawdzi jak w systemie działa sterowanie żarówką firmy np. IKEA, będzie wiedział, że tak samo zadziała sterowanie żarówką PHILIPS itd. (bez względu na protokoły i API użyte przez producentów tych urządzeń).",
+      "source_content_hash": "d47e9b18ba3eaeb72fdbc3f1569ee50de8f65d8f4126bdc69ce47db28eccc3cc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "*实体是设备（最常见）的抽象表示，每个实体定义了特定类型设备的功能集。通过这种方式，当用户了解了系统中如何控制例如IKEA品牌的灯泡后，就能明确PHILIPS等品牌的灯泡操作逻辑也将相同（无论设备制造商采用何种通信协议或API）。"
+      }
+    },
+    {
+      "segment_id": "d79a4831",
+      "source_content": "![DEMO](/img/en/blog/202008/demo.png)",
+      "source_content_hash": "d9751a9f7b1525ab45ada354cfac8cf5db904a95ca2be245928867914787c3de",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![DEMO](/img/en/blog/202008/demo.png)"
+      }
+    },
+    {
+      "segment_id": "2838eb68",
+      "source_content": "Demo z założenia ma być interaktywne - można kliknąć i sterować urządzeniami albo powiedzieć komendę i wypróbować jak działa. Dodatkowo planujemy pokazać na kamerze efekt tego, co robimy w systemie - demo podłączone jest do prawdziwych urządzeń.",
+      "source_content_hash": "ff9fbee875f40f9e29be62b6582489738b07bb798f3a0c417846de16abd767be",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "演示版设计为交互式体验——用户可点击控制设备，或通过语音指令测试功能。我们还计划通过实时摄像头展示系统操作的实际效果——演示环境连接了真实物理设备。"
+      }
+    },
+    {
+      "segment_id": "4be28ed1",
+      "source_content": "Encje, które opisujemy na początku, to:",
+      "source_content_hash": "51644eefae2f2e2608051a20b3420edb3441c9b7167dae473823cafb6619c3af",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们首批描述的实体类型包括："
+      }
+    },
+    {
+      "segment_id": "7a3b7c62",
+      "source_content": "- Air Quality\n- Alarm Control Panel\n- Binary Sensor\n- Cam\n- Climate\n- Cover\n- Device tracker\n- Fan\n- Light\n- Lock\n- Media Player\n- Person\n- Remote\n- Sensor\n- Switch\n- Vacuum\n- Water Heater\n- Weather",
+      "source_content_hash": "7494b4610dd45eeedb23fdc10dab2c8a59dde7aef9eba352f4f99bbc9b314248",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 空气质量传感器\n- 报警控制面板  \n- 二进制传感器\n- 摄像头\n- 气候控制\n- 窗帘控制器\n- 设备追踪器\n- 风扇\n- 灯光\n- 门锁\n- 媒体播放器\n- 人员\n- 遥控器\n- 传感器\n- 开关\n- 吸尘器\n- 热水器\n- 天气"
+      }
+    },
+    {
+      "segment_id": "36d6c3de",
+      "source_content": "## ![Tasmota](/img/en/blog/202005/tasmota_small.png) Tasmota 8.4.0 George",
+      "source_content_hash": "7cea70b3d6a1c4c48cf4d7a525a283d66a178a792615da4a274221520eaac773",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![Tasmota](/img/en/blog/202005/tasmota_small.png) Tasmota 8.4.0 George版本"
+      }
+    },
+    {
+      "segment_id": "c364340c",
+      "source_content": "Wydaliśmy kolejną kompilację oprogramowania do urządzeń IoT na bazie ESP8266.",
+      "source_content_hash": "6b5766d35092a285d14aa95f35a7c214a8e46b11531c4104ea94f119ba0ace3c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们发布了基于ESP8266的物联网设备固件新版本。"
+      }
+    },
+    {
+      "segment_id": "f45239ba",
+      "source_content": "Jak zwykle doszło kilka poprawek i ulepszeń, opisujemy je wszsytkie na naszym forum:\nhttps://ai-speaker.discourse.group/t/ais-tasmota-v8-4-0-george/640",
+      "source_content_hash": "a7b29f5a06e24e20cc6e1622deda8419c1bf4e1c5b7786df2040b94e821e93eb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "本次更新包含多项改进与修复，完整说明详见论坛：\nhttps://ai-speaker.discourse.group/t/ais-tasmota-v8-4-0-george/640"
+      }
+    },
+    {
+      "segment_id": "5c7d994c",
+      "source_content": "Największa zmiana to dodanie większej ilości kompilacji. Wszystkie warianty dostępne są w naszym serwisie [Github FIRMWARE](https://github.com/sviete/AIS-Tasmota/tree/firmware)",
+      "source_content_hash": "3d02380e502c0fa955786b249fc6590295bf53c6c54ed0f95bc9834a306cecbc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "最大变更是增加了更多编译版本，所有变体均可在[Github FIRMWARE](https://github.com/sviete/AIS-Tasmota/tree/firmware)仓库获取。"
+      }
+    },
+    {
+      "segment_id": "1ecf0882",
+      "source_content": "![AIS Tasmota](/img/en/blog/202008/ais_tasmota.png)",
+      "source_content_hash": "109ed9acdd9c4dcbb4db3fc07de7b1fbf848c08ce291870b2409866888f03419",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS Tasmota](/img/en/blog/202008/ais_tasmota.png)"
+      }
+    },
+    {
+      "segment_id": "e77cf7c6",
+      "source_content": "Doszła też kompilacje dla ESP32, na razie jeszcze eksperymentalnie, ale już widzimy, że Tasmota jest bardziej stabilna i ma większe możliwości niż inne rozwiązania dla ESP32. \nMamy nadzieję, że zaowocuje to niebawem wieloma fajnymi dodatkami do Asystenta domowego :)\n![AIS ESP32](/img/en/blog/202008/ESP32.png)",
+      "source_content_hash": "dc758c9404a0b185c815fe54d56accb4c41d820e47ee393c2f9afb82324f1f9e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "新增了对ESP32的实验性支持，目前测试显示Tasmota在ESP32平台上的稳定性和功能扩展性优于其他解决方案。期待这能为智能家居助手带来更多创新功能 :)\n![AIS ESP32](/img/en/blog/202008/ESP32.png)"
+      }
+    },
+    {
+      "segment_id": "af843cee",
+      "source_content": "## ![Zigbee](/img/en/blog/202007/zigbee.png) Zigbee2Mqtt 1.14.2",
+      "source_content_hash": "81eeefd1ecd09d465c1bb5f7744f141eb57c31c44a3368e79ae415c5b9ae2580",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![Zigbee](/img/en/blog/202007/zigbee.png) Zigbee2Mqtt 1.14.2版本"
+      }
+    },
+    {
+      "segment_id": "681ef526",
+      "source_content": "Głównie poprawki działania, ale też jak zwykle nowe urządzenia. Cały log zmian znajdziecie tu:\n[![AIS zigbee2mqtt](/img/en/blog/202008/zigbee2mqtt.png)](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.14.2)",
+      "source_content_hash": "44c1696095ff902bc90869c4cbfcb8cebb290c09f1795c98ee973bd5fb4caeca",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "主要是功能修复，同时新增设备支持。完整更新日志参见：\n[![AIS zigbee2mqtt](/img/en/blog/202008/zigbee2mqtt.png)](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.14.2)"
+      }
+    },
+    {
+      "segment_id": "3cd8185f",
+      "source_content": "## ![EXTA LIFE](/img/en/blog/202007/exta_life.png) Najnowsza wersja integracji EXTA LIFE",
+      "source_content_hash": "4e30973ecbb8244751448eb332a972d6c69f7a5035d16f23bec8531cc9254e51",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![EXTA LIFE](/img/en/blog/202007/exta_life.png) EXTA LIFE集成最新版本"
+      }
+    },
+    {
+      "segment_id": "3e8f45da",
+      "source_content": "Cytując dgtal1",
+      "source_content_hash": "69f07ae58ea1e7fa2cc98a472ccaedac9ca506c3b39dda3216fe1f7933c11992",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "引用dgtal1的说明："
+      }
+    },
+    {
+      "segment_id": "81da05a5",
+      "source_content": "> Kolejna wersja integracji z kilkoma poprawkami oraz dodanym wsparciem dla obsługi urządzeń z serii Exta Free, tych, które oficjalnie wspiera oprogramowanie kontrolera EFC-01.\nCały log zmian tu:\n[![AIS exta](/img/en/blog/202008/exta.png)](https://github.com/dgtal1/extalife_custom_component/releases/tag/2.0b2)",
+      "source_content_hash": "54930dd94e256d5cb1fb15d487af70be0573715e0305a3f952fc98f607095c32",
+      "node_type": "blockquote",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "> 此版本包含多项修复，并新增对Exta Free系列设备的支持——这些是EFC-01控制器官方兼容的设备。\n完整变更日志：\n[![AIS exta](/img/en/blog/202008/exta.png)](https://github.com/dgtal1/extalife_custom_component/releases/tag/2.0b2)"
+      }
+    },
+    {
+      "segment_id": "c6b2ca77",
+      "source_content": "## ![Home Assistant](/img/en/blog/202007/hass.png) Nowy Home Assistant",
+      "source_content_hash": "eb581dbd47d3db30238ecc40814809dc4756d8051c13f6f4606a21756665d7a0",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![Home Assistant](/img/en/blog/202007/hass.png) 新版Home Assistant"
+      }
+    },
+    {
+      "segment_id": "d2a3d4c7",
+      "source_content": "Najnowszy (stabilny) [Home Assistant 0.113.3](https://www.home-assistant.io/blog/2020/07/22/release-113/)\nPoprawki w automatyzacji - opisane na naszym forum: https://ai-speaker.discourse.group/t/0-113-beta-wydana/594",
+      "source_content_hash": "6d7e4938820ace5d4b4d7df64ce5c3d229edb4a217017c3474da3b5d74b3314b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "最新稳定版[Home Assistant 0.113.3](https://www.home-assistant.io/blog/2020/07/22/release-113/)\n自动化功能修复 - 详见我们的论坛讨论：https://ai-speaker.discourse.group/t/0-113-beta-wydana/594"
+      }
+    },
+    {
+      "segment_id": "2dbfc5f7",
+      "source_content": "![Home Assistant](/img/en/blog/202008/ha_0.13.3.png)",
+      "source_content_hash": "6eaee2e0ae01d0ffe3a1358f2f2a401a59a79ddf57bb94cb37c6b8cf3a15ddfe",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Home Assistant](/img/en/blog/202008/ha_0.13.3.png)"
+      }
+    },
+    {
+      "segment_id": "7dfee470",
+      "source_content": "----",
+      "source_content_hash": "bd64bb8efa5b3f27e6442f23600c3b516127ea17e23724b41e50da4c22883edd",
+      "node_type": "thematicBreak",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "----"
+      }
+    },
+    {
+      "segment_id": "58f98d22",
+      "source_content": "Zapraszamy do aktualizacji i [komentowania na forum :)](https://ai-speaker.discourse.group/)\nAI-Speaker 07/2020\n----",
+      "source_content_hash": "570e0f723f0239cf93bfbd083c037b5f6ed278cac876fef613ad755aa3e72b79",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "欢迎升级并[参与论坛讨论 :)](https://ai-speaker.discourse.group/)\nAI-Speaker 2020年7月\n----"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2020-08-12-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.104073+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "4268e79f8cd46bbda2bca3c27e0345ca46efa39d5879e559bd5e626bf365adc1"
+  }
+}

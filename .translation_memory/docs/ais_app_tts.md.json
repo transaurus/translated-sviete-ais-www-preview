@@ -1,0 +1,212 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_app_tts.md",
+  "source_file_content_hash": "cb8c05175a89ec053da939c1e6a4ca3bc54d28232a74a968f1a397d7470f8794",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"AIS Lokalny TTS\"\nsidebar_label: AIS Lokalny TTS\n---",
+      "source_content_hash": "27989b560ade152030f8215acc86e99b0ffee9a91b90d68a386a9fff8d5ccafc",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## AIS Lokalny TTS",
+      "source_content_hash": "c2b5fef4841e167e85aa40fa01371e5758c9544c8b802426cdd1c934314e0cb9",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## AIS 本地文本转语音(TTS)"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "System posiada funkcjonalność umożliwiającą zamianę tekstu na mowę.",
+      "source_content_hash": "35ba51a6c2922244dd940c7962a750f79738254f035e9f1e8ded8a2294737eac",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "系统具备将文本转换为语音的功能。"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "W ten sposób ''Jolka'' rozmawia z użytkownikiem - odpowiada na pytania i potwierdza wykonanie komendy.",
+      "source_content_hash": "d20ecad0a0081b777184fa80793a9017248772d589bd17badaf168aeecc38e30",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过该功能，\"Jolka\"可与用户对话——回答提问并确认指令执行状态。"
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "![TTS](/img/en/frontend/ais_tts_app.png)",
+      "source_content_hash": "b1a181146ff57295183e760dddf1d675dfbb73fc159bf3ab16dedf562c3d1bb5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![TTS](/img/en/frontend/ais_tts_app.png)"
+      }
+    },
+    {
+      "segment_id": "e14c9928",
+      "source_content": "## Usługa zamiany tekstu na mowę",
+      "source_content_hash": "198cc671e2d92bd76f92acf4422528f7580ffd80afebf1f5d3b9bef38e1fa200",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 文本转语音服务"
+      }
+    },
+    {
+      "segment_id": "42ad8e83",
+      "source_content": "Bardziej zaawansowani użytkownicy mogą wykorzystać funkcjonalność zamiany tekstu na mowę we [własnych automatyzacjach oraz definiując własne komendy](/docs/ais_app_ai_integration#automatyzacje-uruchamiane-komendą).",
+      "source_content_hash": "4161112c22f2b93aaa4b39607054d6032ae97326c8e6375e530db54d2ec0b6c7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "高阶用户可在[自定义自动化及指令定义](/docs/ais_app_ai_integration#automatyzacje-uruchamiane-komendą)中调用该功能。"
+      }
+    },
+    {
+      "segment_id": "f6168993",
+      "source_content": "Zamiana tekstu na mowę realizowana jest przez usługę ``ais_ai_service.say_it``, usługę można wywołać we własnych automatyzacjach z dowolnym tekstem oraz innymi parametrami:",
+      "source_content_hash": "76dba1874ee6eeed9fc0bb4e3064140eccfd0ed777589dc24e38848a09d9a2a6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "文本转语音通过``ais_ai_service.say_it``服务实现，可在自动化中调用该服务并传入任意文本及其他参数："
+      }
+    },
+    {
+      "segment_id": "f5f6d2ce",
+      "source_content": "![TTS](/img/en/frontend/ais_tts_service_say_it.png)",
+      "source_content_hash": "93cc8d61d9c8d86ffc21eef7c92d2e1518a1f09f6728da4a8f31ac80eeecef5d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![TTS](/img/en/frontend/ais_tts_service_say_it.png)"
+      }
+    },
+    {
+      "segment_id": "ed7dde9c",
+      "source_content": "## Status mowy",
+      "source_content_hash": "f9e6831526e46a26d8dd106af90c67314d727cbe32908a31729bb47244d4d1fa",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 语音状态监测"
+      }
+    },
+    {
+      "segment_id": "a76548f8",
+      "source_content": "Dodatkowo w systemie dostępne jest zdarzenie ``ais_speech_status`` informujące o statusie mechanizmu TTS:",
+      "source_content_hash": "d31e6dc94a41cc06cf2f324e123c8e47e0cb3f34bea92356876ad9380318b1ed",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "系统还提供``ais_speech_status``事件来反馈TTS机制状态："
+      }
+    },
+    {
+      "segment_id": "4b1d2d7d",
+      "source_content": "![TTS](/img/en/frontend/ais_tts_service_speach_status.png)",
+      "source_content_hash": "e8d320c1400eeb97568100329242a49c293d8ff0c390b25439cb40693c6fa170",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![TTS](/img/en/frontend/ais_tts_service_speach_status.png)"
+      }
+    },
+    {
+      "segment_id": "73ab96a3",
+      "source_content": "Znając status mechanizmu TTS, wiemy kiedy Jolka (Marya, Allison, itd...) zaczeła lub skończyła mówić. \nMożemy to wykorzystać do automatyzacji, która będzie czytała teksty z kilku językach jeden po drugim. Dodając oczekiwanie na wyzwalacz ``ais_speech_status`` ze statusem ``DONE`` pomiędzy akcjami",
+      "source_content_hash": "8d2d0caaa1f42236ce26631b9c5d14714a0f154e77f761aee5dd0ce02bb16aaf",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过TTS状态监测，可精准获知Jolka（Marya、Allison等）语音启停时机。该特性可用于实现多语言逐条播报自动化——在连续播报动作间插入等待``ais_speech_status``状态变为``DONE``的触发器"
+      }
+    },
+    {
+      "segment_id": "517051a7",
+      "source_content": "![AIS TTS](/img/en/frontend/ais_tts_speech_status.png)",
+      "source_content_hash": "7ee18087e18e1ac3ee4755204c7b5cb99769ac1dc37afeebd3ea9a67b669e697",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS TTS](/img/en/frontend/ais_tts_speech_status.png)"
+      }
+    },
+    {
+      "segment_id": "135468ee",
+      "source_content": "Kod przykładowej automatyzacji realizującej taką funkcjonalność:",
+      "source_content_hash": "418c09d2b208720746c3fda0be8aa59cd6e1ad5cdf2dd29a1111a12f46c7c4a6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "实现该功能的示例自动化代码如下："
+      }
+    },
+    {
+      "segment_id": "a11df754",
+      "source_content": "``` yaml\nalias: Komunikat powitalny w 3 językach\ndescription: ''\ntrigger:\n  - platform: event\n    event_type: ais_key_event\n    event_data:\n      code: 1\ncondition: []\naction:\n  - service: ais_ai_service.say_it\n    data:\n      text: Witamy w parku rozrywki (komunikat po polsku)\n      language: pl_PL\n      voice: Jola\n  - wait_for_trigger:\n      - platform: event\n        event_type: ais_speech_status\n        event_data:\n          status: DONE\n  - service: ais_ai_service.say_it\n    data:\n      language: en_US\n      voice: Allison\n      text: Welcome to the amusement park (announcement in English)\n  - wait_for_trigger:\n      - platform: event\n        event_type: ais_speech_status\n        event_data:\n          status: DONE\n  - service: ais_ai_service.say_it\n    data:\n      language: uk_UA\n      voice: Mariya\n      text: Ласкаво просимо до парку розваг (анонс українською мовою)\nmode: single\n\n```",
+      "source_content_hash": "05653283959933a8464ad2fc53869bc0bfc7a5806bfe189e075fef5f5446176e",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_a11df754"
+      }
+    },
+    {
+      "segment_id": "e8e162a9",
+      "source_content": "Tak wygląda przebieg tej automatyzacji - widać, że kolejne komunikaty były zapowiadane dopiero, gdy dostaliśmy informację z systemu o tym, że TTS skończył czytać poprzedni komunikat:",
+      "source_content_hash": "f035492289555f6b27458a4f3de49e81f6204233dc69ec340878a3ec3e8d6d51",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "自动化执行过程如图所示——可见系统仅在收到前一条TTS播报完成信号后才会触发下一条播报："
+      }
+    },
+    {
+      "segment_id": "463ed165",
+      "source_content": "![AIS TTS](/img/en/frontend/ais_tts_speech_trace.png)",
+      "source_content_hash": "6e5e5d38ce8ff9faa6b569e61147d29053f423cf9cc750e59d87ff3a7addfbc8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS TTS](/img/en/frontend/ais_tts_speech_trace.png)"
+      }
+    },
+    {
+      "segment_id": "a1fa5396",
+      "source_content": "Możemy też wykonać automatyzację, która w czasie, gdy asystent mówi, ścisza muzykę, włącza światło lub zapisuje status mechanizmu TTS do encji typu pomocnik, a następnie wykorzystuje ją w interfejsie użytkownika, pokazując stan mowy.",
+      "source_content_hash": "389bfbf7fc278ab02361644f4a13f7c5504b470c8ed4276032b552138efdca8f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "还可构建以下自动化场景：在语音播报时调低音乐音量/开启灯光，或将TTS状态写入「助手」类型实体，最终在用户界面可视化呈现语音状态。"
+      }
+    },
+    {
+      "segment_id": "ec619944",
+      "source_content": "Na forum pokazujemy taki przykład: [AI-Speaker forum](https://ai-speaker.discourse.group/)",
+      "source_content_hash": "ad0495d4fbcd50a45f4e348566eab2ad39a89a1c6e9399a47f191dfd426d5d49",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们在论坛展示了具体案例：[AI-Speaker论坛](https://ai-speaker.discourse.group/)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_app_tts.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.141266+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "cb8c05175a89ec053da939c1e6a4ca3bc54d28232a74a968f1a397d7470f8794"
+  }
+}

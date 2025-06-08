@@ -1,0 +1,102 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_update_auto.md",
+  "source_file_content_hash": "bb5960391a4cffeca5729d75d8668b152dba30c1d35645cfd2c918159422ae27",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Aktualizacja automatyczna\"\nsidebar_label:  Aktualizacja automatyczna\n---",
+      "source_content_hash": "0a890a31748f68eac1eafee4cd624760469b7199abd7c80e17cf5a5c955e1dee",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "6ef78e84",
+      "source_content": "W aplikacji **Asystent domowy**, w menu wybieramy opcję **Konfiguracja** a następnie **Ustawienia bramki AIS dom**. W sekcji **Wersja systemu** dostępna jest informacja o aktualnej wersji składowych systemu.",
+      "source_content_hash": "e9cac4582220841f17b528ba7e44be28161688e2d1f6e96f4183fd0f1e82608f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在**家庭助手**应用中，通过菜单选择**配置**，然后进入**AIS dom网关设置**。在**系统版本**部分可查看当前系统组件的版本信息。"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "W sekcji tej możemy:",
+      "source_content_hash": "c40c3f5d92f7a3e9da0116af71a7a7b95ce2a41fea5028df52c18b4cabbd71f6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该部分支持以下操作："
+      }
+    },
+    {
+      "segment_id": "be33979e",
+      "source_content": "- Włączyć automatyczne aktualizacje systemu. Jeśli ta opcja jest aktywna, to codziennie sprawdzimy i automatycznie zainstalujemy dostępne aktualizacje składowych systemu Asystent domowy.\n- Uruchomić sprawdzenie dostępności aktualizacji.\n- Uruchomić ręczną instalację. Tu pojawi się informacja o dostępności nowej wersji składowych systemu oraz możliwość natychmiastowego uruchomienia aktualizacji (przydatne szczególnie w przypadku, gdy automatyczne aktualizacje nie są aktywowane).",
+      "source_content_hash": "afdd10373d8eec94a6ce848444b89f73a8cdadc8918483e0640e95d172f1003d",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 启用系统自动更新。激活后，系统将每日检查并自动安装家庭助手组件的可用更新\n- 手动触发更新检查\n- 执行手动安装。此处会显示系统组件新版本可用信息，并提供立即更新选项（特别适用于未启用自动更新的场景）"
+      }
+    },
+    {
+      "segment_id": "cf898102",
+      "source_content": "![Bramka AIS dom](/img/en/frontend/new_version_info.png)",
+      "source_content_hash": "a216251a3a4ec5bba3332de6b0ef64dce086b1f682b5c20c0668a8a3c158b99e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Bramka AIS dom](/img/en/frontend/new_version_info.png)"
+      }
+    },
+    {
+      "segment_id": "42ad8e83",
+      "source_content": "Aktualizacje dostarczają najnowsze funkcjonalności oraz poprawki zapewniające bezpieczeństwo i stabilność działania systemu dlatego zachęcamy do ich wykonywania.",
+      "source_content_hash": "27cfc5204e725166728b0889b74724d05d13a525c821e092d6f2b8d086eb5706",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "更新可提供最新功能和安全补丁，确保系统稳定安全运行，我们强烈建议定期执行更新。"
+      }
+    },
+    {
+      "segment_id": "f5f6d2ce",
+      "source_content": "Instalacja aktualizacji może być maksymalnie 4 etapowa (nie zawsze wszystkie etapy są wykonywane):",
+      "source_content_hash": "b3eb4e684f4fd69c490eea00d06d9db564151a10977488cbe0348d1bd979afd6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "更新安装最多包含4个阶段（并非所有阶段都会执行）："
+      }
+    },
+    {
+      "segment_id": "da23c906",
+      "source_content": "1. Uruchomienie skrypu dla wyania\n2. Aktualizacja środowiska Linux-a\n3. Aktualizacja platformy automatyzacji\n4. Aktualizacja aplikacji Android",
+      "source_content_hash": "049f5517c2d82743fb9ac46fb5e372b4ff365e03f2b4180ea9151aa4539cfe16",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "1. 执行预处理脚本\n2. 更新Linux环境\n3. 更新自动化平台\n4. 更新Android应用"
+      }
+    },
+    {
+      "segment_id": "a76548f8",
+      "source_content": "Wszystkie te etapy przebiegają automatycznie, po aktualizacji (jeżeli to konieczne) system uruchamia się ponownie i informuje nas, że  jest gotowy do pracy.",
+      "source_content_hash": "f67885b22cf901ed3aaba0b98e43a110bedd305c865c2f7fc895665daef7e885",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "所有阶段均自动完成。更新后如需重启，系统将自动重新启动并提示准备就绪。"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_update_auto.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.118483+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "bb5960391a4cffeca5729d75d8668b152dba30c1d35645cfd2c918159422ae27"
+  }
+}

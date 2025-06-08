@@ -1,0 +1,442 @@
+{
+  "homepage.ais_features.wifi.title": {
+    "message": "超过{devices}个WiFi设备",
+    "description": "Wifi number devices title"
+  },
+  "homepage.ais_features.wifi.description": {
+    "message": "{aisSocket}是控制家中设备的最简单方式。{aizWifiImg}这款智能插座运行在自由开源软件上。现在您可以从超过{moreWiFiDevices}个设备中选择，这些设备可以像我们的智能插座一样简单地连接到网关。",
+    "description": "Wifi number devices description"
+  },
+  "theme.NotFound.title": {
+    "message": "页面未找到",
+    "description": "The title of the 404 page"
+  },
+  "theme.NotFound.p1": {
+    "message": "我们找不到您要查找的内容。",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "请联系链接到原始URL的网站所有者，告知他们链接已失效。",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "关闭",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "博客列表页面导航",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "较新条目",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "较旧条目",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "1分钟阅读|{readingTime}分钟阅读",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "标签：",
+    "description": "The label alongside a tag list"
+  },
+  "theme.blog.post.readMore": {
+    "message": "阅读更多",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "博客文章页面导航",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "较新文章",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "较旧文章",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "标签",
+    "description": "The title of the tag list page"
+  },
+  "theme.blog.post.plurals": {
+    "message": "1篇文章|{count}篇文章",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts}篇标记为\"{tagName}\"的文章",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "查看所有标签",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "复制代码到剪贴板",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "已复制",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "复制",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "文档页面导航",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "上一页",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "下一页",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "展开侧边栏",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "展开侧边栏",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.responsiveCloseButtonLabel": {
+    "message": "关闭菜单",
+    "description": "The ARIA label for close button of mobile doc sidebar"
+  },
+  "theme.docs.sidebar.responsiveOpenButtonLabel": {
+    "message": "打开菜单",
+    "description": "The ARIA label for open button of mobile doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "折叠侧边栏",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "折叠侧边栏",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "这是{siteTitle} {versionLabel}版本的未发布文档。",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "这是{siteTitle} {versionLabel}版本的文档，已不再积极维护。",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "要查看最新文档，请访问{latestVersionLink}（{versionLabel}）。",
+    "description": "The label userd to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "最新版本",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "编辑此页",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "跳转到标题",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": "于{date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": "由{user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "最后更新{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "跳转到主内容",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.SearchPage.documentsFound.plurals": {
+    "message": "找到1个文档|找到{count}个文档",
+    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "“{query}”的搜索结果",
+    "description": "The search page title for non-empty query"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "搜索文档",
+    "description": "The search page title for empty query"
+  },
+  "theme.SearchPage.inputPlaceholder": {
+    "message": "在此输入搜索内容",
+    "description": "The placeholder for search page input"
+  },
+  "theme.SearchPage.inputLabel": {
+    "message": "搜索",
+    "description": "The ARIA label for search page input"
+  },
+  "theme.SearchPage.algoliaLabel": {
+    "message": "由Algolia提供搜索",
+    "description": "The ARIA label for Algolia mention"
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "未找到结果",
+    "description": "The paragraph for empty search result"
+  },
+  "theme.SearchPage.fetchingNewResults": {
+    "message": "正在获取新结果...",
+    "description": "The paragraph for fetching new search results"
+  },
+  "theme.SearchBar.label": {
+    "message": "搜索",
+    "description": "The ARIA label and placeholder for search button"
+  },
+  "theme.PwaReloadPopup.info": {
+    "message": "有新版本可用",
+    "description": "The text for PWA reload popup"
+  },
+  "theme.PwaReloadPopup.refreshButtonText": {
+    "message": "刷新",
+    "description": "The text for PWA reload button"
+  },
+  "theme.PwaReloadPopup.closeButtonAriaLabel": {
+    "message": "关闭",
+    "description": "The ARIA label for close button of PWA reload popup"
+  },
+  "Dokumentacja AIS": {
+    "message": "AIS文档",
+    "description": "The homepage title"
+  },
+  "Automatyzujemy Twój dom lokalnie.": {
+    "message": "本地自动化您的家居。",
+    "description": "The homepage description"
+  },
+  "homepage.hero_title": {
+    "message": "家庭助手",
+    "description": "The homepage hero title"
+  },
+  "homepage.hero_subtitle": {
+    "message": "智能家居自动化",
+    "description": "The homepage hero subtitle"
+  },
+  "homepage.demo_ask_to_try": {
+    "message": "想看看它是如何工作的吗？",
+    "description": "The homepage ask to try demo"
+  },
+  "homepage.demo_tip": {
+    "message": "点击这里👆查看我们的实时演示。",
+    "description": "The homepage tip to try demo"
+  },
+  "homepage.allegro_ask_to_try": {
+    "message": "购买我们的设备！",
+    "description": "The homepage ask to try demo"
+  },
+  "homepage.allegro_tip": {
+    "message": "点击这里👆前往我们的商店。",
+    "description": "The homepage tip to try demo"
+  },
+  "homepage.scroll_tip": {
+    "message": "滚动",
+    "description": "The homepage tip to scroll"
+  },
+  "Zainstaluj z Google Play.": {
+    "message": "从Google Play安装。",
+    "description": "Install from Google Play label"
+  },
+  "homepage.ais_announcement_line_one": {
+    "message": "我们通过结合本地控制的优势实现家居自动化",
+    "description": "Announcement line one"
+  },
+  "homepage.ais_announcement_line_two": {
+    "message": "和物联网云服务。",
+    "description": "Announcement line two"
+  },
+  "homepage.ais_announcement_line_three": {
+    "message": "我们整合了各种酷炫智能设备的世界，您可以控制和实现自动化。在这个世界里，您既能保持独立性，又能参与社区开源项目，享受无限可能和丰富教程。我们希望这个世界对所有人开放且更易触达。",
+    "description": "Announcement line three"
+  },
+  "homepage.ais_one_gate_for_all_text": {
+    "message": "多元智能解决方案，满足每个人的需求！",
+    "description": "One gate to rule them all text"
+  },
+  "homepage.ais_project_people_info": {
+    "message": "由人们创建并赞助的项目——感谢支持！",
+    "description": "This project is sponsored by people info"
+  },
+  "homepage.ais_project_join_button_line_4": {
+    "message": "加入我们！",
+    "description": "Join button line 4"
+  },
+  "homepage.ais_project_join_button_line_1": {
+    "message": "成为英雄。",
+    "description": "Join button line 1"
+  },
+  "homepage.ais_project_join_button_line_2": {
+    "message": "购买我们的设备",
+    "description": "Join button line 2"
+  },
+  "homepage.ais_project_join_button_line_3": {
+    "message": "支持项目发展。",
+    "description": "Join button line 3"
+  },
+  "homepage.ais_features.zigbee.title": {
+    "message": "支持{devices}款Zigbee设备",
+    "description": "Zigbee number devices title"
+  },
+  "homepage.ais_features.zigbee.description": {
+    "message": "通过{aisZigbee}可轻松将Zigbee设备接入网关。{aizZigbeeConnbee2Img} 我们网关预装的Zigbee2Mqtt软件兼容{moreZigbeeDevices}余款设备。",
+    "description": "Zigbee number devices description"
+  },
+  "homepage.ais_features.zwave.description": {
+    "message": "通过{aisZwave}可便捷连接Zwave设备。{aizZigbeeConnbee2Img} 网关搭载的ZwaveJs2Mqtt软件支持所有Zwave认证设备。",
+    "description": "Zwave in AIS description"
+  },
+  "homepage.ais_features.ha.title": {
+    "message": "🏠 超过{devices}种集成方案",
+    "description": "HA number of integrations title"
+  },
+  "homepage.ais_features.ha.description": {
+    "message": "网关预装软件包含AIS家庭自动化平台，该平台基于{aisHomeAssistant}分支开发。{aisHomeAssistantImg} 已预装{aisHomeAssistantIntegrations}种即用型集成，并可扩展支持Home Assistant社区开发的{moreHomeAssistantMoreIntegrations}余种集成方案。",
+    "description": "HA number of integrations description"
+  },
+  "homepage.ais_features.voice.title": {
+    "message": "语音控制{aisTtsStt}",
+    "description": "Voice commands in AIS title"
+  },
+  "homepage.ais_features.voice.description": {
+    "message": "我们提供{aisVoiceCommands}语音转文本和文本转语音功能，结合内置指令实现语音控制设备。{aisTtsSttImg} 可通过{aisVoiceCommandsWeb}网页应用、{aisVoiceCommandsMob}移动应用或{aisVoiceCommandsRemote}遥控器发送指令，还支持通过{aisVoiceCommandsApi}接口或其他系统调用，甚至自定义{aisVoiceCommandsCreate}语音指令。",
+    "description": "Voice commands in AIS description"
+  },
+  "homepage.ais_features.audio.description": {
+    "message": "网关内置{aisAudioPlayer}音频系统，支持数百个广播电台、播客、免费有声书及{aisAudioYouTube}和{aisAudioSpotify}内容。{aisAudioImg} 您还可通过{aisAudioPortal}自定义添加音频资源。",
+    "description": "Audio in AIS description"
+  },
+  "Lokalnie.": {
+    "message": "本地化。",
+    "description": "The typewriter item Lokalnie"
+  },
+  "Niezawodnie.": {
+    "message": "高可靠。",
+    "description": "The typewriter item Niezawodnie"
+  },
+  "Szybko.": {
+    "message": "极速。",
+    "description": "The typewriter item Szybko"
+  },
+  "Prywatnie.": {
+    "message": "私密性。",
+    "description": "The typewriter item Prywatnie"
+  },
+  "Prosto.": {
+    "message": "简约。",
+    "description": "The typewriter item Prosto"
+  },
+  "homepage.ais_features.zwave.title": {
+    "message": "{aisTtsStt}",
+    "description": "Voice commands in AIS title"
+  },
+  "homepage.ais_features.open.description": {
+    "message": "系统大部分组件的源代码已在{aisGithub}仓库开源。",
+    "description": "OpenSource in AIS description"
+  },
+  "homepage.ais_features.open.description1": {
+    "message": "{aizOpenSourceImg} 我们秉持开放理念，您可基于我们的设计{aisDevKit1}构建专属智能音箱。",
+    "description": "OpenSource in AIS description2"
+  },
+  "homepage.ais_features.services.title": {
+    "message": "🆓 免费云服务 ☁️",
+    "description": "Free services title"
+  },
+  "homepage.ais_features.pro_services.title": {
+    "message": "🏢 专业服务",
+    "description": "Pro services title"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "博客最新文章导航",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "侧边栏导航",
+    "description": "The ARIA label for documentation menu"
+  },
+  "homepage.ais_features.pro_services.description": {
+    "message": "我们提供AIS PRO产品线的AIoT网关，可选购商业服务器服务并享有运行保障。{aisProImg}",
+    "description": "Services number devices description"
+  },
+  "homepage.ais_features.services.description": {
+    "message": "DEV网关上的云服务由非营利组织{aisFosshost}托管。{aisFosshostImg} Fosshost专注于支持开源项目。",
+    "description": "Services number devices description"
+  },
+  "homepage.ais_features.pro_services.description2": {
+    "message": "我们开放AIS网关在商业产品中的应用提案。请联系info@ai-speaker.com洽谈合作条款。",
+    "description": "Services number devices description"
+  },
+  "homepage.ais_features.services.description2": {
+    "message": "了解更多免费AIS服务{aisFosshostFree}",
+    "description": "Services number devices description"
+  },
+  "homepage.ais_features.tunnel_service.title": {
+    "message": "🛡️ Cloudflare隧道",
+    "description": "Tunnel services title"
+  },
+  "homepage.ais_features.tunnel_service.description": {
+    "message": "通过互联网加密远程访问网关。",
+    "description": "Tunnel services description"
+  },
+  "homepage.ais_features.tunnel_service.description2": {
+    "message": "我们的云服务和网关隧道都受到{aisCloudFlare}服务保护，可防御直接攻击。无论通过局域网、移动应用还是互联网访问，您的网关都安全无忧。",
+    "description": "Tunnel services description2"
+  },
+  "home.featureList.dev3.title": {
+    "message": "AIS DEV3控制器",
+    "description": "AIS DEV3 Controller title"
+  },
+  "home.featureList.dev3.description": {
+    "message": "AIS DEV3控制器基于{soc}运行，内置存储，配备LAN/以太网、USB和HDMI接口。预装Home Assistant平台。",
+    "description": "Automation Controllers description"
+  },
+  "home.featureList.dev3.description.soc": {
+    "message": "高效组件",
+    "description": "Automation Controllers soc"
+  },
+  "home.featureList.pro1.title": {
+    "message": "AIS PRO1控制器",
+    "description": "PRO Controller"
+  },
+  "home.featureList.pro1.description": {
+    "message": "AIS PRO1采用高效的{soc}系统，内置WiFi和存储，配备LAN/以太网、USB、SPDIF、Aux、HDMI接口。预装Home Assistant平台。",
+    "description": "Amlogic SoC s922x-H"
+  },
+  "home.featureList.pro1.description.soc": {
+    "message": "晶晨SoC s922x-H",
+    "description": "Amlogic SoC s922x-H"
+  },
+  "home.featureList.adapter1.title": {
+    "message": "AIS适配器1",
+    "description": "AIS Adapter 1 title"
+  },
+  "home.featureList.adapter1.description": {
+    "message": "Zigbee 3.0适配器{info}支持128+个Zigbee设备（同时在线），覆盖范围200米，支持局域网工作！兼容Zigbee家庭自动化及Zigbee2mqtt。",
+    "description": "Automation Controllers description"
+  },
+  "home.featureList.adapter1.description.info": {
+    "message": "支持128+",
+    "description": "Automation Controllers soc"
+  },
+  "home.featureList.addToBasket": {
+    "message": "立即购买",
+    "description": "Add to basket"
+  },
+  "home.featureList.goToDoc": {
+    "message": "文档中心",
+    "description": "Go to documentation"
+  }
+}

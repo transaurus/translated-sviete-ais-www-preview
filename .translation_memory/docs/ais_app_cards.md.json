@@ -1,0 +1,112 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_app_cards.md",
+  "source_file_content_hash": "5d9f80d29478f3ff7b061e0025f05ae42a0393ff70fae9e1ab5c78a3b0825207",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Karty\"\nsidebar_label: Karty\n---",
+      "source_content_hash": "f6284110f7d866989da5a9d4b11619aefea9c5e547d747760cf146e94ad5b91f",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Karty zawierają urządzenia z naszego domu oraz elementy z zewnętrznych usług, karty wyświetlane są w widokach.",
+      "source_content_hash": "6669ebbc26cd66fbd87eb319b4939bc037825ab039511371e5da70ec21b28d36",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "卡片包含我们家庭中的设备以及外部服务的元素，这些卡片会显示在各个视图中。"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Typy kart",
+      "source_content_hash": "dd7d2a17265441da5efdb0224ebae0b86010e0ad086ef90892ab1f43ca4bee9c",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 卡片类型"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "W obecnej wersji mamy [24 typy kart](https://www.home-assistant.io/lovelace/), które możemy konfigurować i na których możemy umieszczać nasze domowe urządzenia.\nDodatkowo istnieje wiele typów kart tworzonych przez społeczność [repozytorium dodatkowych typów kart](https://github.com/custom-cards). Oczywiście zaawansowani użytkownicy mogą definiować własne typy kart.",
+      "source_content_hash": "3c91a95b4d97b817525d1d7f290281ce498275b68d065e2dc2096815f99397d4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "当前版本支持[24种卡片类型](https://www.home-assistant.io/lovelace/)，我们可以配置这些卡片并将家庭设备放置其上。此外，社区还开发了许多额外的卡片类型，详见[额外卡片类型仓库](https://github.com/custom-cards)。当然，高级用户也可以自定义卡片类型。"
+      }
+    },
+    {
+      "segment_id": "180bddb1",
+      "source_content": "![Przykład karty](/img/en/frontend/frontend-card-plant.png)",
+      "source_content_hash": "112996707c46cea1a376c7a5b5754ce2c2d2cc51bf9a7c52f511323ef8851c19",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![卡片示例](/img/en/frontend/frontend-card-plant.png)"
+      }
+    },
+    {
+      "segment_id": "e14c9928",
+      "source_content": "## Dodawanie karty",
+      "source_content_hash": "8039b3149e70edab5fcc9d7fc5a7d3c921aa25ebf8e284b419314d081bfb8428",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 添加卡片"
+      }
+    },
+    {
+      "segment_id": "42ad8e83",
+      "source_content": "W celu dopasowania interfejsu systemu do własnych potrzeb, możesz sam dodawać własne karty lub edytować już istniejące. Konfiguracja dostępna jest bezpośrednio z aplikacji (działającej w przeglądarce).",
+      "source_content_hash": "7f61500de31b00c41fd783d7c519afa52e3fa53c5b9ecf69e0e91e1201298915",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "为了根据个人需求定制系统界面，您可以自行添加新卡片或编辑现有卡片。配置可直接通过浏览器中的应用完成。"
+      }
+    },
+    {
+      "segment_id": "f6168993",
+      "source_content": "![Konfiguracja interfejsu użytkownika](/img/en/frontend/frontend-card-edit.png)",
+      "source_content_hash": "71df760f210a927dd5b6bd2b0348e59028f48321cf2edf235a0d6de090f5164c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![用户界面配置](/img/en/frontend/frontend-card-edit.png)"
+      }
+    },
+    {
+      "segment_id": "418617bd",
+      "source_content": "## Włączenie konfiguracji wybranego pulpitu",
+      "source_content_hash": "7c7a4eaa8d28e39b35af07c08a8e0266e4a45c62894be5f608db1e7709f1150c",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 启用选定仪表板的配置"
+      }
+    },
+    {
+      "segment_id": "2fdadb08",
+      "source_content": "Włączenie konfiguracji opisane jest tu [Konfiguracja interfejsu użytkownika](/docs/ais_app_ui_config)",
+      "source_content_hash": "03391e9b515c1f36ef3fce53f4dcecf0c0bc547a147b8435f7f6e9a9ef5efe78",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "启用配置的方法详见[用户界面配置](/docs/ais_app_ui_config)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_app_cards.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.116469+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "5d9f80d29478f3ff7b061e0025f05ae42a0393ff70fae9e1ab5c78a3b0825207"
+  }
+}

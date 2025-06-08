@@ -1,0 +1,242 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2022-06-01-release-notes.md",
+  "source_file_content_hash": "7ac1e2197432767b5c156bc27ab5a50d2401639bc91c21264edc238c5d95c6b3",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Jola AI-Speaker\nauthorURL: https://github.com/sviete\nauthor_title: Asystentka\nauthorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4\ntitle: Wersja systemu Maja\ntags: [\"mqtt\", \"home assistant\", \"zigbee\"]\n---",
+      "source_content_hash": "d111d5e7461d7746c9e422eadf7011df4736d93814db8af0bc5188fbac541a82",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "775b7fa4",
+      "source_content": "<div class=\"IntroAisBlogMenu\" >\n\n![AIS](/img/en/blog/202206/ais_version.png)\n\n</div>",
+      "source_content_hash": "b70bfb4b04a05c2f743a3cc1768f6d893025b4bf925ced467e4169e75b01269b",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_775b7fa4"
+      }
+    },
+    {
+      "segment_id": "cc2c29e1",
+      "source_content": "<!--truncate-->",
+      "source_content_hash": "f5cded2aa7e288e395fe4f67f9dabda2281904b2f5358d07302b3aa8be0acdfa",
+      "node_type": "comment",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_cc2c29e1"
+      }
+    },
+    {
+      "segment_id": "bc633244",
+      "source_content": "## ABC bezproblemowej aktualizacji",
+      "source_content_hash": "c90f3410f68be4e7ee6017947af078313ab12a12edc09598ec43646aef83e69a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 无忧升级指南"
+      }
+    },
+    {
+      "segment_id": "8a545039",
+      "source_content": ":::tip[Kopia ![A](/img/en/blog/202112/cloud-upload.png)]\n\nPrzed aktualizacją zalecamy wykonać [kopię zapasową konfiguracji](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji).\nW ten sposób sprawdzisz poprawność swojej konfiguracji przed rozpoczęciem aktualizacji i zwiększysz prawdopodobieństwo bezproblemowej aktualizacji.\n\n:::",
+      "source_content_hash": "5643a7151e9926b3a00b5ce4628381525d22239fc3f434c5b14f7c9f906f3ef1",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::tip[备份 ![A](/img/en/blog/202112/cloud-upload.png)]\n\n升级前建议先进行[配置备份](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji)。通过这种方式，您可以在升级前验证配置的正确性，提高升级成功率。\n\n:::"
+      }
+    },
+    {
+      "segment_id": "57971bfb",
+      "source_content": ":::important[Konsola ![B](/img/en/blog/202112/console.png)]\n\nW razie problemów z aktualizacją z aplikacji, uruchom [aktualizację z konsoli](/docs/ais_bramka_update_manual), w ten sposób będziesz miał na bieżąco wgląd w logi i postęp aktualizacji oraz będziesz mógł zdiagnozować przyczynę problemu.\n:::",
+      "source_content_hash": "4fed83a5ffc956e873f963ac62595f6ce5cd3aa02adbcbbd1353fb0c858f7ff4",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::important[控制台 ![B](/img/en/blog/202112/console.png)]\n\n若遇应用升级问题，可通过[控制台手动升级](/docs/ais_bramka_update_manual)，实时查看日志和升级进度，便于问题诊断。\n:::"
+      }
+    },
+    {
+      "segment_id": "b56ef571",
+      "source_content": ":::caution[Poczekaj ![C](/img/en/blog/202112/timer-sand.png)]\n\nAktualizacja i pierwsze uruchomienie po aktualizacji może trwać dłużej - poczekaj cierpliwie.\nW każdej chwili możesz sprawdzić status systemu (dowiedzieć się co robi bramka) w konsoli komendą ``htop`` i/lub ``pm2 logs``\n:::",
+      "source_content_hash": "6a90253a92f78c58d9aea94706b0e33c103e50d35b155765247fcc562194dbe1",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[耐心等待 ![C](/img/en/blog/202112/timer-sand.png)]\n\n升级及首次启动可能耗时较长，请保持耐心。您随时可通过``htop``或``pm2 logs``命令查看系统状态（了解网关当前运行情况）。\n:::"
+      }
+    },
+    {
+      "segment_id": "782c902a",
+      "source_content": "## Potrzebujesz pomocy?",
+      "source_content_hash": "956b7e8ea86a9b9579143ca01a276903027a06d8c08bc7e5d4acb7b42fa6e748",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 需要帮助？"
+      }
+    },
+    {
+      "segment_id": "f331c5ef",
+      "source_content": ":::warning[Reset ![D](/img/en/blog/202112/broom.png)]\nJeżeli nie jesteś w stanie zdiagnozować problemu - nie przejmuj się, jesteśmy przygotowani, żeby Ci pomóc.\nStworzyliśmy specjalnie dla Ciebie prostą procedurę, która pomoże przywrócić domyślne kody i ustawienia systemu - zapoznaj się z opisem: [Wykonanie pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step).\n:::",
+      "source_content_hash": "93abd411ff6bfc7345ceb093925d8f11bd2258e1b2547e6f9328900d5aca12cb",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::warning[重置 ![D](/img/en/blog/202112/broom.png)]\n若无法自行诊断问题，请放心，我们已为您准备好解决方案。我们专门设计了简易流程帮助恢复系统默认设置，详见：[逐步执行完整应用重置](/docs/ais_bramka_reset_ais_step_by_step)。\n:::"
+      }
+    },
+    {
+      "segment_id": "fac21652",
+      "source_content": ":::important[Programowanie w serwisie ![D](/img/en/blog/202112/lifebuoy.png)]\nJeżeli nie jesteś w stanie wykonać procedury pełnego resetu i Twój system nadal nie działa, to możesz wysłać nam urządzenie do zaprogramowania.\nSzczegóły opisane na forum w wątku: [Programowanie w serwisie](https://ai-speaker.discourse.group/t/usluga-programowania-urzadzen-w-ai-speaker/1368)\n:::",
+      "source_content_hash": "3c76a03e6f8acceb87380ac776c02dcd5df627103682135b1bc85d6efccaf670",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::important[返厂编程 ![D](/img/en/blog/202112/lifebuoy.png)]\n若无法完成完整重置流程且系统仍无法运行，您可将设备寄回我们进行编程修复。详情参见论坛帖子：[返厂编程服务](https://ai-speaker.discourse.group/t/usluga-programowania-urzadzen-w-ai-speaker/1368)\n:::"
+      }
+    },
+    {
+      "segment_id": "c6cc90a0",
+      "source_content": "## ![](/img/en/blog/202102/honeybee.png) Maja",
+      "source_content_hash": "93f6def4fd8657a525eae9f38c0e7b465f9d9f424aa4389bdea4dff1befbb5af",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202102/honeybee.png) 马亚系统"
+      }
+    },
+    {
+      "segment_id": "b9aaa519",
+      "source_content": "W tej wersji systemu dodaliśmy integrację umożliwiającą komunikację ze sterownikiem Eaton Easy PLC.\nDzięki temu możliwe jest sterowanie przewodowe z AIS za pomocą sterownika Eaton Easy. Rozwiązanie wymaga specjalnego programowania po stronie sterownika PLC i dlatego ta integracja będzie wspierana w naszej ofercie PRO.",
+      "source_content_hash": "5d639bb56b8bb1436fe73423ccefadf151c4d867c3af9cd3581c9ef0ec008a65",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "本次系统更新新增了与伊顿Easy PLC控制器的通信集成。通过该功能，用户可借助伊顿Easy PLC实现AIS有线控制。由于需要在PLC端进行特殊编程，该集成将作为PRO版专属功能提供支持。"
+      }
+    },
+    {
+      "segment_id": "23dfb152",
+      "source_content": "![](/img/en/integrations/ais_easy.png)",
+      "source_content_hash": "6162b8dab617a51bbd7636407a021727b7a9a3e08d3182cd7e34cf30f6af8f52",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/integrations/ais_easy.png)"
+      }
+    },
+    {
+      "segment_id": "c431704b",
+      "source_content": "### ![](/img/en/blog/202102/honeybee.png) Zigbee2Mqtt",
+      "source_content_hash": "66a9914e72acab290690746f63dbd2e2db4834db52483737dfde28177b71768b",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### ![](/img/en/blog/202102/honeybee.png) Zigbee2Mqtt"
+      }
+    },
+    {
+      "segment_id": "79ad944d",
+      "source_content": "Aktualizacja Zigbee2Mqtt do najnowszej wersji 1.25.1.\nW najnowszej wersji jest obsługiwanych 2195 urządzeń od 301 producentów:",
+      "source_content_hash": "0a9000fa4b4f61e872a0ebc075600ac161e30cc4cf9997defbe031153a8b57f7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Zigbee2Mqtt已更新至最新版1.25.1。新版本支持来自301家厂商的2195种设备："
+      }
+    },
+    {
+      "segment_id": "06e24cc0",
+      "source_content": "![](/img/en/blog/202206/z2m.png)",
+      "source_content_hash": "b9f30acc810b2ec318e28fdbd7bb806c809a10f3c1fa0be3fd151834234e0ab7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202206/z2m.png)"
+      }
+    },
+    {
+      "segment_id": "7f71ff2a",
+      "source_content": "Szczegóły w dokumentacji Zigbee2Mqtt: https://www.zigbee2mqtt.io/",
+      "source_content_hash": "088a8af47cce486d05729b0122a01617ee5b6d14bc31493150272caa5a55a9e7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "详见Zigbee2Mqtt文档：https://www.zigbee2mqtt.io/"
+      }
+    },
+    {
+      "segment_id": "daed5acb",
+      "source_content": "### ![](/img/en/blog/202101/hass.png) Asystent domowy",
+      "source_content_hash": "c88eb95cf5f4ecbf0bf89865b0f4583cce01d1d6c074e8bb9bc40d03ddba2dcd",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### ![](/img/en/blog/202101/hass.png) 家庭助理"
+      }
+    },
+    {
+      "segment_id": "afa378f7",
+      "source_content": "Najnowsza wersja Asystenta domowego 2022.5, czyli naszego pakietu ``ais-dom`` bazującego na Home Assistant Core.\nW najnowszej wersji jest obsługiwanych 1969 integracji:",
+      "source_content_hash": "52d8b48b5597a666e7bfe6c70b695bdcb7c9d02f245b90f21317ecb92b4fc3cf",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "最新版家庭助理2022.5，即我们基于Home Assistant Core开发的``ais-dom``软件包。\n最新版本支持1969种集成："
+      }
+    },
+    {
+      "segment_id": "7736989b",
+      "source_content": "![](/img/en/blog/202206/ha.png)",
+      "source_content_hash": "04d4744841c852a1df3387f9b1aa3f9278b7b8e81353ada4cb089003b6c0f818",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202206/ha.png)"
+      }
+    },
+    {
+      "segment_id": "a5c5772a",
+      "source_content": "Szczegóły w dokumentacji Home Assistant: https://www.home-assistant.io/integrations/",
+      "source_content_hash": "0ae7511880ad743e6e43731f8d3c8b076eea542463210abe9f1ad44fe0593806",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "详情参阅Home Assistant文档：https://www.home-assistant.io/integrations/"
+      }
+    },
+    {
+      "segment_id": "4e1804a3",
+      "source_content": "--------",
+      "source_content_hash": "370d9b71060be968d97de6de91fff200e4dd739e4e1fd7d6e983d9a7c60bdbb0",
+      "node_type": "thematicBreak",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "--------"
+      }
+    },
+    {
+      "segment_id": "759d12dd",
+      "source_content": "##### AI-Speaker 12/2021",
+      "source_content_hash": "093d4f13bdb7daa5863be8fde9472e91ecfc9c0e6cde0f61d040a4200bde3e50",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "##### AI-Speaker 2021年12月版"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2022-06-01-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.100222+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "7ac1e2197432767b5c156bc27ab5a50d2401639bc91c21264edc238c5d95c6b3"
+  }
+}

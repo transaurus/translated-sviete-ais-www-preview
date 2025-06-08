@@ -1,0 +1,30 @@
+{
+  "title": {
+    "message": "家庭智能助手",
+    "description": "The title in the navbar"
+  },
+  "item.label.Kontrolery": {
+    "message": "控制器",
+    "description": "Navbar item with label Bramka"
+  },
+  "item.label.Urządzenia": {
+    "message": "设备",
+    "description": "Navbar item with label Urządzenia"
+  },
+  "item.label.Asystent": {
+    "message": "助手",
+    "description": "Navbar item with label Aplikacja"
+  },
+  "item.label.Dodatki": {
+    "message": "插件",
+    "description": "Navbar item with label Integracje"
+  },
+  "item.label.Blog": {
+    "message": "博客",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.Forum": {
+    "message": "论坛",
+    "description": "Navbar item with label Forum"
+  }
+}

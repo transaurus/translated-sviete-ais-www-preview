@@ -1,0 +1,652 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2019-11-20-release-notes.md",
+  "source_file_content_hash": "6cb83892ce1170637944e60ff32abe405be7cf7e8a1193a6237e5fca65a082b0",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Jola AI-Speaker\nauthorURL: https://github.com/sviete\nauthorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4\ntitle: Wersja systemu 0.101.4 RF 433 i IKEA TRÅDFRI\n---",
+      "source_content_hash": "97a089487b7dbfd1f62ba43ed6eef8a80deceec15d7b8b2ef5860b5e39d7e918",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Wersja systemu 0.101.4 z dnia 20 listopada 2019 roku,",
+      "source_content_hash": "20524ce6331575850fc91b0b0ed4d657b31ebbca14051404240fd7d27f9b1149",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 2019年11月20日发布的系统版本0.101.4"
+      }
+    },
+    {
+      "segment_id": "8a5f6a7b",
+      "source_content": "## RF 433 i urządzenia AIS dom",
+      "source_content_hash": "b6a69afd31a3c9cd278d4281de4f5c9b471e28b05250e9112e05bbcd69bb4383",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## RF 433与AIS dom设备"
+      }
+    },
+    {
+      "segment_id": "180bddb1",
+      "source_content": "![RF 433](/img/en/iot/iot_ais_dom_device_rf433_learn_step_7.png)",
+      "source_content_hash": "b375c6c8fe228d6c21a3c755a956b6975ed8adc66c93ebc777f0914e27eb2f56",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![RF 433](/img/en/iot/iot_ais_dom_device_rf433_learn_step_7.png)"
+      }
+    },
+    {
+      "segment_id": "cf898102",
+      "source_content": "Żeby umożliwić połączenie pilotów (do bram, rolet), przełączników, czujników i itp. urządzeń komunikujących się za pomocą transmisji radiowej 433 MHz z bramką AIS dom, potrzebujemy dodatkowego urządzenia umożliwiającego wysyłanie i odbieranie kodów RF 433. Polecamy do tego celu urządzenie Sonoff RF Bridge 433 z alternatywnym oprogramowaniem umożliwiającym łatwą integrację z bramką AIS dom (MQTT) oraz obsługującym większą ilość protokołów (oryginalny Sonoff obsługuje tylko jeden protokół z 24 bitami).",
+      "source_content_hash": "8d8783ba1f39b98ed70f22c819602ac68ff44c81a4b72061787130e8359193d8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "为实现将遥控器（用于门禁、卷帘）、开关、传感器等通过433MHz射频通信的设备与AIS dom网关连接，我们需要额外支持RF 433信号收发功能的设备。推荐使用刷写了第三方固件的Sonoff RF Bridge 433，该固件不仅支持与AIS dom网关通过MQTT协议轻松集成，还能兼容更多通信协议（原厂固件仅支持24位编码的单一协议）。"
+      }
+    },
+    {
+      "segment_id": "cc2c29e1",
+      "source_content": "<!--truncate-->",
+      "source_content_hash": "f5cded2aa7e288e395fe4f67f9dabda2281904b2f5358d07302b3aa8be0acdfa",
+      "node_type": "comment",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_cc2c29e1"
+      }
+    },
+    {
+      "segment_id": "f6168993",
+      "source_content": "![RF 433](/img/en/iot/iot_ais_dom_device_rf433_map.png)",
+      "source_content_hash": "788ab35e3d9751ea947ac94fd33cb5be72cfa8eb04d8c18a7a5139da85d85408",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![RF 433](/img/en/iot/iot_ais_dom_device_rf433_map.png)"
+      }
+    },
+    {
+      "segment_id": "f5f6d2ce",
+      "source_content": "Pokazujemy też jak to działa na video:",
+      "source_content_hash": "71a4a4b54e1b63aef43988d83f6b7781dcbf754eaf8ead39551c005c6848a2d9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "操作视频演示："
+      }
+    },
+    {
+      "segment_id": "b7a64917",
+      "source_content": "<div>\n<iframe width=\"560\" height=\"315\"  src=\"https://www.youtube.com/embed/NEFd_T3gqNU\" frameBorder=\"0\" allowFullScreen></iframe>\n</div>",
+      "source_content_hash": "3b0a61ea16a6cf872f51ac51b35ecca487a145a7223887f1f0f098da6b392fb2",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_b7a64917"
+      }
+    },
+    {
+      "segment_id": "fa430ad4",
+      "source_content": "## IKEA TRÅDFRI",
+      "source_content_hash": "d40c233264a53bbc7f84033dc030a8e0a03028a144c54eda180b2ad08b6723fc",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 宜家TRÅDFRI智能灯具"
+      }
+    },
+    {
+      "segment_id": "4b1d2d7d",
+      "source_content": "Od wersji 0.101 dodaliśmy integrację z IKEA Trådfri jako domyślnie wbudowaną - nie trzeba już doinstalowywać żadnych pakietów.\nSzczegóły w dokumentacji Integracja IKEA Trådfri",
+      "source_content_hash": "bdc6626fa25bd673c478fd19d42065bc0bab9628bd82d05927083077ad2d87e0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "自0.101版本起，我们已将宜家Trådfri网关集成作为默认内置功能——不再需要额外安装组件包。具体操作详见《宜家Trådfri集成文档》"
+      }
+    },
+    {
+      "segment_id": "73ab96a3",
+      "source_content": "![Konfiguracja IKEA](/img/en/bramka/integration_ikea_0.jpg)",
+      "source_content_hash": "90efd2669d036d73a8a1e862ae29f4af71a3884ab8e0ebb3ce7b82130e56a989",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![宜家配置界面](/img/en/bramka/integration_ikea_0.jpg)"
+      }
+    },
+    {
+      "segment_id": "7499a4e7",
+      "source_content": "A tak to może wyglądać w aplikacji Asystent domowy:",
+      "source_content_hash": "1fdbf0f392e93592abd772339d283b23db78c4a027984afea02b13bc42b12cef",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在家庭助手应用中的呈现效果："
+      }
+    },
+    {
+      "segment_id": "e7c54101",
+      "source_content": "<video width=\"100%\" height=\"100%\" playsInline=\"\" autoPlay=\"\" muted=\"\" loop=\"\">\n  <source src=\"/video/ikea.webm\" type=\"video/webm\"/>\n</video>",
+      "source_content_hash": "b09aa08c7dffcebaa9a7f3e60b6522dce5b27a8e2fec16dcf8b21727c2e03cc2",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_e7c54101"
+      }
+    },
+    {
+      "segment_id": "782c902a",
+      "source_content": "## Przykłady IFTTT",
+      "source_content_hash": "6ce47342edb55b2241f1bd31de24c62791b17c30c61f3ce2ddafde2444034dde",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## IFTTT应用示例"
+      }
+    },
+    {
+      "segment_id": "50746522",
+      "source_content": "W integracjach dodaliśmy podkategorię z przykładami. Na początek wyjaśniamy krok po kroku jak założyć konto w serwisie IFTTT i zbudować nasz pierwszy Aplet. Aplet to wg terminologii serwisu IFTTT coś, co łączy ze sobą dwie lub więcej aplikacji lub urządzeń i umożliwia zrobienie czegoś, czego te aplikacje lub urządzenia nie mogłyby zrobić same.\nW kolejnym przykładzie wyjaśniamy jak dodać Aplet uruchamiający dowolną akcję w Asystencie domowym z serwisu IFTTT.",
+      "source_content_hash": "66474d113c4102aa7dc3fde5b70e99912aa59edc503550c37b1f14fd5707416c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们在集成模块新增了示例分类。首先逐步演示如何在IFTTT平台注册账号并创建首个小程序（Applet）。根据IFTTT术语，Applet是指能够联动两个及以上应用或设备，实现单一应用/设备无法独立完成的功能组合。\n后续示例将展示如何通过IFTTT服务触发家庭助手中的任意操作。"
+      }
+    },
+    {
+      "segment_id": "aa1e7006",
+      "source_content": "![IFTTT](/img/en/blog/examples_ifttt.png)",
+      "source_content_hash": "02e6ee58c8ff42af6859e2ee12b697f0066d9b0d1c92708b181bc01f1ae80974",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![IFTTT界面](/img/en/blog/examples_ifttt.png)"
+      }
+    },
+    {
+      "segment_id": "c674e260",
+      "source_content": "## TuneIn",
+      "source_content_hash": "9fab89fe34494f02720af7fa32df427dc149465470ff37dc907ed1f0bb806399",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## TuneIn电台服务"
+      }
+    },
+    {
+      "segment_id": "a44047a5",
+      "source_content": "Łączymy się z API TuneIn, w tej wersji dodaliśmy dwie nowe kategorie w naszych radiach **Popularne TuneIn** i **Trendy TuneIn**. W kolejnych wersjach dodamy wyszukiwanie audio TuneIn i dodawanie do ulubionych.",
+      "source_content_hash": "5e7912b6ab0af8e9162239fb8bef7c52baccba11d11714b9da3a997b11c98899",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通过对接TuneIn API，本次更新在电台分类新增\"TuneIn热门\"和\"TuneIn趋势\"两大板块。后续版本将陆续添加TuneIn音频搜索及收藏功能。"
+      }
+    },
+    {
+      "segment_id": "f7ef78f9",
+      "source_content": "![IFTTT](/img/en/blog/tunein_start.png)",
+      "source_content_hash": "d76440cfc06904eb8dfead640118e389f08333795f0971da7dd56df68d663a6d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![TuneIn启动界面](/img/en/blog/tunein_start.png)"
+      }
+    },
+    {
+      "segment_id": "60410af6",
+      "source_content": "## Wyszukiwanie w dokumentacji",
+      "source_content_hash": "206dd504488c022e5f5c425ec4ef3631f262671a5401bdefc6ab193e7df6db9c",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 文档搜索功能"
+      }
+    },
+    {
+      "segment_id": "b9aaa519",
+      "source_content": "Sebastian znalazł fajny sposób na dodanie wyszukiwania do naszej dokumentacji.\nZostaliśmy zweryfikowani przez www.algolia.com 👋",
+      "source_content_hash": "6dd01b6d9347b525afa7d34fbcc672eecd83667a761a478875eb5a30e896ed23",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Sebastian为我们的文档系统找到了绝佳的搜索解决方案。我们已通过www.algolia.com的官方认证👋"
+      }
+    },
+    {
+      "segment_id": "23dfb152",
+      "source_content": "![IFTTT](/img/en/blog/algolia.png)",
+      "source_content_hash": "40248b4f35bf4342933ed588b94b6045882f8f336144bc02194c0137010230f9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Algolia搜索界面](/img/en/blog/algolia.png)"
+      }
+    },
+    {
+      "segment_id": "1131ef75",
+      "source_content": "i mamy już możliwość wyszukiania na stronie z dokumentacją",
+      "source_content_hash": "cd2c19f8b34facfca5f8d6cd3a3e73120a7112b803a3cad76d32bc37b91565e0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "现在文档页面已支持全文检索"
+      }
+    },
+    {
+      "segment_id": "8b2a52b1",
+      "source_content": "![IFTTT](/img/en/blog/algolia2.png)",
+      "source_content_hash": "d88b9c9854fdb27a3d623169b5f7e4854e68698ae80c987cfc0dc07312efdff1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Algolia搜索结果](/img/en/blog/algolia2.png)"
+      }
+    },
+    {
+      "segment_id": "126950d7",
+      "source_content": "## Dni pracujące",
+      "source_content_hash": "3affddb32af89a04d20365eaa07ebd6db5705e14cdde7fa7aad81829ba84d19c",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 工作日设置"
+      }
+    },
+    {
+      "segment_id": "0bb95128",
+      "source_content": "Inspiracja do dodania do naszej domyślnej konfiguracji czujnika dnia pracującego/wolnego w Polsce pochodzi on naszego użytkownika Darka - dzięki :)\nCzujnik wskazuje, czy bieżący dzień jest dniem roboczym, czy nie z uwzględnieniem informacji o świętach państwowych.",
+      "source_content_hash": "bf303bc0221d5b3ab23efee0984138477326be5a274a91d96d83da2d9c9b3327",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们默认配置中添加工作日/休息日传感器的灵感来自用户Darek——感谢 :)\n该传感器会指示当前日期是否为工作日，并考虑国家法定节假日信息。"
+      }
+    },
+    {
+      "segment_id": "7f71ff2a",
+      "source_content": "![Dni pracujące](/img/en/blog/working_days.png)",
+      "source_content_hash": "3a5a38d54b380034f9fec7d1056a371176130366434b4b553333ad161431fcef",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![工作日设置](/img/en/blog/working_days.png)"
+      }
+    },
+    {
+      "segment_id": "147e8550",
+      "source_content": "Celem jest ułatwienie dodawania automatyzacji z uwzględnieniem dni.",
+      "source_content_hash": "43da8120058733aa43ea583c9e085a3a71759664e6c90fc1d59df7d06bd9f071",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "目的是简化考虑工作日因素的自动化规则添加流程。"
+      }
+    },
+    {
+      "segment_id": "883231d4",
+      "source_content": "![Dni pracujące](/img/en/blog/working_days1.png)",
+      "source_content_hash": "5aa1383e467968db56e7e6e2bfd4f8ba027c6a0240a42ada9f164dedaf723db7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![工作日设置](/img/en/blog/working_days1.png)"
+      }
+    },
+    {
+      "segment_id": "b051b70c",
+      "source_content": "## Pozostałe istotne zmiany",
+      "source_content_hash": "3f788e390cc2b6086ae05294b0a7993158aa34320814d084b6b123f05c0dc064",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 其他重要变更"
+      }
+    },
+    {
+      "segment_id": "ecddbf78",
+      "source_content": "> Informujemy głosowo o instalowaniu zależności i wyłączamy domyślnie zapis historii.",
+      "source_content_hash": "41b5e7b0b8a0338ae3b08558d21a99304556218a0bd8c1373ae88986a05d39a3",
+      "node_type": "blockquote",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "> 通过语音通知依赖项安装状态，并默认关闭历史记录功能。"
+      }
+    },
+    {
+      "segment_id": "7736989b",
+      "source_content": "Poniżej wyjaśniamy, dlaczego zdecydowaliśmy się tak zrobić.",
+      "source_content_hash": "933bc532ed046859540b407186a92a7407f34a7dd74fd68302868463d26bad70",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "以下说明我们做出该决策的原因。"
+      }
+    },
+    {
+      "segment_id": "6270d577",
+      "source_content": "Najczęstszym problemem zgłaszanym do serwisu jest długie uruchamianie po aktualizacji. Część użytkowników nie sprawdza logów i jeżeli urządzenie nie uruchamia się szybko po aktualizacji, resetuje je, wyłączając z prądu. Dostaliśmy też zwrot jednego urządzenia do serwisu, które zostało przełączone na kanał beta, uruchamiało się długo... i podejrzewamy, że zostało w ten sposób popsute (lub było wadliwe od początku). Nie jest to duża procentowa skala jednak bardzo nas to zmartwiło :( .",
+      "source_content_hash": "2ca5124eb0d7e20542dd172f398c2d4dd0c2d8c372001c83297d4e669ac5e784",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "客服反馈中最常见的问题是升级后启动耗时过长。部分用户不查看日志，若设备升级后未快速启动，就会直接断电重启。我们甚至收到过一台被退回售后的设备——该设备被切换到测试版通道后启动时间过长...我们怀疑因此导致损坏（或原本就存在缺陷）。虽然比例不高，但这种情况让我们非常担忧 :( 。"
+      }
+    },
+    {
+      "segment_id": "a1fa5396",
+      "source_content": "Dokładamy wszelkich starań, żeby wszystkie urządzenia działały dobrze (każde testujemy po programowaniu), **dlatego potraktowaliśmy tę pierwszą reklamację bardzo serio i postanowiliśmy się temu problemowi przyjrzeć**.",
+      "source_content_hash": "9732d4e59ee14a9293269a5d5625975d71a51302427f21c088bde444e6714402",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们竭尽全力确保所有设备运行良好（每台设备编程后都会测试），**因此我们严肃对待这起首例投诉，决定彻底调查该问题**。"
+      }
+    },
+    {
+      "segment_id": "8126f763",
+      "source_content": "Zbadaliśmy, co jest przyczyną problemu z długim uruchamianiem po aktualizacji i okazało się, że są to 2 rzeczy:",
+      "source_content_hash": "0693d305fb0e103e0952f1a7838ac5cd4989eb05466822c9a5dc8560c2d3856a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "经排查发现导致升级后启动缓慢的两个主要原因："
+      }
+    },
+    {
+      "segment_id": "9e8f150c",
+      "source_content": "1. **Instalacja zależności**, która następuje przy pierwszym uruchomieniu po aktualizacji, może trwać kilkanaście minut (w zależności od ilości integracji, które się ma dodane).\n\n2. **Migracja bazy danych**, która następuje przy pierwszym uruchomieniu, może trwać kolejne naście minut (w zależności od tego, jaka zmiana była w modelu danych, jakie ma się ustawienia logowania danych i ile posiada się encji w systemie).",
+      "source_content_hash": "38deb93c933b3312f37aeca9a2531a87444e700b9971dca645e26b9bfb1380e5",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "1. **依赖项安装**：升级后的首次启动可能需要十几分钟（具体时长取决于已添加的集成数量）\n\n2. **数据库迁移**：首次启动时的数据迁移可能再耗费十几分钟（耗时取决于数据模型变更内容、日志记录设置及系统实体数量）"
+      }
+    },
+    {
+      "segment_id": "6b77b644",
+      "source_content": "Są to problemy trudne do wyeliminowania i wyjaśnienia dla użytkownika, ponieważ nie wiemy jak dużo integracji ma użytkownik i urządzeń, nie wiemy, jaki szybkie jest łącze internetowe, więc nie jesteśmy w stanie określić, jak długo potrwa aktualizacja.",
+      "source_content_hash": "c7353e7d63bb05135857ab68e33b81f562e105b0cae58ffe4ed0bf0007cb643e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "这些问题难以彻底解决并向用户解释，因为我们无法预知用户集成的设备数量，也不清楚其网络带宽状况，因此无法预估升级耗时。"
+      }
+    },
+    {
+      "segment_id": "a311e967",
+      "source_content": "Informacja o statusie aktualizacji w aplikacji oraz sprawdzanie logów z postępu aktualizacji, okazało się niewystarczające (szczególnie gdy użytkownik ma problem ze wzrokiem i/lub używa urządzenia jako głośnika).",
+      "source_content_hash": "1b02f61a3ee6ab71877d7bbcfde0e1077c88809a19becc6c9afebf6b8953dfd1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "实践证明，应用程序中的升级状态提示和升级进度日志检查仍显不足（尤其对视力障碍用户或仅将设备作为扬声器使用的场景）。"
+      }
+    },
+    {
+      "segment_id": "eb51d107",
+      "source_content": "Podjęliśmy jednak pewne kroki, żeby zniwelować te problemy:",
+      "source_content_hash": "fe33497a4a1f7a1d0080165314f6f7727f3c91e0e2eb8845134f8b1549533fe2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "但我们已采取以下措施缓解这些问题："
+      }
+    },
+    {
+      "segment_id": "c19de48a",
+      "source_content": "### Instalacja zależności",
+      "source_content_hash": "bcbb8abdbb196618c01e9c5e5c165fbdb6184e9b111c680effbbc2a059a2ae6a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 依赖项安装"
+      }
+    },
+    {
+      "segment_id": "6ca4479f",
+      "source_content": "Żeby zniwelować pierwszy problem, dodaliśmy komunikaty głosowe podczas instalowania dodatkowych pakietów przez Asystenta domowego przy pierwszym uruchomieniu.\nCzyli od tej wersji podczas aktualizacji usłyszysz standardowe komunikaty:",
+      "source_content_hash": "0f7757cc17c5031a8abdcff84427a92b84219dbd0a8a05d65ab1e919746e00c4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "为解决第一个问题，我们在Home Assistant首次启动安装额外依赖包时添加了语音提示。\n从本版本开始，在更新过程中您将听到以下标准语音提示："
+      }
+    },
+    {
+      "segment_id": "936011bd",
+      "source_content": "- Aktualizacja. Pobieram...\n- Aktualizacja. Instaluje...\n- Aktualizacja. Restartuje...",
+      "source_content_hash": "b5afb3dcdbf090ab6d57323c703969a706257a799c90065f2bc6594a36398b4e",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 更新中。正在下载...\n- 更新中。正在安装...\n- 更新中。正在重启..."
+      }
+    },
+    {
+      "segment_id": "f0984c2a",
+      "source_content": "a następnie (przy pierwszym uruchomieniu po aktualizacji):",
+      "source_content_hash": "1be7e315b1dd29ffc9e8d0287731bcf872b15718ec904b7794760a4faca0d218",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "随后（在更新后的首次启动时）："
+      }
+    },
+    {
+      "segment_id": "2270deb6",
+      "source_content": "- Instaluje zależności pakietu: ... ; poczekaj.\n- Instaluje zależności pakietu: ... ; poczekaj.\n- Instaluje zależności pakietu: ... ; poczekaj.\n... itd. w zależności ile masz dodanych integracji, do których jest aktualizacja pakietów. Żebyś wiedział, że coś się dzieje i nie ma potrzeby wyłączać urządzenia.",
+      "source_content_hash": "007ff011a1b31a71a75dec0d7194133133212cdf83a090d363f58ebdd45fb3b8",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 正在安装依赖包：...；请稍候。\n- 正在安装依赖包：...；请稍候。\n- 正在安装依赖包：...；请稍候。\n... 根据您已安装的集成数量，此过程会持续进行。这样您就能了解系统正在运行，无需强制断电。"
+      }
+    },
+    {
+      "segment_id": "7974af84",
+      "source_content": "### Migracja bazy danych",
+      "source_content_hash": "6cc02bc83419a9732cde5af11042fa60bc03d56356d677462a9362eafc2b704f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 数据库迁移"
+      }
+    },
+    {
+      "segment_id": "44aaa880",
+      "source_content": "Z bazą danych sytuacja jest jeszcze bardziej skomplikowana. Największy nasz klient produkuje urządzenie dla osób niewidomych i niedowidzących, użytkownicy ci korzystają głównie z audio i komend głosowych. Nigdy nie interesowała ich historia logowana przez rekorder i nie są w stanie sami go konfigurować / wyłączyć.",
+      "source_content_hash": "fae3bdad10394fafc298fa494bce27c23a720d8354043869d377741687c7f4d9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "数据库的情况更为复杂。我们最大的客户为视障人士生产设备，这些用户主要通过语音交互使用设备。他们从不关心记录器生成的历史数据，也无法自行配置或禁用该功能。"
+      }
+    },
+    {
+      "segment_id": "396efb28",
+      "source_content": "Część zaawansowanych użytkowników bardzo ceni sobie logowanie danych i oferowany przez nas domyślne ustawienia logowania oraz miejsce na urządzeniu nie są dla nich wystarczające. Zaawansowani użytkownicy i tak sami ustawiają sobie preferencje logowania mp na osobnym urządzeniu NAS w dowolnej relacyjnej bazie danych, którą preferują (MySQL, MariaDB, PostgreSQL, czy MS SQL Server) gdzie mają możliwość logowania i analizowania terabajtów danych. Użytkownicy Ci wiedzą, że takiej bazie trzeba zapewnić miejsce a migracja takich volumenów po aktualizacji może zająć kilka godzin lub dni (autentyczne przypadki z forum Home Assistant).",
+      "source_content_hash": "888833184e4536c7362278e448b0579ea6bba8c773b364120daf344da0ae097e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "部分高级用户非常重视数据记录功能，我们默认提供的日志存储设置和设备存储空间无法满足他们的需求。这些用户通常会自行配置日志参数，将数据存储在NAS设备或任意关系型数据库（MySQL、MariaDB、PostgreSQL或MS SQL Server）中，以便分析TB级的数据。他们清楚这类数据库需要充足存储空间，且版本更新后迁移海量数据可能耗时数小时甚至数天（Home Assistant论坛上的真实案例）。"
+      }
+    },
+    {
+      "segment_id": "558df877",
+      "source_content": "Biorąc pod uwagę powyższe oraz to, że bez rekordera urządzenie działa i aktualizuje się szybciej oraz po aktualizacji uruchamia w bardziej przewidywalnym czasie **postanowiliśmy wyłączyć domyślne zapisywanie historii do bazy danych**.",
+      "source_content_hash": "69e9c02da13abf197b0c325b7d2daa8ccb5c1dfd5468885aa4d602f12d350a56",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "基于以上考量，同时考虑到禁用记录器后设备运行更快、更新后启动时间更可预测，我们决定默认关闭历史数据记录功能。"
+      }
+    },
+    {
+      "segment_id": "f38d1cb0",
+      "source_content": "Nie jest to idealne rozwiązanie, bo część użytkowników chcących mieć podstawowe dane historyczne będzie zmuszona je włączyć samemu w konfiguracji zgodnie z opisem w dokumentacji:  [Recorder](https://www.home-assistant.io/integrations/recorder/).",
+      "source_content_hash": "f821bba4570c46aed01a2014e46054f0df80e499a6707c84930f80141bc0864e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "这并非完美方案，部分需要基础历史数据的用户需参照文档手动启用该功能：[记录器](https://www.home-assistant.io/integrations/recorder/)。"
+      }
+    },
+    {
+      "segment_id": "5f82a1e9",
+      "source_content": "Takie rozwiązanie jest jednak kompromisem pomiędzy użytkownikami, którzy nie potrzebują logowania i nie potrafią je wyłączyć (a zależy im na tym, żeby urządzenie się szybko aktualizowało i uruchamiało po aktualizacji) a tymi użytkownikami, którzy potrzebują, potrafią włączyć oraz zadbać o to, żeby baza nie zajęła całego miejsca na urządzeniu.",
+      "source_content_hash": "ecaead814ecbacb874c41995939fff9280a2f77906e6e71b359b8ac2f3907d9a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "此方案折衷了两种用户需求：不需要日志功能且希望设备快速更新的用户群体，与需要日志功能并能自主管理数据库存储空间的高级用户群体。"
+      }
+    },
+    {
+      "segment_id": "a2bd1cb1",
+      "source_content": "> Jeżeli po aktualizacji brakuje Ci zakładki Historia, to możesz ją dodać łatwo w swojej konfiguracji.\nOczywiście pamiętaj, że jeżeli masz dziesiątki urządzeń, które generują tysiące zdarzeń to kilka wolnych GB które mamy na urządzeniu może szybko się skończyć. Dlatego najpierw zalecamy zapoznać się z ustawieniami komponentu **[Recorder](https://www.home-assistant.io/integrations/recorder/).**",
+      "source_content_hash": "ed7d13229ddf5a6843b241d509597afe71568d27fc9e4288d1caf8e8aa12a0db",
+      "node_type": "blockquote",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "> 如果更新后发现缺少\"历史记录\"选项卡，您可以在配置中轻松添加。\n当然请记住，如果您有数十台设备生成数千个事件，那么设备上仅有的几个GB空闲存储空间可能会很快耗尽。因此我们建议先熟悉**[记录器组件](https://www.home-assistant.io/integrations/recorder/)的设置。"
+      }
+    },
+    {
+      "segment_id": "53aa2b95",
+      "source_content": "![Historia](/img/en/blog/history.png)",
+      "source_content_hash": "19884d8059325f577bbdb6fe7a68051045122641fd3b99b2aeab2c8c39331fa8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![历史记录](/img/en/blog/history.png)"
+      }
+    },
+    {
+      "segment_id": "9c9e2b64",
+      "source_content": "Wystarczy dodać 2 linie do pliku z [konfiguracją](/docs/ais_gate_faq_config_yaml):",
+      "source_content_hash": "485c9bf3adfe419f3505257364485005c0b4b307b6a8276d9498a3e770e30a21",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "只需在[配置文件](/docs/ais_gate_faq_config_yaml)中添加2行代码："
+      }
+    },
+    {
+      "segment_id": "43cca4d3",
+      "source_content": "```yaml\nrecorder:\nhistory:\n```",
+      "source_content_hash": "18bf81b87fee1b24f68cd5c7b3b8e69ff5b5a65e6b092079f3a6e127bc0c2518",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_43cca4d3"
+      }
+    },
+    {
+      "segment_id": "734d40d8",
+      "source_content": "## Home Assistant",
+      "source_content_hash": "740b285c99ee849f17b14b85885c2e802b66edeeea4f9c6045c0fff785d20a55",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## Home Assistant"
+      }
+    },
+    {
+      "segment_id": "9e90a9b3",
+      "source_content": "Najnowszy (stabilny) [Home Assistant](https://www.home-assistant.io/blog/2019/10/30/release-101/\" target=\"_blank\">0.101) Z integracją Airly https://airly.eu/pl/ autorstwa naszego rodaka [Maciej Bieniek](https://github.com/bieniu) gratulacje 👏 https://www.home-assistant.io/integrations/airly/ Oraz ogromna ilość poprawek i ulepszeń - do tej wersji ponad 300 programistów dostarczyło ponad tysiąc zmian. Imponujące 👌",
+      "source_content_hash": "2aeb44739d2b20bdc43e4546c1cc5f7676be9ed468b914bcc4c1535cb40cfbc4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "最新稳定版[Home Assistant](https://www.home-assistant.io/blog/2019/10/30/release-101/\" target=\"_blank\">0.101)集成了由波兰开发者[Maciej Bieniek](https://github.com/bieniu)开发的Airly空气质量监测(https://airly.eu/pl/) 👏 https://www.home-assistant.io/integrations/airly/ 以及大量修复和改进 - 超过300名开发者贡献了上千项变更。令人印象深刻 👌"
+      }
+    },
+    {
+      "segment_id": "dd4905a4",
+      "source_content": "## TODO",
+      "source_content_hash": "f412d40cac05e357371f77218084d95faf8621b50642faf4353f0cb4bb1c78cc",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 待办事项"
+      }
+    },
+    {
+      "segment_id": "17b50e81",
+      "source_content": "Obiecaliśmy opisać sterowanie ogrzewaniem, które zrobiliśmy w biurze, niestety bieżąca wersja się rozrosła i zabrakło nam czasu na porządny opis i schematy... **dostarczymy na dniach opis w dokumentacji**.",
+      "source_content_hash": "b6c18c27587c366e218d19b160efb7d4391d6c9f7a76eaad4442cdb1aefb2029",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们曾承诺要介绍办公室的暖气控制系统，但由于当前版本功能扩展，我们没来得及完成详细说明和示意图...**将在近期补充完整文档**。"
+      }
+    },
+    {
+      "segment_id": "719d3997",
+      "source_content": "Nasz użytkownik Piotr wysłał nam info jak skonfigurować Z-wave na bramce. Wielkie dzięki - lubimy takich pro 💪 userów. Dodajemy to też sobie do TODO i w kolejnych wersjach planujemy udostępnić tą funkcjonalność dla wszystkich zainteresowanych.",
+      "source_content_hash": "547f9d9586650fb79628d9a6362778265ad92d65a8f13abd4f99e1793fd336a3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "用户Piotr向我们分享了如何在网关上配置Z-wave。非常感谢 - 我们喜欢这样的专业💪用户。我们已将此加入待办清单，计划在后续版本中为所有感兴趣的用户开放此功能。"
+      }
+    },
+    {
+      "segment_id": "42d9ca67",
+      "source_content": "Pracujemy nad integracją Zigbee i mamy pewne postępy :) chodzi o to, żeby sterować ściemnianymi żarówkami z IKEA po 30 zł bez bramki IKEA :). Mamy nadzieję zaprezentować gotowe rozwiązanie w kolejnych aktualizacjach. Tak to obecnie wygląda.",
+      "source_content_hash": "a2d7d97c186c7fadcfcdf84ce82217613910943a978720e7da0b1b9a717ccdf9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们正在开发Zigbee集成并取得了一些进展 :) 目标是无需IKEA网关就能控制30兹罗提的IKEA可调光灯泡。希望在后续更新中展示完整解决方案。这是当前进展效果。"
+      }
+    },
+    {
+      "segment_id": "619c3209",
+      "source_content": "![zigbee_dev](/img/en/blog/zigbee_dev.png)",
+      "source_content_hash": "33cf1c7b3f687f0896726c5d35ef1ffce97d81066b134e3cb9b6b585c7b1626e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![zigbee开发](/img/en/blog/zigbee_dev.png)"
+      }
+    },
+    {
+      "segment_id": "e2bc0815",
+      "source_content": "----",
+      "source_content_hash": "bd64bb8efa5b3f27e6442f23600c3b516127ea17e23724b41e50da4c22883edd",
+      "node_type": "thematicBreak",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "----"
+      }
+    },
+    {
+      "segment_id": "a8f09c71",
+      "source_content": "Zapraszamy do aktualizacji!\nAI-Speaker 11/2019",
+      "source_content_hash": "fdde03e6bd7d65766d3b2447f1f6411259d6540570e192a141b18a128f079265",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "欢迎进行更新！\nAI-Speaker 2019年11月"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2019-11-20-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.127745+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "6cb83892ce1170637944e60ff32abe405be7cf7e8a1193a6237e5fca65a082b0"
+  }
+}

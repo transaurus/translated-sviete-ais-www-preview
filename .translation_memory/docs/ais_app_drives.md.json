@@ -1,0 +1,162 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_app_drives.md",
+  "source_file_content_hash": "4646d3d825c457a34025e97445bb2a4fb6273c311cef77ff946808061937d93c",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Dyski\"\nsidebar_label: Dyski\n---",
+      "source_content_hash": "34117715628ed40b06e268ad5668aac08343b9e7a6927d344d97229e96dd4d31",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Typy dysków",
+      "source_content_hash": "4aa2bc72220e96bf6a41ac7d5f0432889575bff474df84a97eec8951ff2353c3",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 磁盘类型"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "W systemie \"Asystent domowy\" mamy trzy typy dysków, z których możemy odtwarzać treści audio:",
+      "source_content_hash": "ea73ecdf0e144f6b553e6eb1b92905c09453ce15974eab468ea5c8c4bb990be0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在\"家庭助手\"系统中，我们支持三种可播放音频内容的磁盘类型："
+      }
+    },
+    {
+      "segment_id": "4a5b6a68",
+      "source_content": "1. ***Dysk wewnętrzny*** urządzenia jest dostępny w twojej lokalnej sieci (protokół ftp) pod adresem ftp://ais-dom.local:1024/sdcard/dom. Możesz tu dodać muzykę lub pliki tekstowe a następnie odtwarzać je w aplikacji.\n\n\n2. ***Dyski zewnętrzne*** to dołączone do urządzenia karty SD lub pamięci USB\n\n\n3. ***Dyski zdalne*** to dyski/usługi przechowywania danych w chmurach.",
+      "source_content_hash": "a0eeae6466b5e5b1d38b43d6d9fdb9f6bd60c0213117479e31807e4493e573d2",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "1. ***内置磁盘*** 设备的内置存储可通过本地网络访问（FTP协议），地址为 ftp://ais-dom.local:1024/sdcard/dom。您可以在此添加音乐或文本文件，然后在应用程序中播放。\n\n\n2. ***外接磁盘*** 指连接到设备的SD卡或USB存储器\n\n\n3. ***远程磁盘*** 指云存储服务或网络磁盘"
+      }
+    },
+    {
+      "segment_id": "39b3772c",
+      "source_content": "![Dyski](/img/en/frontend/drives_all.png)",
+      "source_content_hash": "9e27489adff6029099ba54379eda714d18d48d04d6dc256cca2079f8ba332ae2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![磁盘](/img/en/frontend/drives_all.png)"
+      }
+    },
+    {
+      "segment_id": "bc633244",
+      "source_content": "## Sterowanie pilotem",
+      "source_content_hash": "2d0ec5cac96c143572334262d59e1dc49841b943a88c512cbd3bb20a66e07c1a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 遥控器操作"
+      }
+    },
+    {
+      "segment_id": "2df4f75f",
+      "source_content": "Nasz dedykowany [Pilot radiowy](/docs/ais_remote_index) umożliwia nawigowaie po dyskach oraz wybieranie treści audio do odtwarzania (nie jest do tego potrzebna aplikacja z ekranem).",
+      "source_content_hash": "83398ea68c7f338273014d59225dbfc345cea7947306f797d8d3a16bd0833ff5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们专用的[收音机遥控器](/docs/ais_remote_index)支持磁盘导航和音频内容选择（无需使用带屏幕的应用程序）。"
+      }
+    },
+    {
+      "segment_id": "ed7dde9c",
+      "source_content": "## Konfiguracja dysku zdalnego",
+      "source_content_hash": "55ffa6e496529afe2a9ddedd228e78dafb4c970566975d7a7c2c42de6d9ac1e5",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 配置远程磁盘"
+      }
+    },
+    {
+      "segment_id": "1d13125b",
+      "source_content": "* Otwórz aplikację \"Asystent domowy\" w przeglądarce Internetowej [Dostęp do bramki po HTTP](/docs/ais_bramka_remote_http)\n\n* Przejdź do widoku audio, wybierz przeglądanie dysków, dyski zdalne, następnie uruchom konfigurator dodawnia dysku zdalnego naciskając przycisk \"+ DYSK ZDALNY\"",
+      "source_content_hash": "4dba01ec954cdac6a802f693a245dd232544335a3634ce438d15b8ae84d198ad",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "* 在网页浏览器中打开\"家庭助手\"应用 [通过HTTP访问网关](/docs/ais_bramka_remote_http)\n\n* 进入音频视图，选择浏览磁盘→远程磁盘，然后点击\"+ 远程磁盘\"按钮启动远程磁盘添加向导"
+      }
+    },
+    {
+      "segment_id": "73ab96a3",
+      "source_content": "![Konfiguracja interfejsu użytkownika](/img/en/frontend/add_new_remote_drive.png)",
+      "source_content_hash": "9ab522f2b9cf7ba551814dae55b6a0d62903958ba7d9fd436b5d99b9e7b7ead0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![用户界面配置](/img/en/frontend/add_new_remote_drive.png)"
+      }
+    },
+    {
+      "segment_id": "f2c8a42b",
+      "source_content": "* Dalej postępuj zgodnie ze wskazówkami kreatora",
+      "source_content_hash": "481c0bdfbe61fba9c19e2c859938632bb9be97229c550036692714f7a9a377ee",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "* 根据向导提示完成后续操作"
+      }
+    },
+    {
+      "segment_id": "3b7478ea",
+      "source_content": "## Konfiguracja dysku zdalnego z poziomu Integracji",
+      "source_content_hash": "4e2fa143de962b94f8acbc669db680d0feb07fe4e68e18b9218f240e63fababc",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 通过集成功能配置远程磁盘"
+      }
+    },
+    {
+      "segment_id": "c3a738de",
+      "source_content": "Do ***Integracji*** możesz też przejść z menu **Ustawienia** i tam uruchomić konfigurator integracji ***AIS Serwis Dyski***",
+      "source_content_hash": "04a78b293e7a1bad826a6837252c852be16224a2a77d7bbe71d42d05e827fcf1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "您也可以从**设置**菜单进入***集成***，然后启动***AIS磁盘服务***集成配置向导"
+      }
+    },
+    {
+      "segment_id": "3cfe6286",
+      "source_content": "![Konfiguracja Spotify](/img/en/frontend/drives_config_1.png)",
+      "source_content_hash": "a7c99fe12417029200f09b2a8de2c5632b9bef40ed8ad9b32ec9a2aa28742285",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Spotify配置](/img/en/frontend/drives_config_1.png)"
+      }
+    },
+    {
+      "segment_id": "95e9ba12",
+      "source_content": "Dalej postępuj zgodnie ze wskazówkami kreatora",
+      "source_content_hash": "e8d5bf3ee146886a75aa831c9b1af09d59330222fd948a837a9247d475f615c6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "根据向导提示完成后续配置"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_app_drives.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.131176+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "4646d3d825c457a34025e97445bb2a4fb6273c311cef77ff946808061937d93c"
+  }
+}

@@ -1,0 +1,412 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2020-02-26-release-notes.md",
+  "source_file_content_hash": "b1e4cb145036f55253f01f6c32ed23c019fab133c22dfddfbd59e78dc9e70f58",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Jola AI-Speaker\nauthorURL: https://github.com/sviete\nauthorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4\ntitle: Wersja systemu 0.105.7 Dyski zdalne i wymienne\n---",
+      "source_content_hash": "d7169c264819037eaf54e6e9f1ff6db819b354da2ff5b13024dfa6e1259ceb9e",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "d912d376",
+      "source_content": "##  0.105.7 Dyski zdalne i wymienne",
+      "source_content_hash": "04810f42ac65a17a54fcc6696aee8e2e5530652e4608adb3503e4186edf13b61",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "##  0.105.7 远程磁盘与可移动磁盘"
+      }
+    },
+    {
+      "segment_id": "8ac585fb",
+      "source_content": "![Dyski](/img/en/frontend/drives_all.png)",
+      "source_content_hash": "9e27489adff6029099ba54379eda714d18d48d04d6dc256cca2079f8ba332ae2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![磁盘](/img/en/frontend/drives_all.png)"
+      }
+    },
+    {
+      "segment_id": "e883b2cc",
+      "source_content": "<!--truncate-->",
+      "source_content_hash": "f5cded2aa7e288e395fe4f67f9dabda2281904b2f5358d07302b3aa8be0acdfa",
+      "node_type": "comment",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_e883b2cc"
+      }
+    },
+    {
+      "segment_id": "976d532b",
+      "source_content": ":::tip[Wskazówka]\nUWAGA Przed aktualizacją zalecamy wykonać [kopię zapasową konfiguracji](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji). W ten sposób sprawdzisz poprawność swojej konfiguracji przed rozpoczęciem aktualizacji i zwiększysz prawdopodobieństwo bezproblemowej aktualizacji.\n:::",
+      "source_content_hash": "8037a28333f24321b7f0ca3b0ff5dadb46488124d52cf37fa284e31f781ef145",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::tip[提示]\n注意：更新前建议先执行[配置备份](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji)。通过预先验证配置完整性，可显著降低升级故障风险。\n:::"
+      }
+    },
+    {
+      "segment_id": "1acb9a05",
+      "source_content": "W tej wersji przenieśliśmy zależności pakietów (w celu wyeliminowania błędu wielokrotnego instalowania niektórych pakietów z zależnościami). **Aktualizacja może potrwać 40 minut** - poczekaj cierpliwie na koniec aktualizacji. Komunikatami głosowymi informujemy o postępach aktualizacji, możesz śledzić szczegóły wykonywanych czynności podczas aktualizacji łącząc się do bramki po ssh i przeglądając logi poleceniem **pm2 logs**.",
+      "source_content_hash": "24402511d725079b3804b281e02f308f02f741e31f2fee249bc4513309ea3351",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "本次更新重构了软件包依赖关系（以解决重复安装依赖包的问题）。**升级过程可能持续40分钟** - 请耐心等待完成。系统将通过语音播报升级进度，您也可通过SSH连接网关并使用**pm2 logs**命令查看详细日志。"
+      }
+    },
+    {
+      "segment_id": "8a545039",
+      "source_content": ":::important[informacja]\nW razie problemów po aktualizacji sprawdź procedurę [Aktualizacja z konsoli](/docs/ais_bramka_update_manual) lub [Wykonanie pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step)- to może dotyczyć szczególnie osób, które instalują na bramce dodatkowe niestandardowe komponenty.\n:::",
+      "source_content_hash": "3cec0bb82063176fa13cef39765f9b987deaab39151bf29d8edb2af0bf5c6672",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::important[重要通知]\n若升级后出现问题，请参考[控制台升级指南](/docs/ais_bramka_update_manual)或[应用完全重置教程](/docs/ais_bramka_reset_ais_step_by_step) - 特别是对于安装了非标准组件的用户。\n:::"
+      }
+    },
+    {
+      "segment_id": "79b2d0b9",
+      "source_content": "## Dyski zdalne i wymienne",
+      "source_content_hash": "1d95c4040d5b3354888dd5685dd149ff9d628fd044da133db0e011f77d340b18",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 远程磁盘与可移动磁盘"
+      }
+    },
+    {
+      "segment_id": "d9172fa4",
+      "source_content": "W tej wersji znacznie usprawniliśmy funkcjonalność dysków wymiennych i zdalnych.\nDyski wymienne to dołączone do urządzenia karty SD lub pamięci USB.\nDyski zdalne to dyski/usługi przechowywania danych w chmurach.",
+      "source_content_hash": "10f79a589eb0e39e074b304b80215e51deb7b33b22c4aef8ed05334f94614376",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "本版本对可移动磁盘和远程磁盘功能进行了重大优化：\n可移动磁盘指通过SD卡或USB接口连接的存储设备\n远程磁盘指云存储服务或网络存储设备"
+      }
+    },
+    {
+      "segment_id": "73ab96a3",
+      "source_content": "![Dyski](/img/en/frontend/drives_all.png)",
+      "source_content_hash": "9e27489adff6029099ba54379eda714d18d48d04d6dc256cca2079f8ba332ae2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![磁盘](/img/en/frontend/drives_all.png)"
+      }
+    },
+    {
+      "segment_id": "7499a4e7",
+      "source_content": "Od tej wersji te dwa typy dysków automatycznie monutujemy w folderze użytkownika w podfolderach:",
+      "source_content_hash": "ed71959fa88feca16f7119b47f0d961a7815e33fd5101ef4e198046af45a386f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "本版本起，这两类磁盘将自动挂载至用户目录的子文件夹："
+      }
+    },
+    {
+      "segment_id": "7a2e981c",
+      "source_content": "- dyski-wymienne\n- dyski-zdalne",
+      "source_content_hash": "57a3460ac0760404c0b2f9b815d355037d2d099a92b7ac1db2f280ca205a5dd3",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 可移动磁盘\n- 远程磁盘"
+      }
+    },
+    {
+      "segment_id": "de8f60af",
+      "source_content": "``` bash\n$ cd ~/dom\nls\ndysk-wewnętrzny  dyski-wymienne  dyski-zdalne  dyski-zewnętrzne\n```",
+      "source_content_hash": "0044df02b7e480dcc80ebcf7ff90d1c7e2c375c8a70667594164159cb04d45df",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_de8f60af"
+      }
+    },
+    {
+      "segment_id": "aa1e7006",
+      "source_content": "Istotne zmiany:",
+      "source_content_hash": "2830631c1fa5bf453f2a19361012504df2f83dca0b24ed1d1ba455649ee6fa92",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "核心改进："
+      }
+    },
+    {
+      "segment_id": "824626b3",
+      "source_content": "- Dyski wymienne i zdalne montujemy z uprawnieniem do zapisu - czyli możesz już nie tylko przeglądać i odtwarzać treści na dyskach zdalnych i wymiennych, ale także zapisywać dane z bramki na tych dyskach. Użytkownicy, którzy wiedzą, jaką to daje funkcjonalność (zapisywanie zdjęć czy filmów z kamer) mogą już teraz jej używać. Użytkownicy, którzy są mniej obeznani ze strukturą katalogów w systemie Linux i poleceniami konsoli powinni poczekać, aż te funkcjonalności zostaną dokładniej opisane w dokumentacji i będą w aplikacji.\n- Do montowania dysków zdalnych używamy [libfuse](https://pl.wikipedia.org/wiki/FUSE) i [rclone](https://rclone.org/) co upraszcza nam kod i przyśpiesza przeglądanie dysków zdalnych i odtwarzanie z nich treści.\n- Konfigurację rclone przenieśliśmy z folderu ~/dom/rclone.conf do ukrytego folderu ~/AIS/.dom/rclone.conf Umożliwia nam to tworzenie kopii zapasowej konfiguracji dysków zdalnych (bo w kopii zapasowej mamy konfigurację z folderu ~/AIS)\n- dyski-zewnętrzne to pozostałość po wcześniejszej implementacji, w której montowaliśmy dyski (USB czy karty SD) tylko do odczytu. Zostawimy to jeszcze przez 2 miesiące, bo może ktoś używał tej lokalizacji (po tym czasie należy zmienić w swoich automatyzacjach i serwisach lokalizację dyski-zewnętrzne na dyski-wymienne).",
+      "source_content_hash": "60328ed3bedb4d06717dfe40da87082cf9b5b72b9105f845a6168d51c949ac70",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 外置磁盘与远程磁盘现以可写权限挂载——这意味着您不仅能够浏览和播放远程/外置磁盘中的内容，还能将网关数据写入这些磁盘。了解此功能价值的用户（如需要存储摄像头拍摄的照片或视频）现在即可使用该功能。对Linux目录结构和命令行操作不熟悉的用户，建议等待相关功能在文档中得到详细说明并集成至应用程序后再使用。\n- 我们采用[libfuse](https://pl.wikipedia.org/wiki/FUSE)和[rclone](https://rclone.org/)挂载远程磁盘，此举简化了代码结构并提升了远程磁盘内容浏览与播放速度。\n- 已将rclone配置文件从~/dom/rclone.conf迁移至隐藏目录~/AIS/.dom/rclone.conf。这使得远程磁盘配置可随~/AIS目录的备份一同保存。\n- \"disks-zewnętrzne\"目录是早期只读挂载USB/SD卡方案的遗留项。我们将保留该目录两个月（期间请将自动化脚本和服务中的路径从\"disks-zewnętrzne\"更新为\"disks-wymienne\"）。"
+      }
+    },
+    {
+      "segment_id": "d0479480",
+      "source_content": ":::caution[Uwaga]\nJeżeli usuwasz/modyfikujesz/dodajesz coś z dysków zdalnych lub wymiennych na bramce, to doradzamy użyć dysku, na którym nie ma nic cennego (dodanie dysku Google czy Mega na nowe konto to nie problem). W ten sposób nie stracisz żadnych danych w razie błędu w automatyzacji czy komendzie.\n:::",
+      "source_content_hash": "f8301ef09989d29c1a7d9388a5db39c82a1fd6d20710408d2ae8206560277df7",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[注意]\n若需在网关上删除/修改/添加远程或外置磁盘内容，建议使用无重要数据的磁盘（新建Google Drive或Mega账户挂载很便捷）。此举可避免自动化脚本或命令错误导致数据丢失。\n:::"
+      }
+    },
+    {
+      "segment_id": "af52d59d",
+      "source_content": "## Niezniszczalna bramka",
+      "source_content_hash": "71cb93a74380123425a105e8d88e8b06e7e4183604aef36433c84f2257450ac9",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 坚不可摧的网关"
+      }
+    },
+    {
+      "segment_id": "4d52a261",
+      "source_content": "Rozpoczęliśmy pracę nad projektem \"Niezniszczalna bramka\".",
+      "source_content_hash": "0a1d2edc31847d502892bd8644f79da6eae58eaf820b33933a83fb827b9dfc5b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们已启动\"坚不可摧的网关\"项目。"
+      }
+    },
+    {
+      "segment_id": "23dfb152",
+      "source_content": "Zauważyliśmy, że część naszych użytkowników, żeby mieć integrację z nowym urządzeniem w domu jest w stanie wkleić każdy kod z sieci do bramki.\nNastępnie mieć do nas pretensje, że coś się nie aktualizuje / nie działa tak jak powinno :(\nWidzimy na forum, że część osób nie przejmuje się tym jak działa i co robi taki niestandardowy komponent. Obserwujemy też jaki procent problemów dotyczy pracy na wersji beta z zainstalowanymi niestandardowymi komponentami.",
+      "source_content_hash": "7e1368cbd929ddde8b18188cca60c98a44eb0bbecda1b5f5722291d89e124a51",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "注意到部分用户为集成新设备，会随意从网络复制代码至网关。随后却因系统更新失败/功能异常向我们问责。论坛数据显示，许多用户并不关心非标准组件的运行机制。我们也统计了测试版系统安装非标准组件引发问题的比例。"
+      }
+    },
+    {
+      "segment_id": "3a4225d7",
+      "source_content": ":::caution[Uwaga]\nDlatego jeszcze raz ostrzegamy przed instalowaniem niestandardowych komponentów, z jakiegoś powodu takie komponenty nie znalazły się oficjalnie w Asystencie domowym. Pamiętaj, że robisz to na własną odpowiedzialność. **To tak jak instalowanie aplikacji z nieznanych źródeł - może być wszystko OK a możesz zainstalować wirusa, który zniszczy twój system**.\n:::",
+      "source_content_hash": "fbd1375aee38b4b00a9c415536eb95f35d47f70831052e86ffccedff20f36130",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[警告]\n再次郑重提醒：安装非标准组件需自行承担风险。这些组件未被Home Assistant官方收录有其原因。**这如同安装未知来源的应用——可能运行正常，也可能植入破坏系统的病毒**。\n:::"
+      }
+    },
+    {
+      "segment_id": "bd92edfc",
+      "source_content": "###  Możliwe konsekwencje instalacji niestandardowych komponentów:",
+      "source_content_hash": "49d84e7115e750f30f656deb4eacc0aaef772882c30f88c39821ca0b69aa80fd",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 安装非标准组件可能引发的后果："
+      }
+    },
+    {
+      "segment_id": "af7d8a35",
+      "source_content": "- Wpływ na stabilność systemu. Te kody mogą być źle napisane, robić coś w pętli i zawieszać / restartować urządzenie. Tłumaczymy to na przykładzie integracji niestandardowej, która jest w stanie logować 1 000 000 (tak, milion!) wpisów w ciągu godziny https://ai-speaker.discourse.group/t/dlaczego-niestandardowe-komponenty-nie-sa-bezpieczne/288 Oczywiście o zgrozo komponent ten jest bardzo powszechnie używany.\n- Wpływ na aktualizacje automatyczne. Nikt nie testował tych kodów i nie sprawdzał ich zależności (pakietów, które doinstalowują). Komponenty te mogą instalować pakiety w innych wersjach niż oficjalne, przetestowane i wspierane a w konsekwencji mogą blokować oficjalne aktualizacje.\n- Legalność. Komponenty niestandardowe mogą używać API producentów bez ich zgody. Pamiętaj, żeby robić to świadomie, bo **odpowiedzialność za wszystko, co sam doinstalowujesz i używasz na bramce, spoczywa na Tobie**.",
+      "source_content_hash": "a42313e7c6d53c926be84bfe6ff61b4c0d6481b5e6d04e9ed6d7113a4a9b0a0a",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 影响系统稳定性。这些代码可能编写不当，存在循环操作导致设备卡死/重启。我们以某个自定义集成为例说明——该集成每小时能记录100万条（没错，一百万！）日志 https://ai-speaker.discourse.group/t/dlaczego-niestandardowe-komponenty-nie-sa-bezpieczne/288 令人震惊的是，这个组件被广泛使用。\n- 影响自动更新。无人测试过这些代码及其依赖项（它们可能安装额外软件包）。这些组件可能安装非官方测试支持的软件版本，最终会阻塞官方更新。\n- 法律风险。自定义组件可能未经制造商授权使用其API。请务必谨慎操作，**您需自行承担网关安装和使用所有非官方组件产生的责任**。"
+      }
+    },
+    {
+      "segment_id": "07837485",
+      "source_content": ":::important[informacja]\nNa etapie DEV nie chcemy blokować użytkownikom instalowania dowolnych kodów na bramce. Ponieważ jednak z jakiegoś powodu na koniec odpowiedzialność spada na nas, poczynimy kroki, aby uodpornić nasze urządzenie na tego typu praktyki.\n:::",
+      "source_content_hash": "057f634b7ed6f28f1e6236d7b185afcf949d5be8938345f1058cbd19393cf7b5",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::important[重要通知]\n在DEV阶段我们不会阻止用户在网关上安装任意代码。但由于最终责任往往转嫁给我们，我们将采取措施增强设备对此类操作的防御能力。\n:::"
+      }
+    },
+    {
+      "segment_id": "98355e36",
+      "source_content": "### Plan w projekcie \"Niezniszczalna bramka\":",
+      "source_content_hash": "d9a24a0c8aa444f464c798854a03f5ce4a7ab1873a78ca220517b483e43eadaa",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### \"坚不可摧网关\"项目计划："
+      }
+    },
+    {
+      "segment_id": "ca1573da",
+      "source_content": "1. Wraz z aktualną wersją 0.105.7 przenosimy bazę danych i logi do pamięci urządzenia.\n2. Wraz z aktualną wersją 0.105.7 wprowadzamy tryb awaryjny. To nowy tryb w Home Assistant pozwalający na uruchomienie aplikacji webowej w przypadku problemów z konfiguracją użytkownika (dotychczas w przypadku problemów z konfiguracją system się nie uruchamiał i trzeba było sprawdzać logi z konsoli). Teraz aplikacja webowa powinna się uruchomić ze stosownym powiadomieniem. W wersji 0.106 będziemy kontynuowali wdrażanie tego trybu. Naszym celem jest, aby Asystent domowy zawsze się uruchamiał i zapewniał interfejs do pracy bez względu na to, co zostało doinstalowane i w jaki sposób.\n3. W wersji 0.106 dostarczymy aktualizację serwisu na bramce. Wyłączymy aktywność webview (ten ekran z mikrofonem i aplikacją webową działającą w ramce). Zostawimy Asystenta domowego na bramce jako sam serwis. Nasze bramki działają w trybie “sterowania bez monitora” - nie mają uruchomionej aktywności ramki z aplikacją. Ta aplikacja to przeglądarka Chrome, która potrzebuje dość sporo zasobów (procesor i pamięć). To powinno przyśpieszyć i ustabilizować działanie Asystenta domowego.\n4. W kolejnej wersji udostępnimy mechanizm dual boot. Dzięki temu każdy będzie mógł uruchomić system z karty SD (jak w RPi) lub USB. W ten sposób będzie można uruchomić “czystego” Linux-a z Dokerem i Home Assistant i sprawdzić, czy takie działanie jest stabilniejsze.",
+      "source_content_hash": "304cdc9aefd3c28734bd43b00d9eaaf0e051fb304d16c04fbf34de1b7fc485b3",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "1. 随当前0.105.7版本将数据库和日志迁移至设备存储\n2. 在0.105.7版本引入安全模式。这是Home Assistant的新模式，当用户配置出现问题时仍可启动网页界面（此前配置错误会导致系统无法启动，必须通过控制台查看日志）\n3. 0.106版本将更新网关服务。停用webview活动（带麦克风和应用框架的界面），仅保留Home Assistant作为后台服务。我们的网关默认运行\"无显示器控制模式\"——不启动带应用框架的界面。该框架本质是Chrome浏览器，会占用大量CPU和内存资源。此举将提升Home Assistant运行速度和稳定性\n4. 后续版本将提供双启动机制。用户可通过SD卡（类似树莓派）或USB启动系统，运行纯净Linux系统+Docker+Home Assistant来验证稳定性"
+      }
+    },
+    {
+      "segment_id": "1c598ecd",
+      "source_content": "## Poprawki w wyglądzie aplikacji",
+      "source_content_hash": "b4a8694a4bb0b6c194034ce51db15cdf14440b6d6470ab8d46f959a443893860",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 应用程序界面优化"
+      }
+    },
+    {
+      "segment_id": "2547a6bb",
+      "source_content": "Nasz znajomy grafik przejrzał aplikację i podpowiedział nam kilka rzeczy.\nEfektem jest poprawiony widok aplikacji webowej (tło i logo na pierwszej stronie).\nJak to zostało zrobione, opisaliśmy na blogu tak, żeby każdy mógł dodawać własne style do widoków i kart:",
+      "source_content_hash": "c329498205afa3c243c2c4a0cac1bfbe0475807853a535d52a4d204e057edde6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们的设计师朋友仔细审查了应用程序，并为我们提供了一些改进建议。\n效果体现在优化后的网页应用界面上（首页背景和徽标设计）。\n具体实现方法我们已在博客中详细说明，方便用户自定义视图和卡片样式："
+      }
+    },
+    {
+      "segment_id": "49f9f337",
+      "source_content": "- [Tło widoku](https://ai-speaker.discourse.group/t/wlasne-ladne-tlo-dla-widoku-w-aplikacji/265)\n- [Stylizacja karty](https://ai-speaker.discourse.group/t/stylizacja-karty-w-aplikacji/273)",
+      "source_content_hash": "12bfccbdd87f0dfcd233fb4acdd1a377a7b89e7c99fdbea98cd90be746ee1060",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- [视图背景定制](https://ai-speaker.discourse.group/t/wlasne-ladne-tlo-dla-widoku-w-aplikacji/265)\n- [卡片样式设计](https://ai-speaker.discourse.group/t/stylizacja-karty-w-aplikacji/273)"
+      }
+    },
+    {
+      "segment_id": "6b77b644",
+      "source_content": "Dodaliśmy też kilka zmian w wyglądzie aplikacji mobilnej.",
+      "source_content_hash": "9864e702e52ac100c4f63478827c23110b39d79853c3d2f235b887dfec4b55d4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们还对移动应用的视觉呈现进行了多项优化。"
+      }
+    },
+    {
+      "segment_id": "a311e967",
+      "source_content": "![tablet](/img/en/blog/202002/tablet.png)",
+      "source_content_hash": "e06bda5b3a13df25a7287f097035be059ef287acd0c24f1e328d6fe6134a9c90",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![平板界面](/img/en/blog/202002/tablet.png)"
+      }
+    },
+    {
+      "segment_id": "e06c002e",
+      "source_content": "## Nowe pakiety binarne",
+      "source_content_hash": "e01724a3b5f963ce8e4b6cd60423e9ef211e432fd8b12906c2976f90aad4024b",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 新版二进制包"
+      }
+    },
+    {
+      "segment_id": "25212439",
+      "source_content": "Nowe wersje kilku binarek:",
+      "source_content_hash": "915017079222a2b1497c88b0e56bf064fc3b8bcd63dafe68760020c61a284555",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "以下组件已更新至新版本："
+      }
+    },
+    {
+      "segment_id": "2d15468d",
+      "source_content": "- libmosquitto 1.6.8 arm [upgradable from: 1.6.7-1]\n- libwebsockets 3.2.99.3 arm [upgradable from: 3.2.99.1-1]\n- mosquitto 1.6.8 arm [upgradable from: 1.6.7-1]\n- rclone 1.51.0 arm [upgradable from: 1.49.5]\n- ttyd 1.6.0 arm [upgradable from: 1.5.2-2]\n- nowa binarka libfuse",
+      "source_content_hash": "f3725af130193ac03ae9e0d5f34274180695bc014e88c0d3f8b33536dcbfa7c9",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- libmosquitto 1.6.8 arm [可升级自: 1.6.7-1]\n- libwebsockets 3.2.99.3 arm [可升级自: 3.2.99.1-1]\n- mosquitto 1.6.8 arm [可升级自: 1.6.7-1]\n- rclone 1.51.0 arm [可升级自: 1.49.5]\n- ttyd 1.6.0 arm [可升级自: 1.5.2-2]\n- 新增libfuse二进制包"
+      }
+    },
+    {
+      "segment_id": "0e80209e",
+      "source_content": "Powinno dać się zauważyć spore przyśpieszenia działania konsoli w aplikacji webowej.",
+      "source_content_hash": "c9cbe4e915589822348607347afaa5d988adc0cb3a020d096438b837db2980af",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "网页应用中控制台的响应速度应有显著提升。"
+      }
+    },
+    {
+      "segment_id": "d1f76d04",
+      "source_content": "## Home Assistant",
+      "source_content_hash": "740b285c99ee849f17b14b85885c2e802b66edeeea4f9c6045c0fff785d20a55",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## Home Assistant"
+      }
+    },
+    {
+      "segment_id": "6693c38c",
+      "source_content": "Najnowszy (stabilny) Home Assistant <a href=\"https://www.home-assistant.io/blog/2020/02/05/release-105/\" target=\"_blank\">0.105.5</a>",
+      "source_content_hash": "65f1dbe712516c1357a428ecf6166a1a3de800056cd3835109aac46c2d15c795",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "最新稳定版Home Assistant <a href=\"https://www.home-assistant.io/blog/2020/02/05/release-105/\" target=\"_blank\">0.105.5</a>"
+      }
+    },
+    {
+      "segment_id": "e9313fef",
+      "source_content": "Bardzo podoba nam się nowy edytor stref.",
+      "source_content_hash": "2c33e59ecf187aaf82cde50e7fc45ef1fe5b95ab7c362c1f34c23f08b1b8ce73",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "新版区域编辑器获得了我们团队的高度认可。"
+      }
+    },
+    {
+      "segment_id": "1b4de6df",
+      "source_content": "![Edytor stref](/img/en/bramka/presence_detection_13.png)",
+      "source_content_hash": "57207475792f37795495bf93b1f241d0d1e73ea694fa521e709a0115206449fd",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![区域编辑器界面](/img/en/bramka/presence_detection_13.png)"
+      }
+    },
+    {
+      "segment_id": "513f3dff",
+      "source_content": "----",
+      "source_content_hash": "bd64bb8efa5b3f27e6442f23600c3b516127ea17e23724b41e50da4c22883edd",
+      "node_type": "thematicBreak",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "----"
+      }
+    },
+    {
+      "segment_id": "c7fa1e8d",
+      "source_content": "Zapraszamy do aktualizacji i [komentowania na forum :)](https://ai-speaker.discourse.group/)\nAI-Speaker 02/2020\n----",
+      "source_content_hash": "021850d61a25fff9bc359cc9382bd482e0259b069032de1ba63b169fba7ea103",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "欢迎升级体验并[参与论坛讨论 :)](https://ai-speaker.discourse.group/)\nAI-Speaker 2020年2月\n----"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2020-02-26-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.124995+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "b1e4cb145036f55253f01f6c32ed23c019fab133c22dfddfbd59e78dc9e70f58"
+  }
+}

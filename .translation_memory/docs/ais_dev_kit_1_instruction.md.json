@@ -1,0 +1,542 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_dev_kit_1_instruction.md",
+  "source_file_content_hash": "3dddf7c0ae7b0bbe22cfcabfb31c3d948e03b1e81c63ebdd333d86577bc64cc6",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Montaż zestawu\"\nsidebar_label: Montaż zestawu\n---",
+      "source_content_hash": "b67726bda9addc721fff0a55fe3e10aa5f62231b48b13987f43fe3f4d48e2da6",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "a703643c",
+      "source_content": "## Montaż",
+      "source_content_hash": "0e48efb2d5de7da55ddfd4530c8b982d1de7e42fade7abc25359e0f3758630a0",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 组装指南"
+      }
+    },
+    {
+      "segment_id": "d912d376",
+      "source_content": "### Montaż wzmacniacza w obudowie",
+      "source_content_hash": "6070c6cb8483ee15971beaa1807ecd91f67dae7cef0030ce72f391820b548cf1",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 功放模块安装"
+      }
+    },
+    {
+      "segment_id": "8ac585fb",
+      "source_content": "Przylutować do wzmacniacza przewód komunikacji TTL:",
+      "source_content_hash": "e8bb971e424e3f290ed6f42bf75a041c4cd4d458c2cf4321cace199f9c6dee4a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "将TTL通信线缆焊接至功放板："
+      }
+    },
+    {
+      "segment_id": "1c302051",
+      "source_content": "export const Highlight = ({children, color, text}) => (\n  <div\n    style={{\n      backgroundColor: color,\n      borderRadius: '2px',\n      color: text,\n      padding: '0.2rem',\n      width: '90px',\n    }}>\n    {children}\n  </div>\n);",
+      "source_content_hash": "fdc62b33e6c11d06de47975afa5e790c538dd1340a7f7f3433c3db58b93feb50",
+      "node_type": "mdxjsEsm",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_1c302051"
+      }
+    },
+    {
+      "segment_id": "9e1bd9df",
+      "source_content": "|kolor|pin|\n|-------|-----|\n|<Highlight color=\"#f51e08\" text='#fff'>Czerwony</Highlight> | <Highlight color=\"#f51e08\" text='#fff'>VCC</Highlight>|\n|<Highlight color=\"#000\" text='#fff'>Czarny</Highlight>  | <Highlight color=\"#000\" text='#fff'>GND</Highlight>|\n|<Highlight color=\"#088811\" text='#fff'>Zielony</Highlight> | <Highlight color=\"#088811\" text='#fff'>RX</Highlight>|\n|<Highlight color=\"#ffffff\" text='#000'>Biały</Highlight> | <Highlight color=\"#ffffff\" text='#000'>TX</Highlight> |",
+      "source_content_hash": "6a87c11230af168d3da27e45a80afeb312e5934f6d6ef3d87a12830d3e7e7905",
+      "node_type": "table",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_9e1bd9df"
+      }
+    },
+    {
+      "segment_id": "4daf5cdd",
+      "source_content": "![|295x188](https://lh6.googleusercontent.com/xKZUpKVKzPZXoTryl27QUUcU1ckhHERGLA2czCU7WjO5krbAuYMwMV1OcSCUwio1KQXVyYt28aNc52NYXYmWL7OqNqYtNuG4TU7CpDh0LpARjUr8vBwRzcKfEOn5P24X_VXW5iAH)![|318x187](https://lh6.googleusercontent.com/Q-U5AHL65uTPyBG97mKYj14Pne35wosRkzOQZCNG7W-OvrJiVqDCzZ0BoDznEFvWe9Hu6KXEvL2k1-rOjqwj6RNXLVBSSjsrxEGDmhRG10c3a-HVGPjzaHgCTzsyyy40HEoD_Lq3)",
+      "source_content_hash": "bdbef19d733a92648d7e9bba65ef9d24ee88ae4e053602da57f0ea6527236b20",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![|295x188](https://lh6.googleusercontent.com/xKZUpKVKzPZXoTryl27QUUcU1ckhHERGLA2czCU7WjO5krbAuYMwMV1OcSCUwio1KQXVyYt28aNc52NYXYmWL7OqNqYtNuG4TU7CpDh0LpARjUr8vBwRzcKfEOn5P24X_VXW5iAH)![|318x187](https://lh6.googleusercontent.com/Q-U5AHL65uTPyBG97mKYj14Pne35wosRkzOQZCNG7W-OvrJiVqDCzZ0BoDznEFvWe9Hu6KXEvL2k1-rOjqwj6RNXLVBSSjsrxEGDmhRG10c3a-HVGPjzaHgCTzsyyy40HEoD_Lq3)"
+      }
+    },
+    {
+      "segment_id": "bdc231b1",
+      "source_content": "![|614x280](https://lh6.googleusercontent.com/pfeUnpojwQxMGjhjn3eoVHFXU2yHxTx_w8u86kBJyI-XjbRtNoq5LM-xjvVPGftim3YtuybBg8uQDkV-qe8ROPbOv3Ep581aI1M4ycJQ33zoHcrZnasH9AkwTcIfrWZvUMp4dCvJ)",
+      "source_content_hash": "18d6e77a6c8a61f5e4b48ed99ccdca799984a49fa7baa457bebf35c7a03cc7c6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![|614x280](https://lh6.googleusercontent.com/pfeUnpojwQxMGjhjn3eoVHFXU2yHxTx_w8u86kBJyI-XjbRtNoq5LM-xjvVPGftim3YtuybBg8uQDkV-qe8ROPbOv3Ep581aI1M4ycJQ33zoHcrZnasH9AkwTcIfrWZvUMp4dCvJ)"
+      }
+    },
+    {
+      "segment_id": "135468ee",
+      "source_content": "Podłączyć przewód głośnikowy do prawego kanału wzmacniacza",
+      "source_content_hash": "4c0cd2bdd2d8ef246be4309398a16706514f97c89f1182d3bfc50f1103e370f8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "将扬声器线缆连接至功放板右声道接口"
+      }
+    },
+    {
+      "segment_id": "33331f27",
+      "source_content": "![|624x309](https://lh5.googleusercontent.com/Y7El2I-vPjpyUQtpM7OB2k5I0wZZ6geFN3Ha3Xz50J4KliOb6fCdVxexQ9JZhMSe6eIeqDPxYZZQtBjKKAXgtViszwBCM4yEGJaQIKd4Gttw6yNd_EG0vwNH5ff7EKAxVTFdbs1t)",
+      "source_content_hash": "3cd0947c0389b386e3129cda199512b7ea0e1c54d33766008a10f8a3924b6b94",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![|624x309](https://lh5.googleusercontent.com/Y7El2I-vPjpyUQtpM7OB2k5I0wZZ6geFN3Ha3Xz50J4KliOb6fCdVxexQ9JZhMSe6eIeqDPxYZZQtBjKKAXgtViszwBCM4yEGJaQIKd4Gttw6yNd_EG0vwNH5ff7EKAxVTFdbs1t)"
+      }
+    },
+    {
+      "segment_id": "50746522",
+      "source_content": "Umieścić wzmacniacz w obudowie i przykręcić śrubami 4x M3 x 6mm",
+      "source_content_hash": "ac42d03ea7803409626150497df658728cc5e8268396b2cb1ba63058b0f75797",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "将功放板置入箱体并用4颗M3×6mm螺丝固定"
+      }
+    },
+    {
+      "segment_id": "95e9ba12",
+      "source_content": "![|308x428](https://lh6.googleusercontent.com/zHbGwFL6Y-v01D7u1ZOpPQYmTU4ZI7adv9-blTDUwx4e625fp09XKXOxzV7xLxPWwybTWSogZ-1X9M21LsQJonZEmj8rk14lvKs6kx2zEmB2SQ3KvwIZNCqLptW5ZQO0ZTyhcoXf)![|306x428](https://lh4.googleusercontent.com/LJxZSq8s6Dg0-KVoBBHKrLqhqVRTXnBre3rU67JejRx8d46UPjYbTci7-_WtI0NZymQTsMsYF9o5zTOGUp60uid_wa3s0O7w2YEEAvGEIpeZS6GQbNCTjINK6ECecNpYtJru9IDs)",
+      "source_content_hash": "bdcdee49341ac8bbee6efc4550af7b0f7ecba3452c8d49ab3e9d3b1b5daa12a3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![|308x428](https://lh6.googleusercontent.com/zHbGwFL6Y-v01D7u1ZOpPQYmTU4ZI7adv9-blTDUwx4e625fp09XKXOxzV7xLxPWwybTWSogZ-1X9M21LsQJonZEmj8rk14lvKs6kx2zEmB2SQ3KvwIZNCqLptW5ZQO0ZTyhcoXf)![|306x428](https://lh4.googleusercontent.com/LJxZSq8s6Dg0-KVoBBHKrLqhqVRTXnBre3rU67JejRx8d46UPjYbTci7-_WtI0NZymQTsMsYF9o5zTOGUp60uid_wa3s0O7w2YEEAvGEIpeZS6GQbNCTjINK6ECecNpYtJru9IDs)"
+      }
+    },
+    {
+      "segment_id": "f44c1398",
+      "source_content": "### Montaż głośnika w obudowie",
+      "source_content_hash": "8341f87ea0c41042f1c250d135f0fa21eca5e19636e29c99a304af9b91f222d3",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 扬声器单元安装"
+      }
+    },
+    {
+      "segment_id": "29528c8d",
+      "source_content": "Dokładnie wypełnić klejem trzy wewnętrzne rowki głównej części obudowy na całym obwodzie",
+      "source_content_hash": "9cb5a8b49fd3ab18704587febc801fbf6bb7849f425fa9f970dc5af07d7da1ab",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "沿箱体主结构内侧三个凹槽完整均匀地注入粘合剂"
+      }
+    },
+    {
+      "segment_id": "c504c207",
+      "source_content": "![|569x282](https://lh3.googleusercontent.com/OVr8BBJ_lirHQaxl3J7hM9qDv1sCNljkozSeLK0XfoiLE2S6QP2KKjGiIHn5Ob6Ly-0RLpv6-tTjxQ06xxOTu5G8Ut8a6-EoFKOx3pKVQI7k9_pXht2R6p9j7C8RIDmpcdN5raET)",
+      "source_content_hash": "8b126e0175a340857ec47408dc47bce0c26f9b145e25704cf1eec2d442f09a76",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![|569x282](https://lh3.googleusercontent.com/OVr8BBJ_lirHQaxl3J7hM9qDv1sCNljkozSeLK0XfoiLE2S6QP2KKjGiIHn5Ob6Ly-0RLpv6-tTjxQ06xxOTu5G8Ut8a6-EoFKOx3pKVQI7k9_pXht2R6p9j7C8RIDmpcdN5raET)"
+      }
+    },
+    {
+      "segment_id": "98d26038",
+      "source_content": "UWAGA: zbyt duża ilość kleju lub zalanie 4 rowka może powodować wycieki na zewnątrz, a nie dokładne naniesienie na całym obwodzie może być przyczyną nieszczelności obudowy.",
+      "source_content_hash": "f4f842ee4cb4e0f80db2dfdd68958fe9eb61a94ec0f88b8b8addba66c5c20d25",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "警告：胶水用量过多或填充至第4条凹槽可能导致外部渗漏，而未沿整个圆周精确涂抹则可能造成外壳密封不严。"
+      }
+    },
+    {
+      "segment_id": "d3649a1e",
+      "source_content": "![|260x272](https://lh5.googleusercontent.com/UH_EFI_glrawq5-I61k404pUz-hVtCmdOGvkSTn674cS2rjpO9hUOggoF4dFpCO26sMblsdQTHdMx79dttSAyqS0_Up543j16MfZHmDaNUN1UFS4o8xHPBmnAGFTkuoJPrWHGk2C)![|335x272](https://lh3.googleusercontent.com/rkQQ-xDqgPkwjWeca6SDpVINRvSvJB85qA68PcjEdFIB_oVjtM6gJ9UpwNG1Ld7zHEbolkfl5ffkRaJA08HNGlhNWvR2GVUAg5id6SemhFOXxRkVnASJMYlp_lakKEmfp4c4AoEV)",
+      "source_content_hash": "da3d6295f47b5dacc3e2a4504a2e134dfdbd3cb6e23d351abfbdfe689d3161a0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![|260x272](https://lh5.googleusercontent.com/UH_EFI_glrawq5-I61k404pUz-hVtCmdOGvkSTn674cS2rjpO9hUOggoF4dFpCO26sMblsdQTHdMx79dttSAyqS0_Up543j16MfZHmDaNUN1UFS4o8xHPBmnAGFTkuoJPrWHGk2C)![|335x272](https://lh3.googleusercontent.com/rkQQ-xDqgPkwjWeca6SDpVINRvSvJB85qA68PcjEdFIB_oVjtM6gJ9UpwNG1Ld7zHEbolkfl5ffkRaJA08HNGlhNWvR2GVUAg5id6SemhFOXxRkVnASJMYlp_lakKEmfp4c4AoEV)"
+      }
+    },
+    {
+      "segment_id": "4d52a261",
+      "source_content": "Złożyć obie części obudowy na wcisk i odczekać do wyschnięcia kleju.",
+      "source_content_hash": "60de2e142ec3ac960d0e21d6a8827c065143bac1352cb71be5338b9c0c3036c5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "将外壳两部分压合组装，静待胶水干燥。"
+      }
+    },
+    {
+      "segment_id": "23dfb152",
+      "source_content": "![|446x181](https://lh5.googleusercontent.com/fPg_JiXTKCB1DBaa8dmn0THouDO91f4RJPGU5bvH5kKn2HpoCAYvCZUQyatGYsKu0cy5Gi3lQ_rMl20x87IOe-EmhcUN2BWNw6lYf4GKMoHIl-M74N0QI5hmxmK1-VqG38zYsHtK)",
+      "source_content_hash": "73e3180849212654cff2934e3b4f4eab113e384bf1f6ebc300d54cb2e5f3f108",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![|446x181](https://lh5.googleusercontent.com/fPg_JiXTKCB1DBaa8dmn0THouDO91f4RJPGU5bvH5kKn2HpoCAYvCZUQyatGYsKu0cy5Gi3lQ_rMl20x87IOe-EmhcUN2BWNw6lYf4GKMoHIl-M74N0QI5hmxmK1-VqG38zYsHtK)"
+      }
+    },
+    {
+      "segment_id": "1131ef75",
+      "source_content": "Zdjąć osłonę taśmy dwustronnej wewnątrz obudowy.",
+      "source_content_hash": "01a9ad84b3b4f9373d965ce63287d85a4e04b9c6439416bf8a38c808fa1df73f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "移除外壳内部双面胶的保护层。"
+      }
+    },
+    {
+      "segment_id": "8b2a52b1",
+      "source_content": "![|540x256](https://lh3.googleusercontent.com/BegoO-uSkRTJSq_ebr61Pns46ziXWUeckaov0WAyMtAkISdyFRqjqD26N97kEIHmYaOWlh6KV1wOSBY0OuCY6nMeunqz-tpccKaIDsGHnkhXxWOA8ofBitl_a7mEDuXPkYaJupQH)",
+      "source_content_hash": "eb703a78380c81c22c572021651c1cca65a3db60dc563ce9f8363241997bd8df",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![|540x256](https://lh3.googleusercontent.com/BegoO-uSkRTJSq_ebr61Pns46ziXWUeckaov0WAyMtAkISdyFRqjqD26N97kEIHmYaOWlh6KV1wOSBY0OuCY6nMeunqz-tpccKaIDsGHnkhXxWOA8ofBitl_a7mEDuXPkYaJupQH)"
+      }
+    },
+    {
+      "segment_id": "5dae11e3",
+      "source_content": "Szczelnie wypełnić pianką wytłumiająca zaczynając od formatu 30cm/15cm",
+      "source_content_hash": "13fc9783de8c9a501b3b1234ec95fd329868f5d2511f539e351b78ba8f066781",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "从30cm/15cm规格开始，用隔音泡沫紧密填充。"
+      }
+    },
+    {
+      "segment_id": "0bb95128",
+      "source_content": "![|555x278](https://lh5.googleusercontent.com/76jzqkXzLOnF-MKgxrV23lp1yZbgeV6w-4gO0e90LrQLhgIrRUmcPSjSbIYBRLsJT0z4Kx8x9_KrqQB6ED6jBiiw0E_CTg4DsHLCfry0L26zyYBNcKXQfNezLDzXMyTr8I2C6Rcn)",
+      "source_content_hash": "1538b21f6dbe2868b2899c0addf570a5d03f5ac8e804fe1944b0800af5cc562d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![|555x278](https://lh5.googleusercontent.com/76jzqkXzLOnF-MKgxrV23lp1yZbgeV6w-4gO0e90LrQLhgIrRUmcPSjSbIYBRLsJT0z4Kx8x9_KrqQB6ED6jBiiw0E_CTg4DsHLCfry0L26zyYBNcKXQfNezLDzXMyTr8I2C6Rcn)"
+      }
+    },
+    {
+      "segment_id": "657c2b20",
+      "source_content": "![|556x256](https://lh4.googleusercontent.com/GZ9KZJef-G7FVMo-tPsANgt9Wx3CdjTtT6BY6dztnzT-GDrdmR13RnvcQfxiekIcPVw3_meTnriKuymRleJN0uPn-ZXxtyT_Ljtsv05RDpOXtwbsL2OoukhWAZSg1NyxE5kPmj2Y)",
+      "source_content_hash": "6260a6240394d1acd73f622cf1b21547459e71841949099e6d3ca8c5041ecd33",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![|556x256](https://lh4.googleusercontent.com/GZ9KZJef-G7FVMo-tPsANgt9Wx3CdjTtT6BY6dztnzT-GDrdmR13RnvcQfxiekIcPVw3_meTnriKuymRleJN0uPn-ZXxtyT_Ljtsv05RDpOXtwbsL2OoukhWAZSg1NyxE5kPmj2Y)"
+      }
+    },
+    {
+      "segment_id": "e7772088",
+      "source_content": "a następnie dokładając fragment 17cm/15cm",
+      "source_content_hash": "688f5fbe06e3d8e84dc6d6849ebf2bf50c52abe7924e8ce8334115c9cf35a4a6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "然后补充17cm/15cm的隔音棉片段"
+      }
+    },
+    {
+      "segment_id": "eab056be",
+      "source_content": "![|483x254](https://lh3.googleusercontent.com/YlwZiiYUeBzxOk2TGq2I3zPenLAeL9mVC7r0WGxiGwQVXijyhl1IE6PrrS-jLMlhmd_PeewqOtRPk5xeHKBBqqoEYw4UOgiFe5ntfkV_p4uGwyWD6Zla3YN2MTRaobIVkeQdeq3k)![|132x254](https://lh4.googleusercontent.com/sDoAt6q8uNRHe0Htdw3Rq0y2V9mGeToC6OfSc49REnj6vmXMwmsko6_v7DCU4AhQn64ZqAj7OKq4fD7fpYe6zZfJLn9VH8TSu9kEO-UoNio45A2I4ANbNd68fxWcYdy4VT7fd7ZP)",
+      "source_content_hash": "753fbf4f445088c3e5a585c5e1716c66d6061204363db4819debcd66313d0b0e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![|483x254](https://lh3.googleusercontent.com/YlwZiiYUeBzxOk2TGq2I3zPenLAeL9mVC7r0WGxiGwQVXijyhl1IE6PrrS-jLMlhmd_PeewqOtRPk5xeHKBBqqoEYw4UOgiFe5ntfkV_p4uGwyWD6Zla3YN2MTRaobIVkeQdeq3k)![|132x254](https://lh4.googleusercontent.com/sDoAt6q8uNRHe0Htdw3Rq0y2V9mGeToC6OfSc49REnj6vmXMwmsko6_v7DCU4AhQn64ZqAj7OKq4fD7fpYe6zZfJLn9VH8TSu9kEO-UoNio45A2I4ANbNd68fxWcYdy4VT7fd7ZP)"
+      }
+    },
+    {
+      "segment_id": "f01228d3",
+      "source_content": "Przykleić uszczelkę głośnikowa na obwodzie frontu, prowadząc ją po krawędzi wgłębienia i docinając odpowiednio końcówki. Nakłuć otwory prowadzące śruby w uszczelce.",
+      "source_content_hash": "ee4bc18a108ec99a0214ec40244ce84cfe43488a1aa5161ca6f660f33e909c7a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "将扬声器密封条沿前面板边缘粘贴，使其紧贴凹槽轮廓，并适当修剪末端。在密封条上穿孔以对齐螺丝导孔。"
+      }
+    },
+    {
+      "segment_id": "afa378f7",
+      "source_content": "![|477x233](https://lh4.googleusercontent.com/84D04Om8LNokhHhIw6tXn9kVEnwt6fFaITe_TIcYX92m6dwufQhDGSdKXEThU2y0-uB7Dja4Al7Lf3GGXhSuvn9xRfArpBjyh7xD9eX6xHpZdSPYy-nB-Inq8YNqxCDadd8pveGn)![|138x233](https://lh6.googleusercontent.com/YHivq9V9J9sUmNQBdevxRROF9JLGXPLRqBzNeTEvvd14rpe8QLYgOIAPB_P4YB51CBLgEMXoJR5byBfgepkuPL8anVJwtZhTk5SzMGk3D1hPsxTHOzcoMPohL2oS2JwZ96kzaEE8)",
+      "source_content_hash": "3b560ff8392fcb2a259d1f43910c17fbd6bdaeaf0a3f5aa36c6b8e36779319da",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![|477x233](https://lh4.googleusercontent.com/84D04Om8LNokhHhIw6tXn9kVEnwt6fFaITe_TIcYX92m6dwufQhDGSdKXEThU2y0-uB7Dja4Al7Lf3GGXhSuvn9xRfArpBjyh7xD9eX6xHpZdSPYy-nB-Inq8YNqxCDadd8pveGn)![|138x233](https://lh6.googleusercontent.com/YHivq9V9J9sUmNQBdevxRROF9JLGXPLRqBzNeTEvvd14rpe8QLYgOIAPB_P4YB51CBLgEMXoJR5byBfgepkuPL8anVJwtZhTk5SzMGk3D1hPsxTHOzcoMPohL2oS2JwZ96kzaEE8)"
+      }
+    },
+    {
+      "segment_id": "e8e162a9",
+      "source_content": "![|620x279](https://lh3.googleusercontent.com/aD1x-wvkhqhoZ5_3RZIe9eTiB7Yjb-Y_xCy114qfAFFMMbXPFrIviJMyxo6udGfZuVkTevdXxIDtxFx0Fnx25cdKdBz18NcUbD0iwHwgjT4lkPUEUK_3xEPr4qHpVPeDUb2s77jM)",
+      "source_content_hash": "40355c3e81e0841f4f31f56e5b5d1a07255e9b168beccd015656cf38a280b209",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![|620x279](https://lh3.googleusercontent.com/aD1x-wvkhqhoZ5_3RZIe9eTiB7Yjb-Y_xCy114qfAFFMMbXPFrIviJMyxo6udGfZuVkTevdXxIDtxFx0Fnx25cdKdBz18NcUbD0iwHwgjT4lkPUEUK_3xEPr4qHpVPeDUb2s77jM)"
+      }
+    },
+    {
+      "segment_id": "a5c5772a",
+      "source_content": "Podłączyć zaciski głośnikowe",
+      "source_content_hash": "d1e87e14619345892588d36f28f064c93d1f47eb0ad4de700ba1523d4fbc6087",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "连接扬声器接线端子"
+      }
+    },
+    {
+      "segment_id": "fbc2db85",
+      "source_content": "![|624x372](https://lh4.googleusercontent.com/r_KzTH40CIBk3nE8h_asWT_dZeMCiGaYtU1fiy1RmQbAYq6KcMcf3A0Mqjq3-DC6TtI1ERJFf7lpmd4GnMDSuAZw96E1lQCjkduIL0e3z-03PR-C4I7JzARHH_WaHVaxq3hEubHv)",
+      "source_content_hash": "ad6216ab733f441f5cc3ef9b28f9c946f7325e8ba04f7887069004cd52a20dd8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![|624x372](https://lh4.googleusercontent.com/r_KzTH40CIBk3nE8h_asWT_dZeMCiGaYtU1fiy1RmQbAYq6KcMcf3A0Mqjq3-DC6TtI1ERJFf7lpmd4GnMDSuAZw96E1lQCjkduIL0e3z-03PR-C4I7JzARHH_WaHVaxq3hEubHv)"
+      }
+    },
+    {
+      "segment_id": "8126f763",
+      "source_content": "Nakłuć otwory prowadzące w uszczelce i umieścić głośnik w obudowie",
+      "source_content_hash": "64772b42416c8ad03051e351855d762cf0a8bb362769b7121404b9bb72d0d872",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在密封条上穿孔后，将扬声器安装至外壳内"
+      }
+    },
+    {
+      "segment_id": "74dd7937",
+      "source_content": "![|204x401](https://lh4.googleusercontent.com/EM6pOLRzSMWGkvlsLLUUerPeHEPJrcO6kFMrSH9P1ZszvYyp37GMgBrK9tThqe6_7fBSPN6UU0rJRGJQXJXw06Yd9sD9cABKhGG4iKuDjKKPYMi7ozE9za-EcHt8_npi47N4IlNJ)![|278x402](https://lh5.googleusercontent.com/EzdjHMWe5HHK9eP81iD0fNcJ5cMV9XAvKMOlvKmqHgiXssaj-ROoyg8vNp8kzwvjeLiyXy7nF7g0qiaz43yLx8uEdPEmbWD-unucgksmEb0pTpdXM5oGsnmyI_BsjGWv0dU_nI8t)",
+      "source_content_hash": "7a37976968ac9a651c34232e0a732e23c722c3894e9a6f1118f336d251b17bd7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![|204x401](https://lh4.googleusercontent.com/EM6pOLRzSMWGkvlsLLUUerPeHEPJrcO6kFMrSH9P1ZszvYyp37GMgBrK9tThqe6_7fBSPN6UU0rJRGJQXJXw06Yd9sD9cABKhGG4iKuDjKKPYMi7ozE9za-EcHt8_npi47N4IlNJ)![|278x402](https://lh5.googleusercontent.com/EzdjHMWe5HHK9eP81iD0fNcJ5cMV9XAvKMOlvKmqHgiXssaj-ROoyg8vNp8kzwvjeLiyXy7nF7g0qiaz43yLx8uEdPEmbWD-unucgksmEb0pTpdXM5oGsnmyI_BsjGWv0dU_nI8t)"
+      }
+    },
+    {
+      "segment_id": "5803caac",
+      "source_content": "Dokręcić głośnik śrubami 4x M4 x 16mm, tak aby zlicować powierzchnię obudowy i głośnika.",
+      "source_content_hash": "15917a0cdc5a2f553490bf872ea6dba77e8d59e0700268e970d0b1a9058d84b4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "用4颗M4×16mm螺丝固定扬声器，确保外壳表面与扬声器齐平。"
+      }
+    },
+    {
+      "segment_id": "51867d16",
+      "source_content": "![|621x270](https://lh5.googleusercontent.com/BR2dxvQaOuLoIORrywKm6HIMfkdaWKKXRmJwVIW14bJ8zlXgDWfl0hK9fSb-9P0CNF1E4sbN_T5tW98dz3gsuRinmyvV6r_OelqMuc42Gy4lY7YlfpmnmOJdZ9ON8SbK4ODBglZL)",
+      "source_content_hash": "ce43daed17264f18472260e7c9b16cc17ed44c2e28357f499202ebd4d77b228f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![|621x270](https://lh5.googleusercontent.com/BR2dxvQaOuLoIORrywKm6HIMfkdaWKKXRmJwVIW14bJ8zlXgDWfl0hK9fSb-9P0CNF1E4sbN_T5tW98dz3gsuRinmyvV6r_OelqMuc42Gy4lY7YlfpmnmOJdZ9ON8SbK4ODBglZL)"
+      }
+    },
+    {
+      "segment_id": "785750ac",
+      "source_content": "![|321x132](https://lh5.googleusercontent.com/WJkHllQCnXH2VXmh1PAiDf92WOYbWusOAV5Llz-AJ46COmb0zenkAqcX8oXFacxav2HK1oHX1p7bU8mL3A8Pi86fU4j8L1A65ML2e6IIv6vQJa-6Ly04Jn92uxslDUCky0tW8K37)![|295x135](https://lh5.googleusercontent.com/0jgIPg8gui_y5w70yeR9eREKJ-3YMfidlSax6KP-LuYur6eGPjNzCIYeObO4fsC8pcveqBpglAOdA61G6K4k6PTbfvcLHBZ8wjcRWZEgQSGF_6P76LCLrro8ruyrTlKPVdUxOZEE)![|621x294](https://lh4.googleusercontent.com/qukRlqytTjR3LV9ekV8v9UswIz9hx2bVSQ09mLXma7oQHQ2vQGNXtVyqZ4jfDUMA_9NJSEM7-8eygpvhevIgzYQvdp7GCQsz70XDjVB6WhSbxhDW6aV8oe40Ey-arId6VSN43jkV)",
+      "source_content_hash": "0f685458cb7676b45ff1c154fcfe4efc9da49b530312b9f008fe283171e30a39",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![|321x132](https://lh5.googleusercontent.com/WJkHllQCnXH2VXmh1PAiDf92WOYbWusOAV5Llz-AJ46COmb0zenkAqcX8oXFacxav2HK1oHX1p7bU8mL3A8Pi86fU4j8L1A65ML2e6IIv6vQJa-6Ly04Jn92uxslDUCky0tW8K37)![|295x135](https://lh5.googleusercontent.com/0jgIPg8gui_y5w70yeR9eREKJ-3YMfidlSax6KP-LuYur6eGPjNzCIYeObO4fsC8pcveqBpglAOdA61G6K4k6PTbfvcLHBZ8wjcRWZEgQSGF_6P76LCLrro8ruyrTlKPVdUxOZEE)![|621x294](https://lh4.googleusercontent.com/qukRlqytTjR3LV9ekV8v9UswIz9hx2bVSQ09mLXma7oQHQ2vQGNXtVyqZ4jfDUMA_9NJSEM7-8eygpvhevIgzYQvdp7GCQsz70XDjVB6WhSbxhDW6aV8oe40Ey-arId6VSN43jkV)"
+      }
+    },
+    {
+      "segment_id": "f8edb6d2",
+      "source_content": "### Przygotowanie bramki",
+      "source_content_hash": "7f93cf7e92980598c3f1d15fd77f1b13a05e546abb64751a7dc86bd726773f62",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 网关准备"
+      }
+    },
+    {
+      "segment_id": "1862c5fe",
+      "source_content": "Przylutować złącze JST 4pin 2mm w otwory TTL:",
+      "source_content_hash": "d39fe33546206763c234fe7c8d767db55b864a5810fa6122483b5395796b45e9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "将4针2mm JST连接器焊接到TTL插孔："
+      }
+    },
+    {
+      "segment_id": "6ca4479f",
+      "source_content": "![|624x297](https://lh3.googleusercontent.com/mjZhD6TCb7MV1rw8N8ajNP9c_Wmh9bFhsRYj6xrbdtN1SUrGuFruHVcokF6-h5emyNYsOKo3CiD_Zunz49t13sCTWNOYY7tPUseGloegGKFWsNmAFZ0lheBMnhNj6Wk65G2xyuJR)![|624x272](https://lh3.googleusercontent.com/jiWwHBRMnjusEIx-cmPf6oyuw-gLYEFpVrKa-PfeXdBelSD6feGph806mbW5ia-x958uq6gNPx7tC2N3xUg3bM2B-DrHBenQyvi2HrtzE303ZYBM2-u2P_o_4HWNhi5E8h2MAwLe)",
+      "source_content_hash": "ddaeceb983ac4ed2765c842ae4150ca6ea478c169ae2b7eb0f8c5b98b85c67eb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![|624x297](https://lh3.googleusercontent.com/mjZhD6TCb7MV1rw8N8ajNP9c_Wmh9bFhsRYj6xrbdtN1SUrGuFruHVcokF6-h5emyNYsOKo3CiD_Zunz49t13sCTWNOYY7tPUseGloegGKFWsNmAFZ0lheBMnhNj6Wk65G2xyuJR)![|624x272](https://lh3.googleusercontent.com/jiWwHBRMnjusEIx-cmPf6oyuw-gLYEFpVrKa-PfeXdBelSD6feGph806mbW5ia-x958uq6gNPx7tC2N3xUg3bM2B-DrHBenQyvi2HrtzE303ZYBM2-u2P_o_4HWNhi5E8h2MAwLe)"
+      }
+    },
+    {
+      "segment_id": "71169a2d",
+      "source_content": "### Montaż obudowy na bramce",
+      "source_content_hash": "849fcd65d53e4b754645f2e9918aed164d78947540ff134f8193a36c209dc632",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 将外壳安装至网关"
+      }
+    },
+    {
+      "segment_id": "c1eaf30b",
+      "source_content": "Podłączyć przewód audio jack do wzmacniacza",
+      "source_content_hash": "a8f37aa3f5b70e10dfad6fa4079969e997940a3afaf45cfd6f8a81b97145557d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "将音频插孔线连接至功放"
+      }
+    },
+    {
+      "segment_id": "f0984c2a",
+      "source_content": "![|624x303](https://lh5.googleusercontent.com/HNUY1S2RPtvFhslmEzARoOBkW0oy0W0ysPUa0NEJh5SPIOLpZfV0kt7rrOf9WtK4Al9lvchMge4Tf19gt7I6ySEZ6E6ryTR6YOlSia7LA1x55b3ynsmwhCO_l3AuoFBzb9usDsAZ)",
+      "source_content_hash": "b1d9ebfd7fa4a79eb1a4baefd10f71946e000723244c716526477d74b585b8a8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![|624x303](https://lh5.googleusercontent.com/HNUY1S2RPtvFhslmEzARoOBkW0oy0W0ysPUa0NEJh5SPIOLpZfV0kt7rrOf9WtK4Al9lvchMge4Tf19gt7I6ySEZ6E6ryTR6YOlSia7LA1x55b3ynsmwhCO_l3AuoFBzb9usDsAZ)"
+      }
+    },
+    {
+      "segment_id": "a81544fd",
+      "source_content": "Przełożyć przewód TTL przez otwór w obudowie",
+      "source_content_hash": "00249093f19b7b2ec382701b454bd9227b0c5493b0e57798f1cb9bf6c545532d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "将TTL线穿过外壳孔洞"
+      }
+    },
+    {
+      "segment_id": "0801d969",
+      "source_content": "![|624x357](https://lh6.googleusercontent.com/VVJw_6gieGA6QazC_lzUE4w8OaxI_WH6bh14ltzpl6DcWs3bDp0s0kOWF93Uqc1MrXtBmD2V8FbTGUNnISw_atpjew2MY0OVEtywwGO79r0XIqZa0wJpq7Vy1MjLCkS7A9jZZjgl)",
+      "source_content_hash": "5c075800eab7343379f89a730b097b233db050a3b54309024c877981bfb81985",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![|624x357](https://lh6.googleusercontent.com/VVJw_6gieGA6QazC_lzUE4w8OaxI_WH6bh14ltzpl6DcWs3bDp0s0kOWF93Uqc1MrXtBmD2V8FbTGUNnISw_atpjew2MY0OVEtywwGO79r0XIqZa0wJpq7Vy1MjLCkS7A9jZZjgl)"
+      }
+    },
+    {
+      "segment_id": "3c19e221",
+      "source_content": "Przykręcić obudowę głośnika do obudowy bramki śrubami 4x M4 x 12mm i podłączyć przewód JST od wzmacniacza do bramki",
+      "source_content_hash": "c7c1271106778671cdf22042519b572505bfc54436e8e7ff0fadeca643575378",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "使用4颗M4×12mm螺丝将扬声器外壳固定至网关外壳，并将功放的JST线连接至网关"
+      }
+    },
+    {
+      "segment_id": "d21af28f",
+      "source_content": "![|624x327](https://lh4.googleusercontent.com/Cy1SK0x2QrEMM_IXlOqoSXvmtBcXd2DgHBPvWhziH2xmdMnglvvCcS5ge70pW8ySu4ynVr7WNqvkoWCZmUIRHs0S1lI3uAPEhuiDpwiGmVqfpkST89Tyyx27Tipu-DbX6gzI27PS)",
+      "source_content_hash": "fd5fc88c7952555e7797e2d93ca3656597cab7f08a8184c36304dedeb47d1bc8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![|624x327](https://lh4.googleusercontent.com/Cy1SK0x2QrEMM_IXlOqoSXvmtBcXd2DgHBPvWhziH2xmdMnglvvCcS5ge70pW8ySu4ynVr7WNqvkoWCZmUIRHs0S1lI3uAPEhuiDpwiGmVqfpkST89Tyyx27Tipu-DbX6gzI27PS)"
+      }
+    },
+    {
+      "segment_id": "44aaa880",
+      "source_content": "Podłączyć przewód audio jack do gniazda AV bramki i złożyć obudowę",
+      "source_content_hash": "2dec290e6d3ff7b97a514da7a10c6347f4c04268b92cdf28a0ec89a825528805",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "将音频插孔线连接至网关AV接口并组装外壳"
+      }
+    },
+    {
+      "segment_id": "396efb28",
+      "source_content": "![|624x339](https://lh4.googleusercontent.com/ykb5IJp2w3iAZtTVrnF9uQsswnRB4xDb-jmCiNlcXEPbl6CeG56deWvUvYv9ALpkiOKfDCp-KPQqPdD7l3KyFKU3z73QydgTefMvWSFZH_OSqZ5RAgU_-qqE0Amm09QKA6QQcKq-)",
+      "source_content_hash": "d49688911f26d3ed31e3a471cf371b94b9c03729582e13e277941d5e1ba923fc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![|624x339](https://lh4.googleusercontent.com/ykb5IJp2w3iAZtTVrnF9uQsswnRB4xDb-jmCiNlcXEPbl6CeG56deWvUvYv9ALpkiOKfDCp-KPQqPdD7l3KyFKU3z73QydgTefMvWSFZH_OSqZ5RAgU_-qqE0Amm09QKA6QQcKq-)"
+      }
+    },
+    {
+      "segment_id": "558df877",
+      "source_content": "![|624x353](https://lh4.googleusercontent.com/xfpqmQEIYnxA7Ypxup-NdMPik2X8RFRKK80kcNOV0e3f6YDUKwqxJ6-eW63W1M9cde1qXyyEVBcQABTV-IrXpnkVmSd1XcX7XVUqZBnulTXIldjx2zTEZUzuPKsgvjFn8y8zYEyP)",
+      "source_content_hash": "e2f9587cf62cdfce401016143f22745fd990117cc0ea248abb52aaf91fb79ecd",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![|624x353](https://lh4.googleusercontent.com/xfpqmQEIYnxA7Ypxup-NdMPik2X8RFRKK80kcNOV0e3f6YDUKwqxJ6-eW63W1M9cde1qXyyEVBcQABTV-IrXpnkVmSd1XcX7XVUqZBnulTXIldjx2zTEZUzuPKsgvjFn8y8zYEyP)"
+      }
+    },
+    {
+      "segment_id": "f38d1cb0",
+      "source_content": "![|624x336](https://lh3.googleusercontent.com/UGuWx6v_KvUm6iH8QQ-svXWxJUw5tMQfCqWq3C5ic2kuOfLV4HauQk8i7LyPud_R96ONrgznXVwItxtci6D4arYtPL0rS1l9eTHN3HrwJDniMaTCEryYrhanEV1aCouDHRJNBvrv)",
+      "source_content_hash": "0b812948670f37fa0d93fd0e372029a80657da87673fba15f0c3c6274c2262c1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![|624x336](https://lh3.googleusercontent.com/UGuWx6v_KvUm6iH8QQ-svXWxJUw5tMQfCqWq3C5ic2kuOfLV4HauQk8i7LyPud_R96ONrgznXVwItxtci6D4arYtPL0rS1l9eTHN3HrwJDniMaTCEryYrhanEV1aCouDHRJNBvrv)"
+      }
+    },
+    {
+      "segment_id": "5f82a1e9",
+      "source_content": "![|624x291](https://lh3.googleusercontent.com/81KgZllr0F6x9oSOwAWhu1zAjRAuwpmYpDpPB0OnABQAQJxtJNGLff2DcAUrBO0fzFYaoFEB0PiQ7YlX-2XOn6UX8UxicaXYfMU-vFSsXsuenO83u_l2xog-Gqg85DXmylSFZmqB)",
+      "source_content_hash": "ac71ab458350cbe62eaefaeec5b4c9f291203ea5cc1b017fd83b77fa14e09c77",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![|624x291](https://lh3.googleusercontent.com/81KgZllr0F6x9oSOwAWhu1zAjRAuwpmYpDpPB0OnABQAQJxtJNGLff2DcAUrBO0fzFYaoFEB0PiQ7YlX-2XOn6UX8UxicaXYfMU-vFSsXsuenO83u_l2xog-Gqg85DXmylSFZmqB)"
+      }
+    },
+    {
+      "segment_id": "6fc234cf",
+      "source_content": "![|276x384](https://lh5.googleusercontent.com/3lzJ2nikB4LtdoYrY2Kuc4CRpQQuTpiX1v1Xqk7NSV7x_FWmt8tK_4kP7M5ZA0SvV5o6fg6UdxS1GQLUmtRK0JVyBqdlbsB83nblKONhBCkF4nrJGZb28007HZS-0HvBSPjab5eQ)![|230x386](https://lh3.googleusercontent.com/YjYD2OREfiQfif1NshG1HZelnAjoCwmUDec6DMnIX-Ub3MHiLEg7lDvXh8kit7F4vQa4lWHo2sDUKI0bBxc-KYoHkHWgXQVPvxhJl-JCw2nAXOG0dgHjZR88u0ZGbMBBH0r302nD)",
+      "source_content_hash": "99f484026d19c00eccf5289beb46162392a0039e614dbf5b18d9ce86d9826a2a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![|276x384](https://lh5.googleusercontent.com/3lzJ2nikB4LtdoYrY2Kuc4CRpQQuTpiX1v1Xqk7NSV7x_FWmt8tK_4kP7M5ZA0SvV5o6fg6UdxS1GQLUmtRK0JVyBqdlbsB83nblKONhBCkF4nrJGZb28007HZS-0HvBSPjab5eQ)![|230x386](https://lh3.googleusercontent.com/YjYD2OREfiQfif1NshG1HZelnAjoCwmUDec6DMnIX-Ub3MHiLEg7lDvXh8kit7F4vQa4lWHo2sDUKI0bBxc-KYoHkHWgXQVPvxhJl-JCw2nAXOG0dgHjZR88u0ZGbMBBH0r302nD)"
+      }
+    },
+    {
+      "segment_id": "c364340c",
+      "source_content": "![|624x309](https://lh3.googleusercontent.com/WeQRbHUWrXfgk3zBDf6_MZNh68WSluELPmiVgNsLx8yVDsapcb2qjfdOzv4po_I6b8H7ui2N9BnESFMZR8Ozg9kKZ4JSPXBOW8BOs4Fj7i3_VU3Wt_IAXMjVB4YVZsLulQvteB3r)",
+      "source_content_hash": "ac4c4c75d74b19f82a3078f2fc608b0861393d666a3aa69bc89c691649376afd",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![|624x309](https://lh3.googleusercontent.com/WeQRbHUWrXfgk3zBDf6_MZNh68WSluELPmiVgNsLx8yVDsapcb2qjfdOzv4po_I6b8H7ui2N9BnESFMZR8Ozg9kKZ4JSPXBOW8BOs4Fj7i3_VU3Wt_IAXMjVB4YVZsLulQvteB3r)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_dev_kit_1_instruction.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.141979+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "3dddf7c0ae7b0bbe22cfcabfb31c3d948e03b1e81c63ebdd333d86577bc64cc6"
+  }
+}

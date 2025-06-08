@@ -1,0 +1,302 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2020-05-20-release-notes.md",
+  "source_file_content_hash": "b4ad0e75226cde5f78155788b3220c36507e567de9d350674a8a21917bb03a51",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Jola AI-Speaker\nauthorURL: https://github.com/sviete\nauthor_title: Asystentka\nauthorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4\ntitle: Wersja systemu 0.109.7\ntags: [:notifications\", \"tasmota\", \"zigbee\", \"home assistant\"]\n---",
+      "source_content_hash": "7ff63423f43051ab03e608ec5b387d1c4f20780582a15a5b8f7f383701759425",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "1cc03ec8",
+      "source_content": "# 0.109.7 Powiadomienia, Tasmota, Zigbee",
+      "source_content_hash": "fa228fdfdd82c7f9b2ac708e3ba59dd12f3a8d667ee74e0ba728b16c6338b57c",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# 0.109.7 通知、Tasmota、Zigbee"
+      }
+    },
+    {
+      "segment_id": "143e51c1",
+      "source_content": "- ![Powiadomienia](/img/en/blog/202005/megaphone.png) Powiadomienia z bramki... nielimitowane! :)\n- ![Tasmota](/img/en/blog/202005/tasmota_small.png) Aktualizacja AIS-Tasmota, oprogramowania do urządzeń WiFi, [1261 urządzeń](https://templates.blakadder.com/index.html)\n- ![Zigbee](/img/en/blog/202004/honeybee.png) Aktualizacja Zigbee2Mqtt, [741 urządzenia od 133 różnych producentów](https://www.zigbee2mqtt.io/information/supported_devices.html)\n- ![SUPLA](/img/en/blog/202005/supla.png) Konfiguracja ilości zapytań do serwisu SUPLA\n- ![Icons](/img/en/blog/202004/house.png) Nowy Home Assistant",
+      "source_content_hash": "e61ceae92e6c41be9a67ec3ee71c10bb20d13f92005222d3ff298caf22c42218",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- ![通知](/img/en/blog/202005/megaphone.png) 来自网关的通知...无限制！ :)\n- ![Tasmota](/img/en/blog/202005/tasmota_small.png) 更新WiFi设备固件AIS-Tasmota，[支持1261种设备](https://templates.blakadder.com/index.html)\n- ![Zigbee](/img/en/blog/202004/honeybee.png) 更新Zigbee2Mqtt，[支持133个厂商的741种设备](https://www.zigbee2mqtt.io/information/supported_devices.html)\n- ![SUPLA](/img/en/blog/202005/supla.png) 配置SUPLA服务的查询频率\n- ![图标](/img/en/blog/202004/house.png) 新版Home Assistant"
+      }
+    },
+    {
+      "segment_id": "c6da205d",
+      "source_content": "<!--truncate-->",
+      "source_content_hash": "f5cded2aa7e288e395fe4f67f9dabda2281904b2f5358d07302b3aa8be0acdfa",
+      "node_type": "comment",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_c6da205d"
+      }
+    },
+    {
+      "segment_id": "8a545039",
+      "source_content": ":::tip[Wskazówka]\nUWAGA Przed aktualizacją zalecamy wykonać [kopię zapasową konfiguracji](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji). W ten sposób sprawdzisz poprawność swojej konfiguracji przed rozpoczęciem aktualizacji i zwiększysz prawdopodobieństwo bezproblemowej aktualizacji.\n:::",
+      "source_content_hash": "8037a28333f24321b7f0ca3b0ff5dadb46488124d52cf37fa284e31f781ef145",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::tip[提示]\n注意：建议在升级前[备份配置](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji)。通过这种方式可以在升级前验证配置的正确性，提高顺利升级的概率。\n:::"
+      }
+    },
+    {
+      "segment_id": "a2f1eaea",
+      "source_content": ":::important[informacja]\nW razie problemów po aktualizacji sprawdź procedurę [Aktualizacja z konsoli](/docs/ais_bramka_update_manual) lub [Wykonanie pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step)- to może dotyczyć szczególnie osób, które instalują na bramce dodatkowe niestandardowe komponenty.\n:::",
+      "source_content_hash": "3cec0bb82063176fa13cef39765f9b987deaab39151bf29d8edb2af0bf5c6672",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::important[重要信息]\n若升级后遇到问题，请查阅[控制台升级指南](/docs/ais_bramka_update_manual)或[执行应用完全重置](/docs/ais_bramka_reset_ais_step_by_step)——特别是那些在网关上安装了非标准组件的用户。\n:::"
+      }
+    },
+    {
+      "segment_id": "f79f5ed0",
+      "source_content": ":::caution[Uwaga]\nPo aktualizacji zalecamy reset domyślnej konfiguracji interfejsu, lub ręczne poprawienie wyświetlania encji ``sensor.aisknowledgeanswer``, dokładny opis na forum: https://ai-speaker.discourse.group/t/beta-nowa-wersja-0-109-wydana-na-kanale-beta/423/47\n:::",
+      "source_content_hash": "4b446c684f1948d17b4934c1febcb3473eaf77e99579a2a22f01b0c7bdb8a100",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[注意]\n升级后建议重置界面默认配置，或手动修正实体`sensor.aisknowledgeanswer`的显示问题，详细说明见论坛：https://ai-speaker.discourse.group/t/beta-nowa-wersja-0-109-wydana-na-kanale-beta/423/47\n:::"
+      }
+    },
+    {
+      "segment_id": "f422383e",
+      "source_content": "## ![Powiadomienia](/img/en/blog/202005/megaphone.png) Powiadomienia z bramki",
+      "source_content_hash": "d475134260ec4e3001e4943aa8a6284688430a5d21de048569643d8a36210ec3",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![通知](/img/en/blog/202005/megaphone.png) 网关通知功能"
+      }
+    },
+    {
+      "segment_id": "97ae4a01",
+      "source_content": "Na bramce dostępna jest nowa usługa ais_ai_service.mob_notify, która umożliwia wysłanie z bramki powiadomienia do aplikacji mobilnej AIS dom.\nDzięki temu za pomocą automatyzacji możemy informować o zdarzeniach w naszym domu wybraną aplikację mobilną.",
+      "source_content_hash": "e6ccc4e4ddaffe3a5f0d6a31180d83a1900327bcf8a88af503a4d86091a06895",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "网关新增服务ais_ai_service.mob_notify，可通过自动化将通知推送至AIS dom移动应用。该功能允许用户通过移动应用接收家中事件的实时提醒。"
+      }
+    },
+    {
+      "segment_id": "33331f27",
+      "source_content": "Powiadomienia są nielimitowane, mogą zawierać zdjęcie oraz tekst do przeczytania.\nOpis funkcjonalności dostępny jest w dokumentacji Powiadomienia z bramki",
+      "source_content_hash": "be4f2d7d0178ab0562a0f280926dd680b6bf9bb5acf015e7e7e3e68555edff50",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "通知数量无限制，支持附带图片和可朗读文本。完整功能说明详见文档《网关通知功能》"
+      }
+    },
+    {
+      "segment_id": "1042b50d",
+      "source_content": "![Notify](/img/en/frontend/gallery_notify_1.png)",
+      "source_content_hash": "1ebc59a87aa266fdf014df2883faaa3e9d1b5c3dc25849397b34c8442aa96a60",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![通知](/img/en/frontend/gallery_notify_1.png)"
+      }
+    },
+    {
+      "segment_id": "aa1e7006",
+      "source_content": "![Notify](/img/en/frontend/gallery_notify_4.png)",
+      "source_content_hash": "519cd99cbe4c89c5f135a78beb0d694be87ca87a4ee1d7f0a8d969519959ab53",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![通知](/img/en/frontend/gallery_notify_4.png)"
+      }
+    },
+    {
+      "segment_id": "3a76cadb",
+      "source_content": ":::caution[Uwaga]\nWymagana aplikacja AIS dom w wersji minimum 1.1.8.Notify.\n:::",
+      "source_content_hash": "feb5e5973996f072a31693feeabbc2fcfe03e27afa6e5d7f15a397eba46ec0e3",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[注意]\n需使用AIS dom移动应用v1.1.8及以上版本。\n:::"
+      }
+    },
+    {
+      "segment_id": "d0479480",
+      "source_content": ":::caution[Uwaga]\nŻeby powiadomienia zaczęły działać, należy wylogować się i zalogować ponownie w aplikacji mobilnej.\n:::",
+      "source_content_hash": "30495ffe3152d30c266adb86d6e915eb686f4542f259a6cb814e418b3dc4a11c",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[注意]\n首次使用需在移动应用中重新登录以激活通知功能。\n:::"
+      }
+    },
+    {
+      "segment_id": "d3649a1e",
+      "source_content": "Zastosowaliśmy nowy schemat autentykacji bazujący na mechanizmie IndieAuth.\n![Powiadomienia](/img/en/blog/202005/mob_auth.png)",
+      "source_content_hash": "5355aa9c77acfdd99b11ad4dcf4bdf1e7e94fb1fe96dec61d60e9b6ac063df3e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们采用了基于IndieAuth机制的新认证方案。\n![通知认证](/img/en/blog/202005/mob_auth.png)"
+      }
+    },
+    {
+      "segment_id": "7283cdac",
+      "source_content": "## ![Tasmota](/img/en/blog/202005/tasmota_small.png) Aktualizacja AIS-Tasmota",
+      "source_content_hash": "c71a90663d2ac3e0c9855aa36eba2a738ad409de34b4bf38b3a11aaba11008d2",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![Tasmota](/img/en/blog/202005/tasmota_small.png) AIS-Tasmota更新"
+      }
+    },
+    {
+      "segment_id": "1131ef75",
+      "source_content": "Tym razem dwie binarki, bo połączyliśmy popularne funkcje dostępne na różnych urządzeniach (gniazdka, rolety, panele dotykowe itd…) w jedną kompilację.\nCzyli ta jedna kompilacja ma wszystkie popularne funkcjonalności i będzie działać na wszystkich modułach.",
+      "source_content_hash": "93aea87df3422f4460834522cf586cc1eefcdfadf8f0f1661032b4f40e1a2620",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "这次我们提供了两个二进制版本，因为我们将不同设备（插座、卷帘、触摸面板等）上的常用功能整合到了一个编译版本中。也就是说，这个单一编译版本包含了所有常用功能，可以在所有模块上运行。"
+      }
+    },
+    {
+      "segment_id": "79ad944d",
+      "source_content": "![Oprogramowanie bramki](/img/en/iot/iot_device_menu.png)",
+      "source_content_hash": "ed334dcddf138281735269e85f53a7ffbd94e3af4ed58a240773cc5f0dbc68b0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![网关软件](/img/en/iot/iot_device_menu.png)"
+      }
+    },
+    {
+      "segment_id": "a5a4323e",
+      "source_content": "## ![Zigbee](/img/en/blog/202004/honeybee.png) Aktualizacja Zigbee2Mqtt do wersji 1.13.0",
+      "source_content_hash": "65eae2e58db7bc51876e1af603154f8e7c51b0aa1834343a658cb7c6c14be732",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![Zigbee](/img/en/blog/202004/honeybee.png) 更新Zigbee2Mqtt至1.13.0版本"
+      }
+    },
+    {
+      "segment_id": "3ef18741",
+      "source_content": "### [741 urządzenia od 133 różnych producentów](https://www.zigbee2mqtt.io/information/supported_devices.html) 🥰",
+      "source_content_hash": "03d8fb4583da6cf402169e7790f6e355bd4db24a7b110d3235d1ef89fe140e15",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### [支持133个不同厂商的741款设备](https://www.zigbee2mqtt.io/information/supported_devices.html) 🥰"
+      }
+    },
+    {
+      "segment_id": "147e8550",
+      "source_content": "Aktualizacja Zigbee, tak samo jak aktualizacji innych składowych, wykona się automatycznie.",
+      "source_content_hash": "f09a2253398fd56b9c8238907c42ffe0f0b8738f8b7d429cd9dcba8d6effe3fe",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Zigbee的更新与其他组件一样，将自动完成。"
+      }
+    },
+    {
+      "segment_id": "883231d4",
+      "source_content": "![Oprogramowanie bramki](/img/en/blog/202005/update.png)",
+      "source_content_hash": "a996f633191447a1603f82ba5eb9a8d44c0b9cde470132b262b462e964f81a07",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![网关软件](/img/en/blog/202005/update.png)"
+      }
+    },
+    {
+      "segment_id": "93028a4e",
+      "source_content": "## ![SUPLA](/img/en/blog/202005/supla.png) Konfiguracja ilości zapytań do serwisu SUPLA",
+      "source_content_hash": "e56400a99cc54764046e504360b8544dbe5fba897b429e7aeab45a9e409897e8",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![SUPLA](/img/en/blog/202005/supla.png) 配置SUPLA服务的查询频率"
+      }
+    },
+    {
+      "segment_id": "e8e162a9",
+      "source_content": "Dodaliśmy możliwość definiowania interwału skanowania dla integracji SUPLA.\nW ten sposób każdy może ustalić sobie jak często może pytać o status swoich urządzeń (w zależności od ilości urządzeń które ma i aktualnych limitów w SUPLA).\nSzczegóły w dokumentacji [Integracja SUPLA](/docs/ais_app_supla)",
+      "source_content_hash": "c477a3f20561202302e31d6d3219229bef87c74c16fd5c877bb36ad3aeeaf553",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们为SUPLA集成添加了扫描间隔定义功能。用户可根据设备数量和SUPLA当前限制，自定义设备状态查询频率。详情参阅文档[SUPLA集成](/docs/ais_app_supla)"
+      }
+    },
+    {
+      "segment_id": "a5c5772a",
+      "source_content": "![SUPLA](/img/en/blog/202005/supla_limit.png)",
+      "source_content_hash": "ee2799ce53c400911e682e462c674ccd8a6cfec2952ac94f80ee640771f03f22",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![SUPLA](/img/en/blog/202005/supla_limit.png)"
+      }
+    },
+    {
+      "segment_id": "2e771fd0",
+      "source_content": "## ![Icons](/img/en/blog/202004/house.png) Nowy Home Assistant",
+      "source_content_hash": "88863cd4f9805069454723a54a0120dfbc9e65e34f42b7e9fe3d9c508f018ba4",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![图标](/img/en/blog/202004/house.png) 新版Home Assistant"
+      }
+    },
+    {
+      "segment_id": "0750bfa1",
+      "source_content": "Najnowszy (stabilny) Home Assistant <a href=\"https://www.home-assistant.io/blog/2020/04/29/release-109/\" target=\"_blank\">0.109.6</a> jak zwykle sporo nowości ❤️",
+      "source_content_hash": "c39e4b56d265d6e5621518e20c35e24d0714eb5549b8b02db7baf3cc907f5eea",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "最新稳定版Home Assistant <a href=\"https://www.home-assistant.io/blog/2020/04/29/release-109/\" target=\"_blank\">0.109.6</a> 依然带来诸多新特性 ❤️"
+      }
+    },
+    {
+      "segment_id": "945bf499",
+      "source_content": "----",
+      "source_content_hash": "bd64bb8efa5b3f27e6442f23600c3b516127ea17e23724b41e50da4c22883edd",
+      "node_type": "thematicBreak",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "----"
+      }
+    },
+    {
+      "segment_id": "f6b04a59",
+      "source_content": "Zapraszamy do aktualizacji i [komentowania na forum :)](https://ai-speaker.discourse.group/)\nAI-Speaker 05/2020\n----",
+      "source_content_hash": "15aac319396c904b2230e4af5edae6975de02b9537575ad36e661791d826a9bb",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "欢迎升级并[参与论坛讨论 :)](https://ai-speaker.discourse.group/)\nAI-Speaker 2020年5月\n----"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2020-05-20-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.129639+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "b4ad0e75226cde5f78155788b3220c36507e567de9d350674a8a21917bb03a51"
+  }
+}

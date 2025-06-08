@@ -1,0 +1,512 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2020-12-18-release-notes.md",
+  "source_file_content_hash": "7fd0e79128d30da8598805cf27336e8f914cc0153306a78e1fffb29bf146da80",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Jola AI-Speaker\nauthorURL: https://github.com/sviete\nauthor_title: Asystentka\nauthorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4\ntitle: AIS 20/21 - podsumowanie i zapowiedzi\ntags: [\"2020\", \"2021\", \"DEV2\", \"PRO\", \"EASY\", \"AI-SPEAKER\"]\n---",
+      "source_content_hash": "ed0d2b84b2807f7ceadf675b7578c6977e85bd6fa2d5bb33c177f1cbea02c6ac",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "[![AIS DEV2 First run](/img/en/bramka/first_run_video.png)](https://youtu.be/1qSQWAFizCM?cc_load_policy=1)",
+      "source_content_hash": "7405ae8f10e48b46764aeaa5abfe2f59667d52a210f7731385eebd0b729dfc7d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "[![AIS DEV2 首次启动](/img/en/bramka/first_run_video.png)](https://youtu.be/1qSQWAFizCM?cc_load_policy=1)"
+      }
+    },
+    {
+      "segment_id": "5da3670c",
+      "source_content": "<div class=\"IntroAisBlogMenu\" >\n<a href=\"#ais-2020\"> Podsumowanie roku 2020</a>\n<div>\n\n![AIS 2020](/img/en/blog/202012/2020_icon.png)\n\n</div>\n</div>",
+      "source_content_hash": "c80cd0f8a35fe89cd2333471910d911be1c61f26de8d1ccc11b7b8d3f980add6",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_5da3670c"
+      }
+    },
+    {
+      "segment_id": "b7a64917",
+      "source_content": "<div class=\"IntroAisBlogMenu\" >\n<a href=\"#ais-2021\"> AIS DEV2</a>\n<div>\n\n![AIS DEV2](/img/en/blog/202012/dev2_icon.png)\n\n</div>\n</div>",
+      "source_content_hash": "c9a737b823d756490c476ba94938bc08d078f6f1f232f0c987e204b5776216ac",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_b7a64917"
+      }
+    },
+    {
+      "segment_id": "99d14dfd",
+      "source_content": "<div class=\"IntroAisBlogMenu\" >\n\n<a href=\"#ais-pro\"> AIS PRO</a>\n<div>\n\n![AIS PRO](/img/en/blog/202012/pro_icon.png)\n\n</div>\n</div>",
+      "source_content_hash": "4b969cff5a3ad53a9ef099ed98bed12ae73414dd7fd9153390ef767d75bd2d3b",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_99d14dfd"
+      }
+    },
+    {
+      "segment_id": "ff6ab177",
+      "source_content": "<div class=\"IntroAisBlogMenu\" >\n\n<a href=\"#ais-easy\"> AIS EASY</a>\n\n<div>\n\n![AIS EASY](/img/en/blog/202012/easy_icon.png)\n\n</div>\n</div>",
+      "source_content_hash": "b3bd127d57fc76b628654667145274a331fb5bed0a78eaeabd38e99a73ee0917",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_ff6ab177"
+      }
+    },
+    {
+      "segment_id": "8296bd42",
+      "source_content": "<div class=\"IntroAisBlogMenu\" >\n<a href=\"#ai-speaker\"> AI-Speaker</a>\n<div>\n\n![AIS](/img/en/blog/202012/speaker_icon.png)\n\n</div>\n</div>",
+      "source_content_hash": "8b966db8da7f1ad5b1972e6a6c81d500fc1145038d45008a1167a0a0cf5b4af8",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_8296bd42"
+      }
+    },
+    {
+      "segment_id": "6f00abe6",
+      "source_content": "<!--truncate-->",
+      "source_content_hash": "f5cded2aa7e288e395fe4f67f9dabda2281904b2f5358d07302b3aa8be0acdfa",
+      "node_type": "comment",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_6f00abe6"
+      }
+    },
+    {
+      "segment_id": "126950d7",
+      "source_content": "## AIS 2020",
+      "source_content_hash": "67a668f1274f2530fa57935caa4fac252cd49ed3af6161a8f3a42c5bd37f1b8c",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## AIS 2020年度回顾"
+      }
+    },
+    {
+      "segment_id": "0bb95128",
+      "source_content": "W 2020 roku  wydaliśmy 17 wersji systemu (18 wydanie w drodze). Uruchomiliśmy forum. Połączyliśmy dokumentację ze stroną projektu. Chyba jako jedni z pierwszych dostrzegliśmy potencjał Zigbee2Mqtt (pewnie dlatego, że jeden z głównych elementów naszej bramki to wbudowany broker MQTT) i to my wprowadziliśmy go do sprzedaży w Polsce. Wytrwale i konsekwentnie dostarczaliśmy na bramki tysiące linijek kodu rozwijając i stabilizując system Asystent domowy :)",
+      "source_content_hash": "dcf23d016e746eea8f7553204d28c4432c1f53f06f1da3787aee63a72b4bad02",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "2020年我们发布了17个系统版本（第18个版本正在路上）。我们启动了社区论坛，将项目文档与官网整合。或许是最早认识到Zigbee2Mqtt潜力的团队之一（这得益于我们网关内置的MQTT代理服务器），我们率先在波兰市场推出该解决方案。通过持续交付数千行代码，我们坚定不移地开发和稳定着这套智能家居系统。"
+      }
+    },
+    {
+      "segment_id": "657c2b20",
+      "source_content": "2020 to dla nas bardzo udany czas, to rok w którym przekonywaliśmy, że:",
+      "source_content_hash": "d33c17fde034467fa0f3789a03b9aace7b61f7b568959e1c118b4540d8b71576",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "2020年对我们而言是硕果累累的一年，我们成功验证了："
+      }
+    },
+    {
+      "segment_id": "af7d8a35",
+      "source_content": "- można sterować światłem w domu bez konieczności informowania o każdym włączeniu i wyłączeniu serwisu w chmurze chińskiego producenta przełącznika (i Asystenta Google w USA), bo działanie lokalne jest szybsze i lepsze,\n- nie trzeba mieć serwera w garażu do sterowania automatyzacjami w domu,\n- da się zintegrować urządzenia różnych producentów i sprowadzić do wspólnego API\n- dostęp do usług/API i możliwość zautomatyzowania daje ogromne możliwości sterowania i łączenia elementów w całość bez ryzyka uzależnienia się od jednego dostawcy.",
+      "source_content_hash": "93bbce0a9631ace0810d4c56cbdc3220dca5447f4cd9cebce1b0c93a0545a476",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 家庭照明控制无需每次开关都向中国厂商的云端服务器（或美国的Google助理）发送数据，本地化操作更快速可靠\n- 实现家庭自动化无需在车库部署服务器\n- 不同厂商设备可通过统一API进行集成\n- 开放的API服务和自动化能力提供了强大的设备联动可能，同时避免供应商锁定风险"
+      }
+    },
+    {
+      "segment_id": "f01228d3",
+      "source_content": "Rozmawialiśmy też z producentami, którzy od dziesiątek lat są na rynku i dzisiaj nie mają jeszcze problemów ze sprzedażą, ale powoli czują, że nadchodzi czas, gdy zwykłe urządzenie to będzie za mało. Bo klienci stali się bardziej wyrafinowani, mają większe zasoby finansowe i potrzeby, szukają czegoś więcej niż włącznik światła, chcą kompleksowych rozwiązań smart dom.",
+      "source_content_hash": "3a7026982439be32c9a5940cf69c3a97b479c70cea4a856340ce93c81f8ab397",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们与传统厂商的对话中发现：尽管他们当前销售未受影响，但已逐渐意识到基础设备难以满足日益成熟的消费者需求。现代用户追求的不再是单一开关功能，而是整体智能家居解决方案。"
+      }
+    },
+    {
+      "segment_id": "afa378f7",
+      "source_content": "Zauważyliśmy też, że część klientów zaczyna dostrzegać, że producent zamkniętego rozwiązania nie jest w stanie zaspokoić ich potrzeb. Bo nikt w ofercie nie ma wszystkich urządzeń, a to że klimatyzacja działa z aplikacji mobilnej firmy X, oświetlenie firmy Y a ogrzewanie firmy Z... itd. to za mało. Ważne jest, aby urządzenia rozumiały standardowe protokoły IoT i integrowały się z innymi urządzeniami- tylko wtedy można sterować urządzeniami z różnych systemów, definiować sceny i zautomatyzować dom.",
+      "source_content_hash": "605219cfd098d2056396b342395d0e33632935f558f26ba69331077f0277ee2c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "越来越多的用户认识到封闭生态的局限性——当空调、照明、采暖系统分别来自不同品牌时，只有支持标准IoT协议并实现跨平台集成的设备，才能构建真正的场景联动和家庭自动化。"
+      }
+    },
+    {
+      "segment_id": "e8e162a9",
+      "source_content": "Rok 2020 był dla nas ogromnym krokiem na drodze wypracowania kompleksowej oferty dla producentów i końcowego użytkownika. Słuchamy uważnie naszych użytkowników, chętnie podejmujemy też rozmowy z producentami i jesteśmy otwarci na realizowanie projektów. Jednocześnie nie zapominamy o tym, co nas wyróżnia, o naszych wartościach - sterowaniu lokalnym i poszanowaniu prywatności.",
+      "source_content_hash": "0eb2bd43090d7989b08eeecb730059fa6655837a23d63faa71ca0b67af3274d7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "2020年标志着我们在打造面向厂商和终端用户的完整解决方案道路上迈出关键一步。我们始终秉持核心价值：坚持本地化控制与隐私保护，同时积极倾听用户反馈，开放对接厂商合作需求。"
+      }
+    },
+    {
+      "segment_id": "463ed165",
+      "source_content": "![](/img/en/blog/202012/ais_slucham_cie.png)",
+      "source_content_hash": "4813c16598b578ae27729bd16eac9f1f8b4c0d4414cc1a222f97468c4634f544",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202012/ais_slucham_cie.png)"
+      }
+    },
+    {
+      "segment_id": "a5c5772a",
+      "source_content": "Dziękujemy, że jesteście z nami. Wiemy, że nie wszystko jest proste i nie wszystko działa tak dobrze jak powinno.\nZapewniamy, że robimy co w naszej mocy, żeby rok 2021 był rokiem, w którym postaramy się odpowiedzieć na kolejne potrzeby, bo **Słuchamy Cię!** Nie mylić z podsłuchujemy Cię ;)",
+      "source_content_hash": "ffa78b97f0c06fdfdc4875de9ba430b91197c538c258256101176a037597db83",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "感谢您与我们同行。我们深知并非所有功能都简单易用，也并非所有体验都尽如人意。\n我们承诺将在2021年全力以赴，响应更多需求——因为**我们倾听您的声音！**（请注意：是\"倾听\"而非\"窃听\"；）"
+      }
+    },
+    {
+      "segment_id": "2e771fd0",
+      "source_content": "## AIS 2021",
+      "source_content_hash": "2f129254fe5d250b7462f3d844a7d75865a2cd502cdce67afc8f70c0b7066487",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## AIS 2021"
+      }
+    },
+    {
+      "segment_id": "ec8ed2a1",
+      "source_content": "### ![](/img/en/blog/202012/dev2_icon.png) AIS DEV2",
+      "source_content_hash": "e97eaace4b869c09a5c278edc9914eb4a4cba92314f9c737baa227ff86289abd",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### ![](/img/en/blog/202012/dev2_icon.png) AIS DEV2"
+      }
+    },
+    {
+      "segment_id": "51867d16",
+      "source_content": "Wydajemy bramkę DEV2, która ma 2 razy więcej RAM i ROM niż DEV1 no i jest 2 razy mniejsza. Odrobiliśmy lekcje DEV1 i poprawiliśmy sporo rzeczy \"pod spodem\", dodatkowo cała bramka wg nas jest teraz ładniejsza. Ma też kod QR na plakietce znamionowej- po zeskanowaniu aparatem w telefonie poprowadzi do instalacji naszej aplikacji. Bramka ma też wbudowany tag NFC, dzięki czemu jej uruchomienie jest prostsze.\nNie jest to jakaś rewolucja w stosunku do DEV1, ale ewolucja i zgodność z prawem Moore’a (wymyślonym przez pracownika firmy Intel) - czyli 2 razy więcej w 2 razy mniejszej obudowie co 2 lata.",
+      "source_content_hash": "e1c6dbac01822cbb9a28c19153bf6916e11cb21c818764fba74512847e074402",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们推出DEV2网关，其内存和存储容量是DEV1的两倍，而体积仅为DEV1的一半。我们汲取了DEV1的经验教训，优化了大量底层架构，整体外观设计也更为精致。设备铭牌上新增二维码标识，手机扫描即可跳转安装应用；内置NFC标签使初始化操作更加便捷。\n这并非对DEV1的颠覆性变革，而是遵循摩尔定律（英特尔员工提出的理论）的渐进式演进——每两年在体积减半的同时实现性能翻倍。"
+      }
+    },
+    {
+      "segment_id": "a311e967",
+      "source_content": "Nasz system dojrzewa i wersja nie-beta to już kwestia bardziej tygodni niż miesięcy. Chcemy mieć zawsze w ofercie wersję DEV, która będzie konkurencją cenową i funkcjonalną dla RPi i innych rozwiązań DIY. Dlatego nadal jest to DEV z root-em a nie zamknięty produkt.",
+      "source_content_hash": "e11e456ee6e9b8218bd98453ec180c1032eafbace232c7af415076e80a6b5c01",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们的系统日趋成熟，正式版发布已进入以周为单位的倒计时。我们将持续提供具有价格竞争力、功能可媲美树莓派等DIY方案的DEV系列产品，因此仍保持root权限开放特性而非封闭系统。"
+      }
+    },
+    {
+      "segment_id": "eb51d107",
+      "source_content": "![DEV2](/img/en/blog/202012/dev2.jpg)",
+      "source_content_hash": "638ce60ac5d1e9262a21a81c370264aa8642d3f2d13d99309c30a156d95b2721",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![DEV2](/img/en/blog/202012/dev2.jpg)"
+      }
+    },
+    {
+      "segment_id": "25212439",
+      "source_content": "Bardzo szanujemy kreatywnych ludzi, którzy potrafią sami rozwiązywać problemy a nie je stwarzać, bo nie sztuką jest udowadnianie, że coś nie działa, że się nie da... to jest nam w stanie udowodnić 5 letnia Asia - jak jej damy dostęp root do bramki ;)",
+      "source_content_hash": "8020d0de12eb9353a688c50b43338dbf350c804a2b73b0865b4e23fa0deb10f9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们由衷敬佩那些善于创造性解决问题而非制造问题的人。毕竟向五岁小孩开放网关root权限也能证明系统存在漏洞——这毫无技术含量可言。"
+      }
+    },
+    {
+      "segment_id": "d79a4831",
+      "source_content": "Sztuką jest dostarczenie bramki IoT za 200zł, którą da się sterować całym mieszkaniem czy biurem.\nMy udowodniliśmy, że to możliwe. Sami sterujemy oświetleniem, roletami i ogrzewaniem w naszym biurze za pomocą naszej bramki DEV. Dodatkowo bramka odtwarza audio i wykonuje dziesiątki automatyzacji. Nie mamy najmniejszej potrzeby, żeby tą bramkę zastępować czymś innym - jesteśmy dumni z tego rozwiązania :)",
+      "source_content_hash": "7a41962b341a2dad0f6c799df5ca3268b20beb394a2db43b3c6fb6ea1e84c02a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "真正的技术突破在于：用价值200兹罗提的物联网网关实现整间公寓或办公室的智能控制。\n我们已成功验证这一可能性——目前正使用DEV网关管理办公空间的照明、遮阳系统和供暖设备，同时处理音频播放与数十项自动化任务。这个令我们引以为豪的解决方案完全满足日常需求，无需替代方案。"
+      }
+    },
+    {
+      "segment_id": "c1eaf30b",
+      "source_content": "DEV2 to parametry porównywalne (w sumie trochę nawet lepsze) z Fibaro HC3, przy 10 krotnie mniejszej cenie.",
+      "source_content_hash": "dfe7d913364636a235b6a9a62e8d148272f0d8e2b4781e272f1d9db6b810a1bb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "DEV2性能参数与Fibaro HC3相当（某些方面甚至更优），而价格仅为后者的十分之一。"
+      }
+    },
+    {
+      "segment_id": "f0984c2a",
+      "source_content": "![DEV2](/img/en/bramka/first_run_4.jpeg)",
+      "source_content_hash": "5052b113e591be1853c2b52a44f4e3365ff0c0a6b616fbdad4b7e20f92510df3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![DEV2](/img/en/bramka/first_run_4.jpeg)"
+      }
+    },
+    {
+      "segment_id": "a81544fd",
+      "source_content": "Na bramce DEV dostarczamy największą na świecie platformę do automatyki domowej Home Assistant, broker MQTT, aplikację Zigbee2Mqtt, lokalny TTS, piękny nowoczesny i konfigurowalny interfejs użytkownika, wbudowany odtwarzacz audio wraz z biblioteką audio, i oczywiście Asystenta głosowego. Do tego dodajemy darmowy zdalny dostęp, aplikację mobilną oraz na zegarek i wbudowane łatwo konfigurowalne integracje AIS.\nTo wszystko w cenie w jakiej inni oferują jeden przełącznik... ;)",
+      "source_content_hash": "24d36b55cded4dd5c95e3b6f59cfede81d79bacd7e8844a13d26e99a25183ec6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "DEV网关搭载全球最大的家庭自动化平台Home Assistant、MQTT代理服务、Zigbee2Mqtt应用、本地TTS语音合成、可定制现代化UI界面、内置音频播放器及媒体库，以及语音助手功能。此外还提供免费远程访问、移动端/智能手表应用，以及易配置的AIS集成服务。\n当其他厂商的报价仅能购买单个智能开关时，我们已提供整套智能生态解决方案。"
+      }
+    },
+    {
+      "segment_id": "6693c38c",
+      "source_content": "AIS DEV to bramka AIoT o ogromnych możliwościach i najbardziej przystępnej cenie na rynku. To jest bardzo dobry, bezkonkurencyjny produkt w segmencie DIY. I tak już zawsze będzie z naszymi bramkami AIS DEV!",
+      "source_content_hash": "fc30905fd939c1ee2abf1ab8d555c01d0527bb62f5f81f0f610d68f9d424231c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "AIS DEV是一款功能强大且市场性价比极高的AIoT网关。这是DIY领域非常出色、无与伦比的产品。我们的AIS DEV网关将始终保持这一优势！"
+      }
+    },
+    {
+      "segment_id": "7974af84",
+      "source_content": "### ![](/img/en/blog/202012/pro_icon.png) AIS PRO",
+      "source_content_hash": "1ce23f373f263bf19ef39c4b0cbdfab70869922dff5cac76435a6f763f8bc615",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### ![](/img/en/blog/202012/pro_icon.png) AIS PRO"
+      }
+    },
+    {
+      "segment_id": "44aaa880",
+      "source_content": "Część naszych użytkowników to zaawansowani technicznie pasjonaci automatyki, którzy niemal codziennie coś integrują. Otrzymujemy też maile od użytkowników, którzy chętnie skorzystaliby z naszego rozwiązania, ale chcieliby żeby na urządzeniu “działało wszystko”. Wszystko czyli: baza danych, rejestracja wideo z kamer, setki urządzeń w kilkupiętrowym domu. To wszystko podłączone po zigbee, wifi, knx itd..\nTakich złożonych systemów automatyki nie da się dostarczyć za 200 zł i uczciwie musieliśmy przyznać, że nie mamy rozwiązania dedykowanego do tak zaawansowanych zastosowań.\nUżytkownicy takich systemów mogą używać kilku bramek (po jednej na piętro) lub są skazani na mini serwer w garażu i 50 zł rachunku za prąd, który ten serwer zużywa.",
+      "source_content_hash": "1d7ca159f7fdc4bdc3299dc2ddc363e51bcf7e99dd9767ec9dcfe4d02411ddb3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "部分用户是技术精湛的自动化爱好者，几乎每天都在进行设备集成。我们也收到用户邮件，他们希望使用我们的解决方案，但要求设备\"全能运行\"——包括数据库支持、摄像头视频录制、多层住宅中数百台设备的联动，并通过Zigbee、WiFi、KNX等协议连接。这类复杂系统显然无法以200兹罗提的成本实现，我们不得不坦言目前没有专为此类高端场景设计的解决方案。这类用户要么选择每层部署一台网关，要么被迫在车库安装迷你服务器并承担每月50兹罗提的高额电费。"
+      }
+    },
+    {
+      "segment_id": "558df877",
+      "source_content": "Rozumiemy potrzebę posiadania wszystkiego. Już na pierwszych zajęciach z ekonomii studenci dowiadują się, że potrzeby człowieka są nieograniczone. Dla pasjonatów automatyki domowej, którym nie chodzi tylko o to, żeby sterować światłem, ogrzewaniem i bramą, zakup mocnej bramki z ogromną ilością zasobów sprzętowych jest naturalnym wyborem. Sensowność istnienia takiej bramki na rynku pokazuje też ostatnia zapowiedź Home Assistant.",
+      "source_content_hash": "603ad0287b544c24bf57189af082cd91f4e9feb4de732814ac4ad625d74c2e7d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们理解\"全都要\"的需求。经济学第一课就告诉我们：人类需求永无止境。对于不满足于基础灯光/暖气/门禁控制的家居自动化发烧友，选购硬件资源充沛的高性能网关是自然选择。Home Assistant近期的产品规划也印证了这类网关的市场合理性。"
+      }
+    },
+    {
+      "segment_id": "f38d1cb0",
+      "source_content": "Dlatego w 2021 chcemy zaproponować alternatywę dla mini serwerów z procesorami Intel. Będzie to bramka AIS PRO, z najbardziej wydajnym 6 rdzeniowym procesorem ARM dostępnym na rynku. Bramka, która będzie miała tak mocne parametry, że cały system uruchomi się w kilka sekund a jednocześnie nie będzie się przegrzewał i do pracy na pełnych obrorach wystarczy jej pasywne chłodzenie, dzięki czemu będzie zużywał 1/10 energii, którą zużywa procesor Intel. Bramka AIS PRO to coś więcej niż IoT & Audio. To prawdziwy multimedialny kombajn dla tych, co chcą mieć wszystko! :)",
+      "source_content_hash": "5f946449cce8df28321d4b847925a7e65bfa59431bbf1056db2f9f4e86a148f9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "因此2021年我们将推出基于ARM架构的迷你服务器替代方案——AIS PRO网关。搭载市面最强6核ARM处理器，系统可在数秒内启动，全负载运行仅需被动散热，能耗仅为Intel处理器的十分之一。这不仅是IoT音频中枢，更是追求\"全能\"用户的多媒体控制中心！"
+      }
+    },
+    {
+      "segment_id": "5f82a1e9",
+      "source_content": "Nad ofertą takiej bramki pracowaliśmy już jakiś czas (finalizujemy umowę z naszym partnerem), Home Assitant trochę nas ubiegł z zapowiedzią. Oczywiście to tylko świadczy o sensowności tej drogi. Ponieważ bramka Home Assistant to serwer bez multimediów i nie ma w nim elementów potrzebnych do projektu inteligentnego głośnika, nasza bramka PRO, która będzie miała całego Home Assistanta, będzie uzupełniała możliwości bramki HA.",
+      "source_content_hash": "2413cab0e4e32babd27bfd434f5d8d1f273969b9109cc2e37f4ce85c39eeb880",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该产品已研发多时（正与合作伙伴敲定协议），虽然Home Assistant抢先发布了类似产品。但这恰恰验证了技术路线的正确性。由于HA网关缺乏多媒体组件且不兼容智能音箱项目，我们的PRO网关在集成完整HA功能的同时，将弥补其功能缺口。"
+      }
+    },
+    {
+      "segment_id": "6fc234cf",
+      "source_content": "![](/img/en/blog/202012/ais_arm.jpeg)",
+      "source_content_hash": "1da4245cee15790c3ff938bf8fed9d0c219d3f1407f592ff79b75cc341b8b3a3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202012/ais_arm.jpeg)"
+      }
+    },
+    {
+      "segment_id": "c364340c",
+      "source_content": "Z tym produktem chcemy trafić do dystrybutorów / instalatorów automatyki, chcemy żeby na tym produkcie nasi partnerzy zarabiali i mogli oferować go końcowym klientom. Oczywiście super wydajne podzespoły i marże dystrybutorów spowodują, że to nie będzie tani produkt, taki jak nasza bramka DEV.\n**Zapewniamy, że będzie to bardzo dobra, funkcjonalna i cenowa alternatywa dla mini serwerów PC.**",
+      "source_content_hash": "38da269762efc90836c43d9bf84dd891f0c6a89b5a9a25a4daddb80d9dcbe63c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们希望通过这款产品触达自动化系统分销商/安装商，让合作伙伴能够从中获利并面向终端客户销售。当然，高性能硬件组件和分销商利润空间意味着这不会像我们的DEV网关那样是低价产品。\n**我们承诺，这将成为迷你PC服务器在功能与价格层面极具竞争力的替代方案。**"
+      }
+    },
+    {
+      "segment_id": "8f1c1cd6",
+      "source_content": "### ![](/img/en/blog/202012/easy_icon.png) AIS EASY",
+      "source_content_hash": "2ddb321f1d3cc56c2823c0f71b27d354add92afd4b6ebe26a06e0f78b27821eb",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### ![](/img/en/blog/202012/easy_icon.png) AIS EASY"
+      }
+    },
+    {
+      "segment_id": "383fbdd2",
+      "source_content": "Zdajemy sobie sprawę, że miarą sukcesu w dzisiejszym świecie nie są najbardziej zaawansowane rozwiązania, ale te najprostsze :)",
+      "source_content_hash": "fa00db8f20ea897db5f84f3f3f971d0efc46bd93777d157299515652d32caa1a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们深知当今世界衡量成功的标准并非最先进的解决方案，而是那些最简洁的产品 :)"
+      }
+    },
+    {
+      "segment_id": "14bc6b75",
+      "source_content": "Proste i tanie produkty realizujące konkretną potrzebę to coś, co zawsze dobrze radzi sobie na rynku - chcemy też dostarczyć łatwe w użyciu produkty... bo skoro sprzedajemy bramkę z asystentem głosowym, to chyba potrafimy też dostarczyć sterowanie rolet czy przełącznik świateł :)",
+      "source_content_hash": "78aae901ddf751234645d1caae0c93d20427990d1a459bde4de01395c5b08b93",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "以简单实惠的方式满足具体需求的产品始终能在市场表现出色——我们也希望提供易用型产品...既然我们销售带语音助手的网关，想必也能交付窗帘控制或灯光开关方案 :)"
+      }
+    },
+    {
+      "segment_id": "3c293157",
+      "source_content": "<div class=\"AisCenterImg\">\n<img src=\"/img/en/blog/202012/ais_easy.jpg\" alt=\"AIS Easy\" width=\"200\"/>\n</div>",
+      "source_content_hash": "59604fbba2c580df92b51fe6294ebaf006df73ae9a8aab29cb6a90567a5a1445",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_3c293157"
+      }
+    },
+    {
+      "segment_id": "a9c2a503",
+      "source_content": "Wprowadzimy do oferty produkty, które tak jak nasze inteligentne gniazdko, realizują podstawowe rzeczy w prosty sposób.\nOd takich produktów typu sterowanie bramy smartfonem, czy sterowanie światłem albo roletami, zwykle zaczyna się przygodę z automatyką domową.",
+      "source_content_hash": "fa3625b8056d6aa99e9381981d93c4a97f3656eadf4d5cbbd7fc885e0340a8dd",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们将推出类似智能插座的产品线，以简单方式实现基础功能。\n通过智能手机控制大门、灯光或窗帘这类产品，往往是人们开启智能家居之旅的起点。"
+      }
+    },
+    {
+      "segment_id": "a0d0e29e",
+      "source_content": "#### Chcemy, żeby próg wejścia w świat automatyki domowej był w 2021 niższy, dla wszystkich!",
+      "source_content_hash": "b893417b59125aae7d2f25a33c269ea086ffa7178d5ada28bfe8ede9727a67a4",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "#### 我们希望在2021年降低所有人进入智能家居领域的门槛！"
+      }
+    },
+    {
+      "segment_id": "6ab1b234",
+      "source_content": "### ![](/img/en/blog/202012/speaker_icon.png) AI-Speaker",
+      "source_content_hash": "c620f67696dc27483ea91c39d8b134b3f7351bd61740db803d77296bd0c5a6df",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### ![](/img/en/blog/202012/speaker_icon.png) AI-Speaker"
+      }
+    },
+    {
+      "segment_id": "42d9ca67",
+      "source_content": "Inteligentny głośnik, to zdecydowanie najbardziej ambitny produkt, nad którym pracujemy. Połączenie bramki IoT & audio, mikrofonu, w obudowie ze wzmacniaczem i głośnikiem tak, żeby otrzymać aktywny inteligentny głośnik sterujący automatyką i ładnie odtwarzający audio... niestety nie jest takie proste, jak się może wydawać.",
+      "source_content_hash": "62d285290f6aad6901c873e9a3379b032bbde4e3f184c0cbf5e7f503d36bfc18",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "智能音箱无疑是我们正在研发的最具雄心的产品。将物联网音频网关、麦克风、带功放和扬声器的外壳整合为能控制自动化系统并优质播放音频的主动式智能音箱...实际难度远超表面想象。"
+      }
+    },
+    {
+      "segment_id": "619c3209",
+      "source_content": "Z głośnikiem jest tak, że jesteśmy bliżej niż dalej :) Każda aktualizacja systemu i bramki DEV przybliża nas powoli do celu.",
+      "source_content_hash": "83039263590c6cf965457d86c3696bb686f1c4376420c01f72684d05b8d90154",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "关于音箱项目，我们正处于突破前的攻坚阶段 :) 每个系统和DEV网关的更新都在推动我们逐步接近目标。"
+      }
+    },
+    {
+      "segment_id": "44285072",
+      "source_content": "Mamy nadzieję, że uda nam się zaoferować ten produkt w 2021 roku.",
+      "source_content_hash": "4dfcd737d3bb14b7d8837b1b0ccca8424a3de64ac182c542d9100cb61c285e63",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们期待能在2021年推出这款产品。"
+      }
+    },
+    {
+      "segment_id": "a8f09c71",
+      "source_content": "Mamy to szczęście, że nie gonią nas terminy, dotacje, inwestorzy, opłaty za serwery w Amazon cloud czy inne zobowiązania, które zmuszałyby nas do szybkiego wypuszczania kolejnych produków (w celu utrzymania poprzenich).",
+      "source_content_hash": "f19cf4f24d69d16805f88964fae4c84e371d3526a0e2668367ccdd5ff019c95a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "值得庆幸的是，我们不受截止日期、补贴、投资者、亚马逊云服务器费用或其他强制快速推出新产品（以维持前期运营）的条款约束。"
+      }
+    },
+    {
+      "segment_id": "d2a3d4c7",
+      "source_content": "Dlatego możemy uczciwie zadeklarować, że \"zrobimy co w naszej mocy i wydamy jak tylko będzie gotowy\" :)",
+      "source_content_hash": "82ccc6a7881c82f85905c657890bb1c7a3bf91744588d391c8618400ab4b6b52",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "因此我们可以郑重承诺：\"竭尽所能，成熟即发布\" :)"
+      }
+    },
+    {
+      "segment_id": "f6a06609",
+      "source_content": "## Życzymy Wszystkim spełniania marzeń w 2021!",
+      "source_content_hash": "f58978b821c620326174203097052228fea2e2da6801968d310c02352b9078cb",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 祝愿各位2021年梦想成真！"
+      }
+    },
+    {
+      "segment_id": "cb3e8b91",
+      "source_content": "----",
+      "source_content_hash": "bd64bb8efa5b3f27e6442f23600c3b516127ea17e23724b41e50da4c22883edd",
+      "node_type": "thematicBreak",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "----"
+      }
+    },
+    {
+      "segment_id": "58f98d22",
+      "source_content": "##### AI-Speaker 12/2020",
+      "source_content_hash": "8527312cb877a79816d6f750e05f62acb5cb5e76b3d66ea31e060b386ca06a65",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "##### AI-Speaker 2020年12月"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2020-12-18-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.128962+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "7fd0e79128d30da8598805cf27336e8f914cc0153306a78e1fffb29bf146da80"
+  }
+}

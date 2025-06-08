@@ -1,0 +1,122 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_iot_works_with.md",
+  "source_file_content_hash": "853a4b5561b0c728f714a3f505e1e0474773574f7c670eb64f68b30827560880",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: AIS dom - urządzenia rekomendowane do zastosowania w Twoim domu\nsidebar_label: Rekomendowane do zastosowania w Twoim domu\n---",
+      "source_content_hash": "7022d94ef0b096e441ab17d6e2e9c0db42ae54e045d8a954851f014b9e2809a5",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Sprzedaż urządzeń",
+      "source_content_hash": "a40dd259ab94f8a38dc6c09700a7ef90dba5674c63bc66b02a5ebc97a08118dc",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 设备销售"
+      }
+    },
+    {
+      "segment_id": "1cc03ec8",
+      "source_content": "## Unikalne cechy urządzeń",
+      "source_content_hash": "fd1211e2977376544416c7bb075c1bc6d7283a0c055eba97d8cdfa21707f0dfb",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 设备独特特性"
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "Nasze urządzenia charakteryzują się tymi unikalnymi cechami:",
+      "source_content_hash": "b64fb6b0266935dc1af0fea14e2099f341b6f2124cbccf2192f1a37ec44f9e6d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们的设备具有以下独特特性："
+      }
+    },
+    {
+      "segment_id": "9e760345",
+      "source_content": "* Możliwość lokalnej kontroli",
+      "source_content_hash": "5e60fbcce60ff63b3442e2f4cf1d43e507bc140dfd91a6834a917542b85e957c",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "* 本地控制能力"
+      }
+    },
+    {
+      "segment_id": "86b54d44",
+      "source_content": "Priorytetowo dbamy o zapewnienie lokalnej kontroli i prywatności. Nie zbieramy i nie sprzedajemy danych o użytkownikach.",
+      "source_content_hash": "e3966d0fc3f0b03f681b58e5d5830b9fc4c3f40efe57053b13f36405afdc0a6b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们优先保障本地控制与隐私保护。不收集也不出售用户数据。"
+      }
+    },
+    {
+      "segment_id": "11c829ab",
+      "source_content": "* Integracja z wieloma systemami",
+      "source_content_hash": "aed50de4f289c02a2eb5e648532e0a8251453473c3287ee3b0dd21af31b09b84",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "* 多系统集成"
+      }
+    },
+    {
+      "segment_id": "1acb9a05",
+      "source_content": "Możliwość łatwej integracji i niezawodnego działania z wieloma systemami automatyki domowej. Unikamy uzależnienia od jednego dostawcy.",
+      "source_content_hash": "e692269a04b5566d56054274822efc22da91477c3bb981f398d1ba11e1e57e5e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "可轻松实现与多种智能家居系统的集成和可靠运行。避免对单一供应商的依赖。"
+      }
+    },
+    {
+      "segment_id": "da23c906",
+      "source_content": "* Otwartoźródłowy kod za darmo",
+      "source_content_hash": "c55463c7db80eba74c0b0dd603bfcbdc78d166584f042e9f951f9b4f1a5f8beb",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "* 免费开源代码"
+      }
+    },
+    {
+      "segment_id": "98cfbd53",
+      "source_content": "Dostęp do kodu źródłowego to gwarancja otwartości i przejrzystości, ale też siła naszego wspólnego rozwoju.",
+      "source_content_hash": "60a4387cb9b9552e4c01f1a2b738d9d50133b0b83fc49211d699769a8a8246ff",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "源代码开放保证了透明度和开放性，也是我们共同发展的动力源泉。"
+      }
+    },
+    {
+      "segment_id": "ccc88b4c",
+      "source_content": "Dzięki temu urządzenia te są przez nas rekomendowane do zastosowania w Twoim domu.",
+      "source_content_hash": "723106ad36f00b289a80e04ab511d625348e082b0d18a86a9907cc8f0f07061b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "因此我们推荐您在家中部署这些设备。"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_iot_works_with.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.121218+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "853a4b5561b0c728f714a3f505e1e0474773574f7c670eb64f68b30827560880"
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_app_owntracks.md",
+  "source_file_content_hash": "1b6bb2c49e3a90c4623fb2f19c8dfb790935306d9f68e75be6deceee96a7733c",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"OwnTracks\"\nsidebar_label: OwnTracks\n---",
+      "source_content_hash": "e6374db70b4f68287fbe75691224fe521344f15c2019eeef5d2e235db8e98b18",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Wprowadzenie",
+      "source_content_hash": "138964b3f05ef631ae55efd030ca96538eb5d783961ef7b978515da6c937d13f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 简介"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "OwnTracks to darmowa i otwarto źródłowa aplikacja dla systemu iOS i Android, która umożliwia śledzenie lokalizacji i wysyłanie jej bezpośrednio do systemu Asystent domowy. Można ją skonfigurować za pomocą integracji dostępnej w konfiguracji systemu - pokażemy poniżej krok po kroku jak to zrobić.",
+      "source_content_hash": "4c4d90a26da6abd68ca3489950cd0b65de7dec7159bc5192762e7bb02d248083",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "OwnTracks是一款免费开源的iOS和Android应用，可将位置信息直接推送至Home Assistant系统。您可以通过系统配置中的集成功能进行设置，下文将逐步演示具体操作流程。"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "![Konfiguracja wykrywania obecności](/img/en/bramka/presence_detection_0.png)",
+      "source_content_hash": "8278d8b2f7c5bdf21244bc67d289842e9b17d5f00be7973c2a1a43ee4db32e84",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![存在检测配置](/img/en/bramka/presence_detection_0.png)"
+      }
+    },
+    {
+      "segment_id": "ba4f48ff",
+      "source_content": "## Integracja",
+      "source_content_hash": "f5e469c7c23f3e22654c827f0a4cb6e2e56f4d50ad319f8a3f4b0dd2ae107506",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 集成配置"
+      }
+    },
+    {
+      "segment_id": "ac44a45c",
+      "source_content": ":::tip[Wskazówka]\nAsystent domowy będzie rejestrował Twoją lokalizację na podstawie komunikatów przychodzących z OwnTracks przez HTTPS. Żeby umożliwić odbieranie takich komunikatów nawet gdy jesteś poza lokalną domową siecią należy [włączyć dostęp  do bramki z Internetu](/docs/ais_bramka_remote_www_index).\n:::",
+      "source_content_hash": "0b53c42ef77b713c254cf46213b8372b4e277938f1469367de0a1a57cae18d3c",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::tip[提示]\nHome Assistant将通过HTTPS接收来自OwnTracks的位置信息。若需在外部网络环境下接收数据，请先[启用网关的互联网访问功能](/docs/ais_bramka_remote_www_index)。\n:::"
+      }
+    },
+    {
+      "segment_id": "f6168993",
+      "source_content": "Aby skonfigurować OwnTracks, przejdź do konfiguracji a następnie do panelu integracji. Naciśnij pomarańczowy przycisk z ikonką \"plus\" w prawym dolnym rogu ekranu, żeby otworzyć listę dostępnych integracji. Wybierz z listy integrację **AIS Wykrywanie obecności**",
+      "source_content_hash": "56d411b4ebaaf6257284938047b39bc28316b886d90dbcc51e732b4973a45d21",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "配置OwnTracks需进入系统配置的集成面板，点击右下角橙色\"+\"按钮打开可用集成列表，选择**AIS存在检测**集成项。"
+      }
+    },
+    {
+      "segment_id": "f5f6d2ce",
+      "source_content": "![Konfiguracja wykrywania obecności](/img/en/bramka/presence_detection_1.png)",
+      "source_content_hash": "bcea2d6863a2f9cb511996921d23b5b6832353ebc6f3a094a087c366a7c34929",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![存在检测配置](/img/en/bramka/presence_detection_1.png)"
+      }
+    },
+    {
+      "segment_id": "40f9552a",
+      "source_content": "### Adres URL do raportowania lokalizacji",
+      "source_content_hash": "37d92c0b833965e3e0afecdeda706d1ac2f7caf973ad51558e688164f3a1f552",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 位置上报URL"
+      }
+    },
+    {
+      "segment_id": "f2c2bdd0",
+      "source_content": "Po wybraniu tej integracji otrzymasz adres URL do użycia podczas konfiguracji urządzenia mobilnego (możesz go skopiować i przesłać na swój telefon tak jak pokazano poniżej).",
+      "source_content_hash": "1d356dfbfc0b88b11ad0585f2529631238cf76161973fd0899960c23e4362264",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "选择该集成后，您将获得用于移动设备配置的URL（可复制并通过如下方式发送至手机）。"
+      }
+    },
+    {
+      "segment_id": "a76548f8",
+      "source_content": "![Konfiguracja wykrywania obecności](/img/en/bramka/presence_detection_2.png)",
+      "source_content_hash": "58ea349a1041403f23ed33e08fdb7b8e966d5571bcd487c3c2995d70b8fb80a1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![存在检测配置](/img/en/bramka/presence_detection_2.png)"
+      }
+    },
+    {
+      "segment_id": "d06306f7",
+      "source_content": "### Konfiguracja w systemie Andorid",
+      "source_content_hash": "b9f032353fc1a44734a051d9f730cba0839d1d6542bf1143395042d63011088f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### Android系统配置"
+      }
+    },
+    {
+      "segment_id": "73ab96a3",
+      "source_content": "<a href=\"https://play.google.com/store/apps/details?id=org.owntracks.android\" target=\"_blank\">Zainstaluj aplikację OwnTracks dla Android.</a>",
+      "source_content_hash": "394aee7058247739a9d182752318fa0fb331405d286ab1824375f0b269ee9dc7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "<a href=\"https://play.google.com/store/apps/details?id=org.owntracks.android\" target=\"_blank\">安装Android版OwnTracks应用</a>"
+      }
+    },
+    {
+      "segment_id": "7499a4e7",
+      "source_content": "W aplikacji OwnTracks otwórz pasek boczny i kliknij preferencje, a następnie połącz. Zmień następujące ustawienia:",
+      "source_content_hash": "0a5e4fea4265fc0f338b09a5deecb92ea23119bb386ce23d76401acf2ba68a78",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在OwnTracks应用中打开侧边栏，点击\"偏好设置\"→\"连接\"，修改以下参数："
+      }
+    },
+    {
+      "segment_id": "7a2e981c",
+      "source_content": "- Tryb: **Private HTTP**",
+      "source_content_hash": "aee416d7c657f250afe08da83e72c665f28e96a8f79bb12f9a2b03c86a45fdc7",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 模式：**私有HTTP**"
+      }
+    },
+    {
+      "segment_id": "135468ee",
+      "source_content": "![Konfiguracja wykrywania obecności](/img/en/bramka/presence_detection_3.png)",
+      "source_content_hash": "fad29c51f77fbbc99abb23599d64dcbe5c79a9ab4e5f24ff40b168267dc3b715",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![存在检测配置](/img/en/bramka/presence_detection_3.png)"
+      }
+    },
+    {
+      "segment_id": "e7bc8c38",
+      "source_content": "- Host: **Adres URL podany podczas konfigurowania integracji**",
+      "source_content_hash": "07da623070f2f1f3b21691004100c1bef4050c8ec7729ba54c4656d4301e7452",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 主机：**集成配置时提供的URL地址**"
+      }
+    },
+    {
+      "segment_id": "50746522",
+      "source_content": "![Konfiguracja wykrywania obecności](/img/en/bramka/presence_detection_4.png)",
+      "source_content_hash": "19fe6ddcd36661de699a55c98405fc285ad4570e4dc7bbb8ee50fa4b9e8a1981",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![存在检测配置](/img/en/bramka/presence_detection_4.png)"
+      }
+    },
+    {
+      "segment_id": "95e9ba12",
+      "source_content": "Identyfikacja:",
+      "source_content_hash": "3bee1125d9b1ce278ac09eb2b36ad765fccfe49e23df79cfde208a3539b7ce14",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "身份验证："
+      }
+    },
+    {
+      "segment_id": "4c077b92",
+      "source_content": "- Nazwa użytkownika: **Twoja nazwa użytkownika**\n- Identyfikator urządzenia: **Twoja nazwa urządzenia**",
+      "source_content_hash": "8895b6fa3c072088cec7d07360617fe5a216638819cf984a76907250d651db1a",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 用户名：**您的用户名**\n- 设备ID：**您的设备名称**"
+      }
+    },
+    {
+      "segment_id": "29528c8d",
+      "source_content": "![Konfiguracja wykrywania obecności](/img/en/bramka/presence_detection_5.png)",
+      "source_content_hash": "78a79b6652f32e99b1f998400011c15e2ce031a79fc91362b169c460587471bf",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![存在检测配置](/img/en/bramka/presence_detection_5.png)"
+      }
+    },
+    {
+      "segment_id": "cb5b269c",
+      "source_content": "### Konfiguracja w systemie iOS",
+      "source_content_hash": "1c5ce916c0d6c9b538af1198f42eeffb99d35b0fd1fedc28979d5d227425a533",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### iOS系统配置"
+      }
+    },
+    {
+      "segment_id": "b36c6338",
+      "source_content": "<a href=\"https://itunes.apple.com/us/app/owntracks/id692424691?mt=8\" target=\"_blank\">Zainstaluj aplikację OwnTracks dla iOS.</a>",
+      "source_content_hash": "ab491bc1792513cd710b2b3ca501c6a924531cc40be40d7cc26fac8d669f05f1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "<a href=\"https://itunes.apple.com/us/app/owntracks/id692424691?mt=8\" target=\"_blank\">安装iOS版OwnTracks应用</a>"
+      }
+    },
+    {
+      "segment_id": "b9aaa519",
+      "source_content": "W aplikacji OwnTracks kliknij (i) w lewym górnym rogu, następnie kliknij ustawienia. Zmień następujące ustawienia:",
+      "source_content_hash": "8308519d7cb8f465d3b1627ddd9eb504f18136523b1fafda422297d21d05b06a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在OwnTracks应用中，点击左上角的(i)图标，然后点击设置。修改以下配置："
+      }
+    },
+    {
+      "segment_id": "e3321a43",
+      "source_content": "- Tryb: **HTTP**\n- URL: **Adres URL podany podczas konfigurowania integracji**\n- Włącz uwierzytelnianie\n- ID użytkownika: **Twoje imię**",
+      "source_content_hash": "71e4a32cb968efacd64541580b5eccacd90ac298e3b9f0685e4d73534db022ce",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 模式：**HTTP**\n- URL：**配置集成时提供的URL地址**\n- 启用身份验证\n- 用户ID：**您的姓名**"
+      }
+    },
+    {
+      "segment_id": "9e95fc4a",
+      "source_content": "### Identyfikator urządzenia w systemie",
+      "source_content_hash": "8c4cfa2d1ff185875803f070f4f9cc78a9d08df031a1d2e5e33d528582956ef0",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 系统中的设备标识符"
+      }
+    },
+    {
+      "segment_id": "5dae11e3",
+      "source_content": "Twoje urządzenie będzie automatycznie dodane w Asystencie domowym jako **device_tracker. Twoja nazwa użytkownika _ Twoja nazwa urządzenia**.",
+      "source_content_hash": "d61f88cb979d5f76ebe1df2feaa74da85bcf43651edb91ef63098b7bfe881e1d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "您的设备将自动在家庭助理中被添加为 **device_tracker.您的用户名_您的设备名称**。"
+      }
+    },
+    {
+      "segment_id": "0bb95128",
+      "source_content": "![Konfiguracja wykrywania obecności](/img/en/bramka/presence_detection_6.png)",
+      "source_content_hash": "326711fee3917316523f8dd73092470bbf1d4d42ab1447fca48443927fb71ab6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![存在检测配置](/img/en/bramka/presence_detection_6.png)"
+      }
+    },
+    {
+      "segment_id": "7f71ff2a",
+      "source_content": "Na mapie dostępnej w aplikacji będzie wyświetlana Twoja lokalizacja raportowana przez urządzenie mobilne.",
+      "source_content_hash": "f6ce0a64a7b157d10f167db8d71b21162d23c327758f69b52bad2218cee78e05",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "应用内地图将显示移动设备上报的实时位置信息。"
+      }
+    },
+    {
+      "segment_id": "147e8550",
+      "source_content": "![Wyświetlanie obecności na mapie](/img/en/bramka/presence_detection_7.png)",
+      "source_content_hash": "79d2c76c6bc0619a300db903c3906fe55dcb4ff3e804162a02220368fe8645d5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![地图上的存在状态显示](/img/en/bramka/presence_detection_7.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_app_owntracks.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.109487+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "1b6bb2c49e3a90c4623fb2f19c8dfb790935306d9f68e75be6deceee96a7733c"
+  }
+}

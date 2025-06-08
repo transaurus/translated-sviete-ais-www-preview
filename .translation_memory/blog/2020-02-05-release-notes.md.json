@@ -1,0 +1,522 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2020-02-05-release-notes.md",
+  "source_file_content_hash": "5eb21876a35e5fbdde9b0bd46956e3c472dca3005b368a2ce239d8c2c5cddff0",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Jola AI-Speaker\nauthorURL: https://github.com/sviete\nauthorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4\ntitle: Wersja systemu 0.104.5 Słucham Cię\n---",
+      "source_content_hash": "b15913bbe9de7bf91f919625041ab0485f2f876ba4deecf35b1ae5ad41412dba",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "d912d376",
+      "source_content": "# 0.104.5 Słucham Cię :)",
+      "source_content_hash": "984fccc97468a86833c5c45469a0b68bf93a8939fc5d244a6f3ec7659e297a99",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "# 0.104.5 聆听您的声音 :)"
+      }
+    },
+    {
+      "segment_id": "8ac585fb",
+      "source_content": "![](/img/en/blog/202002/ai-speaker.png)",
+      "source_content_hash": "be41e318f32e3b14dbca7c4b517f3648ae0394e58d1446f81b5269996db8a1d6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202002/ai-speaker.png)"
+      }
+    },
+    {
+      "segment_id": "180bddb1",
+      "source_content": "\"Słucham Cię\" to motto naszego projektu. Chcemy, żeby to nie był tylko slogan, ponieważ staramy się słuchać potrzeb i opinii naszych Klientów.",
+      "source_content_hash": "060579e504054e3906794b8313334a31690ff3c767cdcf93dd5028a65cbb94d8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "\"聆听您的声音\"是我们项目的核心理念。这不仅是一句口号，因为我们始终致力于倾听客户的需求与反馈。"
+      }
+    },
+    {
+      "segment_id": "cf898102",
+      "source_content": "W tej wersji rozpoczynamy obsługę \"słowa klucza\" (słowa aktywującego mikrofon) oraz wprowadzamy bardziej zaawansowaną obsługę odtwarzaczy dodanych do Asystenta domowego.",
+      "source_content_hash": "7416c61a38c82643284044a8c28528dda33f31736e48b395eac762f4d72fcb06",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "本版本我们开始支持\"唤醒词\"功能，并推出更强大的媒体播放器控制能力，这些功能已集成至智能家居助手。"
+      }
+    },
+    {
+      "segment_id": "cc2c29e1",
+      "source_content": "<!--truncate-->",
+      "source_content_hash": "f5cded2aa7e288e395fe4f67f9dabda2281904b2f5358d07302b3aa8be0acdfa",
+      "node_type": "comment",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_cc2c29e1"
+      }
+    },
+    {
+      "segment_id": "aee0e40d",
+      "source_content": "## Wykrywanie słowa kluczowego",
+      "source_content_hash": "bd7c47f645a2ba51122c0d802b6cca3c5b0febfd70e4532f19b35034c596be46",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 关键词唤醒检测"
+      }
+    },
+    {
+      "segment_id": "f5f6d2ce",
+      "source_content": "Wprowadzamy (na początek do naszej aplikacji na system Android a docelowo do wszystkich naszych aplikacji), **możliwość włączenia wykrywania słowa kluczowego** - mechanizm wyzwalający rejestrowanie polecenia głosowego.",
+      "source_content_hash": "ae6be95dc3fa2b5f8928db4dd95922145ccafc85f60f3490afbe8fa365662d26",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们率先在Android应用中推出（后续将扩展至全平台应用）**关键词唤醒检测功能**——这是触发语音指令录制的核心机制。"
+      }
+    },
+    {
+      "segment_id": "2fdadb08",
+      "source_content": "![](/img/en/blog/202002/porcupine.png)",
+      "source_content_hash": "96b0c05f268e9968bc3cf51d8173bffd8c888260ff209694874c4b24d3f9de0b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202002/porcupine.png)"
+      }
+    },
+    {
+      "segment_id": "f2c2bdd0",
+      "source_content": "Po testach zdecydowaliśmy się zastosować bardzo dokładny i lekki silnik aktywujący [Porcupine](https://picovoice.ai/). O wyborze tego rozwiązania zadecydowały jego cechy:",
+      "source_content_hash": "e5ea3a696547fe7e2f7286a31c001be7251f5c2ac47c8cf7a63d1be532d29331",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "经过测试，我们最终采用高精度轻量级的唤醒引擎[Porcupine](https://picovoice.ai/)，其优势在于："
+      }
+    },
+    {
+      "segment_id": "0cc488ed",
+      "source_content": "- Użycie do trenowania głębokich sieci neuronowych przeszkolonych w rzeczywistych sytuacjach.\n- Kompaktowy i wydajny. Może pracować z tak małą jak 20 KB RAM.\n- Międzyplatformowy. Jest zaimplementowany w ANSI C. Producent wspiera wiele platform: Raspberry Pi, Beagle Bone, Android, iOS, watchOS, Linux (x86_64), Mac, Windows, WebAssembly.\n- Skalowalny. Może wykrywać wiele poleceń głosowych jednocześnie bez dodatkowego obciążenia procesora / pamięci.\n- Częściowo otwarty - mamy do dyspozycji zestaw predefiniowanych \"wyrażeń aktywujących\" na różne platformy za darmo.",
+      "source_content_hash": "6c2d64e0b2223b552ecb1daa873f762918b7d821d0fde7d3cae0d6e1b569f98a",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 采用经真实场景训练的深度神经网络\n- 仅需20KB内存即可高效运行\n- 跨平台支持：基于ANSI C实现，支持树莓派/BeagleBone/Android/iOS/watchOS/Linux(x86_64)/Mac/Windows/WebAssembly\n- 可扩展性：能同时检测多个唤醒词且不增加CPU/内存负担\n- 部分开源：免费提供多平台预训练唤醒词库"
+      }
+    },
+    {
+      "segment_id": "7499a4e7",
+      "source_content": "To jest nasza aplikacja testowa do wykrywania słów aktywujących komendę, która działa na urządzeniach z Androidem.",
+      "source_content_hash": "3116bb5d462d7a4c2cf3981100f8dc2fa73385c338d8de8de00d27a72cad949f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "这是我们针对Android设备的唤醒词检测测试应用："
+      }
+    },
+    {
+      "segment_id": "517051a7",
+      "source_content": "https://github.com/sviete/AIS-hotword",
+      "source_content_hash": "3eb450a53567f9c108c861d3750328b029eef9dfa573e9602eaa3c69fc41c0fd",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "https://github.com/sviete/AIS-hotword"
+      }
+    },
+    {
+      "segment_id": "c3a738de",
+      "source_content": "![](/img/en/blog/202002/ais_hot_word.png)",
+      "source_content_hash": "23c275f4bccf4ea9cbbd56bf8acbaf0757603d3756efe2e0229687361389ddad",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202002/ais_hot_word.png)"
+      }
+    },
+    {
+      "segment_id": "3a248751",
+      "source_content": "> Rozwiązanie to na początku jest wbudowane w naszą aplikację dostępną w Google Play.\n> Aktywacja mikrofonu będzie wymagała świadomego włączenia przez użytkownika. O tym, że mikrofon jest włączony, informujemy stosownym powiadomieniem. **Rozwiązanie jest 100% offline - działa bez połączenia z Internetem - słuchamy Cię, ale nie podsłuchujemy!**",
+      "source_content_hash": "d63ebd9127b2b8da0b5966a304cd6c501432de08de1e2395dd34d71c3907b597",
+      "node_type": "blockquote",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "> 该功能已内置至Google Play版本应用中\n> 麦克风启用需用户主动授权，并通过状态栏通知明确提示。**100%离线运行——无需网络连接，我们聆听但不窃听！**"
+      }
+    },
+    {
+      "segment_id": "13d9cd70",
+      "source_content": "![](/img/en/blog/202002/ais_hot_word_1.png)",
+      "source_content_hash": "766c83e961dc48dad4c39f16a763108b902f03e835861fe059ba7ffbf148360e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202002/ais_hot_word_1.png)"
+      }
+    },
+    {
+      "segment_id": "29528c8d",
+      "source_content": "Na początek dostarczymy kilka słów aktywujących do wyboru, są to wytrenowane zwroty dostępne na licencji Apache License 2.0, dzięki czemu możemy ich użyć w naszym projekcie.",
+      "source_content_hash": "8209eebd760bc971fa6f6fb00906bfcd60d5270ae74f87e26e71893fca91c2d7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "首批提供多个Apache 2.0许可的预训练唤醒词选项，并支持灵敏度自定义设置。"
+      }
+    },
+    {
+      "segment_id": "f7ef78f9",
+      "source_content": "Umożliwimy też dostosowanie czułości nasłuchiwania do własnych potrzeb.",
+      "source_content_hash": "4eb151b62068eb0d697dc00ea819b790b6e7a902797db483f9d62932e705b7f0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "用户可依据个人需求调整唤醒词检测灵敏度。"
+      }
+    },
+    {
+      "segment_id": "b36c6338",
+      "source_content": "Ta funkcjonalność w połączeniu z odtwarzaczem i rozkładem pomieszczeń (floor plan) pozwoli na łatwe zbudowanie panelu do sterowania naszym domem - wystarczy na tablecie zainstalować naszą darmową aplikację :)",
+      "source_content_hash": "7334c25c27f0908e7f1ab274bc166122526334e75e1e58f496abe0ed45deada6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该功能与播放器及房间平面图（floor plan）相结合，可轻松构建家庭控制面板——只需在平板电脑上安装我们的免费应用即可 :)"
+      }
+    },
+    {
+      "segment_id": "4d52a261",
+      "source_content": "[AI-Speaker](https://play.google.com/store/apps/details?id=pl.sviete.dom&hl=en)",
+      "source_content_hash": "48a10569a15ecdecc1ecc7188d60f6a9895edb5b2ab31ef7449845c36cf7b63c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "[AI-Speaker](https://play.google.com/store/apps/details?id=pl.sviete.dom&hl=en)"
+      }
+    },
+    {
+      "segment_id": "23dfb152",
+      "source_content": "Docelowo mamy ambicję, by zastosować własne słowo aktywujące, które będzie kojarzone z naszą marką. Z tego, co się orientujemy, będzie to pierwszy tego typu projekt w Polsce, który zajmie trochę czasu i zasobów. Na tą chwilę nie podajemy terminów.",
+      "source_content_hash": "2f44de88722fbaa5d56eb883f65e0f5283d387b755249c6dee19107b8d09edf4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们的最终目标是使用与品牌关联的自定义唤醒词。据我们所知，这将是波兰首个此类项目，需要投入时间和资源。目前暂未公布具体时间表。"
+      }
+    },
+    {
+      "segment_id": "6ea4c715",
+      "source_content": "Więcej szczegółów jak to działa w dokumentacji [Dotykowy panel sterowania](/docs/ais_app_android_dom_tablet)",
+      "source_content_hash": "8c5cab5ca2c012b06d785805ac08712128d39ee7486541ff1a5ef59fc19eb796",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "更多实现细节请参阅文档 [触摸控制面板](/docs/ais_app_android_dom_tablet)"
+      }
+    },
+    {
+      "segment_id": "5dae11e3",
+      "source_content": "![Przekierowanie mediów](/img/en/frontend/apk_hot_word_options.png)",
+      "source_content_hash": "e66fd44b215db69b40d970e3ea113e9b7f7a63dc56dad4e556c9dbe5243a09be",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![媒体重定向](/img/en/frontend/apk_hot_word_options.png)"
+      }
+    },
+    {
+      "segment_id": "bd92edfc",
+      "source_content": "## Odtwarzacze",
+      "source_content_hash": "e537fd07c431a0e6328a95a02e740071db98b6ee127cf068a36c43c1c8b64aa1",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 播放器"
+      }
+    },
+    {
+      "segment_id": "7f71ff2a",
+      "source_content": "Dodaliśmy możliwość bardziej zaawansowanej obsługi odtwarzaczy. Poza wbudowanym odtwarzaczem mediów, który dostarczamy na urządzeniu (wraz ze skonfigurowanymi serwisami dostarczającymi media do odtwarzania) mamy teraz możliwość:",
+      "source_content_hash": "2d97d164bd6d500c240e1c26be8185f8b4873d7351478fa7806038d5803bd36f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们新增了更高级的播放器控制功能。除设备内置的媒体播放器（已预配置媒体流服务）外，现在还可实现："
+      }
+    },
+    {
+      "segment_id": "76dbcc76",
+      "source_content": "- przekierowania mediów na inne odtwarzacze:",
+      "source_content_hash": "fc8494400a8443a617783a714f711e43bba4e480a9b188d244d7076830d5a738",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 将媒体重定向至其他播放器："
+      }
+    },
+    {
+      "segment_id": "883231d4",
+      "source_content": "![Przekierowanie mediów](/img/en/frontend/player_redirect.png)",
+      "source_content_hash": "85f45e69cb2b43430703f744f637cbf222d9a08042ba09acb2ca0c73f1458414",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![媒体重定向](/img/en/frontend/player_redirect.png)"
+      }
+    },
+    {
+      "segment_id": "caffd879",
+      "source_content": "- grupowanie odtwarzaczy:",
+      "source_content_hash": "e817e0f87e78430c8b86526f9716b3b073e6d227d5c42c1fcb3d22150a403a90",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 播放器分组："
+      }
+    },
+    {
+      "segment_id": "e8e162a9",
+      "source_content": "![Grupowanie odtwarzaczy](/img/en/frontend/player_grup.png)",
+      "source_content_hash": "e15ef545a3de34cb66a30fe1d5af947419c277e4f855d64a301dbe76d2588065",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![播放器分组](/img/en/frontend/player_grup.png)"
+      }
+    },
+    {
+      "segment_id": "c0ea80dd",
+      "source_content": "- wysyłanie tekstu do przeczytania na grupę głośników (tylko jeżeli głośnik posiada mechanizm TTS)",
+      "source_content_hash": "674f053db2fbfdc91cbf93306792e22dbcb482ae8e803a3e50ac566e6b08c831",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 向扬声器组发送待朗读文本（仅限支持TTS的扬声器）"
+      }
+    },
+    {
+      "segment_id": "a1fa5396",
+      "source_content": "![Wysyłanie tekstu na grupę głośników](/img/en/frontend/player_tts.png)",
+      "source_content_hash": "a391bafa1f0f825ef2cca7d40d30c0ccf89dbb1ab0d5074448be0bdd6b02892e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![向扬声器组发送文本](/img/en/frontend/player_tts.png)"
+      }
+    },
+    {
+      "segment_id": "2547a6bb",
+      "source_content": "Więcej szczegółów jak to działa w dokumentacji [Odtwarzacze](/docs/ais_app_player)",
+      "source_content_hash": "7e0c424eb12093138fbd4d1473f7382d95ca764f78fbf5ff028e7f29125bd625",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "详细实现请参阅文档 [播放器](/docs/ais_app_player)"
+      }
+    },
+    {
+      "segment_id": "5803caac",
+      "source_content": "Dodatkowo telefon/tablet/TvBox z systemem Android może być teraz też odtwarzaczem, możesz też wysyłać do niego powiadomienia głosowe. Wystarczy zainstalować naszą darmową aplikację. Z aplikacji możesz też teraz łatwo sterować mediami na bramce z innego urządzenia (telefonu).",
+      "source_content_hash": "c75a5da6e45fa40e7c017137ca9674a213a8cf7fdb04447031fce767566e7b7f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "现在搭载Android系统的手机/平板/TvBox也可作为播放器使用，并能接收语音通知。只需安装我们的免费应用即可。通过该应用还能便捷地远程控制网关的媒体播放（通过另一台手机设备）。"
+      }
+    },
+    {
+      "segment_id": "51867d16",
+      "source_content": "[AI-Speaker](https://play.google.com/store/apps/details?id=pl.sviete.dom&hl=en)",
+      "source_content_hash": "48a10569a15ecdecc1ecc7188d60f6a9895edb5b2ab31ef7449845c36cf7b63c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "[AI-Speaker](https://play.google.com/store/apps/details?id=pl.sviete.dom&hl=en)"
+      }
+    },
+    {
+      "segment_id": "a311e967",
+      "source_content": "![Sterowanie mediami na bramce z telefonu](/img/en/frontend/mob_notification_media.png)",
+      "source_content_hash": "bd3a1cc0632ed2d9579baa16947d7273fe70b7025c7b8283d8fb12752549281e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![通过手机控制网关媒体](/img/en/frontend/mob_notification_media.png)"
+      }
+    },
+    {
+      "segment_id": "eb51d107",
+      "source_content": "Więcej szczegółów jak to działa w dokumentacji Sterowanie mediami na bramce z telefonu",
+      "source_content_hash": "666e65d0596dca504a1fa7849aa8b7c4076ab99f9b98faf5d97c3a4993b39fcc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "具体实现详见文档《通过手机控制网关媒体》"
+      }
+    },
+    {
+      "segment_id": "99d0dd9b",
+      "source_content": "## Nowa wersja naszej aplikacji na zegarki z WearOS",
+      "source_content_hash": "b47f0c6cfc3d1e040f93704cda27fb9407812572ae1915506f57552f3dee227d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## WearOS智能手表应用新版"
+      }
+    },
+    {
+      "segment_id": "d79a4831",
+      "source_content": "Zmieniliśmy sposób komunikacji z bramką, dzięki czemu otrzymujemy powiadomienia głosowe/tekstowe o wykonaniu akcji nie tylko na bramce, ale też na kliencie, który wysyła komendę.\nW skrócie wygląda to teraz tak:",
+      "source_content_hash": "4b376283cf1b9dc9d956cdebca7ed4ce7817323b1a14ed84a93b0d2d31830858",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们改进了与网关的通信机制，现在不仅网关会播报动作执行的语音/文本反馈，发送指令的客户端也会同步接收通知。\n简要流程如下："
+      }
+    },
+    {
+      "segment_id": "4be28ed1",
+      "source_content": "![](/img/en/blog/202002/watch_1.jpg)\n![](/img/en/blog/202002/watch_2.jpg)",
+      "source_content_hash": "cff66eff3c1324232dd841b38f989a16b0a6bb74ca410baea5cdc09fca8c78c0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202002/watch_1.jpg)\n![](/img/en/blog/202002/watch_2.jpg)"
+      }
+    },
+    {
+      "segment_id": "d1f76d04",
+      "source_content": "## Zigbee2MQTT",
+      "source_content_hash": "a66405c542c7894a1ab6eac90fee3dc888e465982f22e8a7c35802633525283f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## Zigbee2MQTT"
+      }
+    },
+    {
+      "segment_id": "6693c38c",
+      "source_content": "Łatwiejsza zmiana nazwy urządzenia- wystarczy kliknąć węzeł urządzenia na mapie, aktualna nazwa zostanie automatycznie wpisana do formularza zmiany nazwy.",
+      "source_content_hash": "cf571ca8b7adb2d6ab5ffefaaadae8b275033480a85561e493f035d2114d622b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "更便捷的设备重命名功能——只需点击地图上的设备节点，当前名称将自动填入改名表单。"
+      }
+    },
+    {
+      "segment_id": "f018dbb4",
+      "source_content": "<iframe width=\"560\" height=\"315\"  src=\"https://www.youtube.com/embed/jYW2V8zgcDI\" frameBorder=\"0\" allowFullScreen></iframe>",
+      "source_content_hash": "6058b125f367ddb6281257cd29fea682d450e6162c10fbb3bb812a3f758673cb",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_f018dbb4"
+      }
+    },
+    {
+      "segment_id": "f8614e13",
+      "source_content": "## Generowanie stylów CSS dla kart (floor plan)",
+      "source_content_hash": "f963705f3934743ad07ae7df984fb0e89e10e2f8e2f09a78df8ad635702ab551",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 为卡片生成CSS样式（平面图）"
+      }
+    },
+    {
+      "segment_id": "396efb28",
+      "source_content": "Docelowo planujemy zrobić to bardziej na zasadzie \"drag & drop\", tak żeby każdy mógł rozmieścić swoje urządzenia na planie i nimi sterować.\nMożna zapoznać się ze zarysem funkcjonalności zaprezentowanej na forum: https://ai-speaker.discourse.group/t/rzut-podlogi-floor-plan/155",
+      "source_content_hash": "c99bcf6d364b8619b5880c6ea25a5855246e2a271f2c8fe607e809584916351b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们最终计划实现\"拖放式\"操作，让用户能自由布置平面图上的设备并进行控制。您可以在论坛查看功能原型：https://ai-speaker.discourse.group/t/rzut-podlogi-floor-plan/155"
+      }
+    },
+    {
+      "segment_id": "a6c928a1",
+      "source_content": "![Floor plan](/img/en/blog/202002/floor_plan.png)",
+      "source_content_hash": "3206114a32b78f01051228f3a31a98518243b0d90a103772b01189d3eeef5e70",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![平面图](/img/en/blog/202002/floor_plan.png)"
+      }
+    },
+    {
+      "segment_id": "47516512",
+      "source_content": "## Home Assistant",
+      "source_content_hash": "740b285c99ee849f17b14b85885c2e802b66edeeea4f9c6045c0fff785d20a55",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## Home Assistant"
+      }
+    },
+    {
+      "segment_id": "6fc234cf",
+      "source_content": "Najnowszy (stabilny) [Home Assistant](https://www.home-assistant.io/blog/2020/01/15/release-104)",
+      "source_content_hash": "45885d005410da0a854f13ca6c5a11119aa4b7cd16f7f917f8bc729b271c9d3c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "最新稳定版[Home Assistant](https://www.home-assistant.io/blog/2020/01/15/release-104)"
+      }
+    },
+    {
+      "segment_id": "c364340c",
+      "source_content": "Bardzo podoba nam się ulepszona obsługa encji i możliwość usuwania niedostępnych pozycji bezpośrednio z interfejsu użytkownika.",
+      "source_content_hash": "647c56585c3ff80e5cf67b0ec7b9af4bd160ada03a0b253144c3d9b608af3f51",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们非常欣赏其改进的实体处理功能，以及直接从用户界面删除不可用条目的能力。"
+      }
+    },
+    {
+      "segment_id": "f45239ba",
+      "source_content": "![Asystent](/img/en/blog/202002/ha_entity_del.png)",
+      "source_content_hash": "c6976306fed2cb07d53e4d3e4b6a8b862eec748328ae562c568e3856e661f3cd",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![助手](/img/en/blog/202002/ha_entity_del.png)"
+      }
+    },
+    {
+      "segment_id": "dc45ba24",
+      "source_content": "---",
+      "source_content_hash": "cb3f91d54eee30e53e35b2b99905f70f169ed549fd78909d3dac2defc9ed8d3b",
+      "node_type": "thematicBreak",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "---"
+      }
+    },
+    {
+      "segment_id": "c83259bb",
+      "source_content": "Zapraszamy do aktualizacji i [komentowania na forum](https://ai-speaker.discourse.group/)\nAI-Speaker 02/2020\n---",
+      "source_content_hash": "448ce7da525aebfc43fc9ed630c4dd102dcf0994601d8e044e1a87e22edd7814",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "欢迎升级并[参与论坛讨论](https://ai-speaker.discourse.group/)\nAI-Speaker 2020年2月\n---"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2020-02-05-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.115664+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "5eb21876a35e5fbdde9b0bd46956e3c472dca3005b368a2ce239d8c2c5cddff0"
+  }
+}

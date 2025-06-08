@@ -1,0 +1,602 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2021-09-29-release-notes.md",
+  "source_file_content_hash": "f8a3ead40c53be602360475dd3e87ed8fb8fde0f0cc0f3aba99c5d5c5aec302d",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Jola AI-Speaker\nauthorURL: https://github.com/sviete\nauthor_title: Asystentka\nauthorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4\ntitle: Wersja systemu Kasia\ntags: [\"mqtt\", \"home assistant\", \"zigbee\"]\n---",
+      "source_content_hash": "e629d5364f4f37d068249e4ce9a1aaacf746402fb5735f0a034c9c3170500f59",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "775b7fa4",
+      "source_content": "<div class=\"IntroAisBlogMenu\" >\n\n![AIS](/img/en/blog/202109/kasia.png)\n\n</div>",
+      "source_content_hash": "8e76fc59562208db86c143ba22aaddaec7f904ffd2b2344823096e2360d40f96",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_775b7fa4"
+      }
+    },
+    {
+      "segment_id": "6429a3aa",
+      "source_content": "<!--truncate-->",
+      "source_content_hash": "f5cded2aa7e288e395fe4f67f9dabda2281904b2f5358d07302b3aa8be0acdfa",
+      "node_type": "comment",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_6429a3aa"
+      }
+    },
+    {
+      "segment_id": "aee0e40d",
+      "source_content": "## ABC bezproblemowej aktualizacji",
+      "source_content_hash": "c90f3410f68be4e7ee6017947af078313ab12a12edc09598ec43646aef83e69a",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 无忧升级指南"
+      }
+    },
+    {
+      "segment_id": "cac45343",
+      "source_content": ":::tip[Kopia zapasowa.]\n### ![A](/img/en/blog/202009/alpha-a-circle.png) Kopia zapasowa.\n\nUWAGA Przed aktualizacją zalecamy wykonać [kopię zapasową konfiguracji](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji). W ten sposób sprawdzisz poprawność swojej konfiguracji przed rozpoczęciem aktualizacji i zwiększysz prawdopodobieństwo bezproblemowej aktualizacji.\n:::",
+      "source_content_hash": "1828218cdc126741a2ebe2de65e3dd6aff658b58cb960a102231a8a3be71ca74",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::tip[备份]\n### ![A](/img/en/blog/202009/alpha-a-circle.png) 备份\n\n注意：升级前建议先进行[配置备份](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji)。这能帮助您在升级前验证配置的正确性，并显著提高顺利升级的概率。\n:::"
+      }
+    },
+    {
+      "segment_id": "6b3596a2",
+      "source_content": ":::important[Konsola i logi na bramce.]\n### ![B](/img/en/blog/202009/alpha-b-circle.png) Konsola i logi na bramce.\n\nW razie problemów z aktualizacją, sprawdź procedurę [Aktualizacja z konsoli](/docs/ais_bramka_update_manual) lub [Wykonanie pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step).\nTo może dotyczyć szczególnie osób, które instalują na bramce dodatkowe niestandardowe komponenty.\n:::",
+      "source_content_hash": "68fd9b1408e16bcda26341c46f1391b36b4a4bb299475fcfba57528a3af090c5",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::important[网关控制台与日志]\n### ![B](/img/en/blog/202009/alpha-b-circle.png) 网关控制台与日志\n\n若升级遇到问题，请参考[控制台手动升级指南](/docs/ais_bramka_update_manual)或[应用完全重置步骤](/docs/ais_bramka_reset_ais_step_by_step)。\n特别提醒安装非标准组件的用户需重点关注此部分。\n:::"
+      }
+    },
+    {
+      "segment_id": "b56ef571",
+      "source_content": ":::caution[Poczekaj cierpliwie.]\n### ![C](/img/en/blog/202009/alpha-c-circle.png) Cierpliwość. Aktualizacja i pierwsze uruchomienie po aktualizacji trwa dłużej - poczekaj cierpliwie.\n\n **Po aktualizacji pierwsze uruchomienie może trwać długo.**\n W tym czasie aktualizowane są biblioteki do integracji dodanych na bramce.\n **Poczekaj cierpliwie na zakończenie aktualizacji.\n Możesz sprawdzić status uruchamiania (dowiedzieć się co robi system) w konsoli komendą ``htop`` i/lub ``pm2 logs``**\n:::",
+      "source_content_hash": "90a7f2513fae9e580022f4fd3c79e2824f4f68bdd7ff51937dbef99e44de3f4d",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::caution[耐心等待]\n### ![C](/img/en/blog/202009/alpha-c-circle.png) 耐心等待。升级及升级后首次启动耗时较长——请保持耐心。\n\n **升级后的首次启动可能耗时较久。**\n 此时系统正在更新网关已安装集成所需的依赖库。\n **请耐心等待升级完成。\n 您可通过命令``htop``或``pm2 logs``在控制台查看系统启动状态（了解当前运行进程）**\n:::"
+      }
+    },
+    {
+      "segment_id": "54268405",
+      "source_content": "## ![](/img/en/blog/202109/kasia.png) Kasia",
+      "source_content_hash": "a856fd01b1c7645ac4ff140762f4bb67c5fc817068d36e6e3fa5037247aaae07",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## ![](/img/en/blog/202109/kasia.png) 卡西亚"
+      }
+    },
+    {
+      "segment_id": "13d9cd70",
+      "source_content": "W tej wersji AIS dom, czyli nasza główna aplikacja mobilna, zmienia swoje przeznaczenie z ogólnego na bardziej specyficzne i będzie ewoluowała w stronę aplikacji dedykowanej na tablet. Ostatnie zmiany, które dodaliśmy do aplikacji (obsługa SIP-a i RTSP) spowodowały spory przyrost kodu tej aplikacji - aplikacja ma już powyżej 100 MB. Sporo funkcjonalności jest typowo tabletowych (wideodomofon, gesty, przekierowanie audio i sterowanie audio).",
+      "source_content_hash": "622b85fa81913905ce45006222ff0fbcb4bdc45737a9bae54db03c489797f861",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "本次版本中，我们的核心移动应用AIS dom从通用型转向专用型发展，将逐步演变为平板专属应用。近期新增的SIP协议和RTSP流媒体支持功能导致应用体积显著增长——目前已超过100MB。诸多功能专为平板设计（如可视门禁、手势操作、音频重定向及音频控制）。"
+      }
+    },
+    {
+      "segment_id": "29528c8d",
+      "source_content": "Od tej wersji nasze aplikacje mobilne to forki (rozgałęzienia kodu) mobilnych aplikacji Home Assistant.\nAplikacje mobilne AIS będą się nieznacznie różniły od aplikacji mobilnych HA, główne różnice:",
+      "source_content_hash": "b2eaf6aa5745e41a7511b3428e51c7a441e9db0bdb84f5e5c9a0c5e620158023",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "自此版本起，我们的移动应用将成为Home Assistant移动应用的分支版本。\nAIS移动应用与HA移动应用的主要差异体现在："
+      }
+    },
+    {
+      "segment_id": "ddd2c7ae",
+      "source_content": "- domyślnie polska wersja językowa,\n- kolory,\n- logo,\n- darmowy tunel,\n- większy limit dzienny powiadomień -> 999",
+      "source_content_hash": "242db5ac15937e1c91bb4acaa4b61cb83ac5efbd57f2233aae53804640432123",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 默认波兰语界面\n- 配色方案\n- 品牌标识\n- 免费隧道服务\n- 更高每日通知限额→999条"
+      }
+    },
+    {
+      "segment_id": "4d52a261",
+      "source_content": "Poza tym wszytko będzie 100% jak w HA.",
+      "source_content_hash": "c65ce6067c4e05b883515c7fa5a8f8992245bbb1663f99128ac49789292ef263",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "其余功能均与HA保持100%一致。"
+      }
+    },
+    {
+      "segment_id": "23dfb152",
+      "source_content": "Co w ten sposób osiągneliśmy:",
+      "source_content_hash": "0cdce431635c327f2f7f7096505719dbba5ae425275453182765bc384fa1eda0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们实现的突破："
+      }
+    },
+    {
+      "segment_id": "a0e887c2",
+      "source_content": "- wprowadzamy dedykowane aplikacje dla Apple,\n- wprowadziliśmy dedykowaną aplikację mobilną na system Android,\n- wprowadziliśmy dedykowaną aplikację do panelu sterowania (tablet),\n- kody aplikacji mobilnych tworzone przez programistów wolontariuszy do projektu HA będą automatycznie trafiały do AIS.",
+      "source_content_hash": "5317a5bfee997da3a0147e206fffa7d67068aa619e8a7449033f0b155446ec22",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 推出Apple专属应用\n- 发布Android专用移动应用\n- 推出控制面板（平板）专用应用\n- HA志愿者开发者编写的移动应用代码将自动同步至AIS"
+      }
+    },
+    {
+      "segment_id": "5dae11e3",
+      "source_content": "Dzięki temu AI-Speaker staje się integratorem, który jest w stanie dostarczyć aplikacje do automatyki domowej dla każdego.",
+      "source_content_hash": "d8db9d0145cdf1f32b71988011c819dda8d4ea9f38df5cb22ef8b40d08c2ae40",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "这使得AI-Speaker成为能为所有用户提供智能家居应用解决方案的集成平台。"
+      }
+    },
+    {
+      "segment_id": "a5a4323e",
+      "source_content": "### Android",
+      "source_content_hash": "18508687aedd8506ac08685625c58c973d94225f52d4abdd8fc62e581c6da653",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### Android系统"
+      }
+    },
+    {
+      "segment_id": "3ef18741",
+      "source_content": "####  AIS dom Tablet - Wideodomofon",
+      "source_content_hash": "6772186024ab70a4cdb46911ba172a241ae94841473c6b98fe391f39315cf540",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "####  AIS dom平板应用 - 视频门禁"
+      }
+    },
+    {
+      "segment_id": "e7772088",
+      "source_content": "AIS dom, czyli nasza główna aplikacja mobilna zmienia swoje przeznaczenie z ogólnego na bardziej specyficzne i będzie ewoluowała w stronę aplikacji dedykowanej na tablet. Ostatnie zmiany, które dodaliśmy do aplikacji (obsługa SIP-a i RTSP) spowodowały spory przyrost kodu tej aplikacji - aplikacja ma już powyżej 100 MB. Sporo funkcjonalności jest typowo tabletowych (wideodomofon, gesty, przekierowanie audio i sterowanie audio).",
+      "source_content_hash": "f827fe39b105e4c577c99292f7da099eba247889fd926c486086335adcd2d161",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "AIS dom作为我们的核心移动应用，其定位正从通用型转向更专业的平板专用应用。近期新增的SIP协议和RTSP协议支持功能显著增加了应用体积——目前已超过100MB。许多功能专为平板设计（如视频门禁系统、手势操作、音频重定向及音频控制）。"
+      }
+    },
+    {
+      "segment_id": "883231d4",
+      "source_content": "![Smart glass ustawienia](/img/en/frontend/video_doorbell.png)",
+      "source_content_hash": "3d68e8b6e042da23b428832d5312f5531434191c7e30573da9b8afdfcb11e14e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![智能玻璃设置](/img/en/frontend/video_doorbell.png)"
+      }
+    },
+    {
+      "segment_id": "6cc549f2",
+      "source_content": "Funkcjonalność aplikacji  \"Dotykowego panelu / Smart panel\" opisana jest w dokumentacji: [AIS dom Panel](/docs/ais_app_android_dom_tablet)",
+      "source_content_hash": "f873b79a224c0bf2789b77d19cca77e8b297297e077f32769e6051e6bf6c6872",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "\"触控面板/Smart panel\"功能详见文档：[AIS dom平板应用](/docs/ais_app_android_dom_tablet)"
+      }
+    },
+    {
+      "segment_id": "98355e36",
+      "source_content": "####  AIS dom Mobile",
+      "source_content_hash": "2bd9e319964e20410d132f3882223fc7e8e52c96fe12f6cb4265eba82048bb87",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "####  AIS dom移动版"
+      }
+    },
+    {
+      "segment_id": "7736989b",
+      "source_content": "To nasza nowa aplikacja dedykowana na urządzenia mobilne z systemem Android. Aplikacja jest do pobrania w Google Play:",
+      "source_content_hash": "6bfca91a8bdd9ee407de0781395d98163afb442b3b810239fe64f9ac70e2bcfd",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "这是我们专为Android移动设备开发的新应用，现已在Google Play上架："
+      }
+    },
+    {
+      "segment_id": "6270d577",
+      "source_content": "![](/img/en/blog/202109/mob.png)",
+      "source_content_hash": "12c5d2ed658e704fc662989e376abb3c0ddf852921041ffb0a53307e8c0f6223",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202109/mob.png)"
+      }
+    },
+    {
+      "segment_id": "a1fa5396",
+      "source_content": "Funkcjonalność aplikacji  \"AIS dom Mobile\" zostanie opisana w dokumentacji: [AIS dom Mobile](/docs/ais_app_android_dom_mob)",
+      "source_content_hash": "9999bbc893b72010bccd58347058d34efd7f343bab792b9dd91e581ff717ef8c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "\"AIS dom移动版\"功能将记录在文档中：[AIS dom移动版](/docs/ais_app_android_dom_mob)"
+      }
+    },
+    {
+      "segment_id": "759d12dd",
+      "source_content": "### AIS dom iOS/macOS",
+      "source_content_hash": "8da4d2f421b2924135fa47190d86bd55030f335cb09c0ca609c4759e10d5a600",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### AIS dom iOS/macOS版"
+      }
+    },
+    {
+      "segment_id": "74dd7937",
+      "source_content": "Dostarczamy aplikacje do App Strore. Aplikacja na iOS czy macOS to nie tylko kod, ale też wypełnienie formularzy w Apple ze zgodami na wysyłanie \"Powiadomień krytycznych\", \"Lokalnych powiadomień\" i wyjaśnianie, do czego potrzebujemy uprawnienie \"com.apple.security.device.camera\" a do czego \"com.apple.security.files.downloads.read-write\" itd.\nJeszcze nie mamy zaakceptowanej aplikacji w Apple i spodziewamy się, że potrwa to jeszcze jakiś czas... dlatego jabłuszko jest jeszcze zielone ;)",
+      "source_content_hash": "8d39a8524d4f15b357739576d3d246c8697ba323b9a04c79f208b1957e0ab490",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们正在向App Store提交应用。iOS/macOS应用不仅涉及代码开发，还需向苹果提交包含\"关键通知权限\"、\"本地通知权限\"等合规说明，并详细解释为何需要\"com.apple.security.device.camera\"和\"com.apple.security.files.downloads.read-write\"等权限。目前应用尚未通过苹果审核，预计仍需时日...所以苹果图标暂时还是绿色的;)"
+      }
+    },
+    {
+      "segment_id": "86348f98",
+      "source_content": "![](/img/en/blog/202109/ios.png)",
+      "source_content_hash": "68972dbe7779f4fcd4f1f4a29e8574a565d29cc11c83989813c664419b4b456e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202109/ios.png)"
+      }
+    },
+    {
+      "segment_id": "6b77b644",
+      "source_content": "![](/img/en/blog/202109/macOS.png)",
+      "source_content_hash": "79baa09e11aacae6e172b647d2c41c5974f6fe919bf746724cd0dfe2e56c20ff",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202109/macOS.png)"
+      }
+    },
+    {
+      "segment_id": "a311e967",
+      "source_content": "Funkcjonalność aplikacji  \"AIS dom iOS/macOS\" zostanie opisana w dokumentacji: [AIS dom iOS](/docs/ais_app_ios_mob)",
+      "source_content_hash": "da66d673a673fb681ab69ccd5de41ea5bb1b2921085222f7b78b7d6daca444c8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "\"AIS dom iOS/macOS版\"功能将记录在文档中：[AIS dom iOS版](/docs/ais_app_ios_mob)"
+      }
+    },
+    {
+      "segment_id": "c19de48a",
+      "source_content": "### Linux - Binarki",
+      "source_content_hash": "adbfad5db6814b1d8f6f877d1b801245930f27d4920cd4b75843121ce8fb3a01",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### Linux系统 - 二进制包"
+      }
+    },
+    {
+      "segment_id": "6ca4479f",
+      "source_content": "W tej aktualizacji dostarczamy najnowsze wersje dziesiątek pakietów binarnych, w tym kluczowe pakiety do działania systemu: python, nodejs, rclone, mosquitto, ttyd, libwebsockets, llvm, ffmpeg…",
+      "source_content_hash": "65138a63a9141ad405f147d82e61f3691cdc1011b033fe06bf45d4c0e5e46c0f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "本次更新包含数十个关键二进制包的最新版本，涵盖系统运行核心组件：python、nodejs、rclone、mosquitto、ttyd、libwebsockets、llvm、ffmpeg等..."
+      }
+    },
+    {
+      "segment_id": "f4746b27",
+      "source_content": ":::warning\nTrzeba cierpliwie poczekać na zakończenie aktualizacji i uruchomienie asystenta domowego. To może potrwać dłużej, w zależności od tego, jakie integracje macie na bramce - jakie zależności w pakietach Pythona będą kompilowane na bramce podczas instalacji i jak wydajną masz bramkę (kompilacja, która trwa na PRO1 5 minut może trwać na DEV1 60 minut).\n:::",
+      "source_content_hash": "8a05f4908591cd12cd5863fbfecc6e41e81f27eada39ebfaad0c76dfd28c6241",
+      "node_type": "containerDirective",
+      "translatable": true,
+      "translations": {
+        "zh-CN": ":::warning\n请耐心等待系统更新完成及家庭助理启动。该过程耗时取决于网关性能及已安装的集成组件——Python包依赖项将在安装时实时编译，在PRO1设备上5分钟的编译过程，在DEV1设备上可能长达60分钟。\n:::"
+      }
+    },
+    {
+      "segment_id": "f0984c2a",
+      "source_content": "![](/img/en/blog/202109/termuxhero.jpg)",
+      "source_content_hash": "a6103acbc18cb7fe63b7c8f8af35d84d4147dd153548c98ac3792f9fed41f182",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202109/termuxhero.jpg)"
+      }
+    },
+    {
+      "segment_id": "a81544fd",
+      "source_content": "Przebudowaliśmy ponad 1000 pakietów po aktualizacji głównej wersji libffi, która zmieniła swój ABI (niskopoziomowy interfejs binarny). Ostatnia taka przełomowa zmiana była w roku 2012.\nZmiana libffi spowodowała, że musieliśmy przebudować wszystkie pakiety zależne od libffi:",
+      "source_content_hash": "f37a56025957538b3aaa28cd46e2cdf7f840fc9e3c7a824f8db5bf149f6e5b3a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "由于libffi主版本更新导致ABI（二进制低级接口）变更，我们重建了1000余个依赖包。这是自2012年以来该库最重大的变更。所有依赖libffi的软件包均需重新编译："
+      }
+    },
+    {
+      "segment_id": "5cb70a3d",
+      "source_content": "- ctypes-sh\n- ecl\n- glib\n- imagemagick\n- libgmime\n- libllvm\n- p11-kit\n- profanity\n- python\n- python2\n- ruby\n-  ... i pakiety zależne od tych pakietów…",
+      "source_content_hash": "4cbbe11ee3e5e1dc249e088c9d3c79e293a3c52e4b4a365d61e178c6e8abef11",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- ctypes-sh\n- ecl\n- glib\n- imagemagick\n- libgmime\n- libllvm\n- p11-kit\n- profanity\n- python\n- python2\n- ruby\n-  ... 以及依赖这些软件包的其他组件…"
+      }
+    },
+    {
+      "segment_id": "6fc234cf",
+      "source_content": "Aktualizujemy też binarkę Tunel Cloudflare do najnowszej wersji [Tunel Cloudflare](https://github.com/cloudflare/cloudflared/releases/tag/2021.9.0)",
+      "source_content_hash": "9256a8731f75436d905e22ade455092f0943f8682702677c49d850d2c0e34e51",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们同时将Cloudflare隧道二进制文件更新至最新版本 [Cloudflare隧道](https://github.com/cloudflare/cloudflared/releases/tag/2021.9.0)"
+      }
+    },
+    {
+      "segment_id": "c364340c",
+      "source_content": "Wg Cloudflare nowy tunel ma być nawet 40% szybszy niż bezpośrednie połączenie, bo wykorzystuje algorytm Smart Routing.",
+      "source_content_hash": "24e4f78cccdc1032afd90888b197a5fcaed41679f340492bb8fab3ffc315ec86",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "据Cloudflare称，新隧道采用智能路由算法，其速度甚至比直连快40%。"
+      }
+    },
+    {
+      "segment_id": "f45239ba",
+      "source_content": "![Tunel Cloudflare](https://aws1.discourse-cdn.com/free1/uploads/ai_speaker/optimized/2X/f/fb115cb8ae2bb2924d8638f67e2b82acef117c50_2_463x500.jpeg)",
+      "source_content_hash": "d80989cb22d048634059e7fae3a3ab0a35ae1eef1235333f33c40a55cd5f45c6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![Cloudflare隧道](https://aws1.discourse-cdn.com/free1/uploads/ai_speaker/optimized/2X/f/fb115cb8ae2bb2924d8638f67e2b82acef117c50_2_463x500.jpeg)"
+      }
+    },
+    {
+      "segment_id": "692c6053",
+      "source_content": "Po poprawkach w Cloudflare przeszliśmy na nowy format definiowania tuneli.\nDefinicja jest teraz w pliku yaml na bramce, który można zobaczyć z aplikacji (nie pozwalamy na modyfikację).",
+      "source_content_hash": "bfbb669d9ee807639e1d081b0737ec0f2b28ada9e78fbcc7c007585e491ecf6b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "完成Cloudflare改进后，我们启用了新的隧道定义格式。现在配置文件采用网关上的yaml格式（禁止用户修改），可通过应用程序查看。"
+      }
+    },
+    {
+      "segment_id": "1ecf0882",
+      "source_content": "![](https://aws1.discourse-cdn.com/free1/uploads/ai_speaker/original/2X/5/5934b0c4f6552c9603fc8beeab2619c182a72c53.png)",
+      "source_content_hash": "5dc5edeb77e978a8fb42802d5330eda8a981943cd5b957ac61f50f6647c3bc4c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](https://aws1.discourse-cdn.com/free1/uploads/ai_speaker/original/2X/5/5934b0c4f6552c9603fc8beeab2619c182a72c53.png)"
+      }
+    },
+    {
+      "segment_id": "5dba1427",
+      "source_content": "### AIS Easy - Ankieta",
+      "source_content_hash": "be364fe3deaa4ba4f9ccc53e41e04aeb02340078d7059497205ba88838272890",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### AIS Easy - 问卷调查"
+      }
+    },
+    {
+      "segment_id": "534ac82e",
+      "source_content": "Dziękujemy za wypełnienie ankiety - otrzymujemy od was bardzo cenne opinie, które pomogą nam kształtować naszą ofertę. Zdecydowaliśmy się kontynuować temat i przedłużamy ankietę do wyczerpania nagród (maksymalnie do końca roku).",
+      "source_content_hash": "87f1362a94883e8f2eb701b35cc641296f7ac8668e02065cf63e21e6d432a910",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "感谢参与问卷调查——您提供的宝贵意见将帮助我们优化产品方案。我们决定延续该活动，在奖品发放完毕前持续开放问卷（最迟至年底）。"
+      }
+    },
+    {
+      "segment_id": "a9c2a503",
+      "source_content": "![](/img/en/blog/202108/open_question.jpg)",
+      "source_content_hash": "2b613f4919fa9ea9534e1dabe469797ee2d40e9cec015575c6e40042625d8611",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202108/open_question.jpg)"
+      }
+    },
+    {
+      "segment_id": "dd4905a4",
+      "source_content": "### ![](/img/en/blog/202102/honeybee.png) Zigbee2Mqtt",
+      "source_content_hash": "66a9914e72acab290690746f63dbd2e2db4834db52483737dfde28177b71768b",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### ![](/img/en/blog/202102/honeybee.png) Zigbee2Mqtt"
+      }
+    },
+    {
+      "segment_id": "ad3e22c6",
+      "source_content": "Aktualizacja Zigbee2Mqtt do najnowszej wersji 1.21.1 - **1667** wspieranych urządzeń. Wszystkie szczegóły tu [1.21.1](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.21.1)",
+      "source_content_hash": "869721e0c9b0be0e507403c2fac49d2b7978758f15582b6de4e2c692e32c76f1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Zigbee2Mqtt更新至1.21.1版本——支持**1667**种设备。完整更新日志见[1.21.1](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.21.1)"
+      }
+    },
+    {
+      "segment_id": "3e8f45da",
+      "source_content": "Ewolucja Zigbee trwa i niebawem na rynku pojawią się dwa tanie i ciekawe urządzenia do Zigbee 3.0, które mają potencjał żeby \"namieszać\" na rynku koordynatorów Zigbee:",
+      "source_content_hash": "fd2328dff143177ff4ef7b67768bba92b0ba73b5c1bcd8de585222d50ecf94b3",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "Zigbee技术持续演进，近期市场将出现两款高性价比Zigbee 3.0设备，可能重塑协调器市场格局："
+      }
+    },
+    {
+      "segment_id": "55dc794c",
+      "source_content": "#### 1. Adapter Sonoff",
+      "source_content_hash": "7e1918550aac8c82f0876010a19d09563bba2f9c06dac23889d57012bb66ff9f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "#### 1. Sonoff适配器"
+      }
+    },
+    {
+      "segment_id": "63565425",
+      "source_content": "![](/img/en/blog/202109/sonoff.jpg)",
+      "source_content_hash": "f1ebde1aac991f3ba0c2f04ef49ce6abe316fbbb9162c67cf270df5b8e971cec",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202109/sonoff.jpg)"
+      }
+    },
+    {
+      "segment_id": "3c6dd548",
+      "source_content": "#### 2. Bramka Ethernet",
+      "source_content_hash": "f273a24b2727ff73208576f1fdf0fedcf8514cebfc1677718a6d4135e50fc81d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "#### 2. 以太网网关"
+      }
+    },
+    {
+      "segment_id": "6f08f877",
+      "source_content": "![](/img/en/blog/202109/ZB-GW03-ESP32-Ethernet-Zigbee-Gateway.jpg)",
+      "source_content_hash": "9bed2463f0d87fb370604292c4738207ccef1563d2307521a4f82a236f81e5ae",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202109/ZB-GW03-ESP32-Ethernet-Zigbee-Gateway.jpg)"
+      }
+    },
+    {
+      "segment_id": "0ddaa835",
+      "source_content": "Jak te urządzenia będą miały certyfikat CE i będą działały ;) to będziemy je wspierać w AIS - żebyśmy wszyscy mieli większy wybór koordynatorów Zigbee.\nPojawiaenie się tych urządzeń to kolejny krok w rozwoju rynku Zigbee. Dotychczas, żeby mieć mocny adapter Zigbee 3.0, trzeba było kupić sprawdzone i certyfikowane Conbee 2 albo lutowane urządzenie DIY bez certyfikatu, teraz nadchodzi alternatywa i prawdopodobie tą zmianę odczują najbardziej autorzy lutowanych rozwiązań.",
+      "source_content_hash": "159e2a67d93df6b55f36cca20572361218ded28d87dd22724ba980017b9b3c85",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "若这些设备通过CE认证且运行稳定，我们将予以支持以丰富Zigbee协调器选择。它们的出现标志着Zigbee市场新阶段——此前用户需选择认证版Conbee 2或非认证DIY焊接方案，现在第三方认证产品将冲击手工焊接解决方案的市场空间。"
+      }
+    },
+    {
+      "segment_id": "16ae54ea",
+      "source_content": "### ![](/img/en/blog/202101/hass.png) Asystent domowy 2021.9",
+      "source_content_hash": "79397cc498284e963f08baa269215e2615bb18c398bb88b97f17d909429a2791",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### ![](/img/en/blog/202101/hass.png) 家庭助理2021.9"
+      }
+    },
+    {
+      "segment_id": "99840f13",
+      "source_content": "Najnowsza wersja Asystenta domowego, czyli naszego pakietu ``ais-dom`` bazującego na najnowszym stabilnym Home Assistant Core.",
+      "source_content_hash": "4f36ed4bd7e6fdbae4e71f7081f263804cfb8884b40cb03ecec164f202f07f42",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "最新版家庭助手，即我们的`ais-dom`软件包，基于最新稳定版Home Assistant Core构建。"
+      }
+    },
+    {
+      "segment_id": "85ea22dd",
+      "source_content": "![](/img/en/blog/202109/ha.png)",
+      "source_content_hash": "0375c3f9fc6e37e5e32c0306ff3e23c54b5b3c83d020584a998035ca5fd44c0f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![](/img/en/blog/202109/ha.png)"
+      }
+    },
+    {
+      "segment_id": "61a78cbe",
+      "source_content": "Opis wszystkich zmian i nowości [2021.9](https://www.home-assistant.io/blog/2021/09/01/release-20219/)",
+      "source_content_hash": "4db19a22f7760d80e09596f210428a65a370bb0df4019ded0eb51ff5f0a1fa9b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "完整更新内容与特性说明详见[2021.9版本](https://www.home-assistant.io/blog/2021/09/01/release-20219/)"
+      }
+    },
+    {
+      "segment_id": "39c48ff7",
+      "source_content": "W tej wersji nie ma większych zmian, zespół HA zajęty był projektem Amber, o którym piszemy na blogu:",
+      "source_content_hash": "7cbed7c1360c35b91f6b185ff6bf8673988cc112eab93e3ab0b7c4118ce5b1ef",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "此版本无重大变更，HA团队正专注于Amber项目，我们在博客中对此有专门介绍："
+      }
+    },
+    {
+      "segment_id": "fe25bd72",
+      "source_content": "[![](/img/en/blog/202109/amber.png)](https://ai-speaker.discourse.group/t/amber-by-home-assistant/2122)",
+      "source_content_hash": "cd425b846e80dc10237a1901117db0228649a5c4ba33fd41fb7f0ce239a6c726",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "[![](/img/en/blog/202109/amber.png)](https://ai-speaker.discourse.group/t/amber-by-home-assistant/2122)"
+      }
+    },
+    {
+      "segment_id": "ef9d3107",
+      "source_content": "--------",
+      "source_content_hash": "370d9b71060be968d97de6de91fff200e4dd739e4e1fd7d6e983d9a7c60bdbb0",
+      "node_type": "thematicBreak",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "--------"
+      }
+    },
+    {
+      "segment_id": "af250a10",
+      "source_content": "##### AI-Speaker 09/2021",
+      "source_content_hash": "b4929d36b745bffbf1a32a5307c5d022e6a7d361cd103fed558d7c86cfec6511",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "##### AI-Speaker 2021年9月版"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2021-09-29-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.107821+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "f8a3ead40c53be602360475dd3e87ed8fb8fde0f0cc0f3aba99c5d5c5aec302d"
+  }
+}

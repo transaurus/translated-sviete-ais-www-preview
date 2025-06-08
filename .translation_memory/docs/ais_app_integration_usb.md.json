@@ -1,0 +1,276 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_app_integration_usb.md",
+  "source_file_content_hash": "9749985e523960b1edd277309f13c56e735909f0bfcd7228e81cffc3bbb11820",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"USB rozpoznawanie urządzeń\"\nsidebar_label: Urządzenia USB\n---",
+      "source_content_hash": "48d88de6d4153e847ce254e886e367185da4ac71e6d23c06f0ff7918a2f4d74f",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Wprowadzenie",
+      "source_content_hash": "138964b3f05ef631ae55efd030ca96538eb5d783961ef7b978515da6c937d13f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 引言"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "Na bramce dostarczamy działającą w tle usługę USB, której celem jest wykrywanie zmian stanu urządzeń USB (połączenie i rozłączanie). Usługa monitoruje zdarzenia za pomocą mechanizmu inotify dostępnego w systemie Linux, następnie zmienia je w format zrozumiały dla Asystenta domowego. Dzięki temu Asystent domowy powiadamia komunikatem głosowym o tym, jakie urządzenie zostało dodane i jeżeli obsługa danego urządzenia jest wspierana, to Asystent wykona dalsze akcje związane z obsługą danego urządzenia, takie jak:",
+      "source_content_hash": "6bc98343a01c7c4fbf96c41ffcba4a192e4c50c6b5f8039bbeebe0e42d0c48d9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们在网关上提供了一项后台运行的USB服务，其核心功能是监测USB设备的状态变化（连接与断开）。该服务通过Linux系统的inotify机制监听事件，并将其转换为家庭助理可识别的格式。当检测到新设备接入时，家庭助理将通过语音播报设备类型。若该设备受支持，系统将自动执行相关操作，例如："
+      }
+    },
+    {
+      "segment_id": "abcf54e3",
+      "source_content": "- dodanie dysków\n- uruchomienie karty audio\n- uruchmienie serwsisu do obsługi Zigbee",
+      "source_content_hash": "7e3d0d953a3efe8fd8cdb952b87187777335e79f953ad2def13a058e941764c4",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 挂载存储设备  \n- 启用音频设备  \n- 启动Zigbee通信服务"
+      }
+    },
+    {
+      "segment_id": "70153c6e",
+      "source_content": "## Pamięć USB",
+      "source_content_hash": "ced213d26d8a728d2ba8e12296d9550da11d491e170cc1c3b050bb32a5972e5d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## USB存储设备"
+      }
+    },
+    {
+      "segment_id": "86b54d44",
+      "source_content": "Gdy dysk flash USB, karta pamięci SD, lub urządzenie obsługujące MTP (np aparat czy telefon komórkowy) jest podłączone do bramki AIS dom, to bramka obsługuje takie urządzenie w trybie hosta USB.\nW tym trybie bramka zapewnia napięcie 5V na linii VBUS portu USB dla dołączonego urządzenia, pamięć flash jest rejestrowana jako nowy dysk zewnętrzny dostępny dla użytkownika.\nAsystent domowy informuje, że rozpoznał dysk komunikatem \"Dysk zewnętrzny podłączony\" i można już przeglądać dysk i odtwarzać z niego audio.",
+      "source_content_hash": "94b290b0bd8f18a3567ed2562d178acb8853b48ea430b122a16f1ba990a60e8a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "当U盘、SD卡或支持MTP协议的设备（如相机或手机）接入AIS dom网关时，网关将以USB主机模式进行管理。此模式下，网关会为USB端口VBUS线路提供5V电压，外部存储设备将被识别为可访问的磁盘。家庭助理会通过\"外部磁盘已连接\"的语音提示确认设备识别，用户可立即浏览存储内容或播放音频文件。"
+      }
+    },
+    {
+      "segment_id": "1acb9a05",
+      "source_content": "![Audio panel](/img/en/bramka/usb_integration_drive.png)",
+      "source_content_hash": "13216f44632d7c119bd9c942edce934b37775dde1d32856ba03dc1a0cbd42c14",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![音频面板](/img/en/bramka/usb_integration_drive.png)"
+      }
+    },
+    {
+      "segment_id": "40f9552a",
+      "source_content": "## USB Audio",
+      "source_content_hash": "ddd03e54bdaa8d14210633aee843395c88eb7bd2670154b8826bfaa49ca7f128",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## USB音频设备"
+      }
+    },
+    {
+      "segment_id": "f2c2bdd0",
+      "source_content": "Na bramce dostępna jest karta audio posiadająca 3 wbudowane interfejsy do przesyłania audio:",
+      "source_content_hash": "d613f04245cd1a33f2ce4650ef425b8653b7e05dda57e7bfdf44ff665431684c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "网关音频模块支持三种内置音频传输接口："
+      }
+    },
+    {
+      "segment_id": "0cc488ed",
+      "source_content": "- av\n- hdmi\n- spdif",
+      "source_content_hash": "4b83969befdd61f55dd9a9fc1c8e78557832de2c887398e6949f7af515fccdcf",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- AV接口  \n- HDMI接口  \n- 光纤接口"
+      }
+    },
+    {
+      "segment_id": "b7c3dbd1",
+      "source_content": "```\ncat /proc/asound/cards\n0 [AMLM8AUDIO     ]: AML-M8AUDIO - AML-M8AUDIO\n                     AML-M8AUDIO\n```",
+      "source_content_hash": "18b8ebe13e625b36651816170835d254f188cc041ebb52760cc8947d1edf685a",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {}
+    },
+    {
+      "segment_id": "517051a7",
+      "source_content": "Dodatkowo każde urządzenie audio zgodne ze specyfikacją USB i działające w trybie akcesoriów USB może obsługiwać dźwięk (jako interfejs USB przesyłający audio).\nPo włożeniu urządzenia USB (zgodnego ze specyfikacją USB dla urządzeń audio) do bramki, Asystent domowy rozpozna je i poinformuje głosowo, że urządzenie zostało dodane i automatycznie użyje nowo dodanego urządzenia do odtwarzania audio.",
+      "source_content_hash": "e5782106dfc196de6d5e0fc602140e3b3cb13bb43102ff39f852c003a7b3b690",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "此外，任何符合USB音频设备规范且工作在配件模式的设备均可作为音频传输接口。当兼容设备接入时，家庭助理将通过语音提示设备状态，并自动将其设为默认音频输出设备。"
+      }
+    },
+    {
+      "segment_id": "c3a738de",
+      "source_content": "![Audio panel](/img/en/bramka/usb_integration_audio.png)",
+      "source_content_hash": "32698db96fc7bb0528378b0488f4d1e70db6983fb7c6eb4adb60d2bc1398138c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![音频面板](/img/en/bramka/usb_integration_audio.png)"
+      }
+    },
+    {
+      "segment_id": "bca33820",
+      "source_content": "```\n$ cat /proc/asound/cards\n 0 [AMLM8AUDIO     ]: AML-M8AUDIO - AML-M8AUDIO\n                      AML-M8AUDIO\n 1 [AUDIO          ]: USB-Audio - USB  AUDIO\n                      USB  AUDIO at usb-xhci-hcd.0.auto-1.2, full speed\n```",
+      "source_content_hash": "4010d2890a60841627bb71312bba63e405cd2b9c2ccfb0e4a3409254def2ca55",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {}
+    },
+    {
+      "segment_id": "29528c8d",
+      "source_content": "Istnieje też możliwość kontroli urządzeń audio z poziomu konsoli, ale ten temat dotyczy użytkowników, którzy chcieliby sami konfigurować i programować audio na urządzeniu. Zostanie opisany szerzej na forum projektu Asystenta domowego.",
+      "source_content_hash": "124fa66b83d018739ebbfd6cc122080cb130ac93feb917f078c4fbfe2ebc257d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "高级用户可通过控制台配置音频设备，该功能面向需要自定义音频设置的用户，详细教程将在家庭助理项目论坛发布。"
+      }
+    },
+    {
+      "segment_id": "4795a13d",
+      "source_content": "```\n$ su -c \"tinymix -D 0\"\nMixer name: 'AML-M8AUDIO'\nNumber of controls: 10\nctl\ttype\tnum\tname                                     value\n0\tINT\t2\tDAC Digital Playback Volume              251 251\n1\tENUM\t1\tDAC Extra Digital Gain                   0dB\n2\tBOOL\t1\tAudio i2s mute                           Off\n3\tENUM\t1\tOutput Swap                             \n4\tBOOL\t1\tAudio spdif mute                         Off\n5\tBOOL\t1\tExt Spk Switch                           Off\n6\tENUM\t1\tLineout right N switch                   LORN_SEL_DACR_INV\n7\tENUM\t1\tLineout right P switch                   LORP_SEL_DACR\n8\tENUM\t1\tLineout left N switch                    LOLN_SEL_DACL_INV\n9\tENUM\t1\tLineout left P switch                    LOLP_SEL_DACL\n```",
+      "source_content_hash": "0faa23451111d284e9d8aba7bb6471741a627917e6726059c6138202084093c9",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {}
+    },
+    {
+      "segment_id": "bd92edfc",
+      "source_content": "## Akcesoria USB HID",
+      "source_content_hash": "52351dad54e61c9582a51ce6fab52acba8d324702955f8594a04e18d625151b3",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## USB HID配件"
+      }
+    },
+    {
+      "segment_id": "7f71ff2a",
+      "source_content": "Urządzenia USB HID (Human Interface Devices) to urządzenia używane głównie do kontrolowania działania systemu. Typowe przykłady urządzeń klasy HID to kontrolery takie jak:",
+      "source_content_hash": "614a502e6173aa4ee1a53c616e0b9b3c7a6926ec76a1f7d5cfc0dab8279548e2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "USB人机交互设备(HID)主要用于系统控制，典型设备包括："
+      }
+    },
+    {
+      "segment_id": "af6ca965",
+      "source_content": "- pilot radiowy AI-Speaker,\n- klawiatury,\n- myszy,\n- joysticki,\n- czytniki kodów kreskowych",
+      "source_content_hash": "f47b7196972c4642d5927ca0014b5b05c28bd1ccb4de78dea50506d309aa7030",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- AI-Speaker射频遥控器  \n- 键盘  \n- 鼠标  \n- 游戏手柄  \n- 条码扫描器"
+      }
+    },
+    {
+      "segment_id": "afa378f7",
+      "source_content": "Definicja USB HID (Human Interface Device) określa standardowy sposób komunikacji HID z hostem obsługującym urządzenia tego typu.\nJeżeli urządzenie spełnia standard USB HID, to powinno być automatycznie rozpoznane i dodane przez Asystenta domowego, co zostanie zakomunikowane głosowo przez asystenta:",
+      "source_content_hash": "d0f4aa01ab84b3401ec3d35fd31f79818b81a297fd3fc5f3e281a4b1ee581a66",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "USB HID（人机接口设备）的定义规定了HID设备与支持此类设备的主机进行通信的标准方式。\n若设备符合USB HID标准，则应当被家庭助理自动识别并添加，系统将通过语音提示告知用户："
+      }
+    },
+    {
+      "segment_id": "7736989b",
+      "source_content": "![HID USB](/img/en/bramka/usb_integration_hid.png)",
+      "source_content_hash": "ce173fd387d83b5d013264672caf86161878b7ad42481e9882ac19ae2b7dbd0f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![HID USB](/img/en/bramka/usb_integration_hid.png)"
+      }
+    },
+    {
+      "segment_id": "8a9b6c26",
+      "source_content": "## Zigbee USB sniffer",
+      "source_content_hash": "058f7cd7f0f399cf199597d91e1492f314c6026859a63b58857445bfd1baef0e",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## Zigbee USB嗅探器"
+      }
+    },
+    {
+      "segment_id": "fbc2db85",
+      "source_content": "Po dodaniu urządzenia Zigbee USB CC2531 do portu USB bramki, Asystent domowy poinformuje o tym głosowo, uruchomi usługę do komunikacji z zigbee oraz aplikację do konfiguracji urządzeń zigbee:",
+      "source_content_hash": "8188784985f9a6682c7ee47c7282c9826d449aff41151fbf41af67cbe61e8ceb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "当Zigbee USB CC2531设备插入网关USB端口后，家庭助理将通过语音通知用户，同时启动Zigbee通信服务及设备配置应用："
+      }
+    },
+    {
+      "segment_id": "8126f763",
+      "source_content": "![USB Zigbee](/img/en/bramka/usb_integration_zigbee.png)",
+      "source_content_hash": "7d3c8a795d73db3fe5636a573fae6603b4a30658a185b124e8d776b97343c386",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![USB Zigbee](/img/en/bramka/usb_integration_zigbee.png)"
+      }
+    },
+    {
+      "segment_id": "74dd7937",
+      "source_content": "Szczegóły w opisie działania [Zigbee2MQTT](/docs/ais_app_integration_zigbee)",
+      "source_content_hash": "b20cf45ea3e021ca2b180323383bd0bc7b724835da47ceb576b456fc3a088d94",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "具体操作详见[Zigbee2MQTT](/docs/ais_app_integration_zigbee)功能说明"
+      }
+    },
+    {
+      "segment_id": "bd30d33e",
+      "source_content": "## Biblioteka libusb",
+      "source_content_hash": "7b54946fb707ddc65d6c35d78758e75c34d70e39655b6aeec6c243a431b1b985",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## libusb库"
+      }
+    },
+    {
+      "segment_id": "6b77b644",
+      "source_content": "Na bramce dostarczamy [libusb](https://libusb.info/). Jest to biblioteka C, która zapewnia ogólny dostęp do urządzeń USB.\nBiblioteka ta umożliwia aplikacjom (działającym na bramce) na komunikowanie się ze sprzętem USB. Obsługiwane są wszystkie wersje protokołu USB, od 1.0 do 3.1(najnowsza).",
+      "source_content_hash": "b80e1de1afadd9e0c99a486502284ef17f817dd1c5cdf4babecce0ae41edfa43",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "网关内置[libusb](https://libusb.info/) C语言库，该库为USB设备提供通用访问接口。\n该库支持运行在网关上的应用程序与USB硬件通信，兼容从USB 1.0到3.1（最新版）的所有协议版本。"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_app_integration_usb.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.111881+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "9749985e523960b1edd277309f13c56e735909f0bfcd7228e81cffc3bbb11820"
+  }
+}

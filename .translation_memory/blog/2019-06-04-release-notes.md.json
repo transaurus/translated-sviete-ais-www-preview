@@ -1,0 +1,152 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2019-06-04-release-notes.md",
+  "source_file_content_hash": "d1aa3403322adbf56e7e02368d2551ae281f4108e2ba1019cd90667562169dcf",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Celina AI-Speaker\nauthorURL: https://github.com/sviete\nauthorFBID: 1186570423\ntitle: Wersja systemu 0.93.6  Łatwiejsza nawigacja i konfiguracja\n---",
+      "source_content_hash": "43872615b5576ad8effececaf7a0fcdcbe0fdff022edcb2a7981a9e12a4575b6",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Wersja systemu 0.93.6 z dnia 04 czerwca 2019 roku,",
+      "source_content_hash": "7bee9035abf0de5c00f655fe4a2501724433fdf1efa528d94c23ecd4ebb32f68",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 2019年6月4日发布的系统版本0.93.6"
+      }
+    },
+    {
+      "segment_id": "1cc03ec8",
+      "source_content": "### Ulepszona nawigacja na dotykowych ekranach",
+      "source_content_hash": "98feb6fbdd8dfc45a2f65d9ab4e70b704cbd2d07ebe2d6452c2771fe7f22bf9e",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 触控屏幕导航功能优化"
+      }
+    },
+    {
+      "segment_id": "8d66f911",
+      "source_content": "Na dotykowych ekranach dodano możliwość nawigacji pomiędzy kartami w aplikacji za pomocą przeciągania (swipe).",
+      "source_content_hash": "f23a5d77b74b61f2b96f75317905a9fd379463c37233463b4f4bfcad3bf950d6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在触控屏设备上新增了通过滑动手势（swipe）在应用不同标签页间切换的导航功能。"
+      }
+    },
+    {
+      "segment_id": "899bc9b4",
+      "source_content": "<iframe width=\"560\" height=\"315\"  src=\"https://www.youtube.com/embed/KfmvwHS6Noo\" frameBorder=\"0\" allowFullScreen></iframe>",
+      "source_content_hash": "231c119d279cd7aa755472f2939e4f7adb713966bfacba4df1543b9c64df1d0b",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_899bc9b4"
+      }
+    },
+    {
+      "segment_id": "cc2c29e1",
+      "source_content": "<!--truncate-->",
+      "source_content_hash": "f5cded2aa7e288e395fe4f67f9dabda2281904b2f5358d07302b3aa8be0acdfa",
+      "node_type": "comment",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_cc2c29e1"
+      }
+    },
+    {
+      "segment_id": "aee0e40d",
+      "source_content": "### Prosta konfiguracja - start!",
+      "source_content_hash": "4c883699e975f6905560d136f660e549f5426abe47f66e48a2013ef1c763a392",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 简易配置向导启动"
+      }
+    },
+    {
+      "segment_id": "f5f6d2ce",
+      "source_content": "Przy pierwszym uruchomieniu \"Asystenta domowego\" wykonujemy początkową prostą konfigurację. Pierwszym krokiem konfiguracji jest utworzenie konta właściciela - to konto będzie miało uprawniania administratora z pełnym dostępem do wszystkich elementów systemu i możliwością dodawania innych kont. Następny krok, który można wykonać przy pierwszym uruchomieniu (lub zrobić to później w konfiguracji), to dodanie urządzeń i usług, które są reprezentowane w \"Asystencie domowym\" jako integrację.\n Ta funkcjonalność będzie rozwijana - w kolejnej wersji dodamy możliwość wybrania lokalizacji na mapie, strefy czasowej oraz innych podstawowych ustawień systemu. Docelowo chcemy umożliwić konfigurację wszystkich komponentów z poziomu interfejsu w aplikacji, bez potrzeby edycji parametrów w plikach.",
+      "source_content_hash": "7723c20671cc06f33e6ca27d34c5bf8f227a4232ca1df84b47211f7d00bd0095",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "首次启动\"家庭助理\"时，系统会引导完成基础配置流程。第一步是创建管理员账户——该账户拥有系统所有功能的完全访问权限，并可添加其他用户账户。在初始化阶段（或后续在配置中完成），可添加设备和需要集成的服务。该功能将持续完善——下个版本将新增地图定位选择、时区设置等系统基础配置功能。最终目标是实现所有组件均可通过应用界面配置，无需手动编辑参数文件。"
+      }
+    },
+    {
+      "segment_id": "42e34e45",
+      "source_content": "<iframe width=\"560\" height=\"315\"  src=\"https://www.youtube.com/embed/CiysJlfZK70\" frameBorder=\"0\" allowFullScreen></iframe>",
+      "source_content_hash": "eaa1b333904d7e9c17040a9a6ca8323192c9ea7108688b3cee1db48d63cef2ac",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_42e34e45"
+      }
+    },
+    {
+      "segment_id": "fa430ad4",
+      "source_content": "### Łatwiejszy pełny reset aplikacji",
+      "source_content_hash": "319d044e21063227d6f15d67488dbe1da9463a1ef556aa4c6146d398300ff5dd",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 更便捷的完整重置功能"
+      }
+    },
+    {
+      "segment_id": "4b1d2d7d",
+      "source_content": "W wersji deweloperskiej zachęcamy do eksperymentowania z bramką - dodawanie dowolnych urządzeń, zmiana ustawień, konfigurowanie interfejsu, itd. Gdyby efekty własnych eksperymentów i zmian nie były zadowalające ;) to od teraz można już w wygodny i szybki sposób wykonać pełny reset \"Asystenta domowego\" do domyślnej wersji, z poziomu aplikacji (bez potrzeby uruchamiania konsoli i wykonywania poleceń).",
+      "source_content_hash": "3f6474841f81e0df5bd2282f736e3c7f09e18f8d9120cb7389332641d34405cc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在开发版中，我们鼓励用户充分实验网关功能——自由添加设备、调整设置、配置界面等。若实验效果不尽如人意，现在可通过应用界面便捷地执行完整重置操作（无需启动控制台输入命令），将\"家庭助理\"恢复至默认版本。"
+      }
+    },
+    {
+      "segment_id": "99d14dfd",
+      "source_content": "<iframe width=\"560\" height=\"315\"  src=\"https://www.youtube.com/embed/3FO9hBl1V90\" frameBorder=\"0\" allowFullScreen></iframe>",
+      "source_content_hash": "55acac6b48907876ec4a6c860ca56d8b1ade7d79eb052cdb5668c4ab95bef4ac",
+      "node_type": "mdxJsxFlowElement",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_99d14dfd"
+      }
+    },
+    {
+      "segment_id": "109ace10",
+      "source_content": "### Pozostałe istotne zmiany",
+      "source_content_hash": "d9fdc1d919787ef9b45ab06c1b00ed50caa14ddcfaf0962bf21c363ba7f902f7",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 其他重要更新"
+      }
+    },
+    {
+      "segment_id": "157151e9",
+      "source_content": "- Odpowiedzi głosowe zwracane są w przeglądarkach obsługujących syntezę mowy oraz w aplikacji mobilnej (kliencie). Zarówno w sieci lokalnej i podczas połączenia przez Internet.\n- Dodatkowe opcje i informacje dotyczące wybranej pozycji dostępne za pomocą pilota. Np. informacja o odtwarzanej treści audio po naciśnięciu strzałki w górę podczas odtwarzania.\n- Odtwarzanie nie tylko utworów ale też albumów, kanałów artystów i playlist ze Spotify.\n- Możliwość wyłączenia/włączenia odtwarzania losowego ze Spotify.\n- Nowe, uproszczone menu w aplikacji mobilnej (kliencie) i aplikacji na bramce (serwerze)\n- Usuwamy domyślnie włączoną usługę dostępu do bramki w sieci lokalnej po https.\n- Najnowszy Home Assistant.\n<a href=\"https://www.home-assistant.io/blog/2019/05/16/release-93/\" target=\"_blank\">0.93</a>",
+      "source_content_hash": "a3f39b5af5894d6988b3bcc5ced6673951985a1125380d4d1a6f396b74cd9663",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 语音反馈现支持支持语音合成的浏览器及移动客户端，无论本地网络或远程连接均可使用\n- 通过遥控器可获取选中项目的扩展信息（如播放音频内容时按上方向键显示当前播放内容详情）\n- 支持Spotify专辑、艺术家频道及播放列表的完整播放\n- 新增Spotify随机播放开关功能\n- 移动客户端及网关端应用采用简化新菜单\n- 默认关闭本地网络的HTTPS网关访问服务\n- 集成最新版Home Assistant\n<a href=\"https://www.home-assistant.io/blog/2019/05/16/release-93/\" target=\"_blank\">0.93</a>"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2019-06-04-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.134044+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "d1aa3403322adbf56e7e02368d2551ae281f4108e2ba1019cd90667562169dcf"
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_app_ai_integration_nbp.md",
+  "source_file_content_hash": "732ea0e27fb71f6c1d738c9ae33f1bc5c7bb55b2923a10279764bbfe0ef5d310",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"AIS Narodowy Bank Polski\"\nsidebar_label: AIS NBP\n---",
+      "source_content_hash": "551b36a59e7a5e0ae0843ca3fe51d258f6b4b571a67bd4918f80d7d04e39a162",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Wprowadzenie",
+      "source_content_hash": "138964b3f05ef631ae55efd030ca96538eb5d783961ef7b978515da6c937d13f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 简介"
+      }
+    },
+    {
+      "segment_id": "3fbbcc07",
+      "source_content": "AIS NBP jest to integracja Asystenta domowego z serwisem api.nbp.pl, który umożliwia pobieranie kursów walut oraz cen złota z Narodowego Banku Polskiego.",
+      "source_content_hash": "5f10268358aec0e0644309dd666c2e07ba55c63c767a60f3bc226ebc75afd13c",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "AIS NBP 是家庭助手与 api.nbp.pl 服务的集成，该服务支持从波兰国家银行获取货币汇率和黄金价格数据。"
+      }
+    },
+    {
+      "segment_id": "8ac585fb",
+      "source_content": "![AIS NBP](/img/en/frontend/ais_nbp1.png)",
+      "source_content_hash": "7a18cb9033bd0d9cb1572133d4c8902f4d137a142b347604a1b10afbc633d631",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS NBP](/img/en/frontend/ais_nbp1.png)"
+      }
+    },
+    {
+      "segment_id": "70153c6e",
+      "source_content": "## Dodanie integracji",
+      "source_content_hash": "49090883ca3f5532af2debe42ef1a75ee7d7c82b03dd73bcffddf615cb65799c",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 添加集成"
+      }
+    },
+    {
+      "segment_id": "86b54d44",
+      "source_content": "Aby skonfigurować AIS NBP, przejdź do konfiguracji a następnie do panelu integracji. Naciśnij pomarańczowy przycisk z ikonką \"plus\" w prawym dolnym rogu ekranu, żeby otworzyć listę dostępnych integracji. Wybierz z listy integrację **AIS NBP**",
+      "source_content_hash": "54280090212014f9b79152667ab90ed648e6d5d0c7c8b9a21db7eb0a0a9c1167",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "要配置 AIS NBP，请进入配置界面后选择集成面板。点击右下角带有\"加号\"图标的橙色按钮打开可用集成列表，从中选择 **AIS NBP** 集成。"
+      }
+    },
+    {
+      "segment_id": "39b3772c",
+      "source_content": "![Konfiguracja AIS NBP](/img/en/frontend/ais_nbp2.png)",
+      "source_content_hash": "bd86ae39642f769d5f6d5f948fdcd6965d234e1186b98e20167196c13ecb81c4",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS NBP配置](/img/en/frontend/ais_nbp2.png)"
+      }
+    },
+    {
+      "segment_id": "f5f6d2ce",
+      "source_content": "Potwierdź, że chcesz dodać integrację:",
+      "source_content_hash": "d0f559c7cbe2dc1f9ca9e615361510023da7838c260d39de00b46ec2384134ca",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "确认添加集成："
+      }
+    },
+    {
+      "segment_id": "2fdadb08",
+      "source_content": "![Konfiguracja AIS NBP](/img/en/frontend/ais_nbp3.png)",
+      "source_content_hash": "7f201ca57f475915215bccc2b8ce7de7c83bc8153b7af43072eca55c8f26d586",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS NBP配置](/img/en/frontend/ais_nbp3.png)"
+      }
+    },
+    {
+      "segment_id": "ccc88b4c",
+      "source_content": "Wybierz, jakie waluty chcesz obserwować i naciśnij **ZATWIERDŹ**:",
+      "source_content_hash": "02da9e6bd9751e7e6b7254b4010ec86758c86edd8d160885ceaf9f9bb01f8a1f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "选择需要跟踪的货币后点击**确认**："
+      }
+    },
+    {
+      "segment_id": "d9172fa4",
+      "source_content": "![Konfiguracja AIS NBP](/img/en/frontend/ais_nbp4.png)",
+      "source_content_hash": "5311753f38d6e112c8b0d8d51ba5a3a5582bd46e7e67e8d1bfeafad92ef235ad",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS NBP配置](/img/en/frontend/ais_nbp4.png)"
+      }
+    },
+    {
+      "segment_id": "48847fd4",
+      "source_content": "## Encje integracji",
+      "source_content_hash": "50207e98f24ec159c191d85bc43a448c73ab8c81912cda01f0ba366521169f8c",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 集成实体"
+      }
+    },
+    {
+      "segment_id": "4daf5cdd",
+      "source_content": "Integracja dodaje kilka sensorów (w zależności od ilości wybranych walut do śledzenia), sensory są automatycznie i cyklicznie odświeżane tak, żeby ich wartość reprezentowała aktualne kursy w NBP.",
+      "source_content_hash": "432e4fbc14cc389ac9e3e94e39d19325ddce7ceb46b1e91db5d3e0cfb5749956",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该集成会添加多个传感器（数量取决于选择的跟踪货币数量），这些传感器会自动定期更新以反映NBP的最新汇率。"
+      }
+    },
+    {
+      "segment_id": "bdc231b1",
+      "source_content": "![Konfiguracja AIS NBP](/img/en/frontend/ais_nbp5.png)",
+      "source_content_hash": "d147e99e95d7be5659cb503de600c244f944d68de9daada50489f90e74160338",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS NBP配置](/img/en/frontend/ais_nbp5.png)"
+      }
+    },
+    {
+      "segment_id": "97ae4a01",
+      "source_content": "Encje mogą być dodane do interfejsu, w ten sposób można prezentować ich status w wybrany sposób.",
+      "source_content_hash": "96934fda103860d10298c42f3afd55bca7293cf0484ae6872a5a8c2a830f8ede",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "实体可被添加到界面中，从而以自定义方式展示其状态。"
+      }
+    },
+    {
+      "segment_id": "62a6890b",
+      "source_content": "## Komendy głosowe",
+      "source_content_hash": "59f2ab64a39ff415dbe5270c5d7a193cbb612dd1f3d29d8b19fee6e8dfb2ce88",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 语音指令"
+      }
+    },
+    {
+      "segment_id": "3cfe6286",
+      "source_content": "O status encji NBP pytamy tak samo, jak o status każdej innej encji w systemie:",
+      "source_content_hash": "e89a5bcd2e302ec1e07c10e7d9b4447c14a5caacc6c8c2b18545c54df6a2e4d7",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "查询NBP实体状态的语音指令与系统其他实体相同："
+      }
+    },
+    {
+      "segment_id": "1042b50d",
+      "source_content": "![Konfiguracja AIS NBP](/img/en/frontend/ais_nbp6.png)",
+      "source_content_hash": "2ade7e3080352b4b1161962d8bf14d8732e730fc9649a1f0f49b671d689b82a1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS NBP配置](/img/en/frontend/ais_nbp6.png)"
+      }
+    },
+    {
+      "segment_id": "8bddee80",
+      "source_content": "## Automatyzacje",
+      "source_content_hash": "9d61f1d36adc8328fcc97d4e6c8ce1ae0ff534fe3a7f545d5bdceeaa7d41c387",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 自动化"
+      }
+    },
+    {
+      "segment_id": "a9d49f92",
+      "source_content": "Możemy też dodać odpowiednią automatyzację, której wyzwalaczem będzie stan sensora nbp.\nNp. gdy cena złota lub kurs wybranej waluty osiągnie pożądany przez nas poziom, dostaniemy powiadomienie, że to dobry czas na wykonanie transakcji.",
+      "source_content_hash": "46de0eff3207c582ea62ef762f6978dd4dd93bd69a947b117fc49d3e345c12d2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们还可以创建以NBP传感器状态为触发条件的自动化规则。例如当黄金价格或特定货币汇率达到预期水平时，系统将发送交易时机提醒通知。"
+      }
+    },
+    {
+      "segment_id": "c504c207",
+      "source_content": "![Konfiguracja AIS NBP](/img/en/frontend/ais_nbp7.png)",
+      "source_content_hash": "36de712bbd698852aba36849517451eb7d6a9e03f17f56227f5f2b8efa6a6c61",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS NBP配置](/img/en/frontend/ais_nbp7.png)"
+      }
+    },
+    {
+      "segment_id": "60410af6",
+      "source_content": "## Usunięcie integracji",
+      "source_content_hash": "0f1f5739a0d211b578865290c9278c8b8c4d244c81c48435063c99fe4a267364",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 删除集成"
+      }
+    },
+    {
+      "segment_id": "b9aaa519",
+      "source_content": "Integracje usuwamy przechodząc do konfiguracji a następnie do panelu integracji i wybierając opcję usuń:",
+      "source_content_hash": "ff75d3fe931069fb7f3186dd4574582bdc05e674a7d4e277f536e1c3bc3b369f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "删除集成需进入配置界面的集成面板，选择删除选项："
+      }
+    },
+    {
+      "segment_id": "e536ea0d",
+      "source_content": "![Konfiguracja AIS NBP](/img/en/frontend/ais_nbp8.png)",
+      "source_content_hash": "662463711bf7809bc366a92d4dfa17a3fdc81c5cad1f5a9d7f5fcd6ae937d52e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS NBP配置](/img/en/frontend/ais_nbp8.png)"
+      }
+    },
+    {
+      "segment_id": "e912d935",
+      "source_content": "## Dodatkowa informacja",
+      "source_content_hash": "0845527b7e1b3704803b5585cd18615cec4251fe49ff43b63fc433e0a64ce862",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 补充信息"
+      }
+    },
+    {
+      "segment_id": "8b2a52b1",
+      "source_content": "Integracja AIS NBP powstała na [forum Asystenta domowego](https://ai-speaker.discourse.group/t/wlasna-integracja-7-przyklad-nowej-integracji/1029) jako przykład/szablon opisujący dodawanie własnej, nowej integracji do Asystenta domowego.",
+      "source_content_hash": "1c07288961c495b75353477c5d8df6971e5f30da7e8b51504a2253a253f6ece0",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "AIS NBP集成最初作为模板案例发布于[家庭助手论坛](https://ai-speaker.discourse.group/t/wlasna-integracja-7-przyklad-nowej-integracji/1029)，用于演示如何为家庭助手开发新集成。"
+      }
+    },
+    {
+      "segment_id": "5dae11e3",
+      "source_content": "![Konfiguracja AIS NBP](/img/en/frontend/ais_nbp9.png)",
+      "source_content_hash": "83f97e51805256f09131956eadac51bba3296174a1f730ce9a07b9062cee26cc",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![AIS NBP配置](/img/en/frontend/ais_nbp9.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_app_ai_integration_nbp.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.147626+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "732ea0e27fb71f6c1d738c9ae33f1bc5c7bb55b2923a10279764bbfe0ef5d310"
+  }
+}

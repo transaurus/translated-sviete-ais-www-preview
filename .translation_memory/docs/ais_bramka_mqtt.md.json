@@ -1,0 +1,422 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_mqtt.md",
+  "source_file_content_hash": "358ea021d12d6d32545e9b1d6fde650587ff6ee3158cc9305235f872ba8b139a",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Broker MQTT działający na bramce\"\nsidebar_label: MQTT\n---",
+      "source_content_hash": "acb3d7c9c69232d58901927bb7831da430a8f626b5615bdc63e255a645d97c89",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "bb42506b",
+      "source_content": "Asystent domowy ma wbudowany broker MQTT.\nUżywamy najbardziej popularny obecnie broker [Mosquitto](https://mosquitto.org/), który na bramce działa jako proces nadzorowany przez menedżera procesów [PM2](http://pm2.keymetrics.io/).\nMosquitto obsługuje wszystkie wersje protokołu MQTT (unormowane przez OASIS i ratyfikowane przez ISO) w tym najnowszą wersję. [Protokół MQTT](https://pl.wikipedia.org/wiki/MQTT) idealnie sprawdza się przy połączeniach maszyna-maszyna, w internecie rzeczy (IoT), w urządzeniach mobilnych, oraz tam, gdzie wymagana jest oszczędność przepustowości, oraz energii dlatego zostało on wybrany jako podstawowy protokół do komunikacji urządzeń z naszą bramką IoT.",
+      "source_content_hash": "1ce615f5b1bbedca9a02ed7e37b96b3925e24b2d0180bafc8c7d0b06aae0fdac",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "家庭助理系统内置了MQTT代理服务器。我们选用当前最流行的[Mosquitto](https://mosquitto.org/)作为代理，该服务在网关上由进程管理器[PM2](http://pm2.keymetrics.io/)监管运行。Mosquitto支持所有版本的MQTT协议（经OASIS标准化并由ISO批准），包括最新版本。[MQTT协议](https://pl.wikipedia.org/wiki/MQTT)特别适用于机器对机器通信、物联网(IoT)、移动设备等需要节省带宽和能耗的场景，因此被选作设备与物联网网关通信的核心协议。"
+      }
+    },
+    {
+      "segment_id": "8a5f6a7b",
+      "source_content": "## Adres brokera MQTT",
+      "source_content_hash": "152b6e8ee63ca1f315a243762b96d75107c3db095ff82713cccec117f080ee62",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## MQTT代理地址"
+      }
+    },
+    {
+      "segment_id": "180bddb1",
+      "source_content": "Broker MQTT działa na standardowym porcie 1883 (zarezerwowany w [IANA](https://www.iana.org/)). Ponieważ działamy w lokalnej sieci nie wymagamy autentykacji urządzeń.",
+      "source_content_hash": "9d2cc43cb297d16b509a9822aec74725fb1274136c11f90a2646ecccb2673c38",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "MQTT代理运行在标准端口1883（由[IANA](https://www.iana.org/)保留）。由于在局域网内运行，我们不对设备进行强制认证。"
+      }
+    },
+    {
+      "segment_id": "cbe57f9d",
+      "source_content": "## Wykrywanie urządzenia MQTT w systemie Asystent domowy",
+      "source_content_hash": "0626b8cc942c0180ea41999ee39929729392aad0888d5c400600062aeb26ba42",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 家庭助理系统中的MQTT设备发现"
+      }
+    },
+    {
+      "segment_id": "39b3772c",
+      "source_content": "Bramka po uruchomieniu publikuje do urządzeń (zapisanych w brokerze MQTT do grupy **dom**) komendę dom/cmnd/**SetOption19** 1 która oznacza, że chcemy by urządzenie było automatycznie wykrywane przez Asystenta domowego.",
+      "source_content_hash": "685fc53286d58619510906f51a972b5e96e5ea7617728e02ed768107ac375d25",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "网关启动时会向MQTT代理中注册的**dom**组设备发布指令dom/cmnd/**SetOption19** 1，表示要求设备被家庭助理系统自动发现。"
+      }
+    },
+    {
+      "segment_id": "1acb9a05",
+      "source_content": "Następnie dochodzi do dodania urządzenia do systemu wg następujących trzech kroków.",
+      "source_content_hash": "bb21dc76dac50ff5466aeb91ebebaef27c9cc99df93c13341cbecf951d3c55c2",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "随后设备添加流程按以下三个步骤完成。"
+      }
+    },
+    {
+      "segment_id": "2df4f75f",
+      "source_content": "![komunikacja MQTT](/img/en/bramka/gate_mqtt_1.png)",
+      "source_content_hash": "3bd41ccedfeb619f6cb1bb37d61ec0d7de11ead0fc0585924c7eb14eff0a923f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![MQTT通信流程](/img/en/bramka/gate_mqtt_1.png)"
+      }
+    },
+    {
+      "segment_id": "ed7dde9c",
+      "source_content": "### Wysłanie komunikatu konfiguracja",
+      "source_content_hash": "edb73b9dd3a83867207c7ae98f485a1be09ad385a923c9d313e3d0fd2b8d9f34",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 发送配置信息"
+      }
+    },
+    {
+      "segment_id": "a76548f8",
+      "source_content": "Urządzenie publikuje wiadomość o temacie **homeassistant/#** do brokera MQTT, treścią wiadomości jest komunikat z opisaniem konfiguracji urządzenia",
+      "source_content_hash": "7a98ae8f771442682e5494091a4e422c68b1dfe713a1ee1d8a12f5a7699ddd9d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "设备向MQTT代理发布主题为**homeassistant/#**的消息，消息内容包含设备配置描述"
+      }
+    },
+    {
+      "segment_id": "0c911872",
+      "source_content": "```json\n{  \n   \"name\":\"Gniazdo\",\n   \"command_topic\":\"cmnd/dom_4BA155/POWER\",\n   \"state_topic\":\"stat/dom_4BA155/RESULT\",\n   \"payload_off\":\"OFF\",\n   \"payload_on\":\"ON\"\n}\n```",
+      "source_content_hash": "2f6e8e9d1de6fb68f249efa109d66e7b2e9678951084b0ac09f0921b9b7c29fa",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_0c911872"
+      }
+    },
+    {
+      "segment_id": "33331f27",
+      "source_content": "![komunikacja MQTT](/img/en/bramka/gate_mqtt_2.png)",
+      "source_content_hash": "655d7abfc747bb73fa46ae3a48099f03980b272a57ca377a45054a30463d3b7f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![MQTT通信流程](/img/en/bramka/gate_mqtt_2.png)"
+      }
+    },
+    {
+      "segment_id": "54268405",
+      "source_content": "### Odebranie komunikatu konfiguracja",
+      "source_content_hash": "daa27d3a5b96951b35111770f9a0b046befff1dc81f4df5415e819aa8fe52dfa",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 接收配置信息"
+      }
+    },
+    {
+      "segment_id": "8af76f3d",
+      "source_content": "System Asystent domowy subskrybuje temat **homeassistant/#** i otrzymuje z brokera MQTT wiadomość przesłaną przez urządzenie",
+      "source_content_hash": "62354498f380e58282c5afbb60de7e3c931b77afdf80ec2cedf7352a72d79c6d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "家庭助理系统订阅**homeassistant/#**主题，从MQTT代理接收设备发送的配置消息"
+      }
+    },
+    {
+      "segment_id": "a9d49f92",
+      "source_content": "![komunikacja MQTT](/img/en/bramka/gate_mqtt_3.png)",
+      "source_content_hash": "466168f8b7122f80818ec1105fde1625af4953fc79e998ce2f19171dcfaea1b8",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![MQTT通信流程](/img/en/bramka/gate_mqtt_3.png)"
+      }
+    },
+    {
+      "segment_id": "11c76fcc",
+      "source_content": "### Dodanie urządzenia do systemu Asystent domowy",
+      "source_content_hash": "9896de580318d7755f2ef68f1a9432188fe8d1c5bb3b0b991cb0cc43164855df",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 将设备添加至家庭助理系统"
+      }
+    },
+    {
+      "segment_id": "98d26038",
+      "source_content": "System Asystent domowy dodaje urządzenia do panelu aplikacji po otrzymaniu wiadomości konfiguracyjnej",
+      "source_content_hash": "824666ac6420d638f62a42b68af9f4abde4c81688a0e858283233277e033e522",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "家庭助理系统在收到配置消息后，会将设备添加至应用面板"
+      }
+    },
+    {
+      "segment_id": "d3649a1e",
+      "source_content": "![komunikacja MQTT](/img/en/bramka/gate_mqtt_4.png)",
+      "source_content_hash": "59af258b6b31e3e9416111615cabb87c7d5830a10703b9c8e6c7dfdbcdb54c02",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![MQTT通信流程](/img/en/bramka/gate_mqtt_4.png)"
+      }
+    },
+    {
+      "segment_id": "1a316f80",
+      "source_content": "## Komunikacja bramki z urządzeniem",
+      "source_content_hash": "bcff412fc14bf8f6956a73815561e4d7776776ed1032004230f3a1c55b8ec979",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 网关与设备通信"
+      }
+    },
+    {
+      "segment_id": "40158b4b",
+      "source_content": "Komunikacja bramki z urządzeniem polega na wysyłaniu odpowiednich wiadomości na odpowiednie kanały subskrybowane przez urządzenie i bramkę.",
+      "source_content_hash": "b6a39a5e545561e52f8af21e7a8e39b7a746bf60e3511e2373759cd43e1ad5e9",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "网关与设备的通信通过向特定主题发送消息实现，这些主题由设备和网关共同订阅。"
+      }
+    },
+    {
+      "segment_id": "6ea4c715",
+      "source_content": "![komunikacja MQTT](/img/en/bramka/gate_mqtt_5.png)",
+      "source_content_hash": "891bf4c2298be5ba026dc7532d27be695ea42ff6d0dd4a60362feb75df789c9b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![MQTT通信流程](/img/en/bramka/gate_mqtt_5.png)"
+      }
+    },
+    {
+      "segment_id": "126950d7",
+      "source_content": "### Subskrybcja tematów przez urządzenie",
+      "source_content_hash": "cb71b82bc0f4d25fbc2a1c45ac0362958c08197a8eb1b6715e1e8f1083d827c5",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 设备订阅主题"
+      }
+    },
+    {
+      "segment_id": "0bb95128",
+      "source_content": "Urządzenie subskrybuje 3 tematy:",
+      "source_content_hash": "21e63d4b19931e80bbac96d1d1f4158a41b2b40b8b78d4be7f5a646a7ceea80e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "设备订阅以下3个主题："
+      }
+    },
+    {
+      "segment_id": "29ad5b0e",
+      "source_content": "```yaml\n  cmnd/dom_%06X/#\n  cmnd/DOM_%06X/#\n  cmnd/dom/#\n```",
+      "source_content_hash": "ece33ae67d772c490fb96c1c9a3cf6e6251a34b2689824ecb9fb125a166e07b9",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_29ad5b0e"
+      }
+    },
+    {
+      "segment_id": "f01228d3",
+      "source_content": "![komunikacja MQTT](/img/en/bramka/gate_mqtt_7.png)",
+      "source_content_hash": "1363e42fcc3db088bfa27fc8045019dbad087c6927ac80deb587603ff6175cb1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![MQTT通信流程](/img/en/bramka/gate_mqtt_7.png)"
+      }
+    },
+    {
+      "segment_id": "93028a4e",
+      "source_content": "### Subskrybcja tematów przez Asystenta domowego",
+      "source_content_hash": "f64de8cd80f95709e29cf7864718ce56d802489e00b67df417ecfe7e9c68ec9b",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 家庭助手订阅的主题"
+      }
+    },
+    {
+      "segment_id": "e8e162a9",
+      "source_content": "System Asystent domowy subskrybuje temat **stat/dom_%06X/+**",
+      "source_content_hash": "2e437a389ed98a3fe2492015a69e97065ead341fab8def3ee8ba1d098e9d1d56",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "家庭助手系统订阅主题 **stat/dom_%06X/+**"
+      }
+    },
+    {
+      "segment_id": "463ed165",
+      "source_content": "![komunikacja MQTT](/img/en/bramka/gate_mqtt_8.png)",
+      "source_content_hash": "c03425eb1fb2fd458b794e8ddba5f992008f6bf9ad2ec50cc40e78194ef319fb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![MQTT通信](/img/en/bramka/gate_mqtt_8.png)"
+      }
+    },
+    {
+      "segment_id": "a4bf4268",
+      "source_content": "## Komunikacja Asystenta z urządzeniem",
+      "source_content_hash": "215566b0caace57c01d2f793e79e4fc448d0a286d9c5303ac0c7283b7d9bda7c",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 家庭助手与设备的通信"
+      }
+    },
+    {
+      "segment_id": "ec619944",
+      "source_content": "Komunikacja z urządzeniem przebiega wg następującego schematu:",
+      "source_content_hash": "95b31c634e51fdf829febf897cc0fa5d47c21e7189d306603e052e26f9f3c62d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "与设备的通信遵循以下流程："
+      }
+    },
+    {
+      "segment_id": "2547a6bb",
+      "source_content": "![komunikacja MQTT](/img/en/bramka/gate_mqtt_9.png)",
+      "source_content_hash": "b9b87f0f45de57d43aab39d682d83b0fcb2d42341c9f4438085c6c9729f1c82a",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![MQTT通信](/img/en/bramka/gate_mqtt_9.png)"
+      }
+    },
+    {
+      "segment_id": "90d35b51",
+      "source_content": "### Publikacja komendy z bramki do urządzenia",
+      "source_content_hash": "bfc5c94316463f1ea656aa0f35b195cdf13ff7cef0aba566b7c029a136724404",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 从网关向设备发布命令"
+      }
+    },
+    {
+      "segment_id": "86348f98",
+      "source_content": "![komunikacja MQTT](/img/en/bramka/gate_mqtt_10.png)",
+      "source_content_hash": "ebcd4fff350c200f3729bbb95e49651f4aef0c5eef60578447c18aac71594937",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![MQTT通信](/img/en/bramka/gate_mqtt_10.png)"
+      }
+    },
+    {
+      "segment_id": "f6b04a59",
+      "source_content": "### Otrzymanie komendy ma urządzeniu",
+      "source_content_hash": "092554a46042d8e496aa91ee04b1555a9d12f3e4b494287ab2d7e2d71e759930",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 设备接收命令"
+      }
+    },
+    {
+      "segment_id": "a311e967",
+      "source_content": "![komunikacja MQTT](/img/en/bramka/gate_mqtt_11.png)",
+      "source_content_hash": "cbe3dc10a404ea914ddc2d3507ca4d7dcb3f2060225bb495c9f05df15ef09f8e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![MQTT通信](/img/en/bramka/gate_mqtt_11.png)"
+      }
+    },
+    {
+      "segment_id": "f8edb6d2",
+      "source_content": "### Potwierdzenie wykonania",
+      "source_content_hash": "72efab306505381be607047b40d072855f17ddac99d59cfabb3d7d60167bc83c",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 执行确认"
+      }
+    },
+    {
+      "segment_id": "1862c5fe",
+      "source_content": "Urządzenie po wykonaniu komendy publikuje wiadomość o swoim statusie.",
+      "source_content_hash": "53a8fbd008f221e3a4021fde0c4b038441d1372cd265c9fd21d0f5038263dc54",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "设备执行命令后会发布状态消息。"
+      }
+    },
+    {
+      "segment_id": "6ca4479f",
+      "source_content": "![komunikacja MQTT](/img/en/bramka/gate_mqtt_12.png)",
+      "source_content_hash": "b34e0a686309fa813cc074721c3147ac972f3052912e5f619047004cc6d39cbb",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![MQTT通信](/img/en/bramka/gate_mqtt_12.png)"
+      }
+    },
+    {
+      "segment_id": "71169a2d",
+      "source_content": "### Zmiana stanu urządzenia w systemie Asystent domowy",
+      "source_content_hash": "bec3dd056fb62141e217c9d48ff36f6f32257e9264335d250887bb18fdd8e83e",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 家庭助手系统中设备状态的变更"
+      }
+    },
+    {
+      "segment_id": "c1eaf30b",
+      "source_content": "System otrzymuje wiadomość o statusie z urządzenia i zmienia jego stan co natychmiast ma odzwierciedlenie w aplikacji:",
+      "source_content_hash": "fa830cd4fe0ad3f66f2906d283d2987706ae91a9b689855897b45d1dbb446172",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "系统接收到设备的状态消息后立即更新其状态，并在应用程序中实时反映："
+      }
+    },
+    {
+      "segment_id": "f0984c2a",
+      "source_content": "![komunikacja MQTT](/img/en/bramka/gate_mqtt_13.png)",
+      "source_content_hash": "5ad579680ea54f34d5d9d4a4fca70525a4519bdeac7863ec63d543a431513e5f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![MQTT通信](/img/en/bramka/gate_mqtt_13.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_mqtt.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.121481+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "358ea021d12d6d32545e9b1d6fde650587ff6ee3158cc9305235f872ba8b139a"
+  }
+}

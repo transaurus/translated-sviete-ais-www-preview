@@ -1,0 +1,172 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_app_integration_terminal.md",
+  "source_file_content_hash": "ad91b8a9aa9bb5eaaa4e9e9976a0d24f6275fa19586d7cacdeffff6aaa25e3cc",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Terminal web\"\nsidebar_label: Terminal web\n---",
+      "source_content_hash": "f936bc891874f1c7a703a211af495ee3c99b82a5b91cbba67e9b6ada53d63eeb",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "b3de8742",
+      "source_content": "## Wprowadzenie",
+      "source_content_hash": "138964b3f05ef631ae55efd030ca96538eb5d783961ef7b978515da6c937d13f",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 简介"
+      }
+    },
+    {
+      "segment_id": "53eaf0e1",
+      "source_content": "Na bramce dostarczamy narzędzie wiersza poleceń w formie aplikacji webowej. Umożliwia to łatwy dostęp do terminala bramki bez potrzeby łączenia się z bramką po SSH.",
+      "source_content_hash": "4ee8af85adb32ff2e8ffa6bfaf6c94b744708ba7ec9a3d0f39a3512ec437a4a5",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "我们在网关上提供基于Web应用程序的命令行工具，无需通过SSH连接网关即可便捷访问网关终端。"
+      }
+    },
+    {
+      "segment_id": "180bddb1",
+      "source_content": "![WEB console](/img/en/bramka/web_console.png)",
+      "source_content_hash": "2042566eb14b006e504316befc721bd257981b59d661a80e7ef37d7dc6a0573d",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![WEB控制台](/img/en/bramka/web_console.png)"
+      }
+    },
+    {
+      "segment_id": "b9c8c0b9",
+      "source_content": "-----------------------------------------------------",
+      "source_content_hash": "4b2565bde18586a3df94f1a47659f4632cd797b455b5dc416ee2a6886aef3fa9",
+      "node_type": "thematicBreak",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "-----------------------------------------------------"
+      }
+    },
+    {
+      "segment_id": "d350c018",
+      "source_content": "## Informacje techniczne",
+      "source_content_hash": "3dfe84774725c9ca724b9d3eab0440e4139e6b15e87494c029c9dae93ac448e7",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 技术信息"
+      }
+    },
+    {
+      "segment_id": "bc633244",
+      "source_content": "### Proces webssh",
+      "source_content_hash": "d6703292e9fdf71b14832530a3aea16ea4451b7c022586bb4e73f918f926e654",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### WebSSH进程"
+      }
+    },
+    {
+      "segment_id": "2df4f75f",
+      "source_content": "Procesami na bramce steruje [Menedżer procesów PM2](http://pm2.keymetrics.io/).\nPM2 odpowiedzialny jest też za uruchomienie udostępniania terminala bramki w aplikacji webowej (uruchomienie procesu webssh) po starcie systemu, a następnie czuwa nad jego ciągłym działaniem.",
+      "source_content_hash": "06d8ff68fb12f66c8f4ba931f060907e0918598b7787c50e121d90705f504fed",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "网关进程由[PM2进程管理器](http://pm2.keymetrics.io/)控制。PM2负责在系统启动时运行网关终端的Web应用程序（启动webssh进程），并确保其持续运行。"
+      }
+    },
+    {
+      "segment_id": "f2c2bdd0",
+      "source_content": "Żeby zobaczyć status procesu webssh w konsoli wpisujemy:",
+      "source_content_hash": "af1a7063babf0904a637dbaa74799e8096b3aa290ae309f2635eacfd22685486",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "查看webssh进程状态需在控制台输入："
+      }
+    },
+    {
+      "segment_id": "08021a08",
+      "source_content": "```\npm2 show webssh\n```",
+      "source_content_hash": "f287ab4a21cdecd654b1b69f2864764b62e967994bc3ecac9215b8a79ca1841e",
+      "node_type": "code",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_08021a08"
+      }
+    },
+    {
+      "segment_id": "dfe931a2",
+      "source_content": "![webssh](/img/en/bramka/pm2_webssh.png)",
+      "source_content_hash": "2aa3c6cb5e96e910e104f697d877b7d1aa4224e748c5d05246f1e7eed6c4e369",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![webssh](/img/en/bramka/pm2_webssh.png)"
+      }
+    },
+    {
+      "segment_id": "a1b3d8cb",
+      "source_content": "### Kody programu",
+      "source_content_hash": "32396a9c3707dfce080bffea4d3297c0ef6439a518d2b46f350f19874549c556",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 程序代码"
+      }
+    },
+    {
+      "segment_id": "517051a7",
+      "source_content": "Funkcjonalność konsoli webowej którą dostarczamy na bramce realizowana jest przez [ttyd](https://github.com/tsl0922/ttyd).",
+      "source_content_hash": "e06c75deff357da729bb7d1c8c2759ef41c24592e051fdd21c700d8a4e7f4696",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "网关提供的Web控制台功能通过[ttyd](https://github.com/tsl0922/ttyd)实现。"
+      }
+    },
+    {
+      "segment_id": "62a6890b",
+      "source_content": "### Dostęp tylko lokalny",
+      "source_content_hash": "8515cb926ba1aa70c2d132d1354e58120acb56b2e990c9ade676334fd5433d9d",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "### 仅限本地访问"
+      }
+    },
+    {
+      "segment_id": "3cfe6286",
+      "source_content": "Terminal umożliwia dostęp do konta **root** i pozwala na zrobinie wszystkiego w systmie. Dlatego dostęp do tej aplikacji jest możliwy tylko w sieci lokalnej:",
+      "source_content_hash": "e125763d4add80d19349482e0e115d9d587893133b3532261b6a6f54bdf4615b",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该终端允许访问**root**账户并拥有系统完全控制权限，因此仅限局域网访问："
+      }
+    },
+    {
+      "segment_id": "1042b50d",
+      "source_content": "![MQTT broker](/img/en/bramka/terminal_local_only.png)",
+      "source_content_hash": "1c14e8ca9c67517f4231f81f98aec18158423427bdce514d2bbad71b73887ee6",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![MQTT代理](/img/en/bramka/terminal_local_only.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_app_integration_terminal.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.120165+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "ad91b8a9aa9bb5eaaa4e9e9976a0d24f6275fa19586d7cacdeffff6aaa25e3cc"
+  }
+}

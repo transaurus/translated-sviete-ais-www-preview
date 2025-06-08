@@ -1,0 +1,62 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "docs/ais_bramka_configuration_wifi.md",
+  "source_file_content_hash": "18e6a66be24b78924b378a11677f702c3cb0bcb0424ffcec91a8ec2ce94e7c37",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\ntitle: \"Konfiguracja bramki - WiFi\"\nsidebar_label: WiFi\n---",
+      "source_content_hash": "eb5f777cfd87e03bc69ca245584ff6540894e35e0dadd4dc951513148b6ff3ca",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "6ef78e84",
+      "source_content": "W tej sekcji możesz sprawdzić i dostosować sieciowe parametry bramki, takie jak połączenie z siecią wifi oraz nazwę hosta.",
+      "source_content_hash": "b2c0b9c3f36a0ee5088cb8435caf3d5160d84954c78af256f915c1c7a203e85f",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "在本节中，您可以查看和调整网关的网络参数，例如WiFi连接和主机名。"
+      }
+    },
+    {
+      "segment_id": "53eaf0e1",
+      "source_content": "![Oprogramowanie bramki](/img/en/bramka/config_ais_dom_section2.png)",
+      "source_content_hash": "edf0286dd9eccf51825cc73edf3096103a0a386392b15c872e25272f29142212",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![网关软件](/img/en/bramka/config_ais_dom_section2.png)"
+      }
+    },
+    {
+      "segment_id": "8ac585fb",
+      "source_content": "Po kliknięciu wybranej opcji można zobaczyć szczegóły wybranego elementu i uruchomić kreator ustawień.",
+      "source_content_hash": "fc1bda4dada6633ab8ee08a59e1fb3ae7f2d437f3de2188a102dd1b0f616ebd1",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "点击选定选项后，可查看该项目的详细信息并启动设置向导。"
+      }
+    },
+    {
+      "segment_id": "180bddb1",
+      "source_content": "![Oprogramowanie bramki](/img/en/bramka/config_ais_dom_section2_2.png)",
+      "source_content_hash": "85d50c88f35623243285275d7b9052a1a172e38cc80baf6eeed07923dbdc142e",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "![网关软件](/img/en/bramka/config_ais_dom_section2_2.png)"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-docs/current/ais_bramka_configuration_wifi.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.099786+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "18e6a66be24b78924b378a11677f702c3cb0bcb0424ffcec91a8ec2ce94e7c37"
+  }
+}

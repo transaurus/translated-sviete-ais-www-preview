@@ -1,0 +1,52 @@
+{
+  "source_file_path_relative_to_docusaurus_root": "blog/2018-11-29-release-notes.md",
+  "source_file_content_hash": "8fbf9018bd4f2c0ab6f77b213821a4add8da84ade0335ff98536a12ec8e11842",
+  "segments": [
+    {
+      "segment_id": "58cfcc64",
+      "source_content": "---\nauthor: Andrzej Raczkowski\nauthorURL: https://github.com/sviete\nauthorFBID: 1546384510\ntitle: Wersja systemu 0.82.3  \n---",
+      "source_content_hash": "7f6964f03c17d55cbfcfa1f3c626d268d1c122991813912e066ef8a9e5f88db2",
+      "node_type": "yaml",
+      "translatable": false,
+      "translations": {
+        "zh-CN": "@@untranslatable_placeholder_58cfcc64"
+      }
+    },
+    {
+      "segment_id": "cc3c868d",
+      "source_content": "## Wersja systemu 0.82.3  z dnia 29 listopada 2018 roku,",
+      "source_content_hash": "7bdb4585b7d350c4b22ef7bc03a13a3d7c33efc4a0be6a11c783125508f05a6b",
+      "node_type": "heading",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "## 2018年11月29日发布的系统版本0.82.3"
+      }
+    },
+    {
+      "segment_id": "7e5c5a39",
+      "source_content": "w tej wersji dodano:",
+      "source_content_hash": "3872a90319800ef209dc86e7768257437634efb2d0bd4158297f09cf8d4b1322",
+      "node_type": "paragraph",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "该版本新增功能："
+      }
+    },
+    {
+      "segment_id": "be33979e",
+      "source_content": "- możliwość (włączenia) dostępu do bramki z Internetu\n- uproszczone sterowanie pilotem\n- restart i wyłączenie bramki dostępne z aplikacji\n- sortowanie czujników\n- najnowszy Home Assistant <a href=\"https://www.home-assistant.io/blog/2018/11/09/release-82/\" target=\"_blank\">0.82</a>",
+      "source_content_hash": "131308fe796e04565757e2aff431933d1336cc73c21399ccc27dbfd28ee90baf",
+      "node_type": "list",
+      "translatable": true,
+      "translations": {
+        "zh-CN": "- 支持（启用）从互联网访问网关\n- 简化遥控器操作\n- 通过应用程序实现网关重启与关机功能\n- 传感器排序功能\n- 最新版Home Assistant <a href=\"https://www.home-assistant.io/blog/2018/11/09/release-82/\" target=\"_blank\">0.82</a>"
+      }
+    }
+  ],
+  "target_i18n_subpath": "docusaurus-plugin-content-blog/2018-11-29-release-notes.md",
+  "last_updated_timestamp": "2025-06-08T18:42:08.096065+00:00",
+  "schema_version": "1.0",
+  "translated_versions": {
+    "zh-CN": "8fbf9018bd4f2c0ab6f77b213821a4add8da84ade0335ff98536a12ec8e11842"
+  }
+}
