@@ -1,0 +1,630 @@
+{
+  "Dokumentacja AIS": {
+    "message": "Dokumentacja AIS",
+    "description": "The homepage title"
+  },
+  "Automatyzujemy Twój dom lokalnie.": {
+    "message": "Automatyzujemy Twój dom lokalnie.",
+    "description": "The homepage description"
+  },
+  "homepage.hero_title": {
+    "message": "AI-Speaker",
+    "description": "The homepage hero title"
+  },
+  "homepage.hero_subtitle": {
+    "message": "Automatyka, która działa.",
+    "description": "The homepage hero subtitle"
+  },
+  "Lokalnie.": {
+    "message": "Lokalnie.",
+    "description": "The typewriter item Lokalnie"
+  },
+  "Niezawodnie.": {
+    "message": "Niezawodnie.",
+    "description": "The typewriter item Niezawodnie"
+  },
+  "Szybko.": {
+    "message": "Szybko.",
+    "description": "The typewriter item Szybko"
+  },
+  "Prywatnie.": {
+    "message": "Prywatnie.",
+    "description": "The typewriter item Prywatnie"
+  },
+  "Prosto.": {
+    "message": "Prosto.",
+    "description": "The typewriter item Prosto"
+  },
+  "homepage.demo_tip": {
+    "message": "Kliknij 👆 aby przejść do demo.",
+    "description": "The homepage tip to try demo"
+  },
+  "Zainstaluj z Google Play.": {
+    "message": "Zainstaluj z Google Play.",
+    "description": "Install from Google Play label"
+  },
+  "Zainstaluj z Apple Store.": {
+    "message": "Zainstaluj z Apple Store.",
+    "description": "Install from Apple Store label"
+  },
+  "homepage.ais_one_gate_for_all_text": {
+    "message": "Wiele inteligentnych rozwiązań. Dobranych dla Każdego!",
+    "description": "One gate to rule them all text"
+  },
+  "homepage.ais_features.voice.title": {
+    "message": "Komunikacja głosowa {aisTtsStt}",
+    "description": "Voice commands in AIS title"
+  },
+  "homepage.ais_features.voice.description": {
+    "message": "Na bramce dostarczamy zamianę tekstu na mowę i mowy na tekst {aisVoiceCommands} Możesz sterować urządzeniami za pomocą poleceń głosowych.",
+    "description": "Voice commands in AIS description"
+  },
+  "homepage.ais_features.wifi.title": {
+    "message": "Ponad {devices} urządzeń WiFi",
+    "description": "Wifi number devices title"
+  },
+  "homepage.ais_features.wifi.description": {
+    "message": "{aizWifiImg} Możesz komunikować się z urządzeniami Bluetooth za pośrednictwem bramki BLE proxy",
+    "description": "Wifi number devices description"
+  },
+  "homepage.ais_features.zigbee.title": {
+    "message": "Ponad {devices} urządzeń Zigbee",
+    "description": "Zigbee number devices title"
+  },
+  "homepage.ais_features.zigbee.description": {
+    "message": "Ponad {moreZigbeeDevices} urządzeń Zigbee od 379 producentów jest wspieranych przez oprogramowanie {aisZigbee}, które dostarczamy na bramce.",
+    "description": "Zigbee number devices description"
+  },
+  "homepage.ais_features.zwave.title": {
+    "message": "{aisTtsStt}",
+    "description": "Voice commands in AIS title"
+  },
+  "homepage.ais_features.zwave.description": {
+    "message": "Na bramce dostarczamy {aisZwave}, dzięki czemu możesz dodać do bramki obsługę swoich urządzeń Zwave. {aizZigbeeConnbee2Img}",
+    "description": "Zwave in AIS description"
+  },
+  "homepage.ais_features.ble.title": {
+    "message": "Urządzenia Bluetooth LE",
+    "description": "BLE devices title"
+  },
+  "homepage.ais_features.audio.description": {
+    "message": "Na bramce dostarczamy wbudowany odtwarzacz audio {aisAudioPlayer}, za pomocą którego możesz odtwarzać setki stacji radiowych, podcastów, darmowych audiobooków, darmowe treści z {aisAudioYouTube} oraz {aisAudioSpotify}. {aisAudioImg}",
+    "description": "Audio in AIS description"
+  },
+  "homepage.ais_features.ha.title": {
+    "message": "Ponad 🏠 {devices} Integracji",
+    "description": "HA number of integrations title"
+  },
+  "homepage.ais_features.ha.description": {
+    "message": " {aisHomeAssistantImg}  Wiele integracji wspieranych i rozwijanych przez społeczność skupioną wokół projektu {aisHomeAssistant}.",
+    "description": "HA number of integrations description"
+  },
+  "homepage.ais_features.services.title": {
+    "message": "🆓 Darmowe usługi ☁️",
+    "description": "Free services title"
+  },
+  "homepage.ais_features.services.description": {
+    "message": "Nasze usługi w chmurze na bramkach DEV są hostowane przez organizację {aisFosshost}. {aisFosshostImg} Fosshost to organizacja non-profit, skupiona na wspieraniu projektów OpenSource.",
+    "description": "Services number devices description"
+  },
+  "homepage.ais_features.services.description2": {
+    "message": "Dowiedz się więcej o darmowych usługach {aisFosshostFree}",
+    "description": "Services number devices description"
+  },
+  "homepage.ais_features.open.description": {
+    "message": " Kody zródłowe większości składowych naszego systemu są darmowe i ogólnie dostępne w repozytorium {aisGithub}.",
+    "description": "OpenSource in AIS description"
+  },
+  "homepage.ais_features.open.description1": {
+    "message": " {aizOpenSourceImg} Wierzymy w otwartość i wolność wyboru. Dzięki temu sam możesz wykonać głośnik wg naszego projektu {aisDevKit1}.",
+    "description": "OpenSource in AIS description2"
+  },
+  "homepage.ais_features.pro_services.title": {
+    "message": "🏢 Usługi PRO",
+    "description": "Pro services title"
+  },
+  "homepage.ais_features.pro_services.description": {
+    "message": "{aisProImg}",
+    "description": "Services number devices description"
+  },
+  "homepage.ais_features.pro_services.description2": {
+    "message": "Jeżeli masz pomysł jak wykorzystać AIS w komercyjnym produkcje, to skontaktuj się z nami {aisEmail} w celu ustalenia zasad współpracy.",
+    "description": "Services number devices description"
+  },
+  "homepage.ais_features.tunnel_service.title": {
+    "message": "🕸️ Warstwa sieciowa",
+    "description": "Tunnel service title"
+  },
+  "homepage.ais_features.tunnel_service.description": {
+    "message": "Dostawcom systemów automatyki domowej oferujemy integracje warstwy sieciowej. Zapewniamy zdalne scentralizowane zarządzanie sieciami w wielu lokalizacjach za pomocą {aisUbiquiti} oraz serwisowy dostęp do lokalizacji {aisWireGuard}.",
+    "description": "Services number devices description"
+  },
+  "homepage.ais_features.tunnel_service.description2": {
+    "message": "Zarówno nasze usługi w chmurach, jak i tunel do bramki chroniony jest przez bezpośrednimi atakami za pomocą mechanizmów {aisCloudFlare}.",
+    "description": "Services number devices description"
+  },
+  "home.featureList.pro1.title": {
+    "message": "Kontroler AIS PRO1"
+  },
+  "home.featureList.pro1.description": {
+    "message": "AIS PRO1 działa na wydajnym układzie {soc}, posiada wbudowane WiFi oraz dysk, a także porty Ethernet, USB, SPDIF, Aux, HDMI. Ma zainstalowaną platformę Home Assistant."
+  },
+  "home.featureList.pro1.description.soc": {
+    "message": "Amlogic SoC s922x-H",
+    "description": "SoC s922x-H"
+  },
+  "home.featureList.addToBasket": {
+    "message": "Kup teraz"
+  },
+  "home.featureList.goToDoc": {
+    "message": "Dokumentacja"
+  },
+  "home.featureList.dev3.title": {
+    "message": "Kontroler AIS DEV3"
+  },
+  "home.featureList.dev3.description": {
+    "message": "{soc} działa na układzie Amlogic SoC 905x3, posiada wbudowane WiFi oraz dysk 128GB, a także porty Ethernet, USB, SPDIF, Aux i HDMI. Ma zainstalowaną platformę Home Assistant."
+  },
+  "home.featureList.dev3.description.soc": {
+    "message": "AIS DEV3"
+  },
+  "home.featureList.adapter1.title": {
+    "message": "Adapter AIS 1"
+  },
+  "home.featureList.adapter1.description": {
+    "message": "Zigbee 3.0 Adapter {info} urządzeń zigbee (będących jednocześnie online), ma zasięg 200 metrów i działa w sieci LAN!  Jest kompatybilny z Home Assistant oraz z Zigbee2mqtt."
+  },
+  "home.featureList.adapter1.description.info": {
+    "message": "obsługuje 128+"
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "Ta strona uległa awarii.",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Przewiń do góry",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.archive.title": {
+    "message": "Archiwum",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "Archiwum",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "Nawigacja na stronie listy wpisów na blogu",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "Nowsze wpisy",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "Starsze wpisy",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "Nawigacja na stronie postu na blogu",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "Nowszy post",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "Starszy post",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.blog.post.plurals": {
+    "message": "Jeden post|{count} posty|{count} postów",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} z tagiem \"{tagName}\"",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "Wyświetl wszystkie tagi",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "Przełącz pomiędzy ciemnym a jasnym motywem (aktualnie ustawiony {mode})",
+    "description": "The ARIA label for the navbar color mode toggle"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "ciemny motyw",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "jasny motyw",
+    "description": "The name for the light color mode"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Pasek nawigacji",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.DocCard.categoryDescription": {
+    "message": "{count} elementów",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "Strona dokumentacji",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "Poprzednia strona",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "Następna strona",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "Jedna strona dokumentacji otagowana|{count} strony dokumentacji otagowane|{count} stron dokumentacji otagowanych",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} with \"{tagName}\"",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "Wersja: {versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "Ta dokumentacja dotyczy najnowszej i nieopublikowanej jeszce wersji {siteTitle} ({versionLabel}).",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "Ta dokumentacja dotyczy {siteTitle} w wersji {versionLabel} i nie jest już aktywnie aktualizowana.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "Aby zobaczyć bieżącą dokumentację, przejdź do wersji {latestVersionLink} ({versionLabel}).",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "bieżącej wersji",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "Edytuj tę stronę",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "Bezpośredni link do {heading}",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " dnia {date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " przez {user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "Ostatnia aktualizacja{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "Wersje",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.NotFound.title": {
+    "message": "Strona nie została znaleziona",
+    "description": "The title of the 404 page"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "Tagi:",
+    "description": "The label alongside a tag list"
+  },
+  "theme.admonition.caution": {
+    "message": "uwaga",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "ważne",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "informacja",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "notatka",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "wskazówka",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "warning",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Zamknij",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Nawigacja po najnowszych postach na blogu",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "Skopiowano!",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "Kopiuj do schowka",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "Kopiuj",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "Przełącz zawijanie słów",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "Expand sidebar category '{label}'",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "Collapse sidebar category '{label}'",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "Main",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Języki",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.NotFound.p1": {
+    "message": "Nie mogliśmy znaleźć strony której szukasz.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "Proszę skontaktuj się z właścielem strony, z której link doprowadził Cię tutaj i poinformuj go, że link jest nieprawidłowy.",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "Na tej stronie",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readMore": {
+    "message": "Czytaj więcej",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "Czytaj więcej o {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "{readingTime} min aby przeczytać|{readingTime} min aby przeczytać|{readingTime} min aby przeczytać",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Strona główna",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Zwiń boczny panel",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "Zwiń boczny panel",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Panel boczny dokumentów",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "Zamknij panel nawigacji",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← Wróć do menu głównego",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "Przełączanie panelu nawigacyjnego",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Rozszerz boczny panel",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "Rozszerz boczny panel",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "Wyświetl wszystkie {count} wyników"
+  },
+  "theme.SearchPage.documentsFound.plurals": {
+    "message": "Jeden dokument znaleziony|{count} dokumenty znalezione|{count} dokumentów znalezionych",
+    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "Wyniki wyszukiwania dla \"{query}\"",
+    "description": "The search page title for non-empty query"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "Wyszukaj w dokumentacji",
+    "description": "The search page title for empty query"
+  },
+  "theme.SearchPage.inputPlaceholder": {
+    "message": "wpisz szukaną frazę tutaj…",
+    "description": "The placeholder for search page input"
+  },
+  "theme.SearchPage.inputLabel": {
+    "message": "Szukaj",
+    "description": "The ARIA label for search page input"
+  },
+  "theme.SearchPage.algoliaLabel": {
+    "message": "Dostawca rozwiązania Algolia",
+    "description": "The ARIA label for Algolia mention"
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "Nie znaleziono żadnych wyników",
+    "description": "The paragraph for empty search result"
+  },
+  "theme.SearchPage.fetchingNewResults": {
+    "message": "Pobieranie nowych wyników…",
+    "description": "The paragraph for fetching new search results"
+  },
+  "theme.SearchBar.label": {
+    "message": "Szukaj",
+    "description": "The ARIA label and placeholder for search button"
+  },
+  "theme.SearchModal.searchBox.resetButtonTitle": {
+    "message": "Wyczyść zapytanie",
+    "description": "The label and ARIA label for search box reset button"
+  },
+  "theme.SearchModal.searchBox.cancelButtonText": {
+    "message": "Anuluj",
+    "description": "The label and ARIA label for search box cancel button"
+  },
+  "theme.SearchModal.startScreen.recentSearchesTitle": {
+    "message": "Ostatnie wyszukiwania",
+    "description": "The title for recent searches"
+  },
+  "theme.SearchModal.startScreen.noRecentSearchesText": {
+    "message": "Brak ostatnich wyszukiwań",
+    "description": "The text when no recent searches"
+  },
+  "theme.SearchModal.startScreen.saveRecentSearchButtonTitle": {
+    "message": "Zapisz to wyszukiwanie",
+    "description": "The label for save recent search button"
+  },
+  "theme.SearchModal.startScreen.removeRecentSearchButtonTitle": {
+    "message": "Usuń to wyszukiwanie z historii",
+    "description": "The label for remove recent search button"
+  },
+  "theme.SearchModal.startScreen.favoriteSearchesTitle": {
+    "message": "Ulubione",
+    "description": "The title for favorite searches"
+  },
+  "theme.SearchModal.startScreen.removeFavoriteSearchButtonTitle": {
+    "message": "Usuń to wyszukiwanie z ulubionych",
+    "description": "The label for remove favorite search button"
+  },
+  "theme.SearchModal.errorScreen.titleText": {
+    "message": "Nie można pobrać wyników",
+    "description": "The title for error screen of search modal"
+  },
+  "theme.SearchModal.errorScreen.helpText": {
+    "message": "Sprawdź swoje połączenie sieciowe.",
+    "description": "The help text for error screen of search modal"
+  },
+  "theme.SearchModal.footer.selectText": {
+    "message": "aby wybrać",
+    "description": "The explanatory text of the action for the enter key"
+  },
+  "theme.SearchModal.footer.selectKeyAriaLabel": {
+    "message": "Klawisz Enter",
+    "description": "The ARIA label for the Enter key button that makes the selection"
+  },
+  "theme.SearchModal.footer.navigateText": {
+    "message": "aby przejść",
+    "description": "The explanatory text of the action for the Arrow up and Arrow down key"
+  },
+  "theme.SearchModal.footer.navigateUpKeyAriaLabel": {
+    "message": "Strzałka w górę",
+    "description": "The ARIA label for the Arrow up key button that makes the navigation"
+  },
+  "theme.SearchModal.footer.navigateDownKeyAriaLabel": {
+    "message": "Strzałka w dół",
+    "description": "The ARIA label for the Arrow down key button that makes the navigation"
+  },
+  "theme.SearchModal.footer.closeText": {
+    "message": "aby zamknąć",
+    "description": "The explanatory text of the action for Escape key"
+  },
+  "theme.SearchModal.footer.closeKeyAriaLabel": {
+    "message": "Klawisz Escape",
+    "description": "The ARIA label for the Escape key button that close the modal"
+  },
+  "theme.SearchModal.footer.searchByText": {
+    "message": "Szukaj według",
+    "description": "The text explain that the search is making by Algolia"
+  },
+  "theme.SearchModal.noResultsScreen.noResultsText": {
+    "message": "Brak wyników dla",
+    "description": "The text explains that there are no results for the following search"
+  },
+  "theme.SearchModal.noResultsScreen.suggestedQueryText": {
+    "message": "Spróbuj poszukać",
+    "description": "The text for the suggested query when no results are found for the following search"
+  },
+  "theme.SearchModal.noResultsScreen.reportMissingResultsText": {
+    "message": "Wydaje Ci się, że to zapytanie powinno zwrócić wyniki?",
+    "description": "The text for the question where the user thinks there are missing results"
+  },
+  "theme.SearchModal.noResultsScreen.reportMissingResultsLinkText": {
+    "message": "Daj nam znać.",
+    "description": "The text for the link to report missing results"
+  },
+  "theme.SearchModal.placeholder": {
+    "message": "Wyszukaj dokumenty",
+    "description": "The placeholder of the input of the DocSearch pop-up modal"
+  },
+  "theme.IdealImageMessage.loading": {
+    "message": "Wczytywanie...",
+    "description": "When the full-scale image is loading"
+  },
+  "theme.IdealImageMessage.load": {
+    "message": "Kliknij aby wczytać{sizeMessage}",
+    "description": "To prompt users to load the full image. sizeMessage is a parenthesized size figure."
+  },
+  "theme.IdealImageMessage.offline": {
+    "message": "Twoja przeglądarka jest offline. Nie załadowano grafiki.",
+    "description": "When the user is viewing an offline document"
+  },
+  "theme.IdealImageMessage.404error": {
+    "message": "404. Nie znaleziono grafiki.",
+    "description": "When the image is not found"
+  },
+  "theme.IdealImageMessage.error": {
+    "message": "Błąd. Kliknij by odświeżyć.",
+    "description": "When the image fails to load for unknown error"
+  },
+  "theme.PwaReloadPopup.info": {
+    "message": "Nowa wersja jest dostępna",
+    "description": "The text for PWA reload popup"
+  },
+  "theme.PwaReloadPopup.refreshButtonText": {
+    "message": "Odśwież",
+    "description": "The text for PWA reload button"
+  },
+  "theme.PwaReloadPopup.closeButtonAriaLabel": {
+    "message": "Zamknij",
+    "description": "The ARIA label for close button of PWA reload popup"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "Spróbuj ponownie",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "Przejdź do głównej zawartości",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "Tagi",
+    "description": "The title of the tag list page"
+  },
+  "theme.unlistedContent.title": {
+    "message": "Niepubliczna strona",
+    "description": "The unlisted content banner title"
+  },
+  "theme.unlistedContent.message": {
+    "message": "Ta strona jest niepubliczna. Wyszukiwarki nie będą jej indeksować, a dostęp do niej będą mieli tylko użytkownicy posiadający bezpośredni link.",
+    "description": "The unlisted content banner message"
+  }
+}

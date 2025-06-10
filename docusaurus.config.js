@@ -17,7 +17,7 @@ module.exports = {
         label: 'Polski',
       },
       'zh-CN': {
-        label: '简体中文',
+        label: '中文（简体）',
       },
     },
   },

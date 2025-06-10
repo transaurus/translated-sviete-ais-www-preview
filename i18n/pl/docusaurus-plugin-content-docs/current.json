@@ -1,0 +1,118 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.System.category.Kontrolery": {
+    "message": "Kontrolery",
+    "description": "The label for category Kontrolery in sidebar System"
+  },
+  "sidebar.System.category.Pierwsze uruchomienie kontrolera": {
+    "message": "Pierwsze uruchomienie kontrolera",
+    "description": "The label for category Pierwsze uruchomienie kontrolera in sidebar System"
+  },
+  "sidebar.System.category.Android": {
+    "message": "Android",
+    "description": "The label for category Android in sidebar System"
+  },
+  "sidebar.System.category.Początkowa konfiguracja Asystenta domowego": {
+    "message": "Początkowa konfiguracja Asystenta domowego",
+    "description": "The label for category Początkowa konfiguracja Asystenta domowego in sidebar System"
+  },
+  "sidebar.System.category.Automatyzacje na kontrolerze": {
+    "message": "Automatyzacje na kontrolerze",
+    "description": "The label for category Automatyzacje na kontrolerze in sidebar System"
+  },
+  "sidebar.System.category.Zarządzanie kontrolerem z systemem Android": {
+    "message": "Zarządzanie kontrolerem z systemem Android",
+    "description": "The label for category Zarządzanie kontrolerem z systemem Android in sidebar System"
+  },
+  "sidebar.System.category.Dostęp w sieci lokalnej": {
+    "message": "Dostęp w sieci lokalnej",
+    "description": "The label for category Dostęp w sieci lokalnej in sidebar System"
+  },
+  "sidebar.System.category.Dostęp z Internetu": {
+    "message": "Dostęp z Internetu",
+    "description": "The label for category Dostęp z Internetu in sidebar System"
+  },
+  "sidebar.System.category.Portal Integratora": {
+    "message": "Portal Integratora",
+    "description": "The label for category Portal Integratora in sidebar System"
+  },
+  "sidebar.System.category.Ustawienia zaawansowane": {
+    "message": "Ustawienia zaawansowane",
+    "description": "The label for category Ustawienia zaawansowane in sidebar System"
+  },
+  "sidebar.System.category.Reset urządzenia do ustawień fabrycznych": {
+    "message": "Reset urządzenia do ustawień fabrycznych",
+    "description": "The label for category Reset urządzenia do ustawień fabrycznych in sidebar System"
+  },
+  "sidebar.System.category.Zarządzanie kontrolerem z systemem Linux": {
+    "message": "Zarządzanie kontrolerem z systemem Linux",
+    "description": "The label for category Zarządzanie kontrolerem z systemem Linux in sidebar System"
+  },
+  "sidebar.Aplikacja.category.Aplikacja internetowa": {
+    "message": "Aplikacja internetowa",
+    "description": "The label for category Aplikacja internetowa in sidebar Aplikacja"
+  },
+  "sidebar.Aplikacja.category.Aplikacje Android": {
+    "message": "Aplikacje Android",
+    "description": "The label for category Aplikacje Android in sidebar Aplikacja"
+  },
+  "sidebar.Aplikacja.category.Aplikacje iOS": {
+    "message": "Aplikacje iOS",
+    "description": "The label for category Aplikacje iOS in sidebar Aplikacja"
+  },
+  "sidebar.Aplikacja.category.Komendy głosowe": {
+    "message": "Komendy głosowe",
+    "description": "The label for category Komendy głosowe in sidebar Aplikacja"
+  },
+  "sidebar.Aplikacja.category.Aktualizacja": {
+    "message": "Aktualizacja",
+    "description": "The label for category Aktualizacja in sidebar Aplikacja"
+  },
+  "sidebar.Aplikacja.category.Pełny reset aplikacji": {
+    "message": "Pełny reset aplikacji",
+    "description": "The label for category Pełny reset aplikacji in sidebar Aplikacja"
+  },
+  "sidebar.Integracje.category.Wbudowane integracje audio": {
+    "message": "Wbudowane integracje audio",
+    "description": "The label for category Wbudowane integracje audio in sidebar Integracje"
+  },
+  "sidebar.Integracje.category.Wbudowane inne integracje": {
+    "message": "Wbudowane inne integracje",
+    "description": "The label for category Wbudowane inne integracje in sidebar Integracje"
+  },
+  "sidebar.Integracje.category.Integracje dodatkowe": {
+    "message": "Integracje dodatkowe",
+    "description": "The label for category Integracje dodatkowe in sidebar Integracje"
+  },
+  "sidebar.Urządznia.category.AIS Adapter 1": {
+    "message": "AIS Adapter 1",
+    "description": "The label for category AIS Adapter 1 in sidebar Urządznia"
+  },
+  "sidebar.Urządznia.category.Conbee 2": {
+    "message": "Conbee 2",
+    "description": "The label for category Conbee 2 in sidebar Urządznia"
+  },
+  "sidebar.Urządznia.category.SLZB-06M": {
+    "message": "SLZB-06M",
+    "description": "The label for category SLZB-06M in sidebar Urządznia"
+  },
+  "sidebar.Urządznia.category.Bramka Blutooth LE": {
+    "message": "Bramka Blutooth LE",
+    "description": "The label for category Bramka Blutooth LE in sidebar Urządznia"
+  },
+  "sidebar.Urządznia.category.Pilot radiowy z mikrofonem": {
+    "message": "Pilot radiowy z mikrofonem",
+    "description": "The label for category Pilot radiowy z mikrofonem in sidebar Urządznia"
+  },
+  "sidebar.Urządznia.category.AI-Speaker (DEV KIT1)": {
+    "message": "AI-Speaker (DEV KIT1)",
+    "description": "The label for category AI-Speaker (DEV KIT1) in sidebar Urządznia"
+  },
+  "sidebar.Oferta PRO.category.AIS PRO": {
+    "message": "AIS PRO",
+    "description": "The label for category AIS PRO in sidebar Oferta PRO"
+  }
+}

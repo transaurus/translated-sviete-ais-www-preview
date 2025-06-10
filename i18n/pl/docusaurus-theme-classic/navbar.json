@@ -1,0 +1,42 @@
+{
+  "title": {
+    "message": "AI-Speaker",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "AI-Speaker Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Kontrolery": {
+    "message": "Kontrolery",
+    "description": "Navbar item with label Kontrolery"
+  },
+  "item.label.Adaptery": {
+    "message": "Adaptery",
+    "description": "Navbar item with label Adaptery"
+  },
+  "item.label.System": {
+    "message": "System",
+    "description": "Navbar item with label System"
+  },
+  "item.label.Dodatki": {
+    "message": "Dodatki",
+    "description": "Navbar item with label Dodatki"
+  },
+  "item.label.PRO": {
+    "message": "PRO",
+    "description": "Navbar item with label PRO"
+  },
+  "item.label.Sklep": {
+    "message": "Sklep",
+    "description": "Navbar item with label Sklep"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.Forum": {
+    "message": "Forum",
+    "description": "Navbar item with label Forum"
+  }
+}
